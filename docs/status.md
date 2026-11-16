@@ -2,8 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics text: G3, G4, G6, G7, G14, G15, G17 done; G5 G8 G10 G12 to go).
-- **This session (graphics, build sha1 98ae6379):** `gfx.py` grid groups (rows of ROM tile offsets | HFLIP/VFLIP,
+- **Phase:** 8. QA in the emulator: in progress (graphics text: G3, G4, G6, G7, G10, G14, G15, G17 done; G12 redrawn
+  but not seen in game; G5 G8 to go).
+- **Latest session (build sha1 1bb4c0b1):** G10 balloons: LZ group `balloon` + `gfx.BALLOONS_EN` (7 lines, rows
+  Blank / Tomomi / Gilligan, block fits in place), seen in game for Tomomi win and loss (`work/qa/g10_win/zoom.png`,
+  `work/qa/g12l`). G12 labels added to group `report` (Bust! stamp, the 7 robot types, Teka Report, End,
+  R.Arm/L.Arm/Body/Pasocop, Parts/Names tabs; offline preview `work/qa/g12_prev_c.png`); the sortie report still
+  looks right in game (`work/qa/g12w/z.png`). Their screen (a Teka report page after arrests, and the stamp in
+  battle) needs a played battle with an arrest: try a savestate after an arrest, or find the arrest count in RAM
+  and poke it before WIN=1. G8: see `docs/re/graphics.md` (かち/まけ + 3/2/1/GO are link-battle only, not in story
+  battles; sheet layout not decoded). Next: G5 logo, then G8 (decide: redraw offline WIN/LOSE or note it as
+  unreachable), then the tour + verdicts (step 1 below).
+- **Earlier session (graphics, build sha1 98ae6379):** `gfx.py` grid groups (rows of ROM tile offsets | HFLIP/VFLIP,
   `tile_writes` refuses a tile shown twice with two contents); `tools/gfx_grid.py DUMP --bg N --rect` prints the grid
   of a screen region from a ppudump (ROM offset per map cell, dup/shared notes, `--png`). Label tuples take a 7th
   dict (prop/outline/left). G15 factory buttons (Repair/Back/Info), G6 all 35 map banners (`LOCATIONS_EN`, 0x0A6D84

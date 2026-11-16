@@ -62,6 +62,26 @@ GROUPS = {
         ((128, 80, 16, 16), "Up", 15, 11, None, 1, dict(prop=True)),
         ((144, 80, 16, 16), "", 15, 11, None, 1),
         ((144, 80, 16, 9), "Dn", 15, 11, None, 1, dict(prop=True)),
+        # G12 タイホ! stamp (arrest): letters 5 outlined 1 on the burst's 4; only the lettering band is redrawn
+        # ("Arrest!" is 39 px with the outline, the band 36).
+        ((39, 151, 36, 12), "Bust!", 4, 5, None, 1, dict(prop=True, outline=1)),
+        # G12: the Teka report page's labels (sheet rows 208-271; white 1 on 0, rects = the kana's own extent):
+        # robot types, page title, end mark, part slots; the two tab buttons (fill A, ink 1).
+        ((0, 208, 64, 12), "Marketeka", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((80, 208, 80, 12), "Domesteka", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((160, 208, 64, 12), "Workteka", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((0, 224, 64, 12), "Polisteka", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((80, 224, 80, 12), "Polijenne", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((160, 224, 64, 12), "Soldier", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((0, 240, 64, 12), "Bankteka", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((80, 240, 92, 12), "Teka Report", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((176, 240, 24, 12), "End", 0, 1, None, 1, dict(prop=True, left=True)),
+        ((4, 256, 44, 12), "R.Arm", 0, 1, None, 1, dict(prop=True)),
+        ((48, 256, 44, 12), "L.Arm", 0, 1, None, 1, dict(prop=True)),
+        ((96, 256, 46, 12), "Body", 0, 1, None, 1, dict(prop=True)),
+        ((144, 256, 52, 12), "Pasocop", 0, 1, None, 1, dict(prop=True)),
+        ((204, 242, 48, 11), "Parts", 0xA, 1, None, 1, dict(prop=True)),
+        ((204, 258, 48, 11), "Names", 0xA, 1, None, 1, dict(prop=True)),
     ]),
     # G10 battle-result balloons: LZ block 0x2BC310 (literal at 0x15A9C), a sheet 32 tiles wide of 80x64 balloons.
     # Rows are speakers (Blank, Tomomi, Gilligan; ink 11 / 13 / 12 on fill 1), columns win / loss / loss. Two
