@@ -42,7 +42,12 @@ GROUPS = {
     # screen); the strip is drawn once and cut into 64-px pieces.
     "title_obj": dict(lz=0x2BB0A8, at=0, tiles=512, cols=32, pal=("gfx/pal/title_obj.pal.bin", 17), labels=[],
                       strips=[dict(w=192, h=16, text="Character Design: Shinji Nishikawa", ink=14, shadow=None,
-                                   outline=11, prop=True, dest=[(192, 64), (192, 80), (192, 96)])]),
+                                   outline=11, prop=True, dest=[(192, 64), (192, 80), (192, 96)])],
+                      # G5: the katakana トイロボフォース on the title logo (sprites 0-2, sheet x 0-191, y 0-63,
+                      # OBJ palette 0): white 7 / lavender 8 / navy 1 / 2 / 5 letters on a 4-9-A-B-6 gradient band.
+                      # ト's foot reaches x 33; the pill's dark-red edge C stays but is not a band colour.
+                      logos=[dict(rect=(32, 38, 132, 13), erase=(1, 2, 5, 7, 8), edge=(0xC,), text="TOYROBO FORCE",
+                                  ink=7, shade=8, outline=1)]),
     # G14/G12 battle UI sheet: raw 4bpp, 32 tiles wide (0x400 bytes a tile row), aligned at 0x0FB16C; the sortie
     # report's labels are BG1 cells pointing into it (work/qa/p8g/r_rep.png). Rects are sheet pixels.
     # Cell budgets are the BG1 map's (3 tiles for 任務/成果/以上, 4 for 評価 and the stamps): hence Task / Haul /
@@ -83,6 +88,16 @@ GROUPS = {
         ((204, 242, 48, 11), "Parts", 0xA, 1, None, 1, dict(prop=True)),
         ((204, 258, 48, 11), "Names", 0xA, 1, None, 1, dict(prop=True)),
     ]),
+    # G5 on the section cards: the small logo, three raw 1D OBJ sprites (64x64 at 0x0A58A4, 64x32 at +0x800,
+    # 16x16 at +0xC00 = tiles 0x320 / 0x360 / 0x380; screen 4,106 / 68,124 / 132,124, OBJ palette 1; work/qa/g5_cardd, vramfind).
+    # Letters: white F, lavender E/C, navy 9/5/1 on a dark-mauve 2 band (rows 27-34) through the orange pill 7/3/6
+    # and a yellow D/B highlight.
+    # The label only clears the old yellow highlight's tail under the band (row 35) to the stripe colour.
+    "card_logo": dict(pal=("gfx/pal/card.pal.bin", 17), size=(144, 64), labels=[((69, 35, 8, 1), "", 4, 4, None, 1)],
+                      sprites=[(0x0A58A4, 8, 8, 0, 0), (0x0A60A4, 8, 4, 64, 18), (0x0A64A4, 2, 2, 128, 18)],
+                      # the letters' anti-aliasing is spread over every band colour, so the band is refilled flat
+                      logos=[dict(rect=(26, 27, 92, 8), fill=2, text="TOYROBO FORCE",
+                                  ink=0xF, shade=0xE, outline=0x1, small=True)]),
     # G10 battle-result balloons: LZ block 0x2BC310 (literal at 0x15A9C), a sheet 32 tiles wide of 80x64 balloons.
     # Rows are speakers (Blank, Tomomi, Gilligan; ink 11 / 13 / 12 on fill 1), columns win / loss / loss. Two
     # left-aligned lines at the original's text rows (24-35, 39-50 of a balloon); filled in below.
@@ -164,8 +179,33 @@ def _cell(g, t):
     return None if c is None else (c & 0xFFFFFF, bool(c & HFLIP), bool(c & VFLIP))
 
 
+def _sprite_tiles(g):
+    """[(ROM offset, canvas x, canvas y)] of every 8x8 tile of a sprite group (1D OBJ: a sprite's tiles in rows)."""
+    return [(off + (r * wt + c) * 32, x + c * 8, y + r * 8)
+            for off, wt, ht, x, y in g["sprites"] for r in range(ht) for c in range(wt)]
+
+
+def _tile_px(src, off, px, x, y):
+    for yy in range(8):
+        for xx in range(8):
+            b = src[off + yy * 4 + xx // 2]
+            px[y + yy][x + xx] = b >> 4 if xx & 1 else b & 15
+
+
+def _tile_bytes(px, x, y):
+    return bytes(px[y + yy][x + xx] | px[y + yy][x + xx + 1] << 4 for yy in range(8) for xx in range(0, 8, 2))
+
+
 def decode(rom, g):
-    """Block (or grid of tiles as the screen shows them) -> list of rows of palette indices (cols*8 wide)."""
+    """Block (or grid of tiles as the screen shows them) -> list of rows of palette indices (cols*8 wide). A
+    sprite group (sprites = [(ROM offset, width tiles, height tiles, x, y)]) is laid out on a canvas of `size`
+    as the screen shows it (its sprites need not sit on an 8-px grid relative to each other)."""
+    if "sprites" in g:
+        w, h = g["size"]
+        px = [[0] * w for _ in range(h)]
+        for off, x, y in _sprite_tiles(g):
+            _tile_px(rom, off, px, x, y)
+        return px
     _grid(g)
     w, rows = g["cols"] * 8, (g["tiles"] + g["cols"] - 1) // g["cols"] * 8
     px = [[0] * w for _ in range(rows)]
@@ -238,7 +278,7 @@ def draw(px, lab, prop=False, outline=None, left=False):
             px[yy][xx] = clear
     m = 1 if outline is not None else 0
     tw, th = text_width(s, scale, prop) + 2 * m, font_en.HEIGHT * scale + 2 * m
-    if tw > w or th > h:
+    if s and (tw > w or th > h):  # an empty label only clears its rect
         raise ValueError(f"{s!r}: {tw}x{th} px, rect {w}x{h}")
     ox, oy = x + (0 if left else (w - tw) // 2) + m, y + (h - th) // 2 + m
     passes = [(dx, dy, outline) for dx in (-1, 0, 1) for dy in (-1, 0, 1) if (dx or dy)] if m else []
@@ -260,7 +300,78 @@ def draw(px, lab, prop=False, outline=None, left=False):
             pen += (cw + 1) * scale
 
 
+# G5 logo letters: bold caps drawn for this project (6 px wide, 9 rows, 2-px strokes), only the ones used.
+LOGO_GLYPHS = {
+    "T": "###### ###### ..##.. ..##.. ..##.. ..##.. ..##.. ..##.. ..##..",
+    "O": ".####. ##..## ##..## ##..## ##..## ##..## ##..## ##..## .####.",
+    "Y": "##..## ##..## ##..## .####. ..##.. ..##.. ..##.. ..##.. ..##..",
+    "R": "#####. ##..## ##..## ##..## #####. ####.. ##.##. ##..## ##..##",
+    "B": "#####. ##..## ##..## ##..## #####. ##..## ##..## ##..## #####.",
+    "F": "###### ##.... ##.... ##.... #####. ##.... ##.... ##.... ##....",
+    "C": ".####. ##..## ##.... ##.... ##.... ##.... ##.... ##..## .####.",
+    "E": "###### ##.... ##.... ##.... #####. ##.... ##.... ##.... ######",
+}
+LOGO_ADV, LOGO_SPACE, LOGO_SLANT = 8, 5, 3  # letter advance, space advance, rows per 1 px of italic slant
+
+
+def _band_background(px, x, y, w, h, erase):
+    """{(column, row parity): index} of the band's own colours (it is dithered on a checkerboard), so erased
+    letters can be filled back; a column with no clean pixel takes its left neighbour's."""
+    bg = {}
+    for xx in range(x, x + w):
+        for par in (0, 1):
+            seen = [px[yy][xx] for yy in range(y, y + h) if yy % 2 == par and px[yy][xx] not in erase]
+            bg[xx, par] = max(set(seen), key=seen.count) if seen else bg.get((xx - 1, par), bg.get((xx - 1, 1 - par)))
+    return bg
+
+
+def draw_logo(px, lg):
+    """Erase the old lettering (the erase indices inside rect -> the band colour of that column) and draw the
+    LOGO_GLYPHS text centred and slanted, with a shade index on its bottom 3 rows and a 1-px outline."""
+    x, y, w, h = lg["rect"]
+    if "fill" in lg:  # a band too busy to rebuild: one flat colour over the whole rect
+        for yy in range(y, y + h):
+            px[yy][x:x + w] = [lg["fill"]] * w
+    else:
+        bg = _band_background(px, x, y, w, h, set(lg["erase"]) | set(lg.get("edge", ())))
+        for yy in range(y, y + h):
+            for xx in range(x, x + w):
+                if px[yy][xx] in lg["erase"]:
+                    px[yy][xx] = bg[xx, yy % 2]
+    text, small = lg["text"], lg.get("small", False)
+    # small: the font_en caps (5x7, 1-px strokes) with a drop shadow instead of the outline, for an 8-row band
+    if small:
+        glyph = {ch: ["".join("#" if b >> (4 - i) & 1 else "." for i in range(5)) for b in font_en.GLYPHS[ch][:7]]
+                 for ch in set(text) - {" "}}
+        adv, space, gh, slant, pad = 6, 3, 7, 4, 1
+    else:
+        glyph = {ch: rows.split() for ch, rows in LOGO_GLYPHS.items()}
+        adv, space, gh, slant, pad = LOGO_ADV, LOGO_SPACE, 9, LOGO_SLANT, 2
+    tw = sum(space if ch == " " else adv for ch in text) - (adv - len(glyph[text[-1]][0])) + pad + (gh - 1) // slant
+    if tw > w or gh + pad > h:
+        raise ValueError(f"logo {text!r}: {tw} px, rect {w}x{h}")
+    ox, oy = x + (w - tw) // 2 + (0 if small else 1), y + (h - gh - (pad if small else 0)) // 2
+    ink = set()
+    pen = ox
+    for ch in text:
+        if ch != " ":
+            for r, row in enumerate(glyph[ch]):
+                for c, b in enumerate(row):
+                    if b == "#":
+                        ink.add((pen + c + (gh - 1 - r) // slant, oy + r))
+        pen += space if ch == " " else adv
+    around = [(1, 1)] if small else [(dx, dy) for dx in (-1, 0, 1) for dy in (-1, 0, 1)]
+    for X, Y in ink:
+        for dx, dy in around:
+            if (X + dx, Y + dy) not in ink:
+                px[Y + dy][X + dx] = lg["outline"]
+    for X, Y in ink:
+        px[Y][X] = lg["shade"] if Y - oy >= gh - 3 else lg["ink"]
+
+
 def _touch(touched, g, x, y, w, h):
+    if "sprites" in g:  # apply() compares every tile of a sprite group instead
+        return
     for ty in range(y // 8, (y + h + 7) // 8):
         for tx in range(x // 8, (x + w + 7) // 8):
             touched.add(ty * g["cols"] + tx)
@@ -275,6 +386,9 @@ def redraw(buf, name):
     for lab in g["labels"]:
         draw(px, lab)
         _touch(touched, g, *lab[0])
+    for lg in g.get("logos", ()):
+        draw_logo(px, lg)
+        _touch(touched, g, *lg["rect"])
     for st in g.get("strips", ()):
         piece = st.get("piece", 64)
         canvas = [[st.get("clear", 0)] * st["w"] for _ in range(st["h"])]
@@ -346,6 +460,12 @@ def apply(out):
         if "lz" in g:
             continue
         px, touched = redraw(out.data, name)
+        if "sprites" in g:
+            for off, x, y in _sprite_tiles(g):
+                data = _tile_bytes(px, x, y)
+                if bytes(out.data[off:off + 32]) != data:
+                    out.write(off, data, f"gfx:{name}")
+            continue
         for off, data in tile_writes(px, g, touched):
             if bytes(out.data[off:off + 32]) != data:
                 out.write(off, data, f"gfx:{name}")
@@ -357,7 +477,9 @@ def apply(out):
 
 def spans():
     """Byte ranges apply() may write (tests/test_build.py allowed ranges; LZ blocks are the LZ unit's own)."""
-    return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "lz" not in g and "grid" not in g]
+    return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "at" in g and "lz" not in g
+             and "grid" not in g]
+            + [(off, off + wt * ht * 32) for g in GROUPS.values() for off, wt, ht, _, _ in g.get("sprites", ())]
             + [(c & 0xFFFFFF, (c & 0xFFFFFF) + 32) for g in GROUPS.values() for row in g.get("grid", ())
                for c in row if c is not None]
             + [(off, off + len(old)) for off, old, _, _ in OAM_PATCHES]
