@@ -68,6 +68,31 @@ class Encoder(unittest.TestCase):
         with self.assertRaises(ValueError):
             engine.Encoder().cells("日本")
 
+    def test_balanced_wrap_no_stub(self):
+        s = 'Sannana: "The humans will come to shoot me."'
+        self.assertEqual(engine._greedy(s, 40)[-1], 'me."')  # the phase 7 review's example widow
+        lines = engine._wrap(s, 40)
+        self.assertEqual(len(lines), 2)
+        self.assertTrue(all(engine._width(x) <= 40 for x in lines))
+        self.assertGreaterEqual(len(lines[-1]), 15)
+        self.assertEqual(engine._wrap("one line", 40), ["one line"])
+
+
+class Lint(unittest.TestCase):
+    def test_alignment_spaces(self):
+        import lint
+        ok = [("Log %d  %d:%02d", "日誌%d　%d：%02d"), ("Log %d      %d:%02d", "日誌%d　　　%d：%02d"),
+              ("Log %d    No record", "日誌%d　　きろくなし"), ("{br}Power     %d", "{br}パワー　　%d"),
+              ("{br}Charge Cost:   %dx%d", "{br}チャージ費：　%d×%d"),
+              ("Equip %s?", "　%sをそうびしますか？")]  # a leading indent before a reordered value is not a column
+        bad = [("Log %d %d:%02d", "日誌%d　%d：%02d"), ("Log %d   %d:%02d", "日誌%d　　　%d：%02d"),
+               ("Log %d  No record", "日誌%d　　きろくなし"), ("{br}Power   %d", "{br}パワー　　%d"),
+               ("{br}Charge Cost:  %dx%d", "{br}チャージ費：　%d×%d")]
+        for en, jp in ok:
+            self.assertEqual(lint.align_errors(en, jp), [], en)
+        for en, jp in bad:
+            self.assertNotEqual(lint.align_errors(en, jp), [], en)
+
 
 class Rom(unittest.TestCase):
     @classmethod

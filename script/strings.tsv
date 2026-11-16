@@ -117,14 +117,14 @@ strings:2492FC	text	ref:009794	15	{br}ライフ：%d	{br}Life: %d
 strings:24930C	text	ref:009798	27	{br}１ライフのメンテ費：%d	{br}Maintenance per Life: %d	
 strings:249328	text	ref:0097C0	11	右腕名：%s	Right Arm: %s	relocated by the build (D12)
 strings:249334	text	ref:0097C8,0098C0	11	{br}パワー%d	{br}Power %d	
-strings:249340	text	ref:0097DC,0098D4	15	{br}パワー　%d	{br}Power  %d	
-strings:249350	text	ref:009808,009900	15	{br}パワー　　%d	{br}Power   %d	
+strings:249340	text	ref:0097DC,0098D4	15	{br}パワー　%d	{br}Power   %d	
+strings:249350	text	ref:009808,009900	15	{br}パワー　　%d	{br}Power     %d	
 strings:249360	text	ref:009814,00990C	11	%dＷＡＹ	%d-Way	
-strings:24936C	text	ref:009850,009948	11	　%dＷＡＹ	%d-Way	
+strings:24936C	text	ref:009850,009948	11	　%dＷＡＹ	  %d-Way	
 strings:249378	text	ref:009858,009950	7	%d連射	%d-Shot Burst	relocated by the build (D12)
 strings:249380	text	ref:009860,009958	23	{br}チャージ費：%d×%d	{br}Charge Cost: %dx%d	
-strings:249398	text	ref:009878,009970	23	{br}チャージ費：　%d×%d	{br}Charge Cost:  %dx%d	
-strings:2493B0	text	ref:00988C,009984	27	{br}チャージ費：　　%d×%d	{br}Charge Cost:   %dx%d	
+strings:249398	text	ref:009878,009970	23	{br}チャージ費：　%d×%d	{br}Charge Cost:   %dx%d	
+strings:2493B0	text	ref:00988C,009984	27	{br}チャージ費：　　%d×%d	{br}Charge Cost:     %dx%d	
 strings:2493CC	text	ref:0098B8	11	左腕名：%s	Left Arm: %s	relocated by the build (D12)
 strings:2493D8	text	ref:0099BC	15	パソコプ名：%s	Pasocop: %s	
 strings:2493E8	text	ref:0099C4	15	{br}スピード：%d	{br}Speed: %d	
@@ -141,10 +141,10 @@ strings:2494B4	text	ref:009A80	23	{br}スピードがあがる	{br}Speed goes up
 strings:2494CC	text	ref:00B6AC	15	００月００日	００／００　	SJIS on purpose (tools/windows.py SJIS): code fills the digits; reads MM/DD
 strings:2494DC	data	ref:010058	143	これはe乱数xテーsブyルでsすがu、t果eたbしてrこれdで良sいh物かu？kユウキ「これはシナリオテストだから{br}顔窓もサイズが変わります。見納めさね。」＠		debug random-number table (its own text says so) interleaved with test text; read as bytes
 strings:24956C	data	ref:00DD78,0103CC,010440	15	toyroboforce		save signature 'toyroboforce', compared byte for byte by the save code
-strings:24957C	text	ref:00DD7C	23	日誌%d　　きろくなし	Log %d  No record	
-strings:249594	text	ref:00DD98	19	日誌%d　%d：%02d	Log %d %d:%02d	
-strings:2495A8	text	ref:00DDC0	19	日誌%d　　%d：%02d	Log %d  %d:%02d	
-strings:2495BC	text	ref:00DE18	23	日誌%d　　　%d：%02d	Log %d   %d:%02d	
+strings:24957C	text	ref:00DD7C	23	日誌%d　　きろくなし	Log %d    No record	
+strings:249594	text	ref:00DD98	19	日誌%d　%d：%02d	Log %d  %d:%02d	
+strings:2495A8	text	ref:00DDC0	19	日誌%d　　%d：%02d	Log %d    %d:%02d	
+strings:2495BC	text	ref:00DE18	23	日誌%d　　　%d：%02d	Log %d      %d:%02d	
 strings:2495D4	text	ref:00DFA8	11	セーブする	Save	
 strings:2495E0	text	ref:00DFE8	15	セーブしない	Don't save	
 strings:2495F0	text	ref:00E140	23	日誌にきろくしました。	Saved to the log.	

@@ -18,7 +18,11 @@ def main():
     if (ROOT / "tools" / "lint.py").is_file():
         import lint
         lint_rc = lint.main()
-    return 0 if result.wasSuccessful() and lint_rc == 0 else 1
+    terms_rc = 0
+    if (ROOT / "tools" / "batches.py").is_file() and (ROOT / "glossary.md").is_file():
+        import batches  # glossary spellings, Avoid list, ordinals, honorifics over all shipped English
+        terms_rc = batches.main(["check"])
+    return 0 if result.wasSuccessful() and lint_rc == 0 and terms_rc == 0 else 1
 
 
 if __name__ == "__main__":

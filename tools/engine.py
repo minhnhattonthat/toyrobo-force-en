@@ -67,6 +67,23 @@ def _width(s):
 
 
 def _wrap(words_text, width):
+    """Balanced word wrap of one paragraph: the greedy line count at `width` letters, with the narrowest line
+    width that still gives that count, so the last line is not a one-word stub (greedy left 102 of them)."""
+    lines = _greedy(words_text, width)
+    if len(lines) < 2:
+        return lines
+    floor = max(_width(w) for w in words_text.split(" "))
+    lo, hi = min(floor, width), width          # binary search: the line count only grows as the width shrinks
+    while lo < hi:
+        mid = (lo + hi) // 2
+        if len(_greedy(words_text, mid)) == len(lines):
+            hi = mid
+        else:
+            lo = mid + 1
+    return _greedy(words_text, lo)
+
+
+def _greedy(words_text, width):
     """Greedy word wrap of one paragraph into lines of at most `width` letters."""
     lines, cur = [], ""
     for word in words_text.split(" "):
@@ -82,6 +99,17 @@ def _wrap(words_text, width):
             cur = word
     lines.append(cur)
     return lines
+
+
+def para_lines(p, wrap):
+    """One {br}-free paragraph as the build wraps it: (leading {spk}/{face} codes, lines, trailing {wait}s)."""
+    lead = re.match(r"(?:\{(?:spk:\d\d|face:\d{5})\})*", p).group(0)
+    tail = re.search(r"(?:\{wait\})*$", p[len(lead):]).group(0)
+    body = p[len(lead):len(p) - len(tail)]
+    indent = body[:len(body) - len(body.lstrip(" "))]  # keep a paragraph's leading spaces
+    lines = _wrap(body[len(indent):], wrap - len(indent))
+    lines[0] = indent + lines[0]
+    return lead, lines, tail
 
 
 class Encoder:
@@ -113,12 +141,7 @@ class Encoder:
             paras = text.split("{br}")
             text = ""
             for i, p in enumerate(paras):
-                lead = re.match(r"(?:\{(?:spk:\d\d|face:\d{5})\})*", p).group(0)
-                tail = re.search(r"(?:\{wait\})*$", p[len(lead):]).group(0)
-                body = p[len(lead):len(p) - len(tail)]
-                indent = body[:len(body) - len(body.lstrip(" "))]  # keep a paragraph's leading spaces
-                lines = _wrap(body[len(indent):], wrap - len(indent))
-                lines[0] = indent + lines[0]
+                lead, lines, tail = para_lines(p, wrap)
                 text += lead
                 for j, line in enumerate(lines):
                     line += " " * (_width(line) % 2)  # whole cells, so the next line starts on a cell

@@ -52,9 +52,10 @@ def marker(row, tag, jp_bytes, wide=False):
         lead = LEAD.match(jp).group(0)
         tail = "{wait}" if jp.endswith("{wait}") else ""
         room = limit - len(jp_bytes(lead)) - len(jp_bytes(tail))
-        # exactly 40 letters per line (dot-padded), joined by single spaces: the wrap drops those spaces and
-        # emits no {br}, so the body costs one byte per letter
-        lines = [line.ljust(40, ".") for line in engine._wrap(_fill(tag, 40 * LINES + 40), 40)[:LINES]]
+        # exactly 40 letters per line (dot-padded, no inner spaces, so the balanced wrap can't narrow them), joined
+        # by single spaces: the wrap drops those spaces and emits no {br}, so the body costs one byte per letter
+        lines = [line.ljust(40, ".").replace(" ", "_")
+                 for line in engine._greedy(_fill(tag, 40 * LINES + 40), 40)[:LINES]]
         room -= room % 2
         body, used = "", 0
         for line in lines:
