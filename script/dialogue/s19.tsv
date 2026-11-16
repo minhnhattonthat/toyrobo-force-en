@@ -1,12 +1,12 @@
 id	kind	where	max	jp	en	notes
 dlg:1967	text	rec:3784	149	{face:10001}{face:00603}{spk:01}署長「敵の身内！？」{wait}	{face:10001}{face:00603}{spk:01}Chief: "Enemy family!?"{wait}	
-dlg:1968	text	rec:3785	149	{face:10002}{spk:02}ユウキ「ゲオルグ博士よりさきに、{br}　ほごしなければなりません」{wait}	{face:10002}{spk:02}Yuki: "We have to find her before Dr. Georg does."{wait}	
+dlg:1968	text	rec:3785	149	{face:10002}{spk:02}ユウキ「ゲオルグ博士よりさきに、{br}　ほごしなければなりません」{wait}	{face:10002}{spk:02}Yuki: "We have to get her into protective custody before Dr. Georg does."{wait}	
 dlg:1969	text	rec:3786	149	{face:00602}{spk:01}署長「敵の正体が分かるな。{br}　しかも、反乱を半分にさせられるとは。{br}　なにがなんでもエミコをさがしだせ！」{wait}	{face:00602}{spk:01}Chief: "We'll learn who the enemy is. And he'd cut the revolts by half. Find Emiko no matter what!"{wait}	
 dlg:1970	text	rec:3788	149	{face:10001}{face:30201}{face:20104}{spk:03}トモミ「エミコさんって、バスジャックのときの？」{wait}	{face:10001}{face:30201}{face:20104}{spk:03}Tomomi: "Emiko-san, from the bus hijacking?"{wait}	
 dlg:1971	text	rec:3789	149	{face:30206}{spk:04}ギリガン「警官がテカをこわしたのがショックで、敵がわににげた保母さんだ」{wait}	{face:30206}{spk:04}Gilligan: "The daycare teacher who ran to the enemy, shocked that police destroyed a Teka."{wait}	
 dlg:1972	text	rec:3790	149	{face:10007}{spk:02}ユウキ「今度は、敵の悪どさにいや気がさしてにげた。{br}　本当の敵が分かったぞ・・・{br}　博士じゃなくて『孫』の方だ」{wait}	{face:10007}{spk:02}Yuki: "Now she fled, sick of the enemy's evil. I know the real enemy now... Not the Doctor, the 'grandson'."{wait}	
 dlg:1973	text	rec:3791	149	{face:20115}{spk:03}トモミ「なんでよ」{wait}	{face:20115}{spk:03}Tomomi: "Why?"{wait}	
-dlg:1974	text	rec:3792	149	{face:10012}{spk:02}ユウキ「博士が悪者で、孫がいい子なら、{br}保母テカは孫についていてやるさ。{br}　孫が悪者だから、いやになったんだ」{wait}	{face:10012}{spk:02}Yuki: "If the grandson were good, the teacher Teka would stay with him. She left because he's the bad one."{wait}	
+dlg:1974	text	rec:3792	149	{face:10012}{spk:02}ユウキ「博士が悪者で、孫がいい子なら、{br}保母テカは孫についていてやるさ。{br}　孫が悪者だから、いやになったんだ」{wait}	{face:10012}{spk:02}Yuki: "If the Doctor were bad and the grandson good, the teacher Teka would stay with the boy. He's the bad one."{wait}	
 dlg:1975	text	rec:3793	149	{face:20104}{spk:03}トモミ「かわいそうに。{br}　保母さんが子供にうらぎられて。{br}　人間不信になるわね」{wait}	{face:20104}{spk:03}Tomomi: "Poor thing. A teacher betrayed by a child. She'll lose faith in humans."{wait}	
 dlg:1976	text	rec:3794	149	{spk:02}ユウキ「どこににげたんだろう」{wait}	{spk:02}Yuki: "Where did she run to, I wonder?"{wait}	
 dlg:1977	text	rec:3795	149	{face:30203}{spk:04}ギリガン「あの世でなきゃいいがな・・！」{wait}	{face:30203}{spk:04}Gilligan: "Hope it ain't the next world..!"{wait}	
@@ -33,7 +33,7 @@ dlg:1997	text	rec:3843	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:
 dlg:1998	text	rec:3844	149	{face:10002}{spk:02}ユウキ「そこは・・・{br}　サンナナが死んだ場所だね」{wait}	{face:10002}{spk:02}Yuki: "That's... where Sannana died."{wait}	
 dlg:1999	text	rec:3845	149	{spk:01}ワークテカ「みょうにさびしげで、声をかけたけど、にげてしまって。{br}　そ、そ、この写真の。{wait}	{spk:01}Workteka: "She looked strangely lonely. I called to her, but she ran off. Yes, yes, the one in this photo.{wait}	
 dlg:2000	text	rec:3846	149	{spk:01}　山おくに入って行きましたよ。{br}　あっちはなんにもないのに」{wait}	{spk:01}She went deep into the mountains. There's nothing out there."{wait}	
-dlg:2001	text	rec:3847	149	{spk:02}ユウキ「なんにもないことはないよ。{br}　山をこえたら、{br}　こけももの都がある―――」{wait}	{spk:02}Yuki: "It's not nothing. Over the mountains is Lingonberry Capital--"{wait}	
+dlg:2001	text	rec:3847	149	{spk:02}ユウキ「なんにもないことはないよ。{br}　山をこえたら、{br}　こけももの都がある―――」{wait}	{spk:02}Yuki: "There is something. Over the mountains is Lingonberry Capital--"{wait}	
 dlg:2002	text	rec:3851	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「この写真の？{br}　かわいいねえ！{br}　どこに行けば会えるんです？{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "The one in this photo? Cute! Where can I meet her?{wait}	
 dlg:2003	text	rec:3852	149	{spk:01}　ま、ガサツなあたしなんか、相手にしてもらえないでしょうがねえ。{br}　がっはっは」{wait}	{spk:01}Well, a rough type like me wouldn't stand a chance. Gwa ha ha."{wait}	
 dlg:2004	text	rec:3853	149	{face:20115}{spk:03}トモミ「あなた、{br}『きさくなおじさんＭｋ．Ⅱ』ね。{br}　はじめて見たわ」{wait}	{face:20115}{spk:03}Tomomi: "You're a 'Friendly Uncle Mk. II', aren't you? First time I've seen one."{wait}	
@@ -75,7 +75,7 @@ dlg:2039	text	rec:3921	149	{spk:01}ワークテカ「まいど♪」{wait}	{spk:
 dlg:2040	text	rec:3924	149	右腕『マーマーライト』を{br}　手に入れました。{wait}	Got the right arm 'Murmurlight'.{wait}	
 dlg:2041	text	rec:3926	149	{spk:01}ワークテカ「じゃ今度はメンテ代かせがせてもらおかな」{wait}	{spk:01}Workteka: "Now let me earn some maintenance fees."{wait}	
 dlg:2042	text	rec:3928	149	{spk:01}ワークテカ「ちょこっとじょうほうも付けるから、どうです」{wait}	{spk:01}Workteka: "I'll throw in a little information. How about it?"{wait}	
-dlg:2043	text	rec:3930	149	{face:30302}{spk:04}ブランク「いいでしょう、買います。{br}　じょうほう教えてください」{wait}	{face:30302}{spk:04}Blank: "All right, I'll buy it. Tell me the information."{wait}	
+dlg:2043	text	rec:3930	149	{face:30302}{spk:04}ブランク「いいでしょう、買います。{br}　じょうほう教えてください」{wait}	{face:30302}{spk:04}Blank: "All right, I'll buy it. What do you know?"{wait}	
 dlg:2044	text	rec:3931	149	{spk:01}ワークテカ「まいど♪」{wait}	{spk:01}Workteka: "Thank you!"{wait}	
 dlg:2045	text	rec:3934	149	右腕『マーマーライト』を{br}　手に入れました。{wait}	Got the right arm 'Murmurlight'.{wait}	
 dlg:2046	text	rec:3936	149	{spk:01}ワークテカ「あの保母テカね、『こけももけいしちょう』につかまってしまいましたよ。{br}　カンパチダムのほとりで」{wait}	{spk:01}Workteka: "That teacher Teka got caught by the 'Lingonberry Metropolitan Police'. By Kanpachi Dam."{wait}	
@@ -110,7 +110,7 @@ dlg:2074	text	rec:4002	149	{face:10002}{spk:02}ユウキ「人間不信なんだ
 dlg:2075	text	rec:4005	149	{face:01202}{spk:01}ワークテカ「かわいい保母テカですか、{br}　来ませんでしたねえ」{wait}	{face:01202}{spk:01}Workteka: "A cute teacher Teka? She didn't come."{wait}	
 dlg:2076	text	rec:4011	149	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}ポリステカ「テカに化けた人間をつかまえてみると、ほんもののテカとすりかわってしまうんです。	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}Polisteka: "When we catch the humans disguised as Teka, they get swapped with real Teka.	
 dlg:2077	text	rec:4012	149	　どういう手品でしょう？」{wait}	What kind of magic trick is that?"{wait}	
-dlg:2078	text	rec:4013	149	{face:20115}{spk:03}トモミ「ボケにつきあっているヒマはないのよ；」{wait}	{face:20115}{spk:03}Tomomi: "We don't have time to play along with your jokes."{wait}	
+dlg:2078	text	rec:4013	149	{face:20115}{spk:03}トモミ「ボケにつきあっているヒマはないのよ；」{wait}	{face:20115}{spk:03}Tomomi: "We haven't got time for your nonsense!"{wait}	
 dlg:2079	text	rec:4015	149	{face:10002}{spk:02}ユウキ「博士の目をのがれるのに、かいぞうしてもらおうと考えたかもしれない。{br}　それならこういうとこかも」{wait}	{face:10002}{spk:02}Yuki: "To escape the Doctor's eyes, she may have thought of getting converted. Then maybe a place like this."{wait}	
 dlg:2080	text	rec:4016	149	{face:01602}{spk:01}バンクテカ「は、９７年型エリーゼタイプ？{br}　いえ、きてませんよ」{wait}	{face:01602}{spk:01}Bankteka: "A '97 Elise type? No, she hasn't come."{wait}	
 dlg:2081	text	rec:4022	149	{face:10002}{spk:02}ユウキ「もしこのシティにいるなら、{br}　反乱にまきこまれている、ということも」{wait}	{face:10002}{spk:02}Yuki: "If she's in this City, she might be caught up in the revolt."{wait}	
@@ -144,7 +144,7 @@ dlg:2108	text	rec:4093	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ
 dlg:2109	text	rec:4094	149	{face:30205}{spk:04}ギリガン「じつは手あたりしだいさがしてるだけだろ？」{wait}	{face:30205}{spk:04}Gilligan: "You're really just searching at random, ain't ya?"{wait}	
 dlg:2110	text	rec:4097	149	{face:10001}{face:30201}{face:20115}{spk:03}トモミ「いないわね」{wait}	{face:10001}{face:30201}{face:20115}{spk:03}Tomomi: "She's not here."{wait}	
 dlg:2111	text	rec:4098	149	{face:10012}{spk:02}ユウキ「やっぱり、保母さんが戦場にいるわけないか」{wait}	{face:10012}{spk:02}Yuki: "I guess a teacher wouldn't be on a battlefield after all."{wait}	
-dlg:2112	text	rec:4099	149	{face:30207}{spk:04}ギリガン「そう思ってんなら、{br}　はじめっからくるな！」{wait}	{face:30207}{spk:04}Gilligan: "If ya thought so, don't come in the first place!"{wait}	
+dlg:2112	text	rec:4099	149	{face:30207}{spk:04}ギリガン「そう思ってんなら、{br}　はじめっからくるな！」{wait}	{face:30207}{spk:04}Gilligan: "Then why'd ya come here in the first place?!"{wait}	
 dlg:2113	text	rec:4103	149	{face:10001}{face:20101}{face:30201}{face:02702}{spk:01}ポリジェンヌ「まだ新しい市長は決まっておりません」{wait}	{face:10001}{face:20101}{face:30201}{face:02702}{spk:01}Polijenne: "The new mayor has not been decided yet."{wait}	
 dlg:2114	text	rec:4104	149	{face:20105}{spk:03}トモミ「あ、２５号のニイコじゃない、{br}　ひさしぶりー」{wait}	{face:20105}{spk:03}Tomomi: "Oh, if it isn't No. 25, Niiko! Long time no see!"{wait}	
 dlg:2115	text	rec:4105	149	{spk:01}ポリジェンヌ「お会いしたことがありましたか？」{wait}	{spk:01}Polijenne: "Have we met?"{wait}	
@@ -165,12 +165,12 @@ dlg:2129	text	rec:4132	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ
 dlg:2130	text	rec:4133	149	{face:30206}{spk:04}ギリガン「じゃあ、ここにもどってきたりはしないんじゃねえか―――」{wait}	{face:30206}{spk:04}Gilligan: "Then she wouldn't come back here, would she--"{wait}	
 dlg:2131	text	rec:4136	149	{face:10007}{spk:02}ユウキ「やっぱりいない。{br}　そうだよ、ここのはずがないんだ」{wait}	{face:10007}{spk:02}Yuki: "Not here after all. Of course, it couldn't be here."{wait}	
 dlg:2132	text	rec:4138	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　気合いを入れて。{br}　かならずエミコさんは見つかる！{wait}	{face:10010}{spk:02}Yuki: "Blank! Stay sharp. We'll find Emiko-san for sure!{wait}	
-dlg:2133	text	rec:4139	149	{spk:02}　人間不信で死にたくなった女性、すくいをもとめている。{br}　教会でおいのりをしているんだ、{br}　ほかに考えられない！」{wait}	{spk:02}A woman who lost faith in humans wants salvation. She's praying at the church. It can't be anywhere else!"{wait}	
+dlg:2133	text	rec:4139	149	{spk:02}　人間不信で死にたくなった女性、すくいをもとめている。{br}　教会でおいのりをしているんだ、{br}　ほかに考えられない！」{wait}	{spk:02}A woman who lost faith in humans and wants to die, seeking salvation. She's praying at the church, it has to be!"{wait}	
 dlg:2134	text	rec:4142	149	{face:10006}{spk:02}ユウキ「あきらめないぞ。{br}　かならずここにいる！」{wait}	{face:10006}{spk:02}Yuki: "I won't give up. She's here for sure!"{wait}	
 dlg:2135	text	rec:4146	149	{face:10001}{face:20101}{face:30201}{face:02202}{spk:01}神父「ええ、確かに彼女はここにいます。{br}　よく分かりましたね・・・」{wait}	{face:10001}{face:20101}{face:30201}{face:02202}{spk:01}Father: "Yes, she is indeed here. You figured it out well..."{wait}	
 dlg:2136	text	rec:4147	149	{face:10002}{spk:02}ユウキ「会わせてください。{br}　アプリコットに連れて帰ります」{wait}	{face:10002}{spk:02}Yuki: "Please let us see her. We'll take her back to Apricot."{wait}	
-dlg:2137	text	rec:4148	149	{spk:01}神父「かわいそうなテカだ。{br}　冷たい機械の体は不幸か、と聞くのです。{wait}	{spk:01}Father: "A poor Teka. She asks whether a cold machine body is unhappiness.{wait}	
-dlg:2138	text	rec:4149	149	{spk:01}　不幸なのは冷たい心だと答えてやったら、なお悲しそうな顔をされましてね」{wait}	{spk:01}When I answered that a cold heart is what's unhappy, she looked even sadder."{wait}	
+dlg:2137	text	rec:4148	149	{spk:01}神父「かわいそうなテカだ。{br}　冷たい機械の体は不幸か、と聞くのです。{wait}	{spk:01}Father: "A poor Teka. She asks whether having a cold machine body is a misfortune.{wait}	
+dlg:2138	text	rec:4149	149	{spk:01}　不幸なのは冷たい心だと答えてやったら、なお悲しそうな顔をされましてね」{wait}	{spk:01}When I told her the true misfortune is a cold heart, she only looked sadder."{wait}	
 dlg:2139	text	rec:4150	149	{spk:02}ユウキ「・・・なるほどね。{br}　博士の孫ってのは、冷たい体に冷たい心を持っているらしい。{wait}	{spk:02}Yuki: "...I see. It seems the Doctor's grandson has a cold body and a cold heart.{wait}	
 dlg:2140	text	rec:4151	149	{spk:02}　彼女に笑顔を返してあげましょう。{br}　中に入れてください」{wait}	{spk:02}Let's give her back her smile. Please let us in."{wait}	
 dlg:2141	text	rec:4152	149	{spk:01}神父「いや・・・連れてきますよ。{br}　少し待っていてください」{wait}	{spk:01}Father: "No... I will bring her. Please wait a moment."{wait}	
@@ -197,7 +197,7 @@ dlg:2161	text	rec:4180	149	{face:30206}{spk:04}　命令するのはかってだ
 dlg:2162	text	rec:4181	149	{spk:01}エミコ「・・・」{wait}	{spk:01}Emiko: "..."{wait}	
 dlg:2163	text	rec:4185	149	{face:10001}{face:00603}{spk:01}署長「博士は軍用もあやつれるようになったと、言うのかね・・・！」{wait}	{face:10001}{face:00603}{spk:01}Chief: "You're saying the Doctor can now control military ones too...!"{wait}	
 dlg:2164	text	rec:4186	149	{face:00601}{face:10002}{spk:02}ユウキ「はい。{br}　それでさすがにいや気がさし、にげだしたんです。{wait}	{face:00601}{face:10002}{spk:02}Yuki: "Yes. That's when she finally got fed up and ran away.{wait}	
-dlg:2165	text	rec:4187	149	{spk:02}　いままでは、なんとか悪いことをさせまいとせっとくしていたようですが、{br}　軍隊まで使うのでは、と」{wait}	{spk:02}Until now she seemed to be persuading him not to do bad things, but using the army was too much."{wait}	
+dlg:2165	text	rec:4187	149	{spk:02}　いままでは、なんとか悪いことをさせまいとせっとくしていたようですが、{br}　軍隊まで使うのでは、と」{wait}	{spk:02}Until now she had been trying to talk him out of doing evil, but using the army was too much."{wait}	
 dlg:2166	text	rec:4188	149	{face:10001}{face:00602}{spk:01}署長「取り引きにおうじたまえ。{br}　彼女を敵の中においておけば、歯止めになってくれる」{wait}	{face:10001}{face:00602}{spk:01}Chief: "Accept the deal. If we leave her among the enemy, she'll act as a brake."{wait}	
 dlg:2167	text	rec:4189	149	{face:00601}{face:10002}{spk:02}ユウキ「その命令、聞くべきですか。{br}　かわいそうです。{br}　なみだこそ流しませんが、泣いています」{wait}	{face:00601}{face:10002}{spk:02}Yuki: "Should I obey that order? I feel sorry for her. She sheds no tears, but she's crying."{wait}	
 dlg:2168	text	rec:4190	149	{face:10001}{face:00602}{spk:01}署長「・・では、彼女からよく話を聞き、ゲオルグ博士のい場所をつきとめるんだ。{wait}	{face:10001}{face:00602}{spk:01}Chief: "..Then hear her out well and pin down where Dr. Georg is.{wait}	
@@ -219,7 +219,7 @@ dlg:2183	text	rec:4220	149	{face:30202}{spk:04}ギリガン「―――そうか
 dlg:2184	text	rec:4222	149	{face:20101}{face:00905}{spk:01}エミコ「あの―――わたしも、ポリステカにかいぞうしてもらえないでしょうか」{wait}	{face:20101}{face:00905}{spk:01}Emiko: "Um-- Could I be converted into a Polisteka too?"{wait}	
 dlg:2185	text	rec:4223	149	{face:20103}{spk:03}トモミ「やめときなさい。{br}　なんでそんなもんになりたいの」{wait}	{face:20103}{spk:03}Tomomi: "Don't. Why would you want to be one of those?"{wait}	
 dlg:2186	text	rec:4224	149	{face:00906}{spk:01}エミコ「ギリガンさんといっしょに戦いたい―――」{wait}	{face:00906}{spk:01}Emiko: "I want to fight alongside Gilligan-san--"{wait}	
-dlg:2187	text	rec:4225	149	{spk:03}トモミ「ギリガンはいやがるわ。{br}　あいつは人間とテカをくべつしないけど、戦う者と守るべき者とはくべつするのよ」{wait}	{spk:03}Tomomi: "Gilligan would hate that. Humans or Teka, all the same to him, but fighters and the protected aren't."{wait}	
+dlg:2187	text	rec:4225	149	{spk:03}トモミ「ギリガンはいやがるわ。{br}　あいつは人間とテカをくべつしないけど、戦う者と守るべき者とはくべつするのよ」{wait}	{spk:03}Tomomi: "Gilligan would hate it. Humans or Teka are all the same to him, but not fighters and those he protects."{wait}	
 dlg:2188	text	rec:4226	149	{face:00905}{spk:01}エミコ「なにもできない私でも、{br}　ギリガンさんといっしょにいさせてもらえるでしょうか？」{wait}	{face:00905}{spk:01}Emiko: "Even if I can't do anything, would Gilligan-san let me stay with him?"{wait}	
 dlg:2189	text	rec:4227	149	{face:20107}{spk:03}トモミ「泣いてる女はおれが守る！{br}　ってのがきいたわね。{br}{face:20104}　で、なんでテカのあんたが恋とかするの」{wait}	{face:20107}{spk:03}Tomomi: "'I'll protect a crying woman!' really got to you, huh.{face:20104} So why would a Teka like you fall in love?"{wait}	
 dlg:2190	text	rec:4228	149	{face:30201}{face:10012}{spk:02}ユウキ「恋？　だれが？」{wait}	{face:30201}{face:10012}{spk:02}Yuki: "Love? Who?"{wait}	
@@ -249,13 +249,13 @@ dlg:2213	text	rec:4278	149	{face:00001}{face:10101}{face:30901}{face:20203}{spk:
 dlg:2214	text	rec:4279	149	{face:20201}{face:30902}{spk:04}エミコ「はい」{wait}	{face:20201}{face:30902}{spk:04}Emiko: "Yes."{wait}	
 dlg:2215	text	rec:4280	149	{face:30901}{face:10115}{spk:02}トモミ「ちょっと、つれて行く気？」{wait}	{face:30901}{face:10115}{spk:02}Tomomi: "Hey, you're taking her along?"{wait}	
 dlg:2216	text	rec:4281	149	{face:10101}{face:20202}{spk:03}ギリガン「目をはなしてたまるか。{br}　エミコはおれが守る！」{wait}	{face:10101}{face:20202}{spk:03}Gilligan: "Like I'd let her out of my sight. I'll protect Emiko!"{wait}	
-dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}	{face:20201}{face:10107}{spk:02}Tomomi: "Wow... Hearing that would knock me flat."{wait}	
-dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}	{face:00004}{spk:01}Yuki: "You'd like to hear it too, Tomomi?"{wait}	
-dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I said it would knock me flat!"{wait}	
+dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}	{face:20201}{face:10107}{spk:02}Tomomi: "Wow... Being told that would be too much."{wait}	
+dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}	{face:00004}{spk:01}Yuki: "Wish someone said it to you, Tomomi?"{wait}	
+dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I said it'd be too much to STAND!"{wait}	
 dlg:2220	text	rec:4288	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
 dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}	{face:10801}{face:00702}{spk:01}Doctor: "Richter. Aren't you lonely without Emiko-san by your side?"{wait}	
-dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}	{face:10803}{spk:02}Richter: "...Not really. This way Emiko-san and I are one in spirit. I'm fine..."{wait}	
-dlg:2223	text	rec:4291	149	{spk:01}博士「強がっておるな。しっともしとる。{br}　エミコさんは本気であのギリガンという警官を」{wait}	{spk:01}Doctor: "Putting on a brave face. Jealous, too. Emiko-san truly cares for that Gilligan officer."{wait}	
+dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}	{face:10803}{spk:02}Richter: "...Not really. This way Emiko-san and I are one, body and soul. I'm fine..."{wait}	
+dlg:2223	text	rec:4291	149	{spk:01}博士「強がっておるな。しっともしとる。{br}　エミコさんは本気であのギリガンという警官を」{wait}	{spk:01}Doctor: "Putting on a brave face, eh, lad? Jealous, too. Emiko-san truly cares for that policeman Gilligan."{wait}	
 dlg:2224	text	rec:4292	149	{spk:02}リヒター「しばいだよ！{br}　ずっとやつらといるためのしばいさ、{br}　エミコさんはぼくの恋人だからね！」{wait}	{spk:02}Richter: "It's an act! An act so she can stay with them! Emiko-san is MY sweetheart!"{wait}	
 dlg:2225	text	rec:4293	149	{spk:01}博士「やれやれ・・・」{wait}	{spk:01}Doctor: "Oh, dear..."{wait}	
 dlg:2226	text	rec:4300	149	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}ドメステカ「こんな田舎によくいらっしゃいました」{wait}	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}Domesteka: "Welcome to our little country village."{wait}	

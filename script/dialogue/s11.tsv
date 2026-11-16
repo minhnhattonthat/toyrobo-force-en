@@ -4,7 +4,7 @@ dlg:1153	text	rec:2176	149	{spk:01}　たいへんだろうが、反乱があっ
 dlg:1154	text	rec:2178	149	{face:00602}{spk:01}スミタ署長「各地のテカ反乱がはげしい。{br}　が、ありがたいことに、カシスからソルジャー部隊をかりることができた。{wait}	{face:00602}{spk:01}Chief Sumita: "Teka revolts are fierce everywhere. But thankfully, we were able to borrow a Soldier unit from Cassis.{wait}	
 dlg:1155	text	rec:2179	149	{spk:01}　反乱が起きたら、まずソルジャー部隊のところに行きたまえ。{wait}	{spk:01}If a revolt breaks out, go to the Soldier unit first.{wait}	
 dlg:1156	text	rec:2180	149	{spk:01}　彼らにまかせるのも、自分たちで出撃するのも、自由に決めてよろしい」{wait}	{spk:01}You're free to leave it to them or sortie yourselves."{wait}	
-dlg:1157	text	rec:2190	149	{face:10001}{face:20106}{face:30201}{spk:03}トモミ「あたしたち、こういう生活にうもれて一生をおえるわけ？」{wait}	{face:10001}{face:20106}{face:30201}{spk:03}Tomomi: "Are we going to spend our whole lives buried in this kind of life?"{wait}	
+dlg:1157	text	rec:2190	149	{face:10001}{face:20106}{face:30201}{spk:03}トモミ「あたしたち、こういう生活にうもれて一生をおえるわけ？」{wait}	{face:10001}{face:20106}{face:30201}{spk:03}Tomomi: "Are we really going to spend our whole lives stuck in this routine?"{wait}	
 dlg:1158	text	rec:2191	149	{face:10007}{spk:02}ユウキ「いつまでもこうしてはいられない。　明日は・・・」{wait}	{face:10007}{spk:02}Yuki: "We can't go on like this forever. Tomorrow..."{wait}	
 dlg:1159	text	rec:2192	149	{face:30203}{spk:04}ギリガン「なんかするのか。{br}　反乱ほっといて」{wait}	{face:30203}{spk:04}Gilligan: "Gonna do something? And leave the revolts?"{wait}	
 dlg:1160	text	rec:2194	149	{face:10001}{face:20105}{face:30201}{spk:03}トモミ「ね、おとといちんあつしたのって、どこの反乱だったかおぼえてる？」{wait}	{face:10001}{face:20105}{face:30201}{spk:03}Tomomi: "Hey, do you remember where the revolt we put down the day before yesterday was?"{wait}	
@@ -21,7 +21,7 @@ dlg:1170	text	rec:2208	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ
 dlg:1171	text	rec:2209	149	{face:10012}{spk:02}ユウキ「もともと、そのつもりで集められたんだろ、ぼくたちは？」{wait}	{face:10012}{spk:02}Yuki: "Isn't that what we were gathered for in the first place?"{wait}	
 dlg:1172	text	rec:2212	149	{face:00402}{spk:01}ポイヤック「出撃のじゅんびはすんだのですか？」{wait}	{face:00402}{spk:01}Pauillac: "Have you finished preparing to sortie?"{wait}	
 dlg:1173	text	rec:2216	149	{face:00402}{spk:01}ポイヤック「一部のテカがにげだして、{br}　カマンベール牧場に向かいました。{br}　出動ようせいが出ています」{wait}	{face:00402}{spk:01}Pauillac: "Some Teka have escaped and headed for Camembert Ranch. There is a request to move out."{wait}	
-dlg:1174	text	rec:2219	149	{face:00402}{spk:01}ポイヤック「一部のテカがにげだして、{br}　プラム山に入りました。{br}　出動ようせいが出ています」{wait}	{face:00402}{spk:01}Pauillac: "Some Teka have escaped and gone into Plum Mountain. There is a request to move out."{wait}	
+dlg:1174	text	rec:2219	149	{face:00402}{spk:01}ポイヤック「一部のテカがにげだして、{br}　プラム山に入りました。{br}　出動ようせいが出ています」{wait}	{face:00402}{spk:01}Pauillac: "Some Teka have escaped into the Plum Mountain area. We have been asked to move out."{wait}	
 dlg:1175	text	rec:2222	149	{face:00402}{spk:01}ポイヤック「一部のテカがにげだして、{br}　アプリコット港に向かいました。{br}　出動ようせいが出ています」{wait}	{face:00402}{spk:01}Pauillac: "Some Teka have escaped and headed for Apricot Port. There is a request to move out."{wait}	
 dlg:1176	text	rec:2226	149	{face:00502}{spk:01}市長「出撃するんだろう？{br}　急ぎたまえよ」{wait}	{face:00502}{spk:01}Mayor: "You're going to sortie, aren't you? Hurry up!"{wait}	
 dlg:1177	text	rec:2230	149	{face:00502}{face:10001}{spk:01}アドルフ市長「フランボワーズ市長からようせいがきている。{br}　ワイン工場が反乱テカにせんきょされた。{wait}	{face:00502}{face:10001}{spk:01}Mayor Adolf: "A request has come from Mayor Framboise. Rebel Teka have occupied the winery.{wait}	
@@ -62,7 +62,7 @@ dlg:1211	text	rec:2310	149	{face:10012}{spk:02}ユウキ「・・テカをぜん
 dlg:1212	text	rec:2311	149	{spk:01}ソルジャー「はい。{br}　これからも、反乱テカたいじはおまかせください！」{wait}	{spk:01}Soldier: "Yes. Leave the extermination of rebel Teka to us from now on!"{wait}	
 dlg:1213	text	rec:2312	149	{face:20106}{spk:03}トモミ「たいじって；{br}　ユウキ、まだソルジャーにやらせるの？」{wait}	{face:20106}{spk:03}Tomomi: "Extermination? Yuki, you're still letting the Soldiers do it?"{wait}	
 dlg:1214	text	rec:2314	149	{face:10005}{spk:02}ユウキ「まあ、かくじつに反乱をおさえてくれるしさ・・・」{wait}	{face:10005}{spk:02}Yuki: "Well, they do put down the revolts for sure..."{wait}	
-dlg:1215	text	rec:2316	149	{face:10006}{spk:02}ユウキ「やめた、やめた！{br}　もう、軍隊にはまかせない！{br}　自分たちでやるよ！」{wait}	{face:10006}{spk:02}Yuki: "That's it, I quit! No more leaving it to the army! We'll do it ourselves!"{wait}	
+dlg:1215	text	rec:2316	149	{face:10006}{spk:02}ユウキ「やめた、やめた！{br}　もう、軍隊にはまかせない！{br}　自分たちでやるよ！」{wait}	{face:10006}{spk:02}Yuki: "That's it, enough! No more leaving it to the army! We'll do it ourselves!"{wait}	
 dlg:1216	text	rec:2327	149	{face:01302}{spk:01}ポリステカ「ユウキ巡査長どの！{br}　署長がシティにいるようにと、出動ようせいがあるかも知れません」{wait}	{face:01302}{spk:01}Polisteka: "Senior Officer Yuki! The Chief says stay in the City, there may be a request to move out."{wait}	
 dlg:1217	text	rec:2328	149	{face:10006}{spk:02}ユウキ「ちぇ」{wait}	{face:10006}{spk:02}Yuki: "Shoot."{wait}	
 dlg:1218	text	rec:2356	149	{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「さすがにゆうとうせいだな。{br}　あんなにケーキの名前をおぼえられるなんて」{wait}	{face:10012}{face:20101}{face:30201}{spk:02}Yuki: "A real honor student. To remember that many cake names."{wait}	

@@ -15,7 +15,7 @@ dlg:2250	text	rec:4341	149	{face:30205}{spk:04}ギリガン「こわいのか、
 dlg:2251	text	rec:4344	149	{face:20101}{face:10012}{spk:02}ユウキ「このあたりには・・・{br}　なにもないな」{wait}	{face:20101}{face:10012}{spk:02}Yuki: "Around here there's... nothing."{wait}	
 dlg:2252	text	rec:4347	149	{face:20101}{face:10012}{spk:02}ユウキ「やっぱり・・・なにもない。{br}　わっ」{wait}	{face:20101}{face:10012}{spk:02}Yuki: "Just as I thought... nothing. Whoa!"{wait}	
 dlg:2253	text	rec:4348	149	{face:20115}{spk:03}トモミ「なに？！」{wait}	{face:20115}{spk:03}Tomomi: "What?!"{wait}	
-dlg:2254	text	rec:4349	149	{face:10005}{spk:02}ユウキ「ヘビ。{br}　あんなに太いの、びっくりしちゃった」{wait}	{face:10005}{spk:02}Yuki: "A snake. That thick! It startled me."{wait}	
+dlg:2254	text	rec:4349	149	{face:10005}{spk:02}ユウキ「ヘビ。{br}　あんなに太いの、びっくりしちゃった」{wait}	{face:10005}{spk:02}Yuki: "A snake! It was so thick, it gave me a fright."{wait}	
 dlg:2255	text	rec:4350	149	{face:20106}{spk:03}トモミ「・・・こわいの？」{wait}	{face:20106}{spk:03}Tomomi: "...You're scared?"{wait}	
 dlg:2256	text	rec:4353	149	{face:20101}{face:10012}{spk:02}ユウキ「やっぱり・・・なにもない。{br}　わっ」{wait}	{face:20101}{face:10012}{spk:02}Yuki: "Just as I thought... nothing. Whoa!"{wait}	
 dlg:2257	text	rec:4354	149	{face:20106}{spk:03}トモミ「またヘビ？{br}　これで４回目よ、もうあきた」{wait}	{face:20106}{spk:03}Tomomi: "Another snake? That's the fourth time. I'm sick of it."{wait}	
@@ -36,7 +36,7 @@ dlg:2271	text	rec:4382	149	{face:10001}{face:20115}{spk:03}トモミ「なによ
 dlg:2272	text	rec:4383	149	{face:10012}{spk:02}ユウキ「うん、ちょっとシャッターの方、{br}見てからね」{wait}	{face:10012}{spk:02}Yuki: "Sure, once I've had a look at the shutter."{wait}	
 dlg:2273	text	rec:4394	149	{face:10002}{spk:02}ユウキ「・・・よし。{br}　これならだいじょうぶ―――」{wait}	{face:10002}{spk:02}Yuki: "...Right. This should do it--"{wait}	
 dlg:2274	text	rec:4396	149	{face:10012}{spk:02}ユウキ「こっちにはなにもないし・・・{br}　トカゲが出る前にもどろ」{wait}	{face:10012}{spk:02}Yuki: "Nothing over here either... Let's go back before a lizard shows up."{wait}	
-dlg:2275	text	rec:4398	149	{face:10001}{face:20101}{face:30201}{face:00302}{spk:01}ブランク「なるほど、一度海に出て、突入するんですね」{wait}	{face:10001}{face:20101}{face:30201}{face:00302}{spk:01}Blank: "I see. Head out to sea once, then charge in."{wait}	
+dlg:2275	text	rec:4398	149	{face:10001}{face:20101}{face:30201}{face:00302}{spk:01}ブランク「なるほど、一度海に出て、突入するんですね」{wait}	{face:10001}{face:20101}{face:30201}{face:00302}{spk:01}Blank: "I see. Head out to sea first, then charge in."{wait}	
 dlg:2276	text	rec:4399	149	{face:10010}{spk:02}ユウキ「いよいよ『くろまく』をつかまえるときだ。{br}　突入じゅんび、いいかい！」{wait}	{face:10010}{spk:02}Yuki: "It's time to catch the 'mastermind.' Ready to charge in?"{wait}	
 dlg:2277	text	rec:4408	149	{face:10009}{spk:02}ユウキ「ここまで来たんだ、あせらずに、{br}　もういちどっ」{wait}	{face:10009}{spk:02}Yuki: "We've come this far. Don't rush it. Once more!"{wait}	
 dlg:2278	text	rec:4411	149	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}ドメステカ「もどってきちゃったんですか。　がんばって奥まで行ってみなくちゃ」{wait}	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}Domesteka: "You came back? You have to try your best and go all the way inside."{wait}	

@@ -15,9 +15,9 @@ dlg:0567	text	rec:1020	149	{face:20101}{face:01009}{spk:01}リアナ「あら。
 dlg:0568	text	rec:1021	149	{face:30206}{spk:04}ギリガン「ん？　だれだ？」{wait}	{face:30206}{spk:04}Gilligan: "Hm? Who're you?"{wait}	
 dlg:0569	text	rec:1022	149	{face:01002}{spk:01}リアナ「あたしをごえいしてくれるっていうのは、あなたたち？{br}　だめねえ、みんな子供じゃないの」{wait}	{face:01002}{spk:01}Riana: "So you're the ones who'll be escorting me? Hopeless. You're all just kids."{wait}	
 dlg:0570	text	rec:1023	149	{face:30203}{spk:04}ギリガン「？　てめえだって子供だろ」{wait}	{face:30203}{spk:04}Gilligan: "? You're a kid too."{wait}	
-dlg:0571	text	rec:1024	149	{face:01002}{spk:01}リアナ「なに、その口のきき方。{br}　あたしが何さまか知っているの？」{wait}	{face:01002}{spk:01}Riana: "How dare you talk to me like that. Do you know who I am?"{wait}	
-dlg:0572	text	rec:1025	149	{face:30206}{spk:04}ギリガン「何さまだよ？」{wait}	{face:30206}{spk:04}Gilligan: "Who are you, then?"{wait}	
-dlg:0573	text	rec:1026	149	{face:01004}{spk:01}リアナ「お嬢さまよ！」{wait}	{face:01004}{spk:01}Riana: "A young lady!"{wait}	
+dlg:0571	text	rec:1024	149	{face:01002}{spk:01}リアナ「なに、その口のきき方。{br}　あたしが何さまか知っているの？」{wait}	{face:01002}{spk:01}Riana: "How dare you talk to me like that. Do you know who you're addressing?"{wait}	
+dlg:0572	text	rec:1025	149	{face:30206}{spk:04}ギリガン「何さまだよ？」{wait}	{face:30206}{spk:04}Gilligan: "Who, then? Her Highness?"{wait}	
+dlg:0573	text	rec:1026	149	{face:01004}{spk:01}リアナ「お嬢さまよ！」{wait}	{face:01004}{spk:01}Riana: "Her Young Ladyship!"{wait}	
 dlg:0574	text	rec:1027	149	{face:10005}{spk:02}ユウキ「それじゃマンザイだよ；」{wait}	{face:10005}{spk:02}Yuki: "You two sound like a comedy act..."{wait}	
 dlg:0575	text	rec:1028	149	{face:01002}{spk:01}リアナ「アプリコット市長のお嬢さまだって言ってるのよ。{br}　たいどに気をつけなさい」{wait}	{face:01002}{spk:01}Riana: "I'm telling you I'm the daughter of the Mayor of Apricot. Mind your manners."{wait}	
 dlg:0576	text	rec:1029	149	{face:10012}{spk:02}ユウキ「すみませんが、お嬢さま。{br}　ぼくたちは仕事がありますので―――」{wait}	{face:10012}{spk:02}Yuki: "Excuse me, miss. We have work to do--"{wait}	
@@ -79,7 +79,7 @@ dlg:0631	text	rec:1152	149	{spk:02}ユウキ「テカが犯罪をおかしても
 dlg:0632	text	rec:1153	149	{spk:01}ポリステカ「テカが犯罪？{br}　新しいジョークですか―――{br}　あっ、分かった！{br}　これ、暗号ですね？」{wait}	{spk:01}Polisteka: "A Teka crime? Is that a new joke? Oh, I get it! It's a code, isn't it?"{wait}	
 dlg:0633	text	rec:1154	149	{spk:03}トモミ「そう思うなら一人でといてなさい。　行きましょう！」{wait}	{spk:03}Tomomi: "If you think so, go crack it yourself. Let's go!"{wait}	
 dlg:0634	text	rec:1161	149	{face:10012}{spk:02}ユウキ「・・・ほっとくと、いくらでも食べるよ」{wait}	{face:10012}{spk:02}Yuki: "...Leave her alone and she'll eat forever."{wait}	
-dlg:0635	text	rec:1162	149	{face:30203}{spk:04}ギリガン「ほっとくと、いくらでもずんどうになるんだな」{wait}	{face:30203}{spk:04}Gilligan: "Leave her alone and she'll turn into a barrel forever."{wait}	
+dlg:0635	text	rec:1162	149	{face:30203}{spk:04}ギリガン「ほっとくと、いくらでもずんどうになるんだな」{wait}	{face:30203}{spk:04}Gilligan: "Leave her be and she'll just keep getting more barrel-shaped."{wait}	
 dlg:0636	text	rec:1167	149	{face:10006}{spk:02}ユウキ「ほらトモミ！{br}　もう警察署にいくよ！」{wait}	{face:10006}{spk:02}Yuki: "Come on, Tomomi! We're going to the police station!"{wait}	
 dlg:0637	text	rec:1168	149	{face:20105}{spk:03}トモミ「ん。じゃあさいごの一皿、{br}　フランボワーズパッション追加ー♪」{wait}	{face:20105}{spk:03}Tomomi: "Mm. Then one last plate! One more Framboise Passion!"{wait}	
 dlg:0638	text	rec:1170	149	{face:02602}{spk:01}マーケテカ「おめでとうございます！{face:10012}{br}　お客様のご注文は当店はじまっていらい、１０万皿目でございます！{wait}	{face:02602}{spk:01}Marketeka: "Congratulations!{face:10012} Your order is our 100,000th plate since we opened!{wait}	
@@ -91,9 +91,9 @@ dlg:0643	text	rec:1179	149	{face:10005}{spk:02}ユウキ「まだ食べる気か
 dlg:0644	text	rec:1180	149	{face:20107}{spk:03}トモミ「ああん・・・{br}　がまんしなきゃだめ？」{wait}	{face:20107}{spk:03}Tomomi: "Aww... Do I have to hold back?"{wait}	
 dlg:0645	text	rec:1181	149	{face:10005}{spk:02}ユウキ「だめ；」{wait}	{face:10005}{spk:02}Yuki: "Yes."{wait}	
 dlg:0646	text	rec:1188	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
-dlg:0647	text	rec:1189	149	{face:20801}{face:30901}{face:10703}{spk:02}博士「わしのうでがどんなに長いか、分かったじゃろ。{br}　世界中のテカをあやつってみせるぞ」{wait}	{face:20801}{face:30901}{face:10703}{spk:02}Doctor: "Now you see how long my arm is. I'll control every Teka in the world!"{wait}	
+dlg:0647	text	rec:1189	149	{face:20801}{face:30901}{face:10703}{spk:02}博士「わしのうでがどんなに長いか、分かったじゃろ。{br}　世界中のテカをあやつってみせるぞ」{wait}	{face:20801}{face:30901}{face:10703}{spk:02}Doctor: "Now then, you see how far my reach extends, eh? I'll control every Teka in the world!"{wait}	
 dlg:0648	text	rec:1190	149	{face:20803}{spk:03}リヒター「ゆうかいなんてめんどうな・・・　やっつけちゃえば、かんたんなのに」{wait}	{face:20803}{spk:03}Richter: "Kidnapping is such a bother... It'd be easier to just beat them."{wait}	
-dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}	{face:10702}{spk:02}Doctor: "Still on about that? Emiko-san went on so much that I told you just kidnapping would do!"{wait}	
+dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}	{face:10702}{spk:02}Doctor: "Still on about that? Emiko-san went on so much that you agreed kidnapping alone would do, didn't you?"{wait}	
 dlg:0650	text	rec:1192	149	{spk:03}リヒター「うん、まあ・・・でも、警官どもはどうするのさ。{wait}	{spk:03}Richter: "Yeah, well... But what about the cops?{wait}	
 dlg:0651	text	rec:1193	149	{spk:03}　あいつらをおびき出して、{br}　やっつけるのがもくてきだろっ」{wait}	{spk:03}The point was to lure them out and beat them, right?"{wait}	
 dlg:0652	text	rec:1194	149	{face:30904}{spk:04}エミコ「なんですって―――？」{wait}	{face:30904}{spk:04}Emiko: "What did you say--?"{wait}	

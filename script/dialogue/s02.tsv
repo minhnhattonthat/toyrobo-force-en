@@ -21,7 +21,7 @@ dlg:0103	text	rec:154	149	{face:22400}{face:12702}{face:00602}{spk:02}ポリジ�
 dlg:0104	text	rec:155	149	{spk:01}署長「どうせお前には分からん、いいから、警察学校のポイヤックに連絡！{wait}	{spk:01}Chief: "You wouldn't understand anyway. Just contact Pauillac at the police academy!{wait}	
 dlg:0105	text	rec:156	149	{spk:01}　カマンベール牧場で{br}『アウト・オブ・コントロール』発生、{br}　ただちに『実習』を開始しろ、とな！」{wait}	{spk:01}Tell them an 'Out of Control' has occurred at Camembert Ranch, and to start 'field training' at once!"{wait}	
 dlg:0106	text	rec:160	149	ポイヤック教官「集合！{br}{face:10002}{face:20102}{face:30202}{face:00302}　次の訓練にうつります。{br}　署長から『実習命令』が出ました。	Instructor Pauillac: "Fall in!{br}{face:10002}{face:20102}{face:30202}{face:00302}On to the next training. The Chief has issued 'field training orders.'	
-dlg:0107	text	rec:161	149	　今度の犯人役はワークテカ、{br}　ひがいしゃ役はドメステカ、{br}　実習現場はカマンベール牧場です。	This time the culprit is a Workteka, the victim is a Domesteka, and the site is Camembert Ranch.	
+dlg:0107	text	rec:161	149	　今度の犯人役はワークテカ、{br}　ひがいしゃ役はドメステカ、{br}　実習現場はカマンベール牧場です。	This time a Workteka plays the culprit and a Domesteka the victim; the training site is Camembert Ranch.	
 dlg:0108	text	rec:162	149	　なにかしつもんは」{wait}	Any questions?"{wait}	
 dlg:0109	text	rec:164	149	ポイヤック「空中の敵と地上の敵を、{br}　きちんと撃ち分けることが大切です。{wait}	Pauillac: "It is vital to tell air enemies from ground enemies and shoot each properly.{wait}	
 dlg:0110	text	rec:165	149	　敵のこうげきをかわすには、落ち着いて良く見ることです。{br}　あわてなければ、きっとかわせます。{wait}	To dodge enemy attacks, stay calm and watch closely. If you don't panic, you can dodge them.{wait}	
@@ -52,7 +52,7 @@ dlg:0134	text	rec:207	149	{face:10012}{spk:02}ユウキ訓練生「きけん？{
 dlg:0135	text	rec:208	149	{face:00602}{spk:01}署長「も、もちろん、ただの訓練だよ―――　マスコミには知られてないだろうね？」{wait}	{face:00602}{spk:01}Chief: "O-of course, it's just training-- The press doesn't know about this, right?"{wait}	
 dlg:0136	text	rec:209	149	{face:10012}{spk:02}ユウキ「・・・なるほど、{br}　そういうことですか。{br}　いそいで出撃します」{wait}	{face:10012}{spk:02}Yuki: "...I see.{br}So that's how it is.{br}We'll sortie right away."{wait}	
 dlg:0137	text	rec:212	149	{face:00603}{spk:01}スミタ署長「本当に急いでくれよ、署長のイスをこけたくないんだ。{wait}	{face:00603}{spk:01}Chief Sumita: "Really, please hurry. I don't want to lose the Chief's chair.{wait}	
-dlg:0138	text	rec:213	149	{spk:01}　わたしはていねん後のたいしょく金だけが楽しみなんだから・・・」{wait}	{spk:01}My retirement pension is the only thing I have to look forward to..."{wait}	
+dlg:0138	text	rec:213	149	{spk:01}　わたしはていねん後のたいしょく金だけが楽しみなんだから・・・」{wait}	{spk:01}That retirement payout is the only thing I have to look forward to..."{wait}	
 dlg:0139	text	rec:216	149	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}ポイヤック教官「出撃前には、日誌を書くように。{br}　書きわすれてこまるのは自分ですよ」{wait}	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}Instructor Pauillac: "Write your log before you sortie. If you forget, you're the one who suffers."{wait}	
 dlg:0140	text	rec:217	149	{face:30303}{spk:04}ブランク「あのー、日誌ってなんですか？」{wait}	{face:30303}{spk:04}Blank: "Um, what's a log?"{wait}	
 dlg:0141	text	rec:218	149	{face:20115}{spk:03}トモミ「セーブデータのことよ。{br}　よい子は取り説をちゃんと読むっ」{wait}	{face:20115}{spk:03}Tomomi: "It means save data.{br}Good kids read the manual!"{wait}	
@@ -101,7 +101,7 @@ dlg:0183	text	rec:291	149	{face:10012}{face:20101}{face:30201}{face:01402}{spk:0
 dlg:0184	text	rec:292	149	{spk:01}ドメステカのみーちゃん「あばれる？」{wait}	{spk:01}Mii-chan the Domesteka: "Go wild?"{wait}	
 dlg:0185	text	rec:293	149	{spk:02}ユウキ「ワークテカのグンちゃんが動くと、家がこわれていくんだろう。{br}　グンちゃんがあばれていたんだよ」{wait}	{spk:02}Yuki: "When Gun-chan the Workteka moved, the house broke, right? Gun-chan was running wild."{wait}	
 dlg:0186	text	rec:294	149	{spk:01}みーちゃん「？？」{wait}	{spk:01}Mii-chan: "??"{wait}	
-dlg:0187	text	rec:295	149	{face:20106}{spk:03}トモミ「人間がバッテリーこうかんしてる、って話みたいに聞こえるのね；」{wait}	{face:20106}{spk:03}Tomomi: "To her, it must sound like 'a human changing a battery.'"{wait}	
+dlg:0187	text	rec:295	149	{face:20106}{spk:03}トモミ「人間がバッテリーこうかんしてる、って話みたいに聞こえるのね；」{wait}	{face:20106}{spk:03}Tomomi: "To her, it must sound like a human having their batteries replaced."{wait}	
 dlg:0188	text	rec:296	149	{face:30206}{spk:04}ギリガン「イカれて『せいぎょふのう』になったんだろ。{br}　アウト・オブ・コントロールさ」{wait}	{face:30206}{spk:04}Gilligan: "He just cracked and lost control, right? Out of Control."{wait}	
 dlg:0189	text	rec:297	149	{face:20104}{spk:03}トモミ「アウト・オブ・コントロールになると、ふつうは止まってしまうだけよ」{wait}	{face:20104}{spk:03}Tomomi: "When a Teka goes Out of Control, it normally just stops."{wait}	
 dlg:0190	text	rec:298	149	{face:10007}{spk:02}ユウキ「それがあばれたってんなら、{br}　だれかにあやつられたな・・・？」{wait}	{face:10007}{spk:02}Yuki: "If this one ran wild instead, then someone must have been controlling him...?"{wait}	

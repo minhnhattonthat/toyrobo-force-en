@@ -10,8 +10,8 @@ dlg:1802	text	rec:3510	149	{face:10012}{spk:02}ユウキ「どうかな。かた
 dlg:1803	text	rec:3511	149	{face:10004}{spk:02}　さあ、おもしろいテレビがはじまるよ。{br}『ようきなゲオルグショー』だ」{wait}	{face:10004}{spk:02}Now, an interesting TV show is starting. 'The Jolly Georg Show'."{wait}	
 dlg:1804	text	rec:3512	149	{face:30205}{spk:04}ギリガン「何をのんきなことを―――{br}{face:30202}　ゲオルグ？　また電波ジャックか？」{wait}	{face:30205}{spk:04}Gilligan: "What are ya so relaxed for--{face:30202} Georg? Another broadcast hijack?"{wait}	
 dlg:1805	text	rec:3514	149	{face:30000}{face:12102}{spk:02}ゲオルグ博士「マーマレードのしょくん！」{wait}	{face:30000}{face:12102}{spk:02}Dr. Georg: "People of Marmalade!"{wait}	
-dlg:1806	text	rec:3515	149	{spk:02}博士「わしは、『天才』ゲオルグ博士じゃ。{br}　ごぞんじかな？{wait}	{spk:02}Doctor: "I am the 'genius' Dr. Georg. Do you know me?{wait}	
-dlg:1807	text	rec:3516	149	{spk:02}　ごぞんじない方に、お教えしよう。{br}　わしは、{br}　世界せいふくをたくらんでおる！」{wait}	{spk:02}For those who don't, let me tell you. I am plotting to conquer the world!"{wait}	
+dlg:1806	text	rec:3515	149	{spk:02}博士「わしは、『天才』ゲオルグ博士じゃ。{br}　ごぞんじかな？{wait}	{spk:02}Doctor: "I am the 'genius' Dr. Georg, don't ya know. Heard of me?{wait}	
+dlg:1807	text	rec:3516	149	{spk:02}　ごぞんじない方に、お教えしよう。{br}　わしは、{br}　世界せいふくをたくらんでおる！」{wait}	{spk:02}For those who haven't, allow me to explain. I, my friends, am plotting to conquer the world!"{wait}	
 dlg:1808	text	rec:3517	149	{face:10012}{face:30205}{spk:04}ギリガン「本気か、このじいさん」{wait}	{face:10012}{face:30205}{spk:04}Gilligan: "Is this old geezer serious?"{wait}	
 dlg:1809	text	rec:3518	149	{face:10005}{spk:02}ユウキ「ジョークさ。{br}　一度言ってみたかったんだろ」{wait}	{face:10005}{spk:02}Yuki: "It's a joke. He just always wanted to say it once."{wait}	
 dlg:1810	text	rec:3519	149	{face:30000}{face:12102}{spk:02}博士「テカを使って、人間どもをしずかにさせようとしておるところだ。{br}　市民かくめいなど、もってのほか！{wait}	{face:30000}{face:12102}{spk:02}Doctor: "I'm using Teka to keep you humans quiet. A citizens' revolution is out of the question!{wait}	
@@ -35,7 +35,7 @@ dlg:1827	text	rec:3542	149	{face:10002}{spk:02}ユウキ「よし！」{wait}	{f
 dlg:1828	text	rec:3545	149	{spk:02}ユウキ「大きな飛行船なら、ああいうゆれ方をするだろうな。{br}　{face:10002}さっそくさがしに行こうか」{wait}	{spk:02}Yuki: "A big airship would sway like that.{face:10002} Let's go look for it."{wait}	
 dlg:1829	text	rec:3546	149	{spk:04}ギリガン「すぐ見つかるだろうぜ、でかいからな」{wait}	{spk:04}Gilligan: "We'll find it fast. It's huge."{wait}	
 dlg:1830	text	rec:3547	149	{spk:02}ユウキ「うん、目立つだろうね―――{br}{face:10007}　でも、悪者がそんなのに―――」{wait}	{spk:02}Yuki: "Yeah, it'd stand out--{face:10007} But would a villain ride one--"{wait}	
-dlg:1831	text	rec:3549	149	{face:10012}{spk:02}ユウキ「そうだ、アプリコットなんかじゃ、広告付けた飛行船が飛んでるだろ。{br}　あれに化けているんじゃないかな？」{wait}	{face:10012}{spk:02}Yuki: "That's it, in places like Apricot, airships fly around with ads on them. Maybe he's disguised as one?"{wait}	
+dlg:1831	text	rec:3549	149	{face:10012}{spk:02}ユウキ「そうだ、アプリコットなんかじゃ、広告付けた飛行船が飛んでるだろ。{br}　あれに化けているんじゃないかな？」{wait}	{face:10012}{spk:02}Yuki: "That's it, in places like Apricot, airships fly around with ads on them. Maybe his is disguised as one?"{wait}	
 dlg:1832	text	rec:3550	149	{face:30204}{spk:04}ギリガン「なるほど。{br}　せんでん中のフリをしてマーマレードを飛んでいるやつ、か。{br}　さがしに行こうぜ！」{wait}	{face:30204}{spk:04}Gilligan: "I see. One flying over Marmalade pretending to advertise. Let's go look!"{wait}	
 dlg:1833	text	rec:3551	149	{face:10002}{spk:02}ユウキ「よし！」{wait}	{face:10002}{spk:02}Yuki: "Right!"{wait}	
 dlg:1834	text	rec:3554	149	{spk:02}ユウキ「ゆれる乗り物といえば船だね。{br}　さて、どんな船かだが」{wait}	{spk:02}Yuki: "A vehicle that sways means a ship. Now, what kind of ship?"{wait}	
@@ -77,10 +77,10 @@ dlg:1869	text	rec:3610	149	{face:30206}{spk:04}ギリガン「考えすぎるな
 dlg:1870	text	rec:3614	149	　マーマレード海にうかぶ船{wait}	A Ship on the Marmalade Sea{wait}	
 dlg:1871	text	rec:3615	149	{face:00701}{face:30901}{face:10803}{spk:02}リヒター「ねえ博士、これなんだろう・・・　やつらにへんな電話がきてるんだ。{wait}	{face:00701}{face:30901}{face:10803}{spk:02}Richter: "Hey, Doctor, what's this... They're getting strange phone calls.{wait}	
 dlg:1872	text	rec:3616	149	{spk:02}　ロビンのプロポーズとか、{br}　ようきなゲオルグショーとか、{br}　わけが分からない」{wait}	{spk:02}Robin's proposal, the Jolly Georg Show... It makes no sense."{wait}	
-dlg:1873	text	rec:3617	149	{face:00702}{spk:01}ゲオルグ博士「ゲオルグショー？{br}　なんじゃそりゃ・・・電波ジャックするとばれてたのか？{br}　ロビンって？」{wait}	{face:00702}{spk:01}Dr. Georg: "Georg Show? What's that... Did they know I'd hijack the broadcast? And Robin?"{wait}	
+dlg:1873	text	rec:3617	149	{face:00702}{spk:01}ゲオルグ博士「ゲオルグショー？{br}　なんじゃそりゃ・・・電波ジャックするとばれてたのか？{br}　ロビンって？」{wait}	{face:00702}{spk:01}Dr. Georg: "Georg Show? What the deuce... Did they know I'd hijack the broadcast? And who's Robin?"{wait}	
 dlg:1874	text	rec:3618	149	{spk:02}リヒター「『ロビン・フッドは、マリアンに７回プロポーズした』って」{wait}	{spk:02}Richter: "'Robin Hood proposed to Marian seven times.'"{wait}	
-dlg:1875	text	rec:3619	149	{spk:01}博士「・・・シャーウッドの森、教会、{br}　７体の反乱テカ・・・{br}{face:00704}　こっちの行動がばれとる？！　まずいっ！{wait}	{spk:01}Doctor: "...Sherwood Forest, a church, seven rebel Teka...{face:00704} They know what we're doing?! This is bad!{wait}	
-dlg:1876	text	rec:3620	149	{spk:01}　テカ反乱を起こせ、リヒター！{br}　やつらの動きをとめるんじゃ、そのすきに島へにげる！」{wait}	{spk:01}Start a Teka revolt, Richter! Stop them in their tracks, and we'll escape to the island meanwhile!"{wait}	
+dlg:1875	text	rec:3619	149	{spk:01}博士「・・・シャーウッドの森、教会、{br}　７体の反乱テカ・・・{br}{face:00704}　こっちの行動がばれとる？！　まずいっ！{wait}	{spk:01}Doctor: "...Sherwood Forest, a church, seven rebel Teka... {face:00704}They've seen through our moves?! Blast it!{wait}	
+dlg:1876	text	rec:3620	149	{spk:01}　テカ反乱を起こせ、リヒター！{br}　やつらの動きをとめるんじゃ、そのすきに島へにげる！」{wait}	{spk:01}Start a Teka revolt, Richter! Tie their hands, and while they're busy we flee to the island!"{wait}	
 dlg:1877	text	rec:3624	149	{face:10001}{face:30208}{spk:04}ギリガン「ユウキ！　町ん中が変だ。{br}　通りにマーケテカが飛び出してきてる。{br}　反乱が・・・」{wait}	{face:10001}{face:30208}{spk:04}Gilligan: "Yuki! Something's wrong in town. Marketeka are rushing into the streets. A revolt..."{wait}	
 dlg:1878	text	rec:3625	149	{face:10012}{spk:02}ユウキ「なんで急に・・・　　　　　　　　　　{face:10007}{wait}	{face:10012}{spk:02}Yuki: "Why all of a sudden...{face:10007}{wait}	
 dlg:1879	text	rec:3626	149	{spk:02}　そうか、博士、{face:10002}気づいたなっ、このすきににげる気なんだろ！」{wait}	{spk:02}I see, Doctor,{face:10002} you've noticed! You mean to escape while we're busy!"{wait}	
@@ -90,7 +90,7 @@ dlg:1882	text	rec:3632	149	{face:30202}{spk:04}ギリガン「反乱ちんあつ
 dlg:1883	text	rec:3640	149	{face:30207}{spk:04}ギリガン「まだまだっ、{br}　あきらめるな、ブランク！」{wait}	{face:30207}{spk:04}Gilligan: "Not yet! Don't give up, Blank!"{wait}	
 dlg:1884	text	rec:3642	149	{face:30207}{spk:04}ギリガン「反乱ちんあつがさきだ！」{wait}	{face:30207}{spk:04}Gilligan: "Put down the revolt first!"{wait}	
 dlg:1885	text	rec:3651	149	　市民かくめいぼっ発{wait}	The Citizens' Revolution Breaks Out{wait}	
-dlg:1886	text	rec:3652	149	市民「かくめいバンザイ！」{br}市民「市民かくめい、バンザイ！」{br}市民「男女平等、バンザイ！」{wait}	Citizen: "Long live the revolution!" Citizen: "Long live the citizens!" Citizen: "Equality for all!"{wait}	
+dlg:1886	text	rec:3652	149	市民「かくめいバンザイ！」{br}市民「市民かくめい、バンザイ！」{br}市民「男女平等、バンザイ！」{wait}	Citizen: "Long live the revolution!" Citizen: "The citizens' revolution!" Citizen: "Equal rights for all!"{wait}	
 dlg:1887	text	rec:3653	149	市民「ハンナ市長を引きずり出せ！{br}　市民さいばんだ！！―――」{wait}	Citizen: "Drag out Mayor Hanna! Put her on trial before the people!!--"{wait}	
 dlg:1888	text	rec:3656	149	{face:10002}{face:30201}{face:02103}{spk:01}ジェーン「こんなまねをして、ただではすみませんよ」{wait}	{face:10002}{face:30201}{face:02103}{spk:01}Jane: "You won't get away with this."{wait}	
 dlg:1889	text	rec:3657	149	{spk:02}ユウキ「僕たちはテカ反乱をとめただけだ。　その結果どうなるかは、この国の事情でしょう」{wait}	{spk:02}Yuki: "We only stopped a Teka revolt. What happens next is this country's business."{wait}	
@@ -99,18 +99,18 @@ dlg:1891	text	rec:3659	149	{face:10012}{spk:02}ユウキ「あいにくだけど
 dlg:1892	text	rec:3660	149	{spk:02}　アプリコットでポリジェンヌがあばれていたら、僕たちをマーマレードに誘っているんだな、ぐらい分かる。{wait}	{spk:02}With Polijenne running wild in Apricot, it was easy to see you were luring us to Marmalade.{wait}	
 dlg:1893	text	rec:3661	149	{spk:02}　女性上位のシティなんだから、トモミをどうにかする気だろうぐらい予想がつく。{br}　それなら―――{wait}	{spk:02}In a City where women are on top, I could guess you'd try something with Tomomi. So--{wait}	
 dlg:1894	text	rec:3662	149	{spk:02}　寝返ったフリをして中にもぐりこめば、　情報が手に入る、ぐらい企んでも、{br}　{face:10004}不思議はないだろう？」{wait}	{spk:02}pretend to switch sides, slip inside, and get information. Would it be strange{face:10004} if we planned that?"{wait}	
-dlg:1895	text	rec:3663	149	{spk:01}ジェーン「分かっていたというのですか。{br}　わたしにもカクゴがありますよ」{wait}	{spk:01}Jane: "You say you knew all along? I am prepared as well."{wait}	
+dlg:1895	text	rec:3663	149	{spk:01}ジェーン「分かっていたというのですか。{br}　わたしにもカクゴがありますよ」{wait}	{spk:01}Jane: "You knew all along? Then know this: I'm ready to do whatever it takes."{wait}	
 dlg:1896	text	rec:3664	149	{face:10002}{spk:02}ユウキ「もういいよ。{br}　設備の整った工場に送ってあげる、{br}　ゆっくり修理してもらうといい」{wait}	{face:10002}{spk:02}Yuki: "That's enough. I'll send you to a well-equipped factory. Have them repair you properly."{wait}	
 dlg:1897	text	rec:3665	149	{spk:01}ジェーン「わたくしが故障していると？」{wait}	{spk:01}Jane: "You say I am broken?"{wait}	
 dlg:1898	text	rec:3666	149	{spk:02}ユウキ「ハンナ市長はとっくに死んでいる。　君は記憶を書き換えられて、いまだに市長の秘書をしている気になっているだけだ。{wait}	{spk:02}Yuki: "Mayor Hanna died long ago. Your memory was rewritten, and you only think you're still her secretary.{wait}	
 dlg:1899	text	rec:3667	149	{spk:02}　かわいそうだから、もう本当のことを知らせてあげた方がいいよ、{br}　ゲオルグ博士―――」{wait}	{spk:02}It's cruel. You should tell her the truth now, Dr. Georg--"{wait}	
 dlg:1900	text	rec:3668	149	{face:30208}{spk:04}ギリガン「博士？！{br}　どこだ、あの悪党！」{wait}	{face:30208}{spk:04}Gilligan: "The Doctor?! Where is that crook?"{wait}	
 dlg:1901	text	rec:3669	149	{spk:02}ユウキ「彼女の目から僕たちを見ている。{br}　博士、もうあなたの身勝手で市民をいじめるのは、やめてください」{wait}	{spk:02}Yuki: "He's watching us through her eyes. Doctor, please stop tormenting citizens for your own selfish ends."{wait}	
-dlg:1902	text	rec:3670	149	{spk:01}博士「身勝手なのは、死んだ市長じゃ！」{wait}	{spk:01}Doctor: "The selfish one was the dead Mayor!"{wait}	
+dlg:1902	text	rec:3670	149	{spk:01}博士「身勝手なのは、死んだ市長じゃ！」{wait}	{spk:01}Doctor: "The selfish one was the late Mayor, I tell you!"{wait}	
 dlg:1903	text	rec:3671	149	{face:30205}{spk:04}ギリガン「げ・・・{br}　秘書テカが、じいさんの声でしゃべってやがる・・・」{wait}	{face:30205}{spk:04}Gilligan: "Yikes... The secretary Teka's talking in the old geezer's voice..."{wait}	
-dlg:1904	text	rec:3672	149	{spk:01}博士「死の病にとりつかれたと知った時、　市長は何をしようとしたと思う。{br}ジェーンの体を乗っ取ろうとしたんじゃぞ！{wait}	{spk:01}Doctor: "When she learned she had a fatal illness, what do you think the Mayor tried? To take over Jane's body!{wait}	
-dlg:1905	text	rec:3673	149	{spk:01}　ジェーンの記憶を消して、自分の記憶を埋め込んでくれと、頼みにきおったのだ。{br}　テカは人間の身代わりではないわい！{wait}	{spk:01}She came asking me to erase Jane's memory and implant her own. Teka are not stand-ins for humans!{wait}	
-dlg:1906	text	rec:3674	149	{spk:01}　わしは、そんな人間の愚かさを・・・」{wait}	{spk:01}I, against that human folly..."{wait}	
+dlg:1904	text	rec:3672	149	{spk:01}博士「死の病にとりつかれたと知った時、　市長は何をしようとしたと思う。{br}ジェーンの体を乗っ取ろうとしたんじゃぞ！{wait}	{spk:01}Doctor: "She learned she had a fatal illness, and what do you suppose the Mayor tried? To steal Jane's body!{wait}	
+dlg:1905	text	rec:3673	149	{spk:01}　ジェーンの記憶を消して、自分の記憶を埋め込んでくれと、頼みにきおったのだ。{br}　テカは人間の身代わりではないわい！{wait}	{spk:01}She came begging me to erase Jane's memory and implant her own. Teka are no mere stand-ins for humans, I tell you!{wait}	
+dlg:1906	text	rec:3674	149	{spk:01}　わしは、そんな人間の愚かさを・・・」{wait}	{spk:01}I mean to make humans pay for such folly..."{wait}	
 dlg:1907	text	rec:3675	149	{spk:02}ユウキ「お話はあとでうかがいます。{br}　あなたをタイホしたら、ゆっくりとね！」{wait}	{spk:02}Yuki: "I'll hear the story later. At my leisure, once I've arrested you!"{wait}	
 dlg:1908	text	rec:3676	149	{spk:01}博士「できるもんならしてみるがいい。{br}　だが・・・{wait}	{spk:01}Doctor: "Do it if you can. But...{wait}	
 dlg:1909	text	rec:3677	149	{spk:01}　わしを追いかける前に、ジェーンをいい　工場に送ってやってくれ・・・！」{wait}	{spk:01}before you chase me, send Jane to a good factory...!"{wait}	

@@ -10,7 +10,7 @@ dlg:1921	text	rec:3697	149	{spk:01}ワークテカ「ひどいやつがいます
 dlg:1922	text	rec:3698	149	{face:30207}{spk:04}ギリガン「て・め・え・だ！」{wait}	{face:30207}{spk:04}Gilligan: "Y-O-U!"{wait}	
 dlg:1923	text	rec:3701	149	{face:10001}{face:30201}{face:20112}{spk:03}トモミ「ジェーン、秘書テカから普通のマーケテカに改造されるらしいわ」{wait}	{face:10001}{face:30201}{face:20112}{spk:03}Tomomi: "I hear Jane is being converted from a secretary Teka into an ordinary Marketeka."{wait}	
 dlg:1924	text	rec:3702	149	{face:30210}{spk:04}ギリガン「そりゃあいい。{br}　平和な暮らしが待ってるだろうぜ」{wait}	{face:30210}{spk:04}Gilligan: "Good. A peaceful life is waiting for her."{wait}	
-dlg:1925	text	rec:3703	149	{face:10010}{spk:02}ユウキ「僕たちも、はやく博士をつかまえて平和な暮らしをしよう。{br}　さあ、出撃だ！」{wait}	{face:10010}{spk:02}Yuki: "Let's catch the Doctor fast and have peaceful lives too. Now, sortie!"{wait}	
+dlg:1925	text	rec:3703	149	{face:10010}{spk:02}ユウキ「僕たちも、はやく博士をつかまえて平和な暮らしをしよう。{br}　さあ、出撃だ！」{wait}	{face:10010}{spk:02}Yuki: "Let's catch the Doctor fast so we can have peaceful lives too. Come on, let's move out!"{wait}	
 dlg:1926	text	rec:3708	149	通信「海岸上空２００メートルです・・・{br}　見えます見えます、沖にでっかい船が」{wait}	Radio: "200 meters above the coast... I see it, I see it, a huge ship offshore."{wait}	
 dlg:1927	text	rec:3709	149	{face:10009}{face:20101}{face:30201}{spk:02}ユウキ「もぬけのから、かもしれないけど」{wait}	{face:10009}{face:20101}{face:30201}{spk:02}Yuki: "It may be empty, though."{wait}	
 dlg:1928	text	rec:3710	149	{face:20111}{spk:03}トモミ「まだいたりしたら、うでによりをかけてタイホしてあげなさい！」{wait}	{face:20111}{spk:03}Tomomi: "If he's still there, put your all into arresting him!"{wait}	
@@ -25,7 +25,7 @@ dlg:1936	text	rec:3727	149	{face:20101}{face:30201}{face:10011}{spk:14}ユウキ
 dlg:1937	text	rec:3728	149	{face:20111}{spk:03}トモミ「ブランク、行きましょう！」{wait}	{face:20111}{spk:03}Tomomi: "Blank, let's go!"{wait}	
 dlg:1938	text	rec:3736	149	　マーマレード海にうかぶ船{wait}	A Ship on the Marmalade Sea{wait}	
 dlg:1939	text	rec:3737	149	{face:00301}{face:10001}{face:30201}{face:20115}{spk:03}トモミ「だれも乗ってない・・・{br}　船をすててにげたみたいね」{wait}	{face:00301}{face:10001}{face:30201}{face:20115}{spk:03}Tomomi: "Nobody aboard... Looks like he abandoned ship and fled."{wait}	
-dlg:1940	text	rec:3738	149	{face:10007}{spk:02}ユウキ「外から追ってたらけっきょくにげられる―――{br}　内部に手をのばさないと」{wait}	{face:10007}{spk:02}Yuki: "Chasing from outside, he'll always get away-- We have to reach inside."{wait}	
+dlg:1940	text	rec:3738	149	{face:10007}{spk:02}ユウキ「外から追ってたらけっきょくにげられる―――{br}　内部に手をのばさないと」{wait}	{face:10007}{spk:02}Yuki: "Chase him from outside and he'll always get away-- We need a way into his organization."{wait}	
 dlg:1941	text	rec:3739	149	{face:20105}{spk:03}トモミ「ブランク、{br}　今度はあんたがうら切ってせんにゅうしなさいよ♪」{wait}	{face:20105}{spk:03}Tomomi: "Blank, this time you turn traitor and sneak in!"{wait}	
 dlg:1942	text	rec:3740	149	{face:00303}{spk:01}ブランク「やです」{wait}	{face:00303}{spk:01}Blank: "No thanks."{wait}	
 dlg:1943	text	rec:3741	149	{face:20115}{spk:03}トモミ「ゆうづうのきかない子ね」{wait}	{face:20115}{spk:03}Tomomi: "What an inflexible kid."{wait}	

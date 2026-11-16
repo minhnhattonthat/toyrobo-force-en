@@ -43,14 +43,14 @@ dlg:2350	text	rec:4522	149	{face:00302}{spk:01}ブランク「ブランクです
 dlg:2351	text	rec:4525	149	{face:00901}{face:20101}{face:30201}{face:10009}{spk:02}ユウキ「分かっている。空母だ」{wait}	{face:00901}{face:20101}{face:30201}{face:10009}{spk:02}Yuki: "I know. It's an aircraft carrier."{wait}	
 dlg:2352	text	rec:4526	149	{face:30206}{spk:04}ギリガン「空母だあ？{br}　何でそんなのがいると分かった」{wait}	{face:30206}{spk:04}Gilligan: "A carrier? How'd ya know that was out there?"{wait}	
 dlg:2353	text	rec:4527	149	{spk:02}ユウキ「爆撃機が火山の奥になかったからには、どこに隠していると言うのさ。{wait}	{spk:02}Yuki: "The bomber wasn't deep in the volcano, so where else would they hide it?{wait}	
-dlg:2354	text	rec:4528	149	{spk:02}　そこらに隠しておけるものじゃない、{br}隠すなら大海原だ。{br}　となれば、{wait}	{spk:02}You can't just hide it anywhere. If you hide it, it's out on the open sea. And so,{wait}	
+dlg:2354	text	rec:4528	149	{spk:02}　そこらに隠しておけるものじゃない、{br}隠すなら大海原だ。{br}　となれば、{wait}	{spk:02}You can't hide something that big just anywhere. It has to be out on the open sea. And so,{wait}	
 dlg:2355	text	rec:4529	149	{spk:02}　空母に乗せている以外、{br}考えられないじゃないか！」{wait}	{spk:02}it has to be on board an aircraft carrier. What else could it be?!"{wait}	
 dlg:2356	text	rec:4530	149	{face:10009}{face:00905}{spk:01}エミコ「全部こわして・・・{br}　リヒター君は、兵隊を動かすのが、{br}　楽しくてしかたがないんです」{wait}	{face:10009}{face:00905}{spk:01}Emiko: "Smash everything... Richter-kun just loves moving soldiers around."{wait}	
 dlg:2357	text	rec:4531	149	{face:30204}{spk:04}ギリガン「兵隊がリヒターのおもちゃか。{br}　ブランクはトイロボだぜ、ユウキのおもちゃさ。{wait}	{face:30204}{spk:04}Gilligan: "So soldiers are Richter's toys. Blank's a Toyrobo, so he's Yuki's toy.{wait}	
 dlg:2358	text	rec:4532	149	{face:30207}{spk:04}　やい、リヒター、見てるか！{br}　どっちのおもちゃが強いか、{br}　決着つけようぜ！」{wait}	{face:30207}{spk:04}Hey, Richter, ya watching?! Let's settle which toy's stronger!"{wait}	
 dlg:2359	text	rec:4533	149	リヒター「いいとも、命をかけようよ、　　　ギリガン・・・{br}　僕が勝ったら、カクゴしろよ―――！」{wait}	Richter: "Fine, let's bet our lives on it, Gilligan... If I win, you'd better be ready--!"{wait}	
 dlg:2360	text	rec:4534	149	{face:00000}{face:10000}{face:20803}{face:30000}{spk:03}リヒター「行け、空母『アルゴー！』{br}　ギリガンをたおせ！」{wait}	{face:00000}{face:10000}{face:20803}{face:30000}{spk:03}Richter: "Go, carrier 'Argo'! Take down Gilligan!"{wait}	
-dlg:2361	text	rec:4537	149	{face:10011}{spk:14}ユウキ「メンテを急げっ、空母をうばうまでやる！」{wait}	{face:10011}{spk:14}Yuki: "Hurry the maintenance! We keep at it until we take that carrier!"{wait}	
+dlg:2361	text	rec:4537	149	{face:10011}{spk:14}ユウキ「メンテを急げっ、空母をうばうまでやる！」{wait}	{face:10011}{spk:14}Yuki: "Hurry up with the maintenance! We won't stop until we take that carrier!"{wait}	
 dlg:2362	text	rec:4541	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「やい、リヒター、見たな？！{br}　てめえのおもちゃ、全部ぶっこわしてやったぜ！」{wait}	{face:10001}{face:20101}{face:30204}{spk:04}Gilligan: "Hey, Richter, ya see that?! I smashed every last one of your toys!"{wait}	
 dlg:2363	text	rec:4542	149	通信「ブランクです、空母はうばったけど、{br}・・・爆撃機なんてありませんが」{wait}	Radio: "This is Blank. We took the carrier, but... there's no bomber here."{wait}	
 dlg:2364	text	rec:4543	149	{face:20104}{spk:03}トモミ「そんなはずは・・・{br}{face:20110}　まさか、もう飛び立って？」{wait}	{face:20104}{spk:03}Tomomi: "That can't be... {face:20110}Don't tell me it's already taken off?"{wait}	

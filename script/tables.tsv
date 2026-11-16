@@ -92,9 +92,9 @@ descs:8	text	@3941B0	87	　テカのパーツこうかんだ。{br}　こうか�
 descs:9	text	@394208	87	　持っているテカをシティにおさめます。{br}　ほ助金が出るでしょう	Hands a Teka over to the City.{br}You should get a subsidy.	
 descs:10	text	@394260	87	　いらないテカをシティにひきとってもらうわ。{br}　ほ助金が出るわよ	The City takes Teka you don't need.{br}You get a subsidy!	
 descs:11	text	@3942B8	87	　いらねえテカをシティに売っぱらう。{br}　ほ助金が出るぞ	Sell off Teka ya don't need to the City.{br}You get a subsidy.	
-descs:12	text	@394310	87	　出撃メンバーを決めます。　４人までメンバーにできます	Chooses the sortie members. Up to 4 can be members.	
+descs:12	text	@394310	87	　出撃メンバーを決めます。　４人までメンバーにできます	Chooses the sortie team. You can take up to 4.	
 descs:13	text	@394368	87	　出撃メンバーを決めるわ。　４人までメンバーにできるよ	I'll pick the sortie members. Up to 4 can join.	
-descs:14	text	@3943C0	87	　出撃メンバーを決めるぜ。　４人しかつれていけねえからそのつもりでな	Pick the sortie members. Only 4 can come, so think it over.	
+descs:14	text	@3943C0	87	　出撃メンバーを決めるぜ。　４人しかつれていけねえからそのつもりでな	Let's pick who sorties. Only 4 can come, so keep that in mind!	
 descs:15	text	@394418	87	では組み立てを始めましょう▼	Let's start assembling.	
 descs:16	text	@394470	87	じゃあ組み立てを始めましょ▼	Okay, let's start assembling.	
 descs:17	text	@3944C8	87	じゃ、組み立てを始めるか▼	Right, let's start building.	
@@ -157,7 +157,7 @@ descs:73	text	@395808	87	　パソコプはどれにしようか▼	Which Pasoco
 descs:74	text	@395860	87	　パソコプはどうする▼	What about the Pasocop?	
 descs:75	text	@3958B8	87	　さっそくメンテしましょう。　費用は%dです{br}　　Ａ：はい　Ｂ：いいえ	Let's do maintenance now. The fee is %d yen.{br}A: Yes  B: No	
 descs:76	text	@395910	87	　さっそくメンテするわね。　　費用は%dよ{br}　　Ａ：はい　Ｂ：いいえ	I'll do maintenance now. The fee is %d yen.{br}A: Yes  B: No	
-descs:77	text	@395968	87	　とっととメンテしとこうぜ。　費用は%dだぞ{br}　　Ａ：はい　Ｂ：いいえ	Let's get maintenance done. It's %d yen.{br}A: Yes  B: No	
+descs:77	text	@395968	87	　とっととメンテしとこうぜ。　費用は%dだぞ{br}　　Ａ：はい　Ｂ：いいえ	Let's hurry and get this maintenance done! It'll cost ya %d yen. / A: Yes  B: No	
 descs:78	text	@3959C0	87	　これ以上オプションはそうびできませんね	It can't equip any more options.	
 descs:79	text	@395A18	87	　これ以上オプションはそうびできないわよ	It can't equip any more options!	
 descs:80	text	@395A70	87	　いくつオプションくっつける気だよ？	How many options ya gonna stick on?	
@@ -172,7 +172,7 @@ descs:88	text	@395D30	87	%s{br}　この子を売っちゃうの？{br}　　Ａ
 descs:89	text	@395D88	87	%s{br}　こいつを売っぱらうのか？{br}　　Ａ：はい　Ｂ：いいえ	%s{br}Gonna sell this one off?{br}A: Yes  B: No	
 descs:90	text	@395DE0	87	　ほ助金を%d受け取れますが、よろしいですか？{br}　　Ａ：はい　Ｂ：いいえ	You can receive a %d yen subsidy. Is that all right?{br}A: Yes  B: No	
 descs:91	text	@395E38	87	　ほ助金が%dもらえるけど、いいかな？{br}　　Ａ：はい　Ｂ：いいえ	You get a %d yen subsidy. Is that okay?{br}A: Yes  B: No	
-descs:92	text	@395E90	87	　ほ助金を%dもらえるが、もんくねえか？{br}　　Ａ：はい　Ｂ：いいえ	You get a %d yen subsidy. Any complaints?{br}A: Yes  B: No	
+descs:92	text	@395E90	87	　ほ助金を%dもらえるが、もんくねえか？{br}　　Ａ：はい　Ｂ：いいえ	Ya get a %d yen subsidy. Good enough? / A: Yes  B: No	
 descs:93	text	@395EE8	87	　だれのパーツをこうかんしますか？	Whose parts will you swap?	
 descs:94	text	@395F40	87	　だれのパーツをこうかんするの？	Whose parts are you swapping?	
 descs:95	text	@395F98	87	　だれのパーツをこうかんするんだ	Whose parts are we swapping?	
@@ -205,10 +205,10 @@ descs:121	text	@396888	87	　出撃メンバーからブランクを外しちゃ
 descs:122	text	@3968E0	87	　出撃メンバーからブランクを外すんじゃねえよ	Don't go taking Blank off the sortie team!	
 descs:123	text	@396938	87	るすばん：{br}　Ａボタンで出撃メンバーにします	Standby:{br}A Button adds it to the sortie.	
 descs:124	text	@396990	87	るすばん：{br}　Ａボタンで出撃メンバーにするわ	Standby:{br}I'll add it to the sortie with A.	
-descs:125	text	@3969E8	87	るすばん：{br}　Ａボタンで出撃メンバーにするぞ	Standby:{br}A Button puts it in the sortie.	
+descs:125	text	@3969E8	87	るすばん：{br}　Ａボタンで出撃メンバーにするぞ	Standby: / Hit A and I'll put it in the sortie!	
 descs:126	text	@396A40	87	出撃メンバー：{br}　Ａボタンでメンバーから外せます	Sortie member:{br}A Button removes it.	
 descs:127	text	@396A98	87	出撃メンバー：{br}　Ａボタンでメンバーから外すわよ	Sortie member:{br}I'll take it off with A.	
-descs:128	text	@396AF0	87	出撃メンバー：{br}　Ａボタンで　るすばんにさせるぜ	Sortie member:{br}A Button puts it on standby.	
+descs:128	text	@396AF0	87	出撃メンバー：{br}　Ａボタンで　るすばんにさせるぜ	Sortie member: / Hit A and I'll put it on standby!	
 descs:129	text	@396B48	87	　メンバーは４機までです。{br}　メンバーから１機選んで、{br}外してからにしてください	Up to 4 members.{br}Please choose one member{br}and remove it first.	
 descs:130	text	@396BA0	87	　メンバーは４機までよ。{br}　１機外してからでなくちゃ、メンバーに入れられないわ	Only 4 members! Take one out first, or I can't add any more.	
 descs:131	text	@396BF8	87	　メンバーは４機までだ。{br}　まずメンバーから１機外せよ	Only 4 members.{br}Take one out first.	
@@ -219,7 +219,7 @@ descs:135	text	@396D58	87	　お金が足りないようですが	It seems you d
 descs:136	text	@396DB0	87	　お金が足りないみたいね；	Looks like you're short on money!	
 descs:137	text	@396E08	87	　金が足りねえぞ・・・；	Ya don't have enough money...	
 descs:138	text	@396E60	87	　メンテのひつようはないようですが・・・	It doesn't seem to need maintenance...	
-descs:139	text	@396EB8	87	　この子、メンテするほど、　こわれてないよ？	This one isn't broken enough to need maintenance!	
+descs:139	text	@396EB8	87	　この子、メンテするほど、　こわれてないよ？	This one's hardly damaged. Does it really need maintenance?	
 descs:140	text	@396F10	87	　元気だぜ。{br}　メンテしなくても死なねえよ	It's fine.{br}It won't die without maintenance.	
 descs:141	text	@396F68	87	　それはブランクさんにしか使えませんね	Only Blank-san can use that.	
 descs:142	text	@396FC0	87	　それはブランクにしか使えないわ	Only Blank can use that.	

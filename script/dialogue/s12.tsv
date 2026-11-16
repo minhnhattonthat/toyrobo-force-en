@@ -2,7 +2,7 @@ id	kind	where	max	jp	en	notes
 dlg:1257	text	rec:2460	149	{face:00601}{face:10002}{spk:02}ユウキ「さいきんの反乱は、数こそ多いけど小きぼなものです。{br}　野球で言えば、バントヒットねらいです」{wait}	{face:00601}{face:10002}{spk:02}Yuki: "The recent revolts are many, but small. In baseball terms, they're going for bunt hits."{wait}	
 dlg:1258	text	rec:2461	149	{face:00602}{spk:01}署長「まあ、いぜんはホームランをねらってたのにな」{wait}	{face:00602}{spk:01}Chief: "Well, before they were swinging for home runs."{wait}	
 dlg:1259	text	rec:2462	149	{spk:02}ユウキ「内野手のぼくたちを、ホーム前にくぎづけにしたいんでしょう。{wait}	{spk:02}Yuki: "They want to pin us infielders down in front of home plate.{wait}	
-dlg:1260	text	rec:2463	149	{spk:02}　うらを返せば、べつの場所で新しいことをたくらんでる」{wait}	{spk:02}Turn that around, and they're plotting something new somewhere else."{wait}	
+dlg:1260	text	rec:2463	149	{spk:02}　うらを返せば、べつの場所で新しいことをたくらんでる」{wait}	{spk:02}Which means they're plotting something new somewhere else."{wait}	
 dlg:1261	text	rec:2464	149	{spk:01}署長「それが、こけももの都？」{wait}	{spk:01}Chief: "And that's Lingonberry Capital?"{wait}	
 dlg:1262	text	rec:2465	149	{spk:02}ユウキ「かくしんはありません。{br}　だから調べに行きたいのです」{wait}	{spk:02}Yuki: "I'm not sure. That's why I want to go and look into it."{wait}	
 dlg:1263	text	rec:2466	149	{spk:01}署長「ふむ。わかった。{br}　こけももの警察には、わたしかられんらくしておこう」{wait}	{spk:01}Chief: "Hm. All right. I'll contact the Lingonberry police myself."{wait}	
@@ -49,7 +49,7 @@ dlg:1303	text	rec:2525	149	{face:20115}{spk:03}トモミ「ユウキ、ねてる
 dlg:1304	text	rec:2526	149	{spk:02}ユウキ「きょうみない」{wait}	{spk:02}Yuki: "Not interested."{wait}	
 dlg:1305	text	rec:2528	149	{spk:03}トモミ「・・・しっけいな；；」{wait}	{spk:03}Tomomi: "...How rude!"{wait}	
 dlg:1306	text	rec:2532	149	{face:20101}{face:10012}{spk:02}ユウキ「・・・もう夜だ。ねるか―――」{wait}	{face:20101}{face:10012}{spk:02}Yuki: "...It's night already. Time for bed--"{wait}	
-dlg:1307	text	rec:2533	149	{face:20115}{spk:03}トモミ「こっち来るんじゃないわよ。{br}　あたしは空手二段、合気道三段、{br}管制技能一級よ」{wait}	{face:20115}{spk:03}Tomomi: "Don't you come over here. I'm a 2nd dan in karate, 3rd dan in aikido, and 1st grade in control skills."{wait}	
+dlg:1307	text	rec:2533	149	{face:20115}{spk:03}トモミ「こっち来るんじゃないわよ。{br}　あたしは空手二段、合気道三段、{br}管制技能一級よ」{wait}	{face:20115}{spk:03}Tomomi: "Don't you come near me! I'm a 2nd-dan in karate, 3rd-dan in aikido, and a 1st-class certified controller!"{wait}	
 dlg:1308	text	rec:2534	149	{spk:02}ユウキ「きょうみない。おやすみ」{wait}	{spk:02}Yuki: "Not interested. Good night."{wait}	
 dlg:1309	text	rec:2535	149	{face:10000}{face:20106}{spk:03}トモミ「なんか・・・しっけいな子ね；」{wait}	{face:10000}{face:20106}{spk:03}Tomomi: "What a... rude boy."{wait}	
 dlg:1310	text	rec:2538	149	{face:20101}{face:10012}{spk:02}ユウキ「・・・おはよー」{wait}	{face:20101}{face:10012}{spk:02}Yuki: "...Morning."{wait}	
@@ -64,7 +64,7 @@ dlg:1318	text	rec:2547	149	{face:10012}{spk:02}ユウキ「え；」{wait}	{face
 dlg:1319	text	rec:2548	149	{spk:01}ポリステカ「『人命そんちょうプログラム』なんか、とっくにはずされてますからね、{br}私たちは」{wait}	{spk:01}Polisteka: "Our 'respect for life program' was removed long ago."{wait}	
 dlg:1320	text	rec:2550	149	{face:01300}{face:20104}{spk:03}トモミ「なんなのよ、いったい；」{wait}	{face:01300}{face:20104}{spk:03}Tomomi: "What is with this place?"{wait}	
 dlg:1321	text	rec:2551	149	{face:10003}{spk:14}ユウキ「ひどい国だ・・・」{wait}	{face:10003}{spk:14}Yuki: "What a horrible country..."{wait}	
-dlg:1322	text	rec:2554	149	{face:10007}{spk:02}ユウキ「大声でさけべば―――{br}　ブランクの耳には聞こえるな。{br}　だれか来る前に指示を出しきらなくちゃ」{wait}	{face:10007}{spk:02}Yuki: "If I shout loud enough-- Blank's ears will hear it. I have to give all my orders before anyone comes."{wait}	
+dlg:1322	text	rec:2554	149	{face:10007}{spk:02}ユウキ「大声でさけべば―――{br}　ブランクの耳には聞こえるな。{br}　だれか来る前に指示を出しきらなくちゃ」{wait}	{face:10007}{spk:02}Yuki: "If I shout loud enough-- Blank will hear me. I have to get all my orders out before anyone comes."{wait}	
 dlg:1323	text	rec:2555	149	{face:20104}{spk:03}トモミ「なにする気？{br}　あぶないまねはしない方がいいわよ」{wait}	{face:20104}{spk:03}Tomomi: "What are you going to do? Better not try anything dangerous."{wait}	
 dlg:1324	text	rec:2557	149	{face:10002}{spk:02}ユウキ「ブランク！！」{wait}	{face:10002}{spk:02}Yuki: "Blank!!"{wait}	
 dlg:1325	text	rec:2558	149	{face:20116}{spk:03}トモミ「ちょ、ちょっと！{br}　署長が助けてくれるまで、{br}待った方がいいって！」{wait}	{face:20116}{spk:03}Tomomi: "H-hey! We'd better wait for the Chief to rescue us!"{wait}	

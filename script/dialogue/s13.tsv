@@ -83,7 +83,7 @@ dlg:1443	text	rec:2782	149	{face:10001}{face:30301}{face:20106}{spk:03}トモミ
 dlg:1444	text	rec:2783	149	{face:10002}{spk:02}ユウキ「通路が左に分かれてる」	{face:10002}{spk:02}Yuki: "The passage branches to the left."	
 dlg:1445	text	rec:2784	149	{spk:03}トモミ「そっちからネズミの声がするってば；」{wait}	{spk:03}Tomomi: "I told you, I hear rats from there!"{wait}	
 dlg:1446	text	rec:2790	149	{face:10002}{spk:02}ユウキ「外は・・・だれもいない。{br}　いまのうちに出ようっ」{wait}	{face:10002}{spk:02}Yuki: "Outside... nobody. Let's get out while we can."{wait}	
-dlg:1447	text	rec:2791	149	{face:20105}{spk:03}トモミ「助かったあ；；　　　　　　　　{br}{face:20106}　もう下水道はいやよ」{wait}	{face:20105}{spk:03}Tomomi: "Saved...{face:20106} No more sewers for me."{wait}	
+dlg:1447	text	rec:2791	149	{face:20105}{spk:03}トモミ「助かったあ；；　　　　　　　　{br}{face:20106}　もう下水道はいやよ」{wait}	{face:20105}{spk:03}Tomomi: "We made it... {face:20106}No more sewers for me."{wait}	
 dlg:1448	text	rec:2792	149	{face:10012}{spk:02}ユウキ「といって道をどうどうと歩けない。{br}　そこのそうこを通りぬけるか」{wait}	{face:10012}{spk:02}Yuki: "But we can't walk openly down the street. Shall we go through that warehouse?"{wait}	
 dlg:1449	text	rec:2796	149	　工場街{wait}	Factory District{wait}	
 dlg:1450	text	rec:2797	149	{face:20116}{spk:03}トモミ「追っ手！　こっちくるわよ！」{wait}	{face:20116}{spk:03}Tomomi: "Pursuers! They're coming this way!"{wait}	
@@ -113,14 +113,14 @@ dlg:1473	text	rec:2835	149	{face:10002}{spk:02}ユウキ「こわされた？{br
 dlg:1474	text	rec:2836	149	{spk:01}ワークテカ「下水道で、こけもも警察にやられちゃったんですよ。{wait}	{spk:01}Workteka: "In the sewer, by the Lingonberry police.{wait}	
 dlg:1475	text	rec:2837	149	{spk:01}　下水道じゃ配線がネズミにかじられて、{br}　めちゃくちゃにされるんだ。{br}　直せなくなっちまいますよ―――」{wait}	{spk:01}In the sewer the rats chew up your wiring and wreck it. It can't be fixed--"{wait}	
 dlg:1476	text	rec:2838	149	{face:10007}{spk:02}ユウキ「きっと―――{br}　署長がぼくたちをさがさせるのに、{br}　送り込んだポリステカだ」{wait}	{face:10007}{spk:02}Yuki: "It must be-- the Polisteka the Chief sent to look for us."{wait}	
-dlg:1477	text	rec:2839	149	{face:20115}{spk:03}トモミ「あたしたちのために―――{br}　悪いことしたわね」{wait}	{face:20115}{spk:03}Tomomi: "For our sake-- We feel terrible."{wait}	
+dlg:1477	text	rec:2839	149	{face:20115}{spk:03}トモミ「あたしたちのために―――{br}　悪いことしたわね」{wait}	{face:20115}{spk:03}Tomomi: "All for our sake-- I feel awful about it."{wait}	
 dlg:1478	text	rec:2843	149	{face:10001}{face:20101}{face:30301}{face:01202}{spk:01}ワークテカ「さ、このうらを通ればゲートまですぐだ。{br}　そこからアプリコットに帰れますよ」{wait}	{face:10001}{face:20101}{face:30301}{face:01202}{spk:01}Workteka: "Now, go out the back here and the gate's right there. You can get back to Apricot from there."{wait}	
 dlg:1479	text	rec:2845	149	{face:10012}{spk:02}ユウキ「さて、どうするかな」{wait}	{face:10012}{spk:02}Yuki: "Now, what to do..."{wait}	
 dlg:1480	text	rec:2847	149	{face:20115}{spk:03}トモミ「急いで帰りましょ、こんなとこ、{br}　もういやだわ」{wait}	{face:20115}{spk:03}Tomomi: "Let's hurry home. I've had enough of this place."{wait}	
 dlg:1481	text	rec:2848	149	{face:10012}{spk:02}ユウキ「・・・ギリガンをみすてて帰る？」{wait}	{face:10012}{spk:02}Yuki: "...Abandon Gilligan and go home?"{wait}	
 dlg:1482	text	rec:2849	149	{face:20105}{spk:03}トモミ「ギリガン？　ああ、わすれてたわ」{wait}	{face:20105}{spk:03}Tomomi: "Gilligan? Oh, I forgot about him."{wait}	
 dlg:1483	text	rec:2852	149	{face:10002}{spk:02}ユウキ「ぼくたちが工場街ですがたを消したのは分かっているはずだから―――」{wait}	{face:10002}{spk:02}Yuki: "They must know we vanished in the factory district, so--"{wait}	
-dlg:1484	text	rec:2853	149	{face:20106}{spk:03}トモミ「追っ手がまだ、うろうろさがしてくれているのね；」{wait}	{face:20106}{spk:03}Tomomi: "The pursuers are still kindly wandering around looking for us."{wait}	
+dlg:1484	text	rec:2853	149	{face:20106}{spk:03}トモミ「追っ手がまだ、うろうろさがしてくれているのね；」{wait}	{face:20106}{spk:03}Tomomi: "So the pursuers are still out looking for us. How thoughtful."{wait}	
 dlg:1485	text	rec:2854	149	声「見つけたぞ、手配犯だ！」{br}声「こっちだ、追えー！」{wait}	Voice: "Found them, the wanted ones!" Voice: "This way, after them!"{wait}	
 dlg:1486	text	rec:2858	149	{face:01202}{spk:01}ワークテカ「今度はとくべつ警察をおそう？　あそこは対空地雷にびっちり守られてて、とても近よれないですよ」{wait}	{face:01202}{spk:01}Workteka: "Now you'll attack the special police? It's packed with anti-air mines. You can't get near it."{wait}	
 dlg:1487	text	rec:2859	149	{face:20104}{spk:03}トモミ「あらそう。{br}　じゃあギリガンはあきらめましょうか」{wait}	{face:20104}{spk:03}Tomomi: "Oh, really. Then shall we give up on Gilligan?"{wait}	
@@ -146,7 +146,7 @@ dlg:1506	text	rec:2930	149	{face:10001}{face:30301}{face:20115}{spk:03}トモミ
 dlg:1507	text	rec:2931	149	{face:10002}{spk:02}ユウキ「通路が左に分かれてる」	{face:10002}{spk:02}Yuki: "The passage branches to the left."	
 dlg:1508	text	rec:2932	149	{spk:03}トモミ「そっちからネズミの声がする；」{wait}	{spk:03}Tomomi: "I hear rats from there."{wait}	
 dlg:1509	text	rec:2938	149	{face:10002}{spk:02}ユウキ「外は・・・だれもいない。{br}　いまのうちに出ようっ」{wait}	{face:10002}{spk:02}Yuki: "Outside... nobody. Let's get out while we can."{wait}	
-dlg:1510	text	rec:2939	149	{face:20105}{spk:03}トモミ「助かったあ♪」{wait}	{face:20105}{spk:03}Tomomi: "Saved!"{wait}	
+dlg:1510	text	rec:2939	149	{face:20105}{spk:03}トモミ「助かったあ♪」{wait}	{face:20105}{spk:03}Tomomi: "What a relief!"{wait}	
 dlg:1511	text	rec:2940	149	{face:10012}{spk:02}ユウキ「とは言え追っ手がうろついていることに、かわりないし―――{br}{face:10005}　また見つかってしまったりするし；」{wait}	{face:10012}{spk:02}Yuki: "Still, the pursuers are still wandering around--{face:10005} And we keep getting found."{wait}	
 dlg:1512	text	rec:2941	149	{face:20106}{spk:03}トモミ「またにげるの；{br}　つかれるわねー；」{wait}	{face:20106}{spk:03}Tomomi: "Running again? How tiring."{wait}	
 dlg:1513	text	rec:2944	149	{face:20101}{face:30301}{face:10007}{spk:02}ユウキ「ニセ警官をはけんした博士のすばやさ、あきらかに『こけももちょうほうぶ』のしわざだ。{wait}	{face:20101}{face:30301}{face:10007}{spk:02}Yuki: "How fast the Doctor sent fake officers... That's clearly 'Lingonberry Intelligence' at work.{wait}	
@@ -169,7 +169,7 @@ dlg:1529	text	rec:2987	149	{face:10006}{spk:02}ユウキ「くそ。博士もに
 dlg:1530	text	rec:2988	149	{face:20103}{spk:03}トモミ「あわててにげたみたいね、{br}パーツほうり出して。{br}　お目当てのものは―――{br}{face:20105}　あったあった♪」{wait}	{face:20103}{spk:03}Tomomi: "Looks like he fled in a hurry, leaving parts behind. And what we came for--{face:20105} Found it!"{wait}	
 dlg:1531	text	rec:2990	149	オプション『ステルスシールド』を{br}　手に入れました。{wait}	Got the option 'Stealth Shield'.{wait}	
 dlg:1532	text	rec:2992	149	右腕『アイススマッシュ』を{br}　手に入れました。{wait}	Got the right arm 'Ice Smash'.{wait}	
-dlg:1533	text	rec:2994	149	左腕『パロリオット』を{br}　手に入れました。{wait}	Got the left arm 'Pariot'.{wait}	
+dlg:1533	text	rec:2994	149	左腕『パロリオット』を{br}　手に入れました。{wait}	Got the left arm 'Paroriot'.{wait}	
 dlg:1534	text	rec:2998	149	{face:20115}{spk:03}トモミ「いま行ったら思いきりやばい・・・って思わない？」{wait}	{face:20115}{spk:03}Tomomi: "Don't you think going now would be seriously dangerous?"{wait}	
 dlg:1535	text	rec:3000	149	{face:01202}{spk:01}ワークテカ「へえ、これがステルスシールドですか。{br}　きねんに写真とっておこうかな」{wait}	{face:01202}{spk:01}Workteka: "Wow, so this is a Stealth Shield. Maybe I'll take a photo as a souvenir."{wait}	
 dlg:1536	text	rec:3003	149	{face:10009}{spk:02}ユウキ「ステルスシールドはそうびしたね。{br}　じゃあ行こう！」{wait}	{face:10009}{spk:02}Yuki: "Stealth Shield equipped? Then let's go!"{wait}	
@@ -186,13 +186,13 @@ dlg:1546	text	rec:3029	149	{face:20101}{face:10010}{spk:02}ユウキ「さあ、
 dlg:1547	text	rec:3030	149	{face:10010}　ついでにギリガンを助け出すんだ！」	{face:10010}And rescue Gilligan while we're at it!"	
 dlg:1548	text	rec:3031	149	通信「ついでですね；　コンファー」{wait}	Radio: "While we're at it, huh? Confirm."{wait}	
 dlg:1549	text	rec:3034	149	{face:00301}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「ギリガン！{br}　だいじょうぶだった？」{wait}	{face:00301}{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "Gilligan! Are you okay?"{wait}	
-dlg:1550	text	rec:3035	149	{face:30206}{spk:04}ギリガン「やっと来やがった。{br}　{face:30207}おそいぞ、お前ら！　急げ、中庭に超高速パソコプ『クリスティ』がある！{wait}	{face:30206}{spk:04}Gilligan: "Finally.{face:30207} You're late! Hurry, there's a super-fast Pasocop 'Christie' in the courtyard!{wait}	
+dlg:1550	text	rec:3035	149	{face:30206}{spk:04}ギリガン「やっと来やがった。{br}　{face:30207}おそいぞ、お前ら！　急げ、中庭に超高速パソコプ『クリスティ』がある！{wait}	{face:30206}{spk:04}Gilligan: "About time! {face:30207}You're late, you lot! Hurry, a super-fast Pasocop 'Christie' is in the courtyard!{wait}	
 dlg:1551	text	rec:3036	149	{face:30204}{spk:04}　めったに手に入らないんだ、しょうこぶっけんの『おうしゅう』といこうぜ！」{wait}	{face:30204}{spk:04}They're real hard to get. Let's go 'seize the evidence'!"{wait}	
 dlg:1552	text	rec:3038	149	パソコプ『クリスティ』を{br}　手に入れました。{wait}	Got the Pasocop 'Christie'.{wait}	
 dlg:1553	text	rec:3042	149	　新しいかくれ家{wait}	The New Hideout{wait}	
-dlg:1554	text	rec:3043	149	{face:10801}{face:30901}{face:00702}{spk:01}ゲオルグ博士「やるな、あの子たち・・・{br}　なにか、からめ手でも使わなければいかんか」{wait}	{face:10801}{face:30901}{face:00702}{spk:01}Dr. Georg: "Those kids are good... I may have to use some indirect means."{wait}	
+dlg:1554	text	rec:3043	149	{face:10801}{face:30901}{face:00702}{spk:01}ゲオルグ博士「やるな、あの子たち・・・{br}　なにか、からめ手でも使わなければいかんか」{wait}	{face:10801}{face:30901}{face:00702}{spk:01}Dr. Georg: "They're good, those youngsters... Seems I'll have to try a little cunning."{wait}	
 dlg:1555	text	rec:3044	149	{face:10802}{spk:02}リヒター「ブランクをねらおう、{br}　あいつが一番の敵さ。{br}　あいつさえいなきゃ、どうにでもなる」{wait}	{face:10802}{spk:02}Richter: "Let's go after Blank. He's our biggest enemy. Without him, we can do anything."{wait}	
-dlg:1556	text	rec:3045	149	{spk:01}博士「いやいや、軍隊でもトカゲでも頭をつぶさにゃいかん。{br}　あのユウキって子こそ敵じゃ。{wait}	{spk:01}Doctor: "No, no. With armies or lizards, you must crush the head. That boy Yuki is the enemy.{wait}	
-dlg:1557	text	rec:3046	149	{spk:01}　『将を射んと欲すれば馬を射よ』―――{br}　あの子の馬はだれじゃ」{wait}	{spk:01}'To shoot the general, first shoot his horse'-- Who is that boy's horse?"{wait}	
+dlg:1556	text	rec:3045	149	{spk:01}博士「いやいや、軍隊でもトカゲでも頭をつぶさにゃいかん。{br}　あのユウキって子こそ敵じゃ。{wait}	{spk:01}Doctor: "No, no. Army or lizard, ya must crush the head. That Yuki lad is our real enemy.{wait}	
+dlg:1557	text	rec:3046	149	{spk:01}　『将を射んと欲すれば馬を射よ』―――{br}　あの子の馬はだれじゃ」{wait}	{spk:01}'To shoot the general, first shoot his horse'-- Now, who's that lad's horse?"{wait}	
 dlg:1558	text	rec:3047	149	{spk:02}リヒター「ブランクだろ」{wait}	{spk:02}Richter: "Blank, right?"{wait}	
-dlg:1559	text	rec:3048	149	{spk:01}博士「あのトイロボは刀じゃ。{br}　へたにふれんほうがいい・・・{br}{face:00703}　となれば―――」{wait}	{spk:01}Doctor: "That Toyrobo is his sword. Best not to touch it carelessly...{face:00703} So then--"{wait}	
+dlg:1559	text	rec:3048	149	{spk:01}博士「あのトイロボは刀じゃ。{br}　へたにふれんほうがいい・・・{br}{face:00703}　となれば―――」{wait}	{spk:01}Doctor: "That Toyrobo is his sword. Best not meddle with it... {face:00703}Which leaves--"{wait}	

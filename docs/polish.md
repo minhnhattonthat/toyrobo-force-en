@@ -1,0 +1,10 @@
+# Polish pass
+
+Minor findings deferred from reviews. Tick each `[x]` when fixed or `waived: reason`; the release script refuses to
+run while any line is unticked.
+
+## Phase 6 reviewer pass (codex exec, reports in work/qa/review/rep_A-J.md)
+- [ ] dlg:0105 - "An 'Out of Control' has occurred" reads awkwardly; try "there's been an 'Out of Control' incident at Camembert Ranch"
+- [ ] dlg:0119, dlg:0176 - "Earn all the results you can" unnatural; "Get the best results you can and secure enough funding"
+- [ ] dlg:0219, dlg:0224, dlg:0248 - repeated "Sortieing" is ungainly; "Heading out without telling the Instructor?"
+- [x] dlg:1258, 1261, 1263, 1266, 1335, 1337, 1339, 1341 - speaker "Chief:" vs "Chief Sumita:" - waived: JP label is 署長 alone, "Chief" is its glossary form; スミタ署長 rows already read "Chief Sumita:"

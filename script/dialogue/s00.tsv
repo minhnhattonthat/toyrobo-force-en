@@ -19,6 +19,6 @@ dlg:0016	text	rec:28	149	{face:00501}{face:30602}{spk:16}スミタ署長「や�
 dlg:0017	text	rec:29	149	{spk:16}　テカがあばれだしても、わらっているだけでしょう。{br}　出動させるのはムリです」{wait}	{spk:16}If Teka started running riot, they'd only laugh. We can't send them out."{wait}	
 dlg:0018	text	rec:30	149	{face:00502}{spk:09}市長「ふうん。ま、いいじゃないか。{br}　そのために、人間警官を育てているのだろう？」{wait}	{face:00502}{spk:09}Mayor: "Hmm. Well, so what?{br}Isn't that why you're training human officers?"{wait}	
 dlg:0019	text	rec:31	149	{spk:16}署長「まだ訓練中の子供なんですよ。{br}　いま、テカ犯罪が起きたら、マスコミにたいさくのおくれを追求されます」{wait}	{spk:16}Chief: "They're still children in training. If a Teka crime happens now, the press will slam us for being slow."{wait}	
-dlg:0020	text	rec:32	149	{face:00505}{spk:09}市長「次のせんきょにひびくな―――{br}　君もクビだぞ、楽しみにしていたたいしょく金はパアだ」{wait}	{face:00505}{spk:09}Mayor: "That would cost me the next election-- and you'd be fired. Goodbye to that pension you're counting on."{wait}	
+dlg:0020	text	rec:32	149	{face:00505}{spk:09}市長「次のせんきょにひびくな―――{br}　君もクビだぞ、楽しみにしていたたいしょく金はパアだ」{wait}	{face:00505}{spk:09}Mayor: "That would cost me the next election-- and you'd be fired. Kiss that retirement payout goodbye."{wait}	
 dlg:0021	text	rec:33	149	{spk:16}署長「だから、ご相談なのですよ。{br}　もしいま、テカ犯罪がおきたら・・・{wait}	{spk:16}Chief: "That's why I came to you.{br}If a Teka crime were to happen now...{wait}	
 dlg:0022	text	rec:34	149	{spk:16}　・・・ここではだれかに聞かれるかもしれない。おくで・・・」{wait}	{spk:16}...Someone might overhear us here. Let's talk in the back..."{wait}	

@@ -1,9 +1,9 @@
 id	kind	where	max	jp	en	notes
-dlg:0973	text	rec:1849	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「署長がねばって、１機でも多くソルジャーをかりるんだって」{wait}	{face:20101}{face:30201}{face:10012}{spk:02}Yuki: "The Chief is holding out to borrow even one more Soldier."{wait}	
+dlg:0973	text	rec:1849	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「署長がねばって、１機でも多くソルジャーをかりるんだって」{wait}	{face:20101}{face:30201}{face:10012}{spk:02}Yuki: "The Chief's still pushing to borrow as many Soldiers as he can."{wait}	
 dlg:0974	text	rec:1850	149	{face:30203}{spk:04}ギリガン「市長の役目だろうに。{br}　こわくて将軍に会いたくないから、かってに帰ったな。{br}　こしぬけめ」{wait}	{face:30203}{spk:04}Gilligan: "That's the Mayor's job. Too scared to face the General, so he went home. Coward."{wait}	
 dlg:0975	text	rec:1851	149	{face:20103}{spk:03}トモミ「リアナさんも、あんな父親見て育ったんじゃねえ。{br}　ブランクの強さにあこがれるわけだわ」{wait}	{face:20103}{spk:03}Tomomi: "Growing up watching a father like that, no wonder Riana-san admires Blank's strength."{wait}	
 dlg:0976	text	rec:1852	149	{face:00303}{spk:01}ブランク「はい、よびました？{br}　なんでもない？{br}　じゃ、せんたくのつづきを―――」{wait}	{face:00303}{spk:01}Blank: "Yes, did you call me? Nothing? Then back to the laundry--"{wait}	
-dlg:0977	text	rec:1853	149	{face:00300}{spk:04}ギリガン「白馬の王子様が、おれのトランクスを洗ってるぜ」{wait}	{face:00300}{spk:04}Gilligan: "The prince on the white horse is washing my boxers."{wait}	
+dlg:0977	text	rec:1853	149	{face:00300}{spk:04}ギリガン「白馬の王子様が、おれのトランクスを洗ってるぜ」{wait}	{face:00300}{spk:04}Gilligan: "Prince Charming is washing my boxers."{wait}	
 dlg:0978	text	rec:1854	149	{spk:03}トモミ「それぐらい自分で洗いなさいよ」{wait}	{spk:03}Tomomi: "Wash those yourself, at least."{wait}	
 dlg:0979	text	rec:1855	149	{face:30202}{spk:04}ギリガン「トモミは洗わせないのか」{wait}	{face:30202}{spk:04}Gilligan: "You don't have him wash yours, Tomomi?"{wait}	
 dlg:0980	text	rec:1856	149	{face:20106}{spk:03}トモミ「洗わせるわけないでしょ！」{wait}	{face:20106}{spk:03}Tomomi: "As if I would!"{wait}	
@@ -13,7 +13,7 @@ dlg:0983	text	rec:1860	149	{face:10007}{spk:02}ユウキ「軍用はプログラ
 dlg:0984	text	rec:1861	149	{face:30204}{spk:04}ギリガン「へっ、クーデターでも起きたんじゃねえか」{wait}	{face:30204}{spk:04}Gilligan: "Heh, maybe there's been a coup."{wait}	
 dlg:0985	text	rec:1865	149	{face:31902}{face:01702}{spk:01}モーデル将軍「『獅子身中の虫』とはこのことだな。{br}　軍にこれだけうら切り者がいたとは」{wait}	{face:31902}{face:01702}{spk:01}General Mordel: "A 'viper in my bosom' indeed. To think the army had so many traitors."{wait}	
 dlg:0986	text	rec:1866	149	{spk:04}ソルジャー「では将軍、みがらをかくほさせていただきます」{wait}	{spk:04}Soldier: "Now, General, we will take you into custody."{wait}	
-dlg:0987	text	rec:1867	149	{spk:01}将軍「貴様ら、アプリコットの反乱と同じなのか？{br}　だれかにあやつられているのか？」{wait}	{spk:01}General: "Are you like the revolt in Apricot? Is someone controlling you?"{wait}	
+dlg:0987	text	rec:1867	149	{spk:01}将軍「貴様ら、アプリコットの反乱と同じなのか？{br}　だれかにあやつられているのか？」{wait}	{spk:01}General: "Is this another revolt, like Apricot's? Is someone controlling you?"{wait}	
 dlg:0988	text	rec:1868	149	{spk:04}ソルジャー「いえ。{br}　われわれは、エルヴィン大佐の命令にしたがっています」{wait}	{spk:04}Soldier: "No. We are following the orders of Colonel Erwin."{wait}	
 dlg:0989	text	rec:1869	149	{spk:01}将軍「エルヴィン？{br}　あの男は、軍人のくせに『ぐんしゅく』をとなえている男だぞ。{wait}	{spk:01}General: "Erwin? That man calls for 'disarmament' though he's a soldier!{wait}	
 dlg:0990	text	rec:1870	149	{spk:01}　やつにしたがったら、お前たちも『平和かいぞう』などとバカなまねをされるのだぞ」{wait}	{spk:01}Follow him and you'll be put through some idiotic 'peace conversion'!"{wait}	
@@ -58,7 +58,7 @@ dlg:1028	text	rec:1959	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ
 dlg:1029	text	rec:1960	149	{face:01902}{spk:01}ソルジャー「そーっと、つかまえてやろう」{wait}	{face:01902}{spk:01}Soldier: "And quietly, I'll catch you."{wait}	
 dlg:1030	text	rec:1961	149	{face:10012}{spk:02}ユウキ「え；」{wait}	{face:10012}{spk:02}Yuki: "Huh?"{wait}	
 dlg:1031	text	rec:1962	149	{spk:01}ソルジャー「人間はたんじゅんだな。{br}　いないフリをしてるとすぐひっかかる」{wait}	{spk:01}Soldier: "Humans are simple. Pretend you're not there and they fall for it."{wait}	
-dlg:1032	text	rec:1963	149	{face:10005}{spk:02}ユウキ「テカに言われるのはしゃくだな；」{wait}	{face:10005}{spk:02}Yuki: "Galling to hear that from a Teka."{wait}	
+dlg:1032	text	rec:1963	149	{face:10005}{spk:02}ユウキ「テカに言われるのはしゃくだな；」{wait}	{face:10005}{spk:02}Yuki: "Being told that by a Teka really stings..."{wait}	
 dlg:1033	text	rec:1964	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}	{spk:01}Soldier: "From another City, eh? Stop wandering and stay quietly in the hotel!"{wait}	
 dlg:1034	text	rec:1967	149	{face:30204}{spk:04}ギリガン「ようし。行っちまえっ」{wait}	{face:30204}{spk:04}Gilligan: "All right. Let's just rush it!"{wait}	
 dlg:1035	text	rec:1968	149	{face:10006}{spk:02}ユウキ「ちょっと、ムリだよっ」{wait}	{face:10006}{spk:02}Yuki: "Hey, that's impossible!"{wait}	
@@ -71,7 +71,7 @@ dlg:1041	text	rec:1981	149	{face:20115}{face:30206}{face:10002}{spk:02}ユウキ
 dlg:1042	text	rec:1983	149	{spk:02}ユウキ「下がって！{spk:00}{face:10001}{face:20101}{face:30201}{face:01902}{br}　ソルジャーだ、うらにかくれていたな。{wait}	{spk:02}Yuki: "Back!{spk:00}{face:10001}{face:20101}{face:30201}{face:01902} A Soldier, hiding out back.{wait}	
 dlg:1043	text	rec:1984	149	{face:00000}　・・・よし、向こうに行った」{face:10002}{wait}	{face:00000}...Okay, it's gone."{face:10002}{wait}	
 dlg:1044	text	rec:1986	149	{face:10002}{spk:02}ユウキ「・・・もうだれもいないようだ。{br}　行こう」{wait}	{face:10002}{spk:02}Yuki: "...Looks like nobody's left. Let's go."{wait}	
-dlg:1045	text	rec:1987	149	{face:20106}{spk:03}トモミ「・・・前がいなくなると後ろから来たりして；」{wait}	{face:20106}{spk:03}Tomomi: "...When the front's clear, they come from behind..."{wait}	
+dlg:1045	text	rec:1987	149	{face:20106}{spk:03}トモミ「・・・前がいなくなると後ろから来たりして；」{wait}	{face:20106}{spk:03}Tomomi: "...Just watch, now the front's clear, one'll come from behind..."{wait}	
 dlg:1046	text	rec:1988	149	{face:01902}{spk:01}ソルジャー「なんだ、お前たちは？」{wait}	{face:01902}{spk:01}Soldier: "What, who are you?"{wait}	
 dlg:1047	text	rec:1989	149	{face:10003}{spk:14}ユウキ「ありゃ；　様子の見すぎか」{wait}	{face:10003}{spk:14}Yuki: "Whoops. Watched a bit too long."{wait}	
 dlg:1048	text	rec:1990	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}	{spk:01}Soldier: "From another City, eh? Stop wandering and stay quietly in the hotel!"{wait}	
@@ -127,7 +127,7 @@ dlg:1097	text	rec:2076	149	{face:00603}{spk:01}署長「平和クーデターだ
 dlg:1098	text	rec:2078	149	{face:00601}{face:10001}テレビの声「外には出ん方が、ええぞ！」{wait}	{face:00601}{face:10001}Voice on TV: "Ye'd best not go outside!"{wait}	
 dlg:1099	text	rec:2079	149	{face:10002}{spk:02}ユウキ「え？　なんだ―――{br}　テレビ？{br}　電波ジャックか・・・？」{wait}	{face:10002}{spk:02}Yuki: "Huh? What-- The TV? A broadcast hijack...?"{wait}	
 dlg:1100	text	rec:2080	149	{face:00000}{face:10000}{face:32102}{spk:04}テレビ「カシスのみなさん。{br}　わしはゲオルグという、{br}　ひじょうにすぐれた工学博士じゃ。{wait}	{face:00000}{face:10000}{face:32102}{spk:04}TV: "People of Cassis. I am Georg, a most brilliant doctor of engineering.{wait}	
-dlg:1101	text	rec:2081	149	{spk:04}　外には出ない方がよいぞ！{br}　クーデターがおさまって、やれやれと思っていたのだろうが、ひゃひゃひゃ・・・{wait}	{spk:04}You'd best not go outside! You thought the coup was over, phew, didn't you? Hya hya hya...{wait}	
+dlg:1101	text	rec:2081	149	{spk:04}　外には出ない方がよいぞ！{br}　クーデターがおさまって、やれやれと思っていたのだろうが、ひゃひゃひゃ・・・{wait}	{spk:04}You'd best not go outside! Thought you could breathe easy now the coup was over, did you? Heh heh heh...{wait}	
 dlg:1102	text	rec:2082	149	{spk:04}　ソルジャーが武器をすてたおかげで、やっとテカをあやつれるようになったわい！」{wait}	{spk:04}Thanks to the Soldiers dropping their weapons, I can finally control the Teka!"{wait}	
 dlg:1103	text	rec:2083	149	{face:30000}{face:00602}{spk:01}署長「なんだとっ」{wait}	{face:30000}{face:00602}{spk:01}Chief: "What?!"{wait}	
 dlg:1104	text	rec:2084	149	{face:10006}{spk:02}ユウキ「・・・この人が、{br}　テカ反乱の『くろまく』？」{wait}	{face:10006}{spk:02}Yuki: "...This man is the 'mastermind' behind the Teka Revolt?"{wait}	
@@ -154,7 +154,7 @@ dlg:1124	text	rec:2111	149	{face:30206}{spk:04}ギリガン「もうここに用
 dlg:1125	text	rec:2115	149	{face:00602}{spk:01}署長「将軍は中にいる。{br}　とつにゅうするかね？！」{wait}	{face:00602}{spk:01}Chief: "The General is inside. Shall we storm it?!"{wait}	
 dlg:1126	text	rec:2122	149	{face:00602}{spk:01}署長「なんとか工場はかくほした、{br}　そこで再出撃のじゅんびだ！」{wait}	{face:00602}{spk:01}Chief: "We've secured the factory somehow. Get ready to sortie again there!"{wait}	
 dlg:1127	text	rec:2126	149	{face:30206}{spk:04}ギリガン「もうここに用はねえっ」{wait}	{face:30206}{spk:04}Gilligan: "Nothing more for us here!"{wait}	
-dlg:1128	text	rec:2128	149	{face:20103}{spk:03}トモミ「やっぱワークテカはいないか。{br}　いいわ、あたしがメンテしてやっから！」{wait}	{face:20103}{spk:03}Tomomi: "No Workteka, as expected. Fine, I'll do the maintenance myself!"{wait}	
+dlg:1128	text	rec:2128	149	{face:20103}{spk:03}トモミ「やっぱワークテカはいないか。{br}　いいわ、あたしがメンテしてやっから！」{wait}	{face:20103}{spk:03}Tomomi: "Figures, no Workteka. Fine, I'll handle the maintenance myself!"{wait}	
 dlg:1129	text	rec:2131	149	{face:30206}{spk:04}ギリガン「もうここに用はねえっ」{wait}	{face:30206}{spk:04}Gilligan: "Nothing more for us here!"{wait}	
 dlg:1130	text	rec:2135	149	{face:00602}{spk:01}署長「とつにゅうするかね？！」{wait}	{face:00602}{spk:01}Chief: "Shall we storm it?!"{wait}	
 dlg:1131	text	rec:2143	149	{face:30001}{face:01702}{spk:01}将軍「君に助けられるとは思わなかった。{br}　礼は言おう」{wait}	{face:30001}{face:01702}{spk:01}General: "I never thought you'd be the one to rescue me. You have my thanks."{wait}	
@@ -171,7 +171,7 @@ dlg:1141	text	rec:2156	149	{face:20802}{spk:03}リヒター「じゃあ博士、
 dlg:1142	text	rec:2157	149	{spk:02}博士「うん？　カシスをばくげきする気か」{wait}	{spk:02}Doctor: "Hm? You mean to bomb Cassis?"{wait}	
 dlg:1143	text	rec:2158	149	{spk:03}リヒター「し、博士、ばくげき機だってばれたら、エミコさんにおこられる」{wait}	{spk:03}Richter: "Sh, Doctor! If she finds out it's a bomber, Emiko-san will be angry."{wait}	
 dlg:1144	text	rec:2159	149	{face:30906}{spk:04}エミコ「聞こえました―――　　　　　　{br}{face:30902}　博士、お茶を。{br}　リヒター君の分も」{wait}	{face:30906}{spk:04}Emiko: "I heard that--{face:30902} Doctor, your tea. And some for Richter-kun."{wait}	
-dlg:1145	text	rec:2160	149	{spk:03}リヒター「ぼくは飲めないよ・・・{br}　病気で機械の体になっちゃったんだ。{br}　きおくだけ人工頭脳にうつしたんだよ」{wait}	{spk:03}Richter: "I can't drink... My illness turned my body into a machine. Only my memories moved to an artificial brain."{wait}	
+dlg:1145	text	rec:2160	149	{spk:03}リヒター「ぼくは飲めないよ・・・{br}　病気で機械の体になっちゃったんだ。{br}　きおくだけ人工頭脳にうつしたんだよ」{wait}	{spk:03}Richter: "I can't drink... I got sick and ended up a machine. Only my memories went into an artificial brain."{wait}	
 dlg:1146	text	rec:2161	149	{face:30903}{spk:04}エミコ「人間なのね、リヒター君は。{br}{face:30902}　ならそんなもの使わないで。{br}　人間は、悪いことなんかしないのよ」{wait}	{face:30903}{spk:04}Emiko: "You're human, Richter-kun.{face:30902} So don't use such things. Humans don't do bad things."{wait}	
 dlg:1147	text	rec:2162	149	{face:20803}{spk:03}リヒター「ぎゃくだと思うな。{br}　悪いことをするのは、人間だけさ」{wait}	{face:20803}{spk:03}Richter: "I think it's the opposite. Only humans do bad things."{wait}	
 dlg:1148	text	rec:2163	149	{face:30905}{spk:04}エミコ「悪いことが・・・人間のしょうめいなの？」{wait}	{face:30905}{spk:04}Emiko: "Doing bad things... is proof of being human?"{wait}	

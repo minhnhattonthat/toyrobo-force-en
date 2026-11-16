@@ -22,7 +22,7 @@ dlg:0707	text	rec:1297	149	{spk:01}フランボワーズ市長「・・・この
 dlg:0708	text	rec:1298	149	　いえ。自分のことは自分でせよ、ですね」{wait}	No. Look after yourselves, quite right."{wait}	
 dlg:0709	text	rec:1300	149	{spk:01}フランボワーズ市長「ひょうばんはだいぶ悪いはずです。支持率４％でしたね。{br}　そんなに助けたいですか」{wait}	{spk:01}Mayor Framboise: "His reputation must be quite bad. A 4% approval rating, wasn't it? You want to save him that much?"{wait}	
 dlg:0710	text	rec:1302	149	{spk:01}フランボワーズ市長「やはり、市長となると助けなくてはまずいですか」{wait}	{spk:01}Mayor Framboise: "I suppose when it's a mayor, you have to save him?"{wait}	
-dlg:0711	text	rec:1304	149	{face:10003}{spk:14}ユウキ「なにしろあの市長ですから。{br}　一番に助けに行かないと、あとでおこられます」{wait}	{face:10003}{spk:14}Yuki: "It's that Mayor, after all. If we're not first to the rescue, he'll yell at us later."{wait}	
+dlg:0711	text	rec:1304	149	{face:10003}{spk:14}ユウキ「なにしろあの市長ですから。{br}　一番に助けに行かないと、あとでおこられます」{wait}	{face:10003}{spk:14}Yuki: "It's that Mayor, after all. If we don't rush to rescue him first, he'll yell at us later."{wait}	
 dlg:0712	text	rec:1305	149	{spk:01}フランボワーズ市長「おこられるのがこわくて助けに？{br}　あの市長にしてこの警官ありです。{br}　ま、けんとうをいのります」{wait}	{spk:01}Mayor Framboise: "Saving him for fear of a scolding? Like mayor, like police. Well, good luck."{wait}	
 dlg:0713	text	rec:1307	149	{spk:01}フランボワーズ市長「市長も市民もかんけいないですか。{br}　だれであろうと、助けに行くのですね」{wait}	{spk:01}Mayor Framboise: "Mayor or citizen, it makes no difference? You'll go to save anyone?"{wait}	
 dlg:0714	text	rec:1309	149	{spk:01}フランボワーズ市長「じゃあ、フランボワーズの市民も助けてくれるわけですね」{wait}	{spk:01}Mayor Framboise: "Then you'll save the citizens of Framboise too, won't you?"{wait}	
@@ -39,13 +39,13 @@ dlg:0724	text	rec:1327	149	{face:30206}{face:10003}{spk:14}ユウキ「そうも
 dlg:0725	text	rec:1328	149	{face:20104}{spk:03}トモミ「ずいぶんテカがあばれてるわよ。{br}　ちんあつに行ったポリステカが、反乱テカと肩くんでおどってたって」{wait}	{face:20104}{spk:03}Tomomi: "The Teka are really wild. They say the Polisteka sent in were dancing arm in arm with the rebels."{wait}	
 dlg:0726	text	rec:1329	149	{face:30205}{spk:04}ギリガン「しょうがねえな―――」{wait}	{face:30205}{spk:04}Gilligan: "Can't be helped--"{wait}	
 dlg:0727	text	rec:1335	149	{face:00302}　　↑”あの方”{wait}	{face:00302}"That person" (above){wait}	
-dlg:0728	text	rec:1336	149	{spk:01}ブランク「海岸上空にいます。{br}　沖に、小さく海上油田が見えます」{wait}	{spk:01}Blank: "I'm above the coast. I can see a small oil rig out at sea."{wait}	
+dlg:0728	text	rec:1336	149	{spk:01}ブランク「海岸上空にいます。{br}　沖に、小さく海上油田が見えます」{wait}	{spk:01}Blank: "I'm above the coast. I can make out an oil rig far out at sea."{wait}	
 dlg:0729	text	rec:1337	149	通信・ユウキ「よし、出撃じゅんびにとりかかろう。{br}　もどっておいで、ブランク！」{wait}	Yuki (radio): "Right, let's get ready to sortie. Come on back, Blank!"{wait}	
 dlg:0730	text	rec:1343	149	{face:00302}　　↑”あの方”{wait}	{face:00302}"That person" (above){wait}	
 dlg:0731	text	rec:1344	149	{spk:01}ブランク「上空２００メートルにいます。{br}　市内で反乱、だいぶあばれてますね」{wait}	{spk:01}Blank: "I'm 200 meters up. The revolt in the city is pretty wild."{wait}	
 dlg:0732	text	rec:1345	149	通信・ユウキ「急がなくちゃいけないね。{br}　さっそく出撃じゅんびだ、おりておいで、ブランク！」{wait}	Yuki (radio): "We have to hurry. Let's get ready to sortie right away. Come on down, Blank!"{wait}	
 dlg:0733	text	rec:1370	149	{face:20101}{face:30203}{spk:04}ギリガン「あー、しっぱい失敗！{br}　もう市長なんかほっとこうぜ！」{wait}	{face:20101}{face:30203}{spk:04}Gilligan: "Argh, we blew it! Let's just forget about the Mayor!"{wait}	
-dlg:0734	text	rec:1371	149	{face:20105}{spk:03}トモミ「そーねー、あんなおじさん、{br}　どーでもいーかあ。　　　　{br}　ってわけに{face:20106}行かんでしょーが・・・」{wait}	{face:20105}{spk:03}Tomomi: "Yeah, who cares about that old guy... is what I'd like to say, but{face:20106} we can't, can we..."{wait}	
+dlg:0734	text	rec:1371	149	{face:20105}{spk:03}トモミ「そーねー、あんなおじさん、{br}　どーでもいーかあ。　　　　{br}　ってわけに{face:20106}行かんでしょーが・・・」{wait}	{face:20105}{spk:03}Tomomi: "Suuure, who cares about that old guy... As if we could {face:20106}just leave him there..."{wait}	
 dlg:0735	text	rec:1393	149	　海上油田せいぎょ室{wait}	Oil Rig Control Room{wait}	
 dlg:0736	text	rec:1394	149	{face:10302}{spk:02}ブランク「市長、もうだいじょうぶです。{br}　おケガはありませんね？」{wait}	{face:10302}{spk:02}Blank: "Mayor, you're safe now. You're not hurt, are you?"{wait}	
 dlg:0737	text	rec:1395	149	{face:00503}{spk:01}アドルフ市長「娘は？　リアナはぶじか？」{wait}	{face:00503}{spk:01}Mayor Adolf: "My daughter? Is Riana safe?"{wait}	
