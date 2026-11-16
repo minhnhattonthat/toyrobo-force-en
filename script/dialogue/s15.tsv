@@ -33,7 +33,7 @@ dlg:1600	text	rec:3118	149	{face:10012}{spk:02}ユウキ「たぶん、よろこ
 dlg:1601	text	rec:3119	149	{spk:01}メディテカ「ええ、『大けがしてみせるぞ』とさけんで」{wait}	{spk:01}Mediteka: "Yes, shouting 'I'll get badly hurt, just watch!'"{wait}	
 dlg:1602	text	rec:3120	149	{face:10005}{spk:02}ユウキ「バカな子だ・・・；；」{wait}	{face:10005}{spk:02}Yuki: "What a foolish boy..."{wait}	
 dlg:1603	text	rec:3126	149	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}市長「機械の体になってでも、ねえ。{br}　そこまで好かれて、リアナは女みょうりにつきるな」{wait}	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}Mayor: "Even becoming a machine for her, eh? Riana is a lucky girl to be loved that much."{wait}	
-dlg:1604	text	rec:3127	149	{face:20105}{spk:03}トモミ「ペータはバカみょうりにつきますけどね；」{wait}	{face:20105}{spk:03}Tomomi: "Though Peta's about the height of good fortune for a fool..."{wait}	
+dlg:1604	text	rec:3127	149	{face:20105}{spk:03}トモミ「ペータはバカみょうりにつきますけどね；」{wait}	{face:20105}{spk:03}Tomomi: "And Peta's the luckiest idiot alive..."{wait}	
 dlg:1605	text	rec:3129	149	{face:00605}{spk:01}署長「やっとジローをかいしゅうできたよ。　まったく、こけももってのはあぶない町だね；」{wait}	{face:00605}{spk:01}Chief: "We finally recovered Jiro. Honestly, Lingonberry is a dangerous town."{wait}	
 dlg:1606	text	rec:3131	149	{face:00402}{spk:01}ポイヤック「この付近では見かけないテカがあばれているらしいです。{br}　気をつけて」{wait}	{face:00402}{spk:01}Pauillac: "Teka not seen around here are apparently running wild. Be careful."{wait}	
 dlg:1607	text	rec:3133	149	{face:01202}{spk:01}ワークテカ「ペータさんをさがしに行くんですか」{wait}	{face:01202}{spk:01}Workteka: "Are you going to look for Peta-san?"{wait}	
@@ -61,7 +61,7 @@ dlg:1628	text	rec:3189	149	{spk:01}ペータ「べ、べつに、ブランクに
 dlg:1629	text	rec:3190	149	{spk:02}リアナ「なによ、それ！{br}　ぜっこうよ、あんたみたいな男！」{wait}	{spk:02}Riana: "What's that supposed to mean?! I'm through with a guy like you!"{wait}	
 dlg:1630	text	rec:3193	149	{face:30101}{face:20012}{spk:03}ユウキ「あとであやまった方がいい―――{br}　で、ペータをおそったポリジェンヌ、{br}何体ぐらいいた？」{wait}	{face:30101}{face:20012}{spk:03}Yuki: "Better apologize later-- So, the Polijenne that attacked you, Peta. About how many?"{wait}	
 dlg:1631	text	rec:3194	149	{spk:01}ペータ「えーと・・・１０人ぐらいかな」{wait}	{spk:01}Peta: "Um... about ten, I guess."{wait}	
-dlg:1632	text	rec:3195	149	{face:30104}{spk:04}トモミ「負けた言いわけに相手を多く言う。　古い手ね」{wait}	{face:30104}{spk:04}Tomomi: "Oh, so now you were outnumbered? That old excuse."{wait}	
+dlg:1632	text	rec:3195	149	{face:30104}{spk:04}トモミ「負けた言いわけに相手を多く言う。　古い手ね」{wait}	{face:30104}{spk:04}Tomomi: "Inflating their numbers to excuse losing? That old trick."{wait}	
 dlg:1633	text	rec:3196	149	{spk:01}ペータ「本当にそれぐらいいました」{wait}	{spk:01}Peta: "There really were about that many."{wait}	
 dlg:1634	text	rec:3197	149	{face:30115}{spk:04}トモミ「ポリジェンヌがたくさんいるのは、マーマレードシティぐらいなもんよ」{wait}	{face:30115}{spk:04}Tomomi: "The only place with lots of Polijenne is Marmalade City."{wait}	
 dlg:1635	text	rec:3198	149	{face:20007}{spk:03}ユウキ「だとしたら―――マーマレードでも反乱がはじまったかな・・・？」{wait}	{face:20007}{spk:03}Yuki: "In that case-- has a revolt started in Marmalade too...?"{wait}	
@@ -123,7 +123,7 @@ dlg:1690	text	rec:3297	149	{spk:03}トモミ「えへへー・・・{br}　ど�
 dlg:1691	text	rec:3301	149	{face:10001}{face:02702}{spk:01}ポリジェンヌ「ハンナ市長はじゅうような会談のさいちゅうです。{br}　お会いできません」{wait}	{face:10001}{face:02702}{spk:01}Polijenne: "Mayor Hanna is in the middle of important talks. You cannot see her."{wait}	
 dlg:1692	text	rec:3302	149	{face:10012}{spk:02}ユウキ「（ははあ―――{br}　トモミをばいしゅう中か）」{wait}	{face:10012}{spk:02}Yuki: "(Aha-- So they're buying off Tomomi.)"{wait}	
 dlg:1693	text	rec:3310	149	　ホテル『ビクトリア』{wait}	Hotel 'Victoria'{wait}	
-dlg:1694	text	rec:3311	149	{face:10012}{face:30201}{face:22402}{spk:03}トモミ「もしもし、ユウキ？{br}　あのさー、あたしさー♪」{wait}	{face:10012}{face:30201}{face:22402}{spk:03}Tomomi: "Hello, Yuki? So, um, I'm, like..."{wait}	
+dlg:1694	text	rec:3311	149	{face:10012}{face:30201}{face:22402}{spk:03}トモミ「もしもし、ユウキ？{br}　あのさー、あたしさー♪」{wait}	{face:10012}{face:30201}{face:22402}{spk:03}Tomomi: "Hello, Yuki? Sooo... guess what!"{wait}	
 dlg:1695	text	rec:3312	149	{spk:02}ユウキ「署長になれとでも言われた？{br}　で―――　そう―――　ああ、そう、{br}　かってにしなよ。じゃあね」{wait}	{spk:02}Yuki: "Did they tell you to be Chief? And-- right-- oh, I see. Do what you want. Bye."{wait}	
 dlg:1696	text	rec:3313	149	{face:22400}{face:30208}{spk:04}ギリガン「どうした、{br}　ばいしゅうされたのか？！」{wait}	{face:22400}{face:30208}{spk:04}Gilligan: "What happened? Did they buy her off?!"{wait}	
 dlg:1697	text	rec:3314	149	{face:10012}{spk:02}ユウキ「うん。かんたんにひっかかったね」{wait}	{face:10012}{spk:02}Yuki: "Yep. She fell for it easily."{wait}	

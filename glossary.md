@@ -21,9 +21,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Numbers: ３０，０００ -> 30,000. Currency is the yen sign in JP; write "30,000 yen".
 - Ranks and titles stay English ("Chief Sumita", "Mayor Adolf", "General Mordel", "Instructor Pauillac").
 - Voices: Yuki (lead cadet, upbeat, quick); Tomomi (sensible, sharp-tongued cadet); Gilligan (big, brash,
-  food-minded cadet, casual "ya", "gonna"); Blank (cool, terse cadet); Pauillac (fussy polite instructor);
-  Chief Sumita (gruff boss); Polisteka / Teka robots (stiff, literal, formal); Dr. Georg (scientist).
-  Refine this list as scenes are translated.
+  food-minded cadet, casual "ya", "gonna"); Blank (courteous, hesitant, literal Toyrobo; stutters "Y-yes!");
+  Pauillac (fussy polite instructor); Chief Sumita (gruff boss); Polisteka / Teka robots (stiff, literal, formal);
+  Dr. Georg (old-man わし/じゃ/のう register: "lad", "my boy", "eh?", "I tell you", "don't ya know").
+  Full voice table and examples: `docs/style-reference.md`; plot and reveals: `docs/synopsis.md`.
 
 ## Characters
 | JP | EN | max | notes | Avoid |

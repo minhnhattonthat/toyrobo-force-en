@@ -90,7 +90,7 @@ dlg:1882	text	rec:3632	149	{face:30202}{spk:04}ギリガン「反乱ちんあつ
 dlg:1883	text	rec:3640	149	{face:30207}{spk:04}ギリガン「まだまだっ、{br}　あきらめるな、ブランク！」{wait}	{face:30207}{spk:04}Gilligan: "Not yet! Don't give up, Blank!"{wait}	
 dlg:1884	text	rec:3642	149	{face:30207}{spk:04}ギリガン「反乱ちんあつがさきだ！」{wait}	{face:30207}{spk:04}Gilligan: "Put down the revolt first!"{wait}	
 dlg:1885	text	rec:3651	149	　市民かくめいぼっ発{wait}	The Citizens' Revolution Breaks Out{wait}	
-dlg:1886	text	rec:3652	149	市民「かくめいバンザイ！」{br}市民「市民かくめい、バンザイ！」{br}市民「男女平等、バンザイ！」{wait}	Citizen: "Long live the revolution!" Citizen: "The citizens' revolution!" Citizen: "Equal rights for all!"{wait}	
+dlg:1886	text	rec:3652	149	市民「かくめいバンザイ！」{br}市民「市民かくめい、バンザイ！」{br}市民「男女平等、バンザイ！」{wait}	Citizen: "Revolution!" Citizen: "Long live the citizens' revolution!" Citizen: "Equal rights for men and women!"{wait}	
 dlg:1887	text	rec:3653	149	市民「ハンナ市長を引きずり出せ！{br}　市民さいばんだ！！―――」{wait}	Citizen: "Drag out Mayor Hanna! Put her on trial before the people!!--"{wait}	
 dlg:1888	text	rec:3656	149	{face:10002}{face:30201}{face:02103}{spk:01}ジェーン「こんなまねをして、ただではすみませんよ」{wait}	{face:10002}{face:30201}{face:02103}{spk:01}Jane: "You won't get away with this."{wait}	
 dlg:1889	text	rec:3657	149	{spk:02}ユウキ「僕たちはテカ反乱をとめただけだ。　その結果どうなるかは、この国の事情でしょう」{wait}	{spk:02}Yuki: "We only stopped a Teka revolt. What happens next is this country's business."{wait}	
@@ -110,7 +110,7 @@ dlg:1902	text	rec:3670	149	{spk:01}博士「身勝手なのは、死んだ市長
 dlg:1903	text	rec:3671	149	{face:30205}{spk:04}ギリガン「げ・・・{br}　秘書テカが、じいさんの声でしゃべってやがる・・・」{wait}	{face:30205}{spk:04}Gilligan: "Yikes... The secretary Teka's talking in the old geezer's voice..."{wait}	
 dlg:1904	text	rec:3672	149	{spk:01}博士「死の病にとりつかれたと知った時、　市長は何をしようとしたと思う。{br}ジェーンの体を乗っ取ろうとしたんじゃぞ！{wait}	{spk:01}Doctor: "She learned she had a fatal illness, and what do you suppose the Mayor tried? To steal Jane's body!{wait}	
 dlg:1905	text	rec:3673	149	{spk:01}　ジェーンの記憶を消して、自分の記憶を埋め込んでくれと、頼みにきおったのだ。{br}　テカは人間の身代わりではないわい！{wait}	{spk:01}She came begging me to erase Jane's memory and implant her own. Teka are no mere stand-ins for humans, I tell you!{wait}	
-dlg:1906	text	rec:3674	149	{spk:01}　わしは、そんな人間の愚かさを・・・」{wait}	{spk:01}I mean to make humans pay for such folly..."{wait}	
+dlg:1906	text	rec:3674	149	{spk:01}　わしは、そんな人間の愚かさを・・・」{wait}	{spk:01}As for such human folly, I..."{wait}	
 dlg:1907	text	rec:3675	149	{spk:02}ユウキ「お話はあとでうかがいます。{br}　あなたをタイホしたら、ゆっくりとね！」{wait}	{spk:02}Yuki: "I'll hear the story later. At my leisure, once I've arrested you!"{wait}	
 dlg:1908	text	rec:3676	149	{spk:01}博士「できるもんならしてみるがいい。{br}　だが・・・{wait}	{spk:01}Doctor: "Do it if you can. But...{wait}	
 dlg:1909	text	rec:3677	149	{spk:01}　わしを追いかける前に、ジェーンをいい　工場に送ってやってくれ・・・！」{wait}	{spk:01}before you chase me, send Jane to a good factory...!"{wait}	

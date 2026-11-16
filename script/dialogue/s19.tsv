@@ -251,7 +251,7 @@ dlg:2215	text	rec:4280	149	{face:30901}{face:10115}{spk:02}トモミ「ちょっ
 dlg:2216	text	rec:4281	149	{face:10101}{face:20202}{spk:03}ギリガン「目をはなしてたまるか。{br}　エミコはおれが守る！」{wait}	{face:10101}{face:20202}{spk:03}Gilligan: "Like I'd let her out of my sight. I'll protect Emiko!"{wait}	
 dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}	{face:20201}{face:10107}{spk:02}Tomomi: "Wow... Being told that would be too much."{wait}	
 dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}	{face:00004}{spk:01}Yuki: "Wish someone said it to you, Tomomi?"{wait}	
-dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I said it'd be too much to STAND!"{wait}	
+dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I meant it'd be too much to bear!"{wait}	
 dlg:2220	text	rec:4288	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
 dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}	{face:10801}{face:00702}{spk:01}Doctor: "Richter. Aren't you lonely without Emiko-san by your side?"{wait}	
 dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}	{face:10803}{spk:02}Richter: "...Not really. This way Emiko-san and I are one, body and soul. I'm fine..."{wait}	
