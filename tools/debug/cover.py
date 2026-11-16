@@ -3,6 +3,10 @@
     python -X utf8 tools/debug/cover.py sweep  [ROM] [--chunk 400] [--jobs 4]   # -> work/qa/cover/sweep_NNNN/
     python -X utf8 tools/debug/cover.py tour   [ROM] [--jobs 3]                 # warp_all.py --cover -> cover/tour/
     python -X utf8 tools/debug/cover.py report                                  # textcover.py, exit 1 on gaps
+    python -X utf8 tools/debug/cover.py extra NAME [ROM] -- EMU_ARGS..          # one scene run -> cover/extra_NAME/
+
+extra: one warp run (warp.lua + EMU_ARGS such as --var "SCENE='factory'" --var "POKES=..." --var "KEYS=..."
+--frames N) with the probe, for screens no scene or sweep reaches (parts lists, save/load); see docs/re/script.md.
 
 sweep: the script's records in chunks; each chunk is one cold boot (tools/debug/warp.lua REC=<first target>) plus
 tools/debug/sweep.lua, which runs every message (op 15) and choice (op 21) record of the chunk in turn with A
@@ -80,6 +84,15 @@ def tour(a):
     return subprocess.call(cmd)
 
 
+def extra(a):
+    d = os.path.join(OUT, f"extra_{a.name}")
+    shutil.rmtree(d, ignore_errors=True)
+    cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"), a.rom, "--out", d,
+           "--shot-every", "100", "--timeout", "3000", "--script", os.path.join(DEBUG, "warp.lua"), *a.emu,
+           "--script", PROBE, "--var", f"RANGES='{strmap.ranges(STRINGS)}'"]
+    return subprocess.call(cmd)
+
+
 def report(a):
     cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "textcover.py"), OUT, STRINGS,
            "--mask", "0x1FFFFFF"]
@@ -90,13 +103,25 @@ def report(a):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("cmd", choices=("sweep", "tour", "report"))
-    ap.add_argument("rom", nargs="?", default=ROM)
+    argv = sys.argv[1:]
+    emu = []
+    if "--" in argv:
+        i = argv.index("--")
+        argv, emu = argv[:i], argv[i + 1:]
+    ap.add_argument("cmd", choices=("sweep", "tour", "report", "extra"))
+    ap.add_argument("args", nargs="*", help="extra: NAME [ROM]; others: [ROM]")
     ap.add_argument("--chunk", type=int, default=400)
     ap.add_argument("--jobs", type=int, default=4)
-    a = ap.parse_args()
-    a.rom = os.path.abspath(a.rom)
-    return {"sweep": sweep, "tour": tour, "report": report}[a.cmd](a)
+    a = ap.parse_args(argv)
+    a.emu = emu
+    if a.cmd == "extra":
+        if not a.args:
+            ap.error("extra needs NAME")
+        a.name, rest = a.args[0], a.args[1:]
+    else:
+        rest = a.args
+    a.rom = os.path.abspath(rest[0] if rest else ROM)
+    return {"sweep": sweep, "tour": tour, "report": report, "extra": extra}[a.cmd](a)
 
 
 if __name__ == "__main__":

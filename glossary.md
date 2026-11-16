@@ -104,7 +104,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 教官 | Instructor | | | |
 | 神父 | Father | | | |
 | 保母 | teacher | | daycare teacher | |
-| メンテ | maintenance | | | |
+| メンテ | maintenance / maint. | | "Maint." only where a window is too narrow (part-detail line, 14 cells) | |
 | パーツ | part / parts | | | |
 | オプション | option | | equipment option | |
 | バレットパック | Bullet Pack / Air Bullets / Land Bullets | | 対空/対地 = Anti-Air / Anti-Ground; items window (14 letters): Air Bullets / Land Bullets | |

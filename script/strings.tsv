@@ -114,14 +114,14 @@ strings:2492E4	text	ref:009038,00911C	2	）	)
 strings:2492E7	data	ref:0095C4	4	[0A][FF][FF]		binary data read by code at 0x95C4, not text
 strings:2492EC	text	ref:00978C	15	ボディ名：%s	Body: %s	
 strings:2492FC	text	ref:009794	15	{br}ライフ：%d	{br}Life: %d	
-strings:24930C	text	ref:009798	27	{br}１ライフのメンテ費：%d	{br}Maintenance per Life: %d	
+strings:24930C	text	ref:009798	27	{br}１ライフのメンテ費：%d	{br}Maint. per Life: %d	part-detail window: 14 cells with a 4-digit fee (tests/test_partdet.py)
 strings:249328	text	ref:0097C0	11	右腕名：%s	Right Arm: %s	relocated by the build (D12)
 strings:249334	text	ref:0097C8,0098C0	11	{br}パワー%d	{br}Power %d	
 strings:249340	text	ref:0097DC,0098D4	15	{br}パワー　%d	{br}Power   %d	
 strings:249350	text	ref:009808,009900	15	{br}パワー　　%d	{br}Power     %d	
 strings:249360	text	ref:009814,00990C	11	%dＷＡＹ	%d-Way	
 strings:24936C	text	ref:009850,009948	11	　%dＷＡＹ	  %d-Way	
-strings:249378	text	ref:009858,009950	7	%d連射	%d-Shot Burst	relocated by the build (D12)
+strings:249378	text	ref:009858,009950	7	%d連射	%d-Shot	part-detail window line 2 must stay <= 14 cells ("-Shot Burst" wrapped to a 4th line and corrupted the window, phase 8); D12
 strings:249380	text	ref:009860,009958	23	{br}チャージ費：%d×%d	{br}Charge Cost: %dx%d	
 strings:249398	text	ref:009878,009970	23	{br}チャージ費：　%d×%d	{br}Charge Cost:   %dx%d	
 strings:2493B0	text	ref:00988C,009984	27	{br}チャージ費：　　%d×%d	{br}Charge Cost:     %dx%d	
