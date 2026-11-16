@@ -5,7 +5,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. Released: v1.0 published on GitHub (repo made public) at the owner's request, build a3107192 ->
   `release/Toyrobo_Force_EN_v1.0.zip` (Toyrobo_Force_EN_v1.0.bps 382981 bytes, SHA-1 c129ef2c..., + README.txt;
   base CRC32 227FC16B, result CRC32 16805835).
-- **Latest session (build sha1 a3107192):** owner polish before release: English letters 1 px further from the
+- **Latest session (no build change):** project renamed "Toy Robo Force" (D14): GitHub description, README,
+  release README, release zip stem `Toy_Robo_Force_EN_v*`, doc titles. The mtl site's cover-bot then matched IGDB
+  54896 (score 1) and committed `docs/cover.jpg` (Japanese GBA box, checked).
+- **Session before (build sha1 a3107192):** owner polish before release: English letters 1 px further from the
   box border (pair glyphs at px 1-5 / 7-11 of each cell, `engine.font_table`), title menu button labels 1 px down
   (centred: 5 rows above, 6 below). Tour waived for a3107192 with `warp_all` 103/103 on the build, every final
   checked at 1x (reason in `work/qa/manifest.tsv.waive`). Then release.py green and published.

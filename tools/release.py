@@ -6,7 +6,7 @@ Stops at the first failure, in this order: build -> tests (tools/check.py) -> sm
 a pointer still reaches) -> qa_gate.py check on every work/qa/**/manifest.tsv (visual tour, story pass; verdicts in
 the sibling `verdicts/` dir) -> text coverage (tools/debug/cover.py report) -> no unticked line in docs/polish.md ->
 no template placeholder in README.md -> debug tool off -> BPS patch -> re-apply to a clean original and compare ->
-release/Toyrobo_Force_EN_vX.Y.zip (the .bps + README.txt). The playable image stays in build/.
+release/Toy_Robo_Force_EN_vX.Y.zip (the .bps + README.txt). The playable image stays in build/.
 Refuses to overwrite an existing version's files without --force. Publishing (gh release) is the owner's call.
 """
 import argparse
@@ -57,7 +57,7 @@ def main(argv=None):
     from skill import SKILL
     import bps
 
-    stem = f"Toyrobo_Force_EN_v{a.version}"
+    stem = f"Toy_Robo_Force_EN_v{a.version}"
     bpsf, zipf = OUTDIR / f"{stem}.bps", OUTDIR / f"{stem}.zip"
     if (bpsf.exists() or zipf.exists()) and not a.force:
         raise SystemExit(f"{bpsf.name} / {zipf.name} already exist; pass --force to overwrite")

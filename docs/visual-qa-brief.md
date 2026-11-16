@@ -1,4 +1,4 @@
-# Visual-QA reviewer brief - Toyrobo Force (GBA)
+# Visual-QA reviewer brief - Toy Robo Force (GBA)
 
 You review contact sheets from a translated build's QA tour and give each one a verdict. Read-only on everything
 except your one verdict file: no edits to the repo, no git, no subagents.

@@ -1,4 +1,4 @@
-# Toyrobo Force (GBA) English translation
+# Toy Robo Force (GBA) English translation
 
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md, printed by `python tools/skill.py`). Read it before ROM, text or QA work.
 

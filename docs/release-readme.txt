@@ -1,7 +1,7 @@
-Toyrobo Force - English translation patch v{version}
+Toy Robo Force - English translation patch v{version}
 =====================================================
 
-Unofficial English fan translation of Toyrobo Force (Game Boy Advance, Global A Entertainment, 2001; Japan only).
+Unofficial English fan translation of Toy Robo Force (Game Boy Advance, Global A Entertainment, 2001; Japan only).
 This zip holds only the patch. No game data is included; you need your own dump of the Japanese cartridge.
 Do not ask for or share patched ROMs.
 
@@ -44,4 +44,4 @@ Credits
 -------
 Translation, tools and hacking: minhnhattonthat, with extensive AI assistance (Claude by Anthropic, plus OpenAI Codex
 for independent reviews). Corrections are very welcome.
-Toyrobo Force is (c) 2001 Global A Entertainment. This project is not affiliated with them.
+Toy Robo Force is (c) 2001 Global A Entertainment. This project is not affiliated with them.

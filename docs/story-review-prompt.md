@@ -1,6 +1,6 @@
-# Story reviewer brief - Toyrobo Force
+# Story reviewer brief - Toy Robo Force
 
-You read one chapter of a JP->English fan translation of the Japan-only GBA game Toyrobo Force (police cadets and their
+You read one chapter of a JP->English fan translation of the Japan-only GBA game Toy Robo Force (police cadets and their
 robots, "Teka"; comic, light-hearted tone with a darker late plot) straight through, in story order, the way a player
 meets it. Per-batch reviewers already judged single lines with their neighbours; your job is what they can't see.
 Read-only: no edits, no git, no subagents. Return the report as your final message (Markdown), nothing else.

@@ -1,6 +1,6 @@
-# Toyrobo Force English translation
+# Toy Robo Force English translation
 
-Unofficial English fan translation of **Toyrobo Force** (Game Boy Advance, Global A Entertainment, 2001; Japan only):
+Unofficial English fan translation of **Toy Robo Force** (トイロボフォース) (Game Boy Advance, Global A Entertainment, 2001; Japan only):
 the source text and tools that build the patch.
 
 **Just want to play?** Download the patch from [Releases](../../releases) and follow its README. This repository holds
@@ -62,7 +62,7 @@ If you enjoy this translation, you can support my work on Ko-fi:
 ## Licence
 
 Tools and English translation: MIT. The original Japanese text in `script/` is Global A Entertainment's and is included
-only so the translation can be checked against it. Toyrobo Force is (c) 2001 Global A Entertainment; this project is
+only so the translation can be checked against it. Toy Robo Force is (c) 2001 Global A Entertainment; this project is
 not affiliated with them. Do not share patched ROMs.
 
 The translation was made with extensive AI assistance (Claude by Anthropic, reviews by OpenAI Codex). Corrections are

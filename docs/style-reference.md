@@ -1,4 +1,4 @@
-# Style reference - Toyrobo Force
+# Style reference - Toy Robo Force
 
 Use the glossary’s full names, Western name order, hyphenated honorifics, and English ranks. Preserve “Confirm!”, “Teka Revolt,” “Out of Control,” and “field training.” Examples below quote the supplied translation; `/` retains its displayed break notation. The script supports more emotional variety than the glossary’s brief voice labels, especially for Blank.
 

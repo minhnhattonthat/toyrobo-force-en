@@ -1,4 +1,4 @@
-# Synopsis - Toyrobo Force
+# Synopsis - Toy Robo Force
 
 Full spoilers. Based on s00–s23, the glossary, and the English cast list. Dialogue IDs identify text records, not a single uninterrupted playthrough: choices, retries, and optional conversations coexist. In particular, s23 contains the finale followed by supplementary dialogue for earlier chapters.
 

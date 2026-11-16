@@ -1,4 +1,4 @@
-# Glossary - Toyrobo Force
+# Glossary - Toy Robo Force
 
 Binding for every translator and reviewer. Agents propose additions in reports; only the controller edits this file.
 `tools/batches.py check` fails a line whose JP has a term below and whose English lacks every EN form (EN forms are

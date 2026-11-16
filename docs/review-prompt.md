@@ -1,4 +1,4 @@
-You review part of a JP->English fan translation of the Japan-only GBA game Toyrobo Force (police cadets and their
+You review part of a JP->English fan translation of the Japan-only GBA game Toy Robo Force (police cadets and their
 robots, "Teka"; a comic, light-hearted tone with a darker late plot). Read-only: no edits, no git, no subagents.
 Mechanical validity (ids, control codes, width) is already enforced by a check tool - judge translation quality.
 Return the report as your final message (Markdown), nothing else.
