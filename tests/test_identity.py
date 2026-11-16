@@ -78,7 +78,9 @@ class IdentityTest(unittest.TestCase):
         ptrs = datas[names.index("prompt_ptrs")]
         strs = dict(datas[names.index("prompts")])
         self.assertEqual(ptrs[0], 0x3F7704)
-        self.assertTrue(all(0x3F7592 <= p < 0x3F788C for p in ptrs))
+        self.assertTrue(all(p in strs for p in ptrs))
+        swap = dict(datas[names.index("swap")])
+        self.assertTrue(all(p in swap for p in datas[names.index("swap_ptrs")]))
         ptrs[0] += 2
         out = build.pack(self.orig, us, datas)
         self.assertEqual(out.data[0x3F788C:0x3F7890], (0x08000000 + 0x3F7706).to_bytes(4, "little"))

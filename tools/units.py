@@ -244,8 +244,13 @@ def make_units():
         RecTable("descs", 0x393EF0, 144, 0x58, 88),
         Slots("dialogue", 0x397070, 2927, 0x80),
         RecTable("choices", 0x3766BC, 696, 0x24, 30),
-        StrRegion("strings", 0x248D44, 0x2496C8),
+        # 0x248D44-0x2496C8 minus 0x249260-0x249298 (14 Thumb function pointers, not text, not owned)
+        StrRegion("credits", 0x248D44, 0x249260),
+        StrRegion("strings", 0x249298, 0x2496C8),
+        # 0x3F7592-0x3F788C: 12 swap prompts, byte tables (not owned), their pointer table, byte tables, link prompts
+        StrRegion("swap", 0x3F7592, 0x3F768E),
+        PtrTable("swap_ptrs", 0x3F76A4, 12),
+        StrRegion("prompts", 0x3F7704, 0x3F788C),
         PtrTable("prompt_ptrs", 0x3F788C, 10),
-        StrRegion("prompts", 0x3F7592, 0x3F788C),
         LZBlocks("lz", LZ_OFFSETS),
     ]

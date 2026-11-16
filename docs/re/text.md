@@ -39,3 +39,23 @@ saves are unaffected by ROM size and the patch stays BPS (<=16 MiB).
 ## Choice / opcode table
 Opcode jump table at ~0x0800A3D0 (Thumb `adr` words decode as data). Other text-bearing opcodes to identify in phase 4
 by xref of the literals above.
+
+## Extract (phase 4, verified by `tests/test_extract.py`)
+- Tokens: `#0` {br}, `#4` {wait}, `#5NN` {spk:NN} (always 2 digits: 00 01 02 03 04 09 10 14 15 16), `#2NNNNN`
+  {face:NNNNN} (always 5 digits). Only these four `#` codes occur. `%d`/`%s`/`%02d` printf formats in descs and the
+  status/save strings stay literal. No `[ ] { }` in the ROM's text; every text row decodes with no `[XX]` escape.
+- Dialogue: every one of the 2927 slots is shown by exactly one msg record (`where` = `rec:N`); files split by the
+  section (opcode 40) the record sits in.
+- String regions: every string start is reached by a pointer word (`where` = `ref:` offsets; most are Thumb literal
+  pools, so moving a string means rewriting those words). Found while tracing: 0x249260-0x249298 is a table of 14
+  Thumb function pointers (`0x08002785`, `0x080126D1` x13), and the status label `ライフ：` starts at 0x249298 (pointer
+  at 0x8DE4); 0x2494C8 is pointed at too (by 0xB3C8), i.e. the NUL ending `#0スピードがあがる` doubles as an empty
+  string: keep a NUL there or repoint 0xB3C8 when that string moves. Credits are drawn piece by piece (single
+  kana/kanji strings such as `ゲ` `｜` `ム`, each with its own literal), so the credits redo is code + layout work.
+- Prompt area 0x3F7592-0x3F788C: 12 swap prompts (pointer table 0x3F76A4, read by 0x1EA18/0x1F214), byte tables at
+  0x3F768E-0x3F76A4 and 0x3F76D4-0x3F7704 (not text), 10 link prompts (pointer table 0x3F788C). Prompts are padded
+  to fixed width with full-width spaces.
+- Data rows (`kind` data, never translated): 0x2492E7 (bytes read at 0x95C4), 0x2494DC (a debug "乱数テーブル" random
+  table interleaved with test text), 0x24956C `toyroboforce` (save signature).
+- Coverage: outside the owned ranges, the only Japanese-looking runs are tile-map / palette words (waived ranges in
+  `tests/test_extract.py`).

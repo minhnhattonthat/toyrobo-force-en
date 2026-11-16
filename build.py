@@ -3,8 +3,8 @@
     python -X utf8 build.py              # -> build/toyrobo_force_en.gba + build/writes.tsv (romdiff.py --writes)
     python -X utf8 build.py --identity   # pack every unit with no edits; exit 1 unless the result == original ROM
 
-Steps: check the dump against rom.sha1, unpack every unit in tools/units.py, apply the text edits (none yet:
-phase 4 adds the script/ TSVs), pack every unit back, write the ROM and its write log.
+Steps: check the dump against rom.sha1, unpack every unit in tools/units.py, insert the `en` column of
+script/*.tsv (tools/text.py), pack every unit back, write the ROM and its write log.
 """
 import argparse
 import hashlib
@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 import check_rom  # noqa: E402
+import text  # noqa: E402
 import units  # noqa: E402
 
 ORIG = ROOT / "rom" / "Toyrobo Force (Japan).gba"
@@ -36,7 +37,10 @@ def pack(orig, us, datas):
 
 
 def apply_edits(us, datas):
-    """Text edits go here (phase 4 onward). Identity build: none."""
+    """Insert every non-empty `en` from script/*.tsv (tools/text.py) into the unpacked units."""
+    rows = [r for rows in text.load_all().values() for r in rows]
+    n = text.apply(us, datas, rows)
+    print(f"text: {n} of {sum(r['kind'] == 'text' for r in rows)} rows translated")
     return datas
 
 
