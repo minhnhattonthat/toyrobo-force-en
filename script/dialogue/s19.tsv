@@ -108,8 +108,8 @@ dlg:2072	text	rec:3997	149	{face:10002}{spk:02}ユウキ「またサンナナの
 dlg:2073	text	rec:4000	149	{face:01202}{spk:01}ワークテカ「あれからは見てませんが？」{wait}		
 dlg:2074	text	rec:4002	149	{face:10002}{spk:02}ユウキ「人間不信なんだ、だれもいない海に出ようとしたかもしれない」{wait}		
 dlg:2075	text	rec:4005	149	{face:01202}{spk:01}ワークテカ「かわいい保母テカですか、{br}　来ませんでしたねえ」{wait}		
-dlg:2076	text	rec:4011	149	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}ポリステカ「テカに化けた人間をつかまえてみると、ほんもののテカとすりかわってしまうんです。		
-dlg:2077	text	rec:4012	149	　どういう手品でしょう？」{wait}		
+dlg:2076	text	rec:4011	149	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}ポリステカ「テカに化けた人間をつかまえてみると、ほんもののテカとすりかわってしまうんです。	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}Polisteka: "When we catch the humans disguised as Teka, they get swapped with real Teka.	
+dlg:2077	text	rec:4012	149	　どういう手品でしょう？」{wait}	What kind of magic trick is that?"{wait}	
 dlg:2078	text	rec:4013	149	{face:20115}{spk:03}トモミ「ボケにつきあっているヒマはないのよ；」{wait}		
 dlg:2079	text	rec:4015	149	{face:10002}{spk:02}ユウキ「博士の目をのがれるのに、かいぞうしてもらおうと考えたかもしれない。{br}　それならこういうとこかも」{wait}		
 dlg:2080	text	rec:4016	149	{face:01602}{spk:01}バンクテカ「は、９７年型エリーゼタイプ？{br}　いえ、きてませんよ」{wait}		
