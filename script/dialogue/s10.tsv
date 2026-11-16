@@ -136,7 +136,7 @@ dlg:1106	text	rec:2086	149	{face:30000}{face:00603}{face:10006}{spk:01}署長「
 dlg:1107	text	rec:2087	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「君たちはじゃまだ、ひじょうにじゃまだ。{br}　そのままカシスにいてもらおう。{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "You are a nuisance, a dreadful nuisance. You'd best stay right there in Cassis.{wait}	
 dlg:1108	text	rec:2088	149	{spk:04}　なあに、『ちょろちょろするな！』と言いたいだけじゃよ。{wait}	{spk:04}Oh, I merely wish to say, 'Stop scurrying about!'{wait}	
 dlg:1109	text	rec:2089	149	{spk:04}　アプリコットのテカはにげだしただけ、{br}　フランボワーズではちょいとあばれただけじゃ。{br}　が、今度はちがうぞ。{wait}	{spk:04}In Apricot the Teka only ran away, in Framboise they only ran a bit wild. But this time is different.{wait}	
-dlg:1110	text	rec:2090	149	{spk:04}　じゃまなソルジャーはでくのぼうだしな、　シティ中でテカがあばれておるわい！{br}　ひゃっひゃっひゃ！」{wait}	{spk:04}The meddlesome Soldiers are useless, and Teka are running wild all over the City! Hya hya hya!"{wait}	
+dlg:1110	text	rec:2090	149	{spk:04}　じゃまなソルジャーはでくのぼうだしな、　シティ中でテカがあばれておるわい！{br}　ひゃっひゃっひゃ！」{wait}	{spk:04}The meddlesome Soldiers are useless, and Teka are running wild all over the City! Heh heh heh!"{wait}	
 dlg:1111	text	rec:2091	149	{face:00601}{face:10001}{face:30000}{face:20102}{spk:03}トモミ「署長！　ユウキ！{br}　たいへん、外でテカがあばれてる！」{wait}	{face:00601}{face:10001}{face:30000}{face:20102}{spk:03}Tomomi: "Chief! Yuki! Bad news, the Teka are running wild outside!"{wait}	
 dlg:1112	text	rec:2092	149	{face:10002}{spk:02}ユウキ「ソルジャーは？！」{wait}	{face:10002}{spk:02}Yuki: "What about the Soldiers?!"{wait}	
 dlg:1113	text	rec:2093	149	{face:20106}{spk:03}トモミ「そうじしてる；」{wait}	{face:20106}{spk:03}Tomomi: "Cleaning."{wait}	

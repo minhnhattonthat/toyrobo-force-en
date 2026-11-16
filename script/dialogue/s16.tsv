@@ -15,7 +15,7 @@ dlg:1807	text	rec:3516	149	{spk:02}　ごぞんじない方に、お教えしよ
 dlg:1808	text	rec:3517	149	{face:10012}{face:30205}{spk:04}ギリガン「本気か、このじいさん」{wait}	{face:10012}{face:30205}{spk:04}Gilligan: "Is this old geezer serious?"{wait}	
 dlg:1809	text	rec:3518	149	{face:10005}{spk:02}ユウキ「ジョークさ。{br}　一度言ってみたかったんだろ」{wait}	{face:10005}{spk:02}Yuki: "It's a joke. He just always wanted to say it once."{wait}	
 dlg:1810	text	rec:3519	149	{face:30000}{face:12102}{spk:02}博士「テカを使って、人間どもをしずかにさせようとしておるところだ。{br}　市民かくめいなど、もってのほか！{wait}	{face:30000}{face:12102}{spk:02}Doctor: "I am using Teka to keep you humans quiet. A citizens' revolution? Out of the question!{wait}	
-dlg:1811	text	rec:3520	149	{spk:02}　おとなしくしていたまえ、とくにアプリコットの警官しょくんはな―――{br}　ひゃっひゃっひゃ」{wait}	{spk:02}Behave yourselves, especially you gentlemen of the Apricot police-- Hya hya hya."{wait}	
+dlg:1811	text	rec:3520	149	{spk:02}　おとなしくしていたまえ、とくにアプリコットの警官しょくんはな―――{br}　ひゃっひゃっひゃ」{wait}	{spk:02}Behave yourselves, especially you gentlemen of the Apricot police-- Heh heh heh."{wait}	
 dlg:1812	text	rec:3521	149	{face:10012}{face:30206}{spk:04}ギリガン「また俺たちのじゃまをする気か；　{face:30207}こいつのい場所は分からねえのかっ」{wait}	{face:10012}{face:30206}{spk:04}Gilligan: "Getting in our way again?{face:30207} Don't we know where this guy is?"{wait}	
 dlg:1813	text	rec:3523	149	{face:10002}{spk:02}ユウキ「気が付いたんだけど―――{br}　後ろにうつっていた金魚バチの水面。{br}　ゆれていたんだ。ゆっくりと」{wait}	{face:10002}{spk:02}Yuki: "I noticed something-- The water in the goldfish bowl behind him. It was swaying. Slowly."{wait}	
 dlg:1814	text	rec:3524	149	{face:30202}{spk:04}ギリガン「ゆれて？{br}　地震でも起きてたのか。{wait}	{face:30202}{spk:04}Gilligan: "Swaying? An earthquake?{wait}	

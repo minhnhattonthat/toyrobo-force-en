@@ -56,7 +56,7 @@ dlg:2450	text	rec:4644	149	{spk:01}　プロメテウスは無着陸で世界一
 dlg:2451	text	rec:4645	149	{face:10002}{spk:02}ユウキ「なにをつんでいるんです？」{wait}	{face:10002}{spk:02}Yuki: "What is it carrying?"{wait}	
 dlg:2452	text	rec:4646	149	{spk:01}博士「ばくだんを少々―――」{wait}	{spk:01}Doctor: "A few bombs--"{wait}	
 dlg:2453	text	rec:4647	149	{face:10012}{spk:02}ユウキ「少しだけですか。{br}　どういうばくだんです？」{wait}	{face:10012}{spk:02}Yuki: "Just a few? What kind of bombs?"{wait}	
-dlg:2454	text	rec:4648	149	{spk:01}博士「口にしたくないばくだんじゃ、さっしてくれ―――{br}　１発で１００万人が・・・とだけ言っておこう」{wait}	{spk:01}Doctor: "Bombs I'd rather not name. Take a guess-- Let's just say one could kill a million..."{wait}	
+dlg:2454	text	rec:4648	149	{spk:01}博士「口にしたくないばくだんじゃ、さっしてくれ―――{br}　１発で１００万人が・・・とだけ言っておこう」{wait}	{spk:01}Doctor: "Bombs I'd rather not name. You can imagine-- Let's just say one could kill a million..."{wait}	
 dlg:2455	text	rec:4649	149	{face:30208}{spk:04}ギリガン「なんだそりゃ、じょうだんじゃねえ！{br}　２発つんでいるのか、２００万人分かっ」{wait}	{face:30208}{spk:04}Gilligan: "What the heck? You gotta be kidding! It's got two? That's two million people?!"{wait}	
 dlg:2456	text	rec:4650	149	{face:10006}{spk:02}ユウキ「２００万人って・・・{br}　シティまるごと、ふきとばせる・・・？」{wait}	{face:10006}{spk:02}Yuki: "Two million... That could blow away the whole City...?"{wait}	
 dlg:2457	text	rec:4651	149	{face:30206}{face:20111}{spk:03}トモミ「管制レーダーに反応・・・{br}　ばくげき機？　大きい；{br}　カシスの方ににげていく」{wait}	{face:30206}{face:20111}{spk:03}Tomomi: "A blip on the control radar... The bomber? It's big! It's fleeing toward Cassis."{wait}	

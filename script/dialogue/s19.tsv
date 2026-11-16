@@ -75,7 +75,7 @@ dlg:2039	text	rec:3921	149	{spk:01}ワークテカ「まいど♪」{wait}	{spk:
 dlg:2040	text	rec:3924	149	右腕『マーマーライト』を{br}　手に入れました。{wait}	Got the right arm 'Murmurlight'.{wait}	
 dlg:2041	text	rec:3926	149	{spk:01}ワークテカ「じゃ今度はメンテ代かせがせてもらおかな」{wait}	{spk:01}Workteka: "Now let me earn some maintenance fees."{wait}	
 dlg:2042	text	rec:3928	149	{spk:01}ワークテカ「ちょこっとじょうほうも付けるから、どうです」{wait}	{spk:01}Workteka: "I'll throw in a little information. How about it?"{wait}	
-dlg:2043	text	rec:3930	149	{face:30302}{spk:04}ブランク「いいでしょう、買います。{br}　じょうほう教えてください」{wait}	{face:30302}{spk:04}Blank: "All right, I'll buy it. What do you know?"{wait}	
+dlg:2043	text	rec:3930	149	{face:30302}{spk:04}ブランク「いいでしょう、買います。{br}　じょうほう教えてください」{wait}	{face:30302}{spk:04}Blank: "All right, I'll buy it. Please tell me what you know."{wait}	
 dlg:2044	text	rec:3931	149	{spk:01}ワークテカ「まいど♪」{wait}	{spk:01}Workteka: "Thank you!"{wait}	
 dlg:2045	text	rec:3934	149	右腕『マーマーライト』を{br}　手に入れました。{wait}	Got the right arm 'Murmurlight'.{wait}	
 dlg:2046	text	rec:3936	149	{spk:01}ワークテカ「あの保母テカね、『こけももけいしちょう』につかまってしまいましたよ。{br}　カンパチダムのほとりで」{wait}	{spk:01}Workteka: "That teacher Teka got caught by the 'Lingonberry Metropolitan Police'. By Kanpachi Dam."{wait}	
