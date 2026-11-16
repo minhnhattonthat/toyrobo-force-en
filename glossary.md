@@ -104,7 +104,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | メンテ | maintenance | | | |
 | パーツ | part / parts | | | |
 | オプション | option | | equipment option | |
-| バレットパック | Bullet Pack | | 対空/対地 = Anti-Air / Anti-Ground | |
+| バレットパック | Bullet Pack / Air Bullets / Land Bullets | | 対空/対地 = Anti-Air / Anti-Ground; items window (14 letters): Air Bullets / Land Bullets | |
 | パワーアップ | Power Up | | | |
 | パワーシールド | Power Shield | | | |
 | ステルスシールド | Stealth Shield | | | |
@@ -112,8 +112,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ファイアーシールド | Fire Shield | | | |
 | マーマーライト | Murmurlight | | a weapon part | |
 | ベローニング | Belloning | | anti-ground rifle | |
-| 対空 | anti-air / Air Power Up | | item 対空パワーアップ: the items window shows 14 letters | |
-| 対地 | anti-ground / Ground Shotgun / Land Power Up | | parts 18 / items 14 letters: 対地ショットガン, 対地パワーアップ | |
+| 対空 | anti-air / Air Power Up / Air Bullets | | item 対空パワーアップ: the items window shows 14 letters | |
+| 対地 | anti-ground / Ground Shotgun / Land Power Up / Land Bullets | | parts 18 / items 14 letters: 対地ショットガン, 対地パワーアップ | |
 | タイホ | arrest | | | |
 
 ## Decisions from earlier batches
@@ -134,5 +134,15 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   police; こけももちょうほうぶ Lingonberry Intelligence; 戦場が丘 Battlefield Hill; ブリオッシュ山 Mount Brioche;
   シャーウッドの森 Sherwood Forest; エルヴィン大佐 Colonel Erwin; 獅子身中の虫 "viper in my bosom";
   プロメテウス Prometheus (bomber). Gilligan calls Polijenne "Marian" after the Robin Hood code (dlg:1703).
+- b024-b044: 声 = "Voice:", Xの声 = "X's voice:"; スピーカー "Speaker:"; thoughts （...） stay in parentheses inside
+  the quotes (Richter: "(Emiko-san...)"); 空母『アルゴー』 the carrier 'Argo'; お料理上手Ｍｋ．Ⅲ 'Master Chef Mk. III';
+  お掃除上手 'Master Cleaner'; くろまく 'mastermind'; ふくろのネズミ "rat in a trap"; Richter is a Toyrobo (he).
+  The factory/facility descs have three voices: polite (calls him "Blank-san"), Tomomi, Gilligan ("ya").
+  Weapons: ニンジンミッソー Carrot Missile, スワローレーザー Swallow Laser, トライマクナム Tri-Magnum, ダイモン Daimon,
+  虫よけピストル Bug Pistol, パンプキンボム Pumpkin Bomb, オサルトライフル Apesault Rifle (pun kept), カネホーク Moneyhawk,
+  小銭バルカン Pocket Change Gun; Pasocops are tank names (Elephant, Type 90, Comet, Matilda, Valentine, Christie,
+  Tiger, Firefly). 日誌 (save slot) = "Log". 連射 = "%d-Hit".
+- ▼ has no English glyph: dropped from descs 15-38, 63-74, 102-110 (no code compares 0x81A5; restore if phase 7
+  adds the glyph).
 - ♪ and ； (sweat mark) have no English glyph: drop them or end on "!" / "...".
 - 『』 terms in quotes: 'Teka Revolt', 'Out of Control' (アウト・オブ・コントロール), 'field training' (実習).

@@ -2,19 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b023 of 40 merged (all 397 choices, dialogue dlg:0000-2216: Apricot,
-  Framboise, Cassis, Lingonberry, Marmalade arcs, up to leaving for Blackberry Island; 2635 of 3722 rows have `en`).
-  Last build 2026-11-17 sha1 6cf6bc77... (2635 rows), pilot shot of dlg:0002 in-game reads cleanly
-  (`work/qa/pilot/final.png`).
+- **Phase:** 6. Translate in progress: every batch merged except the credits (b031 + b041, 101 rows) and the
+  date template (b042). All 2927 dialogue slots, 397 choices, names, parts, items, descs, status/save strings,
+  swap + link prompts have `en`; check 0 errors (`tools/check.py` green at commit).
 - **Phase 6 how-to (resume here):** `docs/translator-brief.md` (tl_body.py view -> write bNNN.body.tsv -> wrap ->
-  batches.py check -> merge). Batches `work/tl/b001-b040.tsv` exist (work/ is gitignored; if they are missing, run
-  `python -X utf8 tools/batches.py split --size 3000`, which numbers on from what exists and skips translated rows).
-  Next: b024 (dlg:2217 on). Fix files: write them with the file-write tool (the guard hook blocks heredocs that
-  pipe into commits; keep check/merge and commit in separate commands). After b040, run `split` once more: 4 rows (credits:248FD8, credits:248FF8, items_b:6,
-  items_b:8) were un-merged after a cross-box JP copy and need their own batch. Then: style reference
-  (`docs/style-reference.md` from the translated s00-s02), `docs/synopsis.md`, reviewer pass per batch (do it
-  yourself read-only or with `codex exec`; Minors to `docs/polish.md`), tables/strings fit (phase 7 notes below).
+  batches.py check -> merge). Batches in `work/tl/` (gitignored; if missing, `python -X utf8 tools/batches.py split
+  --size 3000` re-queues what has no `en`). Left for phase 6:
+  1. Credits (b031, b041): code-placed fragments (single kana like `ゲ` `｜` `ム`, each with its own literal;
+     `docs/re/text.md`), so they can't be translated piece by piece. Write `docs/credits-en.md` (the English
+     ending report, cast with roles, staff with romanized names, readings marked unverified) for phase 7 layout;
+     the ending report (credits:248D44, 267 B) is one block and can be merged now if it fits.
+  2. strings:2494CC `００月００日` (b042) stays JP: code at 0x0800B580 copies it to the stack, adds to bytes 1/3/7/9
+     (full-width digit low bytes) and draws 6 cells. Phase 7: patch the template to `００／００　` (JP glyphs) or
+     rewrite the routine.
+  3. Style reference (`docs/style-reference.md` from translated s00-s02), `docs/synopsis.md`, reviewer pass
+     (read-only, yourself or `codex exec`; Minors to `docs/polish.md`).
   No subagents in Orca runs: translate in the main thread and hand back at ~150k context.
+- **Fit compromises to revisit in phase 7 (D4: engine first):** status panel "Right: %s"/"Left: %s" (room 11 B,
+  wanted "Right Arm: %s"), "%d-Hit" (7 B), "Right/Left power +5"; items window 14 letters: Air/Land Power Up, Air/Land
+  Bullets, parts "Ground Shotgun" (glossary lists these as allowed forms). Relocating those strings would let the
+  full names back in.
 - **Done:**
   - Step 0: repo set up (rom.sha1 pinned, `tools/check.py` + pre-commit gate proven to reject a failing test, guard
     hook proven on the canary, own MesenCE 2.2.1 + GBA BIOS, boot route, AGENTS.md, decisions D1-D8).

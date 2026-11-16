@@ -1,7 +1,7 @@
 id	kind	where	max	jp	en	notes
-names:0	text	@393560	13	ブランク		
-names:1	text	@393574	13	ポリステカ		
-names:2	text	@393588	13	ワークテカ		
+names:0	text	@393560	13	ブランク	Blank	
+names:1	text	@393574	13	ポリステカ	Polisteka	
+names:2	text	@393588	13	ワークテカ	Workteka	
 names:3	text	@39359C	13	バンクテカ	Bankteka	
 names:4	text	@3935B0	13	ソルジャー	Soldier	
 names:5	text	@3935C4	13	ポリジェンヌ	Polijenne	
@@ -76,9 +76,9 @@ items_b:2	text	@393E30	19	ファイアーシールド	Fire Shield
 items_b:3	text	@393E48	19	ミラーシールド	Mirror Shield	
 items_b:4	text	@393E60	19	ステルスシールド	Stealth Shield	
 items_b:5	text	@393E78	19	対空パワーアップ	Air Power Up	
-items_b:6	text	@393E90	19	対空バレットパック		
+items_b:6	text	@393E90	19	対空バレットパック	Air Bullets	
 items_b:7	text	@393EA8	19	対地パワーアップ	Land Power Up	
-items_b:8	text	@393EC0	19	対地バレットパック		
+items_b:8	text	@393EC0	19	対地バレットパック	Land Bullets	
 items_b:9	text	@393ED8	19	スピードアップ	Speed Up	
 descs:0	text	@393EF0	87	　テカのメンテを行います。　　費用がかかりますが	Performs Teka maintenance. There is a fee, though.	
 descs:1	text	@393F48	87	　テカのメンテをするわよ。　　費用がかかるけどね	I'll do Teka maintenance. It costs money, though.	
