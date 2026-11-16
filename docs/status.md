@@ -2,9 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics G3-G8, G10, G14, G15, G17 done; G12 redrawn but not seen
-  in game; first full tour + visual-QA verdicts done: 95 ok / 15 issues in 3 groups, 1 group fixed).
-- **Latest session (build sha1 da023e2d):** G5 done: the katakana logo is on the title *sprites* (not the bitmap):
+- **Phase:** 8. QA in the emulator: in progress (all graphics rows done but G12 unseen in game; visual-QA gate
+  green: `qa_gate.py check` exit 0 on build e43b2203; left: text coverage, part-detail strings, inkbox, G12).
+- **Latest session (build sha1 e43b2203):** visual-QA issues 2 and 3 fixed. New `retile` group kind in `gfx.py`
+  (a block of N raw tiles + its own BG map: the canvas is drawn from the map, re-tiled into unique tiles with flips
+  folded and written in place with a new map; refuses > N tiles): G18 the six workshop signs `sign0-5`
+  ("<Town>" / "Factory", `gfx.SIGNS_EN`; tiles + 13x4 map per town at 0x066DF4..), G18 Ⓐけってい -> "Confirm"
+  (grid group `factory_ok`, missed by the first verdicts), G19 two-player menu はじめる/おわる -> "Start"/"Quit"
+  (`link_menu`, 0x24A208 + map 0x24A608). Shots `work/qa/p8x/signs_en.png`, `work/qa/p8x/link_battle/final.png`.
+  Full re-tour `work/qa/tour_en` 99/99, sheets by new `tools/tour_sheets.py`, `qa_gate.py init --build`, 4 codex
+  chunks (`work/qa/verdicts/p8b_*.tsv`): 104/104 ok, check exit 0. Any rebuild needs the tour + sheets + init +
+  todo + `tools/vqa.sh` on the changed chunks again.
+  **Next:** text coverage (build writes `build/strings.tsv` id<TAB>address; tour with `textcover.lua` RANGES over
+  the dialogue slots 0x400000+ / tables; plan scenes that run each section with A held, or waive with reasons),
+  then part-detail strings (step 2), `inkbox.py` on any centred box (link menu Start/Quit and the title menu are
+  centred), G12 in game.
+- **Session before (build sha1 da023e2d):** G5 done: the katakana logo is on the title *sprites* (not the bitmap):
   `gfx.py` `logos` (erase + per-column band refill + bold slanted `LOGO_GLYPHS`) in `title_obj`, and new sprite
   groups (`sprites=[(ROM, w tiles, h tiles, x, y)]`, canvas `size`) for the section-card logo `card_logo` (raw 1D
   sprites at 0x0A58A4/0x0A60A4/0x0A64A4, flat band refill). Shots `work/qa/g5_title/zoom.png`, `work/qa/g5_card/z.png`.
@@ -18,11 +31,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
   1. **fixed** (recheck_1.tsv): Continue help line "Which log shall we resume?" drew its 13th cell stale
      ("resumdd") -> "Resume from which log?"; the help lines seem to hold 12 cells (24 letters) per line: check the
      other HELP rows if one ever grows.
-  2. **todo**: workshop name sign (upper right, "アプリコットの工場" etc., 6 towns) still Japanese on factory,
+  2. **fixed** (G18): workshop name sign (upper right, "アプリコットの工場" etc., 6 towns) still Japanese on factory,
      factory_info, factory_maint, facility1-5 and their _info scenes (12 sheets). Find whether font text (marker
      build would show an id) or tiles (gba_layers/vramfind), then translate/redraw ("Apricot Factory" ...; town
      names in glossary / `LOCATIONS_EN`).
-  3. **todo**: link_battle menu はじめる / おわる still Japanese (link_battle/sheet_2): same check (font or tiles).
+  3. **fixed** (G19): link_battle menu はじめる / おわる still Japanese (link_battle/sheet_2): same check (font or tiles).
   Choice boxes are left-aligned in the original too (`work/qa/inkbox_jp.png` vs `inkbox_a.png`): inkbox's centring
   test does not apply to them; still run inkbox on any centred box found.
   Then: rebuild -> re-run the whole tour (build changed since the manifest) -> sheets -> `qa_gate.py init ... --build`
