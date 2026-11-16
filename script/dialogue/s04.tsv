@@ -38,10 +38,10 @@ dlg:0386	text	rec:673	149	{face:10002}{spk:02}ユウキ「署長」{wait}	{face:
 dlg:0387	text	rec:675	149	{face:00603}{spk:01}署長「ユウキ君・・・たいへんだ。{br}　ポリステカもみんな、いなくなってしまった・・・」{wait}	{face:00603}{spk:01}Chief: "Yuki-kun... It's terrible. All the Polisteka are gone too..."{wait}	
 dlg:0388	text	rec:677	149	{face:10001}{face:20101}{face:30205}{spk:04}ギリガン「ふう。{br}　教官のやつ、なんとかとじこめてきた」{wait}	{face:10001}{face:20101}{face:30205}{spk:04}Gilligan: "Phew. Somehow I got the Instructor locked up."{wait}	
 dlg:0389	text	rec:678	149	{face:10012}{spk:02}ユウキ「ひどくさわいだね。{br}　どんなぐあい？」{wait}	{face:10012}{spk:02}Yuki: "That was a lot of noise.{br}How's the Instructor?"{wait}	
-dlg:0390	text	rec:679	149	{spk:04}ギリガン「大さわぎさ。{br}　{face:30207}豆つぶ！{br}　ずんどう！　{br}　カマキリ頭！{br}{face:30202}　ってな。{br}　だれが一番キズついた」{wait}	{spk:04}Gilligan: "Total uproar.{face:30207} 'Shrimp! Barrel! Mantis-Head!'{face:30202} Which of us is hurt most?"{wait}	
+dlg:0390	text	rec:679	149	{spk:04}ギリガン「大さわぎさ。{br}　{face:30207}豆つぶ！{br}　ずんどう！　{br}　カマキリ頭！{br}{face:30202}　ってな。{br}　だれが一番キズついた」{wait}	{spk:04}Gilligan: "Total uproar.{face:30207} 'Peanut! Barrel! Mantis-Head!'{face:30202} Which of us is hurt most?"{wait}	
 dlg:0391	text	rec:680	149	{face:20115}{spk:03}ずんどう「ほっといてよ」{wait}	{face:20115}{spk:03}Barrel: "Leave me alone."{wait}	
 dlg:0392	text	rec:681	149	{spk:04}カマキリ頭「町じゅうのテカが、こんなちょうしなのか」{wait}	{spk:04}Mantis-Head: "Are all the Teka in town like this?"{wait}	
-dlg:0393	text	rec:682	149	{face:10002}{spk:02}豆つぶ「どんどんにげだしてる。{br}　人間に悪口いって」{wait}	{face:10002}{spk:02}Shrimp: "They keep running off. Badmouthing humans."{wait}	
+dlg:0393	text	rec:682	149	{face:10002}{spk:02}豆つぶ「どんどんにげだしてる。{br}　人間に悪口いって」{wait}	{face:10002}{spk:02}Peanut: "They keep running off. Badmouthing humans."{wait}	
 dlg:0394	text	rec:683	149	{face:00602}{spk:01}署長「ユウキ君！{br}　ポイヤックはどうしている？」{wait}	{face:00602}{spk:01}Chief: "Yuki-kun!{br}What's Pauillac doing?"{wait}	
 dlg:0395	text	rec:684	149	{face:30203}{spk:04}ギリガン「アウト・オブ・コントロールさ、にげだそうとして手がつけられなくてね。{br}{face:00603}　とじこめてますよ」{wait}	{face:30203}{spk:04}Gilligan: "Out of Control. Tried to run off, no handling it.{br}{face:00603}We've locked the Instructor up."{wait}	
 dlg:0396	text	rec:685	149	{spk:01}署長「ブランクは？」{wait}	{spk:01}Chief: "And Blank?"{wait}	
@@ -49,144 +49,144 @@ dlg:0397	text	rec:686	149	{spk:02}ユウキ「しょくぎょう型のテカと�
 dlg:0398	text	rec:687	149	{spk:01}署長「トイロボだからか―――{br}　おもちゃが、アプリコット最後のポリステカか。{br}　ユウキ君、どうする？」{wait}	{spk:01}Chief: "Because he's a Toyrobo-- So a toy is Apricot's last Polisteka. Yuki-kun, what do we do?"{wait}	
 dlg:0399	text	rec:689	149	{face:00605}{spk:01}署長「私は警官のけいけんはないんだ、どうすればいいか分からない・・・{br}　ユウキ君、しきをたのむ」{wait}	{face:00605}{spk:01}Chief: "I've no experience as a police officer. I don't know what to do... Yuki-kun, please take command."{wait}	
 dlg:0400	text	rec:691	149	{face:00602}{spk:01}署長「テカのにげ先かい？{br}　どこににげたんだ？」{wait}	{face:00602}{spk:01}Chief: "Where the Teka fled? Where did they go?"{wait}	
-dlg:0401	text	rec:692	149	{face:10007}{spk:02}ユウキ「あれだけの数がにげだしたのですから・・・」{wait}		
-dlg:0402	text	rec:699	149	{face:01402}{face:12402}{spk:01}みーちゃん「もしもしぃ、カマンベール牧場でえす・・・{br}　シティをにげだしたテカ？		
-dlg:0403	text	rec:700	149	　いいえ、来てませんよー？」{wait}		
-dlg:0404	text	rec:701	149	{face:00000}{face:10012}{spk:02}ユウキ「はずれか・・・」{wait}		
-dlg:0405	text	rec:705	149	{face:10001}{face:00602}{spk:01}署長「ど、どうだね」{wait}		
-dlg:0406	text	rec:706	149	{face:10007}{spk:02}ユウキ「はずれたみたいです」{wait}		
-dlg:0407	text	rec:708	149	{face:00602}{spk:01}署長「よし、すぐに出撃してくれたまえ！」{wait}		
-dlg:0408	text	rec:718	149	{face:10001}{face:00303}{spk:01}ブランク「テカは少ししかいませんでしたけど・・・」{wait}		
-dlg:0409	text	rec:719	149	{face:10007}{spk:02}ユウキ「・・・はずれか；」{wait}		
-dlg:0410	text	rec:723	149	{face:10007}{face:00602}{spk:01}署長「プラム山じゃない？{br}　それじゃ？」{wait}		
-dlg:0411	text	rec:728	149	　アプリコット上空{wait}		
-dlg:0412	text	rec:729	149	{face:00302}{spk:01}ブランク「上空２００メートルです―――{br}　商店街からにげたマーケテカは、すでにシティを出たもよう。{wait}		
-dlg:0413	text	rec:731	149	{face:00302}{spk:01}　オフィス街から、バンクテカが背すじをのばしてにげていきます。{br}　住宅街からドメステカが走っていく―――{wait}		
-dlg:0414	text	rec:733	149	{face:00302}{spk:01}　警察署は―――しずかです。{br}　もう、ポリステカは全員、にげてしまったもよう。{wait}		
-dlg:0415	text	rec:735	149	{face:00302}{spk:01}　どのテカも―――{br}　南に向かっているようです」{wait}		
-dlg:0416	text	rec:737	149	{face:10009}{spk:02}ユウキ「南、だね！」{wait}		
-dlg:0417	text	rec:740	149	{face:00601}{face:10001}{face:20101}{face:30205}{spk:04}ギリガン「南なんて、田んぼしかねえぞ」{wait}		
-dlg:0418	text	rec:741	149	{face:20104}{spk:03}トモミ「田んぼのさきは海だし」{wait}		
-dlg:0419	text	rec:742	149	{face:10002}{spk:02}ユウキ「港があるだろ」{wait}		
-dlg:0420	text	rec:743	149	{face:00602}{spk:01}署長「それじゃ？」{face:10007}{wait}		
-dlg:0421	text	rec:745	149	{face:00603}{spk:01}署長「ユウキ君；{br}　本気でそう思うかね？」{wait}		
-dlg:0422	text	rec:747	149	{face:20104}{spk:03}トモミ「テカには身なげなんてできないわ。{br}　だのにそう言い出すからには、ユウキには深い考えがあって・・・」{wait}		
-dlg:0423	text	rec:748	149	{face:10005}{spk:02}ユウキ「いや；{br}　考え直そう；」{wait}		
-dlg:0424	text	rec:750	149	{face:10007}{face:20103}{spk:03}トモミ「うん、あれだけのテカをいちどに　にがすなら、船ね」{wait}		
-dlg:0425	text	rec:751	149	{face:00603}{spk:01}署長「町中のテカだよ、手におえるかい？{br}　市長に言って、ほかのシティにおうえんをたのもうか？」{wait}		
-dlg:0426	text	rec:754	149	{face:30601}{face:00503}{spk:01}市長「テカは全部にげた？！{br}　どこににげた、アプリコットのポリステカだけでつれもどせるのか？！{wait}		
-dlg:0427	text	rec:755	149	{spk:01}　足りなければ、フランボワーズ市長におうえんを・・・{face:00505}いや、自力でなんとかしよう、やつに頭は下げたくない」{wait}		
-dlg:0428	text	rec:756	149	{face:30602}{spk:04}署長「テカはすべて反乱を起こしたのです。{br}　ポリステカだって、テカなんです」{wait}		
-dlg:0429	text	rec:757	149	{spk:01}市長「あ・・・{br}　じゃあ、警官はもういない？」{wait}		
-dlg:0430	text	rec:758	149	{spk:04}署長「３人と１体います」{wait}		
-dlg:0431	text	rec:759	149	{spk:01}市長「ユウキたちか、あの子たちにまかせるしかないのか」{wait}		
-dlg:0432	text	rec:760	149	{spk:04}署長「手が足りるはずがありません。{br}　フランボワーズにおうえんをたのんでください」{wait}		
-dlg:0433	text	rec:761	149	{spk:01}市長「フランボワーズ市長に頭を下げろと？　な、ユウキ君たちのかつやくを見てからでも、おそくはないだろ？」{wait}		
-dlg:0434	text	rec:762	149	{spk:04}署長「メンツを気にしている場合ではありませんよ」{wait}		
-dlg:0435	text	rec:763	149	{face:00502}{spk:01}市長「いや、私はユウキ君たちを信じてるから、こう言うのだ。{br}　君は、信じられないと言うのかね」{wait}		
-dlg:0436	text	rec:764	149	{spk:04}署長「きたないですよ、市長。{br}　きれいごとを言ってごまかして！」{wait}		
-dlg:0437	text	rec:765	149	{spk:01}市長「きれいごとがなぜきたない」{wait}		
-dlg:0438	text	rec:766	149	{face:30604}{spk:04}署長「もうけっこう！」{wait}		
-dlg:0439	text	rec:769	149	{face:00601}{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「そんなことだろうと思いました」{wait}		
-dlg:0440	text	rec:770	149	{face:20103}{spk:03}トモミ「やっぱりねえ」{wait}		
-dlg:0441	text	rec:771	149	{face:30203}{spk:04}ギリガン「どーせあの市長だ」{wait}		
-dlg:0442	text	rec:772	149	{face:00605}{spk:01}署長「（とことん信用のない人だ；）		
-dlg:0443	text	rec:773	149	{br}{face:00602}　君たちにまかせる。{br}　にげたテカをつれもどせ、たのむぞ！」{wait}		
-dlg:0444	text	rec:774	149	{face:20108}{face:30209}{face:10008}{spk:02}ユウキ「コンファー！」{wait}		
-dlg:0445	text	rec:776	149	{face:00602}{spk:01}署長「いや・・・どうせ市長にほうこくもしなくちゃならん。{br}　たのんでくるよ」{wait}		
-dlg:0446	text	rec:779	149	　市内・商店街{wait}		
-dlg:0447	text	rec:780	149	{face:10012}{face:20101}{spk:02}ユウキ「・・・しずかだな。{br}　まるでゴーストタウンだ」{wait}		
-dlg:0448	text	rec:781	149	{face:20104}{spk:03}トモミ「こんなんじゃ、なんの手がかりもありゃしないわ」{wait}		
-dlg:0449	text	rec:783	149	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}署長「ど、どうする、ユウキ君」{wait}		
-dlg:0450	text	rec:786	149	{face:30204}{spk:04}ギリガン「教官しめあげて、どこに行く気かはくじょうさせるか。{br}　よし！」{wait}		
-dlg:0451	text	rec:789	149	{face:10001}{face:20101}{face:30201}　ポイヤックをとじこめたそうこ{wait}		
-dlg:0452	text	rec:790	149	中からポイヤックの声「こら、ここから出しなさい！		
-dlg:0453	text	rec:791	149	{face:10012}　米つぶ！{br}{face:20106}　ずんどう！{br}{face:30205}　カマキリ頭！」{wait}		
-dlg:0454	text	rec:792	149	{spk:03}ずんどう「ほっとけっちゅうに；」{wait}		
-dlg:0455	text	rec:793	149	{face:30205}{spk:04}カマキリ頭「今度火あぶりにしてやる；」{wait}		
-dlg:0456	text	rec:794	149	{face:10005}{spk:02}米つぶ「（豆より小さくなってる；）{br}　とても話を聞けるじょうたいじゃないね」{wait}		
-dlg:0457	text	rec:795	149	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}署長「ど、どうする、ユウキ君」{wait}		
-dlg:0458	text	rec:800	149	{face:10001}{face:20101}{face:30201}　ポイヤックをとじこめたそうこ{wait}		
-dlg:0459	text	rec:801	149	声「出しなさいというのに！{wait}		
-dlg:0460	text	rec:802	149	{face:10005}　身長××センチ！{br}{face:20106}　ウエスト××センチ！{br}{face:30206}　せいしんねんれい×才！」{wait}		
-dlg:0461	text	rec:803	149	{spk:02}身長××「・・・；」{wait}		
-dlg:0462	text	rec:804	149	{spk:03}ウエスト××「ばらすな；」{wait}		
-dlg:0463	text	rec:805	149	{face:30207}{spk:04}せいしんねんれい×才「いつか、分かいしてやる！」{wait}		
-dlg:0464	text	rec:806	149	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}署長「ど、どうする、ユウキ君」{wait}		
-dlg:0465	text	rec:808	149	{face:20104}{spk:03}トモミ「ワークテカ、にげちゃったわ。{br}　メンテ、自分たちでやらなくちゃね」{wait}		
-dlg:0466	text	rec:812	149	{face:01001}{face:11102}{spk:02}ペータ「あぶないよリアナ、帰ろうってば」{wait}		
-dlg:0467	text	rec:813	149	{face:01002}{spk:01}リアナ「警察はなにやってんのかしら。{wait}		
-dlg:0468	text	rec:814	149	{spk:01}　ポリステカってたのもしくて、ちょっとステキだって思ってたのに、こういう時にたよりにならないなんて。{br}　ゲンメツね！」{wait}		
-dlg:0469	text	rec:816	149	{face:11102}{spk:02}ペータ「リアナって、ポリステカなんか好きなの・・・？」{wait}		
-dlg:0470	text	rec:817	149	{face:01002}{spk:01}リアナ「なんか、ってなによ。　　　　　　　あんたより{face:01004}ずっとかっこいいわよ！」{wait}		
-dlg:0471	text	rec:819	149	{face:20106}{spk:03}トモミ「ゲートがめちゃくちゃ・・・{br}　テカがこわしてにげたわね；」{wait}		
-dlg:0472	text	rec:826	149	{face:00602}{spk:01}署長「署のそうこをさぐってみたまえ。{br}　なにか使えるものがあると思うよ、{br}　なんでも持っていっていい」{wait}		
-dlg:0473	text	rec:829	149	　署のそうこ{wait}		
-dlg:0474	text	rec:830	149	{face:10012}{face:20115}{face:30205}{spk:04}ギリガン「なんだ、ガラクタばっかだぞ。{br}　めぼしい物はテカが持ってったな」{wait}		
-dlg:0475	text	rec:834	149	{face:20104}{spk:03}トモミ「あ、これ・・・{br}　対地ライフル『ベローニング』？」{wait}		
-dlg:0476	text	rec:835	149	{face:30204}{spk:04}ギリガン「なんだ？！　対地ライフル？！{br}　使えるじゃねえか！」{wait}		
-dlg:0477	text	rec:838	149	左腕『ベローニング』を{br}　手に入れました。{wait}		
-dlg:0478	text	rec:840	149	{face:30206}{spk:04}ギリガン「いらねえよ、いくつ持ってると思ってんだ；」{wait}		
-dlg:0479	text	rec:842	149	{face:30202}{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}		
-dlg:0480	text	rec:843	149	{face:20115}{spk:03}トモミ「いつまでもさがしてられないわよ」{wait}		
-dlg:0481	text	rec:845	149	{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}		
-dlg:0482	text	rec:846	149	{spk:03}トモミ「いつまでもさがして　いられないってば；」{wait}		
-dlg:0483	text	rec:848	149	{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}		
-dlg:0484	text	rec:849	149	{spk:03}トモミ「いつまでもさがしていられないって言ってんのよ；；」{wait}		
-dlg:0485	text	rec:851	149	{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}		
-dlg:0486	text	rec:852	149	{spk:03}トモミ「いいかげんにしましょうっ、{br}　出撃じゅんびに行くわよ！」{wait}		
-dlg:0487	text	rec:856	149	　そうこのうらをそうさく中・・・{wait}		
-dlg:0488	text	rec:857	149	{face:30204}{spk:04}ギリガン「あのシートかぶってるのは・・・　やっぱり、パソコプだ。{br}　タイプ９０」{wait}		
-dlg:0489	text	rec:858	149	{face:10012}{spk:02}ユウキ「・・・キーがついてないよ」{wait}		
-dlg:0490	text	rec:859	149	{face:30205}{spk:04}ギリガン「げ。それじゃだめだろ；{br}　さがそう」{wait}		
-dlg:0491	text	rec:863	149	　車庫をそうさく中・・・{wait}		
-dlg:0492	text	rec:864	149	{face:10012}{spk:02}ユウキ「・・・ないみたいだね」{wait}		
-dlg:0493	text	rec:865	149	{face:20115}{spk:03}トモミ「ねえ、もう出撃しなくちゃ」{wait}		
-dlg:0494	text	rec:866	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}		
-dlg:0495	text	rec:870	149	　そうこをそうさく中・・・{wait}		
-dlg:0496	text	rec:871	149	{face:10012}{spk:02}ユウキ「ごそごそごそ・・・」{wait}		
-dlg:0497	text	rec:872	149	{face:20106}{spk:03}トモミ「口でごそごそ言いながらさがさないで；{br}{face:20115}　もう出撃するわよ」{wait}		
-dlg:0498	text	rec:873	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}		
-dlg:0499	text	rec:878	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}		
-dlg:0500	text	rec:883	149	{face:20115}{spk:03}トモミ「ねえ、もう出撃しなくちゃ」{wait}		
-dlg:0501	text	rec:884	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}		
-dlg:0502	text	rec:888	149	　しつこくそうさく中・・・{wait}		
-dlg:0503	text	rec:889	149	{face:30206}{spk:04}ギリガン「・・・うーん、ちくしょう！{br}　やっぱりねえな」{wait}		
-dlg:0504	text	rec:890	149	{face:10002}{spk:02}ユウキ「もうしょうがない。{br}　出撃じゅんびに行こう」{wait}		
-dlg:0505	text	rec:899	149	{face:20103}{spk:03}トモミ「まあよかったじゃない。{br}　じゃあ、出撃じゅんびと行きましょう」{wait}		
-dlg:0506	text	rec:901	149	{face:10001}{face:30204}{spk:04}ギリガン「おい、ちょっとアイデアがあるんだが・・・{br}　教官バラして、パーツ使うってどうだ」{wait}		
-dlg:0507	text	rec:902	149	{face:10003}{spk:14}ユウキ「それはさすがにまずいだろ；」{wait}		
-dlg:0508	text	rec:907	149	{face:21101}{face:31009}{face:00001}{face:10101}{spk:04}リアナ「そこ。{br}　こわれたマーケテカがおいてあるわよ」{wait}		
-dlg:0509	text	rec:908	149	{face:21102}{spk:03}ペータ「かわいそうに、左うでがなくなってるんです」{wait}		
-dlg:0510	text	rec:909	149	{face:00012}{spk:01}ユウキ「つれていってもらえなかったのか」{wait}		
-dlg:0511	text	rec:910	149	{face:10103}{spk:02}トモミ「さびしいでしょうに。{br}　{face:10105}あたしたちの仲間にしてあげましょう♪」{wait}		
-dlg:0512	text	rec:912	149	マーケテカのボディを{br}　手に入れました。{wait}		
-dlg:0513	text	rec:914	149	右腕『ビショップ』を{br}　手に入れました。{wait}		
-dlg:0514	text	rec:924	149	　アプリコットこうがい{wait}		
-dlg:0515	text	rec:925	149	{face:10001}{face:20101}通信「ブランクです。{br}　いま上空３００メートル、じょうきょうは・・・ちとまずいですね；」{wait}		
-dlg:0516	text	rec:926	149	{face:20110}{spk:03}トモミ「おそってくるわよ！」{wait}		
-dlg:0517	text	rec:927	149	{face:10011}{spk:14}ユウキ「はっぽうきょか！{br}　ただちにテカ反乱をちんあつしろ！」		
+dlg:0401	text	rec:692	149	{face:10007}{spk:02}ユウキ「あれだけの数がにげだしたのですから・・・」{wait}	{face:10007}{spk:02}Yuki: "With that many of them fleeing..."{wait}	
+dlg:0402	text	rec:699	149	{face:01402}{face:12402}{spk:01}みーちゃん「もしもしぃ、カマンベール牧場でえす・・・{br}　シティをにげだしたテカ？	{face:01402}{face:12402}{spk:01}Mii-chan: "Helloo, this is Camembert Ranch... Teka that fled the City?	
+dlg:0403	text	rec:700	149	　いいえ、来てませんよー？」{wait}	No, none have come here?"{wait}	
+dlg:0404	text	rec:701	149	{face:00000}{face:10012}{spk:02}ユウキ「はずれか・・・」{wait}	{face:00000}{face:10012}{spk:02}Yuki: "Wrong guess..."{wait}	
+dlg:0405	text	rec:705	149	{face:10001}{face:00602}{spk:01}署長「ど、どうだね」{wait}	{face:10001}{face:00602}{spk:01}Chief: "W-well?"{wait}	
+dlg:0406	text	rec:706	149	{face:10007}{spk:02}ユウキ「はずれたみたいです」{wait}	{face:10007}{spk:02}Yuki: "Looks like I guessed wrong."{wait}	
+dlg:0407	text	rec:708	149	{face:00602}{spk:01}署長「よし、すぐに出撃してくれたまえ！」{wait}	{face:00602}{spk:01}Chief: "Right, sortie at once!"{wait}	
+dlg:0408	text	rec:718	149	{face:10001}{face:00303}{spk:01}ブランク「テカは少ししかいませんでしたけど・・・」{wait}	{face:10001}{face:00303}{spk:01}Blank: "There were only a few Teka, though..."{wait}	
+dlg:0409	text	rec:719	149	{face:10007}{spk:02}ユウキ「・・・はずれか；」{wait}	{face:10007}{spk:02}Yuki: "...Wrong guess..."{wait}	
+dlg:0410	text	rec:723	149	{face:10007}{face:00602}{spk:01}署長「プラム山じゃない？{br}　それじゃ？」{wait}	{face:10007}{face:00602}{spk:01}Chief: "Not Plum Mountain?{br}Then where?"{wait}	
+dlg:0411	text	rec:728	149	　アプリコット上空{wait}	The skies over Apricot{wait}	
+dlg:0412	text	rec:729	149	{face:00302}{spk:01}ブランク「上空２００メートルです―――{br}　商店街からにげたマーケテカは、すでにシティを出たもよう。{wait}	{face:00302}{spk:01}Blank: "200 meters overhead-- The Marketeka from the shopping district seem to have left the City already.{wait}	
+dlg:0413	text	rec:731	149	{face:00302}{spk:01}　オフィス街から、バンクテカが背すじをのばしてにげていきます。{br}　住宅街からドメステカが走っていく―――{wait}	{face:00302}{spk:01}Bankteka are fleeing the office district with their backs straight. Domesteka are running from the homes--{wait}	
+dlg:0414	text	rec:733	149	{face:00302}{spk:01}　警察署は―――しずかです。{br}　もう、ポリステカは全員、にげてしまったもよう。{wait}	{face:00302}{spk:01}The police station is-- quiet. It seems every Polisteka has already fled.{wait}	
+dlg:0415	text	rec:735	149	{face:00302}{spk:01}　どのテカも―――{br}　南に向かっているようです」{wait}	{face:00302}{spk:01}All the Teka-- seem to be heading south."{wait}	
+dlg:0416	text	rec:737	149	{face:10009}{spk:02}ユウキ「南、だね！」{wait}	{face:10009}{spk:02}Yuki: "South, then!"{wait}	
+dlg:0417	text	rec:740	149	{face:00601}{face:10001}{face:20101}{face:30205}{spk:04}ギリガン「南なんて、田んぼしかねえぞ」{wait}	{face:00601}{face:10001}{face:20101}{face:30205}{spk:04}Gilligan: "There's nothing down south but rice paddies."{wait}	
+dlg:0418	text	rec:741	149	{face:20104}{spk:03}トモミ「田んぼのさきは海だし」{wait}	{face:20104}{spk:03}Tomomi: "And past the paddies is the sea."{wait}	
+dlg:0419	text	rec:742	149	{face:10002}{spk:02}ユウキ「港があるだろ」{wait}	{face:10002}{spk:02}Yuki: "There's the harbor, isn't there?"{wait}	
+dlg:0420	text	rec:743	149	{face:00602}{spk:01}署長「それじゃ？」{face:10007}{wait}	{face:00602}{spk:01}Chief: "Then where?"{face:10007}{wait}	
+dlg:0421	text	rec:745	149	{face:00603}{spk:01}署長「ユウキ君；{br}　本気でそう思うかね？」{wait}	{face:00603}{spk:01}Chief: "Yuki-kun...{br}Do you really think so?"{wait}	
+dlg:0422	text	rec:747	149	{face:20104}{spk:03}トモミ「テカには身なげなんてできないわ。{br}　だのにそう言い出すからには、ユウキには深い考えがあって・・・」{wait}	{face:20104}{spk:03}Tomomi: "Teka can't drown themselves. So if Yuki says that, he must be thinking something deep..."{wait}	
+dlg:0423	text	rec:748	149	{face:10005}{spk:02}ユウキ「いや；{br}　考え直そう；」{wait}	{face:10005}{spk:02}Yuki: "No...{br}Let me think again..."{wait}	
+dlg:0424	text	rec:750	149	{face:10007}{face:20103}{spk:03}トモミ「うん、あれだけのテカをいちどに　にがすなら、船ね」{wait}	{face:10007}{face:20103}{spk:03}Tomomi: "Yes, to get that many Teka away at once, it'd be by ship."{wait}	
+dlg:0425	text	rec:751	149	{face:00603}{spk:01}署長「町中のテカだよ、手におえるかい？{br}　市長に言って、ほかのシティにおうえんをたのもうか？」{wait}	{face:00603}{spk:01}Chief: "That's every Teka in town. Can you handle it? Shall I ask the Mayor to get help from another City?"{wait}	
+dlg:0426	text	rec:754	149	{face:30601}{face:00503}{spk:01}市長「テカは全部にげた？！{br}　どこににげた、アプリコットのポリステカだけでつれもどせるのか？！{wait}	{face:30601}{face:00503}{spk:01}Mayor: "All the Teka fled?! Where to? Can Apricot's Polisteka alone bring them back?!{wait}	
+dlg:0427	text	rec:755	149	{spk:01}　足りなければ、フランボワーズ市長におうえんを・・・{face:00505}いや、自力でなんとかしよう、やつに頭は下げたくない」{wait}	{spk:01}If not, we'll ask Mayor Framboise for help...{face:00505}No, we'll manage on our own. I won't bow to that man."{wait}	
+dlg:0428	text	rec:756	149	{face:30602}{spk:04}署長「テカはすべて反乱を起こしたのです。{br}　ポリステカだって、テカなんです」{wait}	{face:30602}{spk:04}Chief: "Every Teka has revolted. The Polisteka are Teka too."{wait}	
+dlg:0429	text	rec:757	149	{spk:01}市長「あ・・・{br}　じゃあ、警官はもういない？」{wait}	{spk:01}Mayor: "Oh...{br}Then there are no officers left?"{wait}	
+dlg:0430	text	rec:758	149	{spk:04}署長「３人と１体います」{wait}	{spk:04}Chief: "There are three, and one robot."{wait}	
+dlg:0431	text	rec:759	149	{spk:01}市長「ユウキたちか、あの子たちにまかせるしかないのか」{wait}	{spk:01}Mayor: "Yuki and the others? We have no choice but to leave it to those kids?"{wait}	
+dlg:0432	text	rec:760	149	{spk:04}署長「手が足りるはずがありません。{br}　フランボワーズにおうえんをたのんでください」{wait}	{spk:04}Chief: "They can't possibly cope. Please ask Framboise for help."{wait}	
+dlg:0433	text	rec:761	149	{spk:01}市長「フランボワーズ市長に頭を下げろと？　な、ユウキ君たちのかつやくを見てからでも、おそくはないだろ？」{wait}	{spk:01}Mayor: "Bow to Mayor Framboise? Now, it's not too late to do that after we see what Yuki-kun's team can do, eh?"{wait}	
+dlg:0434	text	rec:762	149	{spk:04}署長「メンツを気にしている場合ではありませんよ」{wait}	{spk:04}Chief: "This is no time to worry about saving face."{wait}	
+dlg:0435	text	rec:763	149	{face:00502}{spk:01}市長「いや、私はユウキ君たちを信じてるから、こう言うのだ。{br}　君は、信じられないと言うのかね」{wait}	{face:00502}{spk:01}Mayor: "No, I say this because I believe in Yuki-kun's team. Are you saying you don't?"{wait}	
+dlg:0436	text	rec:764	149	{spk:04}署長「きたないですよ、市長。{br}　きれいごとを言ってごまかして！」{wait}	{spk:04}Chief: "That's dirty, Mayor. Dodging it with pretty words!"{wait}	
+dlg:0437	text	rec:765	149	{spk:01}市長「きれいごとがなぜきたない」{wait}	{spk:01}Mayor: "How are pretty words dirty?"{wait}	
+dlg:0438	text	rec:766	149	{face:30604}{spk:04}署長「もうけっこう！」{wait}	{face:30604}{spk:04}Chief: "Enough!"{wait}	
+dlg:0439	text	rec:769	149	{face:00601}{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「そんなことだろうと思いました」{wait}	{face:00601}{face:10012}{face:20101}{face:30201}{spk:02}Yuki: "I thought it'd be something like that."{wait}	
+dlg:0440	text	rec:770	149	{face:20103}{spk:03}トモミ「やっぱりねえ」{wait}	{face:20103}{spk:03}Tomomi: "Figures."{wait}	
+dlg:0441	text	rec:771	149	{face:30203}{spk:04}ギリガン「どーせあの市長だ」{wait}	{face:30203}{spk:04}Gilligan: "It's that mayor, what'd you expect."{wait}	
+dlg:0442	text	rec:772	149	{face:00605}{spk:01}署長「（とことん信用のない人だ；）	{face:00605}{spk:01}Chief: "(That man is utterly untrustworthy...)	
+dlg:0443	text	rec:773	149	{br}{face:00602}　君たちにまかせる。{br}　にげたテカをつれもどせ、たのむぞ！」{wait}	{br}{face:00602}I'm leaving it to you. Bring back the Teka that fled. I'm counting on you!"{wait}	
+dlg:0444	text	rec:774	149	{face:20108}{face:30209}{face:10008}{spk:02}ユウキ「コンファー！」{wait}	{face:20108}{face:30209}{face:10008}{spk:02}Yuki: "Confirm!"{wait}	
+dlg:0445	text	rec:776	149	{face:00602}{spk:01}署長「いや・・・どうせ市長にほうこくもしなくちゃならん。{br}　たのんでくるよ」{wait}	{face:00602}{spk:01}Chief: "No... I have to report to the Mayor anyway. I'll go ask him."{wait}	
+dlg:0446	text	rec:779	149	　市内・商店街{wait}	In the City: shopping district{wait}	
+dlg:0447	text	rec:780	149	{face:10012}{face:20101}{spk:02}ユウキ「・・・しずかだな。{br}　まるでゴーストタウンだ」{wait}	{face:10012}{face:20101}{spk:02}Yuki: "...It's quiet.{br}Like a ghost town."{wait}	
+dlg:0448	text	rec:781	149	{face:20104}{spk:03}トモミ「こんなんじゃ、なんの手がかりもありゃしないわ」{wait}	{face:20104}{spk:03}Tomomi: "At this rate, we won't find a single clue."{wait}	
+dlg:0449	text	rec:783	149	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}署長「ど、どうする、ユウキ君」{wait}	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}Chief: "Wh-what'll we do, Yuki-kun?"{wait}	
+dlg:0450	text	rec:786	149	{face:30204}{spk:04}ギリガン「教官しめあげて、どこに行く気かはくじょうさせるか。{br}　よし！」{wait}	{face:30204}{spk:04}Gilligan: "We squeeze the Instructor and make it spill where they're headed. All right!"{wait}	
+dlg:0451	text	rec:789	149	{face:10001}{face:20101}{face:30201}　ポイヤックをとじこめたそうこ{wait}	{face:10001}{face:20101}{face:30201}The warehouse where Pauillac is locked up{wait}	
+dlg:0452	text	rec:790	149	中からポイヤックの声「こら、ここから出しなさい！	Pauillac's voice from inside: "Hey, let me out of here!	
+dlg:0453	text	rec:791	149	{face:10012}　米つぶ！{br}{face:20106}　ずんどう！{br}{face:30205}　カマキリ頭！」{wait}	{face:10012}Rice Grain!{br}{face:20106}Barrel!{br}{face:30205}Mantis-Head!"{wait}	
+dlg:0454	text	rec:792	149	{spk:03}ずんどう「ほっとけっちゅうに；」{wait}	{spk:03}Barrel: "I said leave me alone..."{wait}	
+dlg:0455	text	rec:793	149	{face:30205}{spk:04}カマキリ頭「今度火あぶりにしてやる；」{wait}	{face:30205}{spk:04}Mantis-Head: "Next time I'm burnin' you at the stake..."{wait}	
+dlg:0456	text	rec:794	149	{face:10005}{spk:02}米つぶ「（豆より小さくなってる；）{br}　とても話を聞けるじょうたいじゃないね」{wait}	{face:10005}{spk:02}Rice Grain: "(Now I'm smaller than a peanut...) It's in no state to talk, huh."{wait}	
+dlg:0457	text	rec:795	149	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}署長「ど、どうする、ユウキ君」{wait}	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}Chief: "Wh-what'll we do, Yuki-kun?"{wait}	
+dlg:0458	text	rec:800	149	{face:10001}{face:20101}{face:30201}　ポイヤックをとじこめたそうこ{wait}	{face:10001}{face:20101}{face:30201}The warehouse where Pauillac is locked up{wait}	
+dlg:0459	text	rec:801	149	声「出しなさいというのに！{wait}	Voice: "I said let me out!{wait}	
+dlg:0460	text	rec:802	149	{face:10005}　身長××センチ！{br}{face:20106}　ウエスト××センチ！{br}{face:30206}　せいしんねんれい×才！」{wait}	{face:10005}Height XX cm!{br}{face:20106}Waist XX cm!{br}{face:30206}Mental Age X!"{wait}	
+dlg:0461	text	rec:803	149	{spk:02}身長××「・・・；」{wait}	{spk:02}Height XX: "......"{wait}	
+dlg:0462	text	rec:804	149	{spk:03}ウエスト××「ばらすな；」{wait}	{spk:03}Waist XX: "Don't tell them!"{wait}	
+dlg:0463	text	rec:805	149	{face:30207}{spk:04}せいしんねんれい×才「いつか、分かいしてやる！」{wait}	{face:30207}{spk:04}Mental Age X: "Someday I'm taking you apart!"{wait}	
+dlg:0464	text	rec:806	149	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}署長「ど、どうする、ユウキ君」{wait}	{face:00603}{face:10002}{face:20101}{face:30201}{spk:01}Chief: "Wh-what'll we do, Yuki-kun?"{wait}	
+dlg:0465	text	rec:808	149	{face:20104}{spk:03}トモミ「ワークテカ、にげちゃったわ。{br}　メンテ、自分たちでやらなくちゃね」{wait}	{face:20104}{spk:03}Tomomi: "The Workteka ran off. We'll have to do maintenance ourselves."{wait}	
+dlg:0466	text	rec:812	149	{face:01001}{face:11102}{spk:02}ペータ「あぶないよリアナ、帰ろうってば」{wait}	{face:01001}{face:11102}{spk:02}Peta: "It's dangerous, Riana. Let's go home already."{wait}	
+dlg:0467	text	rec:813	149	{face:01002}{spk:01}リアナ「警察はなにやってんのかしら。{wait}	{face:01002}{spk:01}Riana: "What are the police doing?{wait}	
+dlg:0468	text	rec:814	149	{spk:01}　ポリステカってたのもしくて、ちょっとステキだって思ってたのに、こういう時にたよりにならないなんて。{br}　ゲンメツね！」{wait}	{spk:01}I thought Polisteka were dependable, even a bit dreamy, but they're useless at a time like this. What a letdown!"{wait}	
+dlg:0469	text	rec:816	149	{face:11102}{spk:02}ペータ「リアナって、ポリステカなんか好きなの・・・？」{wait}	{face:11102}{spk:02}Peta: "Riana... you like Polisteka, of all things...?"{wait}	
+dlg:0470	text	rec:817	149	{face:01002}{spk:01}リアナ「なんか、ってなによ。　　　　　　　あんたより{face:01004}ずっとかっこいいわよ！」{wait}	{face:01002}{spk:01}Riana: "'Of all things'? What's that supposed to mean? They're{face:01004} way cooler than you!"{wait}	
+dlg:0471	text	rec:819	149	{face:20106}{spk:03}トモミ「ゲートがめちゃくちゃ・・・{br}　テカがこわしてにげたわね；」{wait}	{face:20106}{spk:03}Tomomi: "The gate's wrecked...{br}The Teka broke it and fled..."{wait}	
+dlg:0472	text	rec:826	149	{face:00602}{spk:01}署長「署のそうこをさぐってみたまえ。{br}　なにか使えるものがあると思うよ、{br}　なんでも持っていっていい」{wait}	{face:00602}{spk:01}Chief: "Try searching the station warehouse. I think there's something useful. Take anything you like."{wait}	
+dlg:0473	text	rec:829	149	　署のそうこ{wait}	The station warehouse{wait}	
+dlg:0474	text	rec:830	149	{face:10012}{face:20115}{face:30205}{spk:04}ギリガン「なんだ、ガラクタばっかだぞ。{br}　めぼしい物はテカが持ってったな」{wait}	{face:10012}{face:20115}{face:30205}{spk:04}Gilligan: "What, it's all junk. The Teka took anything worth having."{wait}	
+dlg:0475	text	rec:834	149	{face:20104}{spk:03}トモミ「あ、これ・・・{br}　対地ライフル『ベローニング』？」{wait}	{face:20104}{spk:03}Tomomi: "Oh, this...{br}The anti-ground rifle 'Belloning'?"{wait}	
+dlg:0476	text	rec:835	149	{face:30204}{spk:04}ギリガン「なんだ？！　対地ライフル？！{br}　使えるじゃねえか！」{wait}	{face:30204}{spk:04}Gilligan: "What?! An anti-ground rifle?! Now that's useful!"{wait}	
+dlg:0477	text	rec:838	149	左腕『ベローニング』を{br}　手に入れました。{wait}	Got the left arm{br}'Belloning.'{wait}	
+dlg:0478	text	rec:840	149	{face:30206}{spk:04}ギリガン「いらねえよ、いくつ持ってると思ってんだ；」{wait}	{face:30206}{spk:04}Gilligan: "Don't need it. How many d'you think we've got already?"{wait}	
+dlg:0479	text	rec:842	149	{face:30202}{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}	{face:30202}{spk:04}Gilligan: "Anything useful...{br}Nah, nothing else."{wait}	
+dlg:0480	text	rec:843	149	{face:20115}{spk:03}トモミ「いつまでもさがしてられないわよ」{wait}	{face:20115}{spk:03}Tomomi: "We can't keep searching forever."{wait}	
+dlg:0481	text	rec:845	149	{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}	{spk:04}Gilligan: "Anything useful...{br}Nah, nothing else."{wait}	
+dlg:0482	text	rec:846	149	{spk:03}トモミ「いつまでもさがして　いられないってば；」{wait}	{spk:03}Tomomi: "I said we can't keep searching forever..."{wait}	
+dlg:0483	text	rec:848	149	{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}	{spk:04}Gilligan: "Anything useful...{br}Nah, nothing else."{wait}	
+dlg:0484	text	rec:849	149	{spk:03}トモミ「いつまでもさがしていられないって言ってんのよ；；」{wait}	{spk:03}Tomomi: "I'm TELLING you we can't keep searching forever!!"{wait}	
+dlg:0485	text	rec:851	149	{spk:04}ギリガン「使えそうなのは・・・{br}　もうないな」{wait}	{spk:04}Gilligan: "Anything useful...{br}Nah, nothing else."{wait}	
+dlg:0486	text	rec:852	149	{spk:03}トモミ「いいかげんにしましょうっ、{br}　出撃じゅんびに行くわよ！」{wait}	{spk:03}Tomomi: "That's enough! We're going to get ready to sortie!"{wait}	
+dlg:0487	text	rec:856	149	　そうこのうらをそうさく中・・・{wait}	Searching behind the warehouse...{wait}	
+dlg:0488	text	rec:857	149	{face:30204}{spk:04}ギリガン「あのシートかぶってるのは・・・　やっぱり、パソコプだ。{br}　タイプ９０」{wait}	{face:30204}{spk:04}Gilligan: "That thing under the tarp... I knew it, a Pasocop. Type 90."{wait}	
+dlg:0489	text	rec:858	149	{face:10012}{spk:02}ユウキ「・・・キーがついてないよ」{wait}	{face:10012}{spk:02}Yuki: "...There's no key in it."{wait}	
+dlg:0490	text	rec:859	149	{face:30205}{spk:04}ギリガン「げ。それじゃだめだろ；{br}　さがそう」{wait}	{face:30205}{spk:04}Gilligan: "Ugh. That's no good, then.{br}Let's look for it."{wait}	
+dlg:0491	text	rec:863	149	　車庫をそうさく中・・・{wait}	Searching the garage...{wait}	
+dlg:0492	text	rec:864	149	{face:10012}{spk:02}ユウキ「・・・ないみたいだね」{wait}	{face:10012}{spk:02}Yuki: "...Doesn't seem to be here."{wait}	
+dlg:0493	text	rec:865	149	{face:20115}{spk:03}トモミ「ねえ、もう出撃しなくちゃ」{wait}	{face:20115}{spk:03}Tomomi: "Hey, we need to sortie already."{wait}	
+dlg:0494	text	rec:866	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}	{face:30204}{spk:04}Gilligan: "Just a bit more! We'll search at least one more place!"{wait}	
+dlg:0495	text	rec:870	149	　そうこをそうさく中・・・{wait}	Searching the warehouse...{wait}	
+dlg:0496	text	rec:871	149	{face:10012}{spk:02}ユウキ「ごそごそごそ・・・」{wait}	{face:10012}{spk:02}Yuki: "Rummage rummage rummage..."{wait}	
+dlg:0497	text	rec:872	149	{face:20106}{spk:03}トモミ「口でごそごそ言いながらさがさないで；{br}{face:20115}　もう出撃するわよ」{wait}	{face:20106}{spk:03}Tomomi: "Don't say 'rummage' out loud while you search...{br}{face:20115}We're sortieing now."{wait}	
+dlg:0498	text	rec:873	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}	{face:30204}{spk:04}Gilligan: "Just a bit more! We'll search at least one more place!"{wait}	
+dlg:0499	text	rec:878	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}	{face:30204}{spk:04}Gilligan: "Just a bit more! We'll search at least one more place!"{wait}	
+dlg:0500	text	rec:883	149	{face:20115}{spk:03}トモミ「ねえ、もう出撃しなくちゃ」{wait}	{face:20115}{spk:03}Tomomi: "Hey, we need to sortie already."{wait}	
+dlg:0501	text	rec:884	149	{face:30204}{spk:04}ギリガン「もう少し！{br}　あと一ヵ所だけでもさがすぞ！」{wait}	{face:30204}{spk:04}Gilligan: "Just a bit more! We'll search at least one more place!"{wait}	
+dlg:0502	text	rec:888	149	　しつこくそうさく中・・・{wait}	Searching stubbornly...{wait}	
+dlg:0503	text	rec:889	149	{face:30206}{spk:04}ギリガン「・・・うーん、ちくしょう！{br}　やっぱりねえな」{wait}	{face:30206}{spk:04}Gilligan: "...Grr, dammit!{br}It's really not here."{wait}	
+dlg:0504	text	rec:890	149	{face:10002}{spk:02}ユウキ「もうしょうがない。{br}　出撃じゅんびに行こう」{wait}	{face:10002}{spk:02}Yuki: "Can't be helped. Let's go get ready to sortie."{wait}	
+dlg:0505	text	rec:899	149	{face:20103}{spk:03}トモミ「まあよかったじゃない。{br}　じゃあ、出撃じゅんびと行きましょう」{wait}	{face:20103}{spk:03}Tomomi: "Well, good for you. Now, let's get ready to sortie."{wait}	
+dlg:0506	text	rec:901	149	{face:10001}{face:30204}{spk:04}ギリガン「おい、ちょっとアイデアがあるんだが・・・{br}　教官バラして、パーツ使うってどうだ」{wait}	{face:10001}{face:30204}{spk:04}Gilligan: "Hey, I've got an idea... What if we take the Instructor apart and use its parts?"{wait}	
+dlg:0507	text	rec:902	149	{face:10003}{spk:14}ユウキ「それはさすがにまずいだろ；」{wait}	{face:10003}{spk:14}Yuki: "That would be going too far..."{wait}	
+dlg:0508	text	rec:907	149	{face:21101}{face:31009}{face:00001}{face:10101}{spk:04}リアナ「そこ。{br}　こわれたマーケテカがおいてあるわよ」{wait}	{face:21101}{face:31009}{face:00001}{face:10101}{spk:04}Riana: "Over there. There's a broken Marketeka lying around."{wait}	
+dlg:0509	text	rec:908	149	{face:21102}{spk:03}ペータ「かわいそうに、左うでがなくなってるんです」{wait}	{face:21102}{spk:03}Peta: "Poor thing, its left arm is gone."{wait}	
+dlg:0510	text	rec:909	149	{face:00012}{spk:01}ユウキ「つれていってもらえなかったのか」{wait}	{face:00012}{spk:01}Yuki: "They didn't take it with them?"{wait}	
+dlg:0511	text	rec:910	149	{face:10103}{spk:02}トモミ「さびしいでしょうに。{br}　{face:10105}あたしたちの仲間にしてあげましょう♪」{wait}	{face:10103}{spk:02}Tomomi: "It must be so lonely.{br}{face:10105}Let's make it one of our team!"{wait}	
+dlg:0512	text	rec:912	149	マーケテカのボディを{br}　手に入れました。{wait}	Got the Marketeka's body.{wait}	
+dlg:0513	text	rec:914	149	右腕『ビショップ』を{br}　手に入れました。{wait}	Got the right arm{br}'Bishop.'{wait}	
+dlg:0514	text	rec:924	149	　アプリコットこうがい{wait}	Outskirts of Apricot{wait}	
+dlg:0515	text	rec:925	149	{face:10001}{face:20101}通信「ブランクです。{br}　いま上空３００メートル、じょうきょうは・・・ちとまずいですね；」{wait}	{face:10001}{face:20101}Radio: "This is Blank. Now 300 meters overhead. The situation is... a bit bad..."{wait}	
+dlg:0516	text	rec:926	149	{face:20110}{spk:03}トモミ「おそってくるわよ！」{wait}	{face:20110}{spk:03}Tomomi: "They're attacking!"{wait}	
+dlg:0517	text	rec:927	149	{face:10011}{spk:14}ユウキ「はっぽうきょか！{br}　ただちにテカ反乱をちんあつしろ！」	{face:10011}{spk:14}Yuki: "Cleared to fire! Suppress the Teka Revolt at once!"	
 dlg:0518	text	rec:928	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
-dlg:0519	text	rec:931	149	{face:20103}{spk:03}トモミ「やられたわね。{br}　まあいいわ、あたしがいくらでもメンテしてやるから」{wait}		
-dlg:0520	text	rec:939	149	{face:10001}{face:30204}{spk:04}ギリガン「おい、やっぱり教官のパーツも利用してだな・・・」{wait}		
-dlg:0521	text	rec:940	149	{face:10005}{spk:02}ユウキ「だめだってば；」{wait}		
-dlg:0522	text	rec:951	149	　アプリコットこうがい{wait}		
-dlg:0523	text	rec:952	149	{face:10011}{spk:14}ユウキ「はっぽうきょか！{br}　ただちにテカ反乱をちんあつしろ！」		
+dlg:0519	text	rec:931	149	{face:20103}{spk:03}トモミ「やられたわね。{br}　まあいいわ、あたしがいくらでもメンテしてやるから」{wait}	{face:20103}{spk:03}Tomomi: "They got us. Oh well, I'll do as much maintenance as it takes."{wait}	
+dlg:0520	text	rec:939	149	{face:10001}{face:30204}{spk:04}ギリガン「おい、やっぱり教官のパーツも利用してだな・・・」{wait}	{face:10001}{face:30204}{spk:04}Gilligan: "Hey, I still say we use the Instructor's parts..."{wait}	
+dlg:0521	text	rec:940	149	{face:10005}{spk:02}ユウキ「だめだってば；」{wait}	{face:10005}{spk:02}Yuki: "I said no..."{wait}	
+dlg:0522	text	rec:951	149	　アプリコットこうがい{wait}	Outskirts of Apricot{wait}	
+dlg:0523	text	rec:952	149	{face:10011}{spk:14}ユウキ「はっぽうきょか！{br}　ただちにテカ反乱をちんあつしろ！」	{face:10011}{spk:14}Yuki: "Cleared to fire! Suppress the Teka Revolt at once!"	
 dlg:0524	text	rec:953	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
-dlg:0525	text	rec:957	149	{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「さいしょの船は出たあとだ―――{br}　半分はにげちゃったな」{wait}		
-dlg:0526	text	rec:958	149	{face:10001}{face:20103}{spk:03}トモミ「のこっているのは静かになったわ。　ゆうどうがとけたみたいね」{wait}		
-dlg:0527	text	rec:959	149	{face:20101}{face:30202}{spk:04}ギリガン「シティにもどらせるか―――{br}　あっ、おまえは工場の」{wait}		
-dlg:0528	text	rec:960	149	{face:01202}{spk:01}工場のワークテカ「や、ギリガンさん。{br}　こんなところでどうしました？」{wait}		
-dlg:0529	text	rec:961	149	{face:30206}{spk:04}ギリガン「とぼけたこと言ってんじゃねえ。{br}{face:30207}　工場もどってはたらけ！」{wait}		
-dlg:0530	text	rec:965	149	{face:00402}{spk:01}もとにもどったポイヤック「ここは・・・{br}　そうこですね。{wait}		
-dlg:0531	text	rec:966	149	{spk:01}　なぜわたしは、こんな場所にとじこめられているのでしょう。{wait}		
-dlg:0532	text	rec:967	149	{spk:01}　・・・ユウキ訓練生！　トモミ訓練生！{br}　ギリガン訓練生！　ブランク訓練生！{wait}		
-dlg:0533	text	rec:968	149	{spk:01}　・・・ふうむ？」{wait}		
+dlg:0525	text	rec:957	149	{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「さいしょの船は出たあとだ―――{br}　半分はにげちゃったな」{wait}	{face:10012}{face:20101}{face:30201}{spk:02}Yuki: "The first ship's already gone-- Half of them got away."{wait}	
+dlg:0526	text	rec:958	149	{face:10001}{face:20103}{spk:03}トモミ「のこっているのは静かになったわ。　ゆうどうがとけたみたいね」{wait}	{face:10001}{face:20103}{spk:03}Tomomi: "The ones left have gone quiet. Looks like the control wore off."{wait}	
+dlg:0527	text	rec:959	149	{face:20101}{face:30202}{spk:04}ギリガン「シティにもどらせるか―――{br}　あっ、おまえは工場の」{wait}	{face:20101}{face:30202}{spk:04}Gilligan: "Let's send 'em back to the City-- Hey, you're from the factory."{wait}	
+dlg:0528	text	rec:960	149	{face:01202}{spk:01}工場のワークテカ「や、ギリガンさん。{br}　こんなところでどうしました？」{wait}	{face:01202}{spk:01}Factory Workteka: "Oh, Gilligan-san. What brings you out here?"{wait}	
+dlg:0529	text	rec:961	149	{face:30206}{spk:04}ギリガン「とぼけたこと言ってんじゃねえ。{br}{face:30207}　工場もどってはたらけ！」{wait}	{face:30206}{spk:04}Gilligan: "Don't play dumb with me.{br}{face:30207}Get back to the factory and work!"{wait}	
+dlg:0530	text	rec:965	149	{face:00402}{spk:01}もとにもどったポイヤック「ここは・・・{br}　そうこですね。{wait}	{face:00402}{spk:01}Pauillac, back to normal: "This is...{br}the warehouse.{wait}	
+dlg:0531	text	rec:966	149	{spk:01}　なぜわたしは、こんな場所にとじこめられているのでしょう。{wait}	{spk:01}Why am I locked up in a place like this?{wait}	
+dlg:0532	text	rec:967	149	{spk:01}　・・・ユウキ訓練生！　トモミ訓練生！{br}　ギリガン訓練生！　ブランク訓練生！{wait}	{spk:01}...Cadet Yuki! Cadet Tomomi!{br}Cadet Gilligan! Cadet Blank!{wait}	
+dlg:0533	text	rec:968	149	{spk:01}　・・・ふうむ？」{wait}	{spk:01}...Hmm?"{wait}	
 dlg:0534	text	rec:972	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
-dlg:0535	text	rec:973	149	{face:10701}{face:20803}{spk:03}リヒター「一体のこらずと思ったのに、じゃまが入ったね」{wait}		
-dlg:0536	text	rec:974	149	{face:10703}{spk:02}博士「市長にはいい薬になったさ。{br}　よくをかくといたい目にあう。{br}　なあ、エミコさん」{wait}		
-dlg:0537	text	rec:975	149	{face:30905}{spk:04}メイドになったエミコ「はい―――」{wait}		
-dlg:0538	text	rec:976	149	{face:10705}{spk:02}博士「お茶を入れてくれるか。{br}　ちとつかれた」{wait}		
-dlg:0539	text	rec:977	149	{spk:03}リヒター「ぼくもお茶を飲める体にもどりたいな―――{wait}		
-dlg:0540	text	rec:978	149	{face:20802}{spk:03}　どうだい博士、美少年をさらってきて、{br}　ぼくの生体ボディにしないかい」{wait}		
-dlg:0541	text	rec:979	149	{face:10702}{spk:02}博士「じょうだんはよせ、わしゃそんなおぞましい話は聞けんよ―――」{wait}		
+dlg:0535	text	rec:973	149	{face:10701}{face:20803}{spk:03}リヒター「一体のこらずと思ったのに、じゃまが入ったね」{wait}	{face:10701}{face:20803}{spk:03}Richter: "I thought we'd get every last one, but someone got in the way."{wait}	
+dlg:0536	text	rec:974	149	{face:10703}{spk:02}博士「市長にはいい薬になったさ。{br}　よくをかくといたい目にあう。{br}　なあ、エミコさん」{wait}	{face:10703}{spk:02}Doctor: "It was good medicine for the Mayor. Get greedy and you get hurt. Isn't that right, Emiko-san?"{wait}	
+dlg:0537	text	rec:975	149	{face:30905}{spk:04}メイドになったエミコ「はい―――」{wait}	{face:30905}{spk:04}Emiko, now a maid: "Yes--"{wait}	
+dlg:0538	text	rec:976	149	{face:10705}{spk:02}博士「お茶を入れてくれるか。{br}　ちとつかれた」{wait}	{face:10705}{spk:02}Doctor: "Would you make some tea? I'm a little tired."{wait}	
+dlg:0539	text	rec:977	149	{spk:03}リヒター「ぼくもお茶を飲める体にもどりたいな―――{wait}	{spk:03}Richter: "I wish I had a body that could drink tea again--{wait}	
+dlg:0540	text	rec:978	149	{face:20802}{spk:03}　どうだい博士、美少年をさらってきて、{br}　ぼくの生体ボディにしないかい」{wait}	{face:20802}{spk:03}Say, Doctor, why not kidnap a pretty boy and make him my living body?"{wait}	
+dlg:0541	text	rec:979	149	{face:10702}{spk:02}博士「じょうだんはよせ、わしゃそんなおぞましい話は聞けんよ―――」{wait}	{face:10702}{spk:02}Doctor: "Don't joke about that. I can't bear to hear such horrid talk--"{wait}	

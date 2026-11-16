@@ -117,3 +117,14 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | タイホ | arrest | | | |
 
 ## Decisions from earlier batches
+- b003-b008: surnames ユウキ・タチバナ Yuki Tachibana, トモミ・アッテンボロー Tomomi Attenborough, ギリガン・ブロック
+  Gilligan Brock. Ranks after promotion (s02): Tomomi and Gilligan "Officer", Yuki "Senior Officer".
+- Pauillac is a Teka; its gender is never stated so far: no he/she, no "sir/ma'am" (use "the Instructor", "it").
+- Pauillac's insults used as speaker labels: 豆つぶ Peanut, 米つぶ Rice Grain, ずんどう Barrel, カマキリ頭
+  Mantis-Head, 身長×× Height XX, ウエスト×× Waist XX, せいしんねんれい×才 Mental Age X.
+- Street/place names so far: コットン通り Cotton Street, レンガ通り Brick Street, とけい坂 Clock Hill, カシューそうげん
+  Cashew Plains, ピメント池 Pimento Pond, ハクサイとうげ Cabbage Pass, こけもも Lingonberry, サザンカ幼稚園 Sazanka
+  Kindergarten, カマンベール牧場 Camembert Ranch, プラム山 Plum Mountain, かくし山荘 the Hidden Lodge.
+- The "Doctor" (博士) at the lodge is unnamed so far; ゲオルグ博士 = Dr. Georg (check whether they are the same).
+- ♪ and ； (sweat mark) have no English glyph: drop them or end on "!" / "...".
+- 『』 terms in quotes: 'Teka Revolt', 'Out of Control' (アウト・オブ・コントロール), 'field training' (実習).

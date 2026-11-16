@@ -184,7 +184,7 @@ dlg:2578	text	rec:4821	149	{face:00505}{spk:01}市長「もう君たちにしか
 dlg:2579	text	rec:4823	149	{face:00605}{spk:01}署長「たのんだよ、ユウキ君。{br}　いい報告を待っているからね・・・」{wait}		
 dlg:2580	text	rec:4825	149	{face:31002}{spk:04}リアナ「あなたたち、仕事があるんでしょ？{br}　うろついていていいの？」{wait}		
 dlg:2581	text	rec:4827	149	　屋根うらをそうさく中・・・{wait}		
-dlg:2582	text	rec:4828	149	{face:10012}{spk:02}ユウキ「ごそごそごそ・・・」{wait}		
+dlg:2582	text	rec:4828	149	{face:10012}{spk:02}ユウキ「ごそごそごそ・・・」{wait}	{face:10012}{spk:02}Yuki: "Rummage rummage rummage..."{wait}	
 dlg:2583	text	rec:4829	149	{face:20115}{spk:03}トモミ「口でごそごそ言いながらさがさないで；」{wait}		
 dlg:2584	text	rec:4830	149	{face:10012}{spk:02}ユウキ「見つけた。対空バレットパック」{wait}		
 dlg:2585	text	rec:4831	149	{face:30204}{spk:04}ギリガン「おっいいぞ！　使える！」{wait}		

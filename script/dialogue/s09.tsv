@@ -5,7 +5,7 @@ dlg:0784	text	rec:1507	149	{spk:01}　パーツを集めてテカを作るのに
 dlg:0785	text	rec:1510	149	{face:00502}{spk:01}市長「ユウキ君っ、カシスへ行くんだ、{br}　同行してくれるね？！」{wait}		
 dlg:0786	text	rec:1512	149	{face:00502}{spk:01}市長「まだテカがりとかやってるのか？{br}　もういいだろうに―――」{wait}		
 dlg:0787	text	rec:1514	149	{face:00502}{spk:01}市長「よし、署長もつれて、軍隊をかりに行こう。{br}　ソルジャーをはけんしてもらうんだ」{wait}		
-dlg:0788	text	rec:1516	149	　アプリコット出国ゲート{wait}		
+dlg:0788	text	rec:1516	149	　アプリコット出国ゲート{wait}	Apricot Departure Gate{wait}	
 dlg:0789	text	rec:1517	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「・・・なんでいっしょに行くとか言っちまったんだ」{wait}		
 dlg:0790	text	rec:1518	149	{face:10004}{spk:02}ユウキ「うん、まあ、ソルジャーを使ってみたいって気にはなってさ」{wait}		
 dlg:0791	text	rec:1519	149	{face:20115}{spk:03}トモミ「かんたんにかしてくれるはずがないわよ―――」{wait}		

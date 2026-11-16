@@ -1,81 +1,81 @@
 id	kind	where	max	jp	en	notes
-dlg:0555	text	rec:1000	149	{face:00502}{face:10001}{spk:01}アドルフ市長「船でにげたテカだが―――{br}　フランボワーズシティにいる。{wait}		
-dlg:0556	text	rec:1001	149	{spk:01}　じょうりくして、ぶらついてるそうだ。{br}　つれもどさないといけないが、わたしも行かねばならん。{wait}		
-dlg:0557	text	rec:1002	149	{spk:01}　フランボワーズ市長が、どういうことかせつめいしろと言っている」{wait}		
-dlg:0558	text	rec:1003	149	{face:10008}{spk:02}ユウキ巡査長「ごえいがひつようですね。{br}　おともします」{wait}		
-dlg:0559	text	rec:1004	149	{spk:01}市長「うん、ちなみにいま、何体のテカを使っている？{br}　ブランクだけかね。{wait}		
-dlg:0560	text	rec:1005	149	{spk:01}　フランボワーズには娘もつれて行くんだ、ごえいは強力でないとな。{wait}		
-dlg:0561	text	rec:1006	149	{spk:01}　つかまえたテカのパーツを組み立てて使っているんだろう、ブランクをふくめて４体ぐらいはあるかね」{wait}		
-dlg:0562	text	rec:1009	149	{face:10012}{spk:02}ユウキ「それぐらいはありますが」{wait}		
-dlg:0563	text	rec:1010	149	{spk:01}市長「よろしい！{br}　急いで出発しよう。{br}　じゅんびできたらまた来てくれたまえ」{wait}		
-dlg:0564	text	rec:1013	149	{face:10012}{spk:02}ユウキ「そんなには」{wait}		
-dlg:0565	text	rec:1014	149	{face:00503}{spk:01}市長「それじゃだめだ！{br}　あばれているテカをつかまえてきて、{br}　新しいテカを作りたまえ。{br}　４体分だよ！」{wait}		
-dlg:0566	text	rec:1018	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「娘のために戦力を強化しろと？{br}　親バカと言うか、娘の方がこわがってるんでしょ」{wait}		
-dlg:0567	text	rec:1020	149	{face:20101}{face:01009}{spk:01}リアナ「あら。あたしは平気よ！」{wait}		
-dlg:0568	text	rec:1021	149	{face:30206}{spk:04}ギリガン「ん？　だれだ？」{wait}		
-dlg:0569	text	rec:1022	149	{face:01002}{spk:01}リアナ「あたしをごえいしてくれるっていうのは、あなたたち？{br}　だめねえ、みんな子供じゃないの」{wait}		
-dlg:0570	text	rec:1023	149	{face:30203}{spk:04}ギリガン「？　てめえだって子供だろ」{wait}		
-dlg:0571	text	rec:1024	149	{face:01002}{spk:01}リアナ「なに、その口のきき方。{br}　あたしが何さまか知っているの？」{wait}		
-dlg:0572	text	rec:1025	149	{face:30206}{spk:04}ギリガン「何さまだよ？」{wait}		
-dlg:0573	text	rec:1026	149	{face:01004}{spk:01}リアナ「お嬢さまよ！」{wait}		
-dlg:0574	text	rec:1027	149	{face:10005}{spk:02}ユウキ「それじゃマンザイだよ；」{wait}		
-dlg:0575	text	rec:1028	149	{face:01002}{spk:01}リアナ「アプリコット市長のお嬢さまだって言ってるのよ。{br}　たいどに気をつけなさい」{wait}		
-dlg:0576	text	rec:1029	149	{face:10012}{spk:02}ユウキ「すみませんが、お嬢さま。{br}　ぼくたちは仕事がありますので―――」{wait}		
-dlg:0577	text	rec:1030	149	{face:01009}{spk:01}リアナ「あら。{br}　あたしのごえいじゃなかったの」{wait}		
-dlg:0578	text	rec:1031	149	{face:10008}{spk:02}ユウキ「シティを出る時はごえいします。{br}　いまは、シティを出るためのじゅんびをしなくてはなりませんので」{wait}		
-dlg:0579	text	rec:1035	149	{face:00502}{spk:01}市長「テカの数はそろったのかね？{br}　４体だ、急いでくれたまえよ」{wait}		
-dlg:0580	text	rec:1038	149	{face:00502}{spk:01}市長「お、そうかね、数がそろったかね。{br}　ではすぐにフランボワーズへ行こう」{wait}		
-dlg:0581	text	rec:1040	149	{face:00502}{spk:01}市長「お、じゅんびはいいかね。{br}　よし、すぐにフランボワーズへ行こう」{wait}		
-dlg:0582	text	rec:1042	149	{spk:01}市長「では安心して出発しよう。{br}　きちんとごえいしてくれたまえよ」{wait}		
-dlg:0583	text	rec:1044	149	{spk:01}市長「なんだ、まだ用事でもあるのか？{br}　急いでくれたまえ！」{wait}		
-dlg:0584	text	rec:1047	149	{face:00602}{spk:01}署長「フランボワーズについたら警察署を見学してくるといい、れんらくしておいてあげよう」{wait}		
-dlg:0585	text	rec:1049	149	{face:00605}{spk:01}署長「市長のわがままにもこまったものだ。{br}　まったく、あの親子は・・・」{wait}		
-dlg:0586	text	rec:1052	149	{face:00402}{spk:01}ポイヤック「市長をごえいしてフランボワーズ行きですね。{br}　市庁舎に行ってください、気をつけて」{wait}		
-dlg:0587	text	rec:1054	149	{face:00402}{spk:01}ポイヤック「シティの外では、まだあばれているテカがいます。{wait}		
-dlg:0588	text	rec:1055	149	{spk:01}　かれらのパーツを工場で組み直せば、新しいテカが作れます」{wait}		
-dlg:0589	text	rec:1058	149	{face:01202}{spk:01}ワークテカ「テカ作りですか。{br}　パーツさえそろえていただければ、どんどん作りますよ！」{wait}		
-dlg:0590	text	rec:1078	149	{face:20104}{spk:03}トモミ「市長のごえいで行くべきなのに、{br}　あたしたちだけで行こうとするのは、{br}　なにか深い考えがあって・・・」{wait}		
-dlg:0591	text	rec:1079	149	{face:10005}{spk:02}ユウキ「ないない；」{wait}		
-dlg:0592	text	rec:1081	149	{face:20104}{spk:03}トモミ「市長のごえいで行くべきなのに、{br}　あたしたちだけで行こうとするのは、{br}　なにか深い考えがあって・・・」{wait}		
-dlg:0593	text	rec:1082	149	{face:10005}{spk:02}ユウキ「ないない；{br}　市庁舎にむかえに行こう」{wait}		
-dlg:0594	text	rec:1086	149	　アプリコット出国ゲート{wait}		
-dlg:0595	text	rec:1087	149	{face:10501}{face:01005}{spk:01}市長の娘リアナ「パパったら、またあたしをたてに使う気ね。{br}　娘の前じゃ相手も強いこと言わないわ」{wait}		
-dlg:0596	text	rec:1088	149	{face:10504}{spk:02}アドルフ市長「まあまあリアナ、こづかいはずむから―――」{wait}		
+dlg:0555	text	rec:1000	149	{face:00502}{face:10001}{spk:01}アドルフ市長「船でにげたテカだが―――{br}　フランボワーズシティにいる。{wait}	{face:00502}{face:10001}{spk:01}Mayor Adolf: "About the Teka that fled by ship-- They're in Framboise City.{wait}	
+dlg:0556	text	rec:1001	149	{spk:01}　じょうりくして、ぶらついてるそうだ。{br}　つれもどさないといけないが、わたしも行かねばならん。{wait}	{spk:01}I hear they landed and are wandering around. We must bring them back, and I must go too.{wait}	
+dlg:0557	text	rec:1002	149	{spk:01}　フランボワーズ市長が、どういうことかせつめいしろと言っている」{wait}	{spk:01}Mayor Framboise is demanding that I explain what's going on."{wait}	
+dlg:0558	text	rec:1003	149	{face:10008}{spk:02}ユウキ巡査長「ごえいがひつようですね。{br}　おともします」{wait}	{face:10008}{spk:02}Senior Officer Yuki: "You'll need an escort. We'll go with you."{wait}	
+dlg:0559	text	rec:1004	149	{spk:01}市長「うん、ちなみにいま、何体のテカを使っている？{br}　ブランクだけかね。{wait}	{spk:01}Mayor: "Yes. By the way, how many Teka are you using now? Just Blank?{wait}	
+dlg:0560	text	rec:1005	149	{spk:01}　フランボワーズには娘もつれて行くんだ、ごえいは強力でないとな。{wait}	{spk:01}I'm taking my daughter to Framboise too, so the escort has to be strong.{wait}	
+dlg:0561	text	rec:1006	149	{spk:01}　つかまえたテカのパーツを組み立てて使っているんだろう、ブランクをふくめて４体ぐらいはあるかね」{wait}	{spk:01}You build Teka from the parts of Teka you catch, don't you? Do you have about four, counting Blank?"{wait}	
+dlg:0562	text	rec:1009	149	{face:10012}{spk:02}ユウキ「それぐらいはありますが」{wait}	{face:10012}{spk:02}Yuki: "We have about that many."{wait}	
+dlg:0563	text	rec:1010	149	{spk:01}市長「よろしい！{br}　急いで出発しよう。{br}　じゅんびできたらまた来てくれたまえ」{wait}	{spk:01}Mayor: "Excellent! Let's set off quickly. Come back when you're ready."{wait}	
+dlg:0564	text	rec:1013	149	{face:10012}{spk:02}ユウキ「そんなには」{wait}	{face:10012}{spk:02}Yuki: "Not that many."{wait}	
+dlg:0565	text	rec:1014	149	{face:00503}{spk:01}市長「それじゃだめだ！{br}　あばれているテカをつかまえてきて、{br}　新しいテカを作りたまえ。{br}　４体分だよ！」{wait}	{face:00503}{spk:01}Mayor: "That won't do! Go catch some Teka that are running wild and build new ones. Four in all!"{wait}	
+dlg:0566	text	rec:1018	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「娘のために戦力を強化しろと？{br}　親バカと言うか、娘の方がこわがってるんでしょ」{wait}	{face:10001}{face:20115}{face:30201}{spk:03}Tomomi: "Beef up the force for his daughter's sake? What a doting dad. Or is the daughter the scared one?"{wait}	
+dlg:0567	text	rec:1020	149	{face:20101}{face:01009}{spk:01}リアナ「あら。あたしは平気よ！」{wait}	{face:20101}{face:01009}{spk:01}Riana: "Excuse me. I'm not scared at all!"{wait}	
+dlg:0568	text	rec:1021	149	{face:30206}{spk:04}ギリガン「ん？　だれだ？」{wait}	{face:30206}{spk:04}Gilligan: "Hm? Who're you?"{wait}	
+dlg:0569	text	rec:1022	149	{face:01002}{spk:01}リアナ「あたしをごえいしてくれるっていうのは、あなたたち？{br}　だめねえ、みんな子供じゃないの」{wait}	{face:01002}{spk:01}Riana: "So you're the ones who'll be escorting me? Hopeless. You're all just kids."{wait}	
+dlg:0570	text	rec:1023	149	{face:30203}{spk:04}ギリガン「？　てめえだって子供だろ」{wait}	{face:30203}{spk:04}Gilligan: "? You're a kid too."{wait}	
+dlg:0571	text	rec:1024	149	{face:01002}{spk:01}リアナ「なに、その口のきき方。{br}　あたしが何さまか知っているの？」{wait}	{face:01002}{spk:01}Riana: "How dare you talk to me like that. Do you know who I am?"{wait}	
+dlg:0572	text	rec:1025	149	{face:30206}{spk:04}ギリガン「何さまだよ？」{wait}	{face:30206}{spk:04}Gilligan: "Who are you, then?"{wait}	
+dlg:0573	text	rec:1026	149	{face:01004}{spk:01}リアナ「お嬢さまよ！」{wait}	{face:01004}{spk:01}Riana: "A young lady!"{wait}	
+dlg:0574	text	rec:1027	149	{face:10005}{spk:02}ユウキ「それじゃマンザイだよ；」{wait}	{face:10005}{spk:02}Yuki: "You two sound like a comedy act..."{wait}	
+dlg:0575	text	rec:1028	149	{face:01002}{spk:01}リアナ「アプリコット市長のお嬢さまだって言ってるのよ。{br}　たいどに気をつけなさい」{wait}	{face:01002}{spk:01}Riana: "I'm telling you I'm the daughter of the Mayor of Apricot. Mind your manners."{wait}	
+dlg:0576	text	rec:1029	149	{face:10012}{spk:02}ユウキ「すみませんが、お嬢さま。{br}　ぼくたちは仕事がありますので―――」{wait}	{face:10012}{spk:02}Yuki: "Excuse me, miss. We have work to do--"{wait}	
+dlg:0577	text	rec:1030	149	{face:01009}{spk:01}リアナ「あら。{br}　あたしのごえいじゃなかったの」{wait}	{face:01009}{spk:01}Riana: "Oh?{br}Aren't you my escort?"{wait}	
+dlg:0578	text	rec:1031	149	{face:10008}{spk:02}ユウキ「シティを出る時はごえいします。{br}　いまは、シティを出るためのじゅんびをしなくてはなりませんので」{wait}	{face:10008}{spk:02}Yuki: "We'll escort you when you leave the City. Right now we have to get ready to leave."{wait}	
+dlg:0579	text	rec:1035	149	{face:00502}{spk:01}市長「テカの数はそろったのかね？{br}　４体だ、急いでくれたまえよ」{wait}	{face:00502}{spk:01}Mayor: "Do you have enough Teka? Four of them. Hurry it up."{wait}	
+dlg:0580	text	rec:1038	149	{face:00502}{spk:01}市長「お、そうかね、数がそろったかね。{br}　ではすぐにフランボワーズへ行こう」{wait}	{face:00502}{spk:01}Mayor: "Oh, is that so? You have enough? Then let's go to Framboise right away."{wait}	
+dlg:0581	text	rec:1040	149	{face:00502}{spk:01}市長「お、じゅんびはいいかね。{br}　よし、すぐにフランボワーズへ行こう」{wait}	{face:00502}{spk:01}Mayor: "Oh, ready, are you? Good, let's go to Framboise right away."{wait}	
+dlg:0582	text	rec:1042	149	{spk:01}市長「では安心して出発しよう。{br}　きちんとごえいしてくれたまえよ」{wait}	{spk:01}Mayor: "Then let's set off with peace of mind. Escort me properly, now."{wait}	
+dlg:0583	text	rec:1044	149	{spk:01}市長「なんだ、まだ用事でもあるのか？{br}　急いでくれたまえ！」{wait}	{spk:01}Mayor: "What, do you still have business? Hurry it up!"{wait}	
+dlg:0584	text	rec:1047	149	{face:00602}{spk:01}署長「フランボワーズについたら警察署を見学してくるといい、れんらくしておいてあげよう」{wait}	{face:00602}{spk:01}Chief: "When you get to Framboise, tour the police station. I'll let them know you're coming."{wait}	
+dlg:0585	text	rec:1049	149	{face:00605}{spk:01}署長「市長のわがままにもこまったものだ。{br}　まったく、あの親子は・・・」{wait}	{face:00605}{spk:01}Chief: "The Mayor's selfishness is a real headache. Honestly, that father and daughter..."{wait}	
+dlg:0586	text	rec:1052	149	{face:00402}{spk:01}ポイヤック「市長をごえいしてフランボワーズ行きですね。{br}　市庁舎に行ってください、気をつけて」{wait}	{face:00402}{spk:01}Pauillac: "You're escorting the Mayor to Framboise. Go to City Hall, and be careful."{wait}	
+dlg:0587	text	rec:1054	149	{face:00402}{spk:01}ポイヤック「シティの外では、まだあばれているテカがいます。{wait}	{face:00402}{spk:01}Pauillac: "Outside the City, some Teka are still running wild.{wait}	
+dlg:0588	text	rec:1055	149	{spk:01}　かれらのパーツを工場で組み直せば、新しいテカが作れます」{wait}	{spk:01}If you rebuild their parts at the factory, you can make new Teka."{wait}	
+dlg:0589	text	rec:1058	149	{face:01202}{spk:01}ワークテカ「テカ作りですか。{br}　パーツさえそろえていただければ、どんどん作りますよ！」{wait}	{face:01202}{spk:01}Workteka: "Making Teka? Just bring me the parts and I'll build as many as you like!"{wait}	
+dlg:0590	text	rec:1078	149	{face:20104}{spk:03}トモミ「市長のごえいで行くべきなのに、{br}　あたしたちだけで行こうとするのは、{br}　なにか深い考えがあって・・・」{wait}	{face:20104}{spk:03}Tomomi: "We're meant to escort the Mayor, yet you'd go without him? You must have some deep plan..."{wait}	
+dlg:0591	text	rec:1079	149	{face:10005}{spk:02}ユウキ「ないない；」{wait}	{face:10005}{spk:02}Yuki: "No, no..."{wait}	
+dlg:0592	text	rec:1081	149	{face:20104}{spk:03}トモミ「市長のごえいで行くべきなのに、{br}　あたしたちだけで行こうとするのは、{br}　なにか深い考えがあって・・・」{wait}	{face:20104}{spk:03}Tomomi: "We're meant to escort the Mayor, yet you'd go without him? You must have some deep plan..."{wait}	
+dlg:0593	text	rec:1082	149	{face:10005}{spk:02}ユウキ「ないない；{br}　市庁舎にむかえに行こう」{wait}	{face:10005}{spk:02}Yuki: "No, no...{br}Let's go pick him up at City Hall."{wait}	
+dlg:0594	text	rec:1086	149	　アプリコット出国ゲート{wait}	Apricot Departure Gate{wait}	
+dlg:0595	text	rec:1087	149	{face:10501}{face:01005}{spk:01}市長の娘リアナ「パパったら、またあたしをたてに使う気ね。{br}　娘の前じゃ相手も強いこと言わないわ」{wait}	{face:10501}{face:01005}{spk:01}Mayor's daughter Riana: "Daddy, you're using me as a shield again. No one talks tough in front of a man's daughter."{wait}	
+dlg:0596	text	rec:1088	149	{face:10504}{spk:02}アドルフ市長「まあまあリアナ、こづかいはずむから―――」{wait}	{face:10504}{spk:02}Mayor Adolf: "Now, now, Riana. I'll raise your allowance--"{wait}	
 dlg:0597	text	rec:1092	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
-dlg:0598	text	rec:1093	149	{face:00701}{face:30905}{spk:04}エミコ「博士―――{br}　どうして、人々をこまらせるようなことを、なさるのですか」{wait}		
-dlg:0599	text	rec:1094	149	{face:00703}{spk:01}博士「こまるじゃろうなあ、道具だと思っていたテカがあばれ出したら」{wait}		
-dlg:0600	text	rec:1095	149	{spk:04}エミコ「テカは道具じゃありません」{wait}		
-dlg:0601	text	rec:1096	149	{face:00702}{spk:01}博士「そうじゃよ、テカは心を持った、{br}　新しい『生命』じゃ。{wait}		
-dlg:0602	text	rec:1097	149	{spk:01}　それを思い上がった人間どもに教えてやるんじゃよ―――テカを『友だち』とみとめ、『きょうぞん』しなくてはならないと。{wait}		
-dlg:0603	text	rec:1098	149	{spk:01}　あの警官みたいに、ポリステカをたおしておいて、えらそうにするやつがいなくなるまでな！」{wait}		
-dlg:0604	text	rec:1099	149	{face:30904}{spk:04}エミコ「あの人は、子供たちをすくってくれたんです」{wait}		
-dlg:0605	text	rec:1100	149	{spk:01}博士「かばうのか。ならなぜここにきた。{br}　やくそくしたから？」{wait}		
-dlg:0606	text	rec:1101	149	{face:30906}{spk:04}エミコ「サンナナさんは、死んでしまいました―――{br}　死んだ人とのやくそくはやぶれません」{wait}		
-dlg:0607	text	rec:1102	149	{spk:01}博士「やさしいな。{br}　人間にも、エミコさんぐらいのやさしさがあればな―――」{wait}		
-dlg:0608	text	rec:1110	149	　フランボワーズ入国ゲート{wait}		
-dlg:0609	text	rec:1111	149	{face:10501}{face:20001}{face:30101}{face:01002}{spk:01}リアナ「こっちは平和ね。{br}　子供警官のごえいなんかいらなかったわ」{wait}		
-dlg:0610	text	rec:1112	149	{face:01009}{face:10502}{spk:02}市長「ああ、もういい。{wait}		
-dlg:0611	text	rec:1113	149	{spk:02}　警官に守らせてびくついているとこなぞ、フランボワーズの市長に見せられん！」{wait}		
-dlg:0612	text	rec:1114	149	{face:30106}{spk:04}トモミ「（平和だと分かったとたんに、わがままな；）{br}　では私たちは、警察署を見学に・・・」{wait}		
-dlg:0613	text	rec:1119	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「さきに市内も見ておこうか。{br}　工学研究所とかあるしね」{wait}		
-dlg:0614	text	rec:1120	149	{face:20105}{spk:03}トモミ「ケーキのおいしい店もあるしー♪」{wait}		
-dlg:0615	text	rec:1128	149	{face:10005}{spk:02}ユウキ「本当にあまいもの好きだね；」{wait}		
-dlg:0616	text	rec:1129	149	{face:20107}{spk:03}トモミ「これがもくてきで来たんだもの♪」{wait}		
-dlg:0617	text	rec:1133	149	{face:30203}{spk:04}ギリガン「まだ食うのか。ふとるぞ」{wait}		
-dlg:0618	text	rec:1134	149	{face:20107}{spk:03}トモミ「あとはなにを注文しようかしら♪」{wait}		
-dlg:0619	text	rec:1135	149	{face:30205}{spk:04}ギリガン「・・・聞いちゃいねえな」{wait}		
-dlg:0620	text	rec:1137	149	{face:10001}{face:30201}{face:01602}{spk:01}バンクテカ「なにか、ほしいものでもありますか。{br}　リーズナブルなお値段でお分けしますが」{wait}		
-dlg:0621	text	rec:1138	149	{face:10012}{spk:02}ユウキ「なっとくのいくお値段で、ね・・・　なんでバンクテカが研究所に」{wait}		
-dlg:0622	text	rec:1139	149	{spk:01}バンクテカ「研究所だってビジネスです。{br}　お金はかせがなくちゃいけません。{wait}		
-dlg:0623	text	rec:1140	149	{spk:01}　さあ、パワーシールドはいかがです。{br}　テカのライフが１上がりますよ」{wait}		
-dlg:0624	text	rec:1141	149	{face:10004}{spk:02}ユウキ「オプション装備か。{br}　いくらでゆずってもらえるの？」{wait}		
-dlg:0625	text	rec:1144	149	{face:10001}{face:20103}{face:30201}{spk:03}トモミ「へー、『よっぱらい取りしまり課』だって。{br}　さすがにワインの町ねー♪」{wait}		
-dlg:0626	text	rec:1145	149	{face:20101}{face:01302}{spk:01}ポリステカ「しつれいします、アプリコットのユウキ巡査長というのは？{br}　市庁舎よりれんらくです」{wait}		
-dlg:0627	text	rec:1146	149	{face:10012}{spk:02}ユウキ「もう帰るのか。{br}　見学になんないね」{wait}		
-dlg:0628	text	rec:1147	149	{spk:01}ポリステカ「ええと、{br}『数体のテカにより、アプリコット市長と、そのご令嬢がさらわれたもよう』・・・」{wait}		
-dlg:0629	text	rec:1150	149	{face:10002}　　ユウキ「！」{br}{face:20104}　　　　　トモミ「！」{br}{face:30206}　　　　　　　　ギリガン「！」{wait}		
-dlg:0630	text	rec:1151	149	{spk:01}ポリステカ「？　どういう意味でしょう。{br}　おつたえすれば分かっていただける、{br}ということでしたが―――」{wait}		
-dlg:0631	text	rec:1152	149	{spk:02}ユウキ「テカが犯罪をおかしても、{br}　りかいできないかい！」{wait}		
+dlg:0598	text	rec:1093	149	{face:00701}{face:30905}{spk:04}エミコ「博士―――{br}　どうして、人々をこまらせるようなことを、なさるのですか」{wait}	{face:00701}{face:30905}{spk:04}Emiko: "Doctor-- Why are you doing things that cause people such trouble?"{wait}	
+dlg:0599	text	rec:1094	149	{face:00703}{spk:01}博士「こまるじゃろうなあ、道具だと思っていたテカがあばれ出したら」{wait}	{face:00703}{spk:01}Doctor: "It'd be trouble, all right, when the Teka they thought were tools start running wild."{wait}	
+dlg:0600	text	rec:1095	149	{spk:04}エミコ「テカは道具じゃありません」{wait}	{spk:04}Emiko: "Teka are not tools."{wait}	
+dlg:0601	text	rec:1096	149	{face:00702}{spk:01}博士「そうじゃよ、テカは心を持った、{br}　新しい『生命』じゃ。{wait}	{face:00702}{spk:01}Doctor: "That's right. Teka are a new form of 'life,' with hearts.{wait}	
+dlg:0602	text	rec:1097	149	{spk:01}　それを思い上がった人間どもに教えてやるんじゃよ―――テカを『友だち』とみとめ、『きょうぞん』しなくてはならないと。{wait}	{spk:01}And I'll teach that to the arrogant humans-- that they must accept Teka as 'friends' and 'live together.'{wait}	
+dlg:0603	text	rec:1098	149	{spk:01}　あの警官みたいに、ポリステカをたおしておいて、えらそうにするやつがいなくなるまでな！」{wait}	{spk:01}Until there's no one left like that cop, who shot down a Polisteka and then acted so high and mighty!"{wait}	
+dlg:0604	text	rec:1099	149	{face:30904}{spk:04}エミコ「あの人は、子供たちをすくってくれたんです」{wait}	{face:30904}{spk:04}Emiko: "That man saved the children."{wait}	
+dlg:0605	text	rec:1100	149	{spk:01}博士「かばうのか。ならなぜここにきた。{br}　やくそくしたから？」{wait}	{spk:01}Doctor: "You defend him? Then why did you come here? Because you promised?"{wait}	
+dlg:0606	text	rec:1101	149	{face:30906}{spk:04}エミコ「サンナナさんは、死んでしまいました―――{br}　死んだ人とのやくそくはやぶれません」{wait}	{face:30906}{spk:04}Emiko: "Sannana-san is dead-- I can't break a promise to the dead."{wait}	
+dlg:0607	text	rec:1102	149	{spk:01}博士「やさしいな。{br}　人間にも、エミコさんぐらいのやさしさがあればな―――」{wait}	{spk:01}Doctor: "How kind. If only humans had kindness like yours, Emiko-san--"{wait}	
+dlg:0608	text	rec:1110	149	　フランボワーズ入国ゲート{wait}	Framboise Entry Gate{wait}	
+dlg:0609	text	rec:1111	149	{face:10501}{face:20001}{face:30101}{face:01002}{spk:01}リアナ「こっちは平和ね。{br}　子供警官のごえいなんかいらなかったわ」{wait}	{face:10501}{face:20001}{face:30101}{face:01002}{spk:01}Riana: "It's peaceful here. We didn't need an escort of kiddie cops."{wait}	
+dlg:0610	text	rec:1112	149	{face:01009}{face:10502}{spk:02}市長「ああ、もういい。{wait}	{face:01009}{face:10502}{spk:02}Mayor: "Yes, that's enough now.{wait}	
+dlg:0611	text	rec:1113	149	{spk:02}　警官に守らせてびくついているとこなぞ、フランボワーズの市長に見せられん！」{wait}	{spk:02}I can't let the Mayor of Framboise see me cowering behind police guards!"{wait}	
+dlg:0612	text	rec:1114	149	{face:30106}{spk:04}トモミ「（平和だと分かったとたんに、わがままな；）{br}　では私たちは、警察署を見学に・・・」{wait}	{face:30106}{spk:04}Tomomi: "(The moment he sees it's peaceful, he gets selfish...) Then we'll go tour the police station..."{wait}	
+dlg:0613	text	rec:1119	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「さきに市内も見ておこうか。{br}　工学研究所とかあるしね」{wait}	{face:20101}{face:30201}{face:10012}{spk:02}Yuki: "Let's look around the City first. There's the Engineering Institute and all."{wait}	
+dlg:0614	text	rec:1120	149	{face:20105}{spk:03}トモミ「ケーキのおいしい店もあるしー♪」{wait}	{face:20105}{spk:03}Tomomi: "And a shop with yummy cakes!"{wait}	
+dlg:0615	text	rec:1128	149	{face:10005}{spk:02}ユウキ「本当にあまいもの好きだね；」{wait}	{face:10005}{spk:02}Yuki: "You really do love sweets..."{wait}	
+dlg:0616	text	rec:1129	149	{face:20107}{spk:03}トモミ「これがもくてきで来たんだもの♪」{wait}	{face:20107}{spk:03}Tomomi: "That's what I came here for!"{wait}	
+dlg:0617	text	rec:1133	149	{face:30203}{spk:04}ギリガン「まだ食うのか。ふとるぞ」{wait}	{face:30203}{spk:04}Gilligan: "You're still eating? You'll get fat."{wait}	
+dlg:0618	text	rec:1134	149	{face:20107}{spk:03}トモミ「あとはなにを注文しようかしら♪」{wait}	{face:20107}{spk:03}Tomomi: "What shall I order next?"{wait}	
+dlg:0619	text	rec:1135	149	{face:30205}{spk:04}ギリガン「・・・聞いちゃいねえな」{wait}	{face:30205}{spk:04}Gilligan: "...She's not listening."{wait}	
+dlg:0620	text	rec:1137	149	{face:10001}{face:30201}{face:01602}{spk:01}バンクテカ「なにか、ほしいものでもありますか。{br}　リーズナブルなお値段でお分けしますが」{wait}	{face:10001}{face:30201}{face:01602}{spk:01}Bankteka: "Is there anything you'd like? I can let you have it at a reasonable price."{wait}	
+dlg:0621	text	rec:1138	149	{face:10012}{spk:02}ユウキ「なっとくのいくお値段で、ね・・・　なんでバンクテカが研究所に」{wait}	{face:10012}{spk:02}Yuki: "A 'reasonable price,' huh... Why is a Bankteka at the institute?"{wait}	
+dlg:0622	text	rec:1139	149	{spk:01}バンクテカ「研究所だってビジネスです。{br}　お金はかせがなくちゃいけません。{wait}	{spk:01}Bankteka: "Even an institute is a business. It has to earn money.{wait}	
+dlg:0623	text	rec:1140	149	{spk:01}　さあ、パワーシールドはいかがです。{br}　テカのライフが１上がりますよ」{wait}	{spk:01}Now, how about a Power Shield? It raises a Teka's life by 1."{wait}	
+dlg:0624	text	rec:1141	149	{face:10004}{spk:02}ユウキ「オプション装備か。{br}　いくらでゆずってもらえるの？」{wait}	{face:10004}{spk:02}Yuki: "Optional equipment, huh? How much will you sell it for?"{wait}	
+dlg:0625	text	rec:1144	149	{face:10001}{face:20103}{face:30201}{spk:03}トモミ「へー、『よっぱらい取りしまり課』だって。{br}　さすがにワインの町ねー♪」{wait}	{face:10001}{face:20103}{face:30201}{spk:03}Tomomi: "Wow, a 'Drunkenness Control Division.' Just what you'd expect from a wine town!"{wait}	
+dlg:0626	text	rec:1145	149	{face:20101}{face:01302}{spk:01}ポリステカ「しつれいします、アプリコットのユウキ巡査長というのは？{br}　市庁舎よりれんらくです」{wait}	{face:20101}{face:01302}{spk:01}Polisteka: "Excuse me, which of you is Senior Officer Yuki of Apricot? A message from City Hall."{wait}	
+dlg:0627	text	rec:1146	149	{face:10012}{spk:02}ユウキ「もう帰るのか。{br}　見学になんないね」{wait}	{face:10012}{spk:02}Yuki: "Going home already? So much for the tour."{wait}	
+dlg:0628	text	rec:1147	149	{spk:01}ポリステカ「ええと、{br}『数体のテカにより、アプリコット市長と、そのご令嬢がさらわれたもよう』・・・」{wait}	{spk:01}Polisteka: "Let me see. 'The Mayor of Apricot and his daughter appear to have been abducted by several Teka'..."{wait}	
+dlg:0629	text	rec:1150	149	{face:10002}　　ユウキ「！」{br}{face:20104}　　　　　トモミ「！」{br}{face:30206}　　　　　　　　ギリガン「！」{wait}	{face:10002}Yuki: "!"{br}{face:20104}Tomomi: "!"{br}{face:30206}Gilligan: "!"{wait}	
+dlg:0630	text	rec:1151	149	{spk:01}ポリステカ「？　どういう意味でしょう。{br}　おつたえすれば分かっていただける、{br}ということでしたが―――」{wait}	{spk:01}Polisteka: "? What does that mean? I was told you would understand if I passed it on--"{wait}	
+dlg:0631	text	rec:1152	149	{spk:02}ユウキ「テカが犯罪をおかしても、{br}　りかいできないかい！」{wait}	{spk:02}Yuki: "Even when a Teka commits a crime, you can't understand it!"{wait}	
 dlg:0632	text	rec:1153	149	{spk:01}ポリステカ「テカが犯罪？{br}　新しいジョークですか―――{br}　あっ、分かった！{br}　これ、暗号ですね？」{wait}		
 dlg:0633	text	rec:1154	149	{spk:03}トモミ「そう思うなら一人でといてなさい。　行きましょう！」{wait}		
 dlg:0634	text	rec:1161	149	{face:10012}{spk:02}ユウキ「・・・ほっとくと、いくらでも食べるよ」{wait}		

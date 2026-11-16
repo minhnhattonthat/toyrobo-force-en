@@ -2,8 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate next (phase 5 engine spike + marker build + width gate done 2026-11-17). Last build:
-  2026-11-17, no `en` yet; engine-patched 8 MiB ROM sha1 210cb716..., smoke ok. Marker ROM sha1 08ea2657...
+- **Phase:** 6. Translate in progress: b001-b008 of 40 merged (all 397 choices, dialogue dlg:0000-0631 = sections
+  s00-s02 and the start of s03; 1019 of 3722 rows have `en`). Last build 2026-11-17 sha1 00e5a8f4... (810 rows then),
+  pilot shot of dlg:0002 in-game reads cleanly (`work/qa/pilot/final.png`).
+- **Phase 6 how-to (resume here):** `docs/translator-brief.md` (tl_body.py view -> write bNNN.body.tsv -> wrap ->
+  batches.py check -> merge). Batches `work/tl/b001-b040.tsv` exist (work/ is gitignored; if they are missing, run
+  `python -X utf8 tools/batches.py split --size 3000`, which numbers on from what exists and skips translated rows).
+  Next: b009 (dlg:0632 on). After b040, run `split` once more: 4 rows (credits:248FD8, credits:248FF8, items_b:6,
+  items_b:8) were un-merged after a cross-box JP copy and need their own batch. Then: style reference
+  (`docs/style-reference.md` from the translated s00-s02), `docs/synopsis.md`, reviewer pass per batch (do it
+  yourself read-only or with `codex exec`; Minors to `docs/polish.md`), tables/strings fit (phase 7 notes below).
+  No subagents in Orca runs: translate in the main thread and hand back at ~150k context.
 - **Done:**
   - Step 0: repo set up (rom.sha1 pinned, `tools/check.py` + pre-commit gate proven to reject a failing test, guard
     hook proven on the canary, own MesenCE 2.2.1 + GBA BIOS, boot route, AGENTS.md, decisions D1-D8).
@@ -43,9 +52,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (G4 G6 G7 G10 G14 G15 G17, proved with `tools/debug/fontcalls.lua`). Width gate in `tools/windows.py` (build
     wrap + lint caps/lines): dialogue 40x3, choices 24, names 10, parts 18, items 14, descs 28x3 padded, help 40x3;
     torture line ok (`docs/re/shots/`). `tests/test_engine.py`.
-- **Next:** phase 6 translate (`references/translation.md`): glossary first (names: official/earlier/Hepburn, D2),
-  then batches by `script/dialogue/sNN.tsv` with translator agents; writers get `tools/windows.py` budgets (one byte
-  per letter; dialogue 40 letters a line, 3 lines, 149 bytes incl. codes). Known engine follow-ups for phase 7:
+  - Phase 6 so far: `tools/batches.py` (skill asset adapted to the TSVs: check uses the build's wrap + lint, merge
+    copies English to same-JP rows of the same box kind), `tools/tl_body.py`, glossary seeded (names Hepburn, cities
+    and people after fruit/wine/cheese), `engine._width` (wrap no longer counts mid-line codes as letters).
+- **Next:** finish phase 6 (above). Known engine follow-ups for phase 7:
   status-panel labels and save-menu labels have 2-16 bytes of room (strings pointed at from code literal pools,
   `where` = ref:): grow by relocating the string + rewriting its literal (keep 0x2494C8 an empty string); credits
   pieces likewise (layout work). Link/swap prompts are fixed width (build pads with spaces). Text inside LZ blocks
