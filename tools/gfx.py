@@ -31,7 +31,25 @@ GROUPS = {
         ((108, 52, 104, 12), "Continue", 2, 3, None, 1),
         ((107, 68, 106, 12), "Two-Player Battle", 2, 3, None, 1),
     ]),
+    # G3 title-screen credit line (OBJ, 2D mapping): the title sprites are LZ block 0x2BB0A8, decompressed to OBJ
+    # VRAM 0x14000 (tile 0x200), a sheet 32 tiles wide. "キャラクターデザイン 西川伸司" was 5 sprites 128 px wide
+    # (tiles 0x3C0.., 0x384..; work/qa/g3). The English needs 181 px, so the line's 5 sprite records in the title
+    # OAM table (OAM_PATCHES) become three 64x32 sprites over blank, unused sheet tiles (rows below 160 are off
+    # screen); the strip is drawn once and cut into 64-px pieces.
+    "title_obj": dict(lz=0x2BB0A8, at=0, tiles=512, cols=32, pal=("gfx/pal/title_obj.pal.bin", 17), labels=[],
+                      strips=[dict(w=192, h=16, text="Character Design: Shinji Nishikawa", ink=14, shadow=None,
+                                   outline=11, prop=True, dest=[(192, 64), (192, 80), (192, 96)])]),
 }
+
+# (ROM offset, original bytes, new bytes, why): sprite records next to a redrawn group. Title OAM table records are
+# (attr0, attr1, attr2, 0) relative to (128, 128); 0x24A73C holds the credit line's 5 (docs/re/graphics.md G3).
+_C = (0x4010, 0xC018, 0x1398, 0)  # x -104/-40/+24: the same span as line 1 (x 24-216)
+OAM_PATCHES = [
+    (0x24A73C, bytes.fromhex("1040b881c0130000" "1040d881c4130000" "1000f841c8130000" "1040088084130000"
+                             "1000284088130000"),
+     struct.pack("<20H", 0x4010, 0xC198, 0x1318, 0, 0x4010, 0xC1D8, 0x1358, 0, *_C, *_C, *_C),
+     "title credit line: 3 sprites 64x32 (the last one repeated in the spare records)"),
+]
 
 
 def decode(rom, g):
@@ -57,60 +75,115 @@ def encode_tile(px, g, t):
     return bytes(out)
 
 
-def text_width(s, scale=1):
-    return (len(s) * (font_en.WIDTH + 1) - 1) * scale
+def _glyph_cols(ch, prop):
+    """(first column, width) of a glyph: the full cell, or its inked columns (space = 3 px) when proportional."""
+    if not prop:
+        return 0, font_en.WIDTH
+    m = 0
+    for bits in font_en.GLYPHS[ch]:
+        m |= bits
+    cols = [x for x in range(font_en.WIDTH) if m >> (font_en.WIDTH - 1 - x) & 1]
+    return (cols[0], cols[-1] - cols[0] + 1) if cols else (0, 3)
 
 
-def draw(px, lab):
+def text_width(s, scale=1, prop=False):
+    return (sum(_glyph_cols(ch, prop)[1] + 1 for ch in s) - 1) * scale
+
+
+def draw(px, lab, prop=False, outline=None):
+    """Draw a label; outline: an index drawn on the 8 neighbours of every ink pixel (the title sprites' style)."""
     (x, y, w, h), s, clear, ink, shadow, scale = lab
     for yy in range(y, y + h):
         for xx in range(x, x + w):
             px[yy][xx] = clear
-    tw, th = text_width(s, scale), font_en.HEIGHT * scale
+    m = 1 if outline is not None else 0
+    tw, th = text_width(s, scale, prop) + 2 * m, font_en.HEIGHT * scale + 2 * m
     if tw > w or th > h:
         raise ValueError(f"{s!r}: {tw}x{th} px, rect {w}x{h}")
-    ox, oy = x + (w - tw) // 2, y + (h - th) // 2
-    for layer, (dx, dy, idx) in enumerate(((1, 1, shadow), (0, 0, ink))):
+    ox, oy = x + (w - tw) // 2 + m, y + (h - th) // 2 + m
+    passes = [(dx, dy, outline) for dx in (-1, 0, 1) for dy in (-1, 0, 1) if (dx or dy)] if m else []
+    for dx, dy, idx in passes + [(1, 1, shadow), (0, 0, ink)]:
         if idx is None:
             continue
-        for i, ch in enumerate(s):
-            rows = font_en.GLYPHS[ch]
-            for gy, bits in enumerate(rows):
-                for gx in range(font_en.WIDTH):
+        pen = ox
+        for ch in s:
+            c0, cw = _glyph_cols(ch, prop)
+            for gy, bits in enumerate(font_en.GLYPHS[ch]):
+                for gx in range(c0, c0 + cw):
                     if bits >> (font_en.WIDTH - 1 - gx) & 1:
                         for sy in range(scale):
                             for sx in range(scale):
-                                X = ox + (i * (font_en.WIDTH + 1) + gx) * scale + sx + dx
+                                X = pen + (gx - c0) * scale + sx + dx
                                 Y = oy + gy * scale + sy + dy
                                 if x <= X < x + w and y <= Y < y + h:
                                     px[Y][X] = idx
+            pen += (cw + 1) * scale
 
 
-def redraw(rom, name):
-    """(block pixels after the English labels, set of tile numbers touched)."""
+def _touch(touched, g, x, y, w, h):
+    for ty in range(y // 8, (y + h + 7) // 8):
+        for tx in range(x // 8, (x + w + 7) // 8):
+            touched.add(ty * g["cols"] + tx)
+
+
+def redraw(buf, name):
+    """(block pixels after the English labels and strips, set of tile numbers touched). buf: the ROM for a raw
+    group, the decompressed block for an LZ group."""
     g = GROUPS[name]
-    px = decode(rom, g)
+    px = decode(buf, g)
     touched = set()
     for lab in g["labels"]:
         draw(px, lab)
-        x, y, w, h = lab[0]
-        for ty in range(y // 8, (y + h + 7) // 8):
-            for tx in range(x // 8, (x + w + 7) // 8):
-                touched.add(ty * g["cols"] + tx)
+        _touch(touched, g, *lab[0])
+    for st in g.get("strips", ()):
+        piece = st.get("piece", 64)
+        canvas = [[st.get("clear", 0)] * st["w"] for _ in range(st["h"])]
+        draw(canvas, ((0, 0, st["w"], st["h"]), st["text"], st.get("clear", 0), st["ink"], st["shadow"], 1),
+             st.get("prop", False), st.get("outline"))
+        for i, (dx, dy) in enumerate(st["dest"]):
+            for yy in range(st["h"]):
+                px[dy + yy][dx:dx + piece] = canvas[yy][i * piece:(i + 1) * piece]
+            _touch(touched, g, dx, dy, piece, st["h"])
     return px, touched
 
 
-def apply(out):
-    """Write every group's redrawn tiles into the Rom being built (units.Rom)."""
+# Redrawn LZ blocks that outgrow their packed size go to the expanded ROM (units.LZBlocks.moves): block offset ->
+# (new offset, pointer words). 0x500000-0x580000 is free (tools/engine.py layout ends at NEW_STRINGS_END 0x4F0000).
+LZ_MOVES = {
+    0x2BB0A8: (0x500000, [0x1F874]),  # title sprites (G3), loaded via the literal at 0x1F874
+}
+
+
+def apply_lz(blocks):
+    """Redraw the LZ groups inside the unpacked LZ unit ({block offset: bytes}) before it is packed."""
     for name, g in GROUPS.items():
+        if "lz" in g:
+            buf = bytearray(blocks[g["lz"]])
+            px, touched = redraw(buf, name)
+            for t in sorted(touched):
+                buf[g["at"] + t * 32:g["at"] + t * 32 + 32] = encode_tile(px, g, t)
+            blocks[g["lz"]] = bytes(buf)
+
+
+def apply(out):
+    """Write every raw group's redrawn tiles and the sprite-record patches into the Rom being built (units.Rom)."""
+    for name, g in GROUPS.items():
+        if "lz" in g:
+            continue
         px, touched = redraw(out.data, name)
         for t in sorted(touched):
             out.write(g["at"] + t * 32, encode_tile(px, g, t), f"gfx:{name}")
+    for off, old, new, why in OAM_PATCHES:
+        if bytes(out.data[off:off + len(old)]) != old or len(new) != len(old):
+            raise ValueError(f"gfx patch {off:06X} ({why}): original bytes differ")
+        out.write(off, new, f"gfx:{why}")
 
 
 def spans():
-    """Byte ranges apply() may write (tests/test_build.py allowed ranges)."""
-    return [(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values()]
+    """Byte ranges apply() may write (tests/test_build.py allowed ranges; LZ blocks are the LZ unit's own)."""
+    return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "lz" not in g]
+            + [(off, off + len(old)) for off, old, _, _ in OAM_PATCHES]
+            + [(ref, ref + 4) for _, refs in LZ_MOVES.values() for ref in refs])
 
 
 def _palette(g):
@@ -134,6 +207,9 @@ def main():
     a = ap.parse_args()
     rom = (ROOT / "rom" / "Toyrobo Force (Japan).gba").read_bytes()
     g = GROUPS[a.group]
+    if "lz" in g:
+        import gbacomp
+        rom = gbacomp.decompress(rom, g["lz"])[0]
     if a.cmd == "show":
         px = decode(rom, g)
         x, y, w, h = map(int, a.rect.split(",")) if a.rect else (0, 0, len(px[0]), len(px))

@@ -205,6 +205,7 @@ class LZBlocks:
         self.name, self.offsets = name, list(offsets)
         self._orig = {}
         self.spans = []  # (start, end) per block, filled by unpack
+        self.moves = {}  # block offset -> (new offset in the expanded ROM, [pointer-word offsets]) (tools/gfx.py)
 
     def unpack(self, rom):
         out = {}
@@ -224,6 +225,15 @@ class LZBlocks:
             else:
                 packed = gbacomp.compress(data)
                 _, core = gbacomp.decompress(packed, 0)  # drop compress()'s 4-byte padding
+                if off in self.moves:  # the old copy stays (unreferenced); every pointer word goes to the new one
+                    new, refs = self.moves[off]
+                    out.write(off, orig_packed, f"{self.name} {off:06X} (moved)")
+                    out.write(new, packed[:core], f"{self.name} {off:06X} -> {new:06X}")
+                    for ref in refs:
+                        if int.from_bytes(out.data[ref:ref + 4], "little") != 0x08000000 + off:
+                            raise ValueError(f"{self.name} {off:06X}: pointer word {ref:06X} doesn't hold it")
+                        out.write(ref, (0x08000000 + new).to_bytes(4, "little"), f"{self.name} {off:06X} ptr")
+                    continue
                 if core > len(orig_packed):
                     raise ValueError(f"{self.name} {off:06X}: {core} bytes packed, room {len(orig_packed)}")
                 packed = packed[:core].ljust(len(orig_packed), b"\0")

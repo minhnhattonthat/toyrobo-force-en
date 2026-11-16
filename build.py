@@ -40,6 +40,10 @@ def pack(orig, us, datas, enc=None):
     if enc:
         engine.expand(out)
     out.blank([s for u in us for s in units.spans(u)])
+    if enc:
+        lz = next(i for i, u in enumerate(us) if isinstance(u, units.LZBlocks))
+        gfx.apply_lz(datas[lz])
+        us[lz].moves = gfx.LZ_MOVES
     for u, d in zip(us, datas):
         u.pack(d, out)
     if enc:
