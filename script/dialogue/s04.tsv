@@ -166,13 +166,13 @@ dlg:0514	text	rec:924	149	　アプリコットこうがい{wait}
 dlg:0515	text	rec:925	149	{face:10001}{face:20101}通信「ブランクです。{br}　いま上空３００メートル、じょうきょうは・・・ちとまずいですね；」{wait}		
 dlg:0516	text	rec:926	149	{face:20110}{spk:03}トモミ「おそってくるわよ！」{wait}		
 dlg:0517	text	rec:927	149	{face:10011}{spk:14}ユウキ「はっぽうきょか！{br}　ただちにテカ反乱をちんあつしろ！」		
-dlg:0518	text	rec:928	149	通信「コンファー！」{wait}		
+dlg:0518	text	rec:928	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:0519	text	rec:931	149	{face:20103}{spk:03}トモミ「やられたわね。{br}　まあいいわ、あたしがいくらでもメンテしてやるから」{wait}		
 dlg:0520	text	rec:939	149	{face:10001}{face:30204}{spk:04}ギリガン「おい、やっぱり教官のパーツも利用してだな・・・」{wait}		
 dlg:0521	text	rec:940	149	{face:10005}{spk:02}ユウキ「だめだってば；」{wait}		
 dlg:0522	text	rec:951	149	　アプリコットこうがい{wait}		
 dlg:0523	text	rec:952	149	{face:10011}{spk:14}ユウキ「はっぽうきょか！{br}　ただちにテカ反乱をちんあつしろ！」		
-dlg:0524	text	rec:953	149	通信「コンファー！」{wait}		
+dlg:0524	text	rec:953	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:0525	text	rec:957	149	{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「さいしょの船は出たあとだ―――{br}　半分はにげちゃったな」{wait}		
 dlg:0526	text	rec:958	149	{face:10001}{face:20103}{spk:03}トモミ「のこっているのは静かになったわ。　ゆうどうがとけたみたいね」{wait}		
 dlg:0527	text	rec:959	149	{face:20101}{face:30202}{spk:04}ギリガン「シティにもどらせるか―――{br}　あっ、おまえは工場の」{wait}		

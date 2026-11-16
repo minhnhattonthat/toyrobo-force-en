@@ -113,7 +113,7 @@ dlg:0665	text	rec:1227	149	{spk:02}　これはワナだ、敵のもくてきは
 dlg:0666	text	rec:1228	149	{face:20111}{spk:03}トモミ「（おー、言うわね）{br}　もくひょうせっていよし。{br}　行きましょう！」{wait}		
 dlg:0667	text	rec:1231	149	{face:10009}{spk:02}ユウキ「まだまだ。{br}　戦力を立て直してもういちど！」{wait}		
 dlg:0668	text	rec:1249	149	{face:10011}{spk:14}ユウキ「ブランク！{br}　はんげきに気をつけて行け！」		
-dlg:0669	text	rec:1250	149	通信「コンファー！」{wait}		
+dlg:0669	text	rec:1250	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:0670	text	rec:1254	149	　ワイン工場地下室{wait}		
 dlg:0671	text	rec:1255	149	{face:10302}{spk:02}ブランク「お嬢さまを発見しました。{br}　ごぶじなようです」{wait}		
 dlg:0672	text	rec:1256	149	通信・ユウキ「市長は？{br}　さがしてくれ！」{wait}		

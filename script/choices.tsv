@@ -1,398 +1,398 @@
 id	kind	where	max	jp	en	notes
-choice:0	text	@3766BC	29	「おーけー。行こう」		
-choice:1	text	@3766E0	29	「メンテがまだ」		
-choice:4	text	@37674C	29	「おーけー。行こう」		
-choice:5	text	@376770	29	「ちょっと待って」		
-choice:8	text	@3767DC	29	「聞き込み」		
-choice:9	text	@376800	29	「身の代金」		
-choice:10	text	@376824	29	「とにかく追う」		
-choice:11	text	@376848	29	「い場所をトレース」		
-choice:12	text	@37686C	29	「トモミを信じる」		
-choice:13	text	@376890	29	「信じない」		
-choice:16	text	@3768FC	29	「もっとがんばって」		
-choice:17	text	@376920	29	「もういいよ；」		
-choice:20	text	@37698C	29	「ムリでもがんばって」		
-choice:21	text	@3769B0	29	「ムリならやめよう；」		
-choice:24	text	@376A1C	29	「おーけー。行こう」		
-choice:25	text	@376A40	29	「ちょっと待って」		
-choice:28	text	@376AAC	29	「おーけー。行こう」		
-choice:29	text	@376AD0	29	「ちょっと待って」		
-choice:32	text	@376B3C	29	「指示をおねがいします」		
-choice:33	text	@376B60	29	「市内を見てきます」		
-choice:34	text	@376B84	29	「にげた先をさがします」		
-choice:35	text	@376BA8	29	「教官をしらべましょう」		
-choice:36	text	@376BCC	29	「市内を見てきます」		
-choice:37	text	@376BF0	29	「にげた先をさがします」		
-choice:38	text	@376C14	29	「教官をしらべましょう」		
-choice:40	text	@376C5C	29	「広い牧場」		
-choice:41	text	@376C80	29	「かくれやすいプラム山」		
-choice:42	text	@376CA4	29	「ブランクを飛ばす」		
-choice:44	text	@376CEC	29	「かくれやすいプラム山」		
-choice:45	text	@376D10	29	「ブランクを飛ばす」		
-choice:48	text	@376D7C	29	「よし、行こう」		
-choice:49	text	@376DA0	29	「ちがうような気が」		
-choice:52	text	@376E0C	29	「広い牧場」		
-choice:53	text	@376E30	29	「ブランクを飛ばす」		
-choice:56	text	@376E9C	29	「田んぼで田うえ」		
-choice:57	text	@376EC0	29	「海に集団身投げ」		
-choice:58	text	@376EE4	29	「港から船でにげる」		
-choice:60	text	@376F2C	29	「海に集団身投げ」		
-choice:61	text	@376F50	29	「港から船でにげる」		
-choice:64	text	@376FBC	29	「田んぼで田うえ」		
-choice:65	text	@376FE0	29	「港から船でにげる」		
-choice:68	text	@37704C	29	「おねがいします」		
-choice:69	text	@377070	29	「自分たちでやります」		
-choice:72	text	@3770DC	29	「指示をおねがいします」		
-choice:73	text	@377100	29	「にげた先をさがします」		
-choice:74	text	@377124	29	「教官をしらべましょう」		
-choice:76	text	@37716C	29	「指示をおねがいします」		
-choice:77	text	@377190	29	「市内を見てきます」		
-choice:78	text	@3771B4	29	「にげた先をさがします」		
-choice:80	text	@3771FC	29	もっとさがす		
-choice:81	text	@377220	29	もういい		
-choice:84	text	@37728C	29	もっとさがす		
-choice:85	text	@3772B0	29	うらもさがす		
-choice:86	text	@3772D4	29	もういい		
-choice:88	text	@37731C	29	もっとさがす		
-choice:89	text	@377340	29	うらもさがす		
-choice:90	text	@377364	29	もういい		
-choice:92	text	@3773AC	29	もっとさがす		
-choice:93	text	@3773D0	29	うらもさがす		
-choice:94	text	@3773F4	29	もういい		
-choice:96	text	@37743C	29	もっとさがす		
-choice:97	text	@377460	29	うらもさがす		
-choice:98	text	@377484	29	もういい		
-choice:100	text	@3774CC	29	わかったよ；		
-choice:104	text	@37755C	29	車庫をさがす		
-choice:105	text	@377580	29	そうこをさがす		
-choice:106	text	@3775A4	29	署内をさがす		
-choice:107	text	@3775C8	29	屋根うらをさがす		
-choice:108	text	@3775EC	29	車庫をさがす		
-choice:109	text	@377610	29	そうこをさがす		
-choice:110	text	@377634	29	署内をさがす		
-choice:111	text	@377658	29	屋根うらをさがす		
-choice:112	text	@37767C	29	車庫をさがす		
-choice:113	text	@3776A0	29	そうこをさがす		
-choice:114	text	@3776C4	29	署内をさがす		
-choice:115	text	@3776E8	29	屋根うらをさがす		
-choice:116	text	@37770C	29	車庫をさがす		
-choice:117	text	@377730	29	そうこをさがす		
-choice:118	text	@377754	29	署内をさがす		
-choice:119	text	@377778	29	屋根うらをさがす		
-choice:120	text	@37779C	29	車庫をさがす		
-choice:121	text	@3777C0	29	そうこをさがす		
-choice:122	text	@3777E4	29	署内をさがす		
-choice:123	text	@377808	29	屋根うらをさがす		
-choice:124	text	@37782C	29	「おーけー。行こう」		
-choice:125	text	@377850	29	「ちょっと待って」		
-choice:128	text	@3778BC	29	「おーけー。行こう」		
-choice:129	text	@3778E0	29	「ちょっと待って」		
-choice:132	text	@37794C	29	はい		
-choice:133	text	@377970	29	いいえ		
-choice:136	text	@3779DC	29	「おーけー。行こう」		
-choice:137	text	@377A00	29	「ちょっと待って」		
-choice:140	text	@377A6C	29	「おーけー。行こう」		
-choice:141	text	@377A90	29	「ちょっと待って」		
-choice:144	text	@377AFC	29	「おーけー。行こう」		
-choice:145	text	@377B20	29	「ちょっと待って」		
-choice:148	text	@377B8C	29	「力をかしてください」		
-choice:149	text	@377BB0	29	「手出しむようです」		
-choice:152	text	@377C1C	29	「はあ、分かりました」		
-choice:153	text	@377C40	29	「でも、アドルフ市長が」		
-choice:156	text	@377CAC	29	「評判は関係ない」		
-choice:157	text	@377CD0	29	「おこられますから」		
-choice:160	text	@377D3C	29	「立場も関係ない」		
-choice:161	text	@377D60	29	「それはそうです」		
-choice:164	text	@377DCC	29	「もちろんです」		
-choice:165	text	@377DF0	29	「ちがいます」		
-choice:168	text	@377E5C	29	「おーけー。行こう」		
-choice:169	text	@377E80	29	「ちょっと待って」		
-choice:172	text	@377EEC	29	「おーけー。行こう」		
-choice:173	text	@377F10	29	「ちょっと待って」		
-choice:176	text	@377F7C	29	「おーけー。行こう」		
-choice:177	text	@377FA0	29	「ちょっと待って」		
-choice:180	text	@37800C	29	はい		
-choice:181	text	@378030	29	いいえ		
-choice:184	text	@37809C	29	「おーけー。行こう」		
-choice:185	text	@3780C0	29	「ちょっと待って」		
-choice:188	text	@37812C	29	「戦いのじゅんび」		
-choice:189	text	@378150	29	「話し合いのじゅんび」		
-choice:190	text	@378174	29	「少しまって」		
-choice:192	text	@3781BC	29	「買った！」		
-choice:193	text	@3781E0	29	「いらない」		
-choice:196	text	@37824C	29	つうこうしょうを見せる		
-choice:197	text	@378270	29	「いや、引き返そう」		
-choice:200	text	@3782DC	29	「右からうらへ」		
-choice:201	text	@378300	29	「左からうらへ」		
-choice:202	text	@378324	29	「引き返す」		
-choice:204	text	@37836C	29	「このままうらへ」		
-choice:205	text	@378390	29	「一度もどろう」		
-choice:208	text	@3783FC	29	「ムリやりうらへ」		
-choice:209	text	@378420	29	「一度もどろう」		
-choice:212	text	@37848C	29	「右からうらへ」		
-choice:213	text	@3784B0	29	「左からうらへ」		
-choice:214	text	@3784D4	29	「あきらめる」		
-choice:216	text	@37851C	29	「このままうらへ」		
-choice:217	text	@378540	29	「少し様子を見よう」		
-choice:218	text	@378564	29	「一度もどろう」		
-choice:220	text	@3785AC	29	「今度こそうらへ」		
-choice:221	text	@3785D0	29	「もっと様子を見よう」		
-choice:222	text	@3785F4	29	「一度もどろう」		
-choice:224	text	@37863C	29	「そうだね」		
-choice:225	text	@378660	29	「いいから部屋に戻ろう」		
-choice:228	text	@3786CC	29	「そうだね」		
-choice:232	text	@37875C	29	はい		
-choice:233	text	@378780	29	いいえ		
-choice:236	text	@3787EC	29	はい		
-choice:237	text	@378810	29	いいえ		
-choice:240	text	@37887C	29	反乱はほっとけない		
-choice:241	text	@3788A0	29	いや、元をたたなくちゃ		
-choice:244	text	@37890C	29	「そうしよう」		
-choice:245	text	@378930	29	「自分たちで行こう」		
-choice:248	text	@37899C	29	「軍隊にはまかせない」		
-choice:252	text	@378A2C	29	「やらせよう」		
-choice:253	text	@378A50	29	「もうやめだ」		
-choice:256	text	@378ABC	29	「おーけー。行こう」		
-choice:257	text	@378AE0	29	「ちょっと待って」		
-choice:260	text	@378B4C	29	「署長の助けを待つ」		
-choice:261	text	@378B70	29	「ブランクに指示」		
-choice:262	text	@378B94	29	「ポリステカをだます」		
-choice:264	text	@378BDC	29	「署長の助けを待つ」		
-choice:265	text	@378C00	29	「ブランクに指示」		
-choice:268	text	@378C6C	29	住宅街へ		
-choice:269	text	@378C90	29	工場街へ		
-choice:272	text	@378CFC	29	あき家に入る		
-choice:273	text	@378D20	29	下水道に入る		
-choice:276	text	@378D8C	29	うら口からにげる		
-choice:277	text	@378DB0	29	おくの部屋にかくれる		
-choice:280	text	@378E1C	29	反対側の路地		
-choice:281	text	@378E40	29	下水道に入る		
-choice:284	text	@378EAC	29	にげる		
-choice:285	text	@378ED0	29	車をうばう		
-choice:288	text	@378F3C	29	まずは工場へ		
-choice:292	text	@378FCC	29	下水道を進む		
-choice:296	text	@37905C	29	まっすぐ行く		
-choice:297	text	@379080	29	左に曲がる		
-choice:298	text	@3790A4	29	引き返す		
-choice:300	text	@3790EC	29	上に出る		
-choice:301	text	@379110	29	引き返す		
-choice:304	text	@37917C	29	引き返す		
-choice:308	text	@37920C	29	左に曲がる		
-choice:309	text	@379230	29	引き返す		
-choice:312	text	@37929C	29	右に曲がる		
-choice:313	text	@3792C0	29	まっすぐ行く		
-choice:314	text	@3792E4	29	引き返す		
-choice:316	text	@37932C	29	右に曲がる		
-choice:317	text	@379350	29	引き返す		
-choice:320	text	@3793BC	29	右に曲がる		
-choice:321	text	@3793E0	29	左に曲がる		
-choice:322	text	@379404	29	引き返す		
-choice:324	text	@37944C	29	右に曲がる		
-choice:325	text	@379470	29	左に曲がる		
-choice:326	text	@379494	29	引き返す		
-choice:328	text	@3794DC	29	引き返す		
-choice:332	text	@37956C	29	右に曲がる		
-choice:333	text	@379590	29	引き返す		
-choice:336	text	@3795FC	29	右に曲がる		
-choice:337	text	@379620	29	まっすぐ行く		
-choice:338	text	@379644	29	引き返す		
-choice:340	text	@37968C	29	左に曲がる		
-choice:341	text	@3796B0	29	引き返す		
-choice:344	text	@37971C	29	上に出る		
-choice:345	text	@379740	29	引き返す		
-choice:348	text	@3797AC	29	まっすぐ行く		
-choice:349	text	@3797D0	29	左に曲がる		
-choice:350	text	@3797F4	29	引き返す		
-choice:352	text	@37983C	29	手近なそうこへ		
-choice:356	text	@3798CC	29	手近なそうこへ		
-choice:357	text	@3798F0	29	下水道へ		
-choice:360	text	@37995C	29	くせ者だ！		
-choice:361	text	@379980	29	アプリコット警察だ！		
-choice:362	text	@3799A4	29	こけもも警察だ！		
-choice:364	text	@3799EC	29	下水道に入る		
-choice:368	text	@379A7C	29	ゲートへ行く		
-choice:369	text	@379AA0	29	工場街にもどる		
-choice:372	text	@379B0C	29	工場へ行く		
-choice:373	text	@379B30	29	工場街にもどる		
-choice:376	text	@379B9C	29	工場街にもどる		
-choice:380	text	@379C2C	29	まっすぐ行く		
-choice:381	text	@379C50	29	左に曲がる		
-choice:382	text	@379C74	29	引き返す		
-choice:384	text	@379CBC	29	上に出る		
-choice:385	text	@379CE0	29	引き返す		
-choice:388	text	@379D4C	29	引き返す		
-choice:392	text	@379DDC	29	左に曲がる		
-choice:393	text	@379E00	29	引き返す		
-choice:396	text	@379E6C	29	右に曲がる		
-choice:397	text	@379E90	29	まっすぐ行く		
-choice:398	text	@379EB4	29	引き返す		
-choice:400	text	@379EFC	29	右に曲がる		
-choice:401	text	@379F20	29	引き返す		
-choice:404	text	@379F8C	29	右に曲がる		
-choice:405	text	@379FB0	29	左に曲がる		
-choice:406	text	@379FD4	29	引き返す		
-choice:408	text	@37A01C	29	右に曲がる		
-choice:409	text	@37A040	29	左に曲がる		
-choice:410	text	@37A064	29	引き返す		
-choice:412	text	@37A0AC	29	引き返す		
-choice:416	text	@37A13C	29	右に曲がる		
-choice:417	text	@37A160	29	引き返す		
-choice:420	text	@37A1CC	29	右に曲がる		
-choice:421	text	@37A1F0	29	まっすぐ行く		
-choice:422	text	@37A214	29	引き返す		
-choice:424	text	@37A25C	29	左に曲がる		
-choice:425	text	@37A280	29	引き返す		
-choice:428	text	@37A2EC	29	上に出る		
-choice:429	text	@37A310	29	引き返す		
-choice:432	text	@37A37C	29	まっすぐ行く		
-choice:433	text	@37A3A0	29	左に曲がる		
-choice:434	text	@37A3C4	29	引き返す		
-choice:436	text	@37A40C	29	あき家へ入る		
-choice:437	text	@37A430	29	工場街へ		
-choice:440	text	@37A49C	29	「敵をにがすな」		
-choice:441	text	@37A4C0	29	「ちょっと待って」		
-choice:444	text	@37A52C	29	「敵をにがすな」		
-choice:445	text	@37A550	29	「ちょっと待って」		
-choice:448	text	@37A5BC	29	「ギリガンを助けよう」		
-choice:449	text	@37A5E0	29	「ちょっと待って」		
-choice:452	text	@37A64C	29	「ギリガンを助けよう」		
-choice:453	text	@37A670	29	「ちょっと待って」		
-choice:456	text	@37A6DC	29	「探しに出よう」		
-choice:457	text	@37A700	29	「ちょっと待って」		
-choice:460	text	@37A76C	29	「探しに出よう」		
-choice:461	text	@37A790	29	「ちょっと待って」		
-choice:464	text	@37A7FC	29	行こう		
-choice:465	text	@37A820	29	ちょっと待って		
-choice:468	text	@37A88C	29	「ぼくのこと」		
-choice:469	text	@37A8B0	29	「ギリガンのこと」		
-choice:470	text	@37A8D4	29	「ブランクのこと」		
-choice:472	text	@37A91C	29	「トモミ」		
-choice:473	text	@37A940	29	「ポリジェンヌ」		
-choice:474	text	@37A964	29	「ハンナ市長」		
-choice:476	text	@37A9AC	29	「トモミ」		
-choice:477	text	@37A9D0	29	「ポリジェンヌ」		
-choice:478	text	@37A9F4	29	「ハンナ市長」		
-choice:480	text	@37AA3C	29	「トモミ」		
-choice:481	text	@37AA60	29	「ポリジェンヌ」		
-choice:482	text	@37AA84	29	「ハンナ市長」		
-choice:484	text	@37AACC	29	「ギリガンのことだ」		
-choice:485	text	@37AAF0	29	「ブランクのことだ」		
-choice:488	text	@37AB5C	29	「トモミ」		
-choice:489	text	@37AB80	29	「ポリジェンヌ」		
-choice:492	text	@37ABEC	29	「ぼくのことだ」		
-choice:493	text	@37AC10	29	「ブランクのことだ」		
-choice:496	text	@37AC7C	29	「トモミ」		
-choice:497	text	@37ACA0	29	「ポリジェンヌ」		
-choice:500	text	@37AD0C	29	「山」		
-choice:501	text	@37AD30	29	「森」		
-choice:502	text	@37AD54	29	「海」		
-choice:504	text	@37AD9C	29	「トモミ」		
-choice:505	text	@37ADC0	29	「ポリジェンヌ」		
-choice:508	text	@37AE2C	29	「おーけー。行こう」		
-choice:509	text	@37AE50	29	「ちょっと待って」		
-choice:512	text	@37AEBC	29	「森」		
-choice:513	text	@37AEE0	29	「海」		
-choice:516	text	@37AF4C	29	「山」		
-choice:517	text	@37AF70	29	「森」		
-choice:520	text	@37AFDC	29	「おーけー。行こう」		
-choice:521	text	@37B000	29	「ちょっと待って」		
-choice:524	text	@37B06C	29	「そうだね」		
-choice:525	text	@37B090	29	「ちがうね」		
-choice:528	text	@37B0FC	29	「そうだね」		
-choice:529	text	@37B120	29	「ちがうね」		
-choice:532	text	@37B18C	29	「そうだね」		
-choice:533	text	@37B1B0	29	「ちがうね」		
-choice:536	text	@37B21C	29	「あ、そうか」		
-choice:537	text	@37B240	29	「高いところ・・・」		
-choice:540	text	@37B2AC	29	「飛行船じゃないよ」		
-choice:541	text	@37B2D0	29	「広告つけて・・・」		
-choice:544	text	@37B33C	29	「船じゃないな」		
-choice:545	text	@37B360	29	「海は広いし・・・」		
-choice:548	text	@37B3CC	29	「行こう」		
-choice:549	text	@37B3F0	29	「ちょっと待って」		
-choice:552	text	@37B45C	29	「行こう」		
-choice:553	text	@37B480	29	「ちょっと待って」		
-choice:556	text	@37B4EC	29	「おーけー。行こう」		
-choice:557	text	@37B510	29	「ちょっと待って」		
-choice:560	text	@37B57C	29	「行こう！」		
-choice:561	text	@37B5A0	29	「メンテがまだ」		
-choice:564	text	@37B60C	29	アプリコットシティ		
-choice:565	text	@37B630	29	フランボワーズシティ		
-choice:566	text	@37B654	29	カシスシティ		
-choice:567	text	@37B678	29	マーマーレードシティ		
-choice:568	text	@37B69C	29	買う		
-choice:569	text	@37B6C0	29	買わない		
-choice:572	text	@37B72C	29	買う		
-choice:573	text	@37B750	29	買わない		
-choice:576	text	@37B7BC	29	「そうだね、行こう」		
-choice:577	text	@37B7E0	29	「もっと考えよう」		
-choice:580	text	@37B84C	29	「外だ、行こう」		
-choice:581	text	@37B870	29	「やっぱりシティの中だ」		
-choice:584	text	@37B8DC	29	「シティの中じゃない」		
-choice:585	text	@37B900	29	「中にいるはず」		
-choice:588	text	@37B96C	29	買う		
-choice:589	text	@37B990	29	買わない		
-choice:592	text	@37B9FC	29	「うん、外か他だ」		
-choice:593	text	@37BA20	29	「いや、この町だ」		
-choice:596	text	@37BA8C	29	「シティの外だね」		
-choice:597	text	@37BAB0	29	「いや中だ」		
-choice:600	text	@37BB1C	29	「よし行け！」		
-choice:601	text	@37BB40	29	「ちょっと待って」		
-choice:604	text	@37BBAC	29	「よし行け！」		
-choice:605	text	@37BBD0	29	「ちょっと待って」		
-choice:608	text	@37BC3C	29	「買う」		
-choice:609	text	@37BC60	29	「いらない」		
-choice:612	text	@37BCCC	29	「武器とかあったらくれ」		
-choice:613	text	@37BCF0	29	「じょうほうがほしい」		
-choice:614	text	@37BD14	29	「なんでもない」		
-choice:616	text	@37BD5C	29	「買う」		
-choice:617	text	@37BD80	29	「いらない」		
-choice:620	text	@37BDEC	29	「買う」		
-choice:621	text	@37BE10	29	「いらない」		
-choice:624	text	@37BE7C	29	「買った！」		
-choice:625	text	@37BEA0	29	「高いよ；；」		
-choice:628	text	@37BF0C	29	「少し部屋をしらべて」		
-choice:629	text	@37BF30	29	「うらから出よう」		
-choice:632	text	@37BF9C	29	「うらから出よう」		
-choice:636	text	@37C02C	29	「行こう」		
-choice:637	text	@37C050	29	「様子を見よう」		
-choice:640	text	@37C0BC	29	「行こう」		
-choice:641	text	@37C0E0	29	「もう少し様子を」		
-choice:644	text	@37C14C	29	あやまる		
-choice:645	text	@37C170	29	笑ってごまかす		
-choice:646	text	@37C194	29	胸をはる		
-choice:648	text	@37C1DC	29	対空バレットパック		
-choice:649	text	@37C200	29	対地バレットパック		
-choice:650	text	@37C224	29	いらない		
-choice:652	text	@37C26C	29	アプリコット		
-choice:653	text	@37C290	29	フランボワーズ		
-choice:654	text	@37C2B4	29	カシス		
-choice:655	text	@37C2D8	29	後半		
-choice:656	text	@37C2FC	29	こけもも		
-choice:657	text	@37C320	29	マーマレード		
-choice:658	text	@37C344	29	ブラックベリィ		
-choice:659	text	@37C368	29	前半		
-choice:660	text	@37C38C	29	「買います」		
-choice:661	text	@37C3B0	29	「いりません」		
-choice:664	text	@37C41C	29	買う♪		
-choice:665	text	@37C440	29	高い；		
-choice:668	text	@37C4AC	29	買う買う♪		
-choice:669	text	@37C4D0	29	高い高い；		
-choice:672	text	@37C53C	29	「買った！」		
-choice:673	text	@37C560	29	「いらない」		
-choice:676	text	@37C5CC	29	「買う」		
-choice:677	text	@37C5F0	29	「いらない」		
-choice:680	text	@37C65C	29	シューティングのそうさ		
-choice:681	text	@37C680	29	アドベンチャーのそうさ		
-choice:682	text	@37C6A4	29	タイホのしかた		
-choice:683	text	@37C6C8	29	とくにありません		
-choice:684	text	@37C6EC	29	シューティングのコツ		
-choice:685	text	@37C710	29	手に入れたパーツ		
-choice:686	text	@37C734	29	点数をかせぐと？		
-choice:687	text	@37C758	29	とくにありません		
-choice:688	text	@37C77C	29	エンディング・以降		
-choice:689	text	@37C7A0	29	ゲームスタート		
-choice:692	text	@37C80C	29	シューティングのコツ		
-choice:693	text	@37C830	29	パーツを手に入れたら		
-choice:694	text	@37C854	29	点数をかせぐと？		
-choice:695	text	@37C878	29	とくにありません		
+choice:0	text	@3766BC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:1	text	@3766E0	29	「メンテがまだ」	"Maintenance first."	
+choice:4	text	@37674C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:5	text	@376770	29	「ちょっと待って」	"Hang on a second."	
+choice:8	text	@3767DC	29	「聞き込み」	"Ask around."	
+choice:9	text	@376800	29	「身の代金」	"The ransom."	
+choice:10	text	@376824	29	「とにかく追う」	"Just chase them!"	
+choice:11	text	@376848	29	「い場所をトレース」	"Trace the location."	
+choice:12	text	@37686C	29	「トモミを信じる」	"I trust Tomomi."	
+choice:13	text	@376890	29	「信じない」	"I don't trust her."	
+choice:16	text	@3768FC	29	「もっとがんばって」	"Try harder."	
+choice:17	text	@376920	29	「もういいよ；」	"That's enough..."	
+choice:20	text	@37698C	29	「ムリでもがんばって」	"Try even if it's hard."	
+choice:21	text	@3769B0	29	「ムリならやめよう；」	"Stop if it's too hard."	
+choice:24	text	@376A1C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:25	text	@376A40	29	「ちょっと待って」	"Hang on a second."	
+choice:28	text	@376AAC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:29	text	@376AD0	29	「ちょっと待って」	"Hang on a second."	
+choice:32	text	@376B3C	29	「指示をおねがいします」	"Your orders, please."	
+choice:33	text	@376B60	29	「市内を見てきます」	"I'll check the city."	
+choice:34	text	@376B84	29	「にげた先をさがします」	"Find where it fled."	
+choice:35	text	@376BA8	29	「教官をしらべましょう」	"Probe the Instructor."	
+choice:36	text	@376BCC	29	「市内を見てきます」	"I'll check the city."	
+choice:37	text	@376BF0	29	「にげた先をさがします」	"Find where it fled."	
+choice:38	text	@376C14	29	「教官をしらべましょう」	"Probe the Instructor."	
+choice:40	text	@376C5C	29	「広い牧場」	"The wide pasture."	
+choice:41	text	@376C80	29	「かくれやすいプラム山」	"Plum Mountain. Hidden."	
+choice:42	text	@376CA4	29	「ブランクを飛ばす」	"Send Blank flying."	
+choice:44	text	@376CEC	29	「かくれやすいプラム山」	"Plum Mountain. Hidden."	
+choice:45	text	@376D10	29	「ブランクを飛ばす」	"Send Blank flying."	
+choice:48	text	@376D7C	29	「よし、行こう」	"Right, let's go."	
+choice:49	text	@376DA0	29	「ちがうような気が」	"I don't think so."	
+choice:52	text	@376E0C	29	「広い牧場」	"The wide pasture."	
+choice:53	text	@376E30	29	「ブランクを飛ばす」	"Send Blank flying."	
+choice:56	text	@376E9C	29	「田んぼで田うえ」	"Plant rice in paddies."	
+choice:57	text	@376EC0	29	「海に集団身投げ」	"Jump in the sea."	
+choice:58	text	@376EE4	29	「港から船でにげる」	"Flee by ship."	
+choice:60	text	@376F2C	29	「海に集団身投げ」	"Jump in the sea."	
+choice:61	text	@376F50	29	「港から船でにげる」	"Flee by ship."	
+choice:64	text	@376FBC	29	「田んぼで田うえ」	"Plant rice in paddies."	
+choice:65	text	@376FE0	29	「港から船でにげる」	"Flee by ship."	
+choice:68	text	@37704C	29	「おねがいします」	"Yes, please."	
+choice:69	text	@377070	29	「自分たちでやります」	"We'll do it ourselves."	
+choice:72	text	@3770DC	29	「指示をおねがいします」	"Your orders, please."	
+choice:73	text	@377100	29	「にげた先をさがします」	"Find where it fled."	
+choice:74	text	@377124	29	「教官をしらべましょう」	"Probe the Instructor."	
+choice:76	text	@37716C	29	「指示をおねがいします」	"Your orders, please."	
+choice:77	text	@377190	29	「市内を見てきます」	"I'll check the city."	
+choice:78	text	@3771B4	29	「にげた先をさがします」	"Find where it fled."	
+choice:80	text	@3771FC	29	もっとさがす	Search more	
+choice:81	text	@377220	29	もういい	That's enough	
+choice:84	text	@37728C	29	もっとさがす	Search more	
+choice:85	text	@3772B0	29	うらもさがす	Search the back too	
+choice:86	text	@3772D4	29	もういい	That's enough	
+choice:88	text	@37731C	29	もっとさがす	Search more	
+choice:89	text	@377340	29	うらもさがす	Search the back too	
+choice:90	text	@377364	29	もういい	That's enough	
+choice:92	text	@3773AC	29	もっとさがす	Search more	
+choice:93	text	@3773D0	29	うらもさがす	Search the back too	
+choice:94	text	@3773F4	29	もういい	That's enough	
+choice:96	text	@37743C	29	もっとさがす	Search more	
+choice:97	text	@377460	29	うらもさがす	Search the back too	
+choice:98	text	@377484	29	もういい	That's enough	
+choice:100	text	@3774CC	29	わかったよ；	All right...	
+choice:104	text	@37755C	29	車庫をさがす	Search the garage	
+choice:105	text	@377580	29	そうこをさがす	Search the warehouse	
+choice:106	text	@3775A4	29	署内をさがす	Search the station	
+choice:107	text	@3775C8	29	屋根うらをさがす	Search the attic	
+choice:108	text	@3775EC	29	車庫をさがす	Search the garage	
+choice:109	text	@377610	29	そうこをさがす	Search the warehouse	
+choice:110	text	@377634	29	署内をさがす	Search the station	
+choice:111	text	@377658	29	屋根うらをさがす	Search the attic	
+choice:112	text	@37767C	29	車庫をさがす	Search the garage	
+choice:113	text	@3776A0	29	そうこをさがす	Search the warehouse	
+choice:114	text	@3776C4	29	署内をさがす	Search the station	
+choice:115	text	@3776E8	29	屋根うらをさがす	Search the attic	
+choice:116	text	@37770C	29	車庫をさがす	Search the garage	
+choice:117	text	@377730	29	そうこをさがす	Search the warehouse	
+choice:118	text	@377754	29	署内をさがす	Search the station	
+choice:119	text	@377778	29	屋根うらをさがす	Search the attic	
+choice:120	text	@37779C	29	車庫をさがす	Search the garage	
+choice:121	text	@3777C0	29	そうこをさがす	Search the warehouse	
+choice:122	text	@3777E4	29	署内をさがす	Search the station	
+choice:123	text	@377808	29	屋根うらをさがす	Search the attic	
+choice:124	text	@37782C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:125	text	@377850	29	「ちょっと待って」	"Hang on a second."	
+choice:128	text	@3778BC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:129	text	@3778E0	29	「ちょっと待って」	"Hang on a second."	
+choice:132	text	@37794C	29	はい	Yes	
+choice:133	text	@377970	29	いいえ	No	
+choice:136	text	@3779DC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:137	text	@377A00	29	「ちょっと待って」	"Hang on a second."	
+choice:140	text	@377A6C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:141	text	@377A90	29	「ちょっと待って」	"Hang on a second."	
+choice:144	text	@377AFC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:145	text	@377B20	29	「ちょっと待って」	"Hang on a second."	
+choice:148	text	@377B8C	29	「力をかしてください」	"Please lend us a hand."	
+choice:149	text	@377BB0	29	「手出しむようです」	"Keep out of this."	
+choice:152	text	@377C1C	29	「はあ、分かりました」	"Um, understood."	
+choice:153	text	@377C40	29	「でも、アドルフ市長が」	"But Mayor Adolf..."	
+choice:156	text	@377CAC	29	「評判は関係ない」	"Forget reputation."	
+choice:157	text	@377CD0	29	「おこられますから」	"He'll be angry."	
+choice:160	text	@377D3C	29	「立場も関係ない」	"Rank won't matter."	
+choice:161	text	@377D60	29	「それはそうです」	"That's true."	
+choice:164	text	@377DCC	29	「もちろんです」	"Of course."	
+choice:165	text	@377DF0	29	「ちがいます」	"No, I'm not."	
+choice:168	text	@377E5C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:169	text	@377E80	29	「ちょっと待って」	"Hang on a second."	
+choice:172	text	@377EEC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:173	text	@377F10	29	「ちょっと待って」	"Hang on a second."	
+choice:176	text	@377F7C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:177	text	@377FA0	29	「ちょっと待って」	"Hang on a second."	
+choice:180	text	@37800C	29	はい	Yes	
+choice:181	text	@378030	29	いいえ	No	
+choice:184	text	@37809C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:185	text	@3780C0	29	「ちょっと待って」	"Hang on a second."	
+choice:188	text	@37812C	29	「戦いのじゅんび」	"Get ready to fight."	
+choice:189	text	@378150	29	「話し合いのじゅんび」	"Get ready to talk."	
+choice:190	text	@378174	29	「少しまって」	"Wait a moment."	
+choice:192	text	@3781BC	29	「買った！」	"I'll buy it!"	
+choice:193	text	@3781E0	29	「いらない」	"No, thanks."	
+choice:196	text	@37824C	29	つうこうしょうを見せる	Show the pass	
+choice:197	text	@378270	29	「いや、引き返そう」	"No, let's turn back."	
+choice:200	text	@3782DC	29	「右からうらへ」	"Right, round the back."	
+choice:201	text	@378300	29	「左からうらへ」	"Left, round the back."	
+choice:202	text	@378324	29	「引き返す」	"Turn back."	
+choice:204	text	@37836C	29	「このままうらへ」	"Keep going round back."	
+choice:205	text	@378390	29	「一度もどろう」	"Let's go back once."	
+choice:208	text	@3783FC	29	「ムリやりうらへ」	"Force our way round."	
+choice:209	text	@378420	29	「一度もどろう」	"Let's go back once."	
+choice:212	text	@37848C	29	「右からうらへ」	"Right, round the back."	
+choice:213	text	@3784B0	29	「左からうらへ」	"Left, round the back."	
+choice:214	text	@3784D4	29	「あきらめる」	"Give up."	
+choice:216	text	@37851C	29	「このままうらへ」	"Keep going round back."	
+choice:217	text	@378540	29	「少し様子を見よう」	"Let's watch a bit."	
+choice:218	text	@378564	29	「一度もどろう」	"Let's go back once."	
+choice:220	text	@3785AC	29	「今度こそうらへ」	"Round back, this time."	
+choice:221	text	@3785D0	29	「もっと様子を見よう」	"Let's watch some more."	
+choice:222	text	@3785F4	29	「一度もどろう」	"Let's go back once."	
+choice:224	text	@37863C	29	「そうだね」	"You're right."	
+choice:225	text	@378660	29	「いいから部屋に戻ろう」	"Back to the room."	
+choice:228	text	@3786CC	29	「そうだね」	"You're right."	
+choice:232	text	@37875C	29	はい	Yes	
+choice:233	text	@378780	29	いいえ	No	
+choice:236	text	@3787EC	29	はい	Yes	
+choice:237	text	@378810	29	いいえ	No	
+choice:240	text	@37887C	29	反乱はほっとけない	Can't ignore the revolt	
+choice:241	text	@3788A0	29	いや、元をたたなくちゃ	No, hit it at its source	
+choice:244	text	@37890C	29	「そうしよう」	"Let's do that."	
+choice:245	text	@378930	29	「自分たちで行こう」	"We'll go ourselves."	
+choice:248	text	@37899C	29	「軍隊にはまかせない」	"Not the army's job."	
+choice:252	text	@378A2C	29	「やらせよう」	"Let them do it."	
+choice:253	text	@378A50	29	「もうやめだ」	"That's it. I quit."	
+choice:256	text	@378ABC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:257	text	@378AE0	29	「ちょっと待って」	"Hang on a second."	
+choice:260	text	@378B4C	29	「署長の助けを待つ」	"Wait for Chief's help."	
+choice:261	text	@378B70	29	「ブランクに指示」	"Give Blank orders."	
+choice:262	text	@378B94	29	「ポリステカをだます」	"Trick the Polisteka."	
+choice:264	text	@378BDC	29	「署長の助けを待つ」	"Wait for Chief's help."	
+choice:265	text	@378C00	29	「ブランクに指示」	"Give Blank orders."	
+choice:268	text	@378C6C	29	住宅街へ	To the homes	
+choice:269	text	@378C90	29	工場街へ	To the factories	
+choice:272	text	@378CFC	29	あき家に入る	Enter the empty house	
+choice:273	text	@378D20	29	下水道に入る	Enter the sewers	
+choice:276	text	@378D8C	29	うら口からにげる	Escape by the back door	
+choice:277	text	@378DB0	29	おくの部屋にかくれる	Hide in the back room	
+choice:280	text	@378E1C	29	反対側の路地	The alley across the way	
+choice:281	text	@378E40	29	下水道に入る	Enter the sewers	
+choice:284	text	@378EAC	29	にげる	Run	
+choice:285	text	@378ED0	29	車をうばう	Steal a car	
+choice:288	text	@378F3C	29	まずは工場へ	The factory first	
+choice:292	text	@378FCC	29	下水道を進む	Go on through the sewers	
+choice:296	text	@37905C	29	まっすぐ行く	Go straight	
+choice:297	text	@379080	29	左に曲がる	Turn left	
+choice:298	text	@3790A4	29	引き返す	Turn back	
+choice:300	text	@3790EC	29	上に出る	Go up	
+choice:301	text	@379110	29	引き返す	Turn back	
+choice:304	text	@37917C	29	引き返す	Turn back	
+choice:308	text	@37920C	29	左に曲がる	Turn left	
+choice:309	text	@379230	29	引き返す	Turn back	
+choice:312	text	@37929C	29	右に曲がる	Turn right	
+choice:313	text	@3792C0	29	まっすぐ行く	Go straight	
+choice:314	text	@3792E4	29	引き返す	Turn back	
+choice:316	text	@37932C	29	右に曲がる	Turn right	
+choice:317	text	@379350	29	引き返す	Turn back	
+choice:320	text	@3793BC	29	右に曲がる	Turn right	
+choice:321	text	@3793E0	29	左に曲がる	Turn left	
+choice:322	text	@379404	29	引き返す	Turn back	
+choice:324	text	@37944C	29	右に曲がる	Turn right	
+choice:325	text	@379470	29	左に曲がる	Turn left	
+choice:326	text	@379494	29	引き返す	Turn back	
+choice:328	text	@3794DC	29	引き返す	Turn back	
+choice:332	text	@37956C	29	右に曲がる	Turn right	
+choice:333	text	@379590	29	引き返す	Turn back	
+choice:336	text	@3795FC	29	右に曲がる	Turn right	
+choice:337	text	@379620	29	まっすぐ行く	Go straight	
+choice:338	text	@379644	29	引き返す	Turn back	
+choice:340	text	@37968C	29	左に曲がる	Turn left	
+choice:341	text	@3796B0	29	引き返す	Turn back	
+choice:344	text	@37971C	29	上に出る	Go up	
+choice:345	text	@379740	29	引き返す	Turn back	
+choice:348	text	@3797AC	29	まっすぐ行く	Go straight	
+choice:349	text	@3797D0	29	左に曲がる	Turn left	
+choice:350	text	@3797F4	29	引き返す	Turn back	
+choice:352	text	@37983C	29	手近なそうこへ	The nearest warehouse	
+choice:356	text	@3798CC	29	手近なそうこへ	The nearest warehouse	
+choice:357	text	@3798F0	29	下水道へ	To the sewers	
+choice:360	text	@37995C	29	くせ者だ！	Intruder!	
+choice:361	text	@379980	29	アプリコット警察だ！	Apricot Police!	
+choice:362	text	@3799A4	29	こけもも警察だ！	Lingonberry Police!	
+choice:364	text	@3799EC	29	下水道に入る	Enter the sewers	
+choice:368	text	@379A7C	29	ゲートへ行く	Go to the gate	
+choice:369	text	@379AA0	29	工場街にもどる	Back to the factories	
+choice:372	text	@379B0C	29	工場へ行く	Go to the factory	
+choice:373	text	@379B30	29	工場街にもどる	Back to the factories	
+choice:376	text	@379B9C	29	工場街にもどる	Back to the factories	
+choice:380	text	@379C2C	29	まっすぐ行く	Go straight	
+choice:381	text	@379C50	29	左に曲がる	Turn left	
+choice:382	text	@379C74	29	引き返す	Turn back	
+choice:384	text	@379CBC	29	上に出る	Go up	
+choice:385	text	@379CE0	29	引き返す	Turn back	
+choice:388	text	@379D4C	29	引き返す	Turn back	
+choice:392	text	@379DDC	29	左に曲がる	Turn left	
+choice:393	text	@379E00	29	引き返す	Turn back	
+choice:396	text	@379E6C	29	右に曲がる	Turn right	
+choice:397	text	@379E90	29	まっすぐ行く	Go straight	
+choice:398	text	@379EB4	29	引き返す	Turn back	
+choice:400	text	@379EFC	29	右に曲がる	Turn right	
+choice:401	text	@379F20	29	引き返す	Turn back	
+choice:404	text	@379F8C	29	右に曲がる	Turn right	
+choice:405	text	@379FB0	29	左に曲がる	Turn left	
+choice:406	text	@379FD4	29	引き返す	Turn back	
+choice:408	text	@37A01C	29	右に曲がる	Turn right	
+choice:409	text	@37A040	29	左に曲がる	Turn left	
+choice:410	text	@37A064	29	引き返す	Turn back	
+choice:412	text	@37A0AC	29	引き返す	Turn back	
+choice:416	text	@37A13C	29	右に曲がる	Turn right	
+choice:417	text	@37A160	29	引き返す	Turn back	
+choice:420	text	@37A1CC	29	右に曲がる	Turn right	
+choice:421	text	@37A1F0	29	まっすぐ行く	Go straight	
+choice:422	text	@37A214	29	引き返す	Turn back	
+choice:424	text	@37A25C	29	左に曲がる	Turn left	
+choice:425	text	@37A280	29	引き返す	Turn back	
+choice:428	text	@37A2EC	29	上に出る	Go up	
+choice:429	text	@37A310	29	引き返す	Turn back	
+choice:432	text	@37A37C	29	まっすぐ行く	Go straight	
+choice:433	text	@37A3A0	29	左に曲がる	Turn left	
+choice:434	text	@37A3C4	29	引き返す	Turn back	
+choice:436	text	@37A40C	29	あき家へ入る	Go into the empty house	
+choice:437	text	@37A430	29	工場街へ	To the factories	
+choice:440	text	@37A49C	29	「敵をにがすな」	"Don't let them escape!"	
+choice:441	text	@37A4C0	29	「ちょっと待って」	"Hang on a second."	
+choice:444	text	@37A52C	29	「敵をにがすな」	"Don't let them escape!"	
+choice:445	text	@37A550	29	「ちょっと待って」	"Hang on a second."	
+choice:448	text	@37A5BC	29	「ギリガンを助けよう」	"Let's save Gilligan."	
+choice:449	text	@37A5E0	29	「ちょっと待って」	"Hang on a second."	
+choice:452	text	@37A64C	29	「ギリガンを助けよう」	"Let's save Gilligan."	
+choice:453	text	@37A670	29	「ちょっと待って」	"Hang on a second."	
+choice:456	text	@37A6DC	29	「探しに出よう」	"Let's go look."	
+choice:457	text	@37A700	29	「ちょっと待って」	"Hang on a second."	
+choice:460	text	@37A76C	29	「探しに出よう」	"Let's go look."	
+choice:461	text	@37A790	29	「ちょっと待って」	"Hang on a second."	
+choice:464	text	@37A7FC	29	行こう	Let's go	
+choice:465	text	@37A820	29	ちょっと待って	Hang on a second	
+choice:468	text	@37A88C	29	「ぼくのこと」	"About me."	
+choice:469	text	@37A8B0	29	「ギリガンのこと」	"About Gilligan."	
+choice:470	text	@37A8D4	29	「ブランクのこと」	"About Blank."	
+choice:472	text	@37A91C	29	「トモミ」	"Tomomi."	
+choice:473	text	@37A940	29	「ポリジェンヌ」	"Polijenne."	
+choice:474	text	@37A964	29	「ハンナ市長」	"Mayor Hanna."	
+choice:476	text	@37A9AC	29	「トモミ」	"Tomomi."	
+choice:477	text	@37A9D0	29	「ポリジェンヌ」	"Polijenne."	
+choice:478	text	@37A9F4	29	「ハンナ市長」	"Mayor Hanna."	
+choice:480	text	@37AA3C	29	「トモミ」	"Tomomi."	
+choice:481	text	@37AA60	29	「ポリジェンヌ」	"Polijenne."	
+choice:482	text	@37AA84	29	「ハンナ市長」	"Mayor Hanna."	
+choice:484	text	@37AACC	29	「ギリガンのことだ」	"It's about Gilligan."	
+choice:485	text	@37AAF0	29	「ブランクのことだ」	"It's about Blank."	
+choice:488	text	@37AB5C	29	「トモミ」	"Tomomi."	
+choice:489	text	@37AB80	29	「ポリジェンヌ」	"Polijenne."	
+choice:492	text	@37ABEC	29	「ぼくのことだ」	"It's about me."	
+choice:493	text	@37AC10	29	「ブランクのことだ」	"It's about Blank."	
+choice:496	text	@37AC7C	29	「トモミ」	"Tomomi."	
+choice:497	text	@37ACA0	29	「ポリジェンヌ」	"Polijenne."	
+choice:500	text	@37AD0C	29	「山」	"The mountains."	
+choice:501	text	@37AD30	29	「森」	"The forest."	
+choice:502	text	@37AD54	29	「海」	"The sea."	
+choice:504	text	@37AD9C	29	「トモミ」	"Tomomi."	
+choice:505	text	@37ADC0	29	「ポリジェンヌ」	"Polijenne."	
+choice:508	text	@37AE2C	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:509	text	@37AE50	29	「ちょっと待って」	"Hang on a second."	
+choice:512	text	@37AEBC	29	「森」	"The forest."	
+choice:513	text	@37AEE0	29	「海」	"The sea."	
+choice:516	text	@37AF4C	29	「山」	"The mountains."	
+choice:517	text	@37AF70	29	「森」	"The forest."	
+choice:520	text	@37AFDC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:521	text	@37B000	29	「ちょっと待って」	"Hang on a second."	
+choice:524	text	@37B06C	29	「そうだね」	"You're right."	
+choice:525	text	@37B090	29	「ちがうね」	"No, it's not."	
+choice:528	text	@37B0FC	29	「そうだね」	"You're right."	
+choice:529	text	@37B120	29	「ちがうね」	"No, it's not."	
+choice:532	text	@37B18C	29	「そうだね」	"You're right."	
+choice:533	text	@37B1B0	29	「ちがうね」	"No, it's not."	
+choice:536	text	@37B21C	29	「あ、そうか」	"Oh, I see."	
+choice:537	text	@37B240	29	「高いところ・・・」	"Somewhere high..."	
+choice:540	text	@37B2AC	29	「飛行船じゃないよ」	"Not an airship."	
+choice:541	text	@37B2D0	29	「広告つけて・・・」	"With an ad on it..."	
+choice:544	text	@37B33C	29	「船じゃないな」	"Not a ship, then."	
+choice:545	text	@37B360	29	「海は広いし・・・」	"The sea is so big..."	
+choice:548	text	@37B3CC	29	「行こう」	"Let's go."	
+choice:549	text	@37B3F0	29	「ちょっと待って」	"Hang on a second."	
+choice:552	text	@37B45C	29	「行こう」	"Let's go."	
+choice:553	text	@37B480	29	「ちょっと待って」	"Hang on a second."	
+choice:556	text	@37B4EC	29	「おーけー。行こう」	"Okay. Let's go."	
+choice:557	text	@37B510	29	「ちょっと待って」	"Hang on a second."	
+choice:560	text	@37B57C	29	「行こう！」	"Let's go!"	
+choice:561	text	@37B5A0	29	「メンテがまだ」	"Maintenance first."	
+choice:564	text	@37B60C	29	アプリコットシティ	Apricot City	
+choice:565	text	@37B630	29	フランボワーズシティ	Framboise City	
+choice:566	text	@37B654	29	カシスシティ	Cassis City	
+choice:567	text	@37B678	29	マーマーレードシティ	Marmalade City	
+choice:568	text	@37B69C	29	買う	Buy	
+choice:569	text	@37B6C0	29	買わない	Don't buy	
+choice:572	text	@37B72C	29	買う	Buy	
+choice:573	text	@37B750	29	買わない	Don't buy	
+choice:576	text	@37B7BC	29	「そうだね、行こう」	"Right, let's go."	
+choice:577	text	@37B7E0	29	「もっと考えよう」	"Let's think more."	
+choice:580	text	@37B84C	29	「外だ、行こう」	"Outside. Let's go."	
+choice:581	text	@37B870	29	「やっぱりシティの中だ」	"It's inside the City."	
+choice:584	text	@37B8DC	29	「シティの中じゃない」	"It's not in the City."	
+choice:585	text	@37B900	29	「中にいるはず」	"It must be inside."	
+choice:588	text	@37B96C	29	買う	Buy	
+choice:589	text	@37B990	29	買わない	Don't buy	
+choice:592	text	@37B9FC	29	「うん、外か他だ」	"Yeah, outside or away."	
+choice:593	text	@37BA20	29	「いや、この町だ」	"No, it's this town."	
+choice:596	text	@37BA8C	29	「シティの外だね」	"Outside the City."	
+choice:597	text	@37BAB0	29	「いや中だ」	"No, inside."	
+choice:600	text	@37BB1C	29	「よし行け！」	"Okay, go!"	
+choice:601	text	@37BB40	29	「ちょっと待って」	"Hang on a second."	
+choice:604	text	@37BBAC	29	「よし行け！」	"Okay, go!"	
+choice:605	text	@37BBD0	29	「ちょっと待って」	"Hang on a second."	
+choice:608	text	@37BC3C	29	「買う」	"I'll buy it."	
+choice:609	text	@37BC60	29	「いらない」	"No, thanks."	
+choice:612	text	@37BCCC	29	「武器とかあったらくれ」	"Give me any weapons."	
+choice:613	text	@37BCF0	29	「じょうほうがほしい」	"I want information."	
+choice:614	text	@37BD14	29	「なんでもない」	"Nothing."	
+choice:616	text	@37BD5C	29	「買う」	"I'll buy it."	
+choice:617	text	@37BD80	29	「いらない」	"No, thanks."	
+choice:620	text	@37BDEC	29	「買う」	"I'll buy it."	
+choice:621	text	@37BE10	29	「いらない」	"No, thanks."	
+choice:624	text	@37BE7C	29	「買った！」	"I'll buy it!"	
+choice:625	text	@37BEA0	29	「高いよ；；」	"That's pricey..."	
+choice:628	text	@37BF0C	29	「少し部屋をしらべて」	"Search the room a bit."	
+choice:629	text	@37BF30	29	「うらから出よう」	"Out the back way."	
+choice:632	text	@37BF9C	29	「うらから出よう」	"Out the back way."	
+choice:636	text	@37C02C	29	「行こう」	"Let's go."	
+choice:637	text	@37C050	29	「様子を見よう」	"Let's watch for now."	
+choice:640	text	@37C0BC	29	「行こう」	"Let's go."	
+choice:641	text	@37C0E0	29	「もう少し様子を」	"Watch a bit longer."	
+choice:644	text	@37C14C	29	あやまる	Apologize	
+choice:645	text	@37C170	29	笑ってごまかす	Laugh it off	
+choice:646	text	@37C194	29	胸をはる	Puff out your chest	
+choice:648	text	@37C1DC	29	対空バレットパック	Anti-Air Bullet Pack	
+choice:649	text	@37C200	29	対地バレットパック	Anti-Ground Bullet Pack	
+choice:650	text	@37C224	29	いらない	No, thanks	
+choice:652	text	@37C26C	29	アプリコット	Apricot	
+choice:653	text	@37C290	29	フランボワーズ	Framboise	
+choice:654	text	@37C2B4	29	カシス	Cassis	
+choice:655	text	@37C2D8	29	後半	Next page	
+choice:656	text	@37C2FC	29	こけもも	Lingonberry	
+choice:657	text	@37C320	29	マーマレード	Marmalade	
+choice:658	text	@37C344	29	ブラックベリィ	Blackberry	
+choice:659	text	@37C368	29	前半	Previous page	
+choice:660	text	@37C38C	29	「買います」	"I'll buy it."	
+choice:661	text	@37C3B0	29	「いりません」	"No, thank you."	
+choice:664	text	@37C41C	29	買う♪	Buy it!	
+choice:665	text	@37C440	29	高い；	Too pricey...	
+choice:668	text	@37C4AC	29	買う買う♪	Buy it, buy it!	
+choice:669	text	@37C4D0	29	高い高い；	Way, way too pricey...	
+choice:672	text	@37C53C	29	「買った！」	"I'll buy it!"	
+choice:673	text	@37C560	29	「いらない」	"No, thanks."	
+choice:676	text	@37C5CC	29	「買う」	"I'll buy it."	
+choice:677	text	@37C5F0	29	「いらない」	"No, thanks."	
+choice:680	text	@37C65C	29	シューティングのそうさ	Shooting controls	
+choice:681	text	@37C680	29	アドベンチャーのそうさ	Adventure controls	
+choice:682	text	@37C6A4	29	タイホのしかた	How to arrest	
+choice:683	text	@37C6C8	29	とくにありません	Nothing in particular	
+choice:684	text	@37C6EC	29	シューティングのコツ	Shooting tips	
+choice:685	text	@37C710	29	手に入れたパーツ	Parts you've obtained	
+choice:686	text	@37C734	29	点数をかせぐと？	What do points do?	
+choice:687	text	@37C758	29	とくにありません	Nothing in particular	
+choice:688	text	@37C77C	29	エンディング・以降	Ending and after	
+choice:689	text	@37C7A0	29	ゲームスタート	Start the game	
+choice:692	text	@37C80C	29	シューティングのコツ	Shooting tips	
+choice:693	text	@37C830	29	パーツを手に入れたら	When you get a part	
+choice:694	text	@37C854	29	点数をかせぐと？	What do points do?	
+choice:695	text	@37C878	29	とくにありません	Nothing in particular	

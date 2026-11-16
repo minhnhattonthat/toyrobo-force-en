@@ -93,7 +93,7 @@ dlg:0872	text	rec:1673	149	{face:00605}{spk:01}スミタ署長「戦いに行く
 dlg:0873	text	rec:1675	149	{face:00502}{spk:01}アドルフ市長「ぐずぐずしてくれたものだ。{br}　急ぎたまえよ」{wait}		
 dlg:0874	text	rec:1681	149	{face:10001}{face:20112}{spk:03}トモミ「・・・」{wait}		
 dlg:0875	text	rec:1682	149	{face:10010}{spk:02}ユウキ「ブランク！　じゅんびはいいね。{br}　出撃！」{wait}		
-dlg:0876	text	rec:1683	149	通信「コンファー！」{wait}		
+dlg:0876	text	rec:1683	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:0877	text	rec:1684	149	{face:20111}{spk:03}トモミ「ブランクっ、{br}　よい子はそんな命令を聞かない！」{wait}		
 dlg:0878	text	rec:1685	149	通信「え、え？」{wait}		
 dlg:0879	text	rec:1686	149	{spk:03}トモミ「話し合いもしないで戦う警官に、　よい子はしたがわないっ」{wait}		
@@ -155,7 +155,7 @@ dlg:0934	text	rec:1786	149	{spk:01}将軍「なにをあつくなっている。
 dlg:0935	text	rec:1787	149	{spk:03}署長「大切な部下を死なせたとあってはクビです、たいしょく金がへってしまう。{br}　そんなのおことわりだ！」{wait}		
 dlg:0936	text	rec:1788	149	{face:01703}{spk:01}将軍「ふん・・・」{wait}		
 dlg:0937	text	rec:1791	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　はっぽうをきょかするっ、{br}{face:10011}{spk:14}　カシス軍のぼうそうにたいこうしろ！」{wait}		
-dlg:0938	text	rec:1792	149	通信「コンファー！」{wait}		
+dlg:0938	text	rec:1792	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:0939	text	rec:1795	149	{face:10006}{spk:02}ユウキ「くそっ、将軍、なんてまねを！」{wait}		
 dlg:0940	text	rec:1796	149	{face:01802}{spk:01}反対派「まだまだせめてきますよ。{br}　これで終わりなわけがない」{wait}		
 dlg:0941	text	rec:1799	149	{face:01702}{face:20602}{spk:03}スミタ署長「どうしても軍を引かない気ですか。{br}　こっちにも考えがありますよ」{wait}		

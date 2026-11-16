@@ -156,13 +156,13 @@ dlg:1516	text	rec:2951	149	{face:20115}{spk:03}トモミ「いま行ったら思
 dlg:1517	text	rec:2953	149	{face:01202}{spk:01}ワークテカ「よそ者さんのおかげで、{br}　もうかっちゃうなあ♪」{wait}		
 dlg:1518	text	rec:2956	149	{face:10009}{spk:02}ユウキ「管制じゅんびいいかい。{br}　ステルスシールドをうばいに行こう！」{wait}		
 dlg:1519	text	rec:2961	149	{face:20101}{face:10010}{spk:02}ユウキ「湖のほとり、『こけももちょうほうぶ』の研究所がある。{br}{face:10011}{spk:14}　行け、ブランク！」		
-dlg:1520	text	rec:2962	149	通信「コンファー！」{wait}		
+dlg:1520	text	rec:2962	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:1521	text	rec:2965	149	{face:20104}{spk:03}トモミ「さすがにむずかしいわね」{wait}		
 dlg:1522	text	rec:2969	149	{face:20115}{spk:03}トモミ「いま行ったら思いきりやばい・・・って思わない？」{wait}		
 dlg:1523	text	rec:2971	149	{face:01202}{spk:01}ワークテカ「しーっ、見つからないように、しずかに！{br}　あなたたち、指名手配されてますよ！」{wait}		
 dlg:1524	text	rec:2975	149	{face:10009}{spk:02}ユウキ「管制じゅんびいいかい。{br}　ステルスシールドをうばいに行こう！」{wait}		
 dlg:1525	text	rec:2980	149	{face:20101}{face:10010}{spk:02}ユウキ「敵はけいかいしている、{br}　じゅうぶん気をつけて！{br}{face:10011}{spk:14}　いけ、ブランク！」		
-dlg:1526	text	rec:2981	149	通信「コンファー！」{wait}		
+dlg:1526	text	rec:2981	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
 dlg:1527	text	rec:2985	149	　ダムのほとりの研究所{wait}		
 dlg:1528	text	rec:2986	149	{face:10001}{face:20101}{face:00303}{spk:01}ブランク「だれも―――いませんね」{wait}		
 dlg:1529	text	rec:2987	149	{face:10006}{spk:02}ユウキ「くそ。博士もにげたあとか」{wait}		
