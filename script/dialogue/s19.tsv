@@ -249,24 +249,24 @@ dlg:2213	text	rec:4278	149	{face:00001}{face:10101}{face:30901}{face:20203}{spk:
 dlg:2214	text	rec:4279	149	{face:20201}{face:30902}{spk:04}エミコ「はい」{wait}	{face:20201}{face:30902}{spk:04}Emiko: "Yes."{wait}	
 dlg:2215	text	rec:4280	149	{face:30901}{face:10115}{spk:02}トモミ「ちょっと、つれて行く気？」{wait}	{face:30901}{face:10115}{spk:02}Tomomi: "Hey, you're taking her along?"{wait}	
 dlg:2216	text	rec:4281	149	{face:10101}{face:20202}{spk:03}ギリガン「目をはなしてたまるか。{br}　エミコはおれが守る！」{wait}	{face:10101}{face:20202}{spk:03}Gilligan: "Like I'd let her out of my sight. I'll protect Emiko!"{wait}	
-dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}		
-dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}		
-dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}		
-dlg:2220	text	rec:4288	149	　かくし研究室{wait}		
-dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}		
-dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}		
-dlg:2223	text	rec:4291	149	{spk:01}博士「強がっておるな。しっともしとる。{br}　エミコさんは本気であのギリガンという警官を」{wait}		
-dlg:2224	text	rec:4292	149	{spk:02}リヒター「しばいだよ！{br}　ずっとやつらといるためのしばいさ、{br}　エミコさんはぼくの恋人だからね！」{wait}		
-dlg:2225	text	rec:4293	149	{spk:01}博士「やれやれ・・・」{wait}		
-dlg:2226	text	rec:4300	149	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}ドメステカ「こんな田舎によくいらっしゃいました」{wait}		
-dlg:2227	text	rec:4301	149	{face:10012}{spk:02}ユウキ「村の人は？{br}　村長がいるなら、話をしたいんだけど」{wait}		
-dlg:2228	text	rec:4302	149	{spk:01}ドメステカ「みんな、にげちゃいました。{br}　火山の洞窟に、こわい飛行機が出入りしているからって」{wait}		
-dlg:2229	text	rec:4303	149	{face:30905}{spk:04}エミコ「それは・・・{br}　炎の色の爆撃機ね？{br}　プロメテウスだわ・・・」{wait}		
-dlg:2230	text	rec:4304	149	{spk:01}ドメステカ「おじいさんと、機械の顔の子が乗ってましたよ」{wait}		
-dlg:2231	text	rec:4305	149	{face:10002}{spk:02}ユウキ「一番最近見たのは、いつかな？」{wait}		
-dlg:2232	text	rec:4306	149	{spk:01}ドメステカ「昨日の昼１２時３８分ですね。　洞窟の中に入っていったから、まだ中にいるんでしょう」{wait}		
-dlg:2233	text	rec:4307	149	{face:20204}{spk:03}ギリガン「よし、にがさねえぞ、行こう！」{wait}		
-dlg:2234	text	rec:4308	149	{face:10000}{face:20200}{face:30900}{spk:01}ドメステカ「・・・		
-dlg:2235	text	rec:4309	149	　行っちゃいました、博士」{wait}		
-dlg:2236	text	rec:4310	149	{face:30703}{spk:04}ゲオルグ博士「よしよし、よくやった。{br}　ウソが上手になったな。{wait}		
-dlg:2237	text	rec:4311	149	{spk:04}　約束どおり、『お料理上手Ｍｋ．Ⅲ』を{br}インストールしてやるからな・・・{br}　くっくっく！」{wait}		
+dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}	{face:20201}{face:10107}{spk:02}Tomomi: "Wow... Hearing that would knock me flat."{wait}	
+dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}	{face:00004}{spk:01}Yuki: "You'd like to hear it too, Tomomi?"{wait}	
+dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I said it would knock me flat!"{wait}	
+dlg:2220	text	rec:4288	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
+dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}	{face:10801}{face:00702}{spk:01}Doctor: "Richter. Aren't you lonely without Emiko-san by your side?"{wait}	
+dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}	{face:10803}{spk:02}Richter: "...Not really. This way Emiko-san and I are one in spirit. I'm fine..."{wait}	
+dlg:2223	text	rec:4291	149	{spk:01}博士「強がっておるな。しっともしとる。{br}　エミコさんは本気であのギリガンという警官を」{wait}	{spk:01}Doctor: "Putting on a brave face. Jealous, too. Emiko-san truly cares for that Gilligan officer."{wait}	
+dlg:2224	text	rec:4292	149	{spk:02}リヒター「しばいだよ！{br}　ずっとやつらといるためのしばいさ、{br}　エミコさんはぼくの恋人だからね！」{wait}	{spk:02}Richter: "It's an act! An act so she can stay with them! Emiko-san is MY sweetheart!"{wait}	
+dlg:2225	text	rec:4293	149	{spk:01}博士「やれやれ・・・」{wait}	{spk:01}Doctor: "Oh, dear..."{wait}	
+dlg:2226	text	rec:4300	149	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}ドメステカ「こんな田舎によくいらっしゃいました」{wait}	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}Domesteka: "Welcome to our little country village."{wait}	
+dlg:2227	text	rec:4301	149	{face:10012}{spk:02}ユウキ「村の人は？{br}　村長がいるなら、話をしたいんだけど」{wait}	{face:10012}{spk:02}Yuki: "Where is everyone? If there's a village chief, I'd like a word."{wait}	
+dlg:2228	text	rec:4302	149	{spk:01}ドメステカ「みんな、にげちゃいました。{br}　火山の洞窟に、こわい飛行機が出入りしているからって」{wait}	{spk:01}Domesteka: "They all ran off. Scary planes keep flying in and out of the volcano's cave."{wait}	
+dlg:2229	text	rec:4303	149	{face:30905}{spk:04}エミコ「それは・・・{br}　炎の色の爆撃機ね？{br}　プロメテウスだわ・・・」{wait}	{face:30905}{spk:04}Emiko: "That would be... a flame-colored bomber? It's Prometheus..."{wait}	
+dlg:2230	text	rec:4304	149	{spk:01}ドメステカ「おじいさんと、機械の顔の子が乗ってましたよ」{wait}	{spk:01}Domesteka: "An old man and a boy with a machine face were on board."{wait}	
+dlg:2231	text	rec:4305	149	{face:10002}{spk:02}ユウキ「一番最近見たのは、いつかな？」{wait}	{face:10002}{spk:02}Yuki: "When did you last see it?"{wait}	
+dlg:2232	text	rec:4306	149	{spk:01}ドメステカ「昨日の昼１２時３８分ですね。　洞窟の中に入っていったから、まだ中にいるんでしょう」{wait}	{spk:01}Domesteka: "Yesterday at 12:38 PM. It went into the cave, so it must still be inside."{wait}	
+dlg:2233	text	rec:4307	149	{face:20204}{spk:03}ギリガン「よし、にがさねえぞ、行こう！」{wait}	{face:20204}{spk:03}Gilligan: "Right, they ain't gettin' away. Let's go!"{wait}	
+dlg:2234	text	rec:4308	149	{face:10000}{face:20200}{face:30900}{spk:01}ドメステカ「・・・	{face:10000}{face:20200}{face:30900}{spk:01}Domesteka: "...	
+dlg:2235	text	rec:4309	149	　行っちゃいました、博士」{wait}	They're gone, Doctor."{wait}	
+dlg:2236	text	rec:4310	149	{face:30703}{spk:04}ゲオルグ博士「よしよし、よくやった。{br}　ウソが上手になったな。{wait}	{face:30703}{spk:04}Dr. Georg: "Good, good, well done. You've become quite the liar.{wait}	
+dlg:2237	text	rec:4311	149	{spk:04}　約束どおり、『お料理上手Ｍｋ．Ⅲ』を{br}インストールしてやるからな・・・{br}　くっくっく！」{wait}	{spk:04}As promised, I'll install 'Master Chef Mk. III' for you... Heh heh heh!"{wait}	

@@ -1,88 +1,88 @@
 id	kind	where	max	jp	en	notes
-dlg:2310	text	rec:4467	149	　かくし研究室{wait}		
-dlg:2311	text	rec:4468	149	{face:10701}{face:20803}{spk:03}リヒター「にげた・・・{br}　にがしちゃったよ！」{wait}		
-dlg:2312	text	rec:4469	149	{face:10702}{face:20801}{spk:02}ゲオルグ博士「まいった・・・{br}　あそこまで強いチームに仕立てておったとは」{wait}		
-dlg:2313	text	rec:4470	149	{face:10701}{face:20803}{spk:03}リヒター「これじゃ、エミコさんのえがおをガマンしてまで仕組んだ意味が、ないじゃないか！」{wait}		
-dlg:2314	text	rec:4471	149	{face:10702}{face:20801}{spk:02}博士「そうじゃなあ。{br}　エミコさんにも悪いことをしたし。{br}　ここらがしおどきかな」{wait}		
-dlg:2315	text	rec:4472	149	{face:10701}{face:20803}{spk:03}リヒター「？！　あきらめる気？」{wait}		
-dlg:2316	text	rec:4473	149	{face:10702}{face:20801}{spk:02}博士「わしは、人間にテカを見なおさせたかっただけじゃ。{wait}		
-dlg:2317	text	rec:4474	149	{spk:02}　あの子らを見ろ。{br}　テカといっしょに、りっぱに戦いおる。{wait}		
-dlg:2318	text	rec:4475	149	{spk:02}　これで反乱をおえればやつらは英雄だが、　手がらを人間たちで一人じめにはせんよ。{wait}		
-dlg:2319	text	rec:4476	149	{face:10703}{spk:02}　きっと、世界じゅうに、テカといっしょに戦って、テカといっしょに勝ったんだと、{br}言ってくれるじゃろう。		
-dlg:2320	text	rec:4477	149	{face:10706}　わしのもくてきは、はたされる・・・」{wait}		
-dlg:2321	text	rec:4478	149	{face:20803}{spk:03}リヒター「だめだよっ、だめだ！{br}　あいつらに勝つまでぼくはやめないよ！」{wait}		
-dlg:2322	text	rec:4479	149	{face:10705}{spk:02}博士「もうおやめ。{br}　勝つためにやっていたんじゃない。{wait}		
-dlg:2323	text	rec:4480	149	{spk:02}　こうふくして、いっしょにエミコさんに会いに行こう。{br}　な」{wait}		
-dlg:2324	text	rec:4481	149	{face:20802}{spk:03}リヒター「例の船を使うよ、{br}　あいつらみんなやっつけてやる！」{wait}		
-dlg:2325	text	rec:4482	149	{face:10704}{spk:02}博士「わしの言うことが聞けんか、{br}　リヒター？！」{wait}		
-dlg:2326	text	rec:4483	149	{spk:03}リヒター「ああ、あいつ、ギリガンだけは、　ぜったいやっつけてやるんだ！」{wait}		
-dlg:2327	text	rec:4484	149	{spk:02}博士「それはただのしっとじゃ、{br}　恋がたきをにくむより、{br}　エミコさんに好かれるどりょくをせい！」{wait}		
-dlg:2328	text	rec:4485	149	{face:20803}{spk:03}リヒター「博士、１分だけ時間をあげる。		
-dlg:2329	text	rec:4486	149	　ぼくの前から消えるか、{br}　だまってぼくといっしょにやるか、{br}　決めるんだよ・・・！」{wait}		
-dlg:2330	text	rec:4487	149	{spk:02}博士「―――もう、お前とはいっしょにやれん。		
-dlg:2331	text	rec:4488	149	　消えさせてもらおう・・・！」{wait}		
-dlg:2332	text	rec:4489	149	{face:10701}{face:10700}{spk:03}リヒター「・・・」{wait}		
-dlg:2333	text	rec:4496	149	{face:00906}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「博士はあなたに、{br}　わざといやな話をして、{br}　にげたくなるようにしむけたんです。{wait}		
-dlg:2334	text	rec:4497	149	{spk:02}　それに―――{br}　博士にどこか、かいぞうされたでしょう。{br}　たとえば、目。{br}　アイカメラを取りかえてませんか」{wait}		
-dlg:2335	text	rec:4498	149	{face:00905}{spk:01}エミコ「ええ―――{br}　新しくていいのがあるからと―――」{wait}		
-dlg:2336	text	rec:4499	149	{face:10003}{spk:14}ユウキ「もう少し人をうたがった方がいいな・・・{br}　発信機つきと取りかえられたんですよ」{wait}		
-dlg:2337	text	rec:4502	149	{spk:03}トモミ「発信・・・{br}　エミコさんの見てるのが、全部博士に送られてるの？{wait}		
-dlg:2338	text	rec:4504	149	{face:20106}{spk:03}　うわー・・・エミコさんと二人のときに、あたし、着がえとかしてたよ―――」{wait}		
-dlg:2339	text	rec:4508	149	　かくし研究室{wait}		
-dlg:2340	text	rec:4509	149	{face:10802}{spk:02}リヒター「そんなのきょうみない。{br}　エミコさんと同じけしきを見てるだけで、まんぞくだったさ―――」{wait}		
-dlg:2341	text	rec:4510	149	エミコの声「わたしの・・・目が・・・？」{wait}		
-dlg:2342	text	rec:4511	149	ユウキの声「こっちの行動はつつぬけだ。{br}　いまも見られているにちがいない」{wait}		
-dlg:2343	text	rec:4512	149	トモミの声「アプリコットの工場にもどりましょう、{br}　エミコさんの目をもとにもどすのよ！」{wait}		
-dlg:2344	text	rec:4513	149	エミコの声「わたしのせいで・・・」{wait}		
-dlg:2345	text	rec:4514	149	ギリガンの声「気にするな、エミコ。{br}　ひがいしゃは、ずんどうがばれたトモミだけだ」{wait}		
-dlg:2346	text	rec:4515	149	トモミの声「だれがずんどうよっ」{wait}		
-dlg:2347	text	rec:4516	149	{face:10803}{spk:02}リヒター「ギリガン・・・エミコさんにやさしくするなっ・・・{wait}		
-dlg:2348	text	rec:4517	149	{spk:02}　『アルゴー』！　はいちについたかい？！　攻撃開始だ！」{wait}		
-dlg:2349	text	rec:4520	149	　ブラックベリィ沖合い{wait}		
-dlg:2350	text	rec:4522	149	{face:00302}{spk:01}ブランク「ブランクです、海上１００メートルにいますが―――{br}　沖になにか、大きい船が・・・」{wait}		
-dlg:2351	text	rec:4525	149	{face:00901}{face:20101}{face:30201}{face:10009}{spk:02}ユウキ「分かっている。空母だ」{wait}		
-dlg:2352	text	rec:4526	149	{face:30206}{spk:04}ギリガン「空母だあ？{br}　何でそんなのがいると分かった」{wait}		
-dlg:2353	text	rec:4527	149	{spk:02}ユウキ「爆撃機が火山の奥になかったからには、どこに隠していると言うのさ。{wait}		
-dlg:2354	text	rec:4528	149	{spk:02}　そこらに隠しておけるものじゃない、{br}隠すなら大海原だ。{br}　となれば、{wait}		
-dlg:2355	text	rec:4529	149	{spk:02}　空母に乗せている以外、{br}考えられないじゃないか！」{wait}		
-dlg:2356	text	rec:4530	149	{face:10009}{face:00905}{spk:01}エミコ「全部こわして・・・{br}　リヒター君は、兵隊を動かすのが、{br}　楽しくてしかたがないんです」{wait}		
-dlg:2357	text	rec:4531	149	{face:30204}{spk:04}ギリガン「兵隊がリヒターのおもちゃか。{br}　ブランクはトイロボだぜ、ユウキのおもちゃさ。{wait}		
-dlg:2358	text	rec:4532	149	{face:30207}{spk:04}　やい、リヒター、見てるか！{br}　どっちのおもちゃが強いか、{br}　決着つけようぜ！」{wait}		
-dlg:2359	text	rec:4533	149	リヒター「いいとも、命をかけようよ、　　　ギリガン・・・{br}　僕が勝ったら、カクゴしろよ―――！」{wait}		
-dlg:2360	text	rec:4534	149	{face:00000}{face:10000}{face:20803}{face:30000}{spk:03}リヒター「行け、空母『アルゴー！』{br}　ギリガンをたおせ！」{wait}		
-dlg:2361	text	rec:4537	149	{face:10011}{spk:14}ユウキ「メンテを急げっ、空母をうばうまでやる！」{wait}		
-dlg:2362	text	rec:4541	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「やい、リヒター、見たな？！{br}　てめえのおもちゃ、全部ぶっこわしてやったぜ！」{wait}		
-dlg:2363	text	rec:4542	149	通信「ブランクです、空母はうばったけど、{br}・・・爆撃機なんてありませんが」{wait}		
-dlg:2364	text	rec:4543	149	{face:20104}{spk:03}トモミ「そんなはずは・・・{br}{face:20110}　まさか、もう飛び立って？」{wait}		
-dlg:2365	text	rec:4544	149	{face:30204}{spk:04}ギリガン「だったら、探し出してげきついしようぜ。{br}　リヒターのおもちゃは全部ぶっこわす」{wait}		
-dlg:2366	text	rec:4545	149	{face:10002}{spk:02}ユウキ「ぼくたちは警官だ。{br}　こわすことより、リヒターをつかまえることを考えよう―――」{wait}		
-dlg:2367	text	rec:4546	149	{face:30207}{spk:04}ギリガン「リヒター、見てるな？{br}　とっつかまえてやるから、カクゴしな！」{wait}		
-dlg:2368	text	rec:4547	149	{face:10002}{face:20104}{face:30207}リヒター「ふん、そこじゃエミコさんのカメラは外せないだろ。{face:30206}{wait}		
-dlg:2369	text	rec:4548	149	{face:20115}　アプリコットにもどるまでい場所はつつぬけだ。{br}{face:10012}　何回でもおそってやるぞ・・・」{wait}		
-dlg:2370	text	rec:4551	149	{face:10000}{face:20000}{face:30000}リヒター「なんだ、いまの銃声・・・？{br}　エミコさんのモニター、{br}見えなくなった・・・どうしたんだ？」{wait}		
-dlg:2371	text	rec:4552	149	声「ばかっ、エミコ、なんてまねを！」{wait}		
-dlg:2372	text	rec:4553	149	声「なによ、いまのじゅうせい？！」{wait}		
-dlg:2373	text	rec:4554	149	声「エミコが自分の目、うちぬいた！」{wait}		
-dlg:2374	text	rec:4555	149	{face:10802}{spk:02}リヒター「！」{wait}		
-dlg:2375	text	rec:4556	149	声「これ以上、スパイでいられなかったんだね―――」{wait}		
-dlg:2376	text	rec:4557	149	声「ユウキ、落ち着いてるなっ、{br}　電子頭脳に弾丸がいってたらどうするっ」{wait}		
-dlg:2377	text	rec:4558	149	声「アプリコットまでもどってられないわ！{br}　マーマレードでメンテしましょう！」{wait}		
-dlg:2378	text	rec:4559	149	{spk:02}リヒター「エミコさん・・・！{br}　マーマレードか・・・{br}　取り返さなくちゃ・・・！」{wait}		
+dlg:2310	text	rec:4467	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
+dlg:2311	text	rec:4468	149	{face:10701}{face:20803}{spk:03}リヒター「にげた・・・{br}　にがしちゃったよ！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "They got away... We let them get away!"{wait}	
+dlg:2312	text	rec:4469	149	{face:10702}{face:20801}{spk:02}ゲオルグ博士「まいった・・・{br}　あそこまで強いチームに仕立てておったとは」{wait}	{face:10702}{face:20801}{spk:02}Dr. Georg: "I'm beaten... I never knew they'd built such a strong team."{wait}	
+dlg:2313	text	rec:4470	149	{face:10701}{face:20803}{spk:03}リヒター「これじゃ、エミコさんのえがおをガマンしてまで仕組んだ意味が、ないじゃないか！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "Then what was the point? I even gave up Emiko-san's smile for this!"{wait}	
+dlg:2314	text	rec:4471	149	{face:10702}{face:20801}{spk:02}博士「そうじゃなあ。{br}　エミコさんにも悪いことをしたし。{br}　ここらがしおどきかな」{wait}	{face:10702}{face:20801}{spk:02}Doctor: "Indeed. And I've wronged Emiko-san too. Perhaps it's time to call it quits."{wait}	
+dlg:2315	text	rec:4472	149	{face:10701}{face:20803}{spk:03}リヒター「？！　あきらめる気？」{wait}	{face:10701}{face:20803}{spk:03}Richter: "?! You're giving up?"{wait}	
+dlg:2316	text	rec:4473	149	{face:10702}{face:20801}{spk:02}博士「わしは、人間にテカを見なおさせたかっただけじゃ。{wait}	{face:10702}{face:20801}{spk:02}Doctor: "All I wanted was for humans to see Teka in a new light.{wait}	
+dlg:2317	text	rec:4474	149	{spk:02}　あの子らを見ろ。{br}　テカといっしょに、りっぱに戦いおる。{wait}	{spk:02}Look at those youngsters. They fight bravely side by side with Teka.{wait}	
+dlg:2318	text	rec:4475	149	{spk:02}　これで反乱をおえればやつらは英雄だが、　手がらを人間たちで一人じめにはせんよ。{wait}	{spk:02}If they end the revolt now, they're heroes, but they won't keep the glory for humans alone.{wait}	
+dlg:2319	text	rec:4476	149	{face:10703}{spk:02}　きっと、世界じゅうに、テカといっしょに戦って、テカといっしょに勝ったんだと、{br}言ってくれるじゃろう。	{face:10703}{spk:02}Surely they'll tell the whole world: we fought together with Teka, and won together with Teka.	
+dlg:2320	text	rec:4477	149	{face:10706}　わしのもくてきは、はたされる・・・」{wait}	{face:10706}My goal will be achieved..."{wait}	
+dlg:2321	text	rec:4478	149	{face:20803}{spk:03}リヒター「だめだよっ、だめだ！{br}　あいつらに勝つまでぼくはやめないよ！」{wait}	{face:20803}{spk:03}Richter: "No! No way! I won't stop until I beat them!"{wait}	
+dlg:2322	text	rec:4479	149	{face:10705}{spk:02}博士「もうおやめ。{br}　勝つためにやっていたんじゃない。{wait}	{face:10705}{spk:02}Doctor: "Stop this now. We were never doing this to win.{wait}	
+dlg:2323	text	rec:4480	149	{spk:02}　こうふくして、いっしょにエミコさんに会いに行こう。{br}　な」{wait}	{spk:02}Let's surrender, and go and see Emiko-san together. All right?"{wait}	
+dlg:2324	text	rec:4481	149	{face:20802}{spk:03}リヒター「例の船を使うよ、{br}　あいつらみんなやっつけてやる！」{wait}	{face:20802}{spk:03}Richter: "I'm using that ship. I'll wipe them all out!"{wait}	
+dlg:2325	text	rec:4482	149	{face:10704}{spk:02}博士「わしの言うことが聞けんか、{br}　リヒター？！」{wait}	{face:10704}{spk:02}Doctor: "Won't you listen to me, Richter?!"{wait}	
+dlg:2326	text	rec:4483	149	{spk:03}リヒター「ああ、あいつ、ギリガンだけは、　ぜったいやっつけてやるんだ！」{wait}	{spk:03}Richter: "Yeah, that guy, Gilligan... I'm going to beat HIM no matter what!"{wait}	
+dlg:2327	text	rec:4484	149	{spk:02}博士「それはただのしっとじゃ、{br}　恋がたきをにくむより、{br}　エミコさんに好かれるどりょくをせい！」{wait}	{spk:02}Doctor: "That's just jealousy! Rather than hate your rival in love, try to make Emiko-san like you!"{wait}	
+dlg:2328	text	rec:4485	149	{face:20803}{spk:03}リヒター「博士、１分だけ時間をあげる。	{face:20803}{spk:03}Richter: "Doctor, I'll give you one minute.	
+dlg:2329	text	rec:4486	149	　ぼくの前から消えるか、{br}　だまってぼくといっしょにやるか、{br}　決めるんだよ・・・！」{wait}	Vanish from my sight, or keep quiet and work with me. Choose...!"{wait}	
+dlg:2330	text	rec:4487	149	{spk:02}博士「―――もう、お前とはいっしょにやれん。	{spk:02}Doctor: "--I can't work with you any longer.	
+dlg:2331	text	rec:4488	149	　消えさせてもらおう・・・！」{wait}	I'll take my leave...!"{wait}	
+dlg:2332	text	rec:4489	149	{face:10701}{face:10700}{spk:03}リヒター「・・・」{wait}	{face:10701}{face:10700}{spk:03}Richter: "..."{wait}	
+dlg:2333	text	rec:4496	149	{face:00906}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「博士はあなたに、{br}　わざといやな話をして、{br}　にげたくなるようにしむけたんです。{wait}	{face:00906}{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "The Doctor told you nasty things on purpose, so you'd want to run away.{wait}	
+dlg:2334	text	rec:4497	149	{spk:02}　それに―――{br}　博士にどこか、かいぞうされたでしょう。{br}　たとえば、目。{br}　アイカメラを取りかえてませんか」{wait}	{spk:02}And-- the Doctor modified something in you, didn't he? Your eyes, say. Did he swap your eye cameras?"{wait}	
+dlg:2335	text	rec:4498	149	{face:00905}{spk:01}エミコ「ええ―――{br}　新しくていいのがあるからと―――」{wait}	{face:00905}{spk:01}Emiko: "Yes-- He said he had new, better ones--"{wait}	
+dlg:2336	text	rec:4499	149	{face:10003}{spk:14}ユウキ「もう少し人をうたがった方がいいな・・・{br}　発信機つきと取りかえられたんですよ」{wait}	{face:10003}{spk:14}Yuki: "You should be a bit more suspicious of people... He swapped them for ones with a transmitter."{wait}	
+dlg:2337	text	rec:4502	149	{spk:03}トモミ「発信・・・{br}　エミコさんの見てるのが、全部博士に送られてるの？{wait}	{spk:03}Tomomi: "A transmitter... Everything Emiko-san sees gets sent to the Doctor?{wait}	
+dlg:2338	text	rec:4504	149	{face:20106}{spk:03}　うわー・・・エミコさんと二人のときに、あたし、着がえとかしてたよ―――」{wait}	{face:20106}{spk:03}Ugh... I changed clothes and stuff when it was just me and Emiko-san--"{wait}	
+dlg:2339	text	rec:4508	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
+dlg:2340	text	rec:4509	149	{face:10802}{spk:02}リヒター「そんなのきょうみない。{br}　エミコさんと同じけしきを見てるだけで、まんぞくだったさ―――」{wait}	{face:10802}{spk:02}Richter: "Who cares about that. Just seeing the same view as Emiko-san was enough for me--"{wait}	
+dlg:2341	text	rec:4510	149	エミコの声「わたしの・・・目が・・・？」{wait}	Emiko's voice: "My... eyes...?"{wait}	
+dlg:2342	text	rec:4511	149	ユウキの声「こっちの行動はつつぬけだ。{br}　いまも見られているにちがいない」{wait}	Yuki's voice: "They know our every move. They must be watching us even now."{wait}	
+dlg:2343	text	rec:4512	149	トモミの声「アプリコットの工場にもどりましょう、{br}　エミコさんの目をもとにもどすのよ！」{wait}	Tomomi's voice: "Let's go back to the Apricot factory and fix Emiko-san's eyes!"{wait}	
+dlg:2344	text	rec:4513	149	エミコの声「わたしのせいで・・・」{wait}	Emiko's voice: "It's all my fault..."{wait}	
+dlg:2345	text	rec:4514	149	ギリガンの声「気にするな、エミコ。{br}　ひがいしゃは、ずんどうがばれたトモミだけだ」{wait}	Gilligan's voice: "Don't worry, Emiko. The only victim is Tomomi, now we all know she's a barrel."{wait}	
+dlg:2346	text	rec:4515	149	トモミの声「だれがずんどうよっ」{wait}	Tomomi's voice: "Who are you calling a barrel?!"{wait}	
+dlg:2347	text	rec:4516	149	{face:10803}{spk:02}リヒター「ギリガン・・・エミコさんにやさしくするなっ・・・{wait}	{face:10803}{spk:02}Richter: "Gilligan... Don't you be nice to Emiko-san...{wait}	
+dlg:2348	text	rec:4517	149	{spk:02}　『アルゴー』！　はいちについたかい？！　攻撃開始だ！」{wait}	{spk:02}'Argo'! Are you in position?! Commence the attack!"{wait}	
+dlg:2349	text	rec:4520	149	　ブラックベリィ沖合い{wait}	Off the Coast of Blackberry{wait}	
+dlg:2350	text	rec:4522	149	{face:00302}{spk:01}ブランク「ブランクです、海上１００メートルにいますが―――{br}　沖になにか、大きい船が・・・」{wait}	{face:00302}{spk:01}Blank: "This is Blank, at 100 meters above the sea-- There's something out there, a big ship..."{wait}	
+dlg:2351	text	rec:4525	149	{face:00901}{face:20101}{face:30201}{face:10009}{spk:02}ユウキ「分かっている。空母だ」{wait}	{face:00901}{face:20101}{face:30201}{face:10009}{spk:02}Yuki: "I know. It's an aircraft carrier."{wait}	
+dlg:2352	text	rec:4526	149	{face:30206}{spk:04}ギリガン「空母だあ？{br}　何でそんなのがいると分かった」{wait}	{face:30206}{spk:04}Gilligan: "A carrier? How'd ya know that was out there?"{wait}	
+dlg:2353	text	rec:4527	149	{spk:02}ユウキ「爆撃機が火山の奥になかったからには、どこに隠していると言うのさ。{wait}	{spk:02}Yuki: "The bomber wasn't deep in the volcano, so where else would they hide it?{wait}	
+dlg:2354	text	rec:4528	149	{spk:02}　そこらに隠しておけるものじゃない、{br}隠すなら大海原だ。{br}　となれば、{wait}	{spk:02}You can't just hide it anywhere. If you hide it, it's out on the open sea. And so,{wait}	
+dlg:2355	text	rec:4529	149	{spk:02}　空母に乗せている以外、{br}考えられないじゃないか！」{wait}	{spk:02}it has to be on board an aircraft carrier. What else could it be?!"{wait}	
+dlg:2356	text	rec:4530	149	{face:10009}{face:00905}{spk:01}エミコ「全部こわして・・・{br}　リヒター君は、兵隊を動かすのが、{br}　楽しくてしかたがないんです」{wait}	{face:10009}{face:00905}{spk:01}Emiko: "Smash everything... Richter-kun just loves moving soldiers around."{wait}	
+dlg:2357	text	rec:4531	149	{face:30204}{spk:04}ギリガン「兵隊がリヒターのおもちゃか。{br}　ブランクはトイロボだぜ、ユウキのおもちゃさ。{wait}	{face:30204}{spk:04}Gilligan: "So soldiers are Richter's toys. Blank's a Toyrobo, so he's Yuki's toy.{wait}	
+dlg:2358	text	rec:4532	149	{face:30207}{spk:04}　やい、リヒター、見てるか！{br}　どっちのおもちゃが強いか、{br}　決着つけようぜ！」{wait}	{face:30207}{spk:04}Hey, Richter, ya watching?! Let's settle which toy's stronger!"{wait}	
+dlg:2359	text	rec:4533	149	リヒター「いいとも、命をかけようよ、　　　ギリガン・・・{br}　僕が勝ったら、カクゴしろよ―――！」{wait}	Richter: "Fine, let's bet our lives on it, Gilligan... If I win, you'd better be ready--!"{wait}	
+dlg:2360	text	rec:4534	149	{face:00000}{face:10000}{face:20803}{face:30000}{spk:03}リヒター「行け、空母『アルゴー！』{br}　ギリガンをたおせ！」{wait}	{face:00000}{face:10000}{face:20803}{face:30000}{spk:03}Richter: "Go, carrier 'Argo'! Take down Gilligan!"{wait}	
+dlg:2361	text	rec:4537	149	{face:10011}{spk:14}ユウキ「メンテを急げっ、空母をうばうまでやる！」{wait}	{face:10011}{spk:14}Yuki: "Hurry the maintenance! We keep at it until we take that carrier!"{wait}	
+dlg:2362	text	rec:4541	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「やい、リヒター、見たな？！{br}　てめえのおもちゃ、全部ぶっこわしてやったぜ！」{wait}	{face:10001}{face:20101}{face:30204}{spk:04}Gilligan: "Hey, Richter, ya see that?! I smashed every last one of your toys!"{wait}	
+dlg:2363	text	rec:4542	149	通信「ブランクです、空母はうばったけど、{br}・・・爆撃機なんてありませんが」{wait}	Radio: "This is Blank. We took the carrier, but... there's no bomber here."{wait}	
+dlg:2364	text	rec:4543	149	{face:20104}{spk:03}トモミ「そんなはずは・・・{br}{face:20110}　まさか、もう飛び立って？」{wait}	{face:20104}{spk:03}Tomomi: "That can't be... {face:20110}Don't tell me it's already taken off?"{wait}	
+dlg:2365	text	rec:4544	149	{face:30204}{spk:04}ギリガン「だったら、探し出してげきついしようぜ。{br}　リヒターのおもちゃは全部ぶっこわす」{wait}	{face:30204}{spk:04}Gilligan: "Then let's find it and shoot it down. I'm smashing every one of Richter's toys."{wait}	
+dlg:2366	text	rec:4545	149	{face:10002}{spk:02}ユウキ「ぼくたちは警官だ。{br}　こわすことより、リヒターをつかまえることを考えよう―――」{wait}	{face:10002}{spk:02}Yuki: "We're police officers. Let's think about catching Richter, not smashing things--"{wait}	
+dlg:2367	text	rec:4546	149	{face:30207}{spk:04}ギリガン「リヒター、見てるな？{br}　とっつかまえてやるから、カクゴしな！」{wait}	{face:30207}{spk:04}Gilligan: "Richter, ya watching? I'm gonna catch ya, so get ready!"{wait}	
+dlg:2368	text	rec:4547	149	{face:10002}{face:20104}{face:30207}リヒター「ふん、そこじゃエミコさんのカメラは外せないだろ。{face:30206}{wait}	{face:10002}{face:20104}{face:30207}Richter: "Hmph, you can't take out Emiko-san's camera there.{face:30206}{wait}	
+dlg:2369	text	rec:4548	149	{face:20115}　アプリコットにもどるまでい場所はつつぬけだ。{br}{face:10012}　何回でもおそってやるぞ・・・」{wait}	{face:20115}Until you're back in Apricot, I know where you are. {face:10012}I'll attack you again and again..."{wait}	
+dlg:2370	text	rec:4551	149	{face:10000}{face:20000}{face:30000}リヒター「なんだ、いまの銃声・・・？{br}　エミコさんのモニター、{br}見えなくなった・・・どうしたんだ？」{wait}	{face:10000}{face:20000}{face:30000}Richter: "What, a gunshot...? Emiko-san's monitor went dark... What happened?"{wait}	
+dlg:2371	text	rec:4552	149	声「ばかっ、エミコ、なんてまねを！」{wait}	Voice: "You idiot, Emiko, what did you do?!"{wait}	
+dlg:2372	text	rec:4553	149	声「なによ、いまのじゅうせい？！」{wait}	Voice: "What was that gunshot?!"{wait}	
+dlg:2373	text	rec:4554	149	声「エミコが自分の目、うちぬいた！」{wait}	Voice: "Emiko shot out her own eyes!"{wait}	
+dlg:2374	text	rec:4555	149	{face:10802}{spk:02}リヒター「！」{wait}	{face:10802}{spk:02}Richter: "!"{wait}	
+dlg:2375	text	rec:4556	149	声「これ以上、スパイでいられなかったんだね―――」{wait}	Voice: "She couldn't stand being a spy any longer--"{wait}	
+dlg:2376	text	rec:4557	149	声「ユウキ、落ち着いてるなっ、{br}　電子頭脳に弾丸がいってたらどうするっ」{wait}	Voice: "Yuki, how can you be so calm?! What if the bullet hit her electronic brain?!"{wait}	
+dlg:2377	text	rec:4558	149	声「アプリコットまでもどってられないわ！{br}　マーマレードでメンテしましょう！」{wait}	Voice: "We can't wait until Apricot! Let's do her maintenance in Marmalade!"{wait}	
+dlg:2378	text	rec:4559	149	{spk:02}リヒター「エミコさん・・・！{br}　マーマレードか・・・{br}　取り返さなくちゃ・・・！」{wait}	{spk:02}Richter: "Emiko-san...! Marmalade, huh... I have to get her back...!"{wait}	
 dlg:2379	text	rec:4563	149	　シャーウッドの森の教会{wait}	Sherwood Forest Church{wait}	
-dlg:2380	text	rec:4564	149	{face:00706}{spk:09}ゲオルグ博士「・・・」{wait}		
-dlg:2381	text	rec:4565	149	{face:32202}{spk:16}神父「どうされました」{wait}		
-dlg:2382	text	rec:4566	149	{face:00705}{spk:09}博士「ああ・・・{br}　さいごのおいのりを、させてもらおうと思ってな」{wait}		
-dlg:2383	text	rec:4567	149	{spk:16}神父「さいごの・・・{br}　もしや、あなたはエミコさんの―――？」{wait}		
-dlg:2384	text	rec:4568	149	{face:00706}{spk:09}博士「エミコさんにも悪いことをした。{br}　どれ、ザンゲさせていただこう。{br}　自分のしまつはそのあとじゃ」{wait}		
-dlg:2385	text	rec:4569	149	{spk:16}神父「ざんげの前に、{br}　することがありませんか」{wait}		
-dlg:2386	text	rec:4570	149	{spk:09}博士「わしにはもうなにもない。{br}　消えたところでだれも悲しまん。{br}　てんがいこどくの身でな」{wait}		
-dlg:2387	text	rec:4571	149	{spk:16}神父「心のこりがあるごようす―――{br}　そのまま人生からにげては、{br}えいえんに『くい』がのこります」{wait}		
-dlg:2388	text	rec:4572	149	{spk:09}博士「―――うん。{br}　孫がな。{br}　このままにしておけんかな、と・・・」{wait}		
-dlg:2389	text	rec:4573	149	{spk:16}神父「お孫さんのためにも、{br}　生きてみようと思いませんか―――？」{wait}		
-dlg:2390	text	rec:4574	149	{face:00706}{spk:09}博士「・・・お前さん、わかっとらん。{wait}		
-dlg:2391	text	rec:4575	149	{face:00702}{spk:09}　わしが気にしとるのは、{br}　孫を生かしておいていいのか、{br}ということじゃ」{wait}		
-dlg:2392	text	rec:4576	149	{spk:16}神父「なんですって？」{wait}		
-dlg:2393	text	rec:4577	149	{spk:09}博士「生かしておいたら、おおぜいの人が死ぬ。{br}　そうじゃな、にげるのはやめにしよう。{wait}		
-dlg:2394	text	rec:4578	149	{spk:09}　リヒターのしまつはつけんといかん―――{br}　ありがとう神父さん、わしゃ行くよ」{wait}		
-dlg:2395	text	rec:4579	149	{spk:16}神父「お孫さんを―――？！{br}　どうするつもりですか！」{wait}		
-dlg:2396	text	rec:4580	149	{face:00703}{spk:09}博士「安心せい。{br}　どうもせんよ―――」{wait}		
+dlg:2380	text	rec:4564	149	{face:00706}{spk:09}ゲオルグ博士「・・・」{wait}	{face:00706}{spk:09}Dr. Georg: "..."{wait}	
+dlg:2381	text	rec:4565	149	{face:32202}{spk:16}神父「どうされました」{wait}	{face:32202}{spk:16}Father: "What is the matter?"{wait}	
+dlg:2382	text	rec:4566	149	{face:00705}{spk:09}博士「ああ・・・{br}　さいごのおいのりを、させてもらおうと思ってな」{wait}	{face:00705}{spk:09}Doctor: "Ah... I thought I'd say one last prayer."{wait}	
+dlg:2383	text	rec:4567	149	{spk:16}神父「さいごの・・・{br}　もしや、あなたはエミコさんの―――？」{wait}	{spk:16}Father: "One last... Could you be Emiko-san's--?"{wait}	
+dlg:2384	text	rec:4568	149	{face:00706}{spk:09}博士「エミコさんにも悪いことをした。{br}　どれ、ザンゲさせていただこう。{br}　自分のしまつはそのあとじゃ」{wait}	{face:00706}{spk:09}Doctor: "I've wronged Emiko-san too. Let me make my confession. I'll deal with myself after that."{wait}	
+dlg:2385	text	rec:4569	149	{spk:16}神父「ざんげの前に、{br}　することがありませんか」{wait}	{spk:16}Father: "Before your confession, isn't there something you must do?"{wait}	
+dlg:2386	text	rec:4570	149	{spk:09}博士「わしにはもうなにもない。{br}　消えたところでだれも悲しまん。{br}　てんがいこどくの身でな」{wait}	{spk:09}Doctor: "I have nothing left. No one will grieve if I vanish. I'm all alone in the world."{wait}	
+dlg:2387	text	rec:4571	149	{spk:16}神父「心のこりがあるごようす―――{br}　そのまま人生からにげては、{br}えいえんに『くい』がのこります」{wait}	{spk:16}Father: "You seem to have unfinished business-- If you run from life like this, you will regret it forever."{wait}	
+dlg:2388	text	rec:4572	149	{spk:09}博士「―――うん。{br}　孫がな。{br}　このままにしておけんかな、と・・・」{wait}	{spk:09}Doctor: "--Yes. My grandson. I wonder if I can leave him as he is..."{wait}	
+dlg:2389	text	rec:4573	149	{spk:16}神父「お孫さんのためにも、{br}　生きてみようと思いませんか―――？」{wait}	{spk:16}Father: "Won't you try to live on, for your grandson's sake--?"{wait}	
+dlg:2390	text	rec:4574	149	{face:00706}{spk:09}博士「・・・お前さん、わかっとらん。{wait}	{face:00706}{spk:09}Doctor: "...You don't understand.{wait}	
+dlg:2391	text	rec:4575	149	{face:00702}{spk:09}　わしが気にしとるのは、{br}　孫を生かしておいていいのか、{br}ということじゃ」{wait}	{face:00702}{spk:09}What troubles me is whether I should let my grandson live at all."{wait}	
+dlg:2392	text	rec:4576	149	{spk:16}神父「なんですって？」{wait}	{spk:16}Father: "What did you say?"{wait}	
+dlg:2393	text	rec:4577	149	{spk:09}博士「生かしておいたら、おおぜいの人が死ぬ。{br}　そうじゃな、にげるのはやめにしよう。{wait}	{spk:09}Doctor: "If he lives, many people will die. Yes, I'll stop running away.{wait}	
+dlg:2394	text	rec:4578	149	{spk:09}　リヒターのしまつはつけんといかん―――{br}　ありがとう神父さん、わしゃ行くよ」{wait}	{spk:09}I must settle things with Richter-- Thank you, Father. I'll be going."{wait}	
+dlg:2395	text	rec:4579	149	{spk:16}神父「お孫さんを―――？！{br}　どうするつもりですか！」{wait}	{spk:16}Father: "Your grandson--?! What are you going to do?!"{wait}	
+dlg:2396	text	rec:4580	149	{face:00703}{spk:09}博士「安心せい。{br}　どうもせんよ―――」{wait}	{face:00703}{spk:09}Doctor: "Never fear. I'll do nothing to him--"{wait}	

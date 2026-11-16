@@ -1,34 +1,34 @@
 id	kind	where	max	jp	en	notes
-dlg:2397	text	rec:4586	149	リヒター「（エミコさん・・・）」{wait}		
-dlg:2398	text	rec:4588	149	リヒター「（エミコさん・・・{br}　　　　　　　　いま行くよ）」{wait}		
-dlg:2399	text	rec:4591	149	リヒター「（ぼくが助けてあげる・・・{br}　エミコさん・・・！）」{wait}		
-dlg:2400	text	rec:4593	149	リヒター「（エミコさん！{br}　　　ここにいるんだね・・・！）」{wait}		
-dlg:2401	text	rec:4594	149	{face:20803}{spk:03}リヒター「・・・」{wait}		
-dlg:2402	text	rec:4595	149	{spk:03}リヒター「・・・やつら、いないのか・・？　・・・{face:20802}エミコさん！　どこ？！{wait}		
-dlg:2403	text	rec:4596	149	{spk:03}　・・・エミコさん！　いないの？{br}　僕だよ、助けにきたんだよ・・・！」{wait}		
-dlg:2404	text	rec:4597	149	ゲオルグ博士「エミコさんは、はじめからここにはおらんわい」{wait}		
-dlg:2405	text	rec:4598	149	{face:00702}{face:20802}{spk:03}リヒター「！　博士？{br}　なにを言ってるんだい、あいつらが、ここでメンテしようって言ってたんだよ」{wait}		
-dlg:2406	text	rec:4599	149	{spk:01}博士「安心せい、エミコさんはケガなんかしとらん―――{wait}		
-dlg:2407	text	rec:4600	149	{spk:01}　なあ、相手のユウキという子は、お前なんぞより頭がいいぞ。{wait}		
-dlg:2408	text	rec:4601	149	{spk:01}　だましておびき出し、タイホしてしまおうぐらい、考えるぞ―――」{wait}		
-dlg:2409	text	rec:4602	149	{spk:03}リヒター「・・・そう、ワナかい。{br}　エミコさんに目隠しさせて、{br}　銃声聞かせて・・・」{wait}		
-dlg:2410	text	rec:4603	149	{spk:01}博士「ユウキ君にたのみこんで、お前をせっとくするチャンスをもらった。{br}　おねがいだから自首すると言っておくれ。{wait}		
-dlg:2411	text	rec:4604	149	{spk:01}　さもないと―――もう許してもらえんぞ」{wait}		
-dlg:2412	text	rec:4605	149	{spk:03}リヒター「―――ばかばかしい！{br}　敵にたましい売ったのかい、博士？！」{wait}		
-dlg:2413	text	rec:4606	149	{spk:01}博士「なぜわしを『博士』とよぶ。{br}　なぜ、おじいさんとよんでくれんのじゃ。　わしの孫だろう？」{wait}		
-dlg:2414	text	rec:4607	149	{spk:03}リヒター「そうだけど―――なんでかな。{br}　いいだろ、博士は博士さ」{wait}		
-dlg:2415	text	rec:4608	149	{spk:01}博士「おじいさんとは言ってくれんか。{wait}		
-dlg:2416	text	rec:4609	149	{spk:01}　じゃろうな。{br}　わしは『てんがいこどく』、息子も娘もおらん。{wait}		
-dlg:2417	text	rec:4610	149	{spk:01}　だから、リヒターなんて孫が、{br}　この世におるわけがない」{wait}		
-dlg:2418	text	rec:4611	149	{spk:03}リヒター「？　ぼくはここにいるよ」{wait}		
-dlg:2419	text	rec:4612	149	{spk:01}博士「リヒターなんて孫は、いまも昔もおらんのじゃ。{br}　お前はただのロボットじゃ！」{wait}		
-dlg:2420	text	rec:4614	149	{face:20803}{spk:03}リヒター「な・・・なに言ってるんだい！{br}　僕は病気になって・・・！」{wait}		
-dlg:2421	text	rec:4615	149	{spk:01}博士「自分のことを人間だと思わせるためについたウソじゃ。{wait}		
-dlg:2422	text	rec:4616	149	{spk:01}　いいかげんにさとれ、{br}　お前はただのロボットじゃ！{wait}		
-dlg:2423	text	rec:4617	149	{spk:01}　病気で体をうしなったリヒターなんて、　どこにもおらん！」{wait}		
-dlg:2424	text	rec:4618	149	{face:20802}{spk:03}リヒター「ばか言うな！{br}　小さいときのきおくだってあるよ！」{wait}		
-dlg:2425	text	rec:4619	149	{face:00702}{spk:01}博士「わしの作ったきおくじゃ、{br}　こんな孫がいたらいいだろうなと、{br}　夢を見ながら書いた作文じゃ！」{wait}		
-dlg:2426	text	rec:4620	149	{face:20802}{spk:03}リヒター「だって、だって、となりのアドルフ君とあそんだきおくが―――」{wait}		
+dlg:2397	text	rec:4586	149	リヒター「（エミコさん・・・）」{wait}	Richter: "(Emiko-san...)"{wait}	
+dlg:2398	text	rec:4588	149	リヒター「（エミコさん・・・{br}　　　　　　　　いま行くよ）」{wait}	Richter: "(Emiko-san... I'm coming now.)"{wait}	
+dlg:2399	text	rec:4591	149	リヒター「（ぼくが助けてあげる・・・{br}　エミコさん・・・！）」{wait}	Richter: "(I'll save you... Emiko-san...!)"{wait}	
+dlg:2400	text	rec:4593	149	リヒター「（エミコさん！{br}　　　ここにいるんだね・・・！）」{wait}	Richter: "(Emiko-san! You're here, aren't you...!)"{wait}	
+dlg:2401	text	rec:4594	149	{face:20803}{spk:03}リヒター「・・・」{wait}	{face:20803}{spk:03}Richter: "..."{wait}	
+dlg:2402	text	rec:4595	149	{spk:03}リヒター「・・・やつら、いないのか・・？　・・・{face:20802}エミコさん！　どこ？！{wait}	{spk:03}Richter: "...They're not here...? ...{face:20802}Emiko-san! Where are you?!{wait}	
+dlg:2403	text	rec:4596	149	{spk:03}　・・・エミコさん！　いないの？{br}　僕だよ、助けにきたんだよ・・・！」{wait}	{spk:03}...Emiko-san! Aren't you here? It's me, I've come to rescue you...!"{wait}	
+dlg:2404	text	rec:4597	149	ゲオルグ博士「エミコさんは、はじめからここにはおらんわい」{wait}	Dr. Georg: "Emiko-san was never here to begin with."{wait}	
+dlg:2405	text	rec:4598	149	{face:00702}{face:20802}{spk:03}リヒター「！　博士？{br}　なにを言ってるんだい、あいつらが、ここでメンテしようって言ってたんだよ」{wait}	{face:00702}{face:20802}{spk:03}Richter: "! Doctor? What are you saying? They said they'd do her maintenance here."{wait}	
+dlg:2406	text	rec:4599	149	{spk:01}博士「安心せい、エミコさんはケガなんかしとらん―――{wait}	{spk:01}Doctor: "Rest easy, Emiko-san isn't hurt at all--{wait}	
+dlg:2407	text	rec:4600	149	{spk:01}　なあ、相手のユウキという子は、お前なんぞより頭がいいぞ。{wait}	{spk:01}You know, that Yuki boy is much smarter than you.{wait}	
+dlg:2408	text	rec:4601	149	{spk:01}　だましておびき出し、タイホしてしまおうぐらい、考えるぞ―――」{wait}	{spk:01}He'd think nothing of tricking you, luring you out and arresting you--"{wait}	
+dlg:2409	text	rec:4602	149	{spk:03}リヒター「・・・そう、ワナかい。{br}　エミコさんに目隠しさせて、{br}　銃声聞かせて・・・」{wait}	{spk:03}Richter: "...So it's a trap. You blindfolded Emiko-san and let me hear a gunshot..."{wait}	
+dlg:2410	text	rec:4603	149	{spk:01}博士「ユウキ君にたのみこんで、お前をせっとくするチャンスをもらった。{br}　おねがいだから自首すると言っておくれ。{wait}	{spk:01}Doctor: "I begged Yuki-kun for a chance to talk you round. Please, tell me you'll turn yourself in.{wait}	
+dlg:2411	text	rec:4604	149	{spk:01}　さもないと―――もう許してもらえんぞ」{wait}	{spk:01}Otherwise-- they'll never forgive you."{wait}	
+dlg:2412	text	rec:4605	149	{spk:03}リヒター「―――ばかばかしい！{br}　敵にたましい売ったのかい、博士？！」{wait}	{spk:03}Richter: "--That's ridiculous! Did you sell your soul to the enemy, Doctor?!"{wait}	
+dlg:2413	text	rec:4606	149	{spk:01}博士「なぜわしを『博士』とよぶ。{br}　なぜ、おじいさんとよんでくれんのじゃ。　わしの孫だろう？」{wait}	{spk:01}Doctor: "Why do you call me 'Doctor'? Why won't you call me Grandpa? You're my grandson, aren't you?"{wait}	
+dlg:2414	text	rec:4607	149	{spk:03}リヒター「そうだけど―――なんでかな。{br}　いいだろ、博士は博士さ」{wait}	{spk:03}Richter: "I am, but-- I don't know why. Who cares, the Doctor is the Doctor."{wait}	
+dlg:2415	text	rec:4608	149	{spk:01}博士「おじいさんとは言ってくれんか。{wait}	{spk:01}Doctor: "You won't call me Grandpa.{wait}	
+dlg:2416	text	rec:4609	149	{spk:01}　じゃろうな。{br}　わしは『てんがいこどく』、息子も娘もおらん。{wait}	{spk:01}I suppose not. I'm 'all alone in the world.' I have no son and no daughter.{wait}	
+dlg:2417	text	rec:4610	149	{spk:01}　だから、リヒターなんて孫が、{br}　この世におるわけがない」{wait}	{spk:01}So a grandson called Richter can't possibly exist in this world."{wait}	
+dlg:2418	text	rec:4611	149	{spk:03}リヒター「？　ぼくはここにいるよ」{wait}	{spk:03}Richter: "? I'm right here."{wait}	
+dlg:2419	text	rec:4612	149	{spk:01}博士「リヒターなんて孫は、いまも昔もおらんのじゃ。{br}　お前はただのロボットじゃ！」{wait}	{spk:01}Doctor: "There is no grandson called Richter, and there never was. You are only a robot!"{wait}	
+dlg:2420	text	rec:4614	149	{face:20803}{spk:03}リヒター「な・・・なに言ってるんだい！{br}　僕は病気になって・・・！」{wait}	{face:20803}{spk:03}Richter: "Wh... what are you saying?! I got sick and...!"{wait}	
+dlg:2421	text	rec:4615	149	{spk:01}博士「自分のことを人間だと思わせるためについたウソじゃ。{wait}	{spk:01}Doctor: "A lie I told to make you believe you were human.{wait}	
+dlg:2422	text	rec:4616	149	{spk:01}　いいかげんにさとれ、{br}　お前はただのロボットじゃ！{wait}	{spk:01}Face the truth at last. You are only a robot!{wait}	
+dlg:2423	text	rec:4617	149	{spk:01}　病気で体をうしなったリヒターなんて、　どこにもおらん！」{wait}	{spk:01}There is no Richter who lost his body to illness, anywhere!"{wait}	
+dlg:2424	text	rec:4618	149	{face:20802}{spk:03}リヒター「ばか言うな！{br}　小さいときのきおくだってあるよ！」{wait}	{face:20802}{spk:03}Richter: "Don't be stupid! I remember when I was little!"{wait}	
+dlg:2425	text	rec:4619	149	{face:00702}{spk:01}博士「わしの作ったきおくじゃ、{br}　こんな孫がいたらいいだろうなと、{br}　夢を見ながら書いた作文じゃ！」{wait}	{face:00702}{spk:01}Doctor: "Memories I made. A story I wrote while dreaming how nice it would be to have such a grandson!"{wait}	
+dlg:2426	text	rec:4620	149	{face:20802}{spk:03}リヒター「だって、だって、となりのアドルフ君とあそんだきおくが―――」{wait}	{face:20802}{spk:03}Richter: "But, but... I remember playing with Adolf-kun next door--"{wait}	
 dlg:2427	text	rec:4621	149	{face:00702}{spk:01}博士「アドルフというのはアプリコット市長の名前じゃ、気づかんかったか」{wait}		
 dlg:2428	text	rec:4622	149	{face:20802}{spk:03}リヒター「モーデルおじさんに、遊びにつれていってもらったよ！」{wait}		
 dlg:2429	text	rec:4623	149	{face:00702}{spk:01}博士「モーデルはカシスの将軍の名前じゃ」{wait}		
