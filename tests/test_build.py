@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 import build  # noqa: E402
 import engine  # noqa: E402
+import gfx  # noqa: E402
 import romdiff  # noqa: E402
 import text  # noqa: E402
 import units  # noqa: E402
@@ -49,7 +50,8 @@ class BuildTest(unittest.TestCase):
                 *engine.LIT_FONT_GLYPH]
         allowed += [(o, o + 4) for o in lits] + [(o, o + 2) for o, *_ in engine.CREDIT_POS]
         allowed += [(ref, ref + 4) for _, refs, _ in self.enc.moved for ref in refs]
-        bad = [f"{off:06X} {who}" for off, o, _, who in self.writes()
+        allowed += gfx.spans()  # graphics-text tile blocks (tools/gfx.py)
+        bad =[f"{off:06X} {who}" for off, o, _, who in self.writes()
                if not any(lo <= off and off + len(o) <= hi for lo, hi in allowed)]
         self.assertEqual(bad, [])
 

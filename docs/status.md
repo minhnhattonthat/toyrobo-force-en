@@ -2,11 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: start here. Phase 7 is done (see Done).
+- **Phase:** 8. QA in the emulator: in progress (phase 7 review fixed; G4 title menu redrawn as the graphics pilot).
+- **Phase 8 so far:** phase 7 review (`.harness/reviews/toyrobo-force-en-phase7.md`) Important 1-2 + Minor 3 fixed
+  (8a46e91): alignment spaces in the Log/Power/Charge Cost/%d-Way rows + `lint.align_errors`; `engine._wrap` is
+  balanced (greedy line count, narrowest width) + stub-line lint (0 stubs left, was 102); `check.py` runs the
+  batch term check. Minors 4-7 still open (keep_jp list, harden `test_relocated_strings`, look at "12: 05" /
+  "3x 2" half cells on the load screen and part detail, `--known` file for the phase 9 scan).
+  Tour on the review-fix build (e8f9e47): `work/qa/tour_en`, 99/99 ok, not yet sheeted or reviewed.
+  Graphics pipeline: `tools/gfx.py` (groups of raw 4bpp tiles, labels redrawn with the `font_en` letters, applied
+  by build.py, logged, in the allowed ranges), `tools/gba_layers.py` (which BG/OBJ draws a rect from a ppudump),
+  `tools/debug/dmalog.lua` (DMA3 sources: how G4 was traced; the game queues DMAs in RAM at 0x03000850+0x235C),
+  `tools/lz_dump.py` (all LZ blocks for vramfind). Palettes for previews in `gfx/pal/`.
 - **Phase 8 to-do** (`references/emulator-qa.md`, done-when in the skill's phase table):
-  1. Smoke + `tools/debug/warp_all.py` tour of all 98 scenes on the English build; visual-QA verdict per sheet
-     (`qa_gate.py`): no nested workers in Orca, so do it in a fresh read-only pass yourself or with `codex exec`
-     (D11) and write the verdicts.
+  0. Graphics first (every redraw changes the build, and the gate needs a tour of the final build): G3, G5-G8,
+     G10, G12, G14, G15, G17 in `docs/re/graphics.md`. Method that worked for G4: warp, ppudump, `gba_layers.py
+     --rect` for the layer and tile ids, `dmalog.lua --var FROM/TO` around the screen's load for the ROM source,
+     `gfx.py show` for fill/ink indices, add a group + labels, `gfx.py preview`, build `--out work/x.gba`, warp,
+     zoom. Compressed sources (LZ blocks, e.g. G10 at 0x2BC310) need gfx.py to recompress through the LZ unit.
+  1. Then re-run `tools/debug/warp_all.py build/... --out work/qa/tour_en`, per-scene sheets, `qa_gate.py init /
+     todo`, visual-QA verdicts: no nested workers in Orca, so a fresh read-only pass yourself or `codex exec`
+     (D11), and write the verdicts.
   2. Part-detail strings relocated in phase 7 ("Right Arm: %s", "Left Arm: %s", "%d-Shot Burst", "{br}Right/Left
      arm power +5", refs 0x97xx-0x9Axx): find the screen that shows them (a part's detail view in the factory or
      a shop; `factory_maint` only shows "It doesn't seem to need maintenance...") and confirm they fit.

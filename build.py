@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 import check_rom  # noqa: E402
 import engine  # noqa: E402
+import gfx  # noqa: E402
 import marker  # noqa: E402
 import text  # noqa: E402
 import units  # noqa: E402
@@ -45,6 +46,7 @@ def pack(orig, us, datas, enc=None):
         engine.patch(out, enc)
         engine.relocate_strings(out, enc.moved)
         engine.move_credits(out)
+        gfx.apply(out)
     return out
 
 
