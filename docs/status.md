@@ -2,10 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: done. `python -X utf8 tools/release.py` exit 0 on build 875592ec ->
-  `release/Toyrobo_Force_EN_v1.0.zip` (Toyrobo_Force_EN_v1.0.bps 382762 bytes + README.txt; base CRC32 227FC16B,
-  result CRC32 56580FC0). Publishing (`gh release create`) is the owner's call; nothing was published.
-- **Latest session (build sha1 875592ec):** phase 9 closed.
+- **Phase:** 9. Released: v1.0 published on GitHub (repo made public) at the owner's request, build a3107192 ->
+  `release/Toyrobo_Force_EN_v1.0.zip` (Toyrobo_Force_EN_v1.0.bps 382981 bytes, SHA-1 c129ef2c..., + README.txt;
+  base CRC32 227FC16B, result CRC32 16805835).
+- **Latest session (build sha1 a3107192):** owner polish before release: English letters 1 px further from the
+  box border (pair glyphs at px 1-5 / 7-11 of each cell, `engine.font_table`), title menu button labels 1 px down
+  (centred: 5 rows above, 6 below). Tour waived for a3107192 with `warp_all` 103/103 on the build, every final
+  checked at 1x (reason in `work/qa/manifest.tsv.waive`). Then release.py green and published.
+- **Session before (build sha1 875592ec):** phase 9 closed.
   - Story pass: `tools/story.py` (16 chapter files from s00-s23, s23 split at dlg:2558) + `tools/story_review.sh`
     (codex exec read-only, prompt `docs/story-review-prompt.md`; `PREV=r1` hands a re-review its earlier report).
     Round 1 (`work/qa/story/r1/`): 7 ok, 9 issue (Mii-chan's drawn-out voice, 'field training', Teka Revolt caps,
@@ -18,7 +22,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `work/qa/p9spot/`). Text coverage 3717/3722 + 5 waived. `jp_left.py --sjis --gba-ptrs`: 0 runs.
   - `tools/release.py` (build, tests, smoke, jp_left, every qa manifest, coverage, polish, README placeholders, debug
     off, BPS + re-apply, zip); zip README from `docs/release-readme.txt`; repo README filled (status table, hashes).
-- **Next:** owner review of the zip and README, then publish when they choose. Optional: a real Teka arrest in
+- **Next:** player bug reports (GitHub issues). Optional: a real Teka arrest in
   battle (autofight.lua) to see G12 without freeze pokes.
 - **Previous session (build sha1 e3c66762):** G12 seen in game, phase 8 closed.
   Battle RE (`docs/re/script.md` §Battle): the battle01 "loss at ~f2150" was the **time limit** (timer u32
@@ -107,6 +111,5 @@ Updated at the end of every session. Keep it to what the next session needs; his
   boxes show over black); facility1-5 all show the same workshop menu; battle god mode via `freeze.lua` (above;
   WIN=1 covers battle end screens); the two-player battle itself needs a link partner (only its menu is reached).
 - **Open bugs:** none.
-- **Waiting on the user:** (not blocking) review `release/Toyrobo_Force_EN_v1.0.zip` and publish it when ready
-  (`references/pipeline.md` §Publish); staff-credit name readings are best readings of the kanji
+- **Waiting on the user:** (not blocking) staff-credit name readings are best readings of the kanji
   (`docs/credits-en.md`), correct them if a source turns up.
