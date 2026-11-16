@@ -51,12 +51,12 @@ dlg:0736	text	rec:1394	149	{face:10302}{spk:02}ブランク「市長、もうだ
 dlg:0737	text	rec:1395	149	{face:00503}{spk:01}アドルフ市長「娘は？　リアナはぶじか？」{wait}	{face:00503}{spk:01}Mayor Adolf: "My daughter? Is Riana safe?"{wait}	
 dlg:0738	text	rec:1396	149	{spk:02}ブランク「はい。{br}　ホテルでお待ちになっています。{br}　行きましょう、立てますか？」{wait}	{spk:02}Blank: "Yes. She's waiting at the hotel. Let's go. Can you stand?"{wait}	
 dlg:0739	text	rec:1397	149	{spk:01}市長「さ、さわるなっ」{wait}	{spk:01}Mayor: "D-don't touch me!"{wait}	
-dlg:0740	text	rec:1398	149	{spk:02}ブランク「は・・・」{wait}	{spk:02}Blank: "Sir..."{wait}	
+dlg:0740	text	rec:1398	149	{spk:02}ブランク「は・・・」{wait}	{spk:02}Blank: "Huh...?"{wait}	
 dlg:0741	text	rec:1399	149	{face:00505}{spk:01}市長「・・・すまん。{br}　ずっと引きまわされて、テカがこわくなってしまった―――{wait}	{face:00505}{spk:01}Mayor: "...Sorry. After being dragged around all this time, I've grown afraid of Teka--{wait}	
 dlg:0742	text	rec:1400	149	{spk:01}　君はこわくないよな、テカではなくてトイロボだものな―――」{wait}	{spk:01}But I needn't fear you. You're not a Teka, you're a Toyrobo--"{wait}	
 dlg:0743	text	rec:1405	149	　ホテル『モンラシェ』{wait}	Hotel 'Montrachet'{wait}	
 dlg:0744	text	rec:1406	149	{face:11001}{face:01101}{face:20008}{face:30101}{spk:03}ユウキ「ブランクが市長をきゅうしゅつしました。{br}　もうこちらにつくでしょう」{wait}	{face:11001}{face:01101}{face:20008}{face:30101}{spk:03}Yuki: "Blank has rescued the Mayor. They should be here soon."{wait}	
-dlg:0745	text	rec:1407	149	{face:20001}{face:11003}{spk:02}リアナ「きゃあ、さすがね、ブランク様！」{wait}	{face:20001}{face:11003}{spk:02}Riana: "Eek! I knew it, Blank-sama!"{wait}	
+dlg:0745	text	rec:1407	149	{face:20001}{face:11003}{spk:02}リアナ「きゃあ、さすがね、ブランク様！」{wait}	{face:20001}{face:11003}{spk:02}Riana: "Ooh! I knew it, Blank-sama!"{wait}	
 dlg:0746	text	rec:1408	149	{face:01102}{spk:01}ペータ「リアナの新しいボーイフレンドが・・・？　ふーん・・・」{wait}	{face:01102}{spk:01}Peta: "Riana's new boyfriend...? Hmph..."{wait}	
 dlg:0747	text	rec:1409	149	{spk:02}リアナ「ペータにはできないわねー・・・{face:01101}{br}　ちょっとまって、もしかして、ブランク様もここにくるの？{wait}	{spk:02}Riana: "Peta could never do that...{face:01101} Wait, could it be Blank-sama is coming here too?{wait}	
 dlg:0748	text	rec:1410	149	{face:11005}{spk:02}　うーん、こんなかっこうじゃおむかえできないわ。{br}　もっと気に入ってもらえる服を―――{wait}	{face:11005}{spk:02}Ugh, I can't greet him looking like this. I need clothes he'll like better--{wait}	

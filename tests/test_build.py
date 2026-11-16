@@ -64,10 +64,24 @@ class BuildTest(unittest.TestCase):
         for old, refs, raw in self.enc.moved:
             stale = sorted(set(words.get(engine.ROM_BASE + old, [])) - set(refs))
             self.assertEqual(stale, [], f"{old:06X}: pointer words the build did not rewrite")
+            self.assertTrue(refs, f"{old:06X}: relocated with no pointer word to rewrite")
+            self.assertEqual(self.new[old], 0, f"{old:06X}: old place not left as an empty string")
             for ref in refs:
                 ptr = struct.unpack_from("<I", self.new, ref)[0] - engine.ROM_BASE
                 self.assertGreaterEqual(ptr, engine.NEW_STRINGS)
+                self.assertLess(ptr + len(raw), engine.ROM_SIZE)
                 self.assertEqual(self.new[ptr:ptr + len(raw) + 1], raw + b"\0", f"{old:06X} via {ref:06X}")
+        # no two relocated strings share bytes in the new area
+        spans = sorted((struct.unpack_from("<I", self.new, refs[0])[0] - engine.ROM_BASE, len(raw) + 1)
+                       for _, refs, raw in self.enc.moved)
+        for (a, n), (b, _) in zip(spans, spans[1:]):
+            self.assertLessEqual(a + n, b, f"relocated strings overlap at {a:06X}/{b:06X}")
+
+    def test_kept_japanese(self):
+        # Rows deliberately left without English (KEEP_JP); any other empty `en` is an untranslated row.
+        KEEP_JP = {"credits:249170"}  # a lone ♪, drawn by the original font glyph
+        rows = [r for rs in text.load_all().values() for r in rs if r["kind"] == "text"]
+        self.assertEqual({r["id"] for r in rows if not r["en"]}, KEEP_JP)
 
     def test_string_map(self):
         # build/strings.tsv (text coverage): one address per text row, each holding that row's encoded first bytes

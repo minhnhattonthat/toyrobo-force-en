@@ -6,21 +6,21 @@ dlg:0088	text	rec:134	149	{spk:02}グンちゃん「・・・グ・グ・グ・�
 dlg:0089	text	rec:139	149	{face:12702}{spk:02}ポリジェンヌ「はい。アプリコット警察」{wait}	{face:12702}{spk:02}Polijenne: "Hello. Apricot Police."{wait}	
 dlg:0090	text	rec:141	149	{face:22402}{spk:03}声「あーん、たすけてくださいー」{wait}	{face:22402}{spk:03}Voice: "Waaah, please help me!"{wait}	
 dlg:0091	text	rec:142	149	{spk:02}ポリジェンヌ「その声は、あなた、ドメステカね。{br}　どうかしたの？」{wait}	{spk:02}Polijenne: "That voice... you're a Domesteka.{br}What's the matter?"{wait}	
-dlg:0092	text	rec:143	149	{spk:03}みーちゃん「牧場がめちゃめちゃですー。{br}　だれもあばれたりしてないのに、{br}　おうちがこわれていくんですー」{wait}	{spk:03}Mii-chan: "The ranch is a wreck! Nobody's running wild, but the house keeps breaking!"{wait}	
+dlg:0092	text	rec:143	149	{spk:03}みーちゃん「牧場がめちゃめちゃですー。{br}　だれもあばれたりしてないのに、{br}　おうちがこわれていくんですー」{wait}	{spk:03}Mii-chan: "The ranch is a wreeeck! Nobody's running wild, but the house keeps breaaaking!"{wait}	
 dlg:0093	text	rec:144	149	{spk:02}ポリジェンヌ「落ち着いて。{br}　あばれている人間は、いないのね？{br}　なのに、家がこわれていくの？」{wait}	{spk:02}Polijenne: "Calm down. There are no humans running wild? But the house is breaking?"{wait}	
-dlg:0094	text	rec:145	149	{spk:03}みーちゃん「ワークテカのグンちゃんが、　おかしいんですー。{wait}	{spk:03}Mii-chan: "Gun-chan the Workteka is acting strange!{wait}	
+dlg:0094	text	rec:145	149	{spk:03}みーちゃん「ワークテカのグンちゃんが、　おかしいんですー。{wait}	{spk:03}Mii-chan: "Gun-chan the Workteka is acting straaange!{wait}	
 dlg:0095	text	rec:146	149	{spk:03}　グンちゃんが動くと、おうちがこわれていくんですー」{wait}	{spk:03}Whenever Gun-chan moves, the house breaks!"{wait}	
 dlg:0096	text	rec:147	149	{spk:02}ポリジェンヌ「きっと家が古いのよ；{br}　警察じゃなくて、大工テカを呼んだ方がいいわね」{wait}	{spk:02}Polijenne: "The house must be old, then.{br}You'd better call a carpenter Teka, not the police."{wait}	
 dlg:0097	text	rec:148	149	{face:00602}{spk:01}スミタ署長「まてっ、それはワークテカが　あばれているんじゃないのか？！」{wait}	{face:00602}{spk:01}Chief Sumita: "Wait! Isn't that Workteka running wild?!"{wait}	
 dlg:0098	text	rec:149	149	{spk:02}ポリジェンヌ「は？　テカが、あばれる？」{wait}	{spk:02}Polijenne: "Pardon? A Teka, running wild?"{wait}	
 dlg:0099	text	rec:150	149	{face:00602}{spk:01}署長「かせっ！{face:00607}{face:12700}　もしもし！{br}　そこにはワークテカしかいないんだな？！{wait}	{face:00602}{spk:01}Chief: "Give me that!{face:00607}{face:12700} Hello?!{br}There's only a Workteka there, right?!{wait}	
 dlg:0100	text	rec:151	149	{spk:01}　そいつが動くと、家がこわれていくんだな？！」{wait}	{spk:01}And when it moves, the house breaks, right?!"{wait}	
-dlg:0101	text	rec:152	149	{spk:03}みーちゃん「カマンベール牧場ですー、{br}　たすけに来てくださーい；」{wait}	{spk:03}Mii-chan: "It's Camembert Ranch! Please come and help!"{wait}	
+dlg:0101	text	rec:152	149	{spk:03}みーちゃん「カマンベール牧場ですー、{br}　たすけに来てくださーい；」{wait}	{spk:03}Mii-chan: "It's Camembert Ranch! Pleeease come and help!"{wait}	
 dlg:0102	text	rec:153	149	{spk:01}署長「すぐ警官を行かせる、君はどこかに{br}にげてろ！」{wait}	{spk:01}Chief: "I'm sending officers right away. You get somewhere safe!"{wait}	
 dlg:0103	text	rec:154	149	{face:22400}{face:12702}{face:00602}{spk:02}ポリジェンヌ「ポリステカを・・・{br}　何をしに行かせるのですか？」{wait}	{face:22400}{face:12702}{face:00602}{spk:02}Polijenne: "Send Polisteka... to do what?"{wait}	
 dlg:0104	text	rec:155	149	{spk:01}署長「どうせお前には分からん、いいから、警察学校のポイヤックに連絡！{wait}	{spk:01}Chief: "You wouldn't understand anyway. Just contact Pauillac at the police academy!{wait}	
-dlg:0105	text	rec:156	149	{spk:01}　カマンベール牧場で{br}『アウト・オブ・コントロール』発生、{br}　ただちに『実習』を開始しろ、とな！」{wait}	{spk:01}Tell them an 'Out of Control' has occurred at Camembert Ranch, and to start 'field training' at once!"{wait}	
-dlg:0106	text	rec:160	149	ポイヤック教官「集合！{br}{face:10002}{face:20102}{face:30202}{face:00302}　次の訓練にうつります。{br}　署長から『実習命令』が出ました。	Instructor Pauillac: "Fall in!{br}{face:10002}{face:20102}{face:30202}{face:00302}On to the next training. The Chief has issued 'field training orders.'	
+dlg:0105	text	rec:156	149	{spk:01}　カマンベール牧場で{br}『アウト・オブ・コントロール』発生、{br}　ただちに『実習』を開始しろ、とな！」{wait}	{spk:01}Tell them there's been an 'Out of Control' at Camembert Ranch, and to start 'field training' at once!"{wait}	
+dlg:0106	text	rec:160	149	ポイヤック教官「集合！{br}{face:10002}{face:20102}{face:30202}{face:00302}　次の訓練にうつります。{br}　署長から『実習命令』が出ました。	Instructor Pauillac: "Fall in!{br}{face:10002}{face:20102}{face:30202}{face:00302}On to the next exercise. The Chief has issued 'field training orders.'	
 dlg:0107	text	rec:161	149	　今度の犯人役はワークテカ、{br}　ひがいしゃ役はドメステカ、{br}　実習現場はカマンベール牧場です。	This time a Workteka plays the culprit and a Domesteka the victim; the training site is Camembert Ranch.	
 dlg:0108	text	rec:162	149	　なにかしつもんは」{wait}	Any questions?"{wait}	
 dlg:0109	text	rec:164	149	ポイヤック「空中の敵と地上の敵を、{br}　きちんと撃ち分けることが大切です。{wait}	Pauillac: "It is vital to tell air enemies from ground enemies and shoot each properly.{wait}	
@@ -33,7 +33,7 @@ dlg:0115	text	rec:172	149	ポイヤック「敵を撃つと点数が入ります
 dlg:0116	text	rec:173	149	　また、敵をにがさないように撃てば、{br}『評価』も上がります。{br}　評価が高ければ、『成果』も上がります。{wait}	Shoot without letting enemies escape and your 'rating' goes up too. A high rating raises your 'results.'{wait}	
 dlg:0117	text	rec:174	149	　市長はケチな人ですから、成果の分しか予算を出してくれません。{wait}	The Mayor is a stingy man, so he only grants a budget to match your results.{wait}	
 dlg:0118	text	rec:175	149	　ブランク君の修理や、エアガン・催涙弾の弾丸チャージはひようがかかりませんが、　ほかのメンテにはお金がかかります。{wait}	Repairing Blank-kun and recharging air gun and tear gas ammo is free, but other maintenance costs money.{wait}	
-dlg:0119	text	rec:176	149	　できるだけ成果をあげて、予算を手に入れておかないと、くろうしますよ。	If you don't earn all the results you can and secure a budget, you will struggle.	
+dlg:0119	text	rec:176	149	　できるだけ成果をあげて、予算を手に入れておかないと、くろうしますよ。	Get the best results you can and secure a budget, or you will have a hard time of it.	
 dlg:0120	text	rec:178	149	　初めての実習に出ることを、署長に報告しておきなさい。{br}　では出撃じゅんび！」{wait}	Report to the Chief that you're going on your first field training. Now, prepare to sortie!"{wait}	
 dlg:0121	text	rec:184	149	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}ポイヤック教官「日誌はこまめに書くようにしなさい。{br}　書きわすれてこまるのは自分ですよ」{wait}	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}Instructor Pauillac: "Write in your log often. If you forget, you're the one who suffers."{wait}	
 dlg:0122	text	rec:185	149	{face:30303}{spk:04}ブランク「あのー、日誌ってなんですか？」{wait}	{face:30303}{spk:04}Blank: "Um, what's a log?"{wait}	
@@ -90,7 +90,7 @@ dlg:0172	text	rec:264	149	{spk:01}ポイヤック「敵を撃つと点数が入�
 dlg:0173	text	rec:265	149	{spk:01}　また、敵をにがさないように撃てば、{br}『評価』も上がります。{br}　評価が高ければ、『成果』も上がります。{wait}	{spk:01}Shoot without letting enemies escape and your 'rating' goes up too. A high rating raises your 'results.'{wait}	
 dlg:0174	text	rec:266	149	{spk:01}　市長はケチな人ですから、成果の分しか予算を出してくれません。{wait}	{spk:01}The Mayor is a stingy man, so he only grants a budget to match your results.{wait}	
 dlg:0175	text	rec:267	149	{spk:01}　ブランク君の修理代やエアガン・催涙弾の弾丸代はひようがかかりませんが、ほかのメンテにはお金がかかります。{wait}	{spk:01}Blank-kun's repairs and air gun and tear gas ammo cost nothing, but other maintenance costs money.{wait}	
-dlg:0176	text	rec:268	149	{spk:01}　できるだけ成果をあげて、予算を手に入れておかないと、くろうしますよ。	{spk:01}If you don't earn all the results you can and secure a budget, you will struggle.	
+dlg:0176	text	rec:268	149	{spk:01}　できるだけ成果をあげて、予算を手に入れておかないと、くろうしますよ。	{spk:01}Get the best results you can and secure a budget, or you will have a hard time of it.	
 dlg:0177	text	rec:270	149	{spk:01}ポイヤック「では、出撃のじゅんびにかかりなさい」{wait}	{spk:01}Pauillac: "Now, get ready to sortie."{wait}	
 dlg:0178	text	rec:275	149	{face:00505}{spk:01}アドルフ市長「まだ牧場の反乱をとめられないのかね？{br}　子供には荷が重すぎたかな」{wait}	{face:00505}{spk:01}Mayor Adolf: "You still can't stop the revolt at the ranch? Too much for children, perhaps."{wait}	
 dlg:0179	text	rec:277	149	{face:00602}{spk:01}スミタ署長「だから、これは訓練なのだよ。　マスコミに知られていないだろうね？」{wait}	{face:00602}{spk:01}Chief Sumita: "I keep telling you, this is training. The press doesn't know, right?"{wait}	

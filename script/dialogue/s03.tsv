@@ -3,7 +3,7 @@ dlg:0191	text	rec:302	149	　サザンカ幼稚園送迎バス{wait}	Sazanka Kin
 dlg:0192	text	rec:303	149	{face:10903}{spk:02}保母エミコ「はい、ヒロ君、おはよー。{br}　足もとに気をつけて乗るのよ。{br}　クミちゃんもおはよー♪	{face:10903}{spk:02}Teacher Emiko: "Good morning, Hiro-kun. Mind your step getting on. Good morning to you too, Kumi-chan!	
 dlg:0193	text	rec:304	149	{spk:02}　さあ、幼稚園に行きますよー・・・{br}　{face:10902}あら。おまわりさん？{br}　なにか・・・？」{wait}	{spk:02}Now, off to kindergarten...{br}{face:10902}Oh my. A police officer? Is something...?"{wait}	
 dlg:0194	text	rec:308	149	{face:00402}{spk:01}ポイヤック教官「集合！」{face:10001}{face:20101}{face:30201}{wait}	{face:00402}{spk:01}Instructor Pauillac: "Fall in!"{face:10001}{face:20101}{face:30201}{wait}	
-dlg:0195	text	rec:309	149	{spk:01}ポイヤック「今日は、事件そうさの実習をします。{br}　はじめのつうほうを聞かせますから、{br}　聞きこみを開始しなさい」{wait}	{spk:01}Pauillac: "Today's training is a criminal investigation. I'll play you the first report. Then ask around."{wait}	
+dlg:0195	text	rec:309	149	{spk:01}ポイヤック「今日は、事件そうさの実習をします。{br}　はじめのつうほうを聞かせますから、{br}　聞きこみを開始しなさい」{wait}	{spk:01}Pauillac: "Today's field training is a criminal investigation. I'll play you the first report. Then ask around."{wait}	
 dlg:0196	text	rec:313	149	{face:02502}{spk:01}保母マイコ「バスがもどってこないんです、毎朝、子供たちをむかえに行くバスです。{wait}	{face:02502}{spk:01}Teacher Maiko: "The bus hasn't come back! It's the bus that picks up the children every morning.{wait}	
 dlg:0197	text	rec:314	149	{spk:01}　あたしと同じ型の『エミコ』さんが、{br}運転手と二人で行ってるけど、{br}　もう１時間も・・・{wait}	{spk:01}Emiko-san, who's the same model as me, went with the driver, but it's been a whole hour...{wait}	
 dlg:0198	text	rec:315	149	{spk:01}　事故とかあったらどうしましょう。{br}　バスをさがしてください―――」{wait}	{spk:01}What if there's been an accident? Please find the bus--"{wait}	
@@ -27,12 +27,12 @@ dlg:0215	text	rec:352	149	{face:01202}{spk:01}ワークテカ「サザンカ幼�
 dlg:0216	text	rec:358	149	{face:02502}{spk:01}保母マイコ「事故でなければいいけど。{br}　心配です―――」{wait}	{face:02502}{spk:01}Teacher Maiko: "I hope it's not an accident. I'm so worried--"{wait}	
 dlg:0217	text	rec:360	149	{face:02502}{spk:01}保母マイコ「えっ、遠足・・・？{br}　あたしになにも言わないで・・・{wait}	{face:02502}{spk:01}Teacher Maiko: "What, a field trip...? And nobody told me...{wait}	
 dlg:0218	text	rec:361	149	{spk:01}　ごめんなさいおまわりさん、事件じゃなかったのですね」{wait}	{spk:01}I'm sorry, officer. So it wasn't an incident after all."{wait}	
-dlg:0219	text	rec:364	149	{face:10001}{face:20104}{spk:03}トモミ「教官にだまって出撃しようとは。{br}　さては、教官があやしいと？」{wait}	{face:10001}{face:20104}{spk:03}Tomomi: "Sortieing without telling the Instructor? So you think the Instructor is suspicious?"{wait}	
+dlg:0219	text	rec:364	149	{face:10001}{face:20104}{spk:03}トモミ「教官にだまって出撃しようとは。{br}　さては、教官があやしいと？」{wait}	{face:10001}{face:20104}{spk:03}Tomomi: "Heading out without telling the Instructor? So you think the Instructor is suspicious?"{wait}	
 dlg:0220	text	rec:365	149	{face:10005}{spk:02}ユウキ「ちがうちがう；{br}　ほうこくに行こうか；」{wait}	{face:10005}{spk:02}Yuki: "No, no, no...{br}Let's go report in."{wait}	
 dlg:0221	text	rec:368	149	{face:00502}{spk:01}アドルフ市長「訓練生の実習だからな。{br}　どうせ、つうほう者のカンちがいで、{br}というオチだろ」{wait}	{face:00502}{spk:01}Mayor Adolf: "It's cadet field training, after all. I bet the punchline is that the caller got it wrong."{wait}	
 dlg:0222	text	rec:370	149	{face:00602}{spk:01}署長「聞きこみはすんだようだね。{br}　学校にもどって、点数をもらうといい」{wait}	{face:00602}{spk:01}Chief: "Looks like you're done asking around. Go back to the academy and collect your points."{wait}	
 dlg:0223	text	rec:377	149	{face:02502}{spk:01}保母マイコ「ごめんなさいおまわりさん、{br}　事件じゃなかったのですね」{wait}	{face:02502}{spk:01}Teacher Maiko: "I'm sorry, officer.{br}So it wasn't an incident after all."{wait}	
-dlg:0224	text	rec:379	149	{face:10001}{face:20104}{spk:03}トモミ「教官にだまって出撃しようとは。{br}　さては、教官があやしいと？」{wait}	{face:10001}{face:20104}{spk:03}Tomomi: "Sortieing without telling the Instructor? So you think the Instructor is suspicious?"{wait}	
+dlg:0224	text	rec:379	149	{face:10001}{face:20104}{spk:03}トモミ「教官にだまって出撃しようとは。{br}　さては、教官があやしいと？」{wait}	{face:10001}{face:20104}{spk:03}Tomomi: "Heading out without telling the Instructor? So you think the Instructor is suspicious?"{wait}	
 dlg:0225	text	rec:380	149	{face:10005}{spk:02}ユウキ「ちがうちがう；{br}　ほうこくに行こうか；」{wait}	{face:10005}{spk:02}Yuki: "No, no, no...{br}Let's go report in."{wait}	
 dlg:0226	text	rec:382	149	{face:00402}{face:10001}{face:20101}{face:30201}{spk:01}ポイヤック教官「急な遠足なのに、保母さんがカンちがいしてつうほうしてきた、と。{wait}	{face:00402}{face:10001}{face:20101}{face:30201}{spk:01}Instructor Pauillac: "A sudden field trip, and the teacher misunderstood and called it in.{wait}	
 dlg:0227	text	rec:383	149	{spk:01}　よろしい、よく調べました。{br}　５００点をあげます。{br}　では、次の訓練に・・・」{wait}	{spk:01}Very good, a thorough investigation. I'll give you 500 points. Now, on to the next training..."{wait}	
@@ -56,7 +56,7 @@ dlg:0244	text	rec:414	149	{face:10007}{spk:02}ユウキ「おとなしくみの�
 dlg:0245	text	rec:415	149	{face:30202}{spk:04}ギリガン「北に向かったのは分かっているんだ。{br}　とっとと追いかけようぜ」{wait}	{face:30202}{spk:04}Gilligan: "We know it went north. Let's just go after it already."{wait}	
 dlg:0246	text	rec:416	149	{face:20103}{spk:03}トモミ「サンナナのい場所をトレースする手もあるわ。{br}　あたしのうでを見せてあげるわよ」{wait}	{face:20103}{spk:03}Tomomi: "We could also trace where Sannana is. I'll show you what I can do."{wait}	
 dlg:0247	text	rec:418	149	{face:00401}{face:10007}{face:20101}{face:30201}{spk:02}ユウキ「さてどうしたもんかな・・・」{wait}	{face:00401}{face:10007}{face:20101}{face:30201}{spk:02}Yuki: "Now, what to do..."{wait}	
-dlg:0248	text	rec:431	149	{face:20104}{spk:03}トモミ「バスのい場所も分からないのに出撃しようとは、{br}　実はユウキにはもう分かっている？」{wait}	{face:20104}{spk:03}Tomomi: "Sortieing when you don't know where the bus is? Does Yuki secretly know already?"{wait}	
+dlg:0248	text	rec:431	149	{face:20104}{spk:03}トモミ「バスのい場所も分からないのに出撃しようとは、{br}　実はユウキにはもう分かっている？」{wait}	{face:20104}{spk:03}Tomomi: "Heading out when you don't even know where the bus is? Does Yuki secretly know already?"{wait}	
 dlg:0249	text	rec:432	149	{face:10005}{spk:02}ユウキ「いや、まだ・・・{br}　学校もどって考えようか；」{wait}	{face:10005}{spk:02}Yuki: "No, not yet...{br}Let's go back to the academy and think."{wait}	
 dlg:0250	text	rec:435	149	{br}　市内で聞きこみ中・・・{wait}	Asking around the City...{wait}	
 dlg:0251	text	rec:436	149	{face:20115}{spk:03}トモミ「レンガ通りで目撃されて・・・{br}　コットン通りで目撃されて・・・」{wait}	{face:20115}{spk:03}Tomomi: "Seen on Brick Street... Seen on Cotton Street..."{wait}	
@@ -102,7 +102,7 @@ dlg:0290	text	rec:491	149	{spk:09}サンナナ「人間は私を撃ちにくる�
 dlg:0291	text	rec:492	149	{spk:16}エミコ「人間は、{br}　友だちを撃ったりしません！」{wait}	{spk:16}Emiko: "Humans don't shoot their friends!"{wait}	
 dlg:0292	text	rec:493	149	{spk:09}サンナナ「よし、かけをしよう。{br}　私が撃たれたら君の負けだ。{wait}	{spk:09}Sannana: "All right, let's make a bet. If I get shot, you lose.{wait}	
 dlg:0293	text	rec:494	149	{spk:09}　私の代わりに山荘に行って、ご老人のおせわをしてくれ」{wait}	{spk:09}You'll go to the mountain lodge in my place and take care of the old man."{wait}	
-dlg:0294	text	rec:495	149	{spk:16}エミコ「いいですとも。{br}　人間は人を撃ったりしません」{wait}	{spk:16}Emiko: "Fine by me. Humans don't shoot people."{wait}	
+dlg:0294	text	rec:495	149	{spk:16}エミコ「いいですとも。{br}　人間は人を撃ったりしません」{wait}	{spk:16}Emiko: "Of course. Humans don't shoot people."{wait}	
 dlg:0295	text	rec:496	149	{spk:09}サンナナ「・・・私は『人』かい？」{wait}	{spk:09}Sannana: "...Am I a 'person'?"{wait}	
 dlg:0296	text	rec:497	149	{spk:16}エミコ「機械の体でも、心を持っていれば人間です」{wait}	{spk:16}Emiko: "Even in a machine body, if you have a heart, you're a person."{wait}	
 dlg:0297	text	rec:498	149	{spk:09}サンナナ「はっはは・・・美しすぎるよ。{br}　もう少し、子供たちに『げんじつ』を教えてあげないとね・・・！」{wait}	{spk:09}Sannana: "Hahaha... What a lovely fairy tale. I think the children need a bit more of a lesson in 'reality'...!"{wait}	

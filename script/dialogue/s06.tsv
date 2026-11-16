@@ -14,7 +14,7 @@ dlg:0566	text	rec:1018	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ
 dlg:0567	text	rec:1020	149	{face:20101}{face:01009}{spk:01}リアナ「あら。あたしは平気よ！」{wait}	{face:20101}{face:01009}{spk:01}Riana: "Excuse me. I'm not scared at all!"{wait}	
 dlg:0568	text	rec:1021	149	{face:30206}{spk:04}ギリガン「ん？　だれだ？」{wait}	{face:30206}{spk:04}Gilligan: "Hm? Who're you?"{wait}	
 dlg:0569	text	rec:1022	149	{face:01002}{spk:01}リアナ「あたしをごえいしてくれるっていうのは、あなたたち？{br}　だめねえ、みんな子供じゃないの」{wait}	{face:01002}{spk:01}Riana: "So you're the ones who'll be escorting me? Hopeless. You're all just kids."{wait}	
-dlg:0570	text	rec:1023	149	{face:30203}{spk:04}ギリガン「？　てめえだって子供だろ」{wait}	{face:30203}{spk:04}Gilligan: "? You're a kid too."{wait}	
+dlg:0570	text	rec:1023	149	{face:30203}{spk:04}ギリガン「？　てめえだって子供だろ」{wait}	{face:30203}{spk:04}Gilligan: "Huh? You're a kid yourself!"{wait}	
 dlg:0571	text	rec:1024	149	{face:01002}{spk:01}リアナ「なに、その口のきき方。{br}　あたしが何さまか知っているの？」{wait}	{face:01002}{spk:01}Riana: "How dare you talk to me like that. Do you know who you're addressing?"{wait}	
 dlg:0572	text	rec:1025	149	{face:30206}{spk:04}ギリガン「何さまだよ？」{wait}	{face:30206}{spk:04}Gilligan: "Who, then? Her Highness?"{wait}	
 dlg:0573	text	rec:1026	149	{face:01004}{spk:01}リアナ「お嬢さまよ！」{wait}	{face:01004}{spk:01}Riana: "Her Young Ladyship!"{wait}	
