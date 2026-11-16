@@ -1,0 +1,8 @@
+# cold boot -> logos -> title -> start -> next screen
+1000 -
+6 start
+300 -
+6 start
+300 -
+6 a
+300 -

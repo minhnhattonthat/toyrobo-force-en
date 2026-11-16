@@ -1,2 +1,2 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too).
+6ef30145099d09cf1a1f2b3bc6618a985dabdaae  rom/Toyrobo Force (Japan).gba
