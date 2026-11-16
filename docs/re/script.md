@@ -65,7 +65,26 @@ Addresses for the dump in `rom.sha1`. Listing: `python -X utf8 tools/script_dump
   chase) ends on its timer as a loss after ~1150 frames.
 - Debug only: `warp.lua` WIN=1 writes `b 0x080138C8` (0xE7BC) over the loss handler's first instruction in the
   emulator's ROM copy, so every loss becomes a win; LOSE=1 the reverse. Never in a release build.
-- Not found yet: robot life / enemy life addresses (a GOD mode). Not needed for scene coverage.
+- Loss causes (verified by write watch + disassembly, phase 8 G12):
+  - **Time-up**: 0x08012F70 compares the battle timer u32 0x03003C98 with the limit table 0x08249750 (u16 per
+    battle id; battle id u8 0x03004EF8) and sets 0x03005070 = 1. Battle01 times out at ~f2150 of a warp.
+  - **Robot down**: player hit handler ~0x08017F40: if the invulnerability timer u8 0x03003DF8 (0x03003DF0+8) is 0,
+    HP u8 at 0x03005A80 + 16*[0x03005C78] + 2 drops by 1 and the timer is set to 60; HP 0 -> 0x080180C8 (lives
+    0x03003E16 -1 -> mode 0x0300502C = 5 -> loss). Mode byte 0x0300502C: 4 battle running, 5 robot down, 9 loss
+    report, 10 win report.
+  - God mode: `freeze.lua` FREEZE='3003C98=00000000 3003DF8=3C'.
+- Objects: table 0x03003E90 (0x18 bytes, index = OAM index; +0x12 score on a kill (0x8000 flag on bosses), +0x14
+  HP, the bullet-hit code 0x0801B8E6 subtracts damage), positions in 0x03005270 (16 bytes, x/y in 1/16 px). OAM 25
+  = the player robot (32x32), 80-95 enemy robots, 96-111 their shadows. Score u16 0x03004EFC (5 per drone),
+  added to money at the sortie report.
+- **Teka report** (G12 labels: テカに関する報告 / タイホ! stamp / names / parts): drawn by the report state 4
+  (0x080139C8 -> 0x08013A16) only when the arrest count u16 0x03003DFA (0x03003DF0+0xA) is non-zero: row i =
+  Teka type u8 0x03003DFC+i (1-7; cell 9+type, type 0 would show cell 9 = "Fail") and part u8 0x03003E04+i
+  (0 Body, 1 R.Arm, 2 L.Arm, 3 Pasocop; cell 0x11+part); more than 5 rows add the Up/Dn arrows (cells 0x15/0x16).
+  Reach it without an arrest: warp battle01 with WIN=1 and freeze.lua FREEZE='3003DFA=0007 3003DFC=04030201
+  3003E00=00070605 3003E04=03020100 3003E08=00020100', then A on the sortie report (~f3500).
+- Probes: `watchw.lua` (writes + PC), `oamlog.lua`, `objlog.lua`, `objwatch.lua`, `autofight.lua` (OAM-steered
+  bot; kills drones but never reached an arrest in battle01).
 
 ## Debug warp (phase 2)
 - `tools/debug/warp.lua` + `tools/debug/scenes.gba.txt`; `tools/debug/warp_all.py` runs every scene and builds

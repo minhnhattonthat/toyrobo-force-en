@@ -2,7 +2,8 @@
 -- emu.py ... --script tools/debug/freeze.lua --var "FREEZE='3005B0E=00C8'"  (hex addr=value; byte/half/word by
 -- digit count, as warp.lua POKES). 0x03005B0E u16 = the battle HUD's bottom number (200 at the start of battle01,
 -- 189 400 frames later; found by RAM diff with tools/debug/ramsnap.lua). Holding it does NOT stop the robot going
--- down: it is not the life (still unknown).
+-- down: it is not the life. Battle god mode (docs/re/script.md §Battle): FREEZE='3003C98=00000000 3003DF8=3C'
+-- (timer u32 held at 0 = no time-up; hit-invulnerability timer held = no damage).
 local M = emu.memType.gbaMemory
 local list = {}
 for a, val in (FREEZE or ""):gmatch("(%x+)=(%x+)") do
