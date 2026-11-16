@@ -1,111 +1,111 @@
 id	kind	where	max	jp	en	notes
 credits:248D44	text	ref:00078C	267	いかなる捜索をもってしても、ゲオルグ博士、保母エミコ、および一体のトイロボは発見できず、プロメテウスと共に消失したものと決定いたしました。{br} これをもって、反乱事件のいっさいが終結したことを、ここに報告します。@{br}       テカ犯罪専門チーム       ユウキ・タチバナ巡査長	For all our searching, Dr. Georg, teacher Emiko and one Toyrobo were never found; we have concluded they vanished with the Prometheus.{br} I hereby report that the revolt case is now closed in full.@{br}       Teka Crime Unit{br}       Senior Officer Yuki Tachibana	ending report; game wraps at 19 cells
-credits:248E50	text	ref:0009DC	11	キャスト		
-credits:248E5C	text	ref:000A1C,000AD0,000BAC,000CC8,000D9C,000FFC	19	アプリコット警察		
-credits:248E70	text	ref:000A34	7	巡査長		
-credits:248E78	text	ref:000A88,00206C	19	ユウキ・タチバナ		
-credits:248E8C	text	ref:000AF4,0020BC	11	トモミ・		
-credits:248E98	text	ref:000AF8,000C00,000C74	7	巡査		
-credits:248EA0	text	ref:000B4C,00210C	15	アッテンボロー		
-credits:248EB0	text	ref:000B94,002194	19	ギリガン・ブロック		
-credits:248EC4	text	ref:000C70,002294	11	ブランク		
-credits:248ED0	text	ref:000D6C	19	アプリコット市長		
-credits:248EE4	text	ref:000D7C	11	アドルフ・		
-credits:248EF0	text	ref:000D8C,000ECC	15	フランシスカ		
-credits:248F00	text	ref:000DB4	7	署長		
-credits:248F08	text	ref:000E08	19	コウゾウ・スミタ		
-credits:248F1C	text	ref:000EB8	11	市長の娘		
-credits:248F28	text	ref:000EBC	11	リアナ・		
-credits:248F34	text	ref:000EDC	19	ペータ・カワモト		
-credits:248F48	text	ref:000EF4	15	ボーイフレンド		
-credits:248F58	text	ref:000F54	7	の、		
-credits:248F60	text	ref:000F58	11	のつもりの		
-credits:248F6C	text	ref:001018	7	学校		
-credits:248F74	text	ref:00101C	7	教官		
-credits:248F7C	text	ref:00102C	11	ポイヤック		
-credits:248F88	text	ref:001044	15	カシスの将軍		
-credits:248F98	text	ref:001098	11	モーデル		
-credits:248FA4	text	ref:001110,001130	11	ポリステカ		
-credits:248FB0	text	ref:001120	15	”サンナナ”		
-credits:248FC0	text	ref:001148	11	”ジロー”		
-credits:248FCC	text	ref:00119C	11	冥福を祈る		
-credits:248FD8	text	ref:001234	15	アプリコット		
-credits:248FE8	text	ref:001244,001264	15	のワークテカ		
-credits:248FF8	text	ref:001254	15	フランボワーズ		
-credits:249008	text	ref:001274	11	カシスの		
-credits:249014	text	ref:00128C	11	ワークテカ		
-credits:249020	text	ref:0012E0	7	以下略		
-credits:249028	text	ref:00135C	15	天才工学博士		
-credits:249038	text	ref:001374	11	ゲオルグ・		
-credits:249044	text	ref:0013C8	11	ウエンツ		
-credits:249050	text	ref:00147C	11	リヒター		
-credits:24905C	text	ref:0014F0	7	保母		
-credits:249064	text	ref:001544	7	エミコ		
-credits:24906C	text	ref:0015BC	11	スタッフ		
-credits:249078	text	ref:0015E4	15	プロデューサー		
-credits:249088	text	ref:0015FC	11	大友貴司		
-credits:249094	text	ref:001694	15	ディレクター		
-credits:2490A4	text	ref:0016F8	11	真岡　公		
-credits:2490B0	text	ref:0016FC	3	平		
-credits:2490B4	text	ref:001764	3	ゲ		
-credits:2490B8	text	ref:001768	3	｜		
-credits:2490BC	text	ref:00176C,0018D8	3	ム		
-credits:2490C0	text	ref:001770	3	デ		
-credits:2490C4	text	ref:001774	3	ザ		
-credits:2490C8	text	ref:0017C8	15	イン　雲母星彦		
-credits:2490D8	text	ref:001800	15	キャラクター		
-credits:2490E8	text	ref:001880	11	デザイン		
-credits:2490F4	text	ref:001884	3	西		
-credits:2490F8	text	ref:001888	3	川		
-credits:2490FC	text	ref:00188C	3	伸		
-credits:249100	text	ref:001890	3	司		
-credits:249104	text	ref:0018D4	11	プログラ		
-credits:249110	text	ref:001940	3	中		
-credits:249114	text	ref:001944	3	山		
-credits:249118	text	ref:001948	11	ひろいち		
-credits:249124	text	ref:0019D8	3	プ		
-credits:249128	text	ref:0019DC	3	ロ		
-credits:24912C	text	ref:0019E0	11	グラム森俊		
-credits:249138	text	ref:0019E4	3	樹		
-credits:24913C	text	ref:001A3C,001BA4	3	グ		
-credits:249140	text	ref:001A40,001BA8	3	ラ		
-credits:249144	text	ref:001A44,001BAC	3	フ		
-credits:249148	text	ref:001A48,001BB0	7	ィック		
-credits:249150	text	ref:001AB0	3	東		
-credits:249154	text	ref:001AB4	3	田		
-credits:249158	text	ref:001AB8	3	悟		
-credits:24915C	text	ref:001B48	3	音		
-credits:249160	text	ref:001B4C	3	楽		
-credits:249164	text	ref:001B50	11	山本　秀樹		
-credits:249170	text	ref:001B54	3	♪		
-credits:249174	text	ref:001BC0	11	寺沢　耕一		
-credits:249180	text	ref:001BD8	19	グラフィック　中田		
-credits:249194	text	ref:001C34	3	智		
-credits:249198	text	ref:001C38	3	子		
-credits:24919C	text	ref:001C6C	15	グラフィック		
-credits:2491AC	text	ref:001C90	11	兼子　睦郎		
-credits:2491B8	text	ref:001C94	7	ひで		
-credits:2491C0	text	ref:001CE4	15	佐賀野　仁志		
-credits:2491D0	text	ref:001D18	19	ＰＤ　　札場　哲		
-credits:2491E4	text	ref:001D48	3	宣		
-credits:2491E8	text	ref:001D4C	3	伝		
-credits:2491EC	text	ref:001D50	7	広報		
-credits:2491F4	text	ref:001DA0	15	ローリー鈴木		
-credits:249204	text	ref:001E00	3	脚		
-credits:249208	text	ref:001E04	3	本		
-credits:24920C	text	ref:001E08	7	高岡		
-credits:249214	text	ref:001E0C	3	明		
-credits:249218	text	ref:001E98	23	Ｔｈｅ　Ｅｎｄ　ｏｆ		
-credits:249230	text	ref:001EA8,002364	19	トイロボフォース		
-credits:249244	text	ref:001EC0	11	製作著作		
-credits:249250	text	ref:002200	7	Ａｎｄ		
-credits:249258	text	ref:002300	7	Ｉｎ		
+credits:248E50	text	ref:0009DC	11	キャスト	Cast	
+credits:248E5C	text	ref:000A1C,000AD0,000BAC,000CC8,000D9C,000FFC	19	アプリコット警察	Apricot Police	
+credits:248E70	text	ref:000A34	7	巡査長	Senior Officer	
+credits:248E78	text	ref:000A88,00206C	19	ユウキ・タチバナ	Yuki Tachibana	
+credits:248E8C	text	ref:000AF4,0020BC	11	トモミ・	Tomomi	
+credits:248E98	text	ref:000AF8,000C00,000C74	7	巡査	Officer	
+credits:248EA0	text	ref:000B4C,00210C	15	アッテンボロー	Attenborough	
+credits:248EB0	text	ref:000B94,002194	19	ギリガン・ブロック	Gilligan Brock	
+credits:248EC4	text	ref:000C70,002294	11	ブランク	Blank	
+credits:248ED0	text	ref:000D6C	19	アプリコット市長	Mayor of Apricot	
+credits:248EE4	text	ref:000D7C	11	アドルフ・	Adolf	
+credits:248EF0	text	ref:000D8C,000ECC	15	フランシスカ	Francisca	
+credits:248F00	text	ref:000DB4	7	署長	Chief	
+credits:248F08	text	ref:000E08	19	コウゾウ・スミタ	Kozo Sumita	
+credits:248F1C	text	ref:000EB8	11	市長の娘	The Mayor's Daughter	
+credits:248F28	text	ref:000EBC	11	リアナ・	Riana	
+credits:248F34	text	ref:000EDC	19	ペータ・カワモト	Peta Kawamoto	
+credits:248F48	text	ref:000EF4	15	ボーイフレンド	Boyfriend	
+credits:248F58	text	ref:000F54	7	の、	Her	
+credits:248F60	text	ref:000F58	11	のつもりの	(So He Thinks)	
+credits:248F6C	text	ref:001018	7	学校	 School	
+credits:248F74	text	ref:00101C	7	教官	Instructor	
+credits:248F7C	text	ref:00102C	11	ポイヤック	Pauillac	
+credits:248F88	text	ref:001044	15	カシスの将軍	General of Cassis	
+credits:248F98	text	ref:001098	11	モーデル	Mordel	
+credits:248FA4	text	ref:001110,001130	11	ポリステカ	Polisteka	
+credits:248FB0	text	ref:001120	15	”サンナナ”	"Sannana"	
+credits:248FC0	text	ref:001148	11	”ジロー”	"Jiro"	
+credits:248FCC	text	ref:00119C	11	冥福を祈る	Rest in Peace	
+credits:248FD8	text	ref:001234	15	アプリコット	Apricot's	line 1 of 2 (next: Workteka)
+credits:248FE8	text	ref:001244,001264	15	のワークテカ	Workteka	
+credits:248FF8	text	ref:001254	15	フランボワーズ	Framboise's	line 1 of 2 (next: Workteka)
+credits:249008	text	ref:001274	11	カシスの	Cassis's	
+credits:249014	text	ref:00128C	11	ワークテカ	Workteka	
+credits:249020	text	ref:0012E0	7	以下略	...and the rest	
+credits:249028	text	ref:00135C	15	天才工学博士	Genius Engineer	
+credits:249038	text	ref:001374	11	ゲオルグ・	Dr. Georg	
+credits:249044	text	ref:0013C8	11	ウエンツ	Wentz	
+credits:249050	text	ref:00147C	11	リヒター	Richter	
+credits:24905C	text	ref:0014F0	7	保母	Teacher	
+credits:249064	text	ref:001544	7	エミコ	Emiko	
+credits:24906C	text	ref:0015BC	11	スタッフ	Staff	
+credits:249078	text	ref:0015E4	15	プロデューサー	Producer	
+credits:249088	text	ref:0015FC	11	大友貴司	Takashi Otomo	
+credits:249094	text	ref:001694	15	ディレクター	Director	
+credits:2490A4	text	ref:0016F8	11	真岡　公	Kohei Maoka	
+credits:2490B0	text	ref:0016FC	3	平	{none}	
+credits:2490B4	text	ref:001764	3	ゲ	{none}	
+credits:2490B8	text	ref:001768	3	｜	{none}	
+credits:2490BC	text	ref:00176C,0018D8	3	ム	{none}	
+credits:2490C0	text	ref:001770	3	デ	Game Design	
+credits:2490C4	text	ref:001774	3	ザ	{none}	
+credits:2490C8	text	ref:0017C8	15	イン　雲母星彦	Hoshihiko Kirara	
+credits:2490D8	text	ref:001800	15	キャラクター	Character	
+credits:2490E8	text	ref:001880	11	デザイン	Design	
+credits:2490F4	text	ref:001884	3	西	Shinji	
+credits:2490F8	text	ref:001888	3	川	Nishikawa	
+credits:2490FC	text	ref:00188C	3	伸	{none}	
+credits:249100	text	ref:001890	3	司	{none}	
+credits:249104	text	ref:0018D4	11	プログラ	Programming	
+credits:249110	text	ref:001940	3	中	Hiroichi	
+credits:249114	text	ref:001944	3	山	Nakayama	
+credits:249118	text	ref:001948	11	ひろいち	{none}	
+credits:249124	text	ref:0019D8	3	プ	Programming	
+credits:249128	text	ref:0019DC	3	ロ	{none}	
+credits:24912C	text	ref:0019E0	11	グラム森俊	Toshiki Mori	
+credits:249138	text	ref:0019E4	3	樹	{none}	
+credits:24913C	text	ref:001A3C,001BA4	3	グ	Graphics	
+credits:249140	text	ref:001A40,001BA8	3	ラ	{none}	
+credits:249144	text	ref:001A44,001BAC	3	フ	{none}	
+credits:249148	text	ref:001A48,001BB0	7	ィック	{none}	
+credits:249150	text	ref:001AB0	3	東	Satoru Higashida	
+credits:249154	text	ref:001AB4	3	田	{none}	
+credits:249158	text	ref:001AB8	3	悟	{none}	
+credits:24915C	text	ref:001B48	3	音	Music	
+credits:249160	text	ref:001B4C	3	楽	{none}	
+credits:249164	text	ref:001B50	11	山本　秀樹	Hideki Yamamoto	
+credits:249170	text	ref:001B54	3	♪		kept: a symbol, drawn by the original font glyph (no English needed)
+credits:249174	text	ref:001BC0	11	寺沢　耕一	Koichi Terasawa	
+credits:249180	text	ref:001BD8	19	グラフィック　中田	Graphics Tomoko Nakata	
+credits:249194	text	ref:001C34	3	智	{none}	
+credits:249198	text	ref:001C38	3	子	{none}	
+credits:24919C	text	ref:001C6C	15	グラフィック	Graphics	
+credits:2491AC	text	ref:001C90	11	兼子　睦郎	Mutsuro Kaneko	
+credits:2491B8	text	ref:001C94	7	ひで	Hide	
+credits:2491C0	text	ref:001CE4	15	佐賀野　仁志	Hitoshi Sagano	
+credits:2491D0	text	ref:001D18	19	ＰＤ　　札場　哲	PD  Satoshi Fudaba	
+credits:2491E4	text	ref:001D48	3	宣	Publicity	
+credits:2491E8	text	ref:001D4C	3	伝	{none}	
+credits:2491EC	text	ref:001D50	7	広報	{none}	
+credits:2491F4	text	ref:001DA0	15	ローリー鈴木	Rolly Suzuki	
+credits:249204	text	ref:001E00	3	脚	Scenario	
+credits:249208	text	ref:001E04	3	本	{none}	
+credits:24920C	text	ref:001E08	7	高岡	Akira	
+credits:249214	text	ref:001E0C	3	明	Takaoka	
+credits:249218	text	ref:001E98	23	Ｔｈｅ　Ｅｎｄ　ｏｆ	The End of	
+credits:249230	text	ref:001EA8,002364	19	トイロボフォース	Toyrobo Force	
+credits:249244	text	ref:001EC0	11	製作著作	Produced by	
+credits:249250	text	ref:002200	7	Ａｎｄ	And	
+credits:249258	text	ref:002300	7	Ｉｎ	In	
 strings:249298	text	ref:008DE4	11	ライフ：	Life:	
 strings:2492A4	text	ref:008DE8	7	右：	Right:	
 strings:2492AC	text	ref:008DEC	7	左：	Left:	
 strings:2492B4	text	ref:008E30	7	コプ：	Cop:	
-strings:2492BC	text	ref:008E34	7	ＯＰ	Option	
-strings:2492C4	text	ref:008E38	3	：	:	
+strings:2492BC	text	ref:008E34	7	ＯＰ	Opt:	info panel label, 2 cells like the JP (an abbreviation there too); colon piece below is {none} (D12)
+strings:2492C4	text	ref:008E38	3	：	{none}	colon is in the "Opt:" label (2492BC)
 strings:2492C8	text	ref:008ED4,008FF0,009030,0090D4,009114	3	%d	%d	
 strings:2492CC	text	ref:008F50	7	＋対炎	+Fire	
 strings:2492D4	text	ref:008F58	7	＋対光	+Laser	
@@ -115,17 +115,17 @@ strings:2492E7	data	ref:0095C4	4	[0A][FF][FF]		binary data read by code at 0x95C
 strings:2492EC	text	ref:00978C	15	ボディ名：%s	Body: %s	
 strings:2492FC	text	ref:009794	15	{br}ライフ：%d	{br}Life: %d	
 strings:24930C	text	ref:009798	27	{br}１ライフのメンテ費：%d	{br}Maintenance per Life: %d	
-strings:249328	text	ref:0097C0	11	右腕名：%s	Right: %s	
+strings:249328	text	ref:0097C0	11	右腕名：%s	Right Arm: %s	relocated by the build (D12)
 strings:249334	text	ref:0097C8,0098C0	11	{br}パワー%d	{br}Power %d	
 strings:249340	text	ref:0097DC,0098D4	15	{br}パワー　%d	{br}Power  %d	
 strings:249350	text	ref:009808,009900	15	{br}パワー　　%d	{br}Power   %d	
 strings:249360	text	ref:009814,00990C	11	%dＷＡＹ	%d-Way	
 strings:24936C	text	ref:009850,009948	11	　%dＷＡＹ	%d-Way	
-strings:249378	text	ref:009858,009950	7	%d連射	%d-Hit	
+strings:249378	text	ref:009858,009950	7	%d連射	%d-Shot Burst	relocated by the build (D12)
 strings:249380	text	ref:009860,009958	23	{br}チャージ費：%d×%d	{br}Charge Cost: %dx%d	
 strings:249398	text	ref:009878,009970	23	{br}チャージ費：　%d×%d	{br}Charge Cost:  %dx%d	
 strings:2493B0	text	ref:00988C,009984	27	{br}チャージ費：　　%d×%d	{br}Charge Cost:   %dx%d	
-strings:2493CC	text	ref:0098B8	11	左腕名：%s	Left: %s	
+strings:2493CC	text	ref:0098B8	11	左腕名：%s	Left Arm: %s	relocated by the build (D12)
 strings:2493D8	text	ref:0099BC	15	パソコプ名：%s	Pasocop: %s	
 strings:2493E8	text	ref:0099C4	15	{br}スピード：%d	{br}Speed: %d	
 strings:2493F8	text	ref:0099F0	11	ＯＰ名：%s	Option: %s	
@@ -133,12 +133,12 @@ strings:249404	text	ref:009A24	19	{br}ライフ最大値＋１	{br}Max Life +1
 strings:249418	text	ref:009A2C	19	{br}炎をはねかえす	{br}Reflects fire	
 strings:24942C	text	ref:009A34	23	{br}レーザーをはねかえす	{br}Reflects lasers	
 strings:249444	text	ref:009A3C	23	{br}対空地雷にうたれない	{br}Immune to air mines	
-strings:24945C	text	ref:009A44	19	{br}右腕のパワー＋５	{br}Right power +5	
+strings:24945C	text	ref:009A44	19	{br}右腕のパワー＋５	{br}Right arm power +5	relocated by the build (D12)
 strings:249470	text	ref:009A4C	23	{br}右腕のチャージ数×２	{br}Right arm charges x2	
-strings:249488	text	ref:009A54	19	{br}左腕のパワー＋５	{br}Left power +5	
+strings:249488	text	ref:009A54	19	{br}左腕のパワー＋５	{br}Left arm power +5	relocated by the build (D12)
 strings:24949C	text	ref:009A64	23	{br}左腕のチャージ数×２	{br}Left arm charges x2	
 strings:2494B4	text	ref:009A80	23	{br}スピードがあがる	{br}Speed goes up	
-strings:2494CC	text	ref:00B6AC	15	００月００日		
+strings:2494CC	text	ref:00B6AC	15	００月００日	００／００　	SJIS on purpose (tools/windows.py SJIS): code fills the digits; reads MM/DD
 strings:2494DC	data	ref:010058	143	これはe乱数xテーsブyルでsすがu、t果eたbしてrこれdで良sいh物かu？kユウキ「これはシナリオテストだから{br}顔窓もサイズが変わります。見納めさね。」＠		debug random-number table (its own text says so) interleaved with test text; read as bytes
 strings:24956C	data	ref:00DD78,0103CC,010440	15	toyroboforce		save signature 'toyroboforce', compared byte for byte by the save code
 strings:24957C	text	ref:00DD7C	23	日誌%d　　きろくなし	Log %d  No record	

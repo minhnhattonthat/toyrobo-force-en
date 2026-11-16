@@ -9,3 +9,6 @@ run while any line is unticked.
 - [ ] dlg:0219, dlg:0224, dlg:0248 - repeated "Sortieing" is ungainly; "Heading out without telling the Instructor?"
 - [ ] choice:57, choice:60 - "Mass drowning at sea" reads as an incident, not a deliberate act (who jumps: check the scene)
 - [x] dlg:1258, 1261, 1263, 1266, 1335, 1337, 1339, 1341 - speaker "Chief:" vs "Chief Sumita:" - waived: JP label is 署長 alone, "Chief" is its glossary form; スミタ署長 rows already read "Chief Sumita:"
+
+## Phase 7
+- [ ] info panel arm row: "Air Gun ( 2)" vs "Tear Gas( 3)" - an odd-length name gets a pad space before "(", an even one none (format strings:2492DC "%s(" is shared; a fix needs the name padded at runtime)

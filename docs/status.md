@@ -2,21 +2,17 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check: start here. Phase 6 is done (all text rows but the credits pieces and the
-  date template have `en`; batch check + lint 0 errors; reviewer pass clean, see Done).
-- **Phase 7 to-do:**
-  1. Credits: the cast/staff pieces (`credits:248E50`-`249258`, 100 rows) are code-placed fragments (single kana
-     like `ゲ` `｜` `ム`, each with its own literal; `docs/re/text.md`). The English cards are in
-     `docs/credits-en.md`: relocate each line's string into the expanded ROM and rewrite its literal (pieces shared
-     by two screens listed there). The ending report (credits:248D44) is already English and checked in-game.
-  2. strings:2494CC `００月００日` stays JP: code at 0x0800B580 copies it to the stack, adds to bytes 1/3/7/9
-     (full-width digit low bytes) and draws 6 cells. Patch the template to `００／００　` (JP glyphs) or rewrite it.
-  3. Fit compromises (D4: engine first): status panel "Right: %s"/"Left: %s" (room 11 B, wanted "Right Arm: %s"),
-     "%d-Hit" (7 B), "Right/Left power +5", "Cop:" (7 B, wanted "Pasocop:"), "+Fire"/"+Laser" (7 B, wanted
-     "+Fire Resistance"/"+Laser Resistance", reviewer flagged as ambiguous); items window 14 letters: Air/Land Power
-     Up, Air/Land Bullets, parts "Ground Shotgun". Relocating those strings would let the full names back in.
-  4. Then the phase 7 checks (`references/pipeline.md` §Checks): lint clean, codes matched, `romdiff.py` no writes
-     outside allowed ranges.
+- **Phase:** 8. QA in the emulator: start here. Phase 7 is done (see Done).
+- **Phase 8 to-do** (`references/emulator-qa.md`, done-when in the skill's phase table):
+  1. Smoke + `tools/debug/warp_all.py` tour of all 98 scenes on the English build; visual-QA verdict per sheet
+     (`qa_gate.py`): no nested workers in Orca, so do it in a fresh read-only pass yourself or with `codex exec`
+     (D11) and write the verdicts.
+  2. Part-detail strings relocated in phase 7 ("Right Arm: %s", "Left Arm: %s", "%d-Shot Burst", "{br}Right/Left
+     arm power +5", refs 0x97xx-0x9Axx): find the screen that shows them (a part's detail view in the factory or
+     a shop; `factory_maint` only shows "It doesn't seem to need maintenance...") and confirm they fit.
+  3. Graphics text (G1-G17 in `docs/re/graphics.md`, incl. the title menu, section cards, game over): redraw in
+     English (`references/graphics.md`), zoomed cold-boot shot of each.
+  4. `inkbox.py` on choice/centred boxes, `textcover.py` exit 0.
   No subagents in Orca runs: work in the main thread and hand back at ~150k context.
 - **Done:**
   - Step 0: repo set up (rom.sha1 pinned, `tools/check.py` + pre-commit gate proven to reject a failing test, guard
@@ -67,11 +63,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     reviews (rep_A-J.md: 3 Critical, 59 Important, ~50 Minor) -> 142 rows fixed (batches b900-b902, merged
     --overwrite incl. same-JP copies); re-review of every changed row (rep_R2) -> 6 more fixes -> rep_R3 Approved.
     Remaining Minors in `docs/polish.md`. Glossary voices updated (Blank hesitant, Georg old-man register).
-- **Next:** phase 7 (above). Known engine follow-ups for phase 7:
-  status-panel labels and save-menu labels have 2-16 bytes of room (strings pointed at from code literal pools,
-  `where` = ref:): grow by relocating the string + rewriting its literal (keep 0x2494C8 an empty string); credits
-  pieces likewise (layout work). Link/swap prompts are fixed width (build pads with spaces). Text inside LZ blocks
-  and all G-rows above are graphics (phase 8).
+  - Phase 6 review fixes (`.harness/reviews/toyrobo-force-en-phase6.md`): Georg voice ruled restrained (D10), all
+    135 of his rows re-read, 71 revised; 8 Blank rows; codex voice review with the style reference + synopsis
+    (`docs/reviews/voice-blank-georg.md`: Approved, 3 Minors applied). Kanji honorifics 君/様 in the batch check
+    (waiver: a row's notes "no honorific ..."). Translator brief + `docs/review-prompt.md` read lists and report
+    format; `tools/review.sh` (codex reviews, D11); D12 short labels.
+  - Phase 7: credits in English (`docs/credits-en.md` §How it was fitted): strings longer than their room are
+    moved to `engine.NEW_STRINGS` (0x4E0000) with every pointer word rewritten (`windows.relocatable`, lint caps
+    credits 22 / panel 29 letters); `{none}` = empty piece; `engine.CREDIT_POS` moves 10 pieces on the 18-cell
+    grid (`tools/credits_pos.py`). Date template `００／００　` (SJIS row, `windows.SJIS`). D12 labels grown.
+    Old dialogue slots cleared after the move. `tests/test_build.py`: romdiff clean, every write in an allowed
+    range, relocated strings reached by every pointer word and by no stale one; build refuses a run that inserts
+    fewer rows than have English. `jp_left.py --sjis --gba-ptrs` on the build: 0 Japanese runs. Only JP left on purpose: the ♪
+    credits piece (a symbol) and graphics text (phase 8).
+    Cast and staff checked in-game (`work/qa/end_en`, warp `ending`). Robot info panel fixed in-game
+    (`work/qa/info_en`): labels had run into values ("RighAir Gun", "Opti:"); arm names moved to col 4, "Opt:",
+    parts cap 14 (3 parts renamed, D12). Last build sha1 8d061f90, smoke ok.
+- **Next:** phase 8 (above). Any `ref:` string can now grow: give it the English, the build relocates it (lint
+  caps it by screen width in `windows.RELOC_CAP`). Link/swap prompts are fixed width (build pads with spaces).
+  Text inside LZ blocks and all G-rows are graphics (phase 8). Emulator runs: never build while one is open; one
+  `ending` run stopped at f4620 (exit 1, cause unknown) and the rerun was clean, so rerun once before debugging.
 - **Debug tool limits:** mid-section warps keep the previous screen's tiles until the script loads a map (choice
   boxes show over black); facility1-5 all show the same workshop menu; no GOD mode (robot life address not found;
   WIN=1 covers battle end screens); the two-player battle itself needs a link partner (only its menu is reached).

@@ -56,7 +56,9 @@ class Slots:
 
     def relocate(self, base, size, limit):
         """Pack to `count` slots of `size` bytes at `base` instead (the engine patch points the reader there);
-        each text at most `limit` bytes. The original slots are left as they are."""
+        each text at most `limit` bytes. The original slots are cleared to NUL (no reader is left: the engine
+        rewrites the only literal), so no stale Japanese stays in the ROM for jp_left.py to find."""
+        self.old_span = self.span
         self.out_base, self.out_size, self.limit = base, size, limit
         self.span = (base, base + self.count * size)
 
@@ -72,6 +74,9 @@ class Slots:
     def pack(self, texts, out):
         if len(texts) != self.count:
             raise ValueError(f"{self.name}: {len(texts)} slots, want {self.count}")
+        if getattr(self, "old_span", None):
+            lo, hi = self.old_span
+            out.write(lo, bytes(hi - lo), f"{self.name}: old slots cleared")
         for k, t in enumerate(texts):
             if len(t) > self.limit:
                 raise ValueError(f"{self.name} slot {k}: {len(t)} bytes, max {self.limit}")
@@ -236,7 +241,9 @@ LZ_OFFSETS = (
 
 def spans(unit):
     """The byte ranges a unit owns (LZBlocks: one per block, known after unpack)."""
-    return unit.spans if hasattr(unit, "spans") else [unit.span]
+    if hasattr(unit, "spans"):
+        return unit.spans
+    return [unit.span] + ([unit.old_span] if getattr(unit, "old_span", None) else [])
 
 
 def make_units():

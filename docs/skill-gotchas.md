@@ -1,6 +1,12 @@
 # Skill gotchas
 
 One line per gotcha: the reference file it belongs in, then the fact.
+- references/pipeline.md §Repo layout: editing a TSV row with Claude Code's Edit tool drops trailing tabs when the
+  edit reaches the line end (empty `notes` column) and the loader then fails on 6 columns; give the row a note or
+  keep the edit away from the line end.
+- references/pipeline.md §Checks (GBA): code-placed credits pieces on this engine are positioned by a `movs r2,#pos`
+  before each draw call (cell index in a fixed-width grid), and a piece drawn later on the same row cuts off a
+  longer earlier one: list positions with a small scanner (`tools/credits_pos.py`) before writing the English.
 
 - references/setup.md: `fetch_emu.py gba-bios` returned HTTP 404 from retrobios (path `Nintendo/Game%20Boy%20Advance/gba_bios.bin`) on 2026-11-17; copied the same file (SHA-1 300c20df...) from a sibling repo instead.
 - SKILL.md Step 0: the plugin guard hook did not load in this session (canary not blocked) until the hooks block was added to .claude/settings.json with the marketplace path.

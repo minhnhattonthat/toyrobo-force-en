@@ -32,13 +32,25 @@ def errors(files):
             if r["kind"] != "text":
                 out.append(f"{where}: kind {r['kind']} must not have an en")
                 continue
+            if r["id"] in windows.SJIS:  # Japanese-table row: same byte length as the jp, digits where the jp's are
+                raw, orig = text.encode(en), text.encode(jp)
+                if len(raw) != len(orig) or any(raw[i:i + 2] != orig[i:i + 2]
+                                                for i in range(0, len(orig), 2) if orig[i:i + 2] == b"\x82\x4f"):
+                    out.append(f"{where}: must keep the jp's length and its full-width 0 digits in place")
+                continue
             enc = engine.Encoder()
             v = windows.VARIANTS[windows.variant(r["id"])]
             try:
                 items = enc.cells(en, **windows.wrap_args(r["id"]))
                 enc.assign()
                 n = len(enc.encode(items))
-                if n > int(r["max"]):
+                if n > int(r["max"]) and windows.relocatable(r):  # the build moves it; the screen is the limit
+                    cap = windows.RELOC_CAP[r["id"].partition(":")[0]]
+                    wide = max(engine._width(re.sub(r"%s", "s" * 18, re.sub(r"%0?\d*d", "d" * 5, line)))
+                               for line in en.split("{br}"))
+                    if wide > cap:
+                        out.append(f"{where}: a line of {wide} letters (a %s counts 18, a %d 5), screen {cap}")
+                elif n > int(r["max"]):
                     out.append(f"{where}: {n} bytes, max {r['max']}")
                 if v["cap"] and n > v["cap"]:
                     out.append(f"{where}: {n} letters, the {windows.variant(r['id'])} window shows {v['cap']}")
@@ -48,7 +60,8 @@ def errors(files):
                 out.append(f"{where}: {e}")
             if CODES.findall(en) != CODES.findall(jp):
                 out.append(f"{where}: control codes {CODES.findall(en)} != jp {CODES.findall(jp)}")
-            if en != en.strip(" "):
+            # a credits piece drawn right after another on the same line starts with the space between them
+            if en != en.strip(" ") and not (r["id"].startswith("credits:") and en == " " + en.strip(" ")):
                 out.append(f"{where}: leading or trailing space")
     return out
 

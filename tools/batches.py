@@ -27,7 +27,7 @@ MAX_ENTRIES = 150
 
 # ---- ADAPTER: this game's text format ----
 TOKEN = re.compile(r"\{[^}\n]*\}|%0?\d*[ds]")  # control codes and printf fields; must survive translation
-FREE = {"{br}"}  # layout codes the English may place freely (the build word-wraps)
+FREE = {"{br}", "{none}"}  # layout codes the English may place freely (the build word-wraps; {none} = empty piece)
 VARIABLE = r"%0?\d*d"  # a number the game draws: "1st" comes out as "1th"
 HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan", "君": "-kun", "様": "-sama"}  # checked only right after a katakana name (行くんだ, 保母さん are not)
 SPEAKER =re.compile(r"^(?:\{[^}]*\})*([^「{]{1,12})「")
@@ -113,6 +113,8 @@ def problems(entry, en, terms):
     jp = entry["jp"]
     if not en.strip():
         return ["empty English"]
+    if entry.get("id") in windows.SJIS:  # written with the Japanese table; lint checks it
+        return width_problems(entry, en)
     out = []
     plain = TOKEN.sub("", en)
     if bad := sorted({c for c in plain if not encodable(c) and c != "\n"}):

@@ -25,7 +25,7 @@ parts_a:15	text	@3937E0	21	シューマイザー	Shumaizer
 parts_a:16	text	@393800	21	クラッカー	Party Cracker	
 parts_a:17	text	@393820	21	トライバズーカ	Tri-Bazooka	
 parts_a:18	text	@393840	21	ダイモン	Daimon	
-parts_a:19	text	@393860	21	ガンオブロード	Gun of the Lord	
+parts_a:19	text	@393860	21	ガンオブロード	Lord's Gun	info panel: arm part names fit 14 letters after "Right: " (D12)
 parts_a:20	text	@393880	21	ファインレーザー	Fine Laser	
 parts_a:21	text	@3938A0	21	パルスレーザー	Pulse Laser	
 parts_a:22	text	@3938C0	21	バズーカ	Bazooka	
@@ -47,8 +47,8 @@ parts_a:37	text	@393AA0	21	サラマンダ	Salamander
 parts_a:38	text	@393AC0	21	スワローレーザー	Swallow Laser	
 parts_b:1	text	@393B00	21	パンプキンボム	Pumpkin Bomb	
 parts_b:2	text	@393B20	21	ニンジンミッソー	Carrot Missile	
-parts_b:3	text	@393B40	21	小銭バルカン	Pocket Change Gun	
-parts_b:4	text	@393B60	21	火炎ビン	Molotov Cocktail	
+parts_b:3	text	@393B40	21	小銭バルカン	Coin Vulcan	info panel: "Right: name( n)" must end by col 13 (D12)
+parts_b:4	text	@393B60	21	火炎ビン	Firebomb	火炎ビン; info panel: arm part names fit 14 letters after "Left: " (D12)
 parts_b:5	text	@393B80	21	スカットミサイル	Scud Missile	
 parts_b:6	text	@393BA0	21	カネホーク	Moneyhawk	
 parts_b:7	text	@393BC0	21	ブロックバスター	Blockbuster	

@@ -31,6 +31,8 @@ GLYPH = 26
 NEW_DIALOGUE = 0x400000      # 2927 slots x 256 bytes
 DIALOGUE_SLOT = 0x100
 NEW_FONT = 0x4B7000
+NEW_STRINGS = 0x4E0000       # strings relocated out of the credits/strings regions (past the largest font table)
+NEW_STRINGS_END = 0x4F0000
 DIALOGUE_BUFFER = 150        # 0x030026C0..0x03002756: the opcode copies the slot here (strcpy at 0x0800B1A8)
 LINE_CELLS = 20              # dialogue: {br} rounds the cell counter up to the next multiple of 20
 
@@ -44,6 +46,7 @@ LIT_FONT_GLYPH = (0x10948, 0x1EA1C, 0x1F218, 0x21DC8)  # =0x083F9596, glyph data
 # '@' = the ending report's raw 0x40 byte (drawn as nothing in JP), passed through untouched
 TOKEN = re.compile(r"\{(?:br|wait|spk:\d\d|face:\d{5})\}|%0?\d*[ds]|@")
 SPACE_PAIR = 0x8140
+NONE = "{none}"              # a row's whole `en`: write an empty string (draws nothing)
 
 
 def _codes():
@@ -102,7 +105,10 @@ class Encoder:
         """Split English text into items: 2-letter str cells and raw bytes (tokens). `wrap` = letters per line:
         word-wrap every paragraph and emit {br} between lines, except after a full line (the game's own wrap
         takes it there; a {br} would add a blank line). pad: end short lines with spaces up to `wrap` instead of
-        {br} (windows that wrap by cell count only, like the part descriptions)."""
+        {br} (windows that wrap by cell count only, like the part descriptions). The whole text `{none}` is an
+        empty string on purpose (a credits piece whose line moved to another piece): no items."""
+        if text == NONE:
+            return []
         if wrap:
             paras = text.split("{br}")
             text = ""
@@ -172,12 +178,57 @@ def expand(out):
         out.write(len(out.data), b"\xff" * (ROM_SIZE - len(out.data)), "engine: expand to 8 MiB")
 
 
+# Pieces moved on screen (credits, info panel): (offset of the `movs r2,#pos` before the draw call, old pos, new
+# pos, why).
+# pos = row * 18 + column in the credits text grid (tools/credits_pos.py lists every piece). A piece drawn after a
+# longer neighbour on its row cuts that neighbour off at its own column, so a split name keeps both pieces and the
+# second one moves to where the first now ends.
+CREDIT_POS = (
+    (0x0A28, 66, 64, "Senior Officer: col 12 -> 10, under Apricot Police (14 letters ran off the screen)"),
+    (0x0D88, 23, 21, "Adolf | Francisca: col 5 -> 3"),
+    (0x0EC8, 27, 26, "Riana | Francisca: col 9 -> 8"),
+    (0x0DA8, 106, 116, "Chief: (5,16) -> its own row (6,8), under Apricot Police"),
+    (0x0DC0, 116, 134, "Kozo Sumita: (6,8) -> (7,8), under Chief"),
+    (0x1008, 9, 8, "Apricot Police | School: col 9 -> 8"),
+    (0x180C, 28, 27, "Character | Design: col 10 -> 9"),
+    (0x0F0C, 115, 113, "(So He Thinks): col 7 -> 5, clear of Peta's portrait"),
+    (0x1A54, 47, 78, "Satoru Higashida: beside Graphics (2,11) -> two rows under it (4,6)"),
+    (0x1BBC, 116, 94, "Koichi Terasawa: (6,8) -> (5,4), two rows under Graphics"),
+    # robot info panel (14-cell grid): the arm part name starts 2 cells after 右：/左：; "Right: " takes 3.5, so
+    # names start at col 4 (aligned with the Life value) and may be 14 letters: name + "( " + digit + ")" ends col 13
+    (0x8FA6, 0x1E, 0x20, "info panel: right arm part name col 2 -> 4"),
+    (0x908A, 0x2C, 0x2E, "info panel: left arm part name col 2 -> 4"),
+)
+
+
+def move_credits(out):
+    for off, old, new, why in CREDIT_POS:
+        if out.orig[off:off + 2] != bytes([old, 0x22]):
+            raise ValueError(f"engine: {off:06X} is not movs r2,#{old} (wrong ROM?)")
+        out.write(off, bytes([new, 0x22]), f"engine: credits {why}")
+
+
+def relocate_strings(out, moved):
+    """Write each moved string (old file offset, pointer-word offsets, encoded bytes) NUL-terminated and 4-byte
+    aligned from NEW_STRINGS, and point every one of its pointer words there. Each word must hold the old address
+    in the original ROM (a wrong `ref:` fails here, not in game)."""
+    pos = NEW_STRINGS
+    for old, refs, raw in moved:
+        if pos + len(raw) + 1 > NEW_STRINGS_END:
+            raise ValueError("relocated strings run past NEW_STRINGS_END")
+        out.write(pos, raw + b"\0", f"engine: string {old:06X} moved")
+        for ref in refs:
+            _lit(out, ref, ROM_BASE + old, ROM_BASE + pos, f"engine: pointer to string {old:06X}")
+        pos = (pos + len(raw) + 1 + 3) & ~3
+    return pos
+
+
 def patch(out, enc):
     """Engine patches on an expanded units.Rom: the new font table and its literals, the dialogue base and slot
     size (the dialogue unit itself is packed to NEW_DIALOGUE by build.py)."""
     table, count = enc.font_table(out.orig)
-    if NEW_FONT + len(table) > ROM_SIZE:
-        raise ValueError("font table runs past the ROM end")
+    if NEW_FONT + len(table) > NEW_STRINGS:
+        raise ValueError("font table runs into NEW_STRINGS")
     out.write(NEW_FONT, table, f"engine: font table ({count} glyphs)")
     _lit(out, LIT_FONT_HI, 0x34F, count - 1, "engine: font search hi")
     _lit(out, LIT_FONT_BASE, ROM_BASE + FONT, ROM_BASE + NEW_FONT, "engine: font base")

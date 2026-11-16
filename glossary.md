@@ -142,8 +142,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
   The factory/facility descs have three voices: polite (calls him "Blank-san"), Tomomi, Gilligan ("ya").
   Weapons: ニンジンミッソー Carrot Missile, スワローレーザー Swallow Laser, トライマクナム Tri-Magnum, ダイモン Daimon,
   虫よけピストル Bug Pistol, パンプキンボム Pumpkin Bomb, オサルトライフル Apesault Rifle (pun kept), カネホーク Moneyhawk,
-  小銭バルカン Pocket Change Gun; Pasocops are tank names (Elephant, Type 90, Comet, Matilda, Valentine, Christie,
-  Tiger, Firefly). 日誌 (save slot) = "Log". 連射 = "%d-Hit".
+  小銭バルカン Coin Vulcan (like キッチンバルカン Kitchen Vulcan; must fit the info panel); Pasocops are tank names
+  (Elephant, Type 90, Comet, Matilda, Valentine, Christie, Tiger, Firefly). 日誌 (save slot) = "Log".
+  連射 = "%d-Shot Burst" (part info; relocated, D12). Info panel: "Right:"/"Left:", "Cop:", "Opt:" (JP labels are
+  2-3 cells; an arm part name of up to 16 letters fits after them, `engine.CREDIT_POS`).
 - ▼ has no English glyph: dropped from descs 15-38, 63-74, 102-110 (no code compares 0x81A5; restore if phase 7
   adds the glyph).
 - ♪ and ； (sweat mark) have no English glyph: drop them or end on "!" / "...".

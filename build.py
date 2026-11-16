@@ -43,6 +43,8 @@ def pack(orig, us, datas, enc=None):
         u.pack(d, out)
     if enc:
         engine.patch(out, enc)
+        engine.relocate_strings(out, enc.moved)
+        engine.move_credits(out)
     return out
 
 
@@ -66,7 +68,9 @@ def apply_edits(us, datas, mark=False, qa=()):
     enc = engine.Encoder()
     items = {}
     for r in rows:
-        if r["en"]:
+        if r["en"] and r["id"] in windows.SJIS and not (mark and r["id"] not in over_ids):
+            items[r["id"]] = [text.encode(r["en"])]  # raw bytes pass through Encoder.encode
+        elif r["en"]:
             try:
                 # marker rows are already sized for their box; only the dialogue marker relies on the wrap
                 plain = mark and r["id"] not in over_ids and not r["id"].startswith("dlg:")
@@ -75,13 +79,21 @@ def apply_edits(us, datas, mark=False, qa=()):
                 raise SystemExit(f"{r['id']}: {e}")
     enc.assign()
 
+    moved = []  # (old offset, pointer words, bytes): strings longer than their room, written to engine.NEW_STRINGS
+
     def encode(r, _):
         raw = enc.encode(items[r["id"]])
         if r["id"].startswith(FIXED):  # fixed-width prompts: pad with full-width spaces to the jp's length
             raw += b"\x81\x40" * ((len(text.encode(r["jp"])) - len(raw)) // 2)
+        if len(raw) > int(r["max"]) and windows.relocatable(r):
+            moved.append((int(r["id"].partition(":")[2], 16), windows.refs(r), raw))
+            return b""  # the old place keeps an empty string; no pointer reaches it any more
         return raw
 
     n = text.apply(us, datas, rows, encoder=encode)
+    if n != sum(1 for r in rows if r["en"]):  # every table gets all its English (pipeline.md §Checks)
+        raise SystemExit(f"inserted {n} rows, {sum(1 for r in rows if r['en'])} have an en")
+    enc.moved = moved
     print(f"text: {n} of {sum(r['kind'] == 'text' for r in rows)} rows {'marked' if mark else 'translated'}, "
           f"{len(enc.code)} letter pairs")
     dlg = next(u for u in us if u.name == "dialogue")

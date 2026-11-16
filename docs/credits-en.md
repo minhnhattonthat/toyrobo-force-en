@@ -67,7 +67,17 @@ lines unless the code that steps the y position is kept (then one English word p
 | 製作著作 249244 (above the GLOBAL A logo, a tile graphic) | Produced by | | |
 | Ａｎｄ 249250, Ｉｎ 249258 | And / In (used by the post-game screens at ref 002200 / 002300) | | |
 
-## Fit notes for phase 7
+## How it was fitted (phase 7, done)
+- Each piece is drawn by `bl 0x080114EC` with `movs r2,#pos` just before it: `pos` = row * 18 + column of an
+  18-cell grid (12 px a cell, 2 English letters a cell; text past column 17 wraps to the next row).
+  `python -X utf8 tools/credits_pos.py` lists every piece with its row, column, JP and English.
+- Pieces longer than their room are moved by the build to `engine.NEW_STRINGS` and their literals rewritten
+  (`windows.relocatable`); `{none}` writes an empty piece (the vertical kana gags: the role sits on one row).
+- A piece drawn after a longer neighbour on the same row cuts that neighbour off at its own column ("Riana Fr"),
+  so split names keep both pieces and the second moves to where the first ends: `engine.CREDIT_POS` (10 moves).
+- Checked in-game: `work/qa/end_en` (warp `ending`, 8400 frames), cast and staff all English and on screen.
+
+## Fit notes for phase 7 (as planned)
 - Every English line above is at most 22 letters (11 cells), so a card line fits where the JP line sat; the work is
   only giving each line its own relocated string.
 - Pieces shared by two screens (`ref:` with two offsets: 248E5C x4, 248E78, 248E8C, 248EA0, 248EB0, 248EC4, 248EF0,
