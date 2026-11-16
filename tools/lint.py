@@ -2,10 +2,11 @@
 
 Checks every row with an `en`:
 - kind must be text (data rows are never translated);
-- `en` encodes with the table (no unencodable character, no unknown {control});
-- the control codes {spk:NN}, {face:NNNNN} and {wait} match the jp's, in order;
-- leading and trailing blanks (half- or full-width spaces) match the jp's.
-Byte limits are checked by the pack itself (overlong text is refused); width/overflow lint comes with phase 5.
+- `en` encodes with the English engine (tools/engine.py: every letter has a glyph, no unknown {control}) and the
+  encoded bytes fit `max` (dialogue after its word wrap to 40 letters per line);
+- the control codes {spk:NN}, {face:NNNNN} and {wait} and printf formats match the jp's, in order;
+- no leading or trailing space (layout is the wrap's job; fixed-width prompts are padded by the build).
+Box line counts and per-variant widths: docs/re/font.md (width gate).
 """
 import re
 import sys
@@ -13,14 +14,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import engine  # noqa: E402
 import text  # noqa: E402
+import windows  # noqa: E402
 
-CODES = re.compile(r"\{(?:spk:\d\d|face:\d{5}|wait)\}")
-BLANKS = " 　"
-
-
-def _edge(s):
-    return len(s) - len(s.lstrip(BLANKS)), len(s) - len(s.rstrip(BLANKS))
+CODES = re.compile(r"\{(?:spk:\d\d|face:\d{5}|wait)\}|%0?\d*[ds]")
 
 
 def errors(files):
@@ -34,14 +32,24 @@ def errors(files):
             if r["kind"] != "text":
                 out.append(f"{where}: kind {r['kind']} must not have an en")
                 continue
+            enc = engine.Encoder()
+            v = windows.VARIANTS[windows.variant(r["id"])]
             try:
-                text.encode(en)
-            except ValueError as e:
+                items = enc.cells(en, **windows.wrap_args(r["id"]))
+                enc.assign()
+                n = len(enc.encode(items))
+                if n > int(r["max"]):
+                    out.append(f"{where}: {n} bytes, max {r['max']}")
+                if v["cap"] and n > v["cap"]:
+                    out.append(f"{where}: {n} letters, the {windows.variant(r['id'])} window shows {v['cap']}")
+                if v["wrap"] and windows.lines_used(items, v["wrap"]) > v["lines"]:
+                    out.append(f"{where}: {windows.lines_used(items, v['wrap'])} lines, window has {v['lines']}")
+            except (ValueError, KeyError) as e:
                 out.append(f"{where}: {e}")
             if CODES.findall(en) != CODES.findall(jp):
                 out.append(f"{where}: control codes {CODES.findall(en)} != jp {CODES.findall(jp)}")
-            if _edge(en) != _edge(jp):
-                out.append(f"{where}: leading/trailing blanks {_edge(en)} != jp {_edge(jp)}")
+            if en != en.strip(" "):
+                out.append(f"{where}: leading or trailing space")
     return out
 
 

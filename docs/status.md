@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-17). Last build: 2026-11-17, no
-  `en` yet so identical to the original (sha1 6ef30145...), smoke ok.
+- **Phase:** 6. Translate next (phase 5 engine spike + marker build + width gate done 2026-11-17). Last build:
+  2026-11-17, no `en` yet; engine-patched 8 MiB ROM sha1 210cb716..., smoke ok. Marker ROM sha1 08ea2657...
 - **Done:**
   - Step 0: repo set up (rom.sha1 pinned, `tools/check.py` + pre-commit gate proven to reject a failing test, guard
     hook proven on the canary, own MesenCE 2.2.1 + GBA BIOS, boot route, AGENTS.md, decisions D1-D8).
@@ -34,13 +34,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Units re-split: credits/strings around a 14-pointer function table, swap prompts + their 12-pointer table at
     0x3F76A4, link prompts. `tests/test_extract.py`: TSV == fresh dump, codec roundtrip of every field, inserting
     every jp rebuilds the original ROM, row count == fields, coverage scan clean (tile-map false hits waived).
-- **Next:** phase 5 (`references/pipeline.md` §Marker, `platform-gba.md`): find the glyph draw routine (hook the
-  call from 0x0800ADD4), decide font/VWF (does it take 1-byte ASCII? 8x8 or narrower glyphs into the 16-px cells),
-  relocate dialogue to wider slots if needed (one literal at 0xA438 + `lsls #7` at 0xA42C), build `[id] marker`
-  text for every row, boot it, confirm every box shows its id, measure each box variant's width (dialogue, choice,
-  descs/status window, save menu, swap/link prompts, credits). Strings are pointed at from code literal pools
-  (`where` = ref:), so growing them needs relocation + literal rewrite (keep 0x2494C8 an empty string). Text inside
-  the LZ blocks is graphics (G-rows), not extract.
+  - Phase 5 (`docs/re/font.md`): text drawing traced (0x080109CC per char, 0x0800FC30 font search, 0x08011DD8
+    render; 12x12 1bpp font of 847 glyphs at 0x3F9594, no ASCII). English **digraph** engine (D9): two 5-px letters
+    per 12-px cell, pair glyphs generated at build time into a relocated font at 0x4B7000 (`tools/engine.py`,
+    `tools/font_en.py`); ROM expanded to 8 MiB; dialogue moved to 256-byte slots at 0x400000 (149-byte limit from
+    the 0x030026C0 message buffer). `build.py --marker [wide]`, `--qa ID=TEXT --out F`. Marker tour of all 98
+    scenes ok (`work/qa/marker/finals*.png`): every font-drawn box shows its id; what stays Japanese is tiles
+    (G4 G6 G7 G10 G14 G15 G17, proved with `tools/debug/fontcalls.lua`). Width gate in `tools/windows.py` (build
+    wrap + lint caps/lines): dialogue 40x3, choices 24, names 10, parts 18, items 14, descs 28x3 padded, help 40x3;
+    torture line ok (`docs/re/shots/`). `tests/test_engine.py`.
+- **Next:** phase 6 translate (`references/translation.md`): glossary first (names: official/earlier/Hepburn, D2),
+  then batches by `script/dialogue/sNN.tsv` with translator agents; writers get `tools/windows.py` budgets (one byte
+  per letter; dialogue 40 letters a line, 3 lines, 149 bytes incl. codes). Known engine follow-ups for phase 7:
+  status-panel labels and save-menu labels have 2-16 bytes of room (strings pointed at from code literal pools,
+  `where` = ref:): grow by relocating the string + rewriting its literal (keep 0x2494C8 an empty string); credits
+  pieces likewise (layout work). Link/swap prompts are fixed width (build pads with spaces). Text inside LZ blocks
+  and all G-rows above are graphics (phase 8).
 - **Debug tool limits:** mid-section warps keep the previous screen's tiles until the script loads a map (choice
   boxes show over black); facility1-5 all show the same workshop menu; no GOD mode (robot life address not found;
   WIN=1 covers battle end screens); the two-player battle itself needs a link partner (only its menu is reached).

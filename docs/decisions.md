@@ -14,3 +14,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-11-17 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint, report at the end. |
 | D7 | 2026-11-17 | Existing saves / savestates | user's saves, none | None provided; build the debug tool as usual. |
 | D8 | 2026-11-17 | Git identity | set, ask | Already set by new-game.ps1 (minhnhattonthat); do not change it. |
+| D9 | 2026-11-17 | English font (agent ruling under D6, no owner input needed) | half-width, digraph (2 letters per 12-px cell), VWF | Digraph: 6-px monospace letters, 40 per dialogue line, no renderer or caller changes (every text routine draws the same 12-px cells); VWF would need the renderer and 14 callers rewritten. Revisit only if a box proves too tight. |

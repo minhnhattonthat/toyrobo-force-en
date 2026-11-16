@@ -59,6 +59,9 @@ DATA = {
 }
 TABLES = ("names", "parts_a", "parts_b", "items_a", "items_b", "descs")
 REGIONS = ("credits", "strings", "swap", "prompts")
+# Dialogue limit: the engine (tools/engine.py) moves the slots to 256 bytes, but the msg opcode copies a slot into
+# a 150-byte buffer (0x030026C0, strcpy at 0x0800B1A8), so 149 bytes + NUL.
+DIALOGUE_MAX = 149
 REGION_NOTES = {
     "swap": "fixed width: pad with full-width spaces to the original length",
     "prompts": "fixed width: pad with full-width spaces to the original length",
@@ -94,11 +97,10 @@ def extract(rom):
         elif r[0] == 15:
             rec_of.setdefault(r[4], n)
             sec_of.setdefault(r[4], section)
-    slots = by["dialogue"]
     for k, raw in enumerate(datas["dialogue"]):
         where = f"rec:{rec_of[k]}" if k in rec_of else ""
         name = f"dialogue/s{sec_of.get(k, 0):02d}.tsv"
-        files.setdefault(name, []).append(_row(f"dlg:{k:04d}", where, slots.size - 1, decode(raw)))
+        files.setdefault(name, []).append(_row(f"dlg:{k:04d}", where, DIALOGUE_MAX, decode(raw)))
 
     rows = []
     for t in TABLES:
@@ -160,8 +162,9 @@ def load_all(root=SCRIPT_DIR):
             for p in sorted(root.rglob("*.tsv"))}
 
 
-def apply(us, datas, rows, field="en"):
-    """Write each row's `field` (when non-empty) into the unpacked unit data in place. Returns the count."""
+def apply(us, datas, rows, field="en", encoder=None):
+    """Write each row's `field` (when non-empty) into the unpacked unit data in place. Returns the count.
+    `encoder(row, text) -> bytes` (default: the Japanese table, `encode`); build.py passes the English engine's."""
     idx = {u.name: i for i, u in enumerate(us)}
     region_pos = {}
     n = 0
@@ -171,7 +174,9 @@ def apply(us, datas, rows, field="en"):
             continue
         if r["kind"] != "text":
             raise ValueError(f"{r['id']}: kind {r['kind']} must not be translated")
-        raw = encode(text)
+        raw = encoder(r, text) if encoder else encode(text)
+        if len(raw) > int(r["max"]):
+            raise ValueError(f"{r['id']}: {len(raw)} bytes, max {r['max']}")
         unit, _, key = r["id"].partition(":")
         if unit == "dlg":
             datas[idx["dialogue"]][int(key)] = raw

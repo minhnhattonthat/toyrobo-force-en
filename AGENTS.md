@@ -4,6 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Build:    `python -X utf8 build.py` -> build/toyrobo_force_en.gba (checks the dump against `rom.sha1` first)
+- Marker:   `python -X utf8 build.py --marker [wide]` (every row as `[id]` filler); `--qa ID=TEXT --out F` stress one row. Engine + box budgets: `docs/re/font.md`, `tools/windows.py`
 - Check:    `python -X utf8 tools/check.py` (unittest suite in `tests/` + lint; the pre-commit hook runs it). Hooks: `git config core.hooksPath tools/hooks` once per clone.
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/toyrobo_force_en.gba --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/toyrobo_force_en.gba --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 2200 --shot-every 100 --sheet` (warp lands ~frame 1422; scenes: `tools/debug/scenes.gba.txt`; `--var REC=<record>` for any record, `--var WIN=1` wins every battle; never ask the user to play to a scene). All scenes + proof sheet: `python -X utf8 tools/debug/warp_all.py [ROM] [--only a,b] [--states]` -> `work/qa/warp_all/finals*.png`. Script/RAM notes: `docs/re/script.md`.

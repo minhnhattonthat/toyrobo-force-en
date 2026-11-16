@@ -16,8 +16,8 @@ time from the font by the text engine (handled by script work, not graphics).
 | G3 | title copyright lines | ©2001 Global A Entertainment; © 西川伸司 キャラクターデザイン | LZ block 0x2BB0A8 | todo (credit line: "Character Design © Shinji Nishikawa") |
 | G4 | title-menu buttons | さいしょから / つづき / ふたりでたいせん | title-menu frame tiles raw at 0x2C7D6-0x2DFD7 (vramfind, verified raw match); the button lettering is among 97 tiles found nowhere raw -> compressed or composed at run time from the font (no SJIS copy of ふたりでたいせん exists) | todo |
 | G5 | intro katakana logo トイロボフォース | トイロボフォース | raw ~0x0FE800-0x100800 (sweep, guess); also LZ 0x2BB0A8 | todo (no official English logo; D5 says translate since only the Latin title logo is official) |
-| G6 | map location banner | 警察学校 (and every other map location) | framed banner on the town map, glyphs look like the 12px font: likely font-drawn; no spaced SJIS copy found | todo (confirm source in phase 5) |
-| G7 | chapter card | 序　訓練 (one per chapter) | over the robot intro screen; likely font-drawn (訓練 exists in SJIS in slot text) | todo (confirm per chapter with the debug tool) |
+| G6 | map location banner | 警察学校 (and every other map location) | framed banner on the town map. **Tiles, not text** (verified phase 5: stays Japanese in the marker build and `tools/debug/fontcalls.lua` logs no font lookup while it draws, warp `map_location`); source tiles not traced | todo (redraw, phase 8) |
+| G7 | chapter card | 序　訓練 (one per chapter) | over the robot intro screen. **Tiles, not text** (verified phase 5: Japanese on all 24 section cards in the marker build, no font lookup while sec05's card draws; "第二章" exists nowhere as SJIS) | todo (redraw, phase 8) |
 | G8 | battle start/countdown | かまえ, GO, countdown digits | raw ~0x13C000 (かまえ), ~0x139800 (GO) | todo (かまえ) |
 | G9 | battle HUD labels | LIFE, LV(?), Latin fragments | raw ~0x062800, ~0x0B9000, ~0x13E000 | ok (Latin) |
 | G10 | battle-result speech balloons | どんなもんです♪ / むりはできませんし / すみません… / よーし。やったね♪ / しょうがないわね / ま、こんなもんだな / しょうがねえな | LZ block 0x2BC310 | todo |
@@ -28,7 +28,7 @@ time from the font by the text engine (handled by script work, not graphics).
 | G14 | sortie report (battle end) | 出撃報告書, 任務, 完了 / 失敗(?), 成果, 以上, 評価 (+ rank letter) | warp `battle_win` / `battle_lose`; source not traced | todo |
 | G15 | facility menu buttons | Ⓐメンテ Ⓑもどる Ⓡじょうほう, PRESS, zit (money unit) | warp `factory`, `facility1-5` (all show the same workshop menu) | todo (PRESS/zit Latin: ok) |
 | G16 | save prompt label | SELECT tag over セーブする/セーブしない | warp `save_confirm` | ok (Latin); the menu text is font |
-| G17 | chapter card subtitle | 第二話　ぼうそう幼稚園 (one per section, 24) + katakana logo G5 | warp `sec00`-`sec23`; card text looks font-drawn | todo (confirm source in phase 5) |
+| G17 | chapter card subtitle | 第二話　ぼうそう幼稚園 (one per section, 24) + katakana logo G5 | warp `sec00`-`sec23`; **tiles, not text** (same evidence as G7) | todo (redraw, phase 8) |
 
 ## Toured with the debug tool (phase 2; proof sheets `work/qa/warp_all/finals*.png`)
 Every section card (sec00-sec23), title menu / Continue (load: 日誌1-4 きろくなし) / two-player menu, save screen and

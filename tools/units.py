@@ -51,7 +51,14 @@ class Slots:
 
     def __init__(self, name, base, count, size):
         self.name, self.base, self.count, self.size = name, base, count, size
+        self.out_base, self.out_size, self.limit = base, size, size - 1
         self.span = (base, base + count * size)
+
+    def relocate(self, base, size, limit):
+        """Pack to `count` slots of `size` bytes at `base` instead (the engine patch points the reader there);
+        each text at most `limit` bytes. The original slots are left as they are."""
+        self.out_base, self.out_size, self.limit = base, size, limit
+        self.span = (base, base + self.count * size)
 
     def unpack(self, rom):
         out = []
@@ -66,9 +73,9 @@ class Slots:
         if len(texts) != self.count:
             raise ValueError(f"{self.name}: {len(texts)} slots, want {self.count}")
         for k, t in enumerate(texts):
-            if len(t) >= self.size:
-                raise ValueError(f"{self.name} slot {k}: {len(t)} bytes, max {self.size - 1}")
-            out.write(self.base + k * self.size, t.ljust(self.size, b"\0"), f"{self.name}[{k}]")
+            if len(t) > self.limit:
+                raise ValueError(f"{self.name} slot {k}: {len(t)} bytes, max {self.limit}")
+            out.write(self.out_base + k * self.out_size, t.ljust(self.out_size, b"\0"), f"{self.name}[{k}]")
 
 
 class Records:

@@ -107,7 +107,7 @@ class TestExtract(unittest.TestCase):
         self.assertEqual(lint.errors(self.files), [])
         row = dict(self.files["dialogue/s01.tsv"][1])
         bad = [dict(row, en="{spk:02}Poyack: Line up!{wait}"),       # lost {face}
-               dict(row, en=row["jp"].replace("{wait}", "") + "{wait} "),  # trailing blank
+               dict(row, en="{face:10402}{spk:02}Poyack: Line up!{wait} "),  # trailing blank
                dict(row, en="{face:10402}{spk:02}{bogus}{wait}"),     # unknown control
                dict(self.files["strings.tsv"][0], kind="data", en="x")]
         self.assertEqual(len(lint.errors({"t": bad})), 4)
