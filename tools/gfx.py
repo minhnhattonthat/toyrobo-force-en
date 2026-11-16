@@ -98,6 +98,11 @@ GROUPS = {
                       # the letters' anti-aliasing is spread over every band colour, so the band is refilled flat
                       logos=[dict(rect=(26, 27, 92, 8), fill=2, text="TOYROBO FORCE",
                                   ink=0xF, shade=0xE, outline=0x1, small=True)]),
+    # G8 link-battle result banners かち / まけ: raw 4bpp sheet 32 tiles wide aligned at 0x139040 (the 3/2/1/GO!
+    # boxes are tile rows 0-9), two 128x64 banners at y 80-143: ink E (win) / B (lose), outline 1, shade 3 / 9,
+    # over a 9 band with 1 borders (y 113-135). Only shown in a two-player link battle, which the emulator can't
+    # reach: checked offline (`gfx.py preview g8`). Labels are filled in below (G8_EN).
+    "g8": dict(at=0x139040, tiles=32 * 18, cols=32, pal=None, labels=[]),
     # G10 battle-result balloons: LZ block 0x2BC310 (literal at 0x15A9C), a sheet 32 tiles wide of 80x64 balloons.
     # Rows are speakers (Blank, Tomomi, Gilligan; ink 11 / 13 / 12 on fill 1), columns win / loss / loss. Two
     # left-aligned lines at the original's text rows (24-35, 39-50 of a balloon); filled in below.
@@ -130,6 +135,16 @@ for _c, _r, _ink, _l1, _l2 in BALLOONS_EN:
     GROUPS["balloon"]["labels"] += [((_x + 6, _y + 22, 68, 30), "", 1, _ink, None, 1),
                                     ((_x + 9, _y + 23, 65, 13), _l1, 1, _ink, None, 1, dict(prop=True, left=True)),
                                     ((_x + 9, _y + 38, 65, 13), _l2, 1, _ink, None, 1, dict(prop=True, left=True))]
+
+
+G8_EN = [(0, "WIN!", 0xE, 0x3), (128, "LOSE", 0xB, 0x9)]  # (banner x, text, ink, shadow)
+for _x, _s, _ink, _sh in G8_EN:
+    GROUPS["g8"]["labels"] += [
+        ((_x, 80, 128, 64), "", 0, 0, None, 1),  # the old banner, cleared to transparent
+        ((_x + 2, 113, 124, 23), "", 1, 1, None, 1),  # band: 1 border round a 9 fill
+        ((_x + 4, 115, 120, 19), "", 9, 9, None, 1),
+        ((_x, 80, 128, 64), _s, 0, _ink, _sh, 5, dict(prop=True, outline=1, keep=True)),
+    ]
 
 
 def sprite_grid(base, sprites, w=8, h=4):
@@ -271,11 +286,14 @@ def draw(px, lab, prop=False, outline=None, left=False):
     """Draw a label; outline: an index drawn on the 8 neighbours of every ink pixel (the title sprites' style);
     left: start at the rect's left edge instead of centring. A label tuple may carry these as a 7th item (dict)."""
     (x, y, w, h), s, clear, ink, shadow, scale = lab[:6]
+    keep = False  # keep: draw over what is there (clear is ignored)
     if len(lab) > 6:
         prop, outline, left = lab[6].get("prop", prop), lab[6].get("outline", outline), lab[6].get("left", left)
+        keep = lab[6].get("keep", False)
     for yy in range(y, y + h):
         for xx in range(x, x + w):
-            px[yy][xx] = clear
+            if not keep:
+                px[yy][xx] = clear
     m = 1 if outline is not None else 0
     tw, th = text_width(s, scale, prop) + 2 * m, font_en.HEIGHT * scale + 2 * m
     if s and (tw > w or th > h):  # an empty label only clears its rect
@@ -488,6 +506,8 @@ def spans():
 
 
 def _palette(g):
+    if g["pal"] is None:  # no screen to dump a palette from: grey ramp
+        return [(v * 17, v * 17, v * 17) for v in range(16)]
     path, idx = g["pal"]
     raw = (ROOT / path).read_bytes()[idx * 32:idx * 32 + 32]
     out = []
