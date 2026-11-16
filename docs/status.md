@@ -2,9 +2,36 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (all graphics rows done but G12 unseen in game; visual-QA gate
-  green: `qa_gate.py check` exit 0 on build e43b2203; left: text coverage, part-detail strings, inkbox, G12).
-- **Latest session (build sha1 e43b2203):** visual-QA issues 2 and 3 fixed. New `retile` group kind in `gfx.py`
+- **Phase:** 8. QA in the emulator: in progress (visual-QA gate green on build e43b2203; inkbox done; text
+  coverage 3462/3722 shown; left: the coverage gaps below (parts/shop screens, Teka report = G12, save/load), G12).
+- **Latest session (build unchanged, sha1 e43b2203):** text-coverage tooling, committed (28e148f).
+  `build.py` now writes `build/strings.tsv` (`tools/strmap.py`: dlg slots, `@` table/choice records, `ref:`
+  pointer words read from the built ROM so relocated strings follow; test `test_build.test_string_map`).
+  `tools/debug/sweep.lua` (after warp.lua, REC=first target): runs every op 15 / op 21 record of a range in turn
+  with A mashed (`OPS_LIST`, `THEN`/`THEN_POKES`/`AFTER` to chain into another scene). `tools/debug/cover.py
+  sweep|tour|report` (14 chunks of 400 records, ~6 min at 4 jobs; tour = `warp_all.py --cover RANGES`; report =
+  textcover.py with mask 0x1FFFFFF and `docs/text_unshown.tsv` once it exists). Results in `work/qa/cover/`
+  (+ `extra_ending`: REC=4794 for 13000 frames): **all 2927 dialogue slots and 395/397 choices shown**, 0 STUCK.
+  inkbox: title menu and link menu Start/Quit centred (exit 0; the JP link menu is itself 3 px off).
+  **Never shown (260)**, by group, with what to do:
+  1. descs 142, parts_a 37, parts_b 17, items_a 7, items_b 9 and the part-detail strings 0x2492CC-0x2494B4
+     ("Body: %s" ... "Speed goes up", "+Fire/+Laser"): need a screen listing owned parts / a shop. New game owns
+     no spares: the factory icons (assemble = 2nd icon, swap = 3rd) show empty slots (`work/qa/partdet*`).
+     Op 31 (47 records, "give part") swept with `OPS_LIST='31'` ran in 47 frames: it likely only tests
+     ownership and branches, not a give (unverified). Next: find the parts-inventory RAM (op 31 handler or the
+     swap screen's reader; `disasm.py` on the part-detail builder 0x080096E8(type, id), called from
+     0x0800483C..0x08004EEE) and poke it, or sweep op 30 (purchase prompt, 20 records) for the shop screens.
+  2. names:1-7 (the teka types): the Teka report page = G12; same arrest blocker.
+  3. Save/load: "Log %d  %d:%02d" x3, "Saved to the log.", "!! Cannot save.", "Your data's all loaded!", "Sorry,
+     but Log %d has been erased...", 0x2494CC "００／００": one run that saves on the field (START, A), soft-resets
+     and loads through Continue.
+  4. choice:176/177 「おーけー。行こう」/「ちょっと待って」: no op 21 among all 199 that the sweep ran reads them:
+     probably an orphan group; prove it (map choice ids to table records) and waive.
+  5. credits:249250 "And", 249258 "In" (refs 0x002200 / 0x002300, a credits function the normal ending does not
+     run; "The End of / Toyrobo Force / Produced by" are shown only after f8000, past `ending_last`'s hold:
+     consider raising it). Find what calls those refs, or waive with the reason.
+  Then: `docs/text_unshown.tsv` for proven-unreachable ids, `cover.py report` exit 0, G12 in game.
+- **Session before (build sha1 e43b2203):** visual-QA issues 2 and 3 fixed. New `retile` group kind in `gfx.py`
   (a block of N raw tiles + its own BG map: the canvas is drawn from the map, re-tiled into unique tiles with flips
   folded and written in place with a new map; refuses > N tiles): G18 the six workshop signs `sign0-5`
   ("<Town>" / "Factory", `gfx.SIGNS_EN`; tiles + 13x4 map per town at 0x066DF4..), G18 Ⓐけってい -> "Confirm"
