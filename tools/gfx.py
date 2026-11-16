@@ -22,7 +22,10 @@ sys.path.insert(0, str(ROOT / "tools"))
 import cards  # noqa: E402
 import font_en  # noqa: E402
 
+HFLIP, VFLIP = 1 << 28, 1 << 29  # grid cell flags (tools/gfx_grid.py writes grids)
+
 # label: (x, y, w, h) clear rect in block pixels, text, clear index, ink index, shadow index or None, scale
+# [, dict(prop=, outline=, left=)]. A group is a raw run (at, tiles, cols), an LZ block (lz, ...) or a grid.
 GROUPS = {
     # G4 title menu: the whole title screen is 352 raw tiles at 0x2B6B8, DMA'd to VRAM 0x8000 (BG1, 32 tiles
     # wide; work/qa/g4_title, tools/debug/dmalog.lua). Button fill index and ink measured with `show`.
@@ -40,7 +43,64 @@ GROUPS = {
     "title_obj": dict(lz=0x2BB0A8, at=0, tiles=512, cols=32, pal=("gfx/pal/title_obj.pal.bin", 17), labels=[],
                       strips=[dict(w=192, h=16, text="Character Design: Shinji Nishikawa", ink=14, shadow=None,
                                    outline=11, prop=True, dest=[(192, 64), (192, 80), (192, 96)])]),
+    # G14/G12 battle UI sheet: raw 4bpp, 32 tiles wide (0x400 bytes a tile row), aligned at 0x0FB16C; the sortie
+    # report's labels are BG1 cells pointing into it (work/qa/p8g/r_rep.png). Rects are sheet pixels.
+    # Cell budgets are the BG1 map's (3 tiles for 任務/成果/以上, 4 for 評価 and the stamps): hence Task / Haul /
+    # Rank / Clear / Fail (Mission, Results, Rating, Failed don't fit in the font_en letters).
+    "report": dict(at=0x0FB16C, tiles=32 * 36, cols=32, pal=("gfx/pal/report.pal.bin", 7), labels=[
+        ((0, 128, 80, 16), "Sortie Report", 0, 6, None, 1, dict(prop=True)),
+        ((136, 32, 24, 16), "Task", 0, 1, None, 1, dict(prop=True)),
+        ((80, 144, 24, 16), "Haul", 0, 1, None, 1, dict(prop=True)),
+        ((0, 144, 32, 24), "Rank", 0, 6, None, 1, dict(prop=True)),
+        ((176, 240, 24, 16), "End", 0, 1, None, 1, dict(prop=True)),
+        ((128, 120, 32, 24), "Clear", 0, 14, None, 1, dict(prop=True, outline=12)),
+        ((128, 144, 32, 24), "Fail", 0, 13, None, 1, dict(prop=True, outline=11)),
+        # Loss report's key panel (BG3, map cells 0x0FD36C..): Ⓐ/Ⓑ 終了, ▲上, ▼下. 下 has 2 tiles on its top row
+        # but only 1 below (the next cell is the shared blank 0x02B278): "Dn" sits in the top row (flagged
+        # abbreviation; "Down" is 23 px).
+        ((128, 64, 24, 16), "Exit", 15, 11, None, 1, dict(prop=True)),
+        ((128, 80, 16, 16), "Up", 15, 11, None, 1, dict(prop=True)),
+        ((144, 80, 16, 16), "", 15, 11, None, 1),
+        ((144, 80, 16, 9), "Dn", 15, 11, None, 1, dict(prop=True)),
+    ]),
+    # G15 workshop menu buttons (factory and facility1-5): BG1 palette 0, raw tiles; grid from
+    # `gfx_grid.py <factory dump> --bg 1 --rect 4,84,72,62`: map cells 3-8 of rows 2-7 (cell 3 is the button's
+    # right half for A/B; for R it holds the start of じ). Fill F, ink B, text rows 4-12 / 20-28 / 36-44.
+    "factory": dict(pal=("gfx/pal/factory.pal.bin", 0), grid=[
+        [0x064D14 | HFLIP, 0x0654F4, 0x065514, 0x065534, 0x065554, 0x065574],
+        [0x064DD4 | HFLIP, 0x065594, 0x0655B4, 0x0655D4, 0x0655F4, 0x065614],
+        [0x064EB4, 0x064ED4, 0x064EF4, 0x064F14, 0x064F34, 0x064F54],
+        [0x064F94, 0x064FB4, 0x064FD4, 0x064FF4, 0x065014, 0x065034],
+        [0x065654, 0x065674, 0x065694, 0x0656B4, 0x0656D4, 0x0656F4],
+        [0x065734, 0x065754, 0x065774, 0x065794, 0x0657B4, 0x0657D4],
+    ], labels=[
+        ((8, 2, 40, 13), "Repair", 15, 11, None, 1, dict(prop=True, left=True)),
+        ((8, 18, 40, 13), "Back", 15, 11, None, 1, dict(prop=True, left=True)),
+        ((8, 34, 40, 13), "Info", 15, 11, None, 1, dict(prop=True, left=True)),
+    ]),
 }
+
+
+def sprite_grid(base, sprites, w=8, h=4):
+    """Grid of a row of OBJ sprites stored back to back in 1D order (each w x h tiles)."""
+    return [[base + (c // w) * w * h * 32 + (r * w + c % w) * 32 for c in range(sprites * w)] for r in range(h)]
+
+
+# G6 map location banners: 35 images of 128x32 (two 64x32 sprites, 1D) + their 32-byte palette, stride 0x820 from
+# 0x0A6D84, in the order of the game's location ids (work/qa/p8g/banners*.png). Frame interior: fill 7 (navy) at
+# x 8-119, y 8-23 (rows 7 and 24 are fill too, kept as a margin); the kanji are white, index 1.
+LOC_BANNERS = 0x0A6D84
+LOC_RECT, LOC_FILL, LOC_INK, LOC_SHADOW = (8, 8, 112, 16), 7, 1, None
+LOCATIONS_EN = [
+    "Gate", "Police Academy", "Factory", "Police Station", "City Hall", "Kindergarten", "Downtown", "Hospital",
+    "Soldier Base", "Laboratory", "Hotel", "Army Headquarters", "Restaurant", "Metropolitan Police",
+    "Fishing Village", "West Slope", "Cave Entrance", "East Slope", "Apricot", "Camembert Ranch", "Plum Mountain",
+    "Apricot Port", "Framboise", "Winery", "Offshore Oil Rig", "Cassis", "Arsenal", "Battlefield Hill",
+    "Lingonberry", "Special Police", "Kanpachi Dam", "Marmalade", "Sherwood Forest", "Marmalade Sea", "Blackberry",
+]
+for _i, _name in enumerate(LOCATIONS_EN):
+    GROUPS[f"loc{_i:02d}"] = dict(pal=("gfx/pal/map.pal.bin", 25), grid=sprite_grid(LOC_BANNERS + _i * 0x820, 2),
+                                  labels=[(LOC_RECT, _name, LOC_FILL, LOC_INK, LOC_SHADOW, 1, dict(prop=True))])
 
 # (ROM offset, original bytes, new bytes, why): sprite records next to a redrawn group. Title OAM table records are
 # (attr0, attr1, attr2, 0) relative to (128, 128); 0x24A73C holds the credit line's 5 (docs/re/graphics.md G3).
@@ -53,27 +113,67 @@ OAM_PATCHES = [
 ]
 
 
+def _grid(g):
+    """A grid group's shape: cols and tiles filled in from the grid (rows of ROM offsets | flips, or None)."""
+    if "grid" in g and "cols" not in g:
+        g["cols"], g["tiles"] = len(g["grid"][0]), len(g["grid"]) * len(g["grid"][0])
+    return g
+
+
+def _cell(g, t):
+    """(ROM offset, hflip, vflip) of tile t, or None for a grid cell with no tile of its own."""
+    if "grid" not in g:
+        return g["at"] + t * 32, False, False
+    c = g["grid"][t // g["cols"]][t % g["cols"]]
+    return None if c is None else (c & 0xFFFFFF, bool(c & HFLIP), bool(c & VFLIP))
+
+
 def decode(rom, g):
-    """Block -> list of rows of palette indices (cols*8 wide)."""
+    """Block (or grid of tiles as the screen shows them) -> list of rows of palette indices (cols*8 wide)."""
+    _grid(g)
     w, rows = g["cols"] * 8, (g["tiles"] + g["cols"] - 1) // g["cols"] * 8
     px = [[0] * w for _ in range(rows)]
     for t in range(g["tiles"]):
-        base = g["at"] + t * 32
+        cell = _cell(g, t)
+        if cell is None:
+            continue
+        base, hf, vf = cell
         tx, ty = t % g["cols"] * 8, t // g["cols"] * 8
         for y in range(8):
             for x in range(8):
                 b = rom[base + y * 4 + x // 2]
-                px[ty + y][tx + x] = b >> 4 if x & 1 else b & 15
+                px[ty + (7 - y if vf else y)][tx + (7 - x if hf else x)] = b >> 4 if x & 1 else b & 15
     return px
 
 
 def encode_tile(px, g, t):
+    """Tile t's 32 bytes as stored (a grid cell's flips undone)."""
+    _, hf, vf = _cell(g, t)
     tx, ty = t % g["cols"] * 8, t // g["cols"] * 8
     out = bytearray(32)
     for y in range(8):
         for x in range(0, 8, 2):
-            out[y * 4 + x // 2] = px[ty + y][tx + x] | px[ty + y][tx + x + 1] << 4
+            r = px[ty + (7 - y if vf else y)]
+            a, b = (tx + 7 - x, tx + 6 - x) if hf else (tx + x, tx + x + 1)
+            out[y * 4 + x // 2] = r[a] | r[b] << 4
     return bytes(out)
+
+
+def tile_writes(px, g, touched):
+    """[(ROM offset, bytes)] for the touched tiles; a grid tile shown twice must come out the same both times, and
+    a touched cell with no tile of its own must stay blank."""
+    out = {}
+    for t in sorted(touched):
+        cell = _cell(g, t)
+        tx, ty = t % g["cols"] * 8, t // g["cols"] * 8
+        if cell is None:
+            if any(px[ty + y][tx + x] for y in range(8) for x in range(8)):
+                raise ValueError(f"grid cell {t} has no ROM tile but the redraw inks it")
+            continue
+        data = encode_tile(px, g, t)
+        if out.setdefault(cell[0], data) != data:
+            raise ValueError(f"tile {cell[0]:06X} is shown twice in the grid and would need two contents")
+    return sorted(out.items())
 
 
 def _glyph_cols(ch, prop):
@@ -91,9 +191,12 @@ def text_width(s, scale=1, prop=False):
     return (sum(_glyph_cols(ch, prop)[1] + 1 for ch in s) - 1) * scale
 
 
-def draw(px, lab, prop=False, outline=None):
-    """Draw a label; outline: an index drawn on the 8 neighbours of every ink pixel (the title sprites' style)."""
-    (x, y, w, h), s, clear, ink, shadow, scale = lab
+def draw(px, lab, prop=False, outline=None, left=False):
+    """Draw a label; outline: an index drawn on the 8 neighbours of every ink pixel (the title sprites' style);
+    left: start at the rect's left edge instead of centring. A label tuple may carry these as a 7th item (dict)."""
+    (x, y, w, h), s, clear, ink, shadow, scale = lab[:6]
+    if len(lab) > 6:
+        prop, outline, left = lab[6].get("prop", prop), lab[6].get("outline", outline), lab[6].get("left", left)
     for yy in range(y, y + h):
         for xx in range(x, x + w):
             px[yy][xx] = clear
@@ -101,7 +204,7 @@ def draw(px, lab, prop=False, outline=None):
     tw, th = text_width(s, scale, prop) + 2 * m, font_en.HEIGHT * scale + 2 * m
     if tw > w or th > h:
         raise ValueError(f"{s!r}: {tw}x{th} px, rect {w}x{h}")
-    ox, oy = x + (w - tw) // 2 + m, y + (h - th) // 2 + m
+    ox, oy = x + (0 if left else (w - tw) // 2) + m, y + (h - th) // 2 + m
     passes = [(dx, dy, outline) for dx in (-1, 0, 1) for dy in (-1, 0, 1) if (dx or dy)] if m else []
     for dx, dy, idx in passes + [(1, 1, shadow), (0, 0, ink)]:
         if idx is None:
@@ -207,8 +310,9 @@ def apply(out):
         if "lz" in g:
             continue
         px, touched = redraw(out.data, name)
-        for t in sorted(touched):
-            out.write(g["at"] + t * 32, encode_tile(px, g, t), f"gfx:{name}")
+        for off, data in tile_writes(px, g, touched):
+            if bytes(out.data[off:off + 32]) != data:
+                out.write(off, data, f"gfx:{name}")
     for off, old, new, why in OAM_PATCHES:
         if bytes(out.data[off:off + len(old)]) != old or len(new) != len(old):
             raise ValueError(f"gfx patch {off:06X} ({why}): original bytes differ")
@@ -217,7 +321,9 @@ def apply(out):
 
 def spans():
     """Byte ranges apply() may write (tests/test_build.py allowed ranges; LZ blocks are the LZ unit's own)."""
-    return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "lz" not in g]
+    return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "lz" not in g and "grid" not in g]
+            + [(c & 0xFFFFFF, (c & 0xFFFFFF) + 32) for g in GROUPS.values() for row in g.get("grid", ())
+               for c in row if c is not None]
             + [(off, off + len(old)) for off, old, _, _ in OAM_PATCHES]
             + [(ref, ref + 4) for _, refs in LZ_MOVES.values() for ref in refs]
             + [(cards.CARD_TABLE + i * cards.REC + 8, cards.CARD_TABLE + i * cards.REC + 24) for i in range(24)])

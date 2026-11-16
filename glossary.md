@@ -89,6 +89,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ハンブルグ | Hamburg | | | |
 | カンパチダム | Kanpachi Dam | | | |
 | サザンカ | Sazanka | | | |
+| (map banners) | Gate, Police Academy, Factory, Police Station, City Hall, Kindergarten, Downtown (市内), Hospital, Soldier Base, Laboratory (研究所), Hotel, Army Headquarters, Restaurant, Metropolitan Police (警視庁), Fishing Village, West/East Slope, Cave Entrance, Apricot Port, Winery, Offshore Oil Rig, Arsenal (兵器庫), Battlefield Hill, Special Police, Marmalade Sea, Camembert Ranch, Plum Mountain, Sherwood Forest | | the 35 location banners (`tools/gfx.py` LOCATIONS_EN) | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

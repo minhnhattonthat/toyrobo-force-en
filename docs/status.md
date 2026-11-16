@@ -2,7 +2,18 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics text: G3, G4, G7, G17 done; G5 G6 G8 G10 G12 G14 G15 to go).
+- **Phase:** 8. QA in the emulator: in progress (graphics text: G3, G4, G6, G7, G14, G15, G17 done; G5 G8 G10 G12 to go).
+- **This session (graphics, build sha1 98ae6379):** `gfx.py` grid groups (rows of ROM tile offsets | HFLIP/VFLIP,
+  `tile_writes` refuses a tile shown twice with two contents); `tools/gfx_grid.py DUMP --bg N --rect` prints the grid
+  of a screen region from a ppudump (ROM offset per map cell, dup/shared notes, `--png`). Label tuples take a 7th
+  dict (prop/outline/left). G15 factory buttons (Repair/Back/Info), G6 all 35 map banners (`LOCATIONS_EN`, 0x0A6D84
+  stride 0x820), G14 sortie report + loss key panel (group `report` = battle-UI sheet at 0x0FB16C, 32 tiles wide).
+  Proof shots `work/qa/p8g2/zoom.png`, `work/qa/p8g/lose_en_crop.png`. Flagged: loss panel 下 = "Dn" (only 1 tile
+  under it); report labels Task/Haul/Rank (3-4 tile cells).
+  Next: G10 balloons (LZ 0x2BC310: decompress, find each phrase's tiles, LZ group like `title_obj`, `LZ_MOVES` if it
+  grows); G8 かまえ (battle start, raw ~0x13C000: warp battle00 early frames + dump); G12 = the rest of the
+  battle-UI sheet (タイホ!, robot type names, テカに関する報告, パーツ, テカ名, 右腕/左腕/ボディ: find each screen);
+  G5 katakana logo (title bitmap LZ 0x2B6460 + the card logo sprite).
 - **Graphics done this session** (`docs/re/graphics.md` rows): G3 title credit line ("Character Design: Shinji
   Nishikawa", OBJ from LZ 0x2BB0A8: `gfx.py` LZ groups + `strips` + `OAM_PATCHES`, block moved to 0x500000 via
   `LZ_MOVES` / `units.LZBlocks.moves`); G7+G17 all 24 section cards (`tools/cards.py` list/show, `cards.CARDS_EN`,
