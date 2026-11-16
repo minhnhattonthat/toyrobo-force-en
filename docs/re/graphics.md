@@ -20,7 +20,7 @@ time from the font by the text engine (handled by script work, not graphics).
 | G7 | chapter card | 序　訓練 (one per chapter) | over the robot intro screen. **Tiles, not text** (verified phase 5: Japanese on all 24 section cards in the marker build, no font lookup while sec05's card draws; "第二章" exists nowhere as SJIS) | **done** with G17: OBJ strips, `tools/cards.py` (records, `show`), `gfx.apply_cards` |
 | G8 | battle start/countdown | かまえ, GO, countdown digits | raw ~0x13C000 (かまえ), ~0x139800 (GO) | todo (かまえ) |
 | G9 | battle HUD labels | LIFE, LV(?), Latin fragments | raw ~0x062800, ~0x0B9000, ~0x13E000 | ok (Latin) |
-| G10 | battle-result speech balloons | どんなもんです♪ / むりはできませんし / すみません… / よーし。やったね♪ / しょうがないわね / ま、こんなもんだな / しょうがねえな | LZ block 0x2BC310 | todo |
+| G10 | battle-result speech balloons | どんなもんです♪ / むりはできませんし / すみません… / よーし。やったね♪ / しょうがないわね / ま、こんなもんだな / しょうがねえな | LZ block 0x2BC310 (sheet 32 tiles wide of 80x64 balloons; rows Blank / Tomomi / Gilligan) | done: `gfx.BALLOONS_EN`, LZ group `balloon` (fits in place); shot `work/qa/g10_win/zoom.png` (warp `battle_win`, f3000) |
 | G11 | "PRESS SELECT" / interface fragments | Latin | raw ~0x0A5000 | ok |
 | G12 | small Japanese labels near character / interface art | unreadable fragments | raw ~0x065000 (= G15, done), ~0x0FC000-0x103000 (= the battle-UI sheet at 0x0FB16C: still Japanese there: タイホ!, 終了 (battle end?), robot type names マーケテカ ドメステカ ワークテカ ポリステカ ポリジエンヌ ソルジャー パンクテカ, テカに関する報告, パーツ, テカ名, 右腕 左腕 ボディ, コプ), LZ 0x25C0B4 | todo: find the screen of each sheet label (warp + `gfx_grid.py`), then add labels to group `report` |
 | G13 | dialogue / choice / menu font | full font | raw ~0x0A7000-0x0B8800 and ~0x0D9000-0x0E1000 (two font sizes) | text (engine work in phase 5) |

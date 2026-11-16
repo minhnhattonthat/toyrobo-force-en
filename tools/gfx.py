@@ -63,6 +63,10 @@ GROUPS = {
         ((144, 80, 16, 16), "", 15, 11, None, 1),
         ((144, 80, 16, 9), "Dn", 15, 11, None, 1, dict(prop=True)),
     ]),
+    # G10 battle-result balloons: LZ block 0x2BC310 (literal at 0x15A9C), a sheet 32 tiles wide of 80x64 balloons.
+    # Rows are speakers (Blank, Tomomi, Gilligan; ink 11 / 13 / 12 on fill 1), columns win / loss / loss. Two
+    # left-aligned lines at the original's text rows (24-35, 39-50 of a balloon); filled in below.
+    "balloon": dict(lz=0x2BC310, at=0, tiles=768, cols=32, pal=("gfx/pal/balloon.pal.bin", 0), labels=[]),
     # G15 workshop menu buttons (factory and facility1-5): BG1 palette 0, raw tiles; grid from
     # `gfx_grid.py <factory dump> --bg 1 --rect 4,84,72,62`: map cells 3-8 of rows 2-7 (cell 3 is the button's
     # right half for A/B; for R it holds the start of じ). Fill F, ink B, text rows 4-12 / 20-28 / 36-44.
@@ -79,6 +83,18 @@ GROUPS = {
         ((8, 34, 40, 13), "Info", 15, 11, None, 1, dict(prop=True, left=True)),
     ]),
 }
+
+
+BALLOONS_EN = [  # (column, row, ink, line 1, line 2)
+    (0, 0, 11, "How about", "that?♪"), (1, 0, 11, "Better not", "push it."), (2, 0, 11, "I'm sorry...", ""),
+    (0, 1, 13, "All right!", "We did it!♪"), (1, 1, 13, "Oh well,", "never mind."),
+    (0, 2, 12, "Heh. That's", "about right."), (1, 2, 12, "Can't be", "helped."),
+]
+for _c, _r, _ink, _l1, _l2 in BALLOONS_EN:
+    _x, _y = _c * 80, _r * 64
+    GROUPS["balloon"]["labels"] += [((_x + 6, _y + 22, 68, 30), "", 1, _ink, None, 1),
+                                    ((_x + 9, _y + 23, 65, 13), _l1, 1, _ink, None, 1, dict(prop=True, left=True)),
+                                    ((_x + 9, _y + 38, 65, 13), _l2, 1, _ink, None, 1, dict(prop=True, left=True))]
 
 
 def sprite_grid(base, sprites, w=8, h=4):
