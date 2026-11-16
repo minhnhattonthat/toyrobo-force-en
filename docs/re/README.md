@@ -12,4 +12,9 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| <text.md> | <encoding, control codes, pointer tables> | <verified / partly guessed> |
+| text.md | ROM header/size/save, Shift-JIS encoding, 128-byte dialogue slots and their reader, control codes, other text tables, free space | encoding + slot reader verified; control-code meanings and table owners guessed |
+| graphics.md | graphics-text survey (tour + static sweep), G1-G13 | sources partly verified (vramfind), rest guessed |
+| compression | BIOS LZ77 only, 36 blocks (`tools/gbacomp.py scan`; codec copied from a sibling GBA repo, roundtrip test still to add in phase 3) | verified decompression of all 36 |
+
+Prior work: no earlier fan translation or community tools found (web search 2026-11-17).
+Tools: `tools/sjis_scan.py` (SJIS run/cluster map), `tools/gfx_sweep.py` + `tools/gbacomp.py` (static sweep, LZ77).
