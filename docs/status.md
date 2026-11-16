@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build next (phase 2 debug tool done 2026-11-17). Last build: none yet.
+- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-17). Last build: 2026-11-17, identical to the
+  original (sha1 6ef30145...), smoke ok.
 - **Done:**
   - Step 0: repo set up (rom.sha1 pinned, `tools/check.py` + pre-commit gate proven to reject a failing test, guard
     hook proven on the canary, own MesenCE 2.2.1 + GBA BIOS, boot route, AGENTS.md, decisions D1-D8).
@@ -18,9 +19,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/debug/warp_all.py` ran all 98 from a cold boot: 98/98 ok, proof sheets `work/qa/warp_all/finals*.png`
     read and checked. `tests/test_scenes.py` keeps every section and battle id in the scene list.
     `tools/script_dump.py` lists the script (with text) for phase 4.
-- **Next:** phase 3 identity build (`references/pipeline.md` §Identity): `build.py` unpacks text slots, the script,
-  tables and the 36 LZ77 blocks, repacks with no edits, test = byte-identical ROM; add the gbacomp roundtrip test.
-  Then phase 4 extract (slots + 0x393560 names + 0x3766BC choices + 0x248D44 strings + 0x3F7592 prompts).
+  - Phase 3: `build.py` (`--identity`) + `tools/units.py` unpack/pack the script records, the 6 record tables at
+    0x393560-0x397070, 2927 dialogue slots, 696 choice records, the 0x248D44 strings, the 0x3F788C pointer table +
+    prompts and the 36 LZ77 blocks; pack blanks every owned byte first and the result is byte-identical
+    (`tests/test_identity.py`, also: every unit's bytes needed, edits logged for `romdiff.py --writes`, overlong text
+    refused, changed LZ block recompressed in place). `tests/test_gbacomp.py` roundtrips all 36 blocks; compress()
+    now indexes 3-byte keys (check 28 s -> 3 s) with identical output.
+- **Next:** phase 4 extract (`references/pipeline.md` §Extract) to `script/` TSV via `tools/tbl.py`: dialogue slots,
+  record tables, choices, 0x248D44 strings (trace their pointers), prompts; roundtrip + coverage tests on the
+  original ROM; mark non-text records (choice region has 299 non-text records, kept raw). `build.py apply_edits` is
+  the hook for inserting `en`. Text inside the LZ blocks is graphics (G-rows), not extract.
 - **Debug tool limits:** mid-section warps keep the previous screen's tiles until the script loads a map (choice
   boxes show over black); facility1-5 all show the same workshop menu; no GOD mode (robot life address not found;
   WIN=1 covers battle end screens); the two-player battle itself needs a link partner (only its menu is reached).

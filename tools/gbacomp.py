@@ -45,9 +45,39 @@ def decompress(data, off=0, limit=1 << 24):
 
 
 def compress(data):
+    """Greedy: longest match, nearest on ties, displacement >= 2. Candidates come from a 3-byte-key index."""
     out = bytearray([0x10, len(data) & 0xFF, len(data) >> 8 & 0xFF, len(data) >> 16 & 0xFF])
-    i = 0
+    data = bytes(data)
     n = len(data)
+    index = {}  # 3-byte key -> positions, ascending
+    indexed = 0  # positions < indexed are in index
+
+    def find(i):
+        nonlocal indexed
+        while indexed < i - 1:  # j <= i - 2
+            index.setdefault(data[indexed:indexed + 3], []).append(indexed)
+            indexed += 1
+        maxlen = min(18, n - i)
+        best_len, best_disp = 0, 0
+        if maxlen < 3:
+            return 0, 0
+        cands = index.get(data[i:i + 3])
+        if not cands:
+            return 0, 0
+        start = max(0, i - 4096)
+        for j in reversed(cands):
+            if j < start:
+                break
+            k = 3
+            while k < maxlen and data[j + k] == data[i + k]:
+                k += 1
+            if k > best_len:
+                best_len, best_disp = k, i - j
+                if k == maxlen:
+                    break
+        return best_len, best_disp
+
+    i = 0
     while i < n:
         flag_pos = len(out)
         out.append(0)
@@ -55,18 +85,7 @@ def compress(data):
         for bit in range(8):
             if i >= n:
                 break
-            best_len, best_disp = 0, 0
-            start = max(0, i - 4096)
-            maxlen = min(18, n - i)
-            if maxlen >= 3:
-                for j in range(i - 2, start - 1, -1):  # disp >= 2 (VRAM-safe)
-                    k = 0
-                    while k < maxlen and data[j + k] == data[i + k]:
-                        k += 1
-                    if k > best_len:
-                        best_len, best_disp = k, i - j
-                        if k == maxlen:
-                            break
+            best_len, best_disp = find(i)
             if best_len >= 3:
                 flags |= 0x80 >> bit
                 d = best_disp - 1
