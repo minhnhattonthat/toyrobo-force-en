@@ -25,7 +25,14 @@ time from the font by the text engine (handled by script work, not graphics).
 | G12 | small Japanese labels near character / interface art | unreadable fragments | raw ~0x065000, ~0x0FC000, ~0x101800-0x103000, LZ 0x25C0B4 | todo: identify in the tour once the debug tool reaches the screens (status, shop, battle) |
 | G13 | dialogue / choice / menu font | full font | raw ~0x0A7000-0x0B8800 and ~0x0D9000-0x0E1000 (two font sizes) | text (engine work in phase 5) |
 
-## Not yet toured (add rows when the debug tool reaches them; the static sweep above covers their tiles)
-Robot status / parts screens (labels are SJIS text at 0x249298+), shop, save/load, link battle (ふたりでたいせん)
-screens, every chapter card after 序, game over, ending report and staff roll (staff text is SJIS at 0x248D44+, so
-probably font-drawn; confirm).
+| G14 | sortie report (battle end) | 出撃報告書, 任務, 完了 / 失敗(?), 成果, 以上, 評価 (+ rank letter) | warp `battle_win` / `battle_lose`; source not traced | todo |
+| G15 | facility menu buttons | Ⓐメンテ Ⓑもどる Ⓡじょうほう, PRESS, zit (money unit) | warp `factory`, `facility1-5` (all show the same workshop menu) | todo (PRESS/zit Latin: ok) |
+| G16 | save prompt label | SELECT tag over セーブする/セーブしない | warp `save_confirm` | ok (Latin); the menu text is font |
+| G17 | chapter card subtitle | 第二話　ぼうそう幼稚園 (one per section, 24) + katakana logo G5 | warp `sec00`-`sec23`; card text looks font-drawn | todo (confirm source in phase 5) |
+
+## Toured with the debug tool (phase 2; proof sheets `work/qa/warp_all/finals*.png`)
+Every section card (sec00-sec23), title menu / Continue (load: 日誌1-4 きろくなし) / two-player menu, save screen and
+prompt, location selector banner (工場, ゲート...), factory menu and robot info panel (ライフ：右：左：コプ：OP：,
+font text from 0x249298+), choice boxes, all 36 battle ids, win and loss sortie reports, the ending report, cast and
+staff roll (font text over black, from 0x248D44+), post-game map. No separate game-over screen seen: a lost
+battle shows the loss report, then branches to its lose record (retry script; every op 23 has one). Not yet looked at closely: two-player battle itself (needs a link partner).

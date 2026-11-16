@@ -14,6 +14,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 |---|---|---|
 | text.md | ROM header/size/save, Shift-JIS encoding, 128-byte dialogue slots and their reader, control codes, other text tables, free space | encoding + slot reader verified; control-code meanings and table owners guessed |
 | graphics.md | graphics-text survey (tour + static sweep), G1-G13 | sources partly verified (vramfind), rest guessed |
+| script.md | event script (5538 x 12-byte records at 0x3831C8), opcodes, game struct 0x03000850, battle win/loss handlers, debug warp | interpreter, index, sections, battles, gosub/goto verified; most opcode meanings guessed |
 | compression | BIOS LZ77 only, 36 blocks (`tools/gbacomp.py scan`; codec copied from a sibling GBA repo, roundtrip test still to add in phase 3) | verified decompression of all 36 |
 
 Prior work: no earlier fan translation or community tools found (web search 2026-11-17).

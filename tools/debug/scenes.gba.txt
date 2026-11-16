@@ -1,0 +1,121 @@
+# Toyrobo Force warp scenes, read by tools/debug/warp.lua (SCENE='<name>') and tools/debug/warp_all.py.
+# Columns (| separated): name | main-script record (or "title") | hold frames after the warp (warp_all.py) |
+#   pokes (hex addr=value, before the warp) | keys after the warp ("FRAMES BUTTONS;...") | flags (win, lose)
+# Records: tools/script_dump.py; opcodes and RAM: docs/re/script.md. 0x3002675 = struct+0x1E25 (set by op 39;
+# op 22 "enter map" needs it, so mid-section map warps poke it).
+
+# --- title menu (no warp; keys drive the menu: New game / Continue / Two-player battle)
+title        | title |  300 | | 200 -
+continue     | title |  600 | | 200 -;6 down;60 -;6 a;300 -
+link_battle  | title |  600 | | 200 -;6 down;60 -;6 down;60 -;6 a;300 -
+
+# --- every section (op 40 = section start: card / location banner, then its first event); 24 sections
+sec00 |    5 | 400
+sec01 |   35 | 400
+sec02 |  127 | 400
+sec03 |  299 | 400
+sec04 |  614 | 400
+sec05 |  980 | 400
+sec06 |  997 | 400
+sec07 | 1272 | 400
+sec08 | 1493 | 400
+sec09 | 1502 | 400
+sec10 | 1845 | 400
+sec11 | 2167 | 400
+sec12 | 2456 | 400
+sec13 | 2622 | 400
+sec14 | 3049 | 400
+sec15 | 3064 | 400
+sec16 | 3497 | 400
+sec17 | 3685 | 400
+sec18 | 3743 | 400
+sec19 | 3782 | 400
+sec20 | 4312 | 400
+sec21 | 4441 | 400
+sec22 | 4464 | 400
+sec23 | 4582 | 400
+
+# --- town map and field menus (police school map of section 1, record 77 = op 22 map 0)
+map_school    | 77 | 700 | 3002675=01 | 500 -;6 b;150 -
+map_location  | 77 | 900 | 3002675=01 | 500 -;6 b;100 -;6 right;150 -
+save_menu     | 77 | 900 | 3002675=01 | 500 -;6 start;300 -
+save_confirm  | 77 | 1100 | 3002675=01 | 500 -;6 start;300 -;6 a;200 -
+# op 38 N = facility menu (0 factory/workshop, 1-5 other facilities); R = info (robot status), A = maintenance
+factory       | 80 | 700 | 3002675=01 | 300 -;6 a;300 -
+factory_maint | 80 | 900 | 3002675=01 | 300 -;6 a;150 -;6 a;300 -
+factory_info  | 80 | 1100 | 3002675=01 | 300 -;6 a;450 -;6 r;300 -
+# records 1124... are the op 38 N records themselves (menu at once)
+facility1      | 1124 | 500
+facility1_info | 1124 | 800 | | 400 -;6 r;300 -
+facility2      | 1661 | 500
+facility2_info | 1661 | 800 | | 400 -;6 r;300 -
+facility3      | 2591 | 500
+facility3_info | 2591 | 800 | | 400 -;6 r;300 -
+facility4      | 3277 | 500
+facility4_info | 3277 | 800 | | 400 -;6 r;300 -
+facility5      | 4324 | 500
+facility5_info | 4324 | 800 | | 400 -;6 r;300 -
+# op 30 = count/money check (kind 1 robots / 2 money, amount, branches); op 21 = choice menu (prompt, then box)
+money_check   | 1007 | 800 | | 300 -;6 a;150 -;6 a;150 -
+# the box shows at once over the previous screen's tiles (no map loaded yet); a press would pick an option
+choice        |   43 | 150
+shop_buy      | 5404 | 150
+
+# --- every battle id (op 23 id, win-record, lose-record), first use of each id
+battle00 |   94 | 700 # win->121 lose->95
+battle01 |  247 | 700 # win->287 lose->248
+battle02 |  541 | 700 # win->581 lose->542
+battle03 |  929 | 700 # win->955 lose->930
+battle04 | 1229 | 700 # win->1252 lose->1230
+battle05 | 1368 | 700 # win->1392 lose->1369
+battle06 | 1451 | 700 # win->1471 lose->1452
+battle07 | 1705 | 700 # win->1727 lose->1706
+battle08 | 1793 | 700 # win->1822 lose->1794
+battle09 | 2119 | 700 # win->2140 lose->2120
+battle10 | 2594 | 700 # win->2606 lose->2595
+battle11 | 3013 | 700 # win->3033 lose->3014
+battle12 | 2963 | 700 # win->2983 lose->2964
+battle13 | 3459 | 700 # win->3483 lose->3460
+battle14 | 3638 | 700 # win->3649 lose->3639
+battle15 | 3713 | 700 # win->3734 lose->3714
+battle16 | 4406 | 700 # win->4427 lose->4407
+battle17 | 4453 | 700 # win->4458 lose->4454
+battle18 | 4535 | 700 # win->4540 lose->4536
+battle19 | 4719 | 700 # win->4732 lose->4720 (last story battle)
+battle20 | 1069 | 700 # win->1072 lose->1075
+battle21 |  716 | 700 # win->717 lose->717
+battle22 | 3151 | 700 # win->3182 lose->3152
+battle23 | 1582 | 700 # win->1564 lose->1564
+battle24 | 1583 | 700 # win->1564 lose->1564
+battle25 | 2396 | 700 # win->2397 lose->2369
+battle26 | 2400 | 700 # win->2401 lose->2347
+battle27 | 5479 | 700 # win->5415 lose->5415 (post-game)
+battle28 | 2427 | 700 # win->2428 lose->2425
+battle29 | 3881 | 700 # win->3885 lose->3882
+battle30 | 3952 | 700 # win->3953 lose->3963
+battle31 | 3957 | 700 # win->3958 lose->3963
+battle32 | 4140 | 700 # win->4144 lose->4141
+battle33 | 5504 | 700 # win->5493 lose->5493 (post-game)
+battle34 | 4134 | 700 # win->4135 lose->4101
+battle35 | 3441 | 700 # win->3442 lose->3442
+# battle end screens: sortie report with the result balloon (win) and the loss path; battle 0 ends on its timer
+battle_win    | 94 | 1700 | | | win
+battle_lose   | 94 | 1500 | | | lose
+
+# --- ending, staff roll, post-game (record 4794 = op 14 3, then goto 5412 = op 41 ending)
+ending        | 4794 | 1500
+ending_cast   | 4794 | 2700
+ending_staff  | 4794 | 4200
+ending_last   | 4794 | 6600
+postgame      | 5413 | 600
+
+# --- rare event opcodes (first use each)
+op04_sewer    | 2788 | 600 # op 4 3
+op05_a        | 4550 | 600 # op 5
+op05_b        | 5191 | 600
+op12          | 1414 | 600 # op 12 10 1 220 48 1000
+op13          | 4978 | 600 # op 13 1
+op16          | 1910 | 600 # op 16 2 1 5 120
+op18          |  137 | 600 # op 18 1 2 then op 36 60
+op24_a        | 2214 | 600 # op 24 3 4
+op24_b        | 5338 | 600 # op 24 5 4
