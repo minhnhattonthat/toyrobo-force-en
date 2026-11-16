@@ -68,7 +68,7 @@ dlg:2375	text	rec:4556	149	声「これ以上、スパイでいられなかっ�
 dlg:2376	text	rec:4557	149	声「ユウキ、落ち着いてるなっ、{br}　電子頭脳に弾丸がいってたらどうするっ」{wait}		
 dlg:2377	text	rec:4558	149	声「アプリコットまでもどってられないわ！{br}　マーマレードでメンテしましょう！」{wait}		
 dlg:2378	text	rec:4559	149	{spk:02}リヒター「エミコさん・・・！{br}　マーマレードか・・・{br}　取り返さなくちゃ・・・！」{wait}		
-dlg:2379	text	rec:4563	149	　シャーウッドの森の教会{wait}		
+dlg:2379	text	rec:4563	149	　シャーウッドの森の教会{wait}	Sherwood Forest Church{wait}	
 dlg:2380	text	rec:4564	149	{face:00706}{spk:09}ゲオルグ博士「・・・」{wait}		
 dlg:2381	text	rec:4565	149	{face:32202}{spk:16}神父「どうされました」{wait}		
 dlg:2382	text	rec:4566	149	{face:00705}{spk:09}博士「ああ・・・{br}　さいごのおいのりを、させてもらおうと思ってな」{wait}		

@@ -1,11 +1,11 @@
 id	kind	where	max	jp	en	notes
-dlg:1560	text	rec:3053	149	{face:10001}{face:00502}{spk:01}アドルフ市長「では、犯人の使っていた研究所はおさえたんだね」{wait}		
-dlg:1561	text	rec:3054	149	{face:10002}{spk:02}ユウキ「はい。こけももの都行きはムダにはなりませんでした」{wait}		
-dlg:1562	text	rec:3055	149	{spk:01}市長「うん・・・たのみがあるんだがね。　　リアナのボーイフレンドの、ペータ。{br}　ゆくえ不明なんだ、さがしてくれるか」{wait}		
-dlg:1563	text	rec:3056	149	{spk:02}ユウキ「ぼくたちはテカ犯罪チームです。{br}　ポリステカに言ってください」{wait}		
-dlg:1564	text	rec:3057	149	{face:00505}{spk:01}市長「なあ、リアナのだいじなボーイフレンドなんだよ、娘の泣き顔を見たくないんだ。		
-dlg:1565	text	rec:3058	149	{face:00506}　父親の気持ちをさっしてくれ、ううう」{wait}		
-dlg:1566	text	rec:3059	149	{spk:02}ユウキ「―――わかりました。けど、{br}{face:10005}　ウソ泣きはムダです、前に見ています；」{wait}		
-dlg:1567	text	rec:3060	149	{face:00505}{spk:01}市長「あ、そうだっけ」{wait}		
-dlg:1568	text	rec:3062	149	{face:01002}{spk:01}リアナ「さいごにペータに会ったの？{br}　水曜日の朝ね。{wait}		
-dlg:1569	text	rec:3063	149	{spk:01}　警官になるんだって言いに来たわ。{br}　ブランク様にたいこうする気なのよ」{wait}		
+dlg:1560	text	rec:3053	149	{face:10001}{face:00502}{spk:01}アドルフ市長「では、犯人の使っていた研究所はおさえたんだね」{wait}	{face:10001}{face:00502}{spk:01}Mayor Adolf: "So you've secured the institute the culprit used."{wait}	
+dlg:1561	text	rec:3054	149	{face:10002}{spk:02}ユウキ「はい。こけももの都行きはムダにはなりませんでした」{wait}	{face:10002}{spk:02}Yuki: "Yes. The trip to Lingonberry Capital wasn't wasted."{wait}	
+dlg:1562	text	rec:3055	149	{spk:01}市長「うん・・・たのみがあるんだがね。　　リアナのボーイフレンドの、ペータ。{br}　ゆくえ不明なんだ、さがしてくれるか」{wait}	{spk:01}Mayor: "Yes... I have a favor to ask. Riana's boyfriend, Peta. He's missing. Will you look for him?"{wait}	
+dlg:1563	text	rec:3056	149	{spk:02}ユウキ「ぼくたちはテカ犯罪チームです。{br}　ポリステカに言ってください」{wait}	{spk:02}Yuki: "We're the Teka crime team. Please ask the Polisteka."{wait}	
+dlg:1564	text	rec:3057	149	{face:00505}{spk:01}市長「なあ、リアナのだいじなボーイフレンドなんだよ、娘の泣き顔を見たくないんだ。	{face:00505}{spk:01}Mayor: "Come on, he's Riana's precious boyfriend. I don't want to see my daughter cry.	
+dlg:1565	text	rec:3058	149	{face:00506}　父親の気持ちをさっしてくれ、ううう」{wait}	{face:00506}Understand a father's feelings, boo hoo."{wait}	
+dlg:1566	text	rec:3059	149	{spk:02}ユウキ「―――わかりました。けど、{br}{face:10005}　ウソ泣きはムダです、前に見ています；」{wait}	{spk:02}Yuki: "--Understood. But{face:10005} fake crying is no use. I've seen it before."{wait}	
+dlg:1567	text	rec:3060	149	{face:00505}{spk:01}市長「あ、そうだっけ」{wait}	{face:00505}{spk:01}Mayor: "Oh, did you?"{wait}	
+dlg:1568	text	rec:3062	149	{face:01002}{spk:01}リアナ「さいごにペータに会ったの？{br}　水曜日の朝ね。{wait}	{face:01002}{spk:01}Riana: "When did I last see Peta? Wednesday morning.{wait}	
+dlg:1569	text	rec:3063	149	{spk:01}　警官になるんだって言いに来たわ。{br}　ブランク様にたいこうする気なのよ」{wait}	{spk:01}He came to say he was going to become a police officer. He means to compete with Blank-sama."{wait}	

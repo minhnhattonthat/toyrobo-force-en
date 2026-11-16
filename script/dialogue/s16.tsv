@@ -1,19 +1,19 @@
 id	kind	where	max	jp	en	notes
-dlg:1795	text	rec:3500	149	{face:02103}{face:32702}{spk:04}ポリジェンヌ「以上、{br}　ほうこくを終わります―――」{wait}		
-dlg:1796	text	rec:3501	149	{spk:01}秘書ジェーン「ハンナ市長がお怒りです。{br}　ポリジェンヌ全員で、市民を押さえつけてください」{wait}		
-dlg:1797	text	rec:3502	149	{spk:04}ポリジェンヌ「トモミ署長が、市民には手を出すなと」{wait}		
-dlg:1798	text	rec:3503	149	{spk:01}ジェーン「小娘の言うことを聞く必要はありません。{br}　市長の命令に従ってください・・・！」{wait}		
-dlg:1799	text	rec:3507	149	　ホテル『ビクトリア』{wait}		
-dlg:1800	text	rec:3508	149	{face:10001}{face:30208}{spk:04}ギリガン「デモにさんかした男がかたっぱしからつかまってるぞ！{wait}		
-dlg:1801	text	rec:3509	149	{face:30207}{spk:04}　トモミはなにやってんだ、{br}　署長なら警察のぼうそうをとめられるだろうっ」{wait}		
-dlg:1802	text	rec:3510	149	{face:10012}{spk:02}ユウキ「どうかな。かたがきもらっただけだからね。{wait}		
-dlg:1803	text	rec:3511	149	{face:10004}{spk:02}　さあ、おもしろいテレビがはじまるよ。{br}『ようきなゲオルグショー』だ」{wait}		
-dlg:1804	text	rec:3512	149	{face:30205}{spk:04}ギリガン「何をのんきなことを―――{br}{face:30202}　ゲオルグ？　また電波ジャックか？」{wait}		
-dlg:1805	text	rec:3514	149	{face:30000}{face:12102}{spk:02}ゲオルグ博士「マーマレードのしょくん！」{wait}		
-dlg:1806	text	rec:3515	149	{spk:02}博士「わしは、『天才』ゲオルグ博士じゃ。{br}　ごぞんじかな？{wait}		
-dlg:1807	text	rec:3516	149	{spk:02}　ごぞんじない方に、お教えしよう。{br}　わしは、{br}　世界せいふくをたくらんでおる！」{wait}		
-dlg:1808	text	rec:3517	149	{face:10012}{face:30205}{spk:04}ギリガン「本気か、このじいさん」{wait}		
-dlg:1809	text	rec:3518	149	{face:10005}{spk:02}ユウキ「ジョークさ。{br}　一度言ってみたかったんだろ」{wait}		
+dlg:1795	text	rec:3500	149	{face:02103}{face:32702}{spk:04}ポリジェンヌ「以上、{br}　ほうこくを終わります―――」{wait}	{face:02103}{face:32702}{spk:04}Polijenne: "End of report--"{wait}	
+dlg:1796	text	rec:3501	149	{spk:01}秘書ジェーン「ハンナ市長がお怒りです。{br}　ポリジェンヌ全員で、市民を押さえつけてください」{wait}	{spk:01}Secretary Jane: "Mayor Hanna is angry. Use every Polijenne to keep the citizens down."{wait}	
+dlg:1797	text	rec:3502	149	{spk:04}ポリジェンヌ「トモミ署長が、市民には手を出すなと」{wait}	{spk:04}Polijenne: "Chief Tomomi said not to lay a hand on the citizens."{wait}	
+dlg:1798	text	rec:3503	149	{spk:01}ジェーン「小娘の言うことを聞く必要はありません。{br}　市長の命令に従ってください・・・！」{wait}	{spk:01}Jane: "There is no need to listen to that little girl. Follow the Mayor's orders...!"{wait}	
+dlg:1799	text	rec:3507	149	　ホテル『ビクトリア』{wait}	Hotel 'Victoria'{wait}	
+dlg:1800	text	rec:3508	149	{face:10001}{face:30208}{spk:04}ギリガン「デモにさんかした男がかたっぱしからつかまってるぞ！{wait}	{face:10001}{face:30208}{spk:04}Gilligan: "Every man who joined the demonstration is getting arrested!{wait}	
+dlg:1801	text	rec:3509	149	{face:30207}{spk:04}　トモミはなにやってんだ、{br}　署長なら警察のぼうそうをとめられるだろうっ」{wait}	{face:30207}{spk:04}What's Tomomi doing? As Chief, she could stop the police from running wild!"{wait}	
+dlg:1802	text	rec:3510	149	{face:10012}{spk:02}ユウキ「どうかな。かたがきもらっただけだからね。{wait}	{face:10012}{spk:02}Yuki: "I wonder. She only got the title.{wait}	
+dlg:1803	text	rec:3511	149	{face:10004}{spk:02}　さあ、おもしろいテレビがはじまるよ。{br}『ようきなゲオルグショー』だ」{wait}	{face:10004}{spk:02}Now, an interesting TV show is starting. 'The Jolly Georg Show'."{wait}	
+dlg:1804	text	rec:3512	149	{face:30205}{spk:04}ギリガン「何をのんきなことを―――{br}{face:30202}　ゲオルグ？　また電波ジャックか？」{wait}	{face:30205}{spk:04}Gilligan: "What are ya so relaxed for--{face:30202} Georg? Another broadcast hijack?"{wait}	
+dlg:1805	text	rec:3514	149	{face:30000}{face:12102}{spk:02}ゲオルグ博士「マーマレードのしょくん！」{wait}	{face:30000}{face:12102}{spk:02}Dr. Georg: "People of Marmalade!"{wait}	
+dlg:1806	text	rec:3515	149	{spk:02}博士「わしは、『天才』ゲオルグ博士じゃ。{br}　ごぞんじかな？{wait}	{spk:02}Doctor: "I am the 'genius' Dr. Georg. Do you know me?{wait}	
+dlg:1807	text	rec:3516	149	{spk:02}　ごぞんじない方に、お教えしよう。{br}　わしは、{br}　世界せいふくをたくらんでおる！」{wait}	{spk:02}For those who don't, let me tell you. I am plotting to conquer the world!"{wait}	
+dlg:1808	text	rec:3517	149	{face:10012}{face:30205}{spk:04}ギリガン「本気か、このじいさん」{wait}	{face:10012}{face:30205}{spk:04}Gilligan: "Is this old geezer serious?"{wait}	
+dlg:1809	text	rec:3518	149	{face:10005}{spk:02}ユウキ「ジョークさ。{br}　一度言ってみたかったんだろ」{wait}	{face:10005}{spk:02}Yuki: "It's a joke. He just always wanted to say it once."{wait}	
 dlg:1810	text	rec:3519	149	{face:30000}{face:12102}{spk:02}博士「テカを使って、人間どもをしずかにさせようとしておるところだ。{br}　市民かくめいなど、もってのほか！{wait}		
 dlg:1811	text	rec:3520	149	{spk:02}　おとなしくしていたまえ、とくにアプリコットの警官しょくんはな―――{br}　ひゃっひゃっひゃ」{wait}		
 dlg:1812	text	rec:3521	149	{face:10012}{face:30206}{spk:04}ギリガン「また俺たちのじゃまをする気か；　{face:30207}こいつのい場所は分からねえのかっ」{wait}		
@@ -114,7 +114,7 @@ dlg:1906	text	rec:3674	149	{spk:01}　わしは、そんな人間の愚かさを
 dlg:1907	text	rec:3675	149	{spk:02}ユウキ「お話はあとでうかがいます。{br}　あなたをタイホしたら、ゆっくりとね！」{wait}		
 dlg:1908	text	rec:3676	149	{spk:01}博士「できるもんならしてみるがいい。{br}　だが・・・{wait}		
 dlg:1909	text	rec:3677	149	{spk:01}　わしを追いかける前に、ジェーンをいい　工場に送ってやってくれ・・・！」{wait}		
-dlg:1910	text	rec:3680	149	　ホテル『ビクトリア』{wait}		
+dlg:1910	text	rec:3680	149	　ホテル『ビクトリア』{wait}	Hotel 'Victoria'{wait}	
 dlg:1911	text	rec:3681	149	{face:10001}{face:30201}{face:20103}{spk:03}トモミ「あたしの暗号じょうほう、どうだった。{br}　ユウキならかんたんにとけたでしょ」{wait}		
 dlg:1912	text	rec:3682	149	{face:10005}{spk:02}ユウキ「くろうしたよ；		
 dlg:1913	text	rec:3683	149	{face:10002}　ゲオルグ博士の船をさがすとしようか。{br}　手おくれかもしれないけど・・・」{wait}		

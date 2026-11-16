@@ -1,226 +1,226 @@
 id	kind	where	max	jp	en	notes
-dlg:1570	text	rec:3066	149	{face:00505}{face:10001}{spk:01}市長「ペータをさがしてくれてるかね？{br}　リアナも、心配でたまらんだろうな」{wait}		
-dlg:1571	text	rec:3067	149	ユウキ「（そうは思いませんが；）」{wait}		
-dlg:1572	text	rec:3070	149	{face:10001}{face:00605}{spk:01}署長「ああ、ペータね。{br}　たしかに、警官にさせてくれとねじこまれたが」{wait}		
-dlg:1573	text	rec:3071	149	{face:10012}{spk:02}ユウキ「どうしました？」{wait}		
-dlg:1574	text	rec:3073	149	{face:00602}{spk:01}署長「ちゃんと言ったよ、テカでもない、{br}　訓練もしてない人間を警官にはできないってね。{wait}		
-dlg:1575	text	rec:3074	149	{spk:01}　ま、しつこく食い下がるもんだから、{br}　大手がらでも立てておいでって追いはらったが」{wait}		
-dlg:1576	text	rec:3076	149	{face:00402}{spk:01}ポイヤック「いまは警官訓練生のぼしゅうはしていません。{br}　ペータという少年も来ませんでしたね」{wait}		
-dlg:1577	text	rec:3078	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「ペータさんですか。{br}　ポリステカになるにはどうするのか、{br}聞かれました。{wait}		
-dlg:1578	text	rec:3079	149	{spk:01}　機械の体ならポリステカにかいぞうできます、って言ったら、{wait}		
-dlg:1579	text	rec:3080	149	{spk:01}『機械の体になればいいんだね』って飛び出していっちゃいましたけど」{wait}		
-dlg:1580	text	rec:3081	149	{face:30206}{spk:04}ギリガン「？　なにを考えてやがるんだ？」{wait}		
-dlg:1581	text	rec:3085	149	　レストラン『ポトマック』{wait}		
-dlg:1582	text	rec:3087	149	{face:10001}{face:20101}{face:01002}{spk:01}リアナ「あら。{br}　本当にペータなんかさがしてるの？」{wait}		
-dlg:1583	text	rec:3088	149	{face:10012}{spk:02}ユウキ「お食事ですか。{br}　ペータ君は心配じゃないんですか」{wait}		
-dlg:1584	text	rec:3089	149	{spk:01}リアナ「ペータを心配？　なんでえ？」{wait}		
-dlg:1585	text	rec:3092	149	{face:10001}{face:20101}{face:01003}{spk:01}リアナ「ブランク様はふだん、なにを食べてらっしゃるのかしら？」{wait}		
-dlg:1586	text	rec:3093	149	{face:10012}{spk:02}ユウキ「エレクトロンです」{wait}		
-dlg:1587	text	rec:3094	149	{spk:01}リアナ「どういうお料理？{br}　作りかたを教えてちょうだい」{wait}		
-dlg:1588	text	rec:3095	149	{spk:02}ユウキ「発電機にガソリンを入れてスイッチをおしてください」{wait}		
-dlg:1589	text	rec:3096	149	{spk:01}リアナ「は？」{wait}		
-dlg:1590	text	rec:3102	149	{face:10001}{face:00505}{spk:01}市長「ペータは見つからないかね？{br}　リアナは食事ものどを通らないだろうな」{wait}		
-dlg:1591	text	rec:3103	149	ユウキ「（そうは見えませんが；）」{wait}		
-dlg:1592	text	rec:3105	149	{face:00605}{spk:01}署長「よけいな命令を出したばっかりに、{br}　ジローには悪いことをしたよ・・・」{wait}		
-dlg:1593	text	rec:3107	149	{face:00402}{spk:01}ポイヤック「警官になりたいと言うなら、{br}　わたしが教えてやるのですが。{br}　ペータという少年は来ませんね」{wait}		
-dlg:1594	text	rec:3109	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「ペータさんなら、{br}　『機械の体になればいいんだね』って、　出て行きました」{wait}		
-dlg:1595	text	rec:3110	149	{face:20106}{spk:03}トモミ「べつに機械だから好かれるわけじゃないっつーの・・・」{wait}		
-dlg:1596	text	rec:3113	149	　市内のブティック{wait}		
-dlg:1597	text	rec:3114	149	{face:10001}{face:20101}{face:01003}{spk:01}リアナ「あなたたちもひまねー。{br}　ペータなんかほっときなさいよ」{wait}		
-dlg:1598	text	rec:3115	149	{face:20105}{spk:03}トモミ「今度はお買い物ですか♪{br}　（どっちがひまなのよ）」{wait}		
-dlg:1599	text	rec:3117	149	{face:10001}{face:20101}{face:01602}{spk:01}メディテカ「けんこうな方は機械化できないとことわりました。{br}　大けがでもしないかぎりね」{wait}		
-dlg:1600	text	rec:3118	149	{face:10012}{spk:02}ユウキ「たぶん、よろこんで飛び出して行ったでしょう」{wait}		
-dlg:1601	text	rec:3119	149	{spk:01}メディテカ「ええ、『大けがしてみせるぞ』とさけんで」{wait}		
-dlg:1602	text	rec:3120	149	{face:10005}{spk:02}ユウキ「バカな子だ・・・；；」{wait}		
-dlg:1603	text	rec:3126	149	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}市長「機械の体になってでも、ねえ。{br}　そこまで好かれて、リアナは女みょうりにつきるな」{wait}		
-dlg:1604	text	rec:3127	149	{face:20105}{spk:03}トモミ「ペータはバカみょうりにつきますけどね；」{wait}		
-dlg:1605	text	rec:3129	149	{face:00605}{spk:01}署長「やっとジローをかいしゅうできたよ。　まったく、こけももってのはあぶない町だね；」{wait}		
-dlg:1606	text	rec:3131	149	{face:00402}{spk:01}ポイヤック「この付近では見かけないテカがあばれているらしいです。{br}　気をつけて」{wait}		
-dlg:1607	text	rec:3133	149	{face:01202}{spk:01}ワークテカ「ペータさんをさがしに行くんですか」{wait}		
-dlg:1608	text	rec:3136	149	{face:01002}{spk:01}リアナ「まだ見つからないの？・・・{br}　死んでたりしないわよね」{wait}		
-dlg:1609	text	rec:3137	149	{face:10002}{spk:02}ユウキ「どうもこうがいに出てしまったようです。{br}　かならず見つけますから、{face:10008}ご心配なく」{wait}		
-dlg:1610	text	rec:3138	149	{face:01005}{spk:01}リアナ「べつに心配してるわけじゃないけど・・・」{wait}		
-dlg:1611	text	rec:3140	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「ペータはこうがいに出たの？」{wait}		
-dlg:1612	text	rec:3141	149	{face:10004}{spk:02}ユウキ「シティの中は平和だからね。{br}　大けがしたいなら、外の反乱テカにケンカを売りにいくしかない」{wait}		
-dlg:1613	text	rec:3142	149	{face:30203}{spk:04}ギリガン「すくえねえやつだ」{wait}		
-dlg:1614	text	rec:3143	149	{face:20103}{spk:03}トモミ「でも、すくいに行かないとね」{wait}		
-dlg:1615	text	rec:3153	149	{face:20104}{spk:03}トモミ「これじゃ探したことにならないわ。　また来ましょう」{wait}		
-dlg:1616	text	rec:3156	149	{face:00302}{spk:01}ブランク「こちらブランクです、ペータさんは発見できません。{br}　ここではないようです」{wait}		
-dlg:1617	text	rec:3160	149	{face:10001}{face:00505}{spk:01}市長「ペータは見つからないかね？{br}　リアナも―――本当に心配してるのかな」{wait}		
-dlg:1618	text	rec:3161	149	{face:10004}{spk:02}ユウキ「ちっとは心配してたようです」{wait}		
-dlg:1619	text	rec:3163	149	{face:00602}{spk:01}署長「ジローのかたきうちとか、考えてはいかんよ。{br}　仕返しは『法の精神』に反する」{wait}		
-dlg:1620	text	rec:3165	149	{face:00402}{spk:01}ポイヤック「ポリジェンヌがあばれているようですね。{br}　どういうことでしょう」{wait}		
-dlg:1621	text	rec:3167	149	{face:01202}{spk:01}ワークテカ「ペータさん見つかりませんか」{wait}		
-dlg:1622	text	rec:3170	149	{face:01004}{spk:01}リアナ「ちょっと、ペータをさがしてるんでしょっ！{br}　町んなかうろついてていいの？！」{wait}		
-dlg:1623	text	rec:3172	149	{face:10001}{face:20101}{face:30203}{spk:04}ギリガン「すくえねえやつだな、あいつは」{wait}		
-dlg:1624	text	rec:3173	149	{face:20103}{spk:03}トモミ「でも、すくいに行かないとね」{wait}		
-dlg:1625	text	rec:3184	149	{face:11101}{face:00302}{spk:01}ブランク「ペータさんを発見しました。{br}　ケガをしているようですが、たいしたことはなく―――{wait}		
-dlg:1626	text	rec:3185	149	{face:11103}{face:00303}{spk:01}　それより、ぼくのことをにらみ付けてるんですけど―――？」{wait}		
-dlg:1627	text	rec:3188	149	{face:01104}{face:11004}{spk:02}リアナ「ここまでバカだと思わなかったわ！　ブランク様にめいわくかけただけじゃないのよ！」{wait}		
-dlg:1628	text	rec:3189	149	{spk:01}ペータ「べ、べつに、ブランクに助けてくれなんて言わなかったよ」{wait}		
-dlg:1629	text	rec:3190	149	{spk:02}リアナ「なによ、それ！{br}　ぜっこうよ、あんたみたいな男！」{wait}		
-dlg:1630	text	rec:3193	149	{face:30101}{face:20012}{spk:03}ユウキ「あとであやまった方がいい―――{br}　で、ペータをおそったポリジェンヌ、{br}何体ぐらいいた？」{wait}		
-dlg:1631	text	rec:3194	149	{spk:01}ペータ「えーと・・・１０人ぐらいかな」{wait}		
-dlg:1632	text	rec:3195	149	{face:30104}{spk:04}トモミ「負けた言いわけに相手を多く言う。　古い手ね」{wait}		
-dlg:1633	text	rec:3196	149	{spk:01}ペータ「本当にそれぐらいいました」{wait}		
-dlg:1634	text	rec:3197	149	{face:30115}{spk:04}トモミ「ポリジェンヌがたくさんいるのは、マーマレードシティぐらいなもんよ」{wait}		
-dlg:1635	text	rec:3198	149	{face:20007}{spk:03}ユウキ「だとしたら―――マーマレードでも反乱がはじまったかな・・・？」{wait}		
-dlg:1636	text	rec:3204	149	{face:10001}{face:00502}{spk:01}市長「リアナがぜっこうだって？{br}　心配させたからねえ。{br}　ははは、ケンカするほど仲がいい」{wait}		
-dlg:1637	text	rec:3205	149	{face:10002}{spk:02}ユウキ「マーマレードに行きたいのです。{br}　市長にしょうかい状を書いていただけないかと」{wait}		
-dlg:1638	text	rec:3207	149	{face:00502}{spk:01}市長「わたしのしょうかいじゃあ、ぎゃくにたたき出されるよ。{br}　きらわれてるんでね、あの女性市長には」{wait}		
-dlg:1639	text	rec:3210	149	{face:10001}{face:00602}{spk:01}署長「マーマレードシティで？{br}　反乱が起きているとは聞かないが―――{br}　行きたいのかね」{wait}		
-dlg:1640	text	rec:3211	149	{face:10002}{spk:02}ユウキ「ぜひ」{wait}		
-dlg:1641	text	rec:3213	149	{face:00602}{spk:01}署長「あそこの市長はだれかのしょうかいがないと会ってくれんよ。{br}　とくに男にはね」{wait}		
-dlg:1642	text	rec:3215	149	{face:00402}{spk:01}ポイヤック「マーマレードのハンナ市長はきぞくの出身で、きびしい人だとも優しい人だとも聞いています」{wait}		
-dlg:1643	text	rec:3217	149	{face:01202}{spk:01}ワークテカ「ブランクさんの持ち帰ったはへん、調べましたが、{br}　たしかにマーマレードせいですね」{wait}		
-dlg:1644	text	rec:3221	149	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}トモミ「あら？{br}　リアナさん、ペータ君とはぜっこうしたんじゃありませんでした」{wait}		
-dlg:1645	text	rec:3222	149	{face:20004}{spk:03}ユウキ「やっぱり、放っておけませんか」{wait}		
-dlg:1646	text	rec:3223	149	{spk:02}リアナ「たいくつだっただけよっ」{wait}		
-dlg:1647	text	rec:3224	149	{face:20003}{spk:15}ユウキ「どうして気の強い女の子って、{br}　すなおじゃないんだろう。{br}　{face:20012}ね、トモミ？」{wait}		
-dlg:1648	text	rec:3225	149	{face:30115}{spk:04}トモミ「なんであたしに聞くのよっ」{wait}		
-dlg:1649	text	rec:3226	149	{spk:03}ユウキ「マーマレードの女性市長も、{br}　気の強いオバサンらしいね」{wait}		
-dlg:1650	text	rec:3227	149	{face:11002}{spk:02}リアナ「なに言ってるの、ステキなおばさまよ。{br}　ちょっと男ぎらいなだけ。{br}{face:11003}　あたしとは気が合うの」{wait}		
-dlg:1651	text	rec:3228	149	{face:20012}{spk:03}ユウキ「類は友をよぶ―――{br}　{face:20008}おねがいがあります、お嬢さま。{br}　しょうかい状を書いてもらえませんか。		
-dlg:1652	text	rec:3229	149	　お礼は{face:20005}ブランクとデート１回で―――」{wait}		
-dlg:1653	text	rec:3232	149	{face:01104}{face:10001}{face:20103}{spk:03}トモミ「リアナさんは？」{wait}		
-dlg:1654	text	rec:3233	149	{spk:01}ペータ「おこって出ていっちゃって・・・リアナのために一生けんめいのつもりなのに・・・はーあ」{wait}		
-dlg:1655	text	rec:3235	149	{face:10001}{face:30201}{face:20103}{spk:03}トモミ「マーマレードへ行くのね」{wait}		
-dlg:1656	text	rec:3236	149	{face:30206}{spk:04}ギリガン「あそこは女性上位のシティだ。{br}　男にはきびしいらしいぞ」{wait}		
-dlg:1657	text	rec:3246	149	{face:10001}{face:02702}{spk:01}ポリジェンヌ「ハンナ市長に面会ですか。{br}　しょうかい状を」{wait}		
-dlg:1658	text	rec:3247	149	{face:10012}{spk:02}ユウキ「しょうかい状？{br}　いえ、ありませんが」{wait}		
-dlg:1659	text	rec:3248	149	{spk:01}ポリジェンヌ「ではお会いできません。{br}　お引き取りください」{wait}		
-dlg:1660	text	rec:3249	149	{face:10003}{spk:14}ユウキ「え、あの・・・そうなのか；」{wait}		
-dlg:1661	text	rec:3251	149	　マーマレード出国ゲート{wait}		
-dlg:1662	text	rec:3252	149	{face:10012}{spk:02}ユウキ「だれかにしょうかい状、作ってもらわなくちゃ・・・」{wait}		
-dlg:1663	text	rec:3257	149	{face:10001}{face:20101}{face:30201}{face:02103}{spk:01}秘書「マーマレード市長の秘書をつとめますジェーンです。{br}　ご用件はなんでしょう？」{wait}		
-dlg:1664	text	rec:3258	149	{face:10008}{spk:02}ユウキ「調査の協力をお願いしにきたんだけど・・・{br}　{face:10012}ハンナ市長には会えないのかな」{wait}		
-dlg:1665	text	rec:3259	149	{spk:01}ジェーン「わたくしから市長に伝えます。{br}　どんな調査を？」{wait}		
-dlg:1666	text	rec:3260	149	{face:10002}{spk:02}ユウキ「こちらで発生しているテカの反乱について―――」{wait}		
-dlg:1667	text	rec:3261	149	{spk:01}ジェーン「あら。{br}　反乱なんて起きていませんわ、そんな調査はムダですね。{br}　どうぞお引取りを」{wait}		
-dlg:1668	text	rec:3262	149	{face:10012}{spk:02}ユウキ「は？　しかし―――{br}　いえ、しつれいします」{wait}		
-dlg:1669	text	rec:3263	149	{face:30206}{spk:04}ギリガン「こらユウキ。{br}　何をあっさり引き下がるんだ」{wait}		
-dlg:1670	text	rec:3264	149	{face:10012}{spk:02}ユウキ「うん、まあ、彼女はトモミと話したがっているみたいだし、男はじゃまなようだから」{wait}		
-dlg:1671	text	rec:3265	149	{face:02103}{face:10001}{face:30201}{spk:01}ジェーン「そちらの婦警さん。{br}　ちょっとお待ちください」{wait}		
-dlg:1672	text	rec:3266	149	{face:20103}{spk:03}トモミ「うん？　あたし？」{wait}		
-dlg:1673	text	rec:3267	149	{spk:01}ジェーン「ちょっと二人だけで話をしませんか―――？」{wait}		
-dlg:1674	text	rec:3270	149	{face:10001}{face:30203}{spk:04}ギリガン「トモミ一人のこして、出てきてよかったのか？」{wait}		
-dlg:1675	text	rec:3272	149	{face:02702}{spk:01}ポリジェンヌ「ハンナ市長はじゅうような会談のさいちゅうです。{br}　お会いできません」{wait}		
-dlg:1676	text	rec:3279	149	　ホテル『ビクトリア』{wait}		
-dlg:1677	text	rec:3280	149	{face:10001}{face:30206}{spk:04}ギリガン「おれたちを追い出して、トモミにないしょ話ってなんだ」{wait}		
-dlg:1678	text	rec:3281	149	{face:10012}{spk:02}ユウキ「予想はつくね・・・{br}　下手をすると、これからギリガンに地上管制をやってもらわないといけないかも」{wait}		
-dlg:1679	text	rec:3285	149	{face:20104}{spk:03}トモミ「で、はなしってなに」{wait}		
-dlg:1680	text	rec:3286	149	{face:02103}{spk:01}秘書ジェーン「人間なのに、それも女性で　警官ってすばらしいわ。{br}　尊敬してしまいます」{wait}		
-dlg:1681	text	rec:3287	149	{face:20103}{spk:03}トモミ「ま、世界にたった一人の婦人警官だけどね。おせじ聞くために婦警になったんじゃないわよ」{wait}		
-dlg:1682	text	rec:3288	149	{spk:01}ジェーン「マーマレードに移籍するおつもりはありませんか？」{wait}		
-dlg:1683	text	rec:3289	149	{face:20115}{spk:03}トモミ「は？」{wait}		
-dlg:1684	text	rec:3290	149	{spk:01}ジェーン「市長がぜひにと。{br}　アプリコットのトモミ巡査を、{br}　マーマレード警察の署長に」{wait}		
-dlg:1685	text	rec:3292	149	{face:20105}{spk:03}トモミ「あたしが、署長？！」{wait}		
-dlg:1686	text	rec:3293	149	{spk:01}ジェーン「マーマレードは、女性のための　シティです。{br}　警察署長も女性でなくてはなりません。{wait}		
-dlg:1687	text	rec:3294	149	{spk:01}　『はい』と言ってくだされば、このまま署長のイスに座っていただけますが・・・？」{wait}		
-dlg:1688	text	rec:3295	149	{face:20107}{spk:03}トモミ「いきなり署長―――{br}　大出世だわ―――♪」{wait}		
-dlg:1689	text	rec:3296	149	{spk:01}ジェーン「アプリコットの市長や署長には、わたしが話をつけます。{br}　いかがでしょう？」{wait}		
-dlg:1690	text	rec:3297	149	{spk:03}トモミ「えへへー・・・{br}　どーしようかなー♪」{wait}		
-dlg:1691	text	rec:3301	149	{face:10001}{face:02702}{spk:01}ポリジェンヌ「ハンナ市長はじゅうような会談のさいちゅうです。{br}　お会いできません」{wait}		
-dlg:1692	text	rec:3302	149	{face:10012}{spk:02}ユウキ「（ははあ―――{br}　トモミをばいしゅう中か）」{wait}		
-dlg:1693	text	rec:3310	149	　ホテル『ビクトリア』{wait}		
-dlg:1694	text	rec:3311	149	{face:10012}{face:30201}{face:22402}{spk:03}トモミ「もしもし、ユウキ？{br}　あのさー、あたしさー♪」{wait}		
-dlg:1695	text	rec:3312	149	{spk:02}ユウキ「署長になれとでも言われた？{br}　で―――　そう―――　ああ、そう、{br}　かってにしなよ。じゃあね」{wait}		
-dlg:1696	text	rec:3313	149	{face:22400}{face:30208}{spk:04}ギリガン「どうした、{br}　ばいしゅうされたのか？！」{wait}		
-dlg:1697	text	rec:3314	149	{face:10012}{spk:02}ユウキ「うん。かんたんにひっかかったね」{wait}		
-dlg:1698	text	rec:3315	149	{spk:04}ギリガン「なんだそりゃあ！！{br}{face:30207}　ばかばかしい！{br}　アプリコットに帰るぞ、ユウキ！」{wait}		
-dlg:1699	text	rec:3316	149	{face:10004}{spk:02}ユウキ「そうは行かないよ。{br}　ここからが本番なんだから・・・」{wait}		
-dlg:1700	text	rec:3327	149	{face:10012}{face:30201}{face:22402}{spk:03}マーケテカ「フロントでございます。{br}　トモミ・アッテンボロー様はいらっしゃいますか」{wait}		
-dlg:1701	text	rec:3328	149	{spk:02}ユウキ「あのはくじょう者は、どっかのイスでふんぞりかえっています」{wait}		
-dlg:1702	text	rec:3329	149	{spk:03}マーケテカ「それはこまりました。{br}　でんごんでございまして、{wait}		
-dlg:1703	text	rec:3330	149	{spk:03}『ロビン・フッドは、{br}　マリアンに７回プロポーズした』{br}　とのことですが―――」{wait}		
-dlg:1704	text	rec:3331	149	{face:10002}{spk:02}ユウキ「―――わかった、とつたえてください」{wait}		
-dlg:1705	text	rec:3332	149	{face:22400}{face:30202}{spk:04}ギリガン「なんのこった？{br}　署長からの暗号指令か？{br}　ロビン・フッドがなんだって？」{wait}		
-dlg:1706	text	rec:3333	149	{face:10007}{spk:02}ユウキ「『ロビン・フッドはマリアンに７回プロポーズした』{br}　{face:10007}えーとまず、ロビンってのは」{wait}		
-dlg:1707	text	rec:3335	149	{face:30206}{spk:04}ギリガン「お前がマリアンにプロポーズ？{br}　マリアンってだれだ」{wait}		
-dlg:1708	text	rec:3337	149	{face:30206}{spk:04}ギリガン「おれがマリアンにプロポーズ？{br}　マリアンってだれだ」{wait}		
-dlg:1709	text	rec:3339	149	{face:30206}{spk:04}ギリガン「ブランクがマリアンにプロポーズするだと？{br}　マリアンってだれだ」{wait}		
-dlg:1710	text	rec:3341	149	{face:30202}{spk:04}ギリガン「そういう仲になっていたか。{br}　ま、いわってやる、{face:30209}おめでとう」{wait}		
-dlg:1711	text	rec:3342	149	{face:10005}{spk:02}ユウキ「ちちちがうよ、ぼくがトモミをつかまえるってことさ」{wait}		
-dlg:1712	text	rec:3344	149	{face:30202}{spk:04}ギリガン「・・・意味が分からねえぞ」{wait}		
-dlg:1713	text	rec:3345	149	{face:10002}{spk:02}ユウキ「ぼくがポリジェンヌをつかまえるってことさ」{wait}		
-dlg:1714	text	rec:3346	149	{face:30202}{spk:04}ギリガン「テカをつかまえるわんりょくはあるか？」{wait}		
-dlg:1715	text	rec:3347	149	{face:10003}{spk:14}ユウキ「・・・ぼくじゃムリだな；{br}　じゃあ、ロビンは」{wait}		
-dlg:1716	text	rec:3349	149	{face:30205}{spk:04}ギリガン「・・・オバサンが好みか」{wait}		
-dlg:1717	text	rec:3350	149	{face:10005}{spk:02}ユウキ「よしてよ；{br}　ぼくがハンナ市長をつかまえるってことさ」{wait}		
-dlg:1718	text	rec:3351	149	{face:30202}{spk:04}ギリガン「なんのつみで？」{wait}		
-dlg:1719	text	rec:3352	149	{face:10003}{spk:14}ユウキ「ええと・・・？{br}　まちがえてるかな；{br}　じゃあマリアンは」{wait}		
-dlg:1720	text	rec:3354	149	{face:30203}{spk:04}ギリガン「ことわる」{wait}		
-dlg:1721	text	rec:3355	149	{face:10002}{spk:02}ユウキ「ギリガンがトモミをつかまえるってことさ」{wait}		
-dlg:1722	text	rec:3357	149	{face:30202}{spk:04}ギリガン「・・・意味が分からねえぞ」{wait}		
-dlg:1723	text	rec:3358	149	{face:10002}{spk:02}ユウキ「ギリガンがポリジェンヌをつかまえるってことさ」{wait}		
-dlg:1724	text	rec:3359	149	{face:30202}{spk:04}ギリガン「いくらおれでもテカをつかまえるわんりょくはねえぞ？」{wait}		
-dlg:1725	text	rec:3360	149	{face:10003}{spk:14}ユウキ「・・・だよねえ。{br}　じゃあ、ロビンは」{wait}		
-dlg:1726	text	rec:3362	149	{face:30205}{spk:04}ギリガン「たのむからまちがいだと言ってくれ；」{wait}		
-dlg:1727	text	rec:3363	149	{face:10002}{spk:02}ユウキ「ギリガンがハンナ市長をつかまえるってことさ」{wait}		
-dlg:1728	text	rec:3364	149	{face:30202}{spk:04}ギリガン「なんのつみで？」{wait}		
-dlg:1729	text	rec:3365	149	{face:10003}{spk:14}ユウキ「ええと・・・？{br}　まちがえてるかな；{br}　じゃあギリガンがプロポーズする相手は」{wait}		
-dlg:1730	text	rec:3367	149	{face:30203}{spk:04}ギリガン「ほー・・・{br}　いじめられてるうちに情がうつったな」{wait}		
-dlg:1731	text	rec:3368	149	{face:10005}{spk:02}ユウキ「ブランクがトモミをつかまえるってことさ」{wait}		
-dlg:1732	text	rec:3369	149	{face:30204}{spk:04}ギリガン「そうか、うら切り者をつかまえに行けってことか。{br}　マーマレード警察に乗りこもうぜ！」{wait}		
-dlg:1733	text	rec:3371	149	{face:30203}{spk:04}ギリガン「・・・意味が分からねえぞ」{wait}		
-dlg:1734	text	rec:3372	149	{face:10004}{spk:02}ユウキ「ブランクがポリジェンヌをつかまえるってことさ」{wait}		
-dlg:1735	text	rec:3373	149	{face:30204}{spk:04}ギリガン「なるほど、反乱を起こしたポリジェンヌをつかまえろってことだな。{br}　どれだけいる」{wait}		
-dlg:1736	text	rec:3374	149	{face:10004}{spk:02}ユウキ「７人。{br}　７回プロポーズして全員つかまえる」{wait}		
-dlg:1737	text	rec:3375	149	{spk:04}ギリガン「どこにいる？」{wait}		
-dlg:1738	text	rec:3378	149	{spk:04}ギリガン「山か。ブリオッシュ山だな。{br}　よし、出撃じゅんびにかかろうぜ！」{wait}		
-dlg:1739	text	rec:3381	149	{spk:04}ギリガン「森か。シャーウッドの森だな。{br}　よし、出撃じゅんびにかかろうぜ！」{wait}		
-dlg:1740	text	rec:3384	149	{spk:04}ギリガン「海か。マーマレード海だな。{br}　よし、出撃じゅんびにかかろうぜ！」{wait}		
-dlg:1741	text	rec:3388	149	{face:30205}{spk:04}ギリガン「思いがけないてんかいだな；」{wait}		
-dlg:1742	text	rec:3389	149	{face:10005}{spk:02}ユウキ「ブランクがハンナ市長をつかまえるってことさ」{wait}		
-dlg:1743	text	rec:3390	149	{face:30202}{spk:04}ギリガン「なんのつみで？」{wait}		
-dlg:1744	text	rec:3391	149	{face:10003}{spk:14}ユウキ「ええと・・・？{br}　まちがえてるかな；{br}　じゃあマリアンは」{wait}		
-dlg:1745	text	rec:3395	149	{face:02702}{face:20001}{face:30301}{face:10202}{spk:02}ギリガン「おとなしく通してもらおう。		
-dlg:1746	text	rec:3396	149	{face:10206}　うら切り者のトモミ巡査、{br}{face:10207}　とっつかまえてせいばいしてくれる！」{wait}		
-dlg:1747	text	rec:3397	149	{spk:01}ポリジェンヌ「トモミ警視はわれわれの署長です。{br}　うばうつもりなら実力でどうぞ」{wait}		
-dlg:1748	text	rec:3398	149	{face:10204}{spk:02}ギリガン「いいだろう。{br}　ブランク、せんとうじゅんびだ！」{wait}		
-dlg:1749	text	rec:3399	149	{face:20005}{spk:03}ユウキ「ちょっとまって、まずいよ、{br}　また警察どうしでケンカなんて」{wait}		
-dlg:1750	text	rec:3400	149	{face:10206}{spk:02}ギリガン「だけどお前、署長が暗号指令で」{wait}		
-dlg:1751	text	rec:3401	149	{face:20003}{spk:15}ユウキ「ちがうんだ、トモミをつかまえろって話になるはずがないんだよ」{wait}		
-dlg:1752	text	rec:3404	149	{face:10001}{face:30202}{spk:04}ギリガン「ちがうってんなら、本当のとこはどうなんだ」{wait}		
-dlg:1753	text	rec:3416	149	{face:00301}{face:30201}{face:10009}{spk:02}ユウキ「出撃じゅんび、いいかい」{wait}		
-dlg:1754	text	rec:3417	149	{face:30210}{spk:04}ギリガン「おいっ、ブランク、今日からおれが管制してやるからな！」{wait}		
-dlg:1755	text	rec:3418	149	{face:00303}{spk:01}ブランク「はあ、お手やわらかに・・・」{wait}		
-dlg:1756	text	rec:3421	149	{face:30210}{spk:04}ギリガン「ユウキ、行き先はブリオッシュ山だったな。{br}　なるほど、ロビン・フッドってな、{br}　山ぞくだったからな！」{wait}		
-dlg:1757	text	rec:3422	149	{face:10010}{spk:02}ユウキ「え？　ちがうよ、ロビン・フッドは山ぞくじゃなくて・・・」{wait}		
-dlg:1758	text	rec:3423	149	{spk:04}ギリガン「山ぞくでないなら海ぞくか？{br}　なんで山ってことになった」{wait}		
-dlg:1759	text	rec:3424	149	{spk:02}ユウキ「・・・まちがえた；{br}　ポリジェンヌがあばれているのは」{wait}		
-dlg:1760	text	rec:3429	149	{spk:04}ギリガン「そうか、行くぞ！」{wait}		
-dlg:1761	text	rec:3437	149	　マーマレード海岸{wait}		
-dlg:1762	text	rec:3438	149	{face:00301}{face:10001}{face:30210}{spk:04}ギリガン「しずかだな。{br}　かくれてやがるのか、見つけ出してつかまえてやるぜ」{wait}		
-dlg:1763	text	rec:3439	149	{face:10010}{spk:02}ユウキ「行け、ブランク！」{wait}		
-dlg:1764	text	rec:3440	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}		
-dlg:1765	text	rec:3443	149	{face:10001}{face:30201}{face:00303}{spk:01}ブランク「あのー、ポリジェンヌなんていませんでしたけど・・・」{wait}		
-dlg:1766	text	rec:3444	149	{face:30203}{spk:04}ギリガン「敵がいなくちゃ、{br}　海ぞくロビン・フッド様もかたなしだ」{wait}		
-dlg:1767	text	rec:3445	149	{face:10012}{spk:02}ユウキ「え？　ロビン・フッドは海ぞくじゃないよ」{wait}		
-dlg:1768	text	rec:3446	149	{face:30206}{spk:04}ギリガン「なんだと。{br}　じゃあ、なんで海ってことになった」{wait}		
-dlg:1769	text	rec:3447	149	{face:10003}{spk:14}ユウキ「・・・まちがえた；　本当は」{wait}		
-dlg:1770	text	rec:3452	149	{spk:04}ギリガン「町にもどってやり直しだな」{wait}		
-dlg:1771	text	rec:3454	149	　シャーウッドの森　入り口{wait}		
-dlg:1772	text	rec:3455	149	{face:00301}{face:30201}{face:10009}{spk:02}ユウキ「ロビン・フッドは、シャーウッドの森の英雄だからね」{wait}		
-dlg:1773	text	rec:3456	149	{face:30210}{spk:04}ギリガン「ふん、いるいる。{br}　あたしをつかまえにきてーって、{br}　ポリジェンヌが待ち伏せしてやがる」{wait}		
-dlg:1774	text	rec:3457	149	{face:10011}{spk:14}ユウキ「よーし、ブランク、{br}マリアンにプロポーズして、{br}　教会までまっしぐらだ！」{wait}		
-dlg:1775	text	rec:3458	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}		
-dlg:1776	text	rec:3461	149	{face:30206}{spk:04}ギリガン「このやろっ、しっかりやれっ」{wait}		
-dlg:1777	text	rec:3472	149	{face:00301}{face:30201}{face:10010}{spk:02}ユウキ「出撃じゅんび、いいかい」{wait}		
-dlg:1778	text	rec:3473	149	{face:30210}{spk:04}ギリガン「おいっ、ブランク、今度はうまくやれよ！」{wait}		
-dlg:1779	text	rec:3474	149	{face:00303}{spk:01}ブランク「がんばります」{wait}		
-dlg:1780	text	rec:3479	149	　シャーウッドの森　入り口{wait}		
-dlg:1781	text	rec:3480	149	{face:00301}{face:10011}{spk:14}ユウキ「ブランク！{br}　行くよ、森をつっきる！」{wait}		
-dlg:1782	text	rec:3481	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}		
-dlg:1783	text	rec:3485	149	　シャーウッドの森の教会{wait}		
-dlg:1784	text	rec:3486	149	{face:10001}{face:20201}{face:30301}{face:02202}{spk:01}タック神父「かんしゃします。{br}　どこにも助けをよべず、困っていました」{wait}		
-dlg:1785	text	rec:3487	149	{face:20206}{spk:03}ギリガン「教官テカか。{br}　なんで神父になってる」{wait}		
-dlg:1786	text	rec:3488	149	{spk:01}神父「わたしはマーマレード市長の教育係でした。{wait}		
-dlg:1787	text	rec:3489	149	{spk:01}　市長を、優しくて思いやりのある、立派な人物に育てたと自信を持っていたのに・・・　最近の変わりようはひどい。{wait}		
-dlg:1788	text	rec:3490	149	{spk:01}　市民をいじめ、男を嫌い、差別し、{br}　ドレイのようにあつかっている。{wait}		
-dlg:1789	text	rec:3491	149	{spk:01}　わたしの教育に、なにか間違いがあったのでしょう。{br}　ここでざんげをする毎日なのです」{wait}		
-dlg:1790	text	rec:3492	149	{face:20203}{spk:03}ギリガン「わたしがわるうございました、　ってか。そう思うなら、市長を教育しなおしに行けばいいじゃないか」{wait}		
-dlg:1791	text	rec:3493	149	{spk:01}神父「もはや、市長一人教育しなおしてもはじまらない。{br}　マーマレード市民全員を教育しなくては。{wait}		
-dlg:1792	text	rec:3494	149	{spk:01}　こんなひどい政治をされて、{br}　市民革命も起こさずにだまっているなど、{br}　まちがいです」{wait}		
-dlg:1793	text	rec:3495	149	{face:10006}{spk:02}ユウキ「市民かくめいを・・・{br}　起こさせる気？」{wait}		
-dlg:1794	text	rec:3496	149	{spk:01}神父「市民の力でマーマレードを変えていくしかない。{br}　私はシティに行きます、{br}　かくめいをよびかけるのです・・・！」{wait}		
+dlg:1570	text	rec:3066	149	{face:00505}{face:10001}{spk:01}市長「ペータをさがしてくれてるかね？{br}　リアナも、心配でたまらんだろうな」{wait}	{face:00505}{face:10001}{spk:01}Mayor: "Are you looking for Peta? Riana must be worried sick."{wait}	
+dlg:1571	text	rec:3067	149	ユウキ「（そうは思いませんが；）」{wait}	Yuki: "(I don't think so.)"{wait}	
+dlg:1572	text	rec:3070	149	{face:10001}{face:00605}{spk:01}署長「ああ、ペータね。{br}　たしかに、警官にさせてくれとねじこまれたが」{wait}	{face:10001}{face:00605}{spk:01}Chief: "Ah, Peta. Yes, he did push me to make him an officer."{wait}	
+dlg:1573	text	rec:3071	149	{face:10012}{spk:02}ユウキ「どうしました？」{wait}	{face:10012}{spk:02}Yuki: "What happened?"{wait}	
+dlg:1574	text	rec:3073	149	{face:00602}{spk:01}署長「ちゃんと言ったよ、テカでもない、{br}　訓練もしてない人間を警官にはできないってね。{wait}	{face:00602}{spk:01}Chief: "I told him plainly: I can't make an officer of a human who's neither a Teka nor trained.{wait}	
+dlg:1575	text	rec:3074	149	{spk:01}　ま、しつこく食い下がるもんだから、{br}　大手がらでも立てておいでって追いはらったが」{wait}	{spk:01}Well, he kept at it, so I sent him off saying come back when you've done something big."{wait}	
+dlg:1576	text	rec:3076	149	{face:00402}{spk:01}ポイヤック「いまは警官訓練生のぼしゅうはしていません。{br}　ペータという少年も来ませんでしたね」{wait}	{face:00402}{spk:01}Pauillac: "We are not recruiting police cadets now. And no boy called Peta came here."{wait}	
+dlg:1577	text	rec:3078	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「ペータさんですか。{br}　ポリステカになるにはどうするのか、{br}聞かれました。{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "Peta-san? He asked me how to become a Polisteka.{wait}	
+dlg:1578	text	rec:3079	149	{spk:01}　機械の体ならポリステカにかいぞうできます、って言ったら、{wait}	{spk:01}I told him a machine body can be converted into a Polisteka, and{wait}	
+dlg:1579	text	rec:3080	149	{spk:01}『機械の体になればいいんだね』って飛び出していっちゃいましたけど」{wait}	{spk:01}he ran off saying, 'So I just need a machine body!'"{wait}	
+dlg:1580	text	rec:3081	149	{face:30206}{spk:04}ギリガン「？　なにを考えてやがるんだ？」{wait}	{face:30206}{spk:04}Gilligan: "? What's he thinking?"{wait}	
+dlg:1581	text	rec:3085	149	　レストラン『ポトマック』{wait}	Restaurant 'Potomac'{wait}	
+dlg:1582	text	rec:3087	149	{face:10001}{face:20101}{face:01002}{spk:01}リアナ「あら。{br}　本当にペータなんかさがしてるの？」{wait}	{face:10001}{face:20101}{face:01002}{spk:01}Riana: "Oh. Are you really looking for Peta?"{wait}	
+dlg:1583	text	rec:3088	149	{face:10012}{spk:02}ユウキ「お食事ですか。{br}　ペータ君は心配じゃないんですか」{wait}	{face:10012}{spk:02}Yuki: "Having a meal? Aren't you worried about Peta-kun?"{wait}	
+dlg:1584	text	rec:3089	149	{spk:01}リアナ「ペータを心配？　なんでえ？」{wait}	{spk:01}Riana: "Worried about Peta? Why?"{wait}	
+dlg:1585	text	rec:3092	149	{face:10001}{face:20101}{face:01003}{spk:01}リアナ「ブランク様はふだん、なにを食べてらっしゃるのかしら？」{wait}	{face:10001}{face:20101}{face:01003}{spk:01}Riana: "I wonder what Blank-sama usually eats?"{wait}	
+dlg:1586	text	rec:3093	149	{face:10012}{spk:02}ユウキ「エレクトロンです」{wait}	{face:10012}{spk:02}Yuki: "Electrons."{wait}	
+dlg:1587	text	rec:3094	149	{spk:01}リアナ「どういうお料理？{br}　作りかたを教えてちょうだい」{wait}	{spk:01}Riana: "What kind of dish is that? Tell me how to make it."{wait}	
+dlg:1588	text	rec:3095	149	{spk:02}ユウキ「発電機にガソリンを入れてスイッチをおしてください」{wait}	{spk:02}Yuki: "Put gasoline in a generator and press the switch."{wait}	
+dlg:1589	text	rec:3096	149	{spk:01}リアナ「は？」{wait}	{spk:01}Riana: "Huh?"{wait}	
+dlg:1590	text	rec:3102	149	{face:10001}{face:00505}{spk:01}市長「ペータは見つからないかね？{br}　リアナは食事ものどを通らないだろうな」{wait}	{face:10001}{face:00505}{spk:01}Mayor: "Haven't found Peta? Riana must be too worried to eat."{wait}	
+dlg:1591	text	rec:3103	149	ユウキ「（そうは見えませんが；）」{wait}	Yuki: "(She doesn't look it.)"{wait}	
+dlg:1592	text	rec:3105	149	{face:00605}{spk:01}署長「よけいな命令を出したばっかりに、{br}　ジローには悪いことをしたよ・・・」{wait}	{face:00605}{spk:01}Chief: "All because I gave a needless order... I did Jiro wrong..."{wait}	
+dlg:1593	text	rec:3107	149	{face:00402}{spk:01}ポイヤック「警官になりたいと言うなら、{br}　わたしが教えてやるのですが。{br}　ペータという少年は来ませんね」{wait}	{face:00402}{spk:01}Pauillac: "If he wants to be an officer, I would teach him. But this boy Peta has not come."{wait}	
+dlg:1594	text	rec:3109	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「ペータさんなら、{br}　『機械の体になればいいんだね』って、　出て行きました」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "Peta-san left saying, 'So I just need a machine body!'"{wait}	
+dlg:1595	text	rec:3110	149	{face:20106}{spk:03}トモミ「べつに機械だから好かれるわけじゃないっつーの・・・」{wait}	{face:20106}{spk:03}Tomomi: "Being a machine doesn't make someone like you, you know..."{wait}	
+dlg:1596	text	rec:3113	149	　市内のブティック{wait}	Boutique in the City{wait}	
+dlg:1597	text	rec:3114	149	{face:10001}{face:20101}{face:01003}{spk:01}リアナ「あなたたちもひまねー。{br}　ペータなんかほっときなさいよ」{wait}	{face:10001}{face:20101}{face:01003}{spk:01}Riana: "You lot sure have free time. Just forget about Peta."{wait}	
+dlg:1598	text	rec:3115	149	{face:20105}{spk:03}トモミ「今度はお買い物ですか♪{br}　（どっちがひまなのよ）」{wait}	{face:20105}{spk:03}Tomomi: "Shopping this time? (Which of us has free time?)"{wait}	
+dlg:1599	text	rec:3117	149	{face:10001}{face:20101}{face:01602}{spk:01}メディテカ「けんこうな方は機械化できないとことわりました。{br}　大けがでもしないかぎりね」{wait}	{face:10001}{face:20101}{face:01602}{spk:01}Mediteka: "I turned him down. Healthy people can't be mechanized. Not unless they're badly hurt."{wait}	
+dlg:1600	text	rec:3118	149	{face:10012}{spk:02}ユウキ「たぶん、よろこんで飛び出して行ったでしょう」{wait}	{face:10012}{spk:02}Yuki: "I bet he ran off happily."{wait}	
+dlg:1601	text	rec:3119	149	{spk:01}メディテカ「ええ、『大けがしてみせるぞ』とさけんで」{wait}	{spk:01}Mediteka: "Yes, shouting 'I'll get badly hurt, just watch!'"{wait}	
+dlg:1602	text	rec:3120	149	{face:10005}{spk:02}ユウキ「バカな子だ・・・；；」{wait}	{face:10005}{spk:02}Yuki: "What a foolish boy..."{wait}	
+dlg:1603	text	rec:3126	149	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}市長「機械の体になってでも、ねえ。{br}　そこまで好かれて、リアナは女みょうりにつきるな」{wait}	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}Mayor: "Even becoming a machine for her, eh? Riana is a lucky girl to be loved that much."{wait}	
+dlg:1604	text	rec:3127	149	{face:20105}{spk:03}トモミ「ペータはバカみょうりにつきますけどね；」{wait}	{face:20105}{spk:03}Tomomi: "And Peta is a lucky fool."{wait}	
+dlg:1605	text	rec:3129	149	{face:00605}{spk:01}署長「やっとジローをかいしゅうできたよ。　まったく、こけももってのはあぶない町だね；」{wait}	{face:00605}{spk:01}Chief: "We finally recovered Jiro. Honestly, Lingonberry is a dangerous town."{wait}	
+dlg:1606	text	rec:3131	149	{face:00402}{spk:01}ポイヤック「この付近では見かけないテカがあばれているらしいです。{br}　気をつけて」{wait}	{face:00402}{spk:01}Pauillac: "Teka not seen around here are apparently running wild. Be careful."{wait}	
+dlg:1607	text	rec:3133	149	{face:01202}{spk:01}ワークテカ「ペータさんをさがしに行くんですか」{wait}	{face:01202}{spk:01}Workteka: "Are you going to look for Peta-san?"{wait}	
+dlg:1608	text	rec:3136	149	{face:01002}{spk:01}リアナ「まだ見つからないの？・・・{br}　死んでたりしないわよね」{wait}	{face:01002}{spk:01}Riana: "Still not found?... He isn't dead or anything, is he?"{wait}	
+dlg:1609	text	rec:3137	149	{face:10002}{spk:02}ユウキ「どうもこうがいに出てしまったようです。{br}　かならず見つけますから、{face:10008}ご心配なく」{wait}	{face:10002}{spk:02}Yuki: "It seems he went out of the city. We'll find him for sure, so{face:10008} don't worry."{wait}	
+dlg:1610	text	rec:3138	149	{face:01005}{spk:01}リアナ「べつに心配してるわけじゃないけど・・・」{wait}	{face:01005}{spk:01}Riana: "It's not like I'm worried or anything..."{wait}	
+dlg:1611	text	rec:3140	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「ペータはこうがいに出たの？」{wait}	{face:10001}{face:20115}{face:30201}{spk:03}Tomomi: "Peta went out of the city?"{wait}	
+dlg:1612	text	rec:3141	149	{face:10004}{spk:02}ユウキ「シティの中は平和だからね。{br}　大けがしたいなら、外の反乱テカにケンカを売りにいくしかない」{wait}	{face:10004}{spk:02}Yuki: "It's peaceful inside the City. If he wants to get badly hurt, he has to pick a fight with rebel Teka outside."{wait}	
+dlg:1613	text	rec:3142	149	{face:30203}{spk:04}ギリガン「すくえねえやつだ」{wait}	{face:30203}{spk:04}Gilligan: "Hopeless guy."{wait}	
+dlg:1614	text	rec:3143	149	{face:20103}{spk:03}トモミ「でも、すくいに行かないとね」{wait}	{face:20103}{spk:03}Tomomi: "But we have to go save him."{wait}	
+dlg:1615	text	rec:3153	149	{face:20104}{spk:03}トモミ「これじゃ探したことにならないわ。　また来ましょう」{wait}	{face:20104}{spk:03}Tomomi: "This doesn't count as searching. Let's come back."{wait}	
+dlg:1616	text	rec:3156	149	{face:00302}{spk:01}ブランク「こちらブランクです、ペータさんは発見できません。{br}　ここではないようです」{wait}	{face:00302}{spk:01}Blank: "This is Blank. I can't find Peta-san. He doesn't seem to be here."{wait}	
+dlg:1617	text	rec:3160	149	{face:10001}{face:00505}{spk:01}市長「ペータは見つからないかね？{br}　リアナも―――本当に心配してるのかな」{wait}	{face:10001}{face:00505}{spk:01}Mayor: "Haven't found Peta? I wonder if Riana is-- really worried."{wait}	
+dlg:1618	text	rec:3161	149	{face:10004}{spk:02}ユウキ「ちっとは心配してたようです」{wait}	{face:10004}{spk:02}Yuki: "She seemed a little worried."{wait}	
+dlg:1619	text	rec:3163	149	{face:00602}{spk:01}署長「ジローのかたきうちとか、考えてはいかんよ。{br}　仕返しは『法の精神』に反する」{wait}	{face:00602}{spk:01}Chief: "Don't go thinking of avenging Jiro. Revenge goes against the 'spirit of the law'."{wait}	
+dlg:1620	text	rec:3165	149	{face:00402}{spk:01}ポイヤック「ポリジェンヌがあばれているようですね。{br}　どういうことでしょう」{wait}	{face:00402}{spk:01}Pauillac: "It seems Polijenne are running wild. What could it mean?"{wait}	
+dlg:1621	text	rec:3167	149	{face:01202}{spk:01}ワークテカ「ペータさん見つかりませんか」{wait}	{face:01202}{spk:01}Workteka: "Haven't found Peta-san?"{wait}	
+dlg:1622	text	rec:3170	149	{face:01004}{spk:01}リアナ「ちょっと、ペータをさがしてるんでしょっ！{br}　町んなかうろついてていいの？！」{wait}	{face:01004}{spk:01}Riana: "Hey, you're supposed to be looking for Peta! Should you be wandering around town?!"{wait}	
+dlg:1623	text	rec:3172	149	{face:10001}{face:20101}{face:30203}{spk:04}ギリガン「すくえねえやつだな、あいつは」{wait}	{face:10001}{face:20101}{face:30203}{spk:04}Gilligan: "That guy's hopeless."{wait}	
+dlg:1624	text	rec:3173	149	{face:20103}{spk:03}トモミ「でも、すくいに行かないとね」{wait}	{face:20103}{spk:03}Tomomi: "But we have to go save him."{wait}	
+dlg:1625	text	rec:3184	149	{face:11101}{face:00302}{spk:01}ブランク「ペータさんを発見しました。{br}　ケガをしているようですが、たいしたことはなく―――{wait}	{face:11101}{face:00302}{spk:01}Blank: "I've found Peta-san. He seems hurt, but not badly--{wait}	
+dlg:1626	text	rec:3185	149	{face:11103}{face:00303}{spk:01}　それより、ぼくのことをにらみ付けてるんですけど―――？」{wait}	{face:11103}{face:00303}{spk:01}More importantly, he's glaring at me--?"{wait}	
+dlg:1627	text	rec:3188	149	{face:01104}{face:11004}{spk:02}リアナ「ここまでバカだと思わなかったわ！　ブランク様にめいわくかけただけじゃないのよ！」{wait}	{face:01104}{face:11004}{spk:02}Riana: "I didn't think you were this stupid! All you did was trouble Blank-sama!"{wait}	
+dlg:1628	text	rec:3189	149	{spk:01}ペータ「べ、べつに、ブランクに助けてくれなんて言わなかったよ」{wait}	{spk:01}Peta: "I-I never asked Blank to rescue me."{wait}	
+dlg:1629	text	rec:3190	149	{spk:02}リアナ「なによ、それ！{br}　ぜっこうよ、あんたみたいな男！」{wait}	{spk:02}Riana: "What's that supposed to mean! We're through! A guy like you!"{wait}	
+dlg:1630	text	rec:3193	149	{face:30101}{face:20012}{spk:03}ユウキ「あとであやまった方がいい―――{br}　で、ペータをおそったポリジェンヌ、{br}何体ぐらいいた？」{wait}	{face:30101}{face:20012}{spk:03}Yuki: "Better apologize later-- So, the Polijenne that attacked you, Peta. About how many?"{wait}	
+dlg:1631	text	rec:3194	149	{spk:01}ペータ「えーと・・・１０人ぐらいかな」{wait}	{spk:01}Peta: "Um... about ten, I guess."{wait}	
+dlg:1632	text	rec:3195	149	{face:30104}{spk:04}トモミ「負けた言いわけに相手を多く言う。　古い手ね」{wait}	{face:30104}{spk:04}Tomomi: "Inflating the enemy's numbers as an excuse for losing. An old trick."{wait}	
+dlg:1633	text	rec:3196	149	{spk:01}ペータ「本当にそれぐらいいました」{wait}	{spk:01}Peta: "There really were about that many."{wait}	
+dlg:1634	text	rec:3197	149	{face:30115}{spk:04}トモミ「ポリジェンヌがたくさんいるのは、マーマレードシティぐらいなもんよ」{wait}	{face:30115}{spk:04}Tomomi: "The only place with lots of Polijenne is Marmalade City."{wait}	
+dlg:1635	text	rec:3198	149	{face:20007}{spk:03}ユウキ「だとしたら―――マーマレードでも反乱がはじまったかな・・・？」{wait}	{face:20007}{spk:03}Yuki: "In that case-- has a revolt started in Marmalade too...?"{wait}	
+dlg:1636	text	rec:3204	149	{face:10001}{face:00502}{spk:01}市長「リアナがぜっこうだって？{br}　心配させたからねえ。{br}　ははは、ケンカするほど仲がいい」{wait}	{face:10001}{face:00502}{spk:01}Mayor: "Riana says they're through? He worried her, after all. Ha ha, they fight because they're close."{wait}	
+dlg:1637	text	rec:3205	149	{face:10002}{spk:02}ユウキ「マーマレードに行きたいのです。{br}　市長にしょうかい状を書いていただけないかと」{wait}	{face:10002}{spk:02}Yuki: "I'd like to go to Marmalade. Could you write us a letter of introduction to their Mayor?"{wait}	
+dlg:1638	text	rec:3207	149	{face:00502}{spk:01}市長「わたしのしょうかいじゃあ、ぎゃくにたたき出されるよ。{br}　きらわれてるんでね、あの女性市長には」{wait}	{face:00502}{spk:01}Mayor: "An introduction from me would get you thrown out instead. That lady mayor hates me."{wait}	
+dlg:1639	text	rec:3210	149	{face:10001}{face:00602}{spk:01}署長「マーマレードシティで？{br}　反乱が起きているとは聞かないが―――{br}　行きたいのかね」{wait}	{face:10001}{face:00602}{spk:01}Chief: "Marmalade City? I haven't heard of a revolt there-- You want to go?"{wait}	
+dlg:1640	text	rec:3211	149	{face:10002}{spk:02}ユウキ「ぜひ」{wait}	{face:10002}{spk:02}Yuki: "Very much."{wait}	
+dlg:1641	text	rec:3213	149	{face:00602}{spk:01}署長「あそこの市長はだれかのしょうかいがないと会ってくれんよ。{br}　とくに男にはね」{wait}	{face:00602}{spk:01}Chief: "That mayor won't see anyone without an introduction. Especially men."{wait}	
+dlg:1642	text	rec:3215	149	{face:00402}{spk:01}ポイヤック「マーマレードのハンナ市長はきぞくの出身で、きびしい人だとも優しい人だとも聞いています」{wait}	{face:00402}{spk:01}Pauillac: "Mayor Hanna of Marmalade is of noble birth. I hear she is strict, and also kind."{wait}	
+dlg:1643	text	rec:3217	149	{face:01202}{spk:01}ワークテカ「ブランクさんの持ち帰ったはへん、調べましたが、{br}　たしかにマーマレードせいですね」{wait}	{face:01202}{spk:01}Workteka: "I examined the fragments Blank-san brought back. They're Marmalade-made, all right."{wait}	
+dlg:1644	text	rec:3221	149	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}トモミ「あら？{br}　リアナさん、ペータ君とはぜっこうしたんじゃありませんでした」{wait}	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}Tomomi: "Oh? Riana-san, didn't you break up with Peta-kun?"{wait}	
+dlg:1645	text	rec:3222	149	{face:20004}{spk:03}ユウキ「やっぱり、放っておけませんか」{wait}	{face:20004}{spk:03}Yuki: "You can't leave him alone after all?"{wait}	
+dlg:1646	text	rec:3223	149	{spk:02}リアナ「たいくつだっただけよっ」{wait}	{spk:02}Riana: "I was just bored!"{wait}	
+dlg:1647	text	rec:3224	149	{face:20003}{spk:15}ユウキ「どうして気の強い女の子って、{br}　すなおじゃないんだろう。{br}　{face:20012}ね、トモミ？」{wait}	{face:20003}{spk:15}Yuki: "Why are strong-willed girls never honest?{face:20012} Right, Tomomi?"{wait}	
+dlg:1648	text	rec:3225	149	{face:30115}{spk:04}トモミ「なんであたしに聞くのよっ」{wait}	{face:30115}{spk:04}Tomomi: "Why ask me?!"{wait}	
+dlg:1649	text	rec:3226	149	{spk:03}ユウキ「マーマレードの女性市長も、{br}　気の強いオバサンらしいね」{wait}	{spk:03}Yuki: "The lady mayor of Marmalade is a strong-willed old lady too, I hear."{wait}	
+dlg:1650	text	rec:3227	149	{face:11002}{spk:02}リアナ「なに言ってるの、ステキなおばさまよ。{br}　ちょっと男ぎらいなだけ。{br}{face:11003}　あたしとは気が合うの」{wait}	{face:11002}{spk:02}Riana: "What are you saying? She's a lovely lady. She just dislikes men a little.{face:11003} We get along."{wait}	
+dlg:1651	text	rec:3228	149	{face:20012}{spk:03}ユウキ「類は友をよぶ―――{br}　{face:20008}おねがいがあります、お嬢さま。{br}　しょうかい状を書いてもらえませんか。	{face:20012}{spk:03}Yuki: "Birds of a feather--{face:20008} I have a request, young lady. Could you write us a letter of introduction?	
+dlg:1652	text	rec:3229	149	　お礼は{face:20005}ブランクとデート１回で―――」{wait}	As thanks,{face:20005} one date with Blank--"{wait}	
+dlg:1653	text	rec:3232	149	{face:01104}{face:10001}{face:20103}{spk:03}トモミ「リアナさんは？」{wait}	{face:01104}{face:10001}{face:20103}{spk:03}Tomomi: "Where's Riana-san?"{wait}	
+dlg:1654	text	rec:3233	149	{spk:01}ペータ「おこって出ていっちゃって・・・リアナのために一生けんめいのつもりなのに・・・はーあ」{wait}	{spk:01}Peta: "She got angry and left... And I was doing my best for Riana... Sigh."{wait}	
+dlg:1655	text	rec:3235	149	{face:10001}{face:30201}{face:20103}{spk:03}トモミ「マーマレードへ行くのね」{wait}	{face:10001}{face:30201}{face:20103}{spk:03}Tomomi: "So we're going to Marmalade."{wait}	
+dlg:1656	text	rec:3236	149	{face:30206}{spk:04}ギリガン「あそこは女性上位のシティだ。{br}　男にはきびしいらしいぞ」{wait}	{face:30206}{spk:04}Gilligan: "That's a City where women are on top. They're tough on men, I hear."{wait}	
+dlg:1657	text	rec:3246	149	{face:10001}{face:02702}{spk:01}ポリジェンヌ「ハンナ市長に面会ですか。{br}　しょうかい状を」{wait}	{face:10001}{face:02702}{spk:01}Polijenne: "You wish to see Mayor Hanna? Your letter of introduction, please."{wait}	
+dlg:1658	text	rec:3247	149	{face:10012}{spk:02}ユウキ「しょうかい状？{br}　いえ、ありませんが」{wait}	{face:10012}{spk:02}Yuki: "Letter of introduction? No, we don't have one."{wait}	
+dlg:1659	text	rec:3248	149	{spk:01}ポリジェンヌ「ではお会いできません。{br}　お引き取りください」{wait}	{spk:01}Polijenne: "Then you cannot see her. Please leave."{wait}	
+dlg:1660	text	rec:3249	149	{face:10003}{spk:14}ユウキ「え、あの・・・そうなのか；」{wait}	{face:10003}{spk:14}Yuki: "Eh, um... I see."{wait}	
+dlg:1661	text	rec:3251	149	　マーマレード出国ゲート{wait}	Marmalade Exit Gate{wait}	
+dlg:1662	text	rec:3252	149	{face:10012}{spk:02}ユウキ「だれかにしょうかい状、作ってもらわなくちゃ・・・」{wait}	{face:10012}{spk:02}Yuki: "We need someone to write us a letter of introduction..."{wait}	
+dlg:1663	text	rec:3257	149	{face:10001}{face:20101}{face:30201}{face:02103}{spk:01}秘書「マーマレード市長の秘書をつとめますジェーンです。{br}　ご用件はなんでしょう？」{wait}	{face:10001}{face:20101}{face:30201}{face:02103}{spk:01}Secretary: "I am Jane, secretary to the Mayor of Marmalade. What is your business?"{wait}	
+dlg:1664	text	rec:3258	149	{face:10008}{spk:02}ユウキ「調査の協力をお願いしにきたんだけど・・・{br}　{face:10012}ハンナ市長には会えないのかな」{wait}	{face:10008}{spk:02}Yuki: "We came to ask for help with an investigation...{face:10012} Can't we see Mayor Hanna?"{wait}	
+dlg:1665	text	rec:3259	149	{spk:01}ジェーン「わたくしから市長に伝えます。{br}　どんな調査を？」{wait}	{spk:01}Jane: "I will pass it on to the Mayor. What kind of investigation?"{wait}	
+dlg:1666	text	rec:3260	149	{face:10002}{spk:02}ユウキ「こちらで発生しているテカの反乱について―――」{wait}	{face:10002}{spk:02}Yuki: "About the Teka revolt happening here--"{wait}	
+dlg:1667	text	rec:3261	149	{spk:01}ジェーン「あら。{br}　反乱なんて起きていませんわ、そんな調査はムダですね。{br}　どうぞお引取りを」{wait}	{spk:01}Jane: "Oh my. There is no revolt. Such an investigation is pointless. Please leave."{wait}	
+dlg:1668	text	rec:3262	149	{face:10012}{spk:02}ユウキ「は？　しかし―――{br}　いえ、しつれいします」{wait}	{face:10012}{spk:02}Yuki: "Huh? But-- No, excuse me."{wait}	
+dlg:1669	text	rec:3263	149	{face:30206}{spk:04}ギリガン「こらユウキ。{br}　何をあっさり引き下がるんだ」{wait}	{face:30206}{spk:04}Gilligan: "Hey, Yuki. Why are ya backing down so easily?"{wait}	
+dlg:1670	text	rec:3264	149	{face:10012}{spk:02}ユウキ「うん、まあ、彼女はトモミと話したがっているみたいだし、男はじゃまなようだから」{wait}	{face:10012}{spk:02}Yuki: "Well, she seems to want to talk to Tomomi, and the men seem to be in the way."{wait}	
+dlg:1671	text	rec:3265	149	{face:02103}{face:10001}{face:30201}{spk:01}ジェーン「そちらの婦警さん。{br}　ちょっとお待ちください」{wait}	{face:02103}{face:10001}{face:30201}{spk:01}Jane: "You there, the policewoman. Wait a moment, please."{wait}	
+dlg:1672	text	rec:3266	149	{face:20103}{spk:03}トモミ「うん？　あたし？」{wait}	{face:20103}{spk:03}Tomomi: "Hm? Me?"{wait}	
+dlg:1673	text	rec:3267	149	{spk:01}ジェーン「ちょっと二人だけで話をしませんか―――？」{wait}	{spk:01}Jane: "Shall we have a little talk, just the two of us--?"{wait}	
+dlg:1674	text	rec:3270	149	{face:10001}{face:30203}{spk:04}ギリガン「トモミ一人のこして、出てきてよかったのか？」{wait}	{face:10001}{face:30203}{spk:04}Gilligan: "Was it okay to leave Tomomi behind alone?"{wait}	
+dlg:1675	text	rec:3272	149	{face:02702}{spk:01}ポリジェンヌ「ハンナ市長はじゅうような会談のさいちゅうです。{br}　お会いできません」{wait}	{face:02702}{spk:01}Polijenne: "Mayor Hanna is in the middle of important talks. You cannot see her."{wait}	
+dlg:1676	text	rec:3279	149	　ホテル『ビクトリア』{wait}	Hotel 'Victoria'{wait}	
+dlg:1677	text	rec:3280	149	{face:10001}{face:30206}{spk:04}ギリガン「おれたちを追い出して、トモミにないしょ話ってなんだ」{wait}	{face:10001}{face:30206}{spk:04}Gilligan: "What secret talk does she need with Tomomi after kicking us out?"{wait}	
+dlg:1678	text	rec:3281	149	{face:10012}{spk:02}ユウキ「予想はつくね・・・{br}　下手をすると、これからギリガンに地上管制をやってもらわないといけないかも」{wait}	{face:10012}{spk:02}Yuki: "I can guess... Worst case, you may have to do ground control from now on, Gilligan."{wait}	
+dlg:1679	text	rec:3285	149	{face:20104}{spk:03}トモミ「で、はなしってなに」{wait}	{face:20104}{spk:03}Tomomi: "So, what's this talk about?"{wait}	
+dlg:1680	text	rec:3286	149	{face:02103}{spk:01}秘書ジェーン「人間なのに、それも女性で　警官ってすばらしいわ。{br}　尊敬してしまいます」{wait}	{face:02103}{spk:01}Secretary Jane: "A human, and a woman, and a police officer. How wonderful. I admire you."{wait}	
+dlg:1681	text	rec:3287	149	{face:20103}{spk:03}トモミ「ま、世界にたった一人の婦人警官だけどね。おせじ聞くために婦警になったんじゃないわよ」{wait}	{face:20103}{spk:03}Tomomi: "Well, I'm the only policewoman in the world. But I didn't become one to hear flattery."{wait}	
+dlg:1682	text	rec:3288	149	{spk:01}ジェーン「マーマレードに移籍するおつもりはありませんか？」{wait}	{spk:01}Jane: "Would you consider transferring to Marmalade?"{wait}	
+dlg:1683	text	rec:3289	149	{face:20115}{spk:03}トモミ「は？」{wait}	{face:20115}{spk:03}Tomomi: "Huh?"{wait}	
+dlg:1684	text	rec:3290	149	{spk:01}ジェーン「市長がぜひにと。{br}　アプリコットのトモミ巡査を、{br}　マーマレード警察の署長に」{wait}	{spk:01}Jane: "The Mayor insists. Officer Tomomi of Apricot, as Chief of the Marmalade police."{wait}	
+dlg:1685	text	rec:3292	149	{face:20105}{spk:03}トモミ「あたしが、署長？！」{wait}	{face:20105}{spk:03}Tomomi: "Me, Chief?!"{wait}	
+dlg:1686	text	rec:3293	149	{spk:01}ジェーン「マーマレードは、女性のための　シティです。{br}　警察署長も女性でなくてはなりません。{wait}	{spk:01}Jane: "Marmalade is a City for women. The Chief of Police must be a woman too.{wait}	
+dlg:1687	text	rec:3294	149	{spk:01}　『はい』と言ってくだされば、このまま署長のイスに座っていただけますが・・・？」{wait}	{spk:01}If you say 'yes', you can take the Chief's chair right now...?"{wait}	
+dlg:1688	text	rec:3295	149	{face:20107}{spk:03}トモミ「いきなり署長―――{br}　大出世だわ―――♪」{wait}	{face:20107}{spk:03}Tomomi: "Chief, just like that-- What a promotion--!"{wait}	
+dlg:1689	text	rec:3296	149	{spk:01}ジェーン「アプリコットの市長や署長には、わたしが話をつけます。{br}　いかがでしょう？」{wait}	{spk:01}Jane: "I will settle things with the Mayor and Chief of Apricot. What do you say?"{wait}	
+dlg:1690	text	rec:3297	149	{spk:03}トモミ「えへへー・・・{br}　どーしようかなー♪」{wait}	{spk:03}Tomomi: "Hee hee... What should I do?"{wait}	
+dlg:1691	text	rec:3301	149	{face:10001}{face:02702}{spk:01}ポリジェンヌ「ハンナ市長はじゅうような会談のさいちゅうです。{br}　お会いできません」{wait}	{face:10001}{face:02702}{spk:01}Polijenne: "Mayor Hanna is in the middle of important talks. You cannot see her."{wait}	
+dlg:1692	text	rec:3302	149	{face:10012}{spk:02}ユウキ「（ははあ―――{br}　トモミをばいしゅう中か）」{wait}	{face:10012}{spk:02}Yuki: "(Aha-- So they're buying off Tomomi.)"{wait}	
+dlg:1693	text	rec:3310	149	　ホテル『ビクトリア』{wait}	Hotel 'Victoria'{wait}	
+dlg:1694	text	rec:3311	149	{face:10012}{face:30201}{face:22402}{spk:03}トモミ「もしもし、ユウキ？{br}　あのさー、あたしさー♪」{wait}	{face:10012}{face:30201}{face:22402}{spk:03}Tomomi: "Hello, Yuki? So, um, I'm, like..."{wait}	
+dlg:1695	text	rec:3312	149	{spk:02}ユウキ「署長になれとでも言われた？{br}　で―――　そう―――　ああ、そう、{br}　かってにしなよ。じゃあね」{wait}	{spk:02}Yuki: "Did they tell you to be Chief? And-- right-- oh, I see. Do what you want. Bye."{wait}	
+dlg:1696	text	rec:3313	149	{face:22400}{face:30208}{spk:04}ギリガン「どうした、{br}　ばいしゅうされたのか？！」{wait}	{face:22400}{face:30208}{spk:04}Gilligan: "What happened? Did they buy her off?!"{wait}	
+dlg:1697	text	rec:3314	149	{face:10012}{spk:02}ユウキ「うん。かんたんにひっかかったね」{wait}	{face:10012}{spk:02}Yuki: "Yep. She fell for it easily."{wait}	
+dlg:1698	text	rec:3315	149	{spk:04}ギリガン「なんだそりゃあ！！{br}{face:30207}　ばかばかしい！{br}　アプリコットに帰るぞ、ユウキ！」{wait}	{spk:04}Gilligan: "What the heck!!{face:30207} Ridiculous! We're going back to Apricot, Yuki!"{wait}	
+dlg:1699	text	rec:3316	149	{face:10004}{spk:02}ユウキ「そうは行かないよ。{br}　ここからが本番なんだから・・・」{wait}	{face:10004}{spk:02}Yuki: "We can't do that. This is where the real work starts..."{wait}	
+dlg:1700	text	rec:3327	149	{face:10012}{face:30201}{face:22402}{spk:03}マーケテカ「フロントでございます。{br}　トモミ・アッテンボロー様はいらっしゃいますか」{wait}	{face:10012}{face:30201}{face:22402}{spk:03}Marketeka: "This is the front desk. Is Ms. Tomomi Attenborough there?"{wait}	
+dlg:1701	text	rec:3328	149	{spk:02}ユウキ「あのはくじょう者は、どっかのイスでふんぞりかえっています」{wait}	{spk:02}Yuki: "That heartless traitor is lounging in some chair somewhere."{wait}	
+dlg:1702	text	rec:3329	149	{spk:03}マーケテカ「それはこまりました。{br}　でんごんでございまして、{wait}	{spk:03}Marketeka: "Oh dear. I have a message for her:{wait}	
+dlg:1703	text	rec:3330	149	{spk:03}『ロビン・フッドは、{br}　マリアンに７回プロポーズした』{br}　とのことですが―――」{wait}	{spk:03}'Robin Hood proposed to Marian seven times.' That is all--"{wait}	
+dlg:1704	text	rec:3331	149	{face:10002}{spk:02}ユウキ「―――わかった、とつたえてください」{wait}	{face:10002}{spk:02}Yuki: "--Please tell them I understand."{wait}	
+dlg:1705	text	rec:3332	149	{face:22400}{face:30202}{spk:04}ギリガン「なんのこった？{br}　署長からの暗号指令か？{br}　ロビン・フッドがなんだって？」{wait}	{face:22400}{face:30202}{spk:04}Gilligan: "What's that about? A coded order from the Chief? What about Robin Hood?"{wait}	
+dlg:1706	text	rec:3333	149	{face:10007}{spk:02}ユウキ「『ロビン・フッドはマリアンに７回プロポーズした』{br}　{face:10007}えーとまず、ロビンってのは」{wait}	{face:10007}{spk:02}Yuki: "'Robin Hood proposed to Marian seven times.'{face:10007} Let's see, first, Robin is..."{wait}	
+dlg:1707	text	rec:3335	149	{face:30206}{spk:04}ギリガン「お前がマリアンにプロポーズ？{br}　マリアンってだれだ」{wait}	{face:30206}{spk:04}Gilligan: "You propose to Marian? Who's Marian?"{wait}	
+dlg:1708	text	rec:3337	149	{face:30206}{spk:04}ギリガン「おれがマリアンにプロポーズ？{br}　マリアンってだれだ」{wait}	{face:30206}{spk:04}Gilligan: "I propose to Marian? Who's Marian?"{wait}	
+dlg:1709	text	rec:3339	149	{face:30206}{spk:04}ギリガン「ブランクがマリアンにプロポーズするだと？{br}　マリアンってだれだ」{wait}	{face:30206}{spk:04}Gilligan: "Blank proposes to Marian? Who's Marian?"{wait}	
+dlg:1710	text	rec:3341	149	{face:30202}{spk:04}ギリガン「そういう仲になっていたか。{br}　ま、いわってやる、{face:30209}おめでとう」{wait}	{face:30202}{spk:04}Gilligan: "So that's how it is with you two. Well, I'll celebrate,{face:30209} congratulations."{wait}	
+dlg:1711	text	rec:3342	149	{face:10005}{spk:02}ユウキ「ちちちがうよ、ぼくがトモミをつかまえるってことさ」{wait}	{face:10005}{spk:02}Yuki: "N-n-no! It means I catch Tomomi."{wait}	
+dlg:1712	text	rec:3344	149	{face:30202}{spk:04}ギリガン「・・・意味が分からねえぞ」{wait}	{face:30202}{spk:04}Gilligan: "...That makes no sense."{wait}	
+dlg:1713	text	rec:3345	149	{face:10002}{spk:02}ユウキ「ぼくがポリジェンヌをつかまえるってことさ」{wait}	{face:10002}{spk:02}Yuki: "It means I catch the Polijenne."{wait}	
+dlg:1714	text	rec:3346	149	{face:30202}{spk:04}ギリガン「テカをつかまえるわんりょくはあるか？」{wait}	{face:30202}{spk:04}Gilligan: "Ya got the muscle to catch a Teka?"{wait}	
+dlg:1715	text	rec:3347	149	{face:10003}{spk:14}ユウキ「・・・ぼくじゃムリだな；{br}　じゃあ、ロビンは」{wait}	{face:10003}{spk:14}Yuki: "...Not me, I guess. Then Robin is..."{wait}	
+dlg:1716	text	rec:3349	149	{face:30205}{spk:04}ギリガン「・・・オバサンが好みか」{wait}	{face:30205}{spk:04}Gilligan: "...Ya like older women?"{wait}	
+dlg:1717	text	rec:3350	149	{face:10005}{spk:02}ユウキ「よしてよ；{br}　ぼくがハンナ市長をつかまえるってことさ」{wait}	{face:10005}{spk:02}Yuki: "Stop it. It means I catch Mayor Hanna."{wait}	
+dlg:1718	text	rec:3351	149	{face:30202}{spk:04}ギリガン「なんのつみで？」{wait}	{face:30202}{spk:04}Gilligan: "For what crime?"{wait}	
+dlg:1719	text	rec:3352	149	{face:10003}{spk:14}ユウキ「ええと・・・？{br}　まちがえてるかな；{br}　じゃあマリアンは」{wait}	{face:10003}{spk:14}Yuki: "Um...? Did I get it wrong? Then Marian is..."{wait}	
+dlg:1720	text	rec:3354	149	{face:30203}{spk:04}ギリガン「ことわる」{wait}	{face:30203}{spk:04}Gilligan: "No way."{wait}	
+dlg:1721	text	rec:3355	149	{face:10002}{spk:02}ユウキ「ギリガンがトモミをつかまえるってことさ」{wait}	{face:10002}{spk:02}Yuki: "It means Gilligan catches Tomomi."{wait}	
+dlg:1722	text	rec:3357	149	{face:30202}{spk:04}ギリガン「・・・意味が分からねえぞ」{wait}	{face:30202}{spk:04}Gilligan: "...That makes no sense."{wait}	
+dlg:1723	text	rec:3358	149	{face:10002}{spk:02}ユウキ「ギリガンがポリジェンヌをつかまえるってことさ」{wait}	{face:10002}{spk:02}Yuki: "It means Gilligan catches the Polijenne."{wait}	
+dlg:1724	text	rec:3359	149	{face:30202}{spk:04}ギリガン「いくらおれでもテカをつかまえるわんりょくはねえぞ？」{wait}	{face:30202}{spk:04}Gilligan: "Even I don't have the muscle to catch a Teka, ya know?"{wait}	
+dlg:1725	text	rec:3360	149	{face:10003}{spk:14}ユウキ「・・・だよねえ。{br}　じゃあ、ロビンは」{wait}	{face:10003}{spk:14}Yuki: "...Right. Then Robin is..."{wait}	
+dlg:1726	text	rec:3362	149	{face:30205}{spk:04}ギリガン「たのむからまちがいだと言ってくれ；」{wait}	{face:30205}{spk:04}Gilligan: "Please tell me that's a mistake."{wait}	
+dlg:1727	text	rec:3363	149	{face:10002}{spk:02}ユウキ「ギリガンがハンナ市長をつかまえるってことさ」{wait}	{face:10002}{spk:02}Yuki: "It means Gilligan catches Mayor Hanna."{wait}	
+dlg:1728	text	rec:3364	149	{face:30202}{spk:04}ギリガン「なんのつみで？」{wait}	{face:30202}{spk:04}Gilligan: "For what crime?"{wait}	
+dlg:1729	text	rec:3365	149	{face:10003}{spk:14}ユウキ「ええと・・・？{br}　まちがえてるかな；{br}　じゃあギリガンがプロポーズする相手は」{wait}	{face:10003}{spk:14}Yuki: "Um...? Did I get it wrong? Then the one Gilligan proposes to is..."{wait}	
+dlg:1730	text	rec:3367	149	{face:30203}{spk:04}ギリガン「ほー・・・{br}　いじめられてるうちに情がうつったな」{wait}	{face:30203}{spk:04}Gilligan: "Oho... Getting bullied made ya fond of her."{wait}	
+dlg:1731	text	rec:3368	149	{face:10005}{spk:02}ユウキ「ブランクがトモミをつかまえるってことさ」{wait}	{face:10005}{spk:02}Yuki: "It means Blank catches Tomomi."{wait}	
+dlg:1732	text	rec:3369	149	{face:30204}{spk:04}ギリガン「そうか、うら切り者をつかまえに行けってことか。{br}　マーマレード警察に乗りこもうぜ！」{wait}	{face:30204}{spk:04}Gilligan: "I see, go catch the traitor. Let's storm the Marmalade police!"{wait}	
+dlg:1733	text	rec:3371	149	{face:30203}{spk:04}ギリガン「・・・意味が分からねえぞ」{wait}	{face:30203}{spk:04}Gilligan: "...That makes no sense."{wait}	
+dlg:1734	text	rec:3372	149	{face:10004}{spk:02}ユウキ「ブランクがポリジェンヌをつかまえるってことさ」{wait}	{face:10004}{spk:02}Yuki: "It means Blank catches the Polijenne."{wait}	
+dlg:1735	text	rec:3373	149	{face:30204}{spk:04}ギリガン「なるほど、反乱を起こしたポリジェンヌをつかまえろってことだな。{br}　どれだけいる」{wait}	{face:30204}{spk:04}Gilligan: "I get it, catch the Polijenne that revolted. How many are there?"{wait}	
+dlg:1736	text	rec:3374	149	{face:10004}{spk:02}ユウキ「７人。{br}　７回プロポーズして全員つかまえる」{wait}	{face:10004}{spk:02}Yuki: "Seven. Propose seven times and catch them all."{wait}	
+dlg:1737	text	rec:3375	149	{spk:04}ギリガン「どこにいる？」{wait}	{spk:04}Gilligan: "Where are they?"{wait}	
+dlg:1738	text	rec:3378	149	{spk:04}ギリガン「山か。ブリオッシュ山だな。{br}　よし、出撃じゅんびにかかろうぜ！」{wait}	{spk:04}Gilligan: "The mountains? Mount Brioche, then. Right, let's get ready to sortie!"{wait}	
+dlg:1739	text	rec:3381	149	{spk:04}ギリガン「森か。シャーウッドの森だな。{br}　よし、出撃じゅんびにかかろうぜ！」{wait}	{spk:04}Gilligan: "The forest? Sherwood Forest, then. Right, let's get ready to sortie!"{wait}	
+dlg:1740	text	rec:3384	149	{spk:04}ギリガン「海か。マーマレード海だな。{br}　よし、出撃じゅんびにかかろうぜ！」{wait}	{spk:04}Gilligan: "The sea? The Marmalade Sea, then. Right, let's get ready to sortie!"{wait}	
+dlg:1741	text	rec:3388	149	{face:30205}{spk:04}ギリガン「思いがけないてんかいだな；」{wait}	{face:30205}{spk:04}Gilligan: "Didn't see that coming."{wait}	
+dlg:1742	text	rec:3389	149	{face:10005}{spk:02}ユウキ「ブランクがハンナ市長をつかまえるってことさ」{wait}	{face:10005}{spk:02}Yuki: "It means Blank catches Mayor Hanna."{wait}	
+dlg:1743	text	rec:3390	149	{face:30202}{spk:04}ギリガン「なんのつみで？」{wait}	{face:30202}{spk:04}Gilligan: "For what crime?"{wait}	
+dlg:1744	text	rec:3391	149	{face:10003}{spk:14}ユウキ「ええと・・・？{br}　まちがえてるかな；{br}　じゃあマリアンは」{wait}	{face:10003}{spk:14}Yuki: "Um...? Did I get it wrong? Then Marian is..."{wait}	
+dlg:1745	text	rec:3395	149	{face:02702}{face:20001}{face:30301}{face:10202}{spk:02}ギリガン「おとなしく通してもらおう。	{face:02702}{face:20001}{face:30301}{face:10202}{spk:02}Gilligan: "Let us through quietly.	
+dlg:1746	text	rec:3396	149	{face:10206}　うら切り者のトモミ巡査、{br}{face:10207}　とっつかまえてせいばいしてくれる！」{wait}	{face:10206}I'll nab that traitor Officer Tomomi{face:10207} and punish her!"{wait}	
+dlg:1747	text	rec:3397	149	{spk:01}ポリジェンヌ「トモミ警視はわれわれの署長です。{br}　うばうつもりなら実力でどうぞ」{wait}	{spk:01}Polijenne: "Superintendent Tomomi is our Chief. If you want to take her, use force."{wait}	
+dlg:1748	text	rec:3398	149	{face:10204}{spk:02}ギリガン「いいだろう。{br}　ブランク、せんとうじゅんびだ！」{wait}	{face:10204}{spk:02}Gilligan: "Fine. Blank, battle stations!"{wait}	
+dlg:1749	text	rec:3399	149	{face:20005}{spk:03}ユウキ「ちょっとまって、まずいよ、{br}　また警察どうしでケンカなんて」{wait}	{face:20005}{spk:03}Yuki: "Wait, this is bad. Police fighting police again..."{wait}	
+dlg:1750	text	rec:3400	149	{face:10206}{spk:02}ギリガン「だけどお前、署長が暗号指令で」{wait}	{face:10206}{spk:02}Gilligan: "But you said the Chief's coded order..."{wait}	
+dlg:1751	text	rec:3401	149	{face:20003}{spk:15}ユウキ「ちがうんだ、トモミをつかまえろって話になるはずがないんだよ」{wait}	{face:20003}{spk:15}Yuki: "No, there's no way it means catching Tomomi."{wait}	
+dlg:1752	text	rec:3404	149	{face:10001}{face:30202}{spk:04}ギリガン「ちがうってんなら、本当のとこはどうなんだ」{wait}	{face:10001}{face:30202}{spk:04}Gilligan: "If not, then what's the real answer?"{wait}	
+dlg:1753	text	rec:3416	149	{face:00301}{face:30201}{face:10009}{spk:02}ユウキ「出撃じゅんび、いいかい」{wait}	{face:00301}{face:30201}{face:10009}{spk:02}Yuki: "Ready to sortie?"{wait}	
+dlg:1754	text	rec:3417	149	{face:30210}{spk:04}ギリガン「おいっ、ブランク、今日からおれが管制してやるからな！」{wait}	{face:30210}{spk:04}Gilligan: "Hey, Blank, from today I'm your controller!"{wait}	
+dlg:1755	text	rec:3418	149	{face:00303}{spk:01}ブランク「はあ、お手やわらかに・・・」{wait}	{face:00303}{spk:01}Blank: "Er, go easy on me..."{wait}	
+dlg:1756	text	rec:3421	149	{face:30210}{spk:04}ギリガン「ユウキ、行き先はブリオッシュ山だったな。{br}　なるほど、ロビン・フッドってな、{br}　山ぞくだったからな！」{wait}	{face:30210}{spk:04}Gilligan: "Yuki, we're headed for Mount Brioche, right? Makes sense, Robin Hood was a mountain bandit!"{wait}	
+dlg:1757	text	rec:3422	149	{face:10010}{spk:02}ユウキ「え？　ちがうよ、ロビン・フッドは山ぞくじゃなくて・・・」{wait}	{face:10010}{spk:02}Yuki: "Huh? No, Robin Hood wasn't a mountain bandit..."{wait}	
+dlg:1758	text	rec:3423	149	{spk:04}ギリガン「山ぞくでないなら海ぞくか？{br}　なんで山ってことになった」{wait}	{spk:04}Gilligan: "If not a mountain bandit, a pirate? Then why the mountains?"{wait}	
+dlg:1759	text	rec:3424	149	{spk:02}ユウキ「・・・まちがえた；{br}　ポリジェンヌがあばれているのは」{wait}	{spk:02}Yuki: "...I got it wrong. The Polijenne are running wild in..."{wait}	
+dlg:1760	text	rec:3429	149	{spk:04}ギリガン「そうか、行くぞ！」{wait}	{spk:04}Gilligan: "Right, let's go!"{wait}	
+dlg:1761	text	rec:3437	149	　マーマレード海岸{wait}	Marmalade Coast{wait}	
+dlg:1762	text	rec:3438	149	{face:00301}{face:10001}{face:30210}{spk:04}ギリガン「しずかだな。{br}　かくれてやがるのか、見つけ出してつかまえてやるぜ」{wait}	{face:00301}{face:10001}{face:30210}{spk:04}Gilligan: "It's quiet. Are they hiding? I'll find 'em and catch 'em."{wait}	
+dlg:1763	text	rec:3439	149	{face:10010}{spk:02}ユウキ「行け、ブランク！」{wait}	{face:10010}{spk:02}Yuki: "Go, Blank!"{wait}	
+dlg:1764	text	rec:3440	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}	{face:00302}{spk:01}Blank: "Confirm!"{wait}	
+dlg:1765	text	rec:3443	149	{face:10001}{face:30201}{face:00303}{spk:01}ブランク「あのー、ポリジェンヌなんていませんでしたけど・・・」{wait}	{face:10001}{face:30201}{face:00303}{spk:01}Blank: "Um, there weren't any Polijenne..."{wait}	
+dlg:1766	text	rec:3444	149	{face:30203}{spk:04}ギリガン「敵がいなくちゃ、{br}　海ぞくロビン・フッド様もかたなしだ」{wait}	{face:30203}{spk:04}Gilligan: "With no enemies, the great pirate Robin Hood looks pretty silly."{wait}	
+dlg:1767	text	rec:3445	149	{face:10012}{spk:02}ユウキ「え？　ロビン・フッドは海ぞくじゃないよ」{wait}	{face:10012}{spk:02}Yuki: "Huh? Robin Hood wasn't a pirate."{wait}	
+dlg:1768	text	rec:3446	149	{face:30206}{spk:04}ギリガン「なんだと。{br}　じゃあ、なんで海ってことになった」{wait}	{face:30206}{spk:04}Gilligan: "What? Then why the sea?"{wait}	
+dlg:1769	text	rec:3447	149	{face:10003}{spk:14}ユウキ「・・・まちがえた；　本当は」{wait}	{face:10003}{spk:14}Yuki: "...I got it wrong. Actually..."{wait}	
+dlg:1770	text	rec:3452	149	{spk:04}ギリガン「町にもどってやり直しだな」{wait}	{spk:04}Gilligan: "Back to town to start over."{wait}	
+dlg:1771	text	rec:3454	149	　シャーウッドの森　入り口{wait}	Sherwood Forest Entrance{wait}	
+dlg:1772	text	rec:3455	149	{face:00301}{face:30201}{face:10009}{spk:02}ユウキ「ロビン・フッドは、シャーウッドの森の英雄だからね」{wait}	{face:00301}{face:30201}{face:10009}{spk:02}Yuki: "Robin Hood is the hero of Sherwood Forest, after all."{wait}	
+dlg:1773	text	rec:3456	149	{face:30210}{spk:04}ギリガン「ふん、いるいる。{br}　あたしをつかまえにきてーって、{br}　ポリジェンヌが待ち伏せしてやがる」{wait}	{face:30210}{spk:04}Gilligan: "Hah, there they are. The Polijenne are lying in wait, going 'Come catch me!'"{wait}	
+dlg:1774	text	rec:3457	149	{face:10011}{spk:14}ユウキ「よーし、ブランク、{br}マリアンにプロポーズして、{br}　教会までまっしぐらだ！」{wait}	{face:10011}{spk:14}Yuki: "All right, Blank! Propose to Marian and head straight for the church!"{wait}	
+dlg:1775	text	rec:3458	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}	{face:00302}{spk:01}Blank: "Confirm!"{wait}	
+dlg:1776	text	rec:3461	149	{face:30206}{spk:04}ギリガン「このやろっ、しっかりやれっ」{wait}	{face:30206}{spk:04}Gilligan: "Come on, you! Do it right!"{wait}	
+dlg:1777	text	rec:3472	149	{face:00301}{face:30201}{face:10010}{spk:02}ユウキ「出撃じゅんび、いいかい」{wait}	{face:00301}{face:30201}{face:10010}{spk:02}Yuki: "Ready to sortie?"{wait}	
+dlg:1778	text	rec:3473	149	{face:30210}{spk:04}ギリガン「おいっ、ブランク、今度はうまくやれよ！」{wait}	{face:30210}{spk:04}Gilligan: "Hey, Blank, get it right this time!"{wait}	
+dlg:1779	text	rec:3474	149	{face:00303}{spk:01}ブランク「がんばります」{wait}	{face:00303}{spk:01}Blank: "I'll do my best."{wait}	
+dlg:1780	text	rec:3479	149	　シャーウッドの森　入り口{wait}	Sherwood Forest Entrance{wait}	
+dlg:1781	text	rec:3480	149	{face:00301}{face:10011}{spk:14}ユウキ「ブランク！{br}　行くよ、森をつっきる！」{wait}	{face:00301}{face:10011}{spk:14}Yuki: "Blank! Let's go, straight through the forest!"{wait}	
+dlg:1782	text	rec:3481	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}	{face:00302}{spk:01}Blank: "Confirm!"{wait}	
+dlg:1783	text	rec:3485	149	　シャーウッドの森の教会{wait}	Sherwood Forest Church{wait}	
+dlg:1784	text	rec:3486	149	{face:10001}{face:20201}{face:30301}{face:02202}{spk:01}タック神父「かんしゃします。{br}　どこにも助けをよべず、困っていました」{wait}	{face:10001}{face:20201}{face:30301}{face:02202}{spk:01}Father Tuck: "Thank you. I could not call anyone for help, and I was at a loss."{wait}	
+dlg:1785	text	rec:3487	149	{face:20206}{spk:03}ギリガン「教官テカか。{br}　なんで神父になってる」{wait}	{face:20206}{spk:03}Gilligan: "An instructor Teka? Why are you a Father?"{wait}	
+dlg:1786	text	rec:3488	149	{spk:01}神父「わたしはマーマレード市長の教育係でした。{wait}	{spk:01}Father: "I was the Mayor of Marmalade's tutor.{wait}	
+dlg:1787	text	rec:3489	149	{spk:01}　市長を、優しくて思いやりのある、立派な人物に育てたと自信を持っていたのに・・・　最近の変わりようはひどい。{wait}	{spk:01}I was confident I had raised the Mayor to be a fine, kind, caring person... But the recent change is terrible.{wait}	
+dlg:1788	text	rec:3490	149	{spk:01}　市民をいじめ、男を嫌い、差別し、{br}　ドレイのようにあつかっている。{wait}	{spk:01}She bullies the citizens, hates men, discriminates, and treats them like slaves.{wait}	
+dlg:1789	text	rec:3491	149	{spk:01}　わたしの教育に、なにか間違いがあったのでしょう。{br}　ここでざんげをする毎日なのです」{wait}	{spk:01}There must have been something wrong with my teaching. I spend every day here repenting."{wait}	
+dlg:1790	text	rec:3492	149	{face:20203}{spk:03}ギリガン「わたしがわるうございました、　ってか。そう思うなら、市長を教育しなおしに行けばいいじゃないか」{wait}	{face:20203}{spk:03}Gilligan: "'It was all my fault,' huh? If ya think so, go reeducate the Mayor."{wait}	
+dlg:1791	text	rec:3493	149	{spk:01}神父「もはや、市長一人教育しなおしてもはじまらない。{br}　マーマレード市民全員を教育しなくては。{wait}	{spk:01}Father: "Reeducating the Mayor alone is no longer enough. I must educate every citizen of Marmalade.{wait}	
+dlg:1792	text	rec:3494	149	{spk:01}　こんなひどい政治をされて、{br}　市民革命も起こさずにだまっているなど、{br}　まちがいです」{wait}	{spk:01}Suffering such terrible politics and staying silent without a citizens' revolution is wrong."{wait}	
+dlg:1793	text	rec:3495	149	{face:10006}{spk:02}ユウキ「市民かくめいを・・・{br}　起こさせる気？」{wait}	{face:10006}{spk:02}Yuki: "You mean to... start a citizens' revolution?"{wait}	
+dlg:1794	text	rec:3496	149	{spk:01}神父「市民の力でマーマレードを変えていくしかない。{br}　私はシティに行きます、{br}　かくめいをよびかけるのです・・・！」{wait}	{spk:01}Father: "Only the citizens' power can change Marmalade. I will go to the City and call for revolution...!"{wait}	
