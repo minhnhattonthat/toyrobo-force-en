@@ -1,6 +1,6 @@
 id	kind	where	max	jp	en	notes
-dlg:0777	text	rec:1497	149	{face:30601}{face:00502}{spk:01}アドルフ市長「署長！{br}　カシスシティに行く。{br}　君もいっしょに来たまえ！」{wait}		
-dlg:0778	text	rec:1498	149	{face:30603}{spk:04}スミタ署長「は？　カシスにですか、{br}　あそこは『軍国しゅぎ』というか、{br}　あまり近寄りたくないシティでしょう」{wait}		
-dlg:0779	text	rec:1499	149	{spk:01}市長「軍隊をかりに行くのだよ。{br}　君に分かるか、鉄のうでにとらえられ、　引きずりまわされるこわさが。{wait}		
-dlg:0780	text	rec:1500	149	{face:00503}{spk:01}　反乱は力でおさえつける！{br}　君も、ユウキ君たちも、同行するのだ！」{wait}		
-dlg:0781	text	rec:1501	149	{spk:04}署長「落ち着いてください、ユウキ君たちにもやらねばならないことがあるのです、{br}　いまカシスにつれ出すわけには―――」{wait}		
+dlg:0777	text	rec:1497	149	{face:30601}{face:00502}{spk:01}アドルフ市長「署長！{br}　カシスシティに行く。{br}　君もいっしょに来たまえ！」{wait}	{face:30601}{face:00502}{spk:01}Mayor Adolf: "Chief! I'm going to Cassis City. You're coming with me!"{wait}	
+dlg:0778	text	rec:1498	149	{face:30603}{spk:04}スミタ署長「は？　カシスにですか、{br}　あそこは『軍国しゅぎ』というか、{br}　あまり近寄りたくないシティでしょう」{wait}	{face:30603}{spk:04}Chief Sumita: "Huh? To Cassis? That place is, well, 'militaristic'. Not a City I'd care to go near."{wait}	
+dlg:0779	text	rec:1499	149	{spk:01}市長「軍隊をかりに行くのだよ。{br}　君に分かるか、鉄のうでにとらえられ、　引きずりまわされるこわさが。{wait}	{spk:01}Mayor: "We're going to borrow their army. Do you know the terror of being seized by iron arms and dragged around?{wait}	
+dlg:0780	text	rec:1500	149	{face:00503}{spk:01}　反乱は力でおさえつける！{br}　君も、ユウキ君たちも、同行するのだ！」{wait}	{face:00503}{spk:01}The revolt will be crushed by force! You and Yuki-kun's team are coming too!"{wait}	
+dlg:0781	text	rec:1501	149	{spk:04}署長「落ち着いてください、ユウキ君たちにもやらねばならないことがあるのです、{br}　いまカシスにつれ出すわけには―――」{wait}	{spk:04}Chief: "Please calm down. Yuki-kun's team has their own work to do. I can't take them off to Cassis now--"{wait}	

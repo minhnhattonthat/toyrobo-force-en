@@ -1,192 +1,192 @@
 id	kind	where	max	jp	en	notes
-dlg:0782	text	rec:1505	149	{face:00605}{spk:01}署長「ということだから、市庁舎には近づかないほうがいいよ。{br}　市長は本気でカシスに行くつもりだ―――{wait}		
-dlg:0783	text	rec:1506	149	{spk:01}　君が行きたいというならかまわんがね。{br}{face:00602}　とうめん、これまで反乱のあったところへ出撃してもらえるかね。{wait}		
-dlg:0784	text	rec:1507	149	{spk:01}　パーツを集めてテカを作るのにもゆうこうだろう」{wait}		
-dlg:0785	text	rec:1510	149	{face:00502}{spk:01}市長「ユウキ君っ、カシスへ行くんだ、{br}　同行してくれるね？！」{wait}		
-dlg:0786	text	rec:1512	149	{face:00502}{spk:01}市長「まだテカがりとかやってるのか？{br}　もういいだろうに―――」{wait}		
-dlg:0787	text	rec:1514	149	{face:00502}{spk:01}市長「よし、署長もつれて、軍隊をかりに行こう。{br}　ソルジャーをはけんしてもらうんだ」{wait}		
+dlg:0782	text	rec:1505	149	{face:00605}{spk:01}署長「ということだから、市庁舎には近づかないほうがいいよ。{br}　市長は本気でカシスに行くつもりだ―――{wait}	{face:00605}{spk:01}Chief: "So you'd better stay away from City Hall. The Mayor really means to go to Cassis--{wait}	
+dlg:0783	text	rec:1506	149	{spk:01}　君が行きたいというならかまわんがね。{br}{face:00602}　とうめん、これまで反乱のあったところへ出撃してもらえるかね。{wait}	{spk:01}Not that I mind if you want to go.{face:00602} For now, will you sortie to the places that have had revolts?{wait}	
+dlg:0784	text	rec:1507	149	{spk:01}　パーツを集めてテカを作るのにもゆうこうだろう」{wait}	{spk:01}It'll help you collect parts and build Teka too."{wait}	
+dlg:0785	text	rec:1510	149	{face:00502}{spk:01}市長「ユウキ君っ、カシスへ行くんだ、{br}　同行してくれるね？！」{wait}	{face:00502}{spk:01}Mayor: "Yuki-kun, we're going to Cassis. You'll come with us, won't you?!"{wait}	
+dlg:0786	text	rec:1512	149	{face:00502}{spk:01}市長「まだテカがりとかやってるのか？{br}　もういいだろうに―――」{wait}	{face:00502}{spk:01}Mayor: "Still hunting Teka? Surely that's enough--"{wait}	
+dlg:0787	text	rec:1514	149	{face:00502}{spk:01}市長「よし、署長もつれて、軍隊をかりに行こう。{br}　ソルジャーをはけんしてもらうんだ」{wait}	{face:00502}{spk:01}Mayor: "Right, let's bring the Chief and go borrow their army. We'll have them send Soldiers."{wait}	
 dlg:0788	text	rec:1516	149	　アプリコット出国ゲート{wait}	Apricot Departure Gate{wait}	
-dlg:0789	text	rec:1517	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「・・・なんでいっしょに行くとか言っちまったんだ」{wait}		
-dlg:0790	text	rec:1518	149	{face:10004}{spk:02}ユウキ「うん、まあ、ソルジャーを使ってみたいって気にはなってさ」{wait}		
-dlg:0791	text	rec:1519	149	{face:20115}{spk:03}トモミ「かんたんにかしてくれるはずがないわよ―――」{wait}		
-dlg:0792	text	rec:1521	149	{face:00601}{face:10008}{spk:02}ユウキ「しつれいします、署長。{br}　・・・{face:10012}署長？」{wait}		
-dlg:0793	text	rec:1522	149	{face:00602}{spk:01}署長「ああ、ユウキ君」{wait}		
-dlg:0794	text	rec:1523	149	{spk:02}ユウキ「しんけんな顔で、なにをなさっていたんです」{wait}		
-dlg:0795	text	rec:1524	149	{spk:01}署長「あ、たいしょく金の計算をね」{wait}		
-dlg:0796	text	rec:1525	149	{face:10006}{spk:02}ユウキ「！{br}　署長をおやめになるのですか？」{wait}		
-dlg:0797	text	rec:1526	149	{spk:01}署長「なに言ってるんだ、{br}　これは私のしゅみだよ」{wait}		
-dlg:0798	text	rec:1527	149	{face:10012}{spk:02}ユウキ「は・・・」{wait}		
-dlg:0799	text	rec:1529	149	{face:00401}{face:20101}{face:30206}{spk:04}ギリガン「やい教官、カマキリよばわりされた礼をまだしてもらってねえぞ！」{wait}		
-dlg:0800	text	rec:1530	149	{face:00402}{spk:01}ポイヤック「？{br}　じょうしき的はんだんを心がけなさい。{br}　わたしが悪口を言うはずがありませんよ」{wait}		
-dlg:0801	text	rec:1531	149	{face:30207}{spk:04}ギリガン「とぼけるんじゃねえ！」{wait}		
-dlg:0802	text	rec:1532	149	{face:20106}{spk:03}トモミ「いつの話にこだわってるのよ――」{wait}		
-dlg:0803	text	rec:1539	149	{face:10001}{face:20101}{face:01003}{spk:01}リアナ「あら、あなたたち！{br}　いいところで会ったわ、{br}　ブランク様はどこ？！」{wait}		
-dlg:0804	text	rec:1540	149	{face:10004}{spk:02}ユウキ「今日はべつコースをじゅんかいしています。{br}　時計通りだから、反対がわですね」{wait}		
-dlg:0805	text	rec:1541	149	{spk:01}リアナ「ブランク様、あなたのリアナがいま行きますわ！」　　　　　　　　　　{spk:00}{face:01000}{wait}		
-dlg:0806	text	rec:1542	149	{face:10012}{spk:02}ユウキ「・・・ブランク、かくれてないで出ておいで。{br}　にが手なのは追いはらったから・・・{face:30301}」{wait}		
-dlg:0807	text	rec:1545	149	{face:01004}{spk:01}リアナ「ちょっと、ブランク様、見つからないわよ！」{wait}		
-dlg:0808	text	rec:1546	149	{face:10012}{spk:02}ユウキ「じゅんかいですから、ずっと止まってるわけじゃないし。{br}　いまなら、そのさきかな」{wait}		
-dlg:0809	text	rec:1547	149	{face:01003}{spk:01}リアナ「近くね！」　　　　　　　　　　{spk:00}{face:01000}{wait}		
-dlg:0810	text	rec:1548	149	{face:10005}{spk:02}ユウキ「・・・オーケー、ブランク、{br}　行ったよ；{face:30301}」{wait}		
-dlg:0811	text	rec:1569	149	{face:10001}{face:01302}{spk:01}ポリステカ「やれやれ・・・{br}　シティの中で、まだあばれてるのがいるんですよ」{wait}		
-dlg:0812	text	rec:1570	149	{face:10012}{spk:02}ユウキ「テカでもあばれたりするって、りかいできたかい」{wait}		
-dlg:0813	text	rec:1571	149	{spk:01}ポリステカ「え？{br}　あれはテカに化けた人間があばれているのでしょう？」{wait}		
-dlg:0814	text	rec:1572	149	{face:10005}{spk:02}ユウキ「まだわかんないか；」{wait}		
-dlg:0815	text	rec:1590	149	　カシス軍本部{wait}		
-dlg:0816	text	rec:1591	149	{face:10501}{face:20601}{face:30001}{face:01702}{spk:01}モーデル将軍「きらわれ者のこの国に、{br}　よくまいられた」{wait}		
-dlg:0817	text	rec:1592	149	{face:10504}{face:20602}{spk:02}アドルフ市長「きらわれ者だなんてとんでもない！{br}　市民にきらわれてるのはわたしの方で。{br}　ははは」{wait}		
-dlg:0818	text	rec:1593	149	{face:20604}{spk:03}スミタ署長「（分かってはいるんだな）」{wait}		
-dlg:0819	text	rec:1594	149	{spk:01}将軍「なにか、おてつだいをさせてもらえるという話だが」{wait}		
-dlg:0820	text	rec:1595	149	{spk:02}市長「お聞きおよびでしょう？{br}　テカの反乱がはげしくて、おさまらないのです」{wait}		
-dlg:0821	text	rec:1596	149	{spk:01}将軍「うむ。{br}　だから、軍隊を持ちなさいと言うのに」{wait}		
-dlg:0822	text	rec:1597	149	{spk:02}市長「まったくです、将軍、{br}　はんせいしています」{wait}		
-dlg:0823	text	rec:1598	149	{spk:01}将軍「ふん、心にもない―――{br}　軍をかしてほしいと？{wait}		
-dlg:0824	text	rec:1599	149	{spk:01}　あばれているのはただのテカですな。{br}　いわば民間のロボット、そんなのは警察の仕事ではありますまいか」{wait}		
-dlg:0825	text	rec:1600	149	{face:10502}{spk:02}市長「署長、ごせつめいしなさい、{face:20604}アプリコット警察の手にあまると―――{br}　なにをそっぽ向いている」{wait}		
-dlg:0826	text	rec:1601	149	{spk:01}将軍「はっはっは・・・{br}　警察署長としては、自分の無力をみとめる気にはなれんでしょう。{wait}		
-dlg:0827	text	rec:1602	149	{spk:01}　もし署長が泣きながらにうったえるなら」{wait}		
-dlg:0828	text	rec:1603	149	{face:10504}{spk:02}市長「かしていただけますか」{wait}		
-dlg:0829	text	rec:1604	149	{spk:01}将軍「あまったれるな！{br}　と追い出すまでだ」{wait}		
-dlg:0830	text	rec:1605	149	{face:10506}{spk:02}市長「そう言わずに、むりょくなアプリコットを助けてください、ううう」{wait}		
-dlg:0831	text	rec:1606	149	{spk:01}将軍「あまったれるな！{br}　政治家のなみだを信じるほど、おひとよしではない！」{wait}		
-dlg:0832	text	rec:1607	149	{face:10502}{spk:02}市長「そうですか。{br}　では、見かえりを―――{br}{face:10504}　わたしどもに何かできることは？」{wait}		
-dlg:0833	text	rec:1608	149	{spk:01}将軍「うむ。{br}　軍に反対する連中が、兵器庫にたてこもった。{wait}		
-dlg:0834	text	rec:1609	149	{spk:01}　ワークテカに武器を持たせて守っている。{br}　兵器庫を取り返していただけるかな」{face:20603}{wait}		
-dlg:0835	text	rec:1610	149	{spk:03}署長「まってください、それこそ軍隊の仕事では？」{wait}		
-dlg:0836	text	rec:1611	149	{spk:01}将軍「聞いていただけないなら、お帰りねがおう」{wait}		
-dlg:0837	text	rec:1612	149	{face:20601}{face:10504}{spk:02}市長「わかりました。{br}{face:10502}　ユウキ巡査長！{br}　兵器庫に向かいたまえ」{wait}		
-dlg:0838	text	rec:1613	149	{face:30003}{spk:16}ユウキ「兵器庫ってことは、ワークテカの武器は軍用のものでは―――{br}　それを、警官のぼくらに戦え、と；」{wait}		
-dlg:0839	text	rec:1614	149	{face:30012}{spk:01}将軍「ひつようなら、１機ぐらいはソルジャーをしんていしよう」{wait}		
-dlg:0840	text	rec:1615	149	{face:10503}{spk:02}市長「ユウキ君、将軍のごこういにこたえなくては！{br}{face:10504}　将軍、兵器庫を取り返したあかつきには」{wait}		
-dlg:0841	text	rec:1616	149	{spk:01}将軍「一ヶ大隊もあれば足りますかな？」{wait}		
-dlg:0842	text	rec:1617	149	{spk:02}市長「おお、助かります！　　　　　　　　{face:10503}　ユウキ君、すぐ出動したまえ！」{wait}		
-dlg:0843	text	rec:1618	149	{face:30005}{spk:04}ユウキ「（なんだいそりゃ）」{wait}		
-dlg:0844	text	rec:1622	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「けっきょく引き受けたのかっ、{br}{face:30207}　市長にばかりもんく言えねえぞ！」{wait}		
-dlg:0845	text	rec:1623	149	{face:10003}{spk:14}ユウキ「引き受けたわけじゃないよ」{wait}		
-dlg:0846	text	rec:1624	149	{face:20103}{spk:03}トモミ「やりませんとも言えないけどね」{wait}		
-dlg:0847	text	rec:1625	149	{face:10012}{spk:02}ユウキ「立てこもっている人たちと、話し合うこともできるかなって」{wait}		
-dlg:0848	text	rec:1626	149	{face:30203}{spk:04}ギリガン「白ハタ上げて話し合いってか？{br}　おれはやだぜ」{wait}		
-dlg:0849	text	rec:1627	149	{face:20115}{spk:03}トモミ「ならあたしが行くわよ。{br}　せっとくは警官のきほんよ」{wait}		
-dlg:0850	text	rec:1628	149	{face:01202}{spk:01}ワークテカ「あのう、戦いに行かれるなら、ソルジャーのパーツをおわたしするよう、　軍から言われていますが」{wait}		
-dlg:0851	text	rec:1631	149	{face:01702}{spk:01}モーデル将軍「話し合おうなどと考えているなら、私の敵だ。{wait}		
-dlg:0852	text	rec:1632	149	{spk:01}　まとめてたたきつぶされるとカクゴするがいい」{wait}		
-dlg:0853	text	rec:1635	149	{face:00605}{spk:01}スミタ署長「こっちの署長と話してみたが、だめだね。{br}　軍の言いなりだ、力にはなってくれん」{wait}		
-dlg:0854	text	rec:1637	149	{face:00602}{spk:01}署長「ムリでも戦いに行った方がいい。{br}　ユウキ君が行かないなら軍が行く。{br}　それじゃあ反対派は・・・」{wait}		
-dlg:0855	text	rec:1640	149	{face:10001}{face:00503}{spk:01}市長「まだ、ぐずぐずしてるのかね？！　{br}　はやく反対派と戦いに行きたまえ！」{wait}		
-dlg:0856	text	rec:1641	149	{face:10002}{spk:02}ユウキ「お待ちください、市長。{br}　話し合いという手もあるのです」{wait}		
-dlg:0857	text	rec:1642	149	{face:00502}{spk:01}市長「将軍のキゲンを取らねばならんよ。{br}　一ヶ大隊をやくそくしてくれたのだ」{wait}		
-dlg:0858	text	rec:1645	149	{face:00502}{spk:01}アドルフ市長「相手のキゲンを取るのは外交の第一歩だ。{br}　将軍の言うとおりにしたまえ！」{wait}		
-dlg:0859	text	rec:1647	149	{face:10001}{face:30204}{spk:04}ギリガン「反対派と戦いに行くなら、工場でソルジャーがもらえるぜ。{br}　使いたかったんだろ？」{wait}		
-dlg:0860	text	rec:1649	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「話し合いに行くんでしょ、はやく行きましょうよ。{wait}		
-dlg:0861	text	rec:1650	149	{spk:03}　まさかソルジャー１機に目がくらんで、　戦いに行くとか言わないでしょうね」{wait}		
-dlg:0862	text	rec:1651	149	{face:01202}{spk:01}ワークテカ「ソルジャー１機分のパーツを用意してあります。{br}　すぐでもおわたしできますが」{wait}		
-dlg:0863	text	rec:1654	149	ソルジャーのボディを{br}　手に入れました。{wait}		
-dlg:0864	text	rec:1656	149	右腕『デリンジャー』を{br}　手に入れました。{wait}		
-dlg:0865	text	rec:1658	149	左腕『ハンドグレネード』を{br}　手に入れました。{wait}		
-dlg:0866	text	rec:1660	149	パソコプ『タイガー』を{br}　手に入れました。{wait}		
-dlg:0867	text	rec:1664	149	{face:01702}{face:10002}{spk:01}モーデル将軍「反対派と戦ってくれるか。{br}　助かる。{wait}		
-dlg:0868	text	rec:1665	149	{spk:01}　ソルジャーはメンテ代がかかるからな。{br}　軍資金に、５０００ばかり持っていけ」{wait}		
-dlg:0869	text	rec:1666	149	{face:10012}{spk:02}ユウキ「よろしいのですか？」{wait}		
-dlg:0870	text	rec:1667	149	{spk:01}将軍「しみったれた市長といっしょにされてはかなわんからな」{wait}		
-dlg:0871	text	rec:1671	149	{face:01702}{spk:01}モーデル将軍「よろしくたのむぞ」{wait}		
-dlg:0872	text	rec:1673	149	{face:00605}{spk:01}スミタ署長「戦いに行くと決めたかい。{br}　軍に利用されるのはシャクだが」{wait}		
-dlg:0873	text	rec:1675	149	{face:00502}{spk:01}アドルフ市長「ぐずぐずしてくれたものだ。{br}　急ぎたまえよ」{wait}		
-dlg:0874	text	rec:1681	149	{face:10001}{face:20112}{spk:03}トモミ「・・・」{wait}		
-dlg:0875	text	rec:1682	149	{face:10010}{spk:02}ユウキ「ブランク！　じゅんびはいいね。{br}　出撃！」{wait}		
+dlg:0789	text	rec:1517	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「・・・なんでいっしょに行くとか言っちまったんだ」{wait}	{face:10001}{face:20101}{face:30206}{spk:04}Gilligan: "...Why'd ya say we'd go with him?"{wait}	
+dlg:0790	text	rec:1518	149	{face:10004}{spk:02}ユウキ「うん、まあ、ソルジャーを使ってみたいって気にはなってさ」{wait}	{face:10004}{spk:02}Yuki: "Well, I kind of wanted to try using Soldiers."{wait}	
+dlg:0791	text	rec:1519	149	{face:20115}{spk:03}トモミ「かんたんにかしてくれるはずがないわよ―――」{wait}	{face:20115}{spk:03}Tomomi: "There's no way they'll lend them that easily--"{wait}	
+dlg:0792	text	rec:1521	149	{face:00601}{face:10008}{spk:02}ユウキ「しつれいします、署長。{br}　・・・{face:10012}署長？」{wait}	{face:00601}{face:10008}{spk:02}Yuki: "Excuse me, Chief. ...{face:10012}Chief?"{wait}	
+dlg:0793	text	rec:1522	149	{face:00602}{spk:01}署長「ああ、ユウキ君」{wait}	{face:00602}{spk:01}Chief: "Ah, Yuki-kun."{wait}	
+dlg:0794	text	rec:1523	149	{spk:02}ユウキ「しんけんな顔で、なにをなさっていたんです」{wait}	{spk:02}Yuki: "What were you doing with such a serious face?"{wait}	
+dlg:0795	text	rec:1524	149	{spk:01}署長「あ、たいしょく金の計算をね」{wait}	{spk:01}Chief: "Oh, working out my retirement pay."{wait}	
+dlg:0796	text	rec:1525	149	{face:10006}{spk:02}ユウキ「！{br}　署長をおやめになるのですか？」{wait}	{face:10006}{spk:02}Yuki: "! You're quitting as Chief?"{wait}	
+dlg:0797	text	rec:1526	149	{spk:01}署長「なに言ってるんだ、{br}　これは私のしゅみだよ」{wait}	{spk:01}Chief: "What are you talking about? It's my hobby."{wait}	
+dlg:0798	text	rec:1527	149	{face:10012}{spk:02}ユウキ「は・・・」{wait}	{face:10012}{spk:02}Yuki: "Huh..."{wait}	
+dlg:0799	text	rec:1529	149	{face:00401}{face:20101}{face:30206}{spk:04}ギリガン「やい教官、カマキリよばわりされた礼をまだしてもらってねえぞ！」{wait}	{face:00401}{face:20101}{face:30206}{spk:04}Gilligan: "Hey, Instructor! I still owe ya for calling me Mantis-Head!"{wait}	
+dlg:0800	text	rec:1530	149	{face:00402}{spk:01}ポイヤック「？{br}　じょうしき的はんだんを心がけなさい。{br}　わたしが悪口を言うはずがありませんよ」{wait}	{face:00402}{spk:01}Pauillac: "? Try to use common sense. I would never say anything rude."{wait}	
+dlg:0801	text	rec:1531	149	{face:30207}{spk:04}ギリガン「とぼけるんじゃねえ！」{wait}	{face:30207}{spk:04}Gilligan: "Don't play dumb!"{wait}	
+dlg:0802	text	rec:1532	149	{face:20106}{spk:03}トモミ「いつの話にこだわってるのよ――」{wait}	{face:20106}{spk:03}Tomomi: "How long ago was that? Let it go--"{wait}	
+dlg:0803	text	rec:1539	149	{face:10001}{face:20101}{face:01003}{spk:01}リアナ「あら、あなたたち！{br}　いいところで会ったわ、{br}　ブランク様はどこ？！」{wait}	{face:10001}{face:20101}{face:01003}{spk:01}Riana: "Oh, it's you lot! Just the people I wanted. Where's Blank-sama?!"{wait}	
+dlg:0804	text	rec:1540	149	{face:10004}{spk:02}ユウキ「今日はべつコースをじゅんかいしています。{br}　時計通りだから、反対がわですね」{wait}	{face:10004}{spk:02}Yuki: "He's patrolling another route today. Clockwise, so the other side."{wait}	
+dlg:0805	text	rec:1541	149	{spk:01}リアナ「ブランク様、あなたのリアナがいま行きますわ！」　　　　　　　　　　{spk:00}{face:01000}{wait}	{spk:01}Riana: "Blank-sama, your Riana is coming!"{spk:00}{face:01000}{wait}	
+dlg:0806	text	rec:1542	149	{face:10012}{spk:02}ユウキ「・・・ブランク、かくれてないで出ておいで。{br}　にが手なのは追いはらったから・・・{face:30301}」{wait}	{face:10012}{spk:02}Yuki: "...Blank, you can come out now. I chased off the one you can't handle...{face:30301}"{wait}	
+dlg:0807	text	rec:1545	149	{face:01004}{spk:01}リアナ「ちょっと、ブランク様、見つからないわよ！」{wait}	{face:01004}{spk:01}Riana: "Hey, I can't find Blank-sama!"{wait}	
+dlg:0808	text	rec:1546	149	{face:10012}{spk:02}ユウキ「じゅんかいですから、ずっと止まってるわけじゃないし。{br}　いまなら、そのさきかな」{wait}	{face:10012}{spk:02}Yuki: "He's on patrol, so he doesn't stay put. Right now, maybe up ahead."{wait}	
+dlg:0809	text	rec:1547	149	{face:01003}{spk:01}リアナ「近くね！」　　　　　　　　　　{spk:00}{face:01000}{wait}	{face:01003}{spk:01}Riana: "Close by!"{spk:00}{face:01000}{wait}	
+dlg:0810	text	rec:1548	149	{face:10005}{spk:02}ユウキ「・・・オーケー、ブランク、{br}　行ったよ；{face:30301}」{wait}	{face:10005}{spk:02}Yuki: "...Okay, Blank, she's gone.{face:30301}"{wait}	
+dlg:0811	text	rec:1569	149	{face:10001}{face:01302}{spk:01}ポリステカ「やれやれ・・・{br}　シティの中で、まだあばれてるのがいるんですよ」{wait}	{face:10001}{face:01302}{spk:01}Polisteka: "Dear me... Some are still running wild in the City."{wait}	
+dlg:0812	text	rec:1570	149	{face:10012}{spk:02}ユウキ「テカでもあばれたりするって、りかいできたかい」{wait}	{face:10012}{spk:02}Yuki: "Do you understand now that even Teka can run wild?"{wait}	
+dlg:0813	text	rec:1571	149	{spk:01}ポリステカ「え？{br}　あれはテカに化けた人間があばれているのでしょう？」{wait}	{spk:01}Polisteka: "Eh? Those are humans disguised as Teka running wild, aren't they?"{wait}	
+dlg:0814	text	rec:1572	149	{face:10005}{spk:02}ユウキ「まだわかんないか；」{wait}	{face:10005}{spk:02}Yuki: "Still don't get it, huh."{wait}	
+dlg:0815	text	rec:1590	149	　カシス軍本部{wait}	Cassis Army Headquarters{wait}	
+dlg:0816	text	rec:1591	149	{face:10501}{face:20601}{face:30001}{face:01702}{spk:01}モーデル将軍「きらわれ者のこの国に、{br}　よくまいられた」{wait}	{face:10501}{face:20601}{face:30001}{face:01702}{spk:01}General Mordel: "Welcome to this hated nation of ours."{wait}	
+dlg:0817	text	rec:1592	149	{face:10504}{face:20602}{spk:02}アドルフ市長「きらわれ者だなんてとんでもない！{br}　市民にきらわれてるのはわたしの方で。{br}　ははは」{wait}	{face:10504}{face:20602}{spk:02}Mayor Adolf: "Hated? Nonsense! I'm the one the citizens hate. Ha ha ha."{wait}	
+dlg:0818	text	rec:1593	149	{face:20604}{spk:03}スミタ署長「（分かってはいるんだな）」{wait}	{face:20604}{spk:03}Chief Sumita: "(So he does know.)"{wait}	
+dlg:0819	text	rec:1594	149	{spk:01}将軍「なにか、おてつだいをさせてもらえるという話だが」{wait}	{spk:01}General: "I hear you want us to help you with something."{wait}	
+dlg:0820	text	rec:1595	149	{spk:02}市長「お聞きおよびでしょう？{br}　テカの反乱がはげしくて、おさまらないのです」{wait}	{spk:02}Mayor: "Surely you've heard? The Teka Revolt is fierce, and it won't die down."{wait}	
+dlg:0821	text	rec:1596	149	{spk:01}将軍「うむ。{br}　だから、軍隊を持ちなさいと言うのに」{wait}	{spk:01}General: "Hm. That's why I keep telling you to have an army."{wait}	
+dlg:0822	text	rec:1597	149	{spk:02}市長「まったくです、将軍、{br}　はんせいしています」{wait}	{spk:02}Mayor: "Quite right, General. I've learned my lesson."{wait}	
+dlg:0823	text	rec:1598	149	{spk:01}将軍「ふん、心にもない―――{br}　軍をかしてほしいと？{wait}	{spk:01}General: "Hmph, you don't mean it-- You want to borrow my army?{wait}	
+dlg:0824	text	rec:1599	149	{spk:01}　あばれているのはただのテカですな。{br}　いわば民間のロボット、そんなのは警察の仕事ではありますまいか」{wait}	{spk:01}The ones running wild are mere Teka. Civilian robots, so to speak. Isn't that a job for the police?"{wait}	
+dlg:0825	text	rec:1600	149	{face:10502}{spk:02}市長「署長、ごせつめいしなさい、{face:20604}アプリコット警察の手にあまると―――{br}　なにをそっぽ向いている」{wait}	{face:10502}{spk:02}Mayor: "Chief, explain it to him.{face:20604} Tell him it's too much for the Apricot police-- Why are you looking away?"{wait}	
+dlg:0826	text	rec:1601	149	{spk:01}将軍「はっはっは・・・{br}　警察署長としては、自分の無力をみとめる気にはなれんでしょう。{wait}	{spk:01}General: "Ha ha ha... As Chief of Police, he won't want to admit his own helplessness.{wait}	
+dlg:0827	text	rec:1602	149	{spk:01}　もし署長が泣きながらにうったえるなら」{wait}	{spk:01}Now if the Chief came begging in tears..."{wait}	
+dlg:0828	text	rec:1603	149	{face:10504}{spk:02}市長「かしていただけますか」{wait}	{face:10504}{spk:02}Mayor: "You'd lend them to us?"{wait}	
+dlg:0829	text	rec:1604	149	{spk:01}将軍「あまったれるな！{br}　と追い出すまでだ」{wait}	{spk:01}General: "I'd throw him out with a 'Grow up!'"{wait}	
+dlg:0830	text	rec:1605	149	{face:10506}{spk:02}市長「そう言わずに、むりょくなアプリコットを助けてください、ううう」{wait}	{face:10506}{spk:02}Mayor: "Don't say that. Please help poor helpless Apricot, boo hoo."{wait}	
+dlg:0831	text	rec:1606	149	{spk:01}将軍「あまったれるな！{br}　政治家のなみだを信じるほど、おひとよしではない！」{wait}	{spk:01}General: "Grow up! I'm not naive enough to believe a politician's tears!"{wait}	
+dlg:0832	text	rec:1607	149	{face:10502}{spk:02}市長「そうですか。{br}　では、見かえりを―――{br}{face:10504}　わたしどもに何かできることは？」{wait}	{face:10502}{spk:02}Mayor: "I see. Then, in return--{face:10504} Is there something we can do for you?"{wait}	
+dlg:0833	text	rec:1608	149	{spk:01}将軍「うむ。{br}　軍に反対する連中が、兵器庫にたてこもった。{wait}	{spk:01}General: "Hm. A group opposed to the army has holed up in the arsenal.{wait}	
+dlg:0834	text	rec:1609	149	{spk:01}　ワークテカに武器を持たせて守っている。{br}　兵器庫を取り返していただけるかな」{face:20603}{wait}	{spk:01}They're guarding it with armed Workteka. Would you take back the arsenal for us?"{face:20603}{wait}	
+dlg:0835	text	rec:1610	149	{spk:03}署長「まってください、それこそ軍隊の仕事では？」{wait}	{spk:03}Chief: "Wait, isn't that exactly a job for the army?"{wait}	
+dlg:0836	text	rec:1611	149	{spk:01}将軍「聞いていただけないなら、お帰りねがおう」{wait}	{spk:01}General: "If you won't do as I ask, kindly go home."{wait}	
+dlg:0837	text	rec:1612	149	{face:20601}{face:10504}{spk:02}市長「わかりました。{br}{face:10502}　ユウキ巡査長！{br}　兵器庫に向かいたまえ」{wait}	{face:20601}{face:10504}{spk:02}Mayor: "Understood.{face:10502} Senior Officer Yuki! Head for the arsenal."{wait}	
+dlg:0838	text	rec:1613	149	{face:30003}{spk:16}ユウキ「兵器庫ってことは、ワークテカの武器は軍用のものでは―――{br}　それを、警官のぼくらに戦え、と；」{wait}	{face:30003}{spk:16}Yuki: "An arsenal means the Workteka have military weapons-- And you want us police to fight them?"{wait}	
+dlg:0839	text	rec:1614	149	{face:30012}{spk:01}将軍「ひつようなら、１機ぐらいはソルジャーをしんていしよう」{wait}	{face:30012}{spk:01}General: "If need be, I'll present you with a Soldier or so."{wait}	
+dlg:0840	text	rec:1615	149	{face:10503}{spk:02}市長「ユウキ君、将軍のごこういにこたえなくては！{br}{face:10504}　将軍、兵器庫を取り返したあかつきには」{wait}	{face:10503}{spk:02}Mayor: "Yuki-kun, we must repay the General's kindness!{face:10504} General, once the arsenal is retaken..."{wait}	
+dlg:0841	text	rec:1616	149	{spk:01}将軍「一ヶ大隊もあれば足りますかな？」{wait}	{spk:01}General: "Would one battalion be enough?"{wait}	
+dlg:0842	text	rec:1617	149	{spk:02}市長「おお、助かります！　　　　　　　　{face:10503}　ユウキ君、すぐ出動したまえ！」{wait}	{spk:02}Mayor: "Oh, that would be a great help!{face:10503} Yuki-kun, move out at once!"{wait}	
+dlg:0843	text	rec:1618	149	{face:30005}{spk:04}ユウキ「（なんだいそりゃ）」{wait}	{face:30005}{spk:04}Yuki: "(What the heck?)"{wait}	
+dlg:0844	text	rec:1622	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「けっきょく引き受けたのかっ、{br}{face:30207}　市長にばかりもんく言えねえぞ！」{wait}	{face:10001}{face:20101}{face:30206}{spk:04}Gilligan: "So ya took the job after all?!{face:30207} Can't just blame the Mayor now!"{wait}	
+dlg:0845	text	rec:1623	149	{face:10003}{spk:14}ユウキ「引き受けたわけじゃないよ」{wait}	{face:10003}{spk:14}Yuki: "I didn't take it."{wait}	
+dlg:0846	text	rec:1624	149	{face:20103}{spk:03}トモミ「やりませんとも言えないけどね」{wait}	{face:20103}{spk:03}Tomomi: "But we can't say we won't, either."{wait}	
+dlg:0847	text	rec:1625	149	{face:10012}{spk:02}ユウキ「立てこもっている人たちと、話し合うこともできるかなって」{wait}	{face:10012}{spk:02}Yuki: "I thought maybe we could talk with the people holed up there."{wait}	
+dlg:0848	text	rec:1626	149	{face:30203}{spk:04}ギリガン「白ハタ上げて話し合いってか？{br}　おれはやだぜ」{wait}	{face:30203}{spk:04}Gilligan: "Wave a white flag and talk? Count me out."{wait}	
+dlg:0849	text	rec:1627	149	{face:20115}{spk:03}トモミ「ならあたしが行くわよ。{br}　せっとくは警官のきほんよ」{wait}	{face:20115}{spk:03}Tomomi: "Then I'll go. Persuasion is the basics of police work."{wait}	
+dlg:0850	text	rec:1628	149	{face:01202}{spk:01}ワークテカ「あのう、戦いに行かれるなら、ソルジャーのパーツをおわたしするよう、　軍から言われていますが」{wait}	{face:01202}{spk:01}Workteka: "Um, the army told me to give you Soldier parts if you're going to fight."{wait}	
+dlg:0851	text	rec:1631	149	{face:01702}{spk:01}モーデル将軍「話し合おうなどと考えているなら、私の敵だ。{wait}	{face:01702}{spk:01}General Mordel: "If you're thinking of talking with them, you're my enemy.{wait}	
+dlg:0852	text	rec:1632	149	{spk:01}　まとめてたたきつぶされるとカクゴするがいい」{wait}	{spk:01}Be ready to be crushed along with them."{wait}	
+dlg:0853	text	rec:1635	149	{face:00605}{spk:01}スミタ署長「こっちの署長と話してみたが、だめだね。{br}　軍の言いなりだ、力にはなってくれん」{wait}	{face:00605}{spk:01}Chief Sumita: "I tried talking to the chief here, no use. He does whatever the army says. He won't help."{wait}	
+dlg:0854	text	rec:1637	149	{face:00602}{spk:01}署長「ムリでも戦いに行った方がいい。{br}　ユウキ君が行かないなら軍が行く。{br}　それじゃあ反対派は・・・」{wait}	{face:00602}{spk:01}Chief: "Better to go fight, even if it's tough. If Yuki-kun doesn't go, the army will. Then the opposition..."{wait}	
+dlg:0855	text	rec:1640	149	{face:10001}{face:00503}{spk:01}市長「まだ、ぐずぐずしてるのかね？！　{br}　はやく反対派と戦いに行きたまえ！」{wait}	{face:10001}{face:00503}{spk:01}Mayor: "Still dawdling?! Hurry up and go fight the opposition!"{wait}	
+dlg:0856	text	rec:1641	149	{face:10002}{spk:02}ユウキ「お待ちください、市長。{br}　話し合いという手もあるのです」{wait}	{face:10002}{spk:02}Yuki: "Please wait, Mayor. Talking it out is also an option."{wait}	
+dlg:0857	text	rec:1642	149	{face:00502}{spk:01}市長「将軍のキゲンを取らねばならんよ。{br}　一ヶ大隊をやくそくしてくれたのだ」{wait}	{face:00502}{spk:01}Mayor: "We have to keep the General happy. He promised us a battalion."{wait}	
+dlg:0858	text	rec:1645	149	{face:00502}{spk:01}アドルフ市長「相手のキゲンを取るのは外交の第一歩だ。{br}　将軍の言うとおりにしたまえ！」{wait}	{face:00502}{spk:01}Mayor Adolf: "Keeping the other side happy is the first step of diplomacy. Do as the General says!"{wait}	
+dlg:0859	text	rec:1647	149	{face:10001}{face:30204}{spk:04}ギリガン「反対派と戦いに行くなら、工場でソルジャーがもらえるぜ。{br}　使いたかったんだろ？」{wait}	{face:10001}{face:30204}{spk:04}Gilligan: "If we go fight the opposition, we get a Soldier at the factory. Ya wanted to use one, right?"{wait}	
+dlg:0860	text	rec:1649	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「話し合いに行くんでしょ、はやく行きましょうよ。{wait}	{face:10001}{face:20115}{face:30201}{spk:03}Tomomi: "We're going to talk, aren't we? Let's hurry up and go.{wait}	
+dlg:0861	text	rec:1650	149	{spk:03}　まさかソルジャー１機に目がくらんで、　戦いに行くとか言わないでしょうね」{wait}	{spk:03}Don't tell me one Soldier dazzled you into going to fight."{wait}	
+dlg:0862	text	rec:1651	149	{face:01202}{spk:01}ワークテカ「ソルジャー１機分のパーツを用意してあります。{br}　すぐでもおわたしできますが」{wait}	{face:01202}{spk:01}Workteka: "I have parts for one Soldier ready. I can hand them over right away."{wait}	
+dlg:0863	text	rec:1654	149	ソルジャーのボディを{br}　手に入れました。{wait}	Got the Soldier body.{wait}	
+dlg:0864	text	rec:1656	149	右腕『デリンジャー』を{br}　手に入れました。{wait}	Got the right arm 'Derringer'.{wait}	
+dlg:0865	text	rec:1658	149	左腕『ハンドグレネード』を{br}　手に入れました。{wait}	Got the left arm 'Hand Grenade'.{wait}	
+dlg:0866	text	rec:1660	149	パソコプ『タイガー』を{br}　手に入れました。{wait}	Got the Pasocop 'Tiger'.{wait}	
+dlg:0867	text	rec:1664	149	{face:01702}{face:10002}{spk:01}モーデル将軍「反対派と戦ってくれるか。{br}　助かる。{wait}	{face:01702}{face:10002}{spk:01}General Mordel: "You'll fight the opposition? Much obliged.{wait}	
+dlg:0868	text	rec:1665	149	{spk:01}　ソルジャーはメンテ代がかかるからな。{br}　軍資金に、５０００ばかり持っていけ」{wait}	{spk:01}Soldiers cost a lot in maintenance. Take about 5,000 yen as war funds."{wait}	
+dlg:0869	text	rec:1666	149	{face:10012}{spk:02}ユウキ「よろしいのですか？」{wait}	{face:10012}{spk:02}Yuki: "Are you sure?"{wait}	
+dlg:0870	text	rec:1667	149	{spk:01}将軍「しみったれた市長といっしょにされてはかなわんからな」{wait}	{spk:01}General: "I won't be lumped in with that stingy Mayor."{wait}	
+dlg:0871	text	rec:1671	149	{face:01702}{spk:01}モーデル将軍「よろしくたのむぞ」{wait}	{face:01702}{spk:01}General Mordel: "I'm counting on you."{wait}	
+dlg:0872	text	rec:1673	149	{face:00605}{spk:01}スミタ署長「戦いに行くと決めたかい。{br}　軍に利用されるのはシャクだが」{wait}	{face:00605}{spk:01}Chief Sumita: "So you've decided to fight. It's galling to be used by the army, though."{wait}	
+dlg:0873	text	rec:1675	149	{face:00502}{spk:01}アドルフ市長「ぐずぐずしてくれたものだ。{br}　急ぎたまえよ」{wait}	{face:00502}{spk:01}Mayor Adolf: "You certainly took your time. Hurry up!"{wait}	
+dlg:0874	text	rec:1681	149	{face:10001}{face:20112}{spk:03}トモミ「・・・」{wait}	{face:10001}{face:20112}{spk:03}Tomomi: "..."{wait}	
+dlg:0875	text	rec:1682	149	{face:10010}{spk:02}ユウキ「ブランク！　じゅんびはいいね。{br}　出撃！」{wait}	{face:10010}{spk:02}Yuki: "Blank! Ready? Sortie!"{wait}	
 dlg:0876	text	rec:1683	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
-dlg:0877	text	rec:1684	149	{face:20111}{spk:03}トモミ「ブランクっ、{br}　よい子はそんな命令を聞かない！」{wait}		
-dlg:0878	text	rec:1685	149	通信「え、え？」{wait}		
-dlg:0879	text	rec:1686	149	{spk:03}トモミ「話し合いもしないで戦う警官に、　よい子はしたがわないっ」{wait}		
-dlg:0880	text	rec:1687	149	{spk:02}ユウキ「―――ぼくたちがやらなかったら、カシス軍がやるだけだよ」{wait}		
-dlg:0881	text	rec:1688	149	{face:20109}{spk:03}トモミ「だったら軍にやらせればいいのよ、あたしたちは話し合いに！」{wait}		
-dlg:0882	text	rec:1689	149	{face:10009}{spk:02}ユウキ「だめだよ。{br}　カシス軍にやらせたら、反対派は全滅させられる」{wait}		
-dlg:0883	text	rec:1690	149	{face:20110}{spk:03}トモミ「えっ・・・」{wait}		
-dlg:0884	text	rec:1691	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　武器を持ったテカのみ、はかいをきょか。{br}　反対派の市民は一人だって死なせるな。{wait}		
-dlg:0885	text	rec:1692	149	{spk:02}　何にさんせいしようが、{br}　何に反対しようが、{br}　警官が守るべき市民にちがいはない！」{wait}		
-dlg:0886	text	rec:1694	149	{face:20109}{spk:03}トモミ「・・・・・・・」{wait}		
-dlg:0887	text	rec:1695	149	通信・ブランク「あのー、トモミさん？」{wait}		
-dlg:0888	text	rec:1696	149	{face:20111}{spk:03}トモミ「ブランク、とっとと行くわよ！{br}　コンファーは？！」{wait}		
-dlg:0889	text	rec:1697	149	通信・ブランク「はいっ、コン・ファー！」{wait}		
-dlg:0890	text	rec:1707	149	{face:20106}{spk:03}トモミ「なによこのしうちは、{br}　反対派のために命はってるのに！」{wait}		
-dlg:0891	text	rec:1711	149	{face:01702}{spk:01}モーデル将軍「ただの警官にはきびしかったか？」{wait}		
-dlg:0892	text	rec:1713	149	{face:00605}{spk:01}スミタ署長「かんたんには行かないか・・・　くろうさせるね」{wait}		
-dlg:0893	text	rec:1715	149	{face:00503}{spk:01}アドルフ市長「なにをやっとる、{br}　何度もしっぱいはゆるされんよ！」{wait}		
-dlg:0894	text	rec:1720	149	{face:10010}{face:20101}{face:30201}{spk:02}ユウキ「武器を持ったテカのはかいはきょかする。{br}{face:10011}{spk:14}　反対派の市民は一人も死なせるな！」		
-dlg:0895	text	rec:1721	149	通信・ブランク「コンファー！」{wait}		
-dlg:0896	text	rec:1730	149	{face:10501}{face:20601}{face:30001}{face:01702}{spk:01}モーデル将軍「よくやってくれた・・・{br}　が、なぜ、反対派をにがしたのだ」{wait}		
-dlg:0897	text	rec:1731	149	{face:01701}{face:30002}{spk:04}ユウキ「せんとうがはげしく、かいさんさせなければきけんでした」{wait}		
-dlg:0898	text	rec:1732	149	{face:30001}{face:01702}{spk:01}将軍「かれらのやっていたことは、法に反している。{br}　たいほするのが警官の役目ではないか？」{wait}		
-dlg:0899	text	rec:1733	149	{face:01701}{face:30002}{spk:04}ユウキ「警官の役目は市民を守ることです」{wait}		
-dlg:0900	text	rec:1734	149	{face:30001}{face:01702}{spk:01}将軍「―――」{wait}		
-dlg:0901	text	rec:1735	149	{face:30002}{spk:04}ユウキ「―――」{wait}		
-dlg:0902	text	rec:1736	149	{face:10503}{spk:02}アドルフ市長「ユウキ君、なにを将軍とにらみ合っているんだっ」{wait}		
-dlg:0903	text	rec:1737	149	{spk:01}将軍「こしぬけの市長に使わせておくのはもったいない。{br}　カシス軍に入れば英雄になれるものを」{wait}		
-dlg:0904	text	rec:1738	149	{spk:04}ユウキ「それはどうでしょう。{br}　ぼくは人間に向かって『はっぽうきょか』は出しません」{wait}		
-dlg:0905	text	rec:1739	149	{spk:01}将軍「気に入った。{br}　しんていしたソルジャーを、かわいがってやってくれ」{wait}		
-dlg:0906	text	rec:1740	149	{face:30008}{spk:04}ユウキ「ありがとうございます」{wait}		
-dlg:0907	text	rec:1741	149	{face:30001}{face:10504}{spk:02}市長「（ほっ）それでは将軍、やくそくしていただいたものを―――」{wait}		
-dlg:0908	text	rec:1742	149	{spk:01}将軍「なにかやくそくしましたかな。{br}　ああ、一ヶ大隊あれば足りるか、と聞きはしたが？」{wait}		
-dlg:0909	text	rec:1743	149	{spk:02}市長「・・・・・・」{wait}		
-dlg:0910	text	rec:1744	149	{face:10506}{spk:02}市長「ずるいです！」{wait}		
-dlg:0911	text	rec:1745	149	{spk:01}将軍「ユウキ巡査長にめんじて、一ヶ小隊ぐらいはおかししよう。{br}{face:01703}　市民を守るのに役立てるといい―――」{wait}		
-dlg:0912	text	rec:1749	149	{face:01702}{spk:01}モーデル将軍「話し合いに・・・？{br}　本気じゃあるまいな」{wait}		
-dlg:0913	text	rec:1751	149	{face:00605}{spk:01}スミタ署長「そうか―――われわれは軍隊じゃない、警官だものな。{br}　戦うのが仕事じゃない―――」{wait}		
-dlg:0914	text	rec:1753	149	{face:00505}{spk:01}アドルフ市長「おいおい、話し合いになんて行ったら将軍がおこるだろう・・・」{wait}		
-dlg:0915	text	rec:1758	149	{face:30301}{face:10010}{face:20101}{spk:02}ユウキ「ブランク、今日は話し合いだ。{br}　武器をちらつかせたりしちゃだめだよ」{wait}		
-dlg:0916	text	rec:1759	149	{face:30302}{spk:04}ブランク「コンファー」{wait}		
-dlg:0917	text	rec:1766	149	　兵器庫・・・元工場{wait}		
-dlg:0918	text	rec:1767	149	{face:10009}{face:20101}{spk:02}ユウキ「話し合いに来ました！{br}　せきにんしゃはどなたでしょう！」{wait}		
-dlg:0919	text	rec:1768	149	{face:01802}{spk:01}反対派「？　人間の警官ですか」{wait}		
-dlg:0920	text	rec:1769	149	{spk:02}ユウキ「責任者と話がしたいんだけど」{wait}		
-dlg:0921	text	rec:1770	149	{spk:01}反対派「わたしが責任者では、{br}　気に入りませんか」{wait}		
-dlg:0922	text	rec:1771	149	{spk:02}ユウキ「反対派って、テカだったのか。{br}　ソルジャーには理解できないんで、{br}　僕たちにやらせようとしたんだな」{wait}		
-dlg:0923	text	rec:1772	149	{face:10001}{face:20112}{spk:03}トモミ「ここにたてこもっていても、将軍を怒らせるだけよ。{br}　解散した方がいいわ」{wait}		
-dlg:0924	text	rec:1773	149	{spk:01}反対派「なぜです。ここはわたしの工場だ、ほかに行き場はありません。{br}　軍の兵器庫になんて、させないんだから」{wait}		
-dlg:0925	text	rec:1774	149	{face:10009}{spk:02}ユウキ「もたもたしてると、ソルジャーが攻めてくるよ」{wait}		
-dlg:0926	text	rec:1775	149	{spk:01}反対派「きびきびしてても攻めてきますよ。　だから、武器もって待ってるんだ・・・{wait}		
-dlg:0927	text	rec:1776	149	{spk:01}　先発隊、もう来たようです。{br}　戦争に巻き込まれたくなかったら、にげていてください」{wait}		
-dlg:0928	text	rec:1778	149	{face:20110}{spk:03}トモミ「戦争・・・まじ？；」{wait}		
-dlg:0929	text	rec:1779	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　カシス軍が見えるか？！」{wait}		
-dlg:0930	text	rec:1780	149	通信「工場上空にいます。{br}　カシス軍が戦場が丘を進んできますけど―――」{wait}		
-dlg:0931	text	rec:1783	149	{face:20602}{spk:03}スミタ署長「軍を引いてください、将軍！{br}　兵器庫には、ユウキ君たちが行っているんです！」{wait}		
-dlg:0932	text	rec:1784	149	{face:01702}{spk:01}モーデル将軍「話し合いなど、たのんだおぼえはない」{wait}		
-dlg:0933	text	rec:1785	149	{spk:03}署長「警察が軍の言いなりになると思われてはこまる！」{wait}		
-dlg:0934	text	rec:1786	149	{spk:01}将軍「なにをあつくなっている。{br}　君は、ていねん後のたいしょく金にしかきょうみのない男だと、聞いていたが？」{wait}		
-dlg:0935	text	rec:1787	149	{spk:03}署長「大切な部下を死なせたとあってはクビです、たいしょく金がへってしまう。{br}　そんなのおことわりだ！」{wait}		
-dlg:0936	text	rec:1788	149	{face:01703}{spk:01}将軍「ふん・・・」{wait}		
-dlg:0937	text	rec:1791	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　はっぽうをきょかするっ、{br}{face:10011}{spk:14}　カシス軍のぼうそうにたいこうしろ！」{wait}		
+dlg:0877	text	rec:1684	149	{face:20111}{spk:03}トモミ「ブランクっ、{br}　よい子はそんな命令を聞かない！」{wait}	{face:20111}{spk:03}Tomomi: "Blank! Good kids don't follow orders like that!"{wait}	
+dlg:0878	text	rec:1685	149	通信「え、え？」{wait}	Radio: "Eh? Eh?"{wait}	
+dlg:0879	text	rec:1686	149	{spk:03}トモミ「話し合いもしないで戦う警官に、　よい子はしたがわないっ」{wait}	{spk:03}Tomomi: "Good kids don't obey police who fight without even talking!"{wait}	
+dlg:0880	text	rec:1687	149	{spk:02}ユウキ「―――ぼくたちがやらなかったら、カシス軍がやるだけだよ」{wait}	{spk:02}Yuki: "--If we don't do it, the Cassis army will."{wait}	
+dlg:0881	text	rec:1688	149	{face:20109}{spk:03}トモミ「だったら軍にやらせればいいのよ、あたしたちは話し合いに！」{wait}	{face:20109}{spk:03}Tomomi: "Then let the army do it! We'll go and talk!"{wait}	
+dlg:0882	text	rec:1689	149	{face:10009}{spk:02}ユウキ「だめだよ。{br}　カシス軍にやらせたら、反対派は全滅させられる」{wait}	{face:10009}{spk:02}Yuki: "No. If the Cassis army does it, the opposition will be wiped out."{wait}	
+dlg:0883	text	rec:1690	149	{face:20110}{spk:03}トモミ「えっ・・・」{wait}	{face:20110}{spk:03}Tomomi: "Huh..."{wait}	
+dlg:0884	text	rec:1691	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　武器を持ったテカのみ、はかいをきょか。{br}　反対派の市民は一人だって死なせるな。{wait}	{face:10010}{spk:02}Yuki: "Blank! You may destroy armed Teka only. Don't let a single citizen of the opposition die.{wait}	
+dlg:0885	text	rec:1692	149	{spk:02}　何にさんせいしようが、{br}　何に反対しようが、{br}　警官が守るべき市民にちがいはない！」{wait}	{spk:02}Whatever they're for, whatever they're against, they're still citizens the police must protect!"{wait}	
+dlg:0886	text	rec:1694	149	{face:20109}{spk:03}トモミ「・・・・・・・」{wait}	{face:20109}{spk:03}Tomomi: "......."{wait}	
+dlg:0887	text	rec:1695	149	通信・ブランク「あのー、トモミさん？」{wait}	Blank (radio): "Um, Tomomi-san?"{wait}	
+dlg:0888	text	rec:1696	149	{face:20111}{spk:03}トモミ「ブランク、とっとと行くわよ！{br}　コンファーは？！」{wait}	{face:20111}{spk:03}Tomomi: "Blank, let's get going! Where's your Confirm?!"{wait}	
+dlg:0889	text	rec:1697	149	通信・ブランク「はいっ、コン・ファー！」{wait}	Blank (radio): "Yes! Con-firm!"{wait}	
+dlg:0890	text	rec:1707	149	{face:20106}{spk:03}トモミ「なによこのしうちは、{br}　反対派のために命はってるのに！」{wait}	{face:20106}{spk:03}Tomomi: "What kind of treatment is this? We're risking our lives for the opposition!"{wait}	
+dlg:0891	text	rec:1711	149	{face:01702}{spk:01}モーデル将軍「ただの警官にはきびしかったか？」{wait}	{face:01702}{spk:01}General Mordel: "Too tough for mere police?"{wait}	
+dlg:0892	text	rec:1713	149	{face:00605}{spk:01}スミタ署長「かんたんには行かないか・・・　くろうさせるね」{wait}	{face:00605}{spk:01}Chief Sumita: "Not so easy, is it... Sorry to put you through this."{wait}	
+dlg:0893	text	rec:1715	149	{face:00503}{spk:01}アドルフ市長「なにをやっとる、{br}　何度もしっぱいはゆるされんよ！」{wait}	{face:00503}{spk:01}Mayor Adolf: "What are you doing? I won't tolerate failing again and again!"{wait}	
+dlg:0894	text	rec:1720	149	{face:10010}{face:20101}{face:30201}{spk:02}ユウキ「武器を持ったテカのはかいはきょかする。{br}{face:10011}{spk:14}　反対派の市民は一人も死なせるな！」	{face:10010}{face:20101}{face:30201}{spk:02}Yuki: "You may destroy armed Teka.{face:10011}{spk:14} Don't let a single citizen of the opposition die!"	
+dlg:0895	text	rec:1721	149	通信・ブランク「コンファー！」{wait}	Blank (radio): "Confirm!"{wait}	
+dlg:0896	text	rec:1730	149	{face:10501}{face:20601}{face:30001}{face:01702}{spk:01}モーデル将軍「よくやってくれた・・・{br}　が、なぜ、反対派をにがしたのだ」{wait}	{face:10501}{face:20601}{face:30001}{face:01702}{spk:01}General Mordel: "Well done... But why did you let the opposition escape?"{wait}	
+dlg:0897	text	rec:1731	149	{face:01701}{face:30002}{spk:04}ユウキ「せんとうがはげしく、かいさんさせなければきけんでした」{wait}	{face:01701}{face:30002}{spk:04}Yuki: "The fighting was fierce. It was dangerous not to disperse them."{wait}	
+dlg:0898	text	rec:1732	149	{face:30001}{face:01702}{spk:01}将軍「かれらのやっていたことは、法に反している。{br}　たいほするのが警官の役目ではないか？」{wait}	{face:30001}{face:01702}{spk:01}General: "What they were doing is against the law. Isn't arresting them the police's job?"{wait}	
+dlg:0899	text	rec:1733	149	{face:01701}{face:30002}{spk:04}ユウキ「警官の役目は市民を守ることです」{wait}	{face:01701}{face:30002}{spk:04}Yuki: "The police's job is to protect citizens."{wait}	
+dlg:0900	text	rec:1734	149	{face:30001}{face:01702}{spk:01}将軍「―――」{wait}	{face:30001}{face:01702}{spk:01}General: "--"{wait}	
+dlg:0901	text	rec:1735	149	{face:30002}{spk:04}ユウキ「―――」{wait}	{face:30002}{spk:04}Yuki: "--"{wait}	
+dlg:0902	text	rec:1736	149	{face:10503}{spk:02}アドルフ市長「ユウキ君、なにを将軍とにらみ合っているんだっ」{wait}	{face:10503}{spk:02}Mayor Adolf: "Yuki-kun, why are you glaring at the General?"{wait}	
+dlg:0903	text	rec:1737	149	{spk:01}将軍「こしぬけの市長に使わせておくのはもったいない。{br}　カシス軍に入れば英雄になれるものを」{wait}	{spk:01}General: "You're wasted on a spineless mayor. Join the Cassis army and you could be a hero."{wait}	
+dlg:0904	text	rec:1738	149	{spk:04}ユウキ「それはどうでしょう。{br}　ぼくは人間に向かって『はっぽうきょか』は出しません」{wait}	{spk:04}Yuki: "I wonder. I'll never give 'permission to fire' against humans."{wait}	
+dlg:0905	text	rec:1739	149	{spk:01}将軍「気に入った。{br}　しんていしたソルジャーを、かわいがってやってくれ」{wait}	{spk:01}General: "I like you. Take good care of the Soldier I gave you."{wait}	
+dlg:0906	text	rec:1740	149	{face:30008}{spk:04}ユウキ「ありがとうございます」{wait}	{face:30008}{spk:04}Yuki: "Thank you very much."{wait}	
+dlg:0907	text	rec:1741	149	{face:30001}{face:10504}{spk:02}市長「（ほっ）それでは将軍、やくそくしていただいたものを―――」{wait}	{face:30001}{face:10504}{spk:02}Mayor: "(Phew.) Well then, General, what you promised us--"{wait}	
+dlg:0908	text	rec:1742	149	{spk:01}将軍「なにかやくそくしましたかな。{br}　ああ、一ヶ大隊あれば足りるか、と聞きはしたが？」{wait}	{spk:01}General: "Did I promise anything? Ah, I asked whether one battalion would be enough, yes."{wait}	
+dlg:0909	text	rec:1743	149	{spk:02}市長「・・・・・・」{wait}	{spk:02}Mayor: "......"{wait}	
+dlg:0910	text	rec:1744	149	{face:10506}{spk:02}市長「ずるいです！」{wait}	{face:10506}{spk:02}Mayor: "That's not fair!"{wait}	
+dlg:0911	text	rec:1745	149	{spk:01}将軍「ユウキ巡査長にめんじて、一ヶ小隊ぐらいはおかししよう。{br}{face:01703}　市民を守るのに役立てるといい―――」{wait}	{spk:01}General: "For Senior Officer Yuki's sake, I'll lend you a platoon or so.{face:01703} Use it to protect your citizens--"{wait}	
+dlg:0912	text	rec:1749	149	{face:01702}{spk:01}モーデル将軍「話し合いに・・・？{br}　本気じゃあるまいな」{wait}	{face:01702}{spk:01}General Mordel: "To talk...? Surely you're not serious."{wait}	
+dlg:0913	text	rec:1751	149	{face:00605}{spk:01}スミタ署長「そうか―――われわれは軍隊じゃない、警官だものな。{br}　戦うのが仕事じゃない―――」{wait}	{face:00605}{spk:01}Chief Sumita: "I see-- We're not an army, we're police. Fighting isn't our job--"{wait}	
+dlg:0914	text	rec:1753	149	{face:00505}{spk:01}アドルフ市長「おいおい、話し合いになんて行ったら将軍がおこるだろう・・・」{wait}	{face:00505}{spk:01}Mayor Adolf: "Hey now, if you go to talk with them, the General will be angry..."{wait}	
+dlg:0915	text	rec:1758	149	{face:30301}{face:10010}{face:20101}{spk:02}ユウキ「ブランク、今日は話し合いだ。{br}　武器をちらつかせたりしちゃだめだよ」{wait}	{face:30301}{face:10010}{face:20101}{spk:02}Yuki: "Blank, today we talk. No waving weapons around."{wait}	
+dlg:0916	text	rec:1759	149	{face:30302}{spk:04}ブランク「コンファー」{wait}	{face:30302}{spk:04}Blank: "Confirm."{wait}	
+dlg:0917	text	rec:1766	149	　兵器庫・・・元工場{wait}	The Arsenal... Formerly a Factory{wait}	
+dlg:0918	text	rec:1767	149	{face:10009}{face:20101}{spk:02}ユウキ「話し合いに来ました！{br}　せきにんしゃはどなたでしょう！」{wait}	{face:10009}{face:20101}{spk:02}Yuki: "We've come to talk! Who's in charge here?"{wait}	
+dlg:0919	text	rec:1768	149	{face:01802}{spk:01}反対派「？　人間の警官ですか」{wait}	{face:01802}{spk:01}Opposition: "? Human police?"{wait}	
+dlg:0920	text	rec:1769	149	{spk:02}ユウキ「責任者と話がしたいんだけど」{wait}	{spk:02}Yuki: "I'd like to talk to whoever's in charge."{wait}	
+dlg:0921	text	rec:1770	149	{spk:01}反対派「わたしが責任者では、{br}　気に入りませんか」{wait}	{spk:01}Opposition: "I'm in charge. Is that a problem?"{wait}	
+dlg:0922	text	rec:1771	149	{spk:02}ユウキ「反対派って、テカだったのか。{br}　ソルジャーには理解できないんで、{br}　僕たちにやらせようとしたんだな」{wait}	{spk:02}Yuki: "So the opposition was a Teka. The Soldiers couldn't understand that, so they tried to make us do it."{wait}	
+dlg:0923	text	rec:1772	149	{face:10001}{face:20112}{spk:03}トモミ「ここにたてこもっていても、将軍を怒らせるだけよ。{br}　解散した方がいいわ」{wait}	{face:10001}{face:20112}{spk:03}Tomomi: "Holing up here will only anger the General. You'd better break up."{wait}	
+dlg:0924	text	rec:1773	149	{spk:01}反対派「なぜです。ここはわたしの工場だ、ほかに行き場はありません。{br}　軍の兵器庫になんて、させないんだから」{wait}	{spk:01}Opposition: "Why? This is my factory, I have nowhere else to go. I won't let it become an army arsenal."{wait}	
+dlg:0925	text	rec:1774	149	{face:10009}{spk:02}ユウキ「もたもたしてると、ソルジャーが攻めてくるよ」{wait}	{face:10009}{spk:02}Yuki: "If you dawdle, the Soldiers will attack."{wait}	
+dlg:0926	text	rec:1775	149	{spk:01}反対派「きびきびしてても攻めてきますよ。　だから、武器もって待ってるんだ・・・{wait}	{spk:01}Opposition: "They'll attack even if I don't dawdle. That's why I'm waiting here with weapons...{wait}	
+dlg:0927	text	rec:1776	149	{spk:01}　先発隊、もう来たようです。{br}　戦争に巻き込まれたくなかったら、にげていてください」{wait}	{spk:01}The advance party seems to be here already. If you don't want to get caught in a war, run."{wait}	
+dlg:0928	text	rec:1778	149	{face:20110}{spk:03}トモミ「戦争・・・まじ？；」{wait}	{face:20110}{spk:03}Tomomi: "War... seriously?"{wait}	
+dlg:0929	text	rec:1779	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　カシス軍が見えるか？！」{wait}	{face:10010}{spk:02}Yuki: "Blank! Can you see the Cassis army?!"{wait}	
+dlg:0930	text	rec:1780	149	通信「工場上空にいます。{br}　カシス軍が戦場が丘を進んできますけど―――」{wait}	Radio: "I'm above the factory. The Cassis army is advancing over Battlefield Hill--"{wait}	
+dlg:0931	text	rec:1783	149	{face:20602}{spk:03}スミタ署長「軍を引いてください、将軍！{br}　兵器庫には、ユウキ君たちが行っているんです！」{wait}	{face:20602}{spk:03}Chief Sumita: "Pull back your army, General! Yuki-kun's team is at the arsenal!"{wait}	
+dlg:0932	text	rec:1784	149	{face:01702}{spk:01}モーデル将軍「話し合いなど、たのんだおぼえはない」{wait}	{face:01702}{spk:01}General Mordel: "I don't recall asking for any talks."{wait}	
+dlg:0933	text	rec:1785	149	{spk:03}署長「警察が軍の言いなりになると思われてはこまる！」{wait}	{spk:03}Chief: "Don't think the police will do whatever the army says!"{wait}	
+dlg:0934	text	rec:1786	149	{spk:01}将軍「なにをあつくなっている。{br}　君は、ていねん後のたいしょく金にしかきょうみのない男だと、聞いていたが？」{wait}	{spk:01}General: "Why so heated? I heard you were a man interested only in his retirement pay."{wait}	
+dlg:0935	text	rec:1787	149	{spk:03}署長「大切な部下を死なせたとあってはクビです、たいしょく金がへってしまう。{br}　そんなのおことわりだ！」{wait}	{spk:03}Chief: "If I get my precious men killed, I'll be fired, and my retirement pay will shrink. I won't have it!"{wait}	
+dlg:0936	text	rec:1788	149	{face:01703}{spk:01}将軍「ふん・・・」{wait}	{face:01703}{spk:01}General: "Hmph..."{wait}	
+dlg:0937	text	rec:1791	149	{face:10010}{spk:02}ユウキ「ブランク！{br}　はっぽうをきょかするっ、{br}{face:10011}{spk:14}　カシス軍のぼうそうにたいこうしろ！」{wait}	{face:10010}{spk:02}Yuki: "Blank! Permission to fire!{face:10011}{spk:14} Stand up to the Cassis army's rampage!"{wait}	
 dlg:0938	text	rec:1792	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
-dlg:0939	text	rec:1795	149	{face:10006}{spk:02}ユウキ「くそっ、将軍、なんてまねを！」{wait}		
-dlg:0940	text	rec:1796	149	{face:01802}{spk:01}反対派「まだまだせめてきますよ。{br}　これで終わりなわけがない」{wait}		
-dlg:0941	text	rec:1799	149	{face:01702}{face:20602}{spk:03}スミタ署長「どうしても軍を引かない気ですか。{br}　こっちにも考えがありますよ」{wait}		
-dlg:0942	text	rec:1800	149	{face:01702}{spk:01}モーデル将軍「君になにができる。{br}　どげざでもしてたのむか」{wait}		
-dlg:0943	text	rec:1801	149	{spk:03}署長「それで軍を引いてもらえるなら」{wait}		
-dlg:0944	text	rec:1802	149	{spk:01}将軍「くだらん。{br}　君の頭一つで軍のほうしんは変えられん」{wait}		
-dlg:0945	text	rec:1803	149	{spk:03}署長「おねがいです、将軍。{br}　このとおり・・・」{wait}		
-dlg:0946	text	rec:1804	149	{spk:01}将軍「頭を上げろ。{br}　ひくつなたいどはきらいだ！」{wait}		
-dlg:0947	text	rec:1805	149	{face:20603}{spk:03}署長「・・・将軍！{br}　これほど言ってもっ」{wait}		
-dlg:0948	text	rec:1806	149	{spk:01}将軍「ムダだ。{br}　私が軍を引くのは、戦争に負けたときだけだ。{wait}		
-dlg:0949	text	rec:1807	149	{spk:01}　ユウキ君がわが軍に勝つのを、いのるがいい―――！」{wait}		
-dlg:0950	text	rec:1810	149	{face:10001}{face:20101}{face:01802}{spk:01}反対派「ぼくたちのために戦ってくれるのですか―――{br}　では、これをあげましょう」{wait}		
-dlg:0951	text	rec:1812	149	オプション『対空パワーアップ』を{br}　手に入れました。{wait}		
-dlg:0952	text	rec:1813	149	{face:10002}{spk:02}ユウキ「！　対空パワーアップ？{br}　いいのかい」{wait}		
-dlg:0953	text	rec:1814	149	{face:01802}{spk:01}反対派「将軍にたてつく人は、だれでもぼくの味方です。{br}　ここのしせつでメンテを急いでください」{wait}		
-dlg:0954	text	rec:1817	149	{face:10011}{spk:14}ユウキ「行け、ブランク！{br}　反対派を守れ！」{wait}		
-dlg:0955	text	rec:1818	149	{face:20302}{spk:03}ブランク「コンファー！」{wait}		
-dlg:0956	text	rec:1825	149	　ホテル『ゲルマン』{wait}		
-dlg:0957	text	rec:1826	149	{face:10001}{face:00505}{spk:01}市長「・・・で、戦場が丘でカシス軍を食いとめたと」{wait}		
-dlg:0958	text	rec:1827	149	{face:10008}{spk:02}ユウキ「はい。反対派を守りきれました」{wait}		
-dlg:0959	text	rec:1828	149	{spk:01}市長「なにをしたか分かってるのかね？{wait}		
-dlg:0960	text	rec:1829	149	{face:00503}{face:10012}{spk:01}　わたしは将軍から、せなかに気をつけながら帰れと言われたよ！{wait}		
-dlg:0961	text	rec:1830	149	{face:00505}{spk:01}　せめて一ヶ小隊だけでもかりたいと思っていたのに―――」{wait}		
-dlg:0962	text	rec:1834	149	　ダムのほとりの研究所{wait}		
-dlg:0963	text	rec:1835	149	{face:10701}{face:30901}{face:20803}{spk:03}リヒター「やっぱり、ソルジャーはせっけいがちがいすぎる―――{br}　あやつれない―――」{wait}		
-dlg:0964	text	rec:1836	149	{face:10702}{spk:02}博士「ま、リヒターにあやつれるようじゃ、戦争で敵にあやつられるからな」{wait}		
-dlg:0965	text	rec:1837	149	{face:20802}{spk:03}リヒター「なんだい、時間がかかるってだけで、ムリとは言ってないよっ」{wait}		
-dlg:0966	text	rec:1838	149	{face:10703}{spk:02}博士「そのいきじゃ、がんばれ」{wait}		
-dlg:0967	text	rec:1839	149	{face:30905}{spk:04}エミコ「兵隊さんまであやつるのですか」{wait}		
-dlg:0968	text	rec:1840	149	{face:20801}{face:10702}{spk:02}博士「うん。{br}　戦争をやめさせようと思ってな」{wait}		
-dlg:0969	text	rec:1841	149	{face:30906}{spk:04}エミコ「本当に？」{wait}		
-dlg:0970	text	rec:1842	149	{spk:02}博士「ありゃ？{br}　うたがわれるとは思わなかった。{wait}		
-dlg:0971	text	rec:1843	149	{spk:02}　やっぱり、わしは人間なんで、ウソをつくと思われてるかな。{wait}		
-dlg:0972	text	rec:1844	149	{face:10703}{spk:02}　まあ信じておくれ。{br}　やつらに戦わせまいとしているのは、本当なんじゃから・・・」{wait}		
+dlg:0939	text	rec:1795	149	{face:10006}{spk:02}ユウキ「くそっ、将軍、なんてまねを！」{wait}	{face:10006}{spk:02}Yuki: "Damn it, General, how could you!"{wait}	
+dlg:0940	text	rec:1796	149	{face:01802}{spk:01}反対派「まだまだせめてきますよ。{br}　これで終わりなわけがない」{wait}	{face:01802}{spk:01}Opposition: "They'll keep attacking. This can't be the end of it."{wait}	
+dlg:0941	text	rec:1799	149	{face:01702}{face:20602}{spk:03}スミタ署長「どうしても軍を引かない気ですか。{br}　こっちにも考えがありますよ」{wait}	{face:01702}{face:20602}{spk:03}Chief Sumita: "You really won't pull back your army? Then I have ideas of my own."{wait}	
+dlg:0942	text	rec:1800	149	{face:01702}{spk:01}モーデル将軍「君になにができる。{br}　どげざでもしてたのむか」{wait}	{face:01702}{spk:01}General Mordel: "What can you do? Get down on your knees and beg?"{wait}	
+dlg:0943	text	rec:1801	149	{spk:03}署長「それで軍を引いてもらえるなら」{wait}	{spk:03}Chief: "If that gets you to pull back your army."{wait}	
+dlg:0944	text	rec:1802	149	{spk:01}将軍「くだらん。{br}　君の頭一つで軍のほうしんは変えられん」{wait}	{spk:01}General: "Nonsense. Your bowed head won't change the army's policy."{wait}	
+dlg:0945	text	rec:1803	149	{spk:03}署長「おねがいです、将軍。{br}　このとおり・・・」{wait}	{spk:03}Chief: "Please, General. I'm begging you..."{wait}	
+dlg:0946	text	rec:1804	149	{spk:01}将軍「頭を上げろ。{br}　ひくつなたいどはきらいだ！」{wait}	{spk:01}General: "Raise your head. I hate groveling!"{wait}	
+dlg:0947	text	rec:1805	149	{face:20603}{spk:03}署長「・・・将軍！{br}　これほど言ってもっ」{wait}	{face:20603}{spk:03}Chief: "...General! Even after all this..."{wait}	
+dlg:0948	text	rec:1806	149	{spk:01}将軍「ムダだ。{br}　私が軍を引くのは、戦争に負けたときだけだ。{wait}	{spk:01}General: "It's no use. I pull back my army only when I lose a war.{wait}	
+dlg:0949	text	rec:1807	149	{spk:01}　ユウキ君がわが軍に勝つのを、いのるがいい―――！」{wait}	{spk:01}Pray that Yuki-kun beats my army--!"{wait}	
+dlg:0950	text	rec:1810	149	{face:10001}{face:20101}{face:01802}{spk:01}反対派「ぼくたちのために戦ってくれるのですか―――{br}　では、これをあげましょう」{wait}	{face:10001}{face:20101}{face:01802}{spk:01}Opposition: "You'll fight for us--? Then take this."{wait}	
+dlg:0951	text	rec:1812	149	オプション『対空パワーアップ』を{br}　手に入れました。{wait}	Got the option 'Anti-Air Power Up'.{wait}	
+dlg:0952	text	rec:1813	149	{face:10002}{spk:02}ユウキ「！　対空パワーアップ？{br}　いいのかい」{wait}	{face:10002}{spk:02}Yuki: "! An Anti-Air Power Up? Are you sure?"{wait}	
+dlg:0953	text	rec:1814	149	{face:01802}{spk:01}反対派「将軍にたてつく人は、だれでもぼくの味方です。{br}　ここのしせつでメンテを急いでください」{wait}	{face:01802}{spk:01}Opposition: "Anyone who defies the General is my friend. Hurry and do your maintenance here."{wait}	
+dlg:0954	text	rec:1817	149	{face:10011}{spk:14}ユウキ「行け、ブランク！{br}　反対派を守れ！」{wait}	{face:10011}{spk:14}Yuki: "Go, Blank! Protect the opposition!"{wait}	
+dlg:0955	text	rec:1818	149	{face:20302}{spk:03}ブランク「コンファー！」{wait}	{face:20302}{spk:03}Blank: "Confirm!"{wait}	
+dlg:0956	text	rec:1825	149	　ホテル『ゲルマン』{wait}	Hotel 'Germain'{wait}	
+dlg:0957	text	rec:1826	149	{face:10001}{face:00505}{spk:01}市長「・・・で、戦場が丘でカシス軍を食いとめたと」{wait}	{face:10001}{face:00505}{spk:01}Mayor: "...And so you held back the Cassis army at Battlefield Hill."{wait}	
+dlg:0958	text	rec:1827	149	{face:10008}{spk:02}ユウキ「はい。反対派を守りきれました」{wait}	{face:10008}{spk:02}Yuki: "Yes. We protected the opposition all the way."{wait}	
+dlg:0959	text	rec:1828	149	{spk:01}市長「なにをしたか分かってるのかね？{wait}	{spk:01}Mayor: "Do you understand what you've done?{wait}	
+dlg:0960	text	rec:1829	149	{face:00503}{face:10012}{spk:01}　わたしは将軍から、せなかに気をつけながら帰れと言われたよ！{wait}	{face:00503}{face:10012}{spk:01}The General told me to watch my back on the way home!{wait}	
+dlg:0961	text	rec:1830	149	{face:00505}{spk:01}　せめて一ヶ小隊だけでもかりたいと思っていたのに―――」{wait}	{face:00505}{spk:01}I'd hoped to borrow at least a platoon--"{wait}	
+dlg:0962	text	rec:1834	149	　ダムのほとりの研究所{wait}	The Institute by the Dam{wait}	
+dlg:0963	text	rec:1835	149	{face:10701}{face:30901}{face:20803}{spk:03}リヒター「やっぱり、ソルジャーはせっけいがちがいすぎる―――{br}　あやつれない―――」{wait}	{face:10701}{face:30901}{face:20803}{spk:03}Richter: "Soldiers are just designed too differently-- I can't control them--"{wait}	
+dlg:0964	text	rec:1836	149	{face:10702}{spk:02}博士「ま、リヒターにあやつれるようじゃ、戦争で敵にあやつられるからな」{wait}	{face:10702}{spk:02}Doctor: "Well, if even Richter could control them, enemies in a war could too."{wait}	
+dlg:0965	text	rec:1837	149	{face:20802}{spk:03}リヒター「なんだい、時間がかかるってだけで、ムリとは言ってないよっ」{wait}	{face:20802}{spk:03}Richter: "Hey, I only said it'll take time, not that it's impossible!"{wait}	
+dlg:0966	text	rec:1838	149	{face:10703}{spk:02}博士「そのいきじゃ、がんばれ」{wait}	{face:10703}{spk:02}Doctor: "That's the spirit. Keep at it."{wait}	
+dlg:0967	text	rec:1839	149	{face:30905}{spk:04}エミコ「兵隊さんまであやつるのですか」{wait}	{face:30905}{spk:04}Emiko: "You're going to control soldiers too?"{wait}	
+dlg:0968	text	rec:1840	149	{face:20801}{face:10702}{spk:02}博士「うん。{br}　戦争をやめさせようと思ってな」{wait}	{face:20801}{face:10702}{spk:02}Doctor: "Yes. I mean to make them stop the war."{wait}	
+dlg:0969	text	rec:1841	149	{face:30906}{spk:04}エミコ「本当に？」{wait}	{face:30906}{spk:04}Emiko: "Really?"{wait}	
+dlg:0970	text	rec:1842	149	{spk:02}博士「ありゃ？{br}　うたがわれるとは思わなかった。{wait}	{spk:02}Doctor: "Oh? I didn't expect you to doubt me.{wait}	
+dlg:0971	text	rec:1843	149	{spk:02}　やっぱり、わしは人間なんで、ウソをつくと思われてるかな。{wait}	{spk:02}I suppose since I'm human, you think I'd lie.{wait}	
+dlg:0972	text	rec:1844	149	{face:10703}{spk:02}　まあ信じておくれ。{br}　やつらに戦わせまいとしているのは、本当なんじゃから・・・」{wait}	{face:10703}{spk:02}Well, do believe me. It's true that I'm trying to keep them from fighting..."{wait}	

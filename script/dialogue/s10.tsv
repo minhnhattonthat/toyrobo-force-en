@@ -1,81 +1,81 @@
 id	kind	where	max	jp	en	notes
-dlg:0973	text	rec:1849	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「署長がねばって、１機でも多くソルジャーをかりるんだって」{wait}		
-dlg:0974	text	rec:1850	149	{face:30203}{spk:04}ギリガン「市長の役目だろうに。{br}　こわくて将軍に会いたくないから、かってに帰ったな。{br}　こしぬけめ」{wait}		
-dlg:0975	text	rec:1851	149	{face:20103}{spk:03}トモミ「リアナさんも、あんな父親見て育ったんじゃねえ。{br}　ブランクの強さにあこがれるわけだわ」{wait}		
-dlg:0976	text	rec:1852	149	{face:00303}{spk:01}ブランク「はい、よびました？{br}　なんでもない？{br}　じゃ、せんたくのつづきを―――」{wait}		
-dlg:0977	text	rec:1853	149	{face:00300}{spk:04}ギリガン「白馬の王子様が、おれのトランクスを洗ってるぜ」{wait}		
-dlg:0978	text	rec:1854	149	{spk:03}トモミ「それぐらい自分で洗いなさいよ」{wait}		
-dlg:0979	text	rec:1855	149	{face:30202}{spk:04}ギリガン「トモミは洗わせないのか」{wait}		
-dlg:0980	text	rec:1856	149	{face:20106}{spk:03}トモミ「洗わせるわけないでしょ！」{wait}		
-dlg:0981	text	rec:1857	149	{face:10002}{spk:02}ユウキ「マンザイやめ！{br}　しずかに―――遠いけど―――{br}　―――マシンガンの音だ」{wait}		
-dlg:0982	text	rec:1859	149	{face:20104}{spk:03}トモミ「マシンガン・・・{br}　ソルジャーまで反乱を？―――」{wait}		
-dlg:0983	text	rec:1860	149	{face:10007}{spk:02}ユウキ「軍用はプログラムがかたいよ、そうかんたんには」{wait}		
-dlg:0984	text	rec:1861	149	{face:30204}{spk:04}ギリガン「へっ、クーデターでも起きたんじゃねえか」{wait}		
-dlg:0985	text	rec:1865	149	{face:31902}{face:01702}{spk:01}モーデル将軍「『獅子身中の虫』とはこのことだな。{br}　軍にこれだけうら切り者がいたとは」{wait}		
-dlg:0986	text	rec:1866	149	{spk:04}ソルジャー「では将軍、みがらをかくほさせていただきます」{wait}		
-dlg:0987	text	rec:1867	149	{spk:01}将軍「貴様ら、アプリコットの反乱と同じなのか？{br}　だれかにあやつられているのか？」{wait}		
-dlg:0988	text	rec:1868	149	{spk:04}ソルジャー「いえ。{br}　われわれは、エルヴィン大佐の命令にしたがっています」{wait}		
-dlg:0989	text	rec:1869	149	{spk:01}将軍「エルヴィン？{br}　あの男は、軍人のくせに『ぐんしゅく』をとなえている男だぞ。{wait}		
-dlg:0990	text	rec:1870	149	{spk:01}　やつにしたがったら、お前たちも『平和かいぞう』などとバカなまねをされるのだぞ」{wait}		
-dlg:0991	text	rec:1871	149	{spk:04}ソルジャー「ソルジャーの使命は、平和のために戦うことです。{br}　将軍をとらえれば平和になると言うなら、それにしたがいます」{wait}		
-dlg:0992	text	rec:1872	149	{spk:01}将軍「おろかなことを。{br}　戦いせんようのロボットが、{br}　平和のためだと―――！」{wait}		
-dlg:0993	text	rec:1876	149	{face:20104}{spk:03}トモミ「本当にクーデターだったら、すぐ　『かいげんれい』とかになるわよ。{br}　にげだすならいまのうち」{wait}		
-dlg:0994	text	rec:1877	149	{face:10002}{spk:02}ユウキ「ホテルに行こう。{br}　署長とごうりゅうして、どうするか決めなくちゃ」{wait}		
-dlg:0995	text	rec:1881	149	{face:30202}{spk:04}ギリガン「入る気か？{br}　やめておけよ、クーデター中なんだぜ。{br}　見ろ、あのけいびを―――」{wait}		
-dlg:0996	text	rec:1885	149	{face:10002}{face:20101}{face:30201}{spk:02}ユウキ「いない―――{br}　警察署にでも行ってるのか、軍本部か」{wait}		
-dlg:0997	text	rec:1886	149	{face:20115}{spk:03}トモミ「ぐずぐずしてると、外を歩くこともできなくなるわ。{br}　工場でメンテしておいた方が・・・」{wait}		
-dlg:0998	text	rec:1888	149	{face:10001}{face:20101}{face:30203}{spk:04}ギリガン「署長をおいてにげる気か？{br}　さんせい」{wait}		
-dlg:0999	text	rec:1889	149	{face:20102}{spk:03}トモミ「反対」{wait}		
-dlg:1000	text	rec:1890	149	{face:10002}{spk:02}ユウキ「反対」{wait}		
-dlg:1001	text	rec:1892	149	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}ワークテカ「まいりましたよ、このオプション、軍がもういらないって。{br}　お代がもらえない」{wait}		
-dlg:1002	text	rec:1893	149	{face:30204}{spk:04}ギリガン「おっ、カシスせいのミラーシールドだ。{br}　こいつがあればレーザーはこわくねえ」{wait}		
-dlg:1003	text	rec:1894	149	{face:10012}{spk:02}ユウキ「―――いくら出せばぼくらにゆずってくれる？」{wait}		
-dlg:1004	text	rec:1895	149	{spk:01}ワークテカ「１００００でいかがでしょう」{wait}		
-dlg:1005	text	rec:1900	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}		
-dlg:1006	text	rec:1902	149	{face:10005}{spk:02}ユウキ「高いよ；；」{wait}		
-dlg:1007	text	rec:1905	149	{face:10002}{spk:02}ユウキ「ソルジャーがみはってる―――{br}　とても入れないな」{wait}		
-dlg:1008	text	rec:1909	149	{face:10001}{face:20101}{face:30201}{face:01902}{spk:01}ソルジャー「ほかのシティの人間か？{br}　ホテルから出るな！{br}　うろついているとうつぞ！」{wait}		
-dlg:1009	text	rec:1912	149	{spk:03}トモミ「はい、はい、中にいればいいのね、言うこと聞くからうっちゃだめよ」{wait}		
-dlg:1010	text	rec:1923	149	{face:10002}{face:20104}{face:30206}{spk:03}トモミ「とにかく署長をさがしましょう」{wait}		
-dlg:1011	text	rec:1924	149	{face:10007}{spk:02}ユウキ「将軍に聞けば分かるかもしれない」{wait}		
-dlg:1012	text	rec:1925	149	{face:30205}{spk:04}ギリガン「クーデターだろ。{br}　将軍って、つかまってるんじゃねえのか」{wait}		
-dlg:1013	text	rec:1928	149	{face:10002}{spk:02}ユウキ「ソルジャーがみはってる―――{br}　とても入れないな」{wait}		
-dlg:1014	text	rec:1930	149	{face:10002}{spk:02}ユウキ「ソルジャーがみはってる―――{br}　けど、『つうこうしょう』がある」{wait}		
-dlg:1015	text	rec:1932	149	{face:01902}{face:10001}{face:20101}{face:30201}{spk:01}ソルジャー「『つうこうしょう』か。{br}　何でお前たち子供が持ってる？！」{wait}		
-dlg:1016	text	rec:1933	149	{face:10006}{spk:02}ユウキ「子供で悪かったね；{br}　これでもアプリコットの警官なんだけど。　これ、みぶんしょう」{wait}		
-dlg:1017	text	rec:1934	149	{spk:01}ソルジャー「アプリコットのみぶんしょうじゃだめだ。{br}　カシス警察のしょうめいなら信じるが。{br}　ホテルにもどっていろ！」{wait}		
-dlg:1018	text	rec:1938	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「だめよ、もうソルジャーがみはりにきてる。{br}　中には入れないわ」{wait}		
-dlg:1019	text	rec:1941	149	{face:10002}{spk:02}ユウキ「なんとか入りこもう。{br}　ぼくたちのみぶんをしょうめいしてもらわなくちゃ」{wait}		
-dlg:1020	text	rec:1942	149	{face:20104}{spk:03}トモミ「ソルジャーの目をのがれて入り込もうっての」{wait}		
-dlg:1021	text	rec:1943	149	{face:30204}{spk:04}ギリガン「うらにまわってみるか・・・？」{wait}		
-dlg:1022	text	rec:1947	149	　カシス署右手{wait}		
-dlg:1023	text	rec:1948	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「・・・いい感じだ。{br}　だれもいない。{br}　このままうらまで行けそうだね」{wait}		
-dlg:1024	text	rec:1952	149	　カシス署左手{wait}		
-dlg:1025	text	rec:1953	149	{face:20115}{face:30206}{face:10002}{spk:02}ユウキ「・・・かくれて！		
-dlg:1026	text	rec:1954	149	{spk:00}{face:10001}{face:20101}{face:30201}　・・・ソルジャーがいる・・・{br}　こっちからじゃだめかな」{wait}		
-dlg:1027	text	rec:1958	149	　カシス署うら手{wait}		
-dlg:1028	text	rec:1959	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「音をたてないで・・・{br}　そーっと、そーっと」{wait}		
-dlg:1029	text	rec:1960	149	{face:01902}{spk:01}ソルジャー「そーっと、つかまえてやろう」{wait}		
-dlg:1030	text	rec:1961	149	{face:10012}{spk:02}ユウキ「え；」{wait}		
-dlg:1031	text	rec:1962	149	{spk:01}ソルジャー「人間はたんじゅんだな。{br}　いないフリをしてるとすぐひっかかる」{wait}		
-dlg:1032	text	rec:1963	149	{face:10005}{spk:02}ユウキ「テカに言われるのはしゃくだな；」{wait}		
-dlg:1033	text	rec:1964	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}		
-dlg:1034	text	rec:1967	149	{face:30204}{spk:04}ギリガン「ようし。行っちまえっ」{wait}		
-dlg:1035	text	rec:1968	149	{face:10006}{spk:02}ユウキ「ちょっと、ムリだよっ」{wait}		
-dlg:1036	text	rec:1969	149	{face:01902}{spk:01}ソルジャー「とまれ！　うつぞ！」{wait}		
-dlg:1037	text	rec:1970	149	{face:10003}{spk:14}ユウキ「ほら・・・」{wait}		
-dlg:1038	text	rec:1971	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}		
-dlg:1039	text	rec:1976	149	{face:10002}{face:20104}{face:30206}{spk:03}トモミ「どーするの」{wait}		
-dlg:1040	text	rec:1980	149	　カシス署右手{wait}		
-dlg:1041	text	rec:1981	149	{face:20115}{face:30206}{face:10002}{spk:02}ユウキ「・・・いい感じだ。{br}　だれもいない。{br}　このままうらまで行けそうだね」{wait}		
-dlg:1042	text	rec:1983	149	{spk:02}ユウキ「下がって！{spk:00}{face:10001}{face:20101}{face:30201}{face:01902}{br}　ソルジャーだ、うらにかくれていたな。{wait}		
-dlg:1043	text	rec:1984	149	{face:00000}　・・・よし、向こうに行った」{face:10002}{wait}		
-dlg:1044	text	rec:1986	149	{face:10002}{spk:02}ユウキ「・・・もうだれもいないようだ。{br}　行こう」{wait}		
-dlg:1045	text	rec:1987	149	{face:20106}{spk:03}トモミ「・・・前がいなくなると後ろから来たりして；」{wait}		
-dlg:1046	text	rec:1988	149	{face:01902}{spk:01}ソルジャー「なんだ、お前たちは？」{wait}		
-dlg:1047	text	rec:1989	149	{face:10003}{spk:14}ユウキ「ありゃ；　様子の見すぎか」{wait}		
-dlg:1048	text	rec:1990	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}		
-dlg:1049	text	rec:1995	149	　カシス署うら手{wait}		
+dlg:0973	text	rec:1849	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「署長がねばって、１機でも多くソルジャーをかりるんだって」{wait}	{face:20101}{face:30201}{face:10012}{spk:02}Yuki: "The Chief is holding out to borrow even one more Soldier."{wait}	
+dlg:0974	text	rec:1850	149	{face:30203}{spk:04}ギリガン「市長の役目だろうに。{br}　こわくて将軍に会いたくないから、かってに帰ったな。{br}　こしぬけめ」{wait}	{face:30203}{spk:04}Gilligan: "That's the Mayor's job. Too scared to face the General, so he went home. Coward."{wait}	
+dlg:0975	text	rec:1851	149	{face:20103}{spk:03}トモミ「リアナさんも、あんな父親見て育ったんじゃねえ。{br}　ブランクの強さにあこがれるわけだわ」{wait}	{face:20103}{spk:03}Tomomi: "Growing up watching a father like that, no wonder Riana-san admires Blank's strength."{wait}	
+dlg:0976	text	rec:1852	149	{face:00303}{spk:01}ブランク「はい、よびました？{br}　なんでもない？{br}　じゃ、せんたくのつづきを―――」{wait}	{face:00303}{spk:01}Blank: "Yes, did you call me? Nothing? Then back to the laundry--"{wait}	
+dlg:0977	text	rec:1853	149	{face:00300}{spk:04}ギリガン「白馬の王子様が、おれのトランクスを洗ってるぜ」{wait}	{face:00300}{spk:04}Gilligan: "The prince on the white horse is washing my boxers."{wait}	
+dlg:0978	text	rec:1854	149	{spk:03}トモミ「それぐらい自分で洗いなさいよ」{wait}	{spk:03}Tomomi: "Wash those yourself, at least."{wait}	
+dlg:0979	text	rec:1855	149	{face:30202}{spk:04}ギリガン「トモミは洗わせないのか」{wait}	{face:30202}{spk:04}Gilligan: "You don't have him wash yours, Tomomi?"{wait}	
+dlg:0980	text	rec:1856	149	{face:20106}{spk:03}トモミ「洗わせるわけないでしょ！」{wait}	{face:20106}{spk:03}Tomomi: "As if I would!"{wait}	
+dlg:0981	text	rec:1857	149	{face:10002}{spk:02}ユウキ「マンザイやめ！{br}　しずかに―――遠いけど―――{br}　―――マシンガンの音だ」{wait}	{face:10002}{spk:02}Yuki: "Enough with the comedy act! Quiet-- It's far off-- --That's machine-gun fire."{wait}	
+dlg:0982	text	rec:1859	149	{face:20104}{spk:03}トモミ「マシンガン・・・{br}　ソルジャーまで反乱を？―――」{wait}	{face:20104}{spk:03}Tomomi: "Machine guns... Even Soldiers are revolting?--"{wait}	
+dlg:0983	text	rec:1860	149	{face:10007}{spk:02}ユウキ「軍用はプログラムがかたいよ、そうかんたんには」{wait}	{face:10007}{spk:02}Yuki: "Military programs are secure. It wouldn't be that easy."{wait}	
+dlg:0984	text	rec:1861	149	{face:30204}{spk:04}ギリガン「へっ、クーデターでも起きたんじゃねえか」{wait}	{face:30204}{spk:04}Gilligan: "Heh, maybe there's been a coup."{wait}	
+dlg:0985	text	rec:1865	149	{face:31902}{face:01702}{spk:01}モーデル将軍「『獅子身中の虫』とはこのことだな。{br}　軍にこれだけうら切り者がいたとは」{wait}	{face:31902}{face:01702}{spk:01}General Mordel: "A 'viper in my bosom' indeed. To think the army had so many traitors."{wait}	
+dlg:0986	text	rec:1866	149	{spk:04}ソルジャー「では将軍、みがらをかくほさせていただきます」{wait}	{spk:04}Soldier: "Now, General, we will take you into custody."{wait}	
+dlg:0987	text	rec:1867	149	{spk:01}将軍「貴様ら、アプリコットの反乱と同じなのか？{br}　だれかにあやつられているのか？」{wait}	{spk:01}General: "Are you like the revolt in Apricot? Is someone controlling you?"{wait}	
+dlg:0988	text	rec:1868	149	{spk:04}ソルジャー「いえ。{br}　われわれは、エルヴィン大佐の命令にしたがっています」{wait}	{spk:04}Soldier: "No. We are following the orders of Colonel Erwin."{wait}	
+dlg:0989	text	rec:1869	149	{spk:01}将軍「エルヴィン？{br}　あの男は、軍人のくせに『ぐんしゅく』をとなえている男だぞ。{wait}	{spk:01}General: "Erwin? That man calls for 'disarmament' though he's a soldier!{wait}	
+dlg:0990	text	rec:1870	149	{spk:01}　やつにしたがったら、お前たちも『平和かいぞう』などとバカなまねをされるのだぞ」{wait}	{spk:01}Follow him and you'll be put through some idiotic 'peace conversion'!"{wait}	
+dlg:0991	text	rec:1871	149	{spk:04}ソルジャー「ソルジャーの使命は、平和のために戦うことです。{br}　将軍をとらえれば平和になると言うなら、それにしたがいます」{wait}	{spk:04}Soldier: "A Soldier's mission is to fight for peace. If capturing the General brings peace, we obey."{wait}	
+dlg:0992	text	rec:1872	149	{spk:01}将軍「おろかなことを。{br}　戦いせんようのロボットが、{br}　平和のためだと―――！」{wait}	{spk:01}General: "Fools. Robots built only for battle, fighting for peace--!"{wait}	
+dlg:0993	text	rec:1876	149	{face:20104}{spk:03}トモミ「本当にクーデターだったら、すぐ　『かいげんれい』とかになるわよ。{br}　にげだすならいまのうち」{wait}	{face:20104}{spk:03}Tomomi: "If it's really a coup, there'll be 'martial law' soon. If we're running, it's now or never."{wait}	
+dlg:0994	text	rec:1877	149	{face:10002}{spk:02}ユウキ「ホテルに行こう。{br}　署長とごうりゅうして、どうするか決めなくちゃ」{wait}	{face:10002}{spk:02}Yuki: "Let's go to the hotel. We have to meet up with the Chief and decide what to do."{wait}	
+dlg:0995	text	rec:1881	149	{face:30202}{spk:04}ギリガン「入る気か？{br}　やめておけよ、クーデター中なんだぜ。{br}　見ろ、あのけいびを―――」{wait}	{face:30202}{spk:04}Gilligan: "Ya want to go in? Forget it, there's a coup on. Look at that guard--"{wait}	
+dlg:0996	text	rec:1885	149	{face:10002}{face:20101}{face:30201}{spk:02}ユウキ「いない―――{br}　警察署にでも行ってるのか、軍本部か」{wait}	{face:10002}{face:20101}{face:30201}{spk:02}Yuki: "He's not here-- Did he go to the police station? Or army HQ?"{wait}	
+dlg:0997	text	rec:1886	149	{face:20115}{spk:03}トモミ「ぐずぐずしてると、外を歩くこともできなくなるわ。{br}　工場でメンテしておいた方が・・・」{wait}	{face:20115}{spk:03}Tomomi: "If we dawdle, we won't even be able to walk outside. We'd better do maintenance at the factory..."{wait}	
+dlg:0998	text	rec:1888	149	{face:10001}{face:20101}{face:30203}{spk:04}ギリガン「署長をおいてにげる気か？{br}　さんせい」{wait}	{face:10001}{face:20101}{face:30203}{spk:04}Gilligan: "Gonna leave the Chief and run? I'm for it."{wait}	
+dlg:0999	text	rec:1889	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
+dlg:1000	text	rec:1890	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
+dlg:1001	text	rec:1892	149	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}ワークテカ「まいりましたよ、このオプション、軍がもういらないって。{br}　お代がもらえない」{wait}	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}Workteka: "What a fix. The army says it doesn't want this option anymore. I can't get paid."{wait}	
+dlg:1002	text	rec:1893	149	{face:30204}{spk:04}ギリガン「おっ、カシスせいのミラーシールドだ。{br}　こいつがあればレーザーはこわくねえ」{wait}	{face:30204}{spk:04}Gilligan: "Ooh, a Cassis-made Mirror Shield. With this, lasers are nothing."{wait}	
+dlg:1003	text	rec:1894	149	{face:10012}{spk:02}ユウキ「―――いくら出せばぼくらにゆずってくれる？」{wait}	{face:10012}{spk:02}Yuki: "--How much would you want to sell it to us?"{wait}	
+dlg:1004	text	rec:1895	149	{spk:01}ワークテカ「１００００でいかがでしょう」{wait}	{spk:01}Workteka: "How about 10,000 yen?"{wait}	
+dlg:1005	text	rec:1900	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}	Got the option 'Mirror Shield'.{wait}	
+dlg:1006	text	rec:1902	149	{face:10005}{spk:02}ユウキ「高いよ；；」{wait}	{face:10005}{spk:02}Yuki: "That's expensive..."{wait}	
+dlg:1007	text	rec:1905	149	{face:10002}{spk:02}ユウキ「ソルジャーがみはってる―――{br}　とても入れないな」{wait}	{face:10002}{spk:02}Yuki: "Soldiers are on guard-- No way we can get in."{wait}	
+dlg:1008	text	rec:1909	149	{face:10001}{face:20101}{face:30201}{face:01902}{spk:01}ソルジャー「ほかのシティの人間か？{br}　ホテルから出るな！{br}　うろついているとうつぞ！」{wait}	{face:10001}{face:20101}{face:30201}{face:01902}{spk:01}Soldier: "From another City? Stay in the hotel! Wander around and I'll shoot!"{wait}	
+dlg:1009	text	rec:1912	149	{spk:03}トモミ「はい、はい、中にいればいいのね、言うこと聞くからうっちゃだめよ」{wait}	{spk:03}Tomomi: "Yes, yes, we just stay inside, right? We'll do as you say, so no shooting."{wait}	
+dlg:1010	text	rec:1923	149	{face:10002}{face:20104}{face:30206}{spk:03}トモミ「とにかく署長をさがしましょう」{wait}	{face:10002}{face:20104}{face:30206}{spk:03}Tomomi: "Anyway, let's look for the Chief."{wait}	
+dlg:1011	text	rec:1924	149	{face:10007}{spk:02}ユウキ「将軍に聞けば分かるかもしれない」{wait}	{face:10007}{spk:02}Yuki: "The General might know."{wait}	
+dlg:1012	text	rec:1925	149	{face:30205}{spk:04}ギリガン「クーデターだろ。{br}　将軍って、つかまってるんじゃねえのか」{wait}	{face:30205}{spk:04}Gilligan: "It's a coup, right? Ain't the General been captured?"{wait}	
+dlg:1013	text	rec:1928	149	{face:10002}{spk:02}ユウキ「ソルジャーがみはってる―――{br}　とても入れないな」{wait}	{face:10002}{spk:02}Yuki: "Soldiers are on guard-- No way we can get in."{wait}	
+dlg:1014	text	rec:1930	149	{face:10002}{spk:02}ユウキ「ソルジャーがみはってる―――{br}　けど、『つうこうしょう』がある」{wait}	{face:10002}{spk:02}Yuki: "Soldiers are on guard-- But we have a 'pass'."{wait}	
+dlg:1015	text	rec:1932	149	{face:01902}{face:10001}{face:20101}{face:30201}{spk:01}ソルジャー「『つうこうしょう』か。{br}　何でお前たち子供が持ってる？！」{wait}	{face:01902}{face:10001}{face:20101}{face:30201}{spk:01}Soldier: "A 'pass'? Why do you kids have one?!"{wait}	
+dlg:1016	text	rec:1933	149	{face:10006}{spk:02}ユウキ「子供で悪かったね；{br}　これでもアプリコットの警官なんだけど。　これ、みぶんしょう」{wait}	{face:10006}{spk:02}Yuki: "Sorry for being kids. We're Apricot police, believe it or not. Here's my ID."{wait}	
+dlg:1017	text	rec:1934	149	{spk:01}ソルジャー「アプリコットのみぶんしょうじゃだめだ。{br}　カシス警察のしょうめいなら信じるが。{br}　ホテルにもどっていろ！」{wait}	{spk:01}Soldier: "Apricot ID won't do. I'd trust proof from the Cassis police. Go back to the hotel!"{wait}	
+dlg:1018	text	rec:1938	149	{face:10001}{face:20115}{face:30201}{spk:03}トモミ「だめよ、もうソルジャーがみはりにきてる。{br}　中には入れないわ」{wait}	{face:10001}{face:20115}{face:30201}{spk:03}Tomomi: "No good, Soldiers are already guarding it. We can't get in."{wait}	
+dlg:1019	text	rec:1941	149	{face:10002}{spk:02}ユウキ「なんとか入りこもう。{br}　ぼくたちのみぶんをしょうめいしてもらわなくちゃ」{wait}	{face:10002}{spk:02}Yuki: "We have to get in somehow. We need them to vouch for who we are."{wait}	
+dlg:1020	text	rec:1942	149	{face:20104}{spk:03}トモミ「ソルジャーの目をのがれて入り込もうっての」{wait}	{face:20104}{spk:03}Tomomi: "You mean sneak in past the Soldiers?"{wait}	
+dlg:1021	text	rec:1943	149	{face:30204}{spk:04}ギリガン「うらにまわってみるか・・・？」{wait}	{face:30204}{spk:04}Gilligan: "Try going around the back...?"{wait}	
+dlg:1022	text	rec:1947	149	　カシス署右手{wait}	Cassis Station, Right Side{wait}	
+dlg:1023	text	rec:1948	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「・・・いい感じだ。{br}　だれもいない。{br}　このままうらまで行けそうだね」{wait}	{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "...Looking good. Nobody here. We can probably make it around the back."{wait}	
+dlg:1024	text	rec:1952	149	　カシス署左手{wait}	Cassis Station, Left Side{wait}	
+dlg:1025	text	rec:1953	149	{face:20115}{face:30206}{face:10002}{spk:02}ユウキ「・・・かくれて！	{face:20115}{face:30206}{face:10002}{spk:02}Yuki: "...Hide!	
+dlg:1026	text	rec:1954	149	{spk:00}{face:10001}{face:20101}{face:30201}　・・・ソルジャーがいる・・・{br}　こっちからじゃだめかな」{wait}	{spk:00}{face:10001}{face:20101}{face:30201}...There's a Soldier... No good from this side?"{wait}	
+dlg:1027	text	rec:1958	149	　カシス署うら手{wait}	Cassis Station, Back{wait}	
+dlg:1028	text	rec:1959	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「音をたてないで・・・{br}　そーっと、そーっと」{wait}	{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "Don't make a sound... Quietly, quietly."{wait}	
+dlg:1029	text	rec:1960	149	{face:01902}{spk:01}ソルジャー「そーっと、つかまえてやろう」{wait}	{face:01902}{spk:01}Soldier: "And quietly, I'll catch you."{wait}	
+dlg:1030	text	rec:1961	149	{face:10012}{spk:02}ユウキ「え；」{wait}	{face:10012}{spk:02}Yuki: "Huh?"{wait}	
+dlg:1031	text	rec:1962	149	{spk:01}ソルジャー「人間はたんじゅんだな。{br}　いないフリをしてるとすぐひっかかる」{wait}	{spk:01}Soldier: "Humans are simple. Pretend you're not there and they fall for it."{wait}	
+dlg:1032	text	rec:1963	149	{face:10005}{spk:02}ユウキ「テカに言われるのはしゃくだな；」{wait}	{face:10005}{spk:02}Yuki: "Galling to hear that from a Teka."{wait}	
+dlg:1033	text	rec:1964	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}	{spk:01}Soldier: "From another City, eh? Stop wandering and stay quietly in the hotel!"{wait}	
+dlg:1034	text	rec:1967	149	{face:30204}{spk:04}ギリガン「ようし。行っちまえっ」{wait}	{face:30204}{spk:04}Gilligan: "All right. Let's just rush it!"{wait}	
+dlg:1035	text	rec:1968	149	{face:10006}{spk:02}ユウキ「ちょっと、ムリだよっ」{wait}	{face:10006}{spk:02}Yuki: "Hey, that's impossible!"{wait}	
+dlg:1036	text	rec:1969	149	{face:01902}{spk:01}ソルジャー「とまれ！　うつぞ！」{wait}	{face:01902}{spk:01}Soldier: "Halt! Or I'll shoot!"{wait}	
+dlg:1037	text	rec:1970	149	{face:10003}{spk:14}ユウキ「ほら・・・」{wait}	{face:10003}{spk:14}Yuki: "See..."{wait}	
+dlg:1038	text	rec:1971	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}	{spk:01}Soldier: "From another City, eh? Stop wandering and stay quietly in the hotel!"{wait}	
+dlg:1039	text	rec:1976	149	{face:10002}{face:20104}{face:30206}{spk:03}トモミ「どーするの」{wait}	{face:10002}{face:20104}{face:30206}{spk:03}Tomomi: "Now what?"{wait}	
+dlg:1040	text	rec:1980	149	　カシス署右手{wait}	Cassis Station, Right Side{wait}	
+dlg:1041	text	rec:1981	149	{face:20115}{face:30206}{face:10002}{spk:02}ユウキ「・・・いい感じだ。{br}　だれもいない。{br}　このままうらまで行けそうだね」{wait}	{face:20115}{face:30206}{face:10002}{spk:02}Yuki: "...Looking good. Nobody here. We can probably make it around the back."{wait}	
+dlg:1042	text	rec:1983	149	{spk:02}ユウキ「下がって！{spk:00}{face:10001}{face:20101}{face:30201}{face:01902}{br}　ソルジャーだ、うらにかくれていたな。{wait}	{spk:02}Yuki: "Back!{spk:00}{face:10001}{face:20101}{face:30201}{face:01902} A Soldier, hiding out back.{wait}	
+dlg:1043	text	rec:1984	149	{face:00000}　・・・よし、向こうに行った」{face:10002}{wait}	{face:00000}...Okay, it's gone."{face:10002}{wait}	
+dlg:1044	text	rec:1986	149	{face:10002}{spk:02}ユウキ「・・・もうだれもいないようだ。{br}　行こう」{wait}	{face:10002}{spk:02}Yuki: "...Looks like nobody's left. Let's go."{wait}	
+dlg:1045	text	rec:1987	149	{face:20106}{spk:03}トモミ「・・・前がいなくなると後ろから来たりして；」{wait}	{face:20106}{spk:03}Tomomi: "...When the front's clear, they come from behind..."{wait}	
+dlg:1046	text	rec:1988	149	{face:01902}{spk:01}ソルジャー「なんだ、お前たちは？」{wait}	{face:01902}{spk:01}Soldier: "What, who are you?"{wait}	
+dlg:1047	text	rec:1989	149	{face:10003}{spk:14}ユウキ「ありゃ；　様子の見すぎか」{wait}	{face:10003}{spk:14}Yuki: "Whoops. Watched a bit too long."{wait}	
+dlg:1048	text	rec:1990	149	{spk:01}ソルジャー「ほかのシティの人間か。{br}　うろついていないで、ホテルで大人しくしてろ！」{wait}	{spk:01}Soldier: "From another City, eh? Stop wandering and stay quietly in the hotel!"{wait}	
+dlg:1049	text	rec:1995	149	　カシス署うら手{wait}	Cassis Station, Back{wait}	
 dlg:1050	text	rec:1996	149	{face:20100}{face:30200}{face:10002}{spk:02}ユウキ「行こう！{br}　・・・こっち！{br}　うら口だ、中に入れる」{wait}		
 dlg:1051	text	rec:1997	149	{face:30206}{spk:04}ギリガン「はやく入れっ」　　　　　　　　　　　　　　　　　　　　{face:20106}{wait}		
 dlg:1052	text	rec:1998	149	{face:10012}{spk:02}ユウキ「・・・あぶなかった。{br}　いまいたとこ、ソルジャーがきてる」{wait}		
@@ -165,7 +165,7 @@ dlg:1135	text	rec:2147	149	{spk:01}将軍「軍を利用しておいて正直に
 dlg:1136	text	rec:2148	149	{spk:01}　それとも、きらいな軍隊にまたかつやくさせるかね？」{wait}		
 dlg:1137	text	rec:2149	149	{spk:04}ユウキ「―――いつでもおよびください。{br}　本当なら軍隊なんていらないんだということを、しょうめいしてみせます」{wait}		
 dlg:1138	text	rec:2150	149	{face:01703}{spk:01}将軍「ふふふ―――」{wait}		
-dlg:1139	text	rec:2154	149	　ダムのほとりの研究所{wait}		
+dlg:1139	text	rec:2154	149	　ダムのほとりの研究所{wait}	The Institute by the Dam{wait}	
 dlg:1140	text	rec:2155	149	{face:20801}{face:30901}{face:10702}{spk:02}博士「ち、そういう手があったか。{br}　軍がふっかつしたからには、ムリはできんな」{wait}		
 dlg:1141	text	rec:2156	149	{face:20802}{spk:03}リヒター「じゃあ博士、『プロメテウス』を使うってのはどうだい」{wait}		
 dlg:1142	text	rec:2157	149	{spk:02}博士「うん？　カシスをばくげきする気か」{wait}		

@@ -18,7 +18,7 @@ dlg:1272	text	rec:2489	149	{face:20101}{face:01302}{spk:01}ポリステカ「あ
 dlg:1273	text	rec:2490	149	{face:10008}{spk:02}ユウキ「はい。{br}　スミタ署長かられんらくがきてると思いますが」{wait}		
 dlg:1274	text	rec:2491	149	{spk:01}ポリステカ「ええ。{br}　ちょうさに警官をはけんした、と。{wait}		
 dlg:1275	text	rec:2492	149	{spk:01}　で、彼はちょうさをおえて、{br}　もう帰りましたよ」{wait}		
-dlg:1276	text	rec:2493	149	{face:10012}{spk:02}ユウキ「は？」{wait}		
+dlg:1276	text	rec:2493	149	{face:10012}{spk:02}ユウキ「は？」{wait}	{face:10012}{spk:02}Yuki: "Huh?"{wait}	
 dlg:1277	text	rec:2494	149	{spk:01}ポリステカ「だから、ほんものの警官は、{br}　もう帰ったと言っているんです、{br}　ニセ警官さん」{wait}		
 dlg:1278	text	rec:2495	149	{spk:02}ユウキ「なにを言っているんです？？」{wait}		
 dlg:1279	text	rec:2497	149	{spk:01}ポリステカ「タイホします！」{wait}		
@@ -60,7 +60,7 @@ dlg:1314	text	rec:2543	149	{face:10002}{face:20101}{spk:02}ユウキ「おーい
 dlg:1315	text	rec:2544	149	{face:01302}{spk:02}ユウキ「トモミが急病なんだ、医者を、{br}　メディテカをよんでくれ！」{wait}		
 dlg:1316	text	rec:2545	149	{face:20106}{spk:03}トモミ「うーん、うーん」{wait}		
 dlg:1317	text	rec:2546	149	{spk:01}ポリステカ「なにかたいへんですか？{br}　あなたたちが死んでも平気ですが」{wait}		
-dlg:1318	text	rec:2547	149	{face:10012}{spk:02}ユウキ「え；」{wait}		
+dlg:1318	text	rec:2547	149	{face:10012}{spk:02}ユウキ「え；」{wait}	{face:10012}{spk:02}Yuki: "Huh?"{wait}	
 dlg:1319	text	rec:2548	149	{spk:01}ポリステカ「『人命そんちょうプログラム』なんか、とっくにはずされてますからね、{br}私たちは」{wait}		
 dlg:1320	text	rec:2550	149	{face:01300}{face:20104}{spk:03}トモミ「なんなのよ、いったい；」{wait}		
 dlg:1321	text	rec:2551	149	{face:10003}{spk:14}ユウキ「ひどい国だ・・・」{wait}		

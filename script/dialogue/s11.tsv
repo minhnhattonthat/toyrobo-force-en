@@ -78,7 +78,7 @@ dlg:1227	text	rec:2390	149	{face:20107}{spk:03}トモミ「えーと、それか
 dlg:1228	text	rec:2391	149	{face:30205}{spk:04}ギリガン「・・・聞いちゃいねえ・・・」{wait}		
 dlg:1229	text	rec:2394	149	{face:30204}{spk:04}ギリガン「おうおう、あばれてやがるあばれてやがる」{wait}		
 dlg:1230	text	rec:2395	149	{face:20113}{spk:03}トモミ「さっそくとりかかりましょーか」{wait}		
-dlg:1231	text	rec:2402	149	　兵器庫・・・元工場{wait}		
+dlg:1231	text	rec:2402	149	　兵器庫・・・元工場{wait}	The Arsenal... Formerly a Factory{wait}	
 dlg:1232	text	rec:2403	149	{face:01802}{spk:01}反対派「ここにくれば武器があると思って、テカが集まってくるんです。{wait}		
 dlg:1233	text	rec:2404	149	{spk:01}　ここはわたしの工場で、兵器庫なんかじゃないっていうのに」{wait}		
 dlg:1234	text	rec:2405	149	{face:10012}{spk:02}ユウキ「工場なんだね。何を作っているの」{wait}		

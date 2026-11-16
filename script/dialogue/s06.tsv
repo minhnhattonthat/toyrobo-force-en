@@ -76,59 +76,59 @@ dlg:0628	text	rec:1147	149	{spk:01}ポリステカ「ええと、{br}『数体�
 dlg:0629	text	rec:1150	149	{face:10002}　　ユウキ「！」{br}{face:20104}　　　　　トモミ「！」{br}{face:30206}　　　　　　　　ギリガン「！」{wait}	{face:10002}Yuki: "!"{br}{face:20104}Tomomi: "!"{br}{face:30206}Gilligan: "!"{wait}	
 dlg:0630	text	rec:1151	149	{spk:01}ポリステカ「？　どういう意味でしょう。{br}　おつたえすれば分かっていただける、{br}ということでしたが―――」{wait}	{spk:01}Polisteka: "? What does that mean? I was told you would understand if I passed it on--"{wait}	
 dlg:0631	text	rec:1152	149	{spk:02}ユウキ「テカが犯罪をおかしても、{br}　りかいできないかい！」{wait}	{spk:02}Yuki: "Even when a Teka commits a crime, you can't understand it!"{wait}	
-dlg:0632	text	rec:1153	149	{spk:01}ポリステカ「テカが犯罪？{br}　新しいジョークですか―――{br}　あっ、分かった！{br}　これ、暗号ですね？」{wait}		
-dlg:0633	text	rec:1154	149	{spk:03}トモミ「そう思うなら一人でといてなさい。　行きましょう！」{wait}		
-dlg:0634	text	rec:1161	149	{face:10012}{spk:02}ユウキ「・・・ほっとくと、いくらでも食べるよ」{wait}		
-dlg:0635	text	rec:1162	149	{face:30203}{spk:04}ギリガン「ほっとくと、いくらでもずんどうになるんだな」{wait}		
-dlg:0636	text	rec:1167	149	{face:10006}{spk:02}ユウキ「ほらトモミ！{br}　もう警察署にいくよ！」{wait}		
-dlg:0637	text	rec:1168	149	{face:20105}{spk:03}トモミ「ん。じゃあさいごの一皿、{br}　フランボワーズパッション追加ー♪」{wait}		
-dlg:0638	text	rec:1170	149	{face:02602}{spk:01}マーケテカ「おめでとうございます！{face:10012}{br}　お客様のご注文は当店はじまっていらい、１０万皿目でございます！{wait}		
-dlg:0639	text	rec:1171	149	{spk:01}　賞品は当店とくせい『ピストルライター』でーす」{wait}		
-dlg:0640	text	rec:1172	149	{face:20115}{spk:03}トモミ「・・・ライターなんかもらってどーするの」{wait}		
-dlg:0641	text	rec:1173	149	{face:30203}{spk:04}ギリガン「テカにくっつけて武器にでもすりゃいいさ」{wait}		
-dlg:0642	text	rec:1175	149	右腕『ピストルライター』を{br}　手に入れました。{wait}		
-dlg:0643	text	rec:1179	149	{face:10005}{spk:02}ユウキ「まだ食べる気かい；」{wait}		
-dlg:0644	text	rec:1180	149	{face:20107}{spk:03}トモミ「ああん・・・{br}　がまんしなきゃだめ？」{wait}		
-dlg:0645	text	rec:1181	149	{face:10005}{spk:02}ユウキ「だめ；」{wait}		
+dlg:0632	text	rec:1153	149	{spk:01}ポリステカ「テカが犯罪？{br}　新しいジョークですか―――{br}　あっ、分かった！{br}　これ、暗号ですね？」{wait}	{spk:01}Polisteka: "A Teka crime? Is that a new joke? Oh, I get it! It's a code, isn't it?"{wait}	
+dlg:0633	text	rec:1154	149	{spk:03}トモミ「そう思うなら一人でといてなさい。　行きましょう！」{wait}	{spk:03}Tomomi: "If you think so, go crack it yourself. Let's go!"{wait}	
+dlg:0634	text	rec:1161	149	{face:10012}{spk:02}ユウキ「・・・ほっとくと、いくらでも食べるよ」{wait}	{face:10012}{spk:02}Yuki: "...Leave her alone and she'll eat forever."{wait}	
+dlg:0635	text	rec:1162	149	{face:30203}{spk:04}ギリガン「ほっとくと、いくらでもずんどうになるんだな」{wait}	{face:30203}{spk:04}Gilligan: "Leave her alone and she'll turn into a barrel forever."{wait}	
+dlg:0636	text	rec:1167	149	{face:10006}{spk:02}ユウキ「ほらトモミ！{br}　もう警察署にいくよ！」{wait}	{face:10006}{spk:02}Yuki: "Come on, Tomomi! We're going to the police station!"{wait}	
+dlg:0637	text	rec:1168	149	{face:20105}{spk:03}トモミ「ん。じゃあさいごの一皿、{br}　フランボワーズパッション追加ー♪」{wait}	{face:20105}{spk:03}Tomomi: "Mm. Then one last plate! One more Framboise Passion!"{wait}	
+dlg:0638	text	rec:1170	149	{face:02602}{spk:01}マーケテカ「おめでとうございます！{face:10012}{br}　お客様のご注文は当店はじまっていらい、１０万皿目でございます！{wait}	{face:02602}{spk:01}Marketeka: "Congratulations!{face:10012} Your order is our 100,000th plate since we opened!{wait}	
+dlg:0639	text	rec:1171	149	{spk:01}　賞品は当店とくせい『ピストルライター』でーす」{wait}	{spk:01}Your prize is our very own 'Pistol Lighter'!"{wait}	
+dlg:0640	text	rec:1172	149	{face:20115}{spk:03}トモミ「・・・ライターなんかもらってどーするの」{wait}	{face:20115}{spk:03}Tomomi: "...What am I supposed to do with a lighter?"{wait}	
+dlg:0641	text	rec:1173	149	{face:30203}{spk:04}ギリガン「テカにくっつけて武器にでもすりゃいいさ」{wait}	{face:30203}{spk:04}Gilligan: "Stick it on a Teka and use it as a weapon."{wait}	
+dlg:0642	text	rec:1175	149	右腕『ピストルライター』を{br}　手に入れました。{wait}	Got the right arm 'Pistol Lighter'.{wait}	
+dlg:0643	text	rec:1179	149	{face:10005}{spk:02}ユウキ「まだ食べる気かい；」{wait}	{face:10005}{spk:02}Yuki: "You still want to eat?"{wait}	
+dlg:0644	text	rec:1180	149	{face:20107}{spk:03}トモミ「ああん・・・{br}　がまんしなきゃだめ？」{wait}	{face:20107}{spk:03}Tomomi: "Aww... Do I have to hold back?"{wait}	
+dlg:0645	text	rec:1181	149	{face:10005}{spk:02}ユウキ「だめ；」{wait}	{face:10005}{spk:02}Yuki: "Yes."{wait}	
 dlg:0646	text	rec:1188	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
-dlg:0647	text	rec:1189	149	{face:20801}{face:30901}{face:10703}{spk:02}博士「わしのうでがどんなに長いか、分かったじゃろ。{br}　世界中のテカをあやつってみせるぞ」{wait}		
-dlg:0648	text	rec:1190	149	{face:20803}{spk:03}リヒター「ゆうかいなんてめんどうな・・・　やっつけちゃえば、かんたんなのに」{wait}		
-dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}		
-dlg:0650	text	rec:1192	149	{spk:03}リヒター「うん、まあ・・・でも、警官どもはどうするのさ。{wait}		
-dlg:0651	text	rec:1193	149	{spk:03}　あいつらをおびき出して、{br}　やっつけるのがもくてきだろっ」{wait}		
-dlg:0652	text	rec:1194	149	{face:30904}{spk:04}エミコ「なんですって―――？」{wait}		
-dlg:0653	text	rec:1195	149	{face:20802}{spk:03}リヒター「エミコさん、あいつらは敵だよ、それでもやっつけるのはいや？」{wait}		
-dlg:0654	text	rec:1196	149	{spk:04}エミコ「子供たちに、良いことと悪いことのくべつを、たくさん教えてきたわ。{br}　あなたにも教えなくちゃいけないのね？」{wait}		
-dlg:0655	text	rec:1197	149	{face:20803}{spk:03}リヒター「・・・分かったよ、エミコさんがおこるならやめる。{br}　あいつらのテカだけこわしてやろう。{br}　ね、博士」{wait}		
-dlg:0656	text	rec:1198	149	{spk:02}博士「はじめからそのつもりだというのに、お前がゴネてたんじゃないか・・・！」{wait}		
-dlg:0657	text	rec:1203	149	{face:20101}{face:30201}{face:10007}{spk:02}ユウキ「入り口でおそわれたらしい・・・{br}　市庁舎のガーディテカにね」{wait}		
-dlg:0658	text	rec:1204	149	{face:10001}{face:01302}{spk:01}ポリステカ「しつれいします、『アプリコットの人間警官』というのはみなさんで？{br}　電話がありました。{wait}		
-dlg:0659	text	rec:1205	149	{spk:01}　『人質はワイン工場、むかえにくるがよかろう』と。{br}　なんのことでしょ？」{wait}		
-dlg:0660	text	rec:1206	149	{face:30206}{spk:04}ギリガン「―――それを、市長ゆうかいと　むすびつけることはできねえか？」{wait}		
-dlg:0661	text	rec:1207	149	{face:20111}{spk:03}トモミ「ワイン工場は北のぶどう畑の先よ」{wait}		
-dlg:0662	text	rec:1208	149	{face:10002}{spk:02}ユウキ「よし、出撃じゅんび！」{wait}		
-dlg:0663	text	rec:1225	149	{face:10001}{face:20101}{face:30201}通信「ブランクです。{br}　上空２００メートルにたいきしています」{wait}		
-dlg:0664	text	rec:1226	149	{face:10009}{spk:02}ユウキ「うかつには飛びこめないけど、行くしかない。{br}　もうれつにはんげきしてくるぞ。{wait}		
-dlg:0665	text	rec:1227	149	{spk:02}　これはワナだ、敵のもくてきはぼくたち。　人気のない市長やわがまま娘じゃない」{wait}		
-dlg:0666	text	rec:1228	149	{face:20111}{spk:03}トモミ「（おー、言うわね）{br}　もくひょうせっていよし。{br}　行きましょう！」{wait}		
-dlg:0667	text	rec:1231	149	{face:10009}{spk:02}ユウキ「まだまだ。{br}　戦力を立て直してもういちど！」{wait}		
-dlg:0668	text	rec:1249	149	{face:10011}{spk:14}ユウキ「ブランク！{br}　はんげきに気をつけて行け！」		
+dlg:0647	text	rec:1189	149	{face:20801}{face:30901}{face:10703}{spk:02}博士「わしのうでがどんなに長いか、分かったじゃろ。{br}　世界中のテカをあやつってみせるぞ」{wait}	{face:20801}{face:30901}{face:10703}{spk:02}Doctor: "Now you see how long my arm is. I'll control every Teka in the world!"{wait}	
+dlg:0648	text	rec:1190	149	{face:20803}{spk:03}リヒター「ゆうかいなんてめんどうな・・・　やっつけちゃえば、かんたんなのに」{wait}	{face:20803}{spk:03}Richter: "Kidnapping is such a bother... It'd be easier to just beat them."{wait}	
+dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}	{face:10702}{spk:02}Doctor: "Still on about that? Emiko-san went on so much that I told you just kidnapping would do!"{wait}	
+dlg:0650	text	rec:1192	149	{spk:03}リヒター「うん、まあ・・・でも、警官どもはどうするのさ。{wait}	{spk:03}Richter: "Yeah, well... But what about the cops?{wait}	
+dlg:0651	text	rec:1193	149	{spk:03}　あいつらをおびき出して、{br}　やっつけるのがもくてきだろっ」{wait}	{spk:03}The point was to lure them out and beat them, right?"{wait}	
+dlg:0652	text	rec:1194	149	{face:30904}{spk:04}エミコ「なんですって―――？」{wait}	{face:30904}{spk:04}Emiko: "What did you say--?"{wait}	
+dlg:0653	text	rec:1195	149	{face:20802}{spk:03}リヒター「エミコさん、あいつらは敵だよ、それでもやっつけるのはいや？」{wait}	{face:20802}{spk:03}Richter: "Emiko-san, they're the enemy. Do you still not want me to beat them?"{wait}	
+dlg:0654	text	rec:1196	149	{spk:04}エミコ「子供たちに、良いことと悪いことのくべつを、たくさん教えてきたわ。{br}　あなたにも教えなくちゃいけないのね？」{wait}	{spk:04}Emiko: "I've taught children a lot about right and wrong. Do I have to teach you too?"{wait}	
+dlg:0655	text	rec:1197	149	{face:20803}{spk:03}リヒター「・・・分かったよ、エミコさんがおこるならやめる。{br}　あいつらのテカだけこわしてやろう。{br}　ね、博士」{wait}	{face:20803}{spk:03}Richter: "...Okay, if it makes Emiko-san angry I'll stop. I'll just break their Teka. Right, Doctor?"{wait}	
+dlg:0656	text	rec:1198	149	{spk:02}博士「はじめからそのつもりだというのに、お前がゴネてたんじゃないか・・・！」{wait}	{spk:02}Doctor: "That was the plan from the start, and you're the one who kicked up a fuss...!"{wait}	
+dlg:0657	text	rec:1203	149	{face:20101}{face:30201}{face:10007}{spk:02}ユウキ「入り口でおそわれたらしい・・・{br}　市庁舎のガーディテカにね」{wait}	{face:20101}{face:30201}{face:10007}{spk:02}Yuki: "Looks like they were attacked at the entrance... by City Hall's Guarditeka."{wait}	
+dlg:0658	text	rec:1204	149	{face:10001}{face:01302}{spk:01}ポリステカ「しつれいします、『アプリコットの人間警官』というのはみなさんで？{br}　電話がありました。{wait}	{face:10001}{face:01302}{spk:01}Polisteka: "Excuse me, are you the 'human police of Apricot'? There was a phone call.{wait}	
+dlg:0659	text	rec:1205	149	{spk:01}　『人質はワイン工場、むかえにくるがよかろう』と。{br}　なんのことでしょ？」{wait}	{spk:01}'The hostages are at the winery. Come and get them.' What could that mean?"{wait}	
+dlg:0660	text	rec:1206	149	{face:30206}{spk:04}ギリガン「―――それを、市長ゆうかいと　むすびつけることはできねえか？」{wait}	{face:30206}{spk:04}Gilligan: "--Couldn't ya connect that to the Mayor's kidnapping?"{wait}	
+dlg:0661	text	rec:1207	149	{face:20111}{spk:03}トモミ「ワイン工場は北のぶどう畑の先よ」{wait}	{face:20111}{spk:03}Tomomi: "The winery is past the vineyards to the north."{wait}	
+dlg:0662	text	rec:1208	149	{face:10002}{spk:02}ユウキ「よし、出撃じゅんび！」{wait}	{face:10002}{spk:02}Yuki: "Right, get ready to sortie!"{wait}	
+dlg:0663	text	rec:1225	149	{face:10001}{face:20101}{face:30201}通信「ブランクです。{br}　上空２００メートルにたいきしています」{wait}	{face:10001}{face:20101}{face:30201}Radio: "This is Blank. Standing by 200 meters overhead."{wait}	
+dlg:0664	text	rec:1226	149	{face:10009}{spk:02}ユウキ「うかつには飛びこめないけど、行くしかない。{br}　もうれつにはんげきしてくるぞ。{wait}	{face:10009}{spk:02}Yuki: "We can't rush in carelessly, but we have to go. They'll hit back hard.{wait}	
+dlg:0665	text	rec:1227	149	{spk:02}　これはワナだ、敵のもくてきはぼくたち。　人気のない市長やわがまま娘じゃない」{wait}	{spk:02}It's a trap. We're their target, not an unpopular mayor and his spoiled daughter."{wait}	
+dlg:0666	text	rec:1228	149	{face:20111}{spk:03}トモミ「（おー、言うわね）{br}　もくひょうせっていよし。{br}　行きましょう！」{wait}	{face:20111}{spk:03}Tomomi: "(Ooh, well said.) Target set. Let's go!"{wait}	
+dlg:0667	text	rec:1231	149	{face:10009}{spk:02}ユウキ「まだまだ。{br}　戦力を立て直してもういちど！」{wait}	{face:10009}{spk:02}Yuki: "Not yet. Let's regroup and try again!"{wait}	
+dlg:0668	text	rec:1249	149	{face:10011}{spk:14}ユウキ「ブランク！{br}　はんげきに気をつけて行け！」	{face:10011}{spk:14}Yuki: "Blank! Watch out for counterattacks!"	
 dlg:0669	text	rec:1250	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
-dlg:0670	text	rec:1254	149	　ワイン工場地下室{wait}		
-dlg:0671	text	rec:1255	149	{face:10302}{spk:02}ブランク「お嬢さまを発見しました。{br}　ごぶじなようです」{wait}		
-dlg:0672	text	rec:1256	149	通信・ユウキ「市長は？{br}　さがしてくれ！」{wait}		
-dlg:0673	text	rec:1257	149	{spk:02}ブランク「コンファー」{wait}		
-dlg:0674	text	rec:1258	149	{face:01006}{spk:01}リアナ「う、う、ぐすっ・・・{br}　あなたが助けてくださったの？」{wait}		
-dlg:0675	text	rec:1259	149	{spk:02}ブランク「おケガはありませんか」{wait}		
-dlg:0676	text	rec:1260	149	{face:01007}{spk:01}リアナ「あーん、こわかったあ！」{wait}		
-dlg:0677	text	rec:1261	149	{spk:02}ブランク「もうだいじょうぶ、安心してください・・・{br}　市長はどこか、分かりませんか」{wait}		
-dlg:0678	text	rec:1262	149	{face:01006}{spk:01}リアナ「分からないわ、ここに来たときには引きはなされて・・・{br}　あなたのお名前は？」{wait}		
-dlg:0679	text	rec:1263	149	{spk:02}ブランク「ブランクです」{wait}		
-dlg:0680	text	rec:1264	149	{spk:01}リアナ「お強いのね。{br}　ステキだわ・・・」{wait}		
-dlg:0681	text	rec:1265	149	{face:10303}{spk:02}ブランク「は？　はあ・・・{br}　市長をさがさないといけませんので、{br}　しつれいします」{wait}		
-dlg:0682	text	rec:1266	149	{face:01007}{spk:01}リアナ「やだ、こわいわ、一人にしないで！　ね、ブランク様！」{wait}		
-dlg:0683	text	rec:1267	149	{spk:02}ブランク「あ、いや、あの、その」{wait}		
-dlg:0684	text	rec:1268	149	通信・ユウキ「ブランク！{br}　もうすぐぼくたちもつく。{br}　市長は見つかったかい？！」{wait}		
-dlg:0685	text	rec:1269	149	{spk:02}ブランク「それが、お嬢さまがこわがっているので、いまいっしょに・・・」{wait}		
-dlg:0686	text	rec:1270	149	{face:01004}{spk:01}リアナ「そうよ、あたし一人にさせないで、ブランク様といっしょがいいわ！」{wait}		
-dlg:0687	text	rec:1271	149	通信・ユウキ「はあ？　ブランク様あ？」{wait}		
+dlg:0670	text	rec:1254	149	　ワイン工場地下室{wait}	Winery Cellar{wait}	
+dlg:0671	text	rec:1255	149	{face:10302}{spk:02}ブランク「お嬢さまを発見しました。{br}　ごぶじなようです」{wait}	{face:10302}{spk:02}Blank: "I've found the young lady. She appears unharmed."{wait}	
+dlg:0672	text	rec:1256	149	通信・ユウキ「市長は？{br}　さがしてくれ！」{wait}	Yuki (radio): "What about the Mayor? Find him!"{wait}	
+dlg:0673	text	rec:1257	149	{spk:02}ブランク「コンファー」{wait}	{spk:02}Blank: "Confirm."{wait}	
+dlg:0674	text	rec:1258	149	{face:01006}{spk:01}リアナ「う、う、ぐすっ・・・{br}　あなたが助けてくださったの？」{wait}	{face:01006}{spk:01}Riana: "Sniff, sniff... Did you rescue me?"{wait}	
+dlg:0675	text	rec:1259	149	{spk:02}ブランク「おケガはありませんか」{wait}	{spk:02}Blank: "Are you hurt?"{wait}	
+dlg:0676	text	rec:1260	149	{face:01007}{spk:01}リアナ「あーん、こわかったあ！」{wait}	{face:01007}{spk:01}Riana: "Waaah, I was so scared!"{wait}	
+dlg:0677	text	rec:1261	149	{spk:02}ブランク「もうだいじょうぶ、安心してください・・・{br}　市長はどこか、分かりませんか」{wait}	{spk:02}Blank: "It's all right now, don't worry... Do you know where the Mayor is?"{wait}	
+dlg:0678	text	rec:1262	149	{face:01006}{spk:01}リアナ「分からないわ、ここに来たときには引きはなされて・・・{br}　あなたのお名前は？」{wait}	{face:01006}{spk:01}Riana: "No, they took him away when we got here... What's your name?"{wait}	
+dlg:0679	text	rec:1263	149	{spk:02}ブランク「ブランクです」{wait}	{spk:02}Blank: "Blank."{wait}	
+dlg:0680	text	rec:1264	149	{spk:01}リアナ「お強いのね。{br}　ステキだわ・・・」{wait}	{spk:01}Riana: "You're so strong. How wonderful..."{wait}	
+dlg:0681	text	rec:1265	149	{face:10303}{spk:02}ブランク「は？　はあ・・・{br}　市長をさがさないといけませんので、{br}　しつれいします」{wait}	{face:10303}{spk:02}Blank: "Huh? Er, well... I must look for the Mayor, so excuse me."{wait}	
+dlg:0682	text	rec:1266	149	{face:01007}{spk:01}リアナ「やだ、こわいわ、一人にしないで！　ね、ブランク様！」{wait}	{face:01007}{spk:01}Riana: "No, I'm scared, don't leave me alone! Please, Blank-sama!"{wait}	
+dlg:0683	text	rec:1267	149	{spk:02}ブランク「あ、いや、あの、その」{wait}	{spk:02}Blank: "Ah, no, um, well..."{wait}	
+dlg:0684	text	rec:1268	149	通信・ユウキ「ブランク！{br}　もうすぐぼくたちもつく。{br}　市長は見つかったかい？！」{wait}	Yuki (radio): "Blank! We'll be there soon. Have you found the Mayor?!"{wait}	
+dlg:0685	text	rec:1269	149	{spk:02}ブランク「それが、お嬢さまがこわがっているので、いまいっしょに・・・」{wait}	{spk:02}Blank: "Well, the young lady is frightened, so right now I'm with her..."{wait}	
+dlg:0686	text	rec:1270	149	{face:01004}{spk:01}リアナ「そうよ、あたし一人にさせないで、ブランク様といっしょがいいわ！」{wait}	{face:01004}{spk:01}Riana: "That's right, don't leave me alone! I want to be with Blank-sama!"{wait}	
+dlg:0687	text	rec:1271	149	通信・ユウキ「はあ？　ブランク様あ？」{wait}	Yuki (radio): "Huh? Blank-SAMA?"{wait}	

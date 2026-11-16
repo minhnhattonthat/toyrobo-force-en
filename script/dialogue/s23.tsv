@@ -223,7 +223,7 @@ dlg:2617	text	rec:4884	149	{face:10012}{spk:02}ユウキ「そんなに、お金
 dlg:2618	text	rec:4885	149	{face:01602}{spk:01}バンクテカ「ええ、まあ、いろいろと―――　聞かないでください」{wait}		
 dlg:2619	text	rec:4887	149	{face:10004}{spk:02}ユウキ「次は警察署の見学に行こう」{wait}		
 dlg:2620	text	rec:4889	149	{face:20105}{spk:03}トモミ「おいしいケーキを食べに行く、{br}　とゆーのはどーかしら？」{wait}		
-dlg:2621	text	rec:4894	149	　ホテル『モンラシェ』{wait}		
+dlg:2621	text	rec:4894	149	　ホテル『モンラシェ』{wait}	Hotel 'Montrachet'{wait}	
 dlg:2622	text	rec:4895	149	{face:11001}{face:21102}{spk:03}ペータ「リアナ！{br}　だいじょうぶだった？！」{wait}		
 dlg:2623	text	rec:4896	149	{face:11002}{spk:02}リアナ「あら、ペータ。{br}　いいところにきてくれたわね―――{br}　あなたにお話があるの」{wait}		
 dlg:2624	text	rec:4897	149	{face:21103}{spk:03}ペータ「え（どきっ）、なんだい―――」{wait}		
@@ -306,14 +306,14 @@ dlg:2700	text	rec:5035	149	{spk:02}ユウキ「所長が持ち逃げしたお金
 dlg:2701	text	rec:5036	149	{face:10002}{spk:02}　そういうのはいけない。{br}　ちゃんと所長に責任をとらせなくちゃ。{wait}		
 dlg:2702	text	rec:5037	149	{spk:02}　指名手配にすべきかどうか、署でそうだんしてくるよ」{wait}		
 dlg:2703	text	rec:5038	149	{face:01602}{spk:01}バンクテカ「まってください！{br}　どうか内みつに、そうだ、１ヶぐらいならパワーシールド、さしあげますから！」{wait}		
-dlg:2704	text	rec:5040	149	オプション『パワーシールド』を{br}　手に入れました。{wait}		
+dlg:2704	text	rec:5040	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
 dlg:2705	text	rec:5042	149	{face:10012}{spk:02}ユウキ「そういうつもりじゃないのに。{br}　悪いことした人には、責任をとらせなくちゃいけないと」{wait}		
 dlg:2706	text	rec:5043	149	{face:01602}{spk:01}バンクテカ「所長は父親と同じです。{br}　どうか、かばわせてください。{wait}		
 dlg:2707	text	rec:5044	149	{spk:01}　これからも、ひようさえ出してもらえれば売ってさしあげますから、１ヶ５０，０００ですけど」{wait}		
 dlg:2708	text	rec:5045	149	{face:10005}{spk:02}ユウキ「うわ；　高いな・・・」{wait}		
 dlg:2709	text	rec:5047	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「パワーシールド、買いますか？{br}　１ヶ５０，０００です」{wait}		
 dlg:2710	text	rec:5048	149	{face:10003}{spk:14}ユウキ「高いなあ・・・」{wait}		
-dlg:2711	text	rec:5053	149	オプション『パワーシールド』を{br}　手に入れました。{wait}		
+dlg:2711	text	rec:5053	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
 dlg:2712	text	rec:5054	149	{spk:01}バンクテカ「ついでに、これもどうです。　パソコプのスピードアップ。{br}　１ヶ１０，０００」{wait}		
 dlg:2713	text	rec:5056	149	{spk:01}バンクテカ「じゃあ、これはどうです。{br}　パソコプのスピードアップ。{br}　これなら、１ヶ１０，０００」{wait}		
 dlg:2714	text	rec:5057	149	{face:30204}{spk:04}ギリガン「買った！」{wait}		
@@ -321,7 +321,7 @@ dlg:2715	text	rec:5058	149	{face:20115}{spk:03}トモミ「かってに買うな
 dlg:2716	text	rec:5063	149	オプション『スピードアップ』を{br}　手に入れました。{wait}		
 dlg:2717	text	rec:5064	149	{spk:01}バンクテカ「はい、どうぞ。{br}　在庫はたっぷりありますからね、{br}　また買ってください」{wait}		
 dlg:2718	text	rec:5066	149	{face:10012}{spk:02}ユウキ「いや、いいよ」{wait}		
-dlg:2719	text	rec:5072	149	オプション『パワーシールド』を{br}　手に入れました。{wait}		
+dlg:2719	text	rec:5072	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
 dlg:2720	text	rec:5074	149	{face:10001}{face:20101}{face:30201}通信・ブランク「ユウキ君、ユウキ君、{br}　聞こえますか、はやく出撃しましょう」{wait}		
 dlg:2721	text	rec:5075	149	{face:10010}{spk:02}ユウキ「どうした？！{br}　上からなにか見えるかい？！」{wait}		
 dlg:2722	text	rec:5076	149	通信・ブランク「にが手な人がくるんです」{wait}		
@@ -333,7 +333,7 @@ dlg:2727	text	rec:5084	149	{face:20115}{spk:03}トモミ「じゃあどこ行っ
 dlg:2728	text	rec:5086	149	{face:10007}{spk:02}ユウキ「まずいな。{br}　署長は軍本部に行ったんだ、たぶん」{wait}		
 dlg:2729	text	rec:5087	149	{face:30206}{spk:04}ギリガン「クーデターにまきこまれたな。{br}　帰ってこれるかどうか」{wait}		
 dlg:2730	text	rec:5091	149	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}ワークテカ「カシスせいのミラーシールド、１００００でいかがです？」{wait}		
-dlg:2731	text	rec:5095	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}		
+dlg:2731	text	rec:5095	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}	Got the option 'Mirror Shield'.{wait}	
 dlg:2732	text	rec:5098	149	{face:10002}{face:20101}{face:30201}{spk:02}ユウキ「ゲートはもう・・・{br}　ソルジャーにおさえられたね」{wait}		
 dlg:2733	text	rec:5099	149	{face:30206}{spk:04}ギリガン「クーデターがおさまるまで帰れねえのか」{wait}		
 dlg:2734	text	rec:5101	149	{face:00602}{spk:01}スミタ署長「カシス警察に行ってもムダだ、どうせポリステカもあばれてる」{wait}		
@@ -372,11 +372,11 @@ dlg:2766	text	rec:5144	149	{face:30206}{spk:02}ユウキ「急いで！・・・
 dlg:2767	text	rec:5145	149	{face:20106}{spk:03}トモミ「はっ、はっ・・・{br}　こっからがたいへんよ」{wait}		
 dlg:2768	text	rec:5147	149	{face:00601}{face:10001}{face:20115}{face:30201}{spk:03}トモミ「ゲートまで行ってられないわ。{br}　ちょくせつ軍本部に行くのよ」{wait}		
 dlg:2769	text	rec:5148	149	{face:30204}{spk:04}ギリガン「ゲートからにげちまう気だな？{br}　さんせい」{wait}		
-dlg:2770	text	rec:5149	149	{face:20102}{spk:03}トモミ「反対」{wait}		
-dlg:2771	text	rec:5150	149	{face:10002}{spk:02}ユウキ「反対」{wait}		
+dlg:2770	text	rec:5149	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
+dlg:2771	text	rec:5150	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
 dlg:2772	text	rec:5151	149	{face:00602}{spk:01}署長「どっちでも、ゲートからにげるわけにいかないよ・・・」{wait}		
 dlg:2773	text	rec:5153	149	{face:00000}{face:20301}{face:10011}{spk:14}ユウキ「クーデターをつぶして軍を助ける。　行け、ブランク！」{wait}		
-dlg:2774	text	rec:5154	149	{face:20302}{spk:03}ブランク「コンファー！」{wait}		
+dlg:2774	text	rec:5154	149	{face:20302}{spk:03}ブランク「コンファー！」{wait}	{face:20302}{spk:03}Blank: "Confirm!"{wait}	
 dlg:2775	text	rec:5160	149	{spk:01}　すぐに行ってやってくれたまえ、おんを売っておくんだよ」{wait}		
 dlg:2776	text	rec:5161	149	{face:10012}{spk:02}ユウキ「・・・かしを作るのが外交のヒケツですか」{wait}		
 dlg:2777	text	rec:5162	149	{face:00502}{spk:01}市長「そうさ、君もわたしの政治が分かってきたようだね」{wait}		
@@ -384,7 +384,7 @@ dlg:2778	text	rec:5163	149	{face:10005}{spk:02}ユウキ「政治は分かりま
 dlg:2779	text	rec:5165	149	{spk:01}　将軍が、すぐきてくれないと軍を動かすと言ってきているが―――」{wait}		
 dlg:2780	text	rec:5166	149	{face:10002}{spk:02}ユウキ「―――行きます」{wait}		
 dlg:2781	text	rec:5170	149	{spk:01}ワークテカ「苦労してるようなら、{br}　ミラーシールド、売ってあげましょうか？　１２，０００ね」{wait}		
-dlg:2782	text	rec:5174	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}		
+dlg:2782	text	rec:5174	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}	Got the option 'Mirror Shield'.{wait}	
 dlg:2783	text	rec:5176	149	{spk:01}ワークテカ「まいど♪{br}　わたしが売ったってのは、こけもも警察にはないしょですよ」{wait}		
 dlg:2784	text	rec:5180	149	{spk:01}ワークテカ「苦労してるでしょ？{br}　なんならファイアーシールド、売ってあげましょうか？{br}　１２，０００でどうです」{wait}		
 dlg:2785	text	rec:5181	149	{face:20116}{spk:03}トモミ「人のよわみにつけこんでない？」{wait}		
@@ -416,8 +416,8 @@ dlg:2810	text	rec:5226	149	{face:20103}{spk:03}トモミ「事がすんだら、
 dlg:2811	text	rec:5227	149	{face:10002}{spk:02}ユウキ「となったら、急いで事をすまさなくちゃ。{br}　行こう！」{wait}		
 dlg:2812	text	rec:5229	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「シティの外に出ちゃった、{br}　と思うの？」{wait}		
 dlg:2813	text	rec:5230	149	{face:30203}{spk:04}ギリガン「それとも、ペータはほっといてテカがりにでも行くのか。{br}　さんせい」{wait}		
-dlg:2814	text	rec:5231	149	{face:20102}{spk:03}トモミ「反対」{wait}		
-dlg:2815	text	rec:5232	149	{face:10002}{spk:02}ユウキ「反対」{wait}		
+dlg:2814	text	rec:5231	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
+dlg:2815	text	rec:5232	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
 dlg:2816	text	rec:5235	149	{face:02702}{face:10012}{face:30201}{spk:02}ユウキ「聞きますけど、マーマレード警察に『署長』っているんですか？」{wait}		
 dlg:2817	text	rec:5236	149	{spk:01}ポリジェンヌ「いいえ。{br}　ハンナ市長が、署をまかせられる女性をさがしているところです」{wait}		
 dlg:2818	text	rec:5237	149	{face:10007}{spk:02}ユウキ「やっぱり・・・」{wait}		
@@ -481,8 +481,8 @@ dlg:2875	text	rec:5342	149	{face:01202}{spk:01}ワークテカ「いなかの町
 dlg:2876	text	rec:5344	149	{face:10001}{face:20101}{face:30210}{spk:04}ギリガン「パトバンじゅんびよし！」{wait}		
 dlg:2877	text	rec:5345	149	{face:20109}{spk:03}トモミ「地上管制じゅんびよし。{br}{face:20111}　行きましょう」{wait}		
 dlg:2878	text	rec:5355	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ここまできて帰る気か？{br}　反対」{wait}		
-dlg:2879	text	rec:5356	149	{face:20102}{spk:03}トモミ「反対」{wait}		
-dlg:2880	text	rec:5357	149	{face:10002}{spk:02}ユウキ「反対」{wait}		
+dlg:2879	text	rec:5356	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
+dlg:2880	text	rec:5357	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
 dlg:2881	text	rec:5358	149	{face:20105}{spk:03}トモミ「めずらしく全員いっちしたわね」{wait}		
 dlg:2882	text	rec:5364	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個１０，０００」{wait}		
 dlg:2883	text	rec:5365	149	{face:30206}{spk:04}ギリガン「１０，０００だと？{br}　おれたちがほしがると思って、{br}　足元見てねえか？」{wait}		
@@ -499,7 +499,7 @@ dlg:2893	text	rec:5398	149	{face:10001}{face:01702}{spk:01}モーデル将軍「
 dlg:2894	text	rec:5399	149	{spk:01}　工場へ行くがいい。{br}　対地パワーアップを買えるように、話を通しておいてやろう。{wait}		
 dlg:2895	text	rec:5401	149	{face:01703}{spk:01}　ほんとうなら他国人には売らないのだが、ほかならぬお前のことだからな」{wait}		
 dlg:2896	text	rec:5405	149	{spk:01}反対派「売上金は反戦運動の資金にさせてもらいますね♪」{wait}		
-dlg:2897	text	rec:5408	149	オプション『対空パワーアップ』を{br}　手に入れました。{wait}		
+dlg:2897	text	rec:5408	149	オプション『対空パワーアップ』を{br}　手に入れました。{wait}	Got the option 'Anti-Air Power Up'.{wait}	
 dlg:2898	text	rec:5410	149	{spk:01}反対派「高いですか？{br}　いいねだんだと思うけどな」{wait}		
 dlg:2899	text	rec:5419	149	{face:00502}{spk:01}アドルフ市長「きみたちのおかげで、{br}次のせんきょも安心だ。{br}　いつまでも市長でいたいからな！」{wait}		
 dlg:2900	text	rec:5421	149	{face:00605}{spk:01}スミタ署長「たいしょく金がもらえる日までなにごともなくすごさねばな」{wait}		
