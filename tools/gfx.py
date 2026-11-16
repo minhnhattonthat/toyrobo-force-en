@@ -122,6 +122,12 @@ GROUPS = {
         ((8, 18, 40, 13), "Back", 15, 11, None, 1, dict(prop=True, left=True)),
         ((8, 34, 40, 13), "Info", 15, 11, None, 1, dict(prop=True, left=True)),
     ]),
+    # G15b: Ⓐ けってい (confirm) under the workshop's greeting (factory/facility first screen, above Ⓑ Back):
+    # `gfx_grid.py <factory dump f1800> --bg 1 --rect 16,100,56,32`, the 5 cells right of the Ⓐ button.
+    "factory_ok": dict(pal=("gfx/pal/factory.pal.bin", 0), grid=[
+        [0x064D34, 0x064D54, 0x064D74, 0x064D94, 0x064DB4],
+        [0x064DF4, 0x064E14, 0x064E34, 0x064E54, 0x064E74],
+    ], labels=[((0, 2, 40, 13), "Confirm", 15, 11, None, 1, dict(prop=True, left=True))]),
 }
 
 
@@ -145,6 +151,32 @@ for _x, _s, _ink, _sh in G8_EN:
         ((_x + 4, 115, 120, 19), "", 9, 9, None, 1),
         ((_x, 80, 128, 64), _s, 0, _ink, _sh, 5, dict(prop=True, outline=1, keep=True)),
     ]
+
+
+# G18 workshop name signs (factory and facility1-5, upper right; "<town>の工場"): each is a BG1 block of its own in
+# the ROM: a 16-colour palette (BG palette 7), N raw tiles (copied to VRAM tile 0x329 by the literal pools at
+# 0x325C-0x32F0, count = the `movs r2, #N` before them) and right after the tiles a 13x4 map (u16 entries
+# 0x7000 | flips | tile; pointer table at 0x3751F8, stride 0x10). The map repeats the blank cells, so a redraw
+# re-tiles the whole 104x32 sign (a `retile` group): unique tiles (flips folded) are written in place over the
+# first N tiles and the map is rewritten; apply() refuses one that needs more than N tiles. Fill F, ink C (1-px
+# strokes, no shadow). retile = dict(at=tiles, n=N, map=map offset, w=, h= in cells, tile0=VRAM tile of `at`,
+# bits=palette bits of every map entry).
+SIGN_W, SIGN_H = 13, 4
+SIGNS_EN = [  # (tile block, tile count, town)
+    (0x066DF4, 0x25, "Apricot"), (0x06731C, 0x29, "Framboise"), (0x0678C4, 0x1C, "Cassis"),
+    (0x067CCC, 0x1D, "Lingonberry"), (0x0680F4, 0x25, "Marmalade"), (0x06861C, 0x2A, "Blackberry"),
+]
+SIGN_WORD = "Factory"  # 工場 (the map banner's name for the Apricot one too)
+for _i, (_at, _n, _town) in enumerate(SIGNS_EN):  # labels are added after text_width (below draw)
+    GROUPS[f"sign{_i}"] = dict(retile=dict(at=_at, n=_n, map=_at + _n * 32, w=SIGN_W, h=SIGN_H, tile0=0,
+                                           bits=0x7000), pal=_at - 0x20, labels=[])
+# G19 two-player (link) menu buttons はじめる / おわる (title screen after Two-Player Battle): 32 raw tiles at
+# 0x24A208 (VRAM tile 0x160, BG1 palette 2) and right after them a 14x4 map (two 14x2 buttons, absolute tile ids
+# 0x2160+). Button fill 2, ink 1 (the kana's own; rows 5-15 / 21-31), centred like the title menu (`title`).
+GROUPS["link_menu"] = dict(retile=dict(at=0x24A208, n=32, map=0x24A608, w=14, h=4, tile0=0x160, bits=0x2000),
+                           pal=("gfx/pal/title.pal.bin", 2), labels=[
+                               ((4, 4, 104, 12), "Start", 2, 1, None, 1),
+                               ((4, 20, 104, 12), "Quit", 2, 1, None, 1)])
 
 
 def sprite_grid(base, sprites, w=8, h=4):
@@ -220,6 +252,17 @@ def decode(rom, g):
         px = [[0] * w for _ in range(h)]
         for off, x, y in _sprite_tiles(g):
             _tile_px(rom, off, px, x, y)
+        return px
+    if "retile" in g:  # the block as its map shows it
+        rt = g["retile"]
+        px = [[0] * (rt["w"] * 8) for _ in range(rt["h"] * 8)]
+        for i, e in enumerate(_retile_map(rom, rt)):
+            hf, vf, base = e >> 10 & 1, e >> 11 & 1, rt["at"] + ((e & 0x3FF) - rt["tile0"]) * 32
+            tx, ty = i % rt["w"] * 8, i // rt["w"] * 8
+            for y in range(8):
+                for x in range(8):
+                    b = rom[base + y * 4 + x // 2]
+                    px[ty + (7 - y if vf else y)][tx + (7 - x if hf else x)] = b >> 4 if x & 1 else b & 15
         return px
     _grid(g)
     w, rows = g["cols"] * 8, (g["tiles"] + g["cols"] - 1) // g["cols"] * 8
@@ -318,6 +361,41 @@ def draw(px, lab, prop=False, outline=None, left=False):
             pen += (cw + 1) * scale
 
 
+# Sign text: town left on rows 7-15, "Factory" right-aligned on rows 17-25 (the original's two-line layout), in
+# the interior x 4-99 y 4-26. Rows chosen so the tallest sign (Lingonberry) still fits its 29 tiles.
+for _i, (_at, _n, _town) in enumerate(SIGNS_EN):
+    _ww = text_width(SIGN_WORD, 1, True)
+    GROUPS[f"sign{_i}"]["labels"] = [
+        ((4, 2, 96, 26), "", 0xF, 0xF, None, 1),  # dakuten reach row 2
+        ((6, 7, 92, 9), _town, 0xF, 0xC, None, 1, dict(prop=True, left=True)),
+        ((98 - _ww, 17, _ww, 9), SIGN_WORD, 0xF, 0xC, None, 1, dict(prop=True, left=True)),
+    ]
+
+
+def _retile_map(rom, rt):
+    return list(struct.unpack_from(f"<{rt['w'] * rt['h']}H", rom, rt["map"]))
+
+
+def retile_writes(px, g):
+    """[(ROM offset, bytes)]: a retile group's unique tiles (an H/V-flipped copy reuses a tile) and its new map."""
+    rt = g["retile"]
+    tiles, entries = [], []
+    for i in range(rt["w"] * rt["h"]):
+        tx, ty = i % rt["w"] * 8, i // rt["w"] * 8
+        t = tuple(tuple(px[ty + y][tx:tx + 8]) for y in range(8))
+        for flip, v in ((0, t), (1, tuple(r[::-1] for r in t)), (2, t[::-1]), (3, tuple(r[::-1] for r in t[::-1]))):
+            if v in tiles:
+                entries.append(rt["bits"] | flip << 10 | (rt["tile0"] + tiles.index(v)))
+                break
+        else:
+            entries.append(rt["bits"] | (rt["tile0"] + len(tiles)))
+            tiles.append(t)
+    if len(tiles) > rt["n"]:
+        raise ValueError(f"retile group at {rt['at']:06X} needs {len(tiles)} tiles, room {rt['n']}")
+    data = b"".join(bytes(r[x] | r[x + 1] << 4 for r in t for x in range(0, 8, 2)) for t in tiles)
+    return [(rt["at"], data), (rt["map"], struct.pack(f"<{len(entries)}H", *entries))]
+
+
 # G5 logo letters: bold caps drawn for this project (6 px wide, 9 rows, 2-px strokes), only the ones used.
 LOGO_GLYPHS = {
     "T": "###### ###### ..##.. ..##.. ..##.. ..##.. ..##.. ..##.. ..##..",
@@ -388,7 +466,7 @@ def draw_logo(px, lg):
 
 
 def _touch(touched, g, x, y, w, h):
-    if "sprites" in g:  # apply() compares every tile of a sprite group instead
+    if "sprites" in g or "retile" in g:  # apply() compares every tile of a sprite group / re-tiles instead
         return
     for ty in range(y // 8, (y + h + 7) // 8):
         for tx in range(x // 8, (x + w + 7) // 8):
@@ -484,6 +562,11 @@ def apply(out):
                 if bytes(out.data[off:off + 32]) != data:
                     out.write(off, data, f"gfx:{name}")
             continue
+        if "retile" in g:
+            for off, data in retile_writes(px, g):
+                if bytes(out.data[off:off + len(data)]) != data:
+                    out.write(off, data, f"gfx:{name}")
+            continue
         for off, data in tile_writes(px, g, touched):
             if bytes(out.data[off:off + 32]) != data:
                 out.write(off, data, f"gfx:{name}")
@@ -497,6 +580,9 @@ def spans():
     """Byte ranges apply() may write (tests/test_build.py allowed ranges; LZ blocks are the LZ unit's own)."""
     return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "at" in g and "lz" not in g
              and "grid" not in g]
+            + [r for g in GROUPS.values() if "retile" in g for r in (
+                (g["retile"]["at"], g["retile"]["at"] + g["retile"]["n"] * 32),
+                (g["retile"]["map"], g["retile"]["map"] + g["retile"]["w"] * g["retile"]["h"] * 2))]
             + [(off, off + wt * ht * 32) for g in GROUPS.values() for off, wt, ht, _, _ in g.get("sprites", ())]
             + [(c & 0xFFFFFF, (c & 0xFFFFFF) + 32) for g in GROUPS.values() for row in g.get("grid", ())
                for c in row if c is not None]
@@ -505,11 +591,14 @@ def spans():
             + [(cards.CARD_TABLE + i * cards.REC + 8, cards.CARD_TABLE + i * cards.REC + 24) for i in range(24)])
 
 
-def _palette(g):
+def _palette(g, rom):
     if g["pal"] is None:  # no screen to dump a palette from: grey ramp
         return [(v * 17, v * 17, v * 17) for v in range(16)]
-    path, idx = g["pal"]
-    raw = (ROOT / path).read_bytes()[idx * 32:idx * 32 + 32]
+    if isinstance(g["pal"], int):  # a palette stored in the ROM (the signs)
+        raw = rom[g["pal"]:g["pal"] + 32]
+    else:
+        path, idx = g["pal"]
+        raw = (ROOT / path).read_bytes()[idx * 32:idx * 32 + 32]
     out = []
     for i in range(16):
         c = struct.unpack_from("<H", raw, i * 2)[0]
@@ -539,7 +628,7 @@ def main():
         return
     from PIL import Image
     px = decode(rom, g) if a.orig else redraw(rom, a.group)[0]
-    pal = _palette(g)
+    pal = _palette(g, rom)
     img = Image.new("RGB", (len(px[0]), len(px)))
     img.putdata([pal[v] for row in px for v in row])
     img = img.resize((img.width * a.zoom, img.height * a.zoom), Image.NEAREST)
