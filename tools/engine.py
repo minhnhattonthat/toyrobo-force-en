@@ -55,12 +55,19 @@ def _codes():
 MAX_PAIRS = sum(1 for _ in _codes())
 
 
+def _width(s):
+    """Letters a line fills on screen: tokens take no cell, and each run of letters before a token is padded to a
+    whole cell (Encoder._run), so "ab{face:..}c" fills 4."""
+    parts = TOKEN.split(s)
+    return sum(len(p) + len(p) % 2 for p in parts[:-1]) + len(parts[-1])
+
+
 def _wrap(words_text, width):
     """Greedy word wrap of one paragraph into lines of at most `width` letters."""
     lines, cur = [], ""
     for word in words_text.split(" "):
         cand = word if not cur else cur + " " + word
-        if len(cand) <= width:
+        if _width(cand) <= width:
             cur = cand
         else:
             if cur:
@@ -104,11 +111,11 @@ class Encoder:
                 lines = _wrap(p[len(lead):len(p) - len(tail)], wrap)
                 text += lead
                 for j, line in enumerate(lines):
-                    line += " " * (len(line) % 2)  # whole cells, so the next line starts on a cell
+                    line += " " * (_width(line) % 2)  # whole cells, so the next line starts on a cell
                     text += line
                     last = i + 1 == len(paras) and j + 1 == len(lines)
-                    if not last and len(line) < wrap:
-                        text += " " * (wrap - len(line)) if pad else "{br}"
+                    if not last and _width(line) < wrap:
+                        text += " " * (wrap - _width(line)) if pad else "{br}"
                 text += tail
         items, pos = [], 0
         for m in TOKEN.finditer(text):

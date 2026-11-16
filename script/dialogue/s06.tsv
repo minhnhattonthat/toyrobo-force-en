@@ -41,7 +41,7 @@ dlg:0593	text	rec:1082	149	{face:10005}{spk:02}ユウキ「ないない；{br}�
 dlg:0594	text	rec:1086	149	　アプリコット出国ゲート{wait}		
 dlg:0595	text	rec:1087	149	{face:10501}{face:01005}{spk:01}市長の娘リアナ「パパったら、またあたしをたてに使う気ね。{br}　娘の前じゃ相手も強いこと言わないわ」{wait}		
 dlg:0596	text	rec:1088	149	{face:10504}{spk:02}アドルフ市長「まあまあリアナ、こづかいはずむから―――」{wait}		
-dlg:0597	text	rec:1092	149	　かくし山荘{wait}		
+dlg:0597	text	rec:1092	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
 dlg:0598	text	rec:1093	149	{face:00701}{face:30905}{spk:04}エミコ「博士―――{br}　どうして、人々をこまらせるようなことを、なさるのですか」{wait}		
 dlg:0599	text	rec:1094	149	{face:00703}{spk:01}博士「こまるじゃろうなあ、道具だと思っていたテカがあばれ出したら」{wait}		
 dlg:0600	text	rec:1095	149	{spk:04}エミコ「テカは道具じゃありません」{wait}		
@@ -90,7 +90,7 @@ dlg:0642	text	rec:1175	149	右腕『ピストルライター』を{br}　手に�
 dlg:0643	text	rec:1179	149	{face:10005}{spk:02}ユウキ「まだ食べる気かい；」{wait}		
 dlg:0644	text	rec:1180	149	{face:20107}{spk:03}トモミ「ああん・・・{br}　がまんしなきゃだめ？」{wait}		
 dlg:0645	text	rec:1181	149	{face:10005}{spk:02}ユウキ「だめ；」{wait}		
-dlg:0646	text	rec:1188	149	　かくし山荘{wait}		
+dlg:0646	text	rec:1188	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
 dlg:0647	text	rec:1189	149	{face:20801}{face:30901}{face:10703}{spk:02}博士「わしのうでがどんなに長いか、分かったじゃろ。{br}　世界中のテカをあやつってみせるぞ」{wait}		
 dlg:0648	text	rec:1190	149	{face:20803}{spk:03}リヒター「ゆうかいなんてめんどうな・・・　やっつけちゃえば、かんたんなのに」{wait}		
 dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}		

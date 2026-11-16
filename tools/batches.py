@@ -29,8 +29,8 @@ MAX_ENTRIES = 150
 TOKEN = re.compile(r"\{[^}\n]*\}|%0?\d*[ds]")  # control codes and printf fields; must survive translation
 FREE = {"{br}"}  # layout codes the English may place freely (the build word-wraps)
 VARIABLE = r"%0?\d*d"  # a number the game draws: "1st" comes out as "1th"
-HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan"}  # checked only right after a katakana/kanji name
-SPEAKER = re.compile(r"^(?:\{[^}]*\})*([^「{]{1,12})「")
+HONORIFICS = {"さん": "-san", "くん": "-kun", "ちゃん": "-chan"}  # checked only right after a katakana name (行くんだ, 保母さん are not)
+SPEAKER =re.compile(r"^(?:\{[^}]*\})*([^「{]{1,12})「")
 
 
 def docs():
@@ -131,7 +131,7 @@ def problems(entry, en, terms):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
     for jp_form, en_form in HONORIFICS.items():
-        if re.search(f"[ァ-ヺ一-鿿]{jp_form}", jp_plain) and en_form.lower() not in en.lower():
+        if re.search(f"[ァ-ヺー]{jp_form}", jp_plain) and en_form.lower() not in en.lower():
             out.append(f"honorific {jp_form} needs {en_form} (or note why not in the batch report)")
     return out + width_problems(entry, en)
 

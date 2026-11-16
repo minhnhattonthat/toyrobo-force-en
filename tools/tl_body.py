@@ -6,7 +6,8 @@ put back from the JP.
     python -X utf8 tools/tl_body.py wrap bNNN        work/tl/bNNN.body.tsv (id<TAB>English body) -> bNNN.out.tsv
     python -X utf8 tools/tl_body.py set bNNN FIX     replace body rows by id from FIX (id<TAB>English body)
 
-A body line that starts with "{" is taken as the full row (codes and all) and copied unchanged.
+A body line that already starts with the JP's leading codes, or ends with {wait}, is taken as the full row (codes
+and all) and copied unchanged.
 """
 import re
 import sys
@@ -42,10 +43,10 @@ def wrap(batch):
     out = []
     for r in rows(TL / f"{batch}.body.tsv"):
         eid, en = r[0], "\t".join(r[1:]).strip()
-        if en.startswith("{"):
+        lead, _, tail = parts(jp[eid])
+        if lead and en.startswith(lead) or en.endswith("{wait}"):
             out.append(f"{eid}\t{en}")
             continue
-        lead, _, tail = parts(jp[eid])
         out.append(f"{eid}\t{lead}{en}{tail}")
     (TL / f"{batch}.out.tsv").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print(f"{batch}: {len(out)} rows -> {batch}.out.tsv")
