@@ -2,7 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (phase 7 review fixed; G4 title menu redrawn as the graphics pilot).
+- **Phase:** 8. QA in the emulator: in progress (graphics text: G3, G4, G7, G17 done; G5 G6 G8 G10 G12 G14 G15 to go).
+- **Graphics done this session** (`docs/re/graphics.md` rows): G3 title credit line ("Character Design: Shinji
+  Nishikawa", OBJ from LZ 0x2BB0A8: `gfx.py` LZ groups + `strips` + `OAM_PATCHES`, block moved to 0x500000 via
+  `LZ_MOVES` / `units.LZBlocks.moves`); G7+G17 all 24 section cards (`tools/cards.py` list/show, `cards.CARDS_EN`,
+  `gfx.apply_cards`: strips at 0x580000, records at 0x37641C repointed). `gfx.draw` has `prop` (proportional) and
+  `outline`. Free space now used: 0x500000+ moved LZ blocks, 0x580000-0x590000 card strips.
+  Leads for the rest: G5 katakana logo = title bitmap LZ 0x2B6460 (240x160 8bpp, letters ~x54-176 y46-57) + a logo
+  sprite on every card; G10 balloons = LZ 0x2BC310 (literal at 0x15A9C, so `LZ_MOVES` works if it grows).
 - **Phase 8 so far:** phase 7 review (`.harness/reviews/toyrobo-force-en-phase7.md`) Important 1-2 + Minor 3 fixed
   (8a46e91): alignment spaces in the Log/Power/Charge Cost/%d-Way rows + `lint.align_errors`; `engine._wrap` is
   balanced (greedy line count, narrowest width) + stub-line lint (0 stubs left, was 102); `check.py` runs the
@@ -14,8 +21,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   `tools/debug/dmalog.lua` (DMA3 sources: how G4 was traced; the game queues DMAs in RAM at 0x03000850+0x235C),
   `tools/lz_dump.py` (all LZ blocks for vramfind). Palettes for previews in `gfx/pal/`.
 - **Phase 8 to-do** (`references/emulator-qa.md`, done-when in the skill's phase table):
-  0. Graphics first (every redraw changes the build, and the gate needs a tour of the final build): G3, G5-G8,
-     G10, G12, G14, G15, G17 in `docs/re/graphics.md`. Method that worked for G4: warp, ppudump, `gba_layers.py
+  0. Graphics first (every redraw changes the build, and the gate needs a tour of the final build): G5, G6, G8,
+     G10, G12, G14, G15 in `docs/re/graphics.md`. Method that worked for G4: warp, ppudump, `gba_layers.py
      --rect` for the layer and tile ids, `dmalog.lua --var FROM/TO` around the screen's load for the ROM source,
      `gfx.py show` for fill/ink indices, add a group + labels, `gfx.py preview`, build `--out work/x.gba`, warp,
      zoom. Compressed sources (LZ blocks, e.g. G10 at 0x2BC310) need gfx.py to recompress through the LZ unit.
