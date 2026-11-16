@@ -244,254 +244,254 @@ dlg:2638	text	rec:4921	149	{face:30204}{spk:04}ギリガン「パソコプのブ
 dlg:2639	text	rec:4923	149	オプション『スピードアップ』を{br}　手に入れました。{wait}	Got the option{br}'Speed Up.'{wait}	
 dlg:2640	text	rec:4926	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「うーん。{br}　シティでわけの分からないことが起きて。{br}　あれはなんなんでしょう」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "Hmm. Baffling things are happening in the City. What could it all be?"{wait}	
 dlg:2641	text	rec:4927	149	{face:30206}{spk:04}ギリガン「テカ反乱がりかいできないのか。　教えてやる、テカに化けた人間があばれてるのさ」{wait}	{face:30206}{spk:04}Gilligan: "Ya can't make sense of the Teka Revolt? I'll tell ya: humans disguised as Teka are running wild."{wait}	
-dlg:2642	text	rec:4928	149	{spk:01}ポリステカ「あっ、なるほど！{br}　それならりかいできる！」{wait}		
-dlg:2643	text	rec:4929	149	{face:30205}{spk:04}ギリガン「本気にするんじゃねえ！」{wait}		
-dlg:2644	text	rec:4931	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「アドルフ市長がお見えになるはずでしたが、予定がへんこうになったのですか？」{wait}		
-dlg:2645	text	rec:4932	149	{face:10005}{spk:02}ユウキ「うん、ちょっとね―――；」{wait}		
-dlg:2646	text	rec:4936	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「『テカ反乱』って何です？{br}　売るといくらになるものですか？」{wait}		
-dlg:2647	text	rec:4946	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}		
-dlg:2648	text	rec:4948	149	{face:30202}{spk:04}ギリガン「おい。{br}　この『トライマクナム』、売ってるのか」{wait}		
-dlg:2649	text	rec:4949	149	{spk:01}ワークテカ「あ、それはだめです。{br}　ぼくが心をこめてメンテしたもので」{wait}		
-dlg:2650	text	rec:4950	149	{face:30204}{spk:04}ギリガン「撃ち合いはワイドショットにかぎるぜ、ほしいぞ！{br}　いくらなら売る？」{wait}		
-dlg:2651	text	rec:4951	149	{spk:01}ワークテカ「５００，０００なら売ります」{wait}		
-dlg:2652	text	rec:4952	149	{face:30205}{spk:04}ギリガン「ふざけるな；」{wait}		
-dlg:2653	text	rec:4955	149	{face:21009}{spk:03}リアナ「５００，０００でよろしいのね？」{wait}		
-dlg:2654	text	rec:4956	149	{face:30206}{spk:04}ギリガン「あ？　おい、なにしに来た」{wait}		
-dlg:2655	text	rec:4957	149	{face:21002}{spk:03}リアナ「ブランク様の武器でしょう？{br}　５００，０００でよろしいのね、はい、{br}{face:21004}　はらったわよ！」{wait}		
-dlg:2656	text	rec:4958	149	{spk:01}ワークテカ「お買い上げありがとうございます♪」{wait}		
-dlg:2657	text	rec:4959	149	{face:10003}{spk:14}ユウキ「こまります、お嬢さま」{wait}		
-dlg:2658	text	rec:4960	149	{face:21002}{spk:03}リアナ「あなたがこまることないわ。{br}　これはブランク様に買ってさしあげたの」{wait}		
-dlg:2659	text	rec:4961	149	{face:10003}{spk:14}ユウキ「しかし、」{wait}		
-dlg:2660	text	rec:4962	149	{face:21004}{spk:03}リアナ「パパを助けるためよ！{br}　それならいいでしょう！？」{wait}		
-dlg:2661	text	rec:4963	149	{face:10012}{spk:02}ユウキ「―――わかりました。{br}{face:10008}　ごきふ、ありがとうございます」{wait}		
-dlg:2662	text	rec:4965	149	右腕『トライマクナム』を{br}　手に入れました。{wait}		
-dlg:2663	text	rec:4970	149	{face:01101}{face:11003}{face:20101}{spk:02}リアナ「あら！　ブランク様は？」{wait}		
-dlg:2664	text	rec:4971	149	{face:01103}{spk:01}ペータ「ブランク・・・？{br}　それがリアナの新しいボーイフレンド？」{wait}		
-dlg:2665	text	rec:4972	149	{face:11009}{spk:02}リアナ「『新しい』ってなによ。{br}　いままでは自分がボーイフレンドのつもりだったの？」{wait}		
-dlg:2666	text	rec:4973	149	{face:01101}{face:20115}{spk:03}トモミ「ちがうんですか？」{wait}		
-dlg:2667	text	rec:4974	149	{face:11004}{spk:02}リアナ「あたしはそんなこと、{br}あなたの色気ほどにも考えたことないわ！」{wait}		
-dlg:2668	text	rec:4976	149	{spk:03}トモミ「ほっといてください；」{wait}		
-dlg:2669	text	rec:4977	149	{face:11003}{spk:02}リアナ「ねえ、ブランク様のために、{br}　あたしにできることはないかしら？」{wait}		
-dlg:2670	text	rec:4979	149	{face:20103}{spk:03}トモミ「げきついされないようにとでも、{br}　いのっていてください」{wait}		
-dlg:2671	text	rec:4980	149	{face:11009}{spk:02}リアナ「いのりながら待つ女に見える？」{wait}		
-dlg:2672	text	rec:4981	149	{face:20104}{spk:03}トモミ「ぜんぜん見えません」{wait}		
-dlg:2673	text	rec:4982	149	{face:11003}{spk:02}リアナ「あたしは市長の娘よ、お金もいっぱいあるわ。{br}　なにかできることがあるでしょう？」{wait}		
-dlg:2674	text	rec:4983	149	{face:20103}{spk:03}トモミ「けんりょくやお金じゃ市長はすくえません。{br}{face:20108}　しつれい」{wait}		
-dlg:2675	text	rec:4984	149	{face:20000}{face:11004}{spk:02}リアナ「な、なによ―――{br}　ムリでも協力してやるわ」{wait}		
-dlg:2676	text	rec:4987	149	{face:01102}{spk:01}ペータ「リアナったら、{br}ぜったいブランク様に協力するんだって、{br}出て行っちゃったけど―――」{wait}		
-dlg:2677	text	rec:4989	149	{face:11003}{spk:02}リアナ「あたしが買ってさしあげたの、{br}ブランク様が使ってくださってるわよね？」{wait}		
-dlg:2678	text	rec:4991	149	{face:01502}{spk:01}フランボワーズ市長「反乱ちんあつしたら、研究所に協力させますからね」{wait}		
-dlg:2679	text	rec:4994	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「なにがなにやら、{br}あばれてる人間はいないのに、{br}町はこわれるし火事は起きるし」{wait}		
-dlg:2680	text	rec:4995	149	{face:10004}{spk:02}ユウキ「まあ、ぼくたちがてつだうから」{wait}		
-dlg:2681	text	rec:4996	149	{face:30204}{spk:04}ギリガン「だから、なんか武器とかもらえねえか」{wait}		
-dlg:2682	text	rec:4997	149	{face:20106}{spk:03}トモミ「よしなさいよ、いじましい」{wait}		
-dlg:2683	text	rec:4999	149	{face:30206}{spk:04}ギリガン「おい、もっと武器とかねえのか？　かくさずに出せ！」{wait}		
-dlg:2684	text	rec:5000	149	{face:01302}{spk:01}ポリステカ「べつにかくしちゃいませんが・・・」{wait}		
-dlg:2685	text	rec:5002	149	{face:10012}{spk:02}ユウキ「なにかじょうほうはない？」{wait}		
-dlg:2686	text	rec:5004	149	{spk:01}ポリステカ「武器ですか？{br}　そう言われても―――こんなものしか。{br}　さしあげますよ」{wait}		
-dlg:2687	text	rec:5005	149	{face:30204}{spk:04}ギリガン「対地バレットパックじゃねえか。　こいつはいい、使えるぞ」{wait}		
-dlg:2688	text	rec:5006	149	{face:10005}{spk:02}ユウキ「言ってみるもんだね；」{wait}		
-dlg:2689	text	rec:5008	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}		
-dlg:2690	text	rec:5011	149	{spk:01}ポリステカ「じつは、研究所の所長がお金を持ち逃げしたらしい、とのじょうほうが」{wait}		
-dlg:2691	text	rec:5012	149	{face:30207}{spk:04}ギリガン「そんな話はどうでもいい！」{wait}		
-dlg:2692	text	rec:5013	149	{face:10004}{spk:02}ユウキ「いや、いいことを聞いた。{br}　ありがとう」{wait}		
-dlg:2693	text	rec:5014	149	{face:30206}{spk:04}ギリガン「ん？」{wait}		
-dlg:2694	text	rec:5018	149	{face:20105}{spk:03}トモミ「なんでもないのよ、じゃね」{wait}		
-dlg:2695	text	rec:5022	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「この町のために戦ってくださるらしいですね。{br}　がんばってください」{wait}		
-dlg:2696	text	rec:5023	149	{face:20115}{spk:03}トモミ「おうえんしてくれるのね」{wait}		
-dlg:2697	text	rec:5024	149	{spk:01}バンクテカ「何がおきているか、さっぱりわかりませんがね」{wait}		
-dlg:2698	text	rec:5033	149	{face:10012}{face:20101}{spk:02}ユウキ「君は、ここで作られたバンクテカなんだろう。{br}　だから、ここの所長をかばっているんだ」{wait}		
-dlg:2699	text	rec:5034	149	{face:01602}{spk:01}バンクテカ「かばう？　なんのことです」{wait}		
-dlg:2700	text	rec:5035	149	{spk:02}ユウキ「所長が持ち逃げしたお金の分、かせごうとしているだろ。{wait}		
-dlg:2701	text	rec:5036	149	{face:10002}{spk:02}　そういうのはいけない。{br}　ちゃんと所長に責任をとらせなくちゃ。{wait}		
-dlg:2702	text	rec:5037	149	{spk:02}　指名手配にすべきかどうか、署でそうだんしてくるよ」{wait}		
-dlg:2703	text	rec:5038	149	{face:01602}{spk:01}バンクテカ「まってください！{br}　どうか内みつに、そうだ、１ヶぐらいならパワーシールド、さしあげますから！」{wait}		
+dlg:2642	text	rec:4928	149	{spk:01}ポリステカ「あっ、なるほど！{br}　それならりかいできる！」{wait}	{spk:01}Polisteka: "Oh, I see! That makes sense!"{wait}	
+dlg:2643	text	rec:4929	149	{face:30205}{spk:04}ギリガン「本気にするんじゃねえ！」{wait}	{face:30205}{spk:04}Gilligan: "Don't take it seriously!"{wait}	
+dlg:2644	text	rec:4931	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「アドルフ市長がお見えになるはずでしたが、予定がへんこうになったのですか？」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "Mayor Adolf was supposed to come. Have his plans changed?"{wait}	
+dlg:2645	text	rec:4932	149	{face:10005}{spk:02}ユウキ「うん、ちょっとね―――；」{wait}	{face:10005}{spk:02}Yuki: "Yeah, kind of--"{wait}	
+dlg:2646	text	rec:4936	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「『テカ反乱』って何です？{br}　売るといくらになるものですか？」{wait}	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}Bankteka: "What is a 'Teka Revolt'? How much would it sell for?"{wait}	
+dlg:2647	text	rec:4946	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}	{face:01202}{spk:01}Workteka: "Thank you for your hard work."{wait}	
+dlg:2648	text	rec:4948	149	{face:30202}{spk:04}ギリガン「おい。{br}　この『トライマクナム』、売ってるのか」{wait}	{face:30202}{spk:04}Gilligan: "Hey. Is this 'Tri-Magnum' for sale?"{wait}	
+dlg:2649	text	rec:4949	149	{spk:01}ワークテカ「あ、それはだめです。{br}　ぼくが心をこめてメンテしたもので」{wait}	{spk:01}Workteka: "Oh, not that one. I did its maintenance with all my heart."{wait}	
+dlg:2650	text	rec:4950	149	{face:30204}{spk:04}ギリガン「撃ち合いはワイドショットにかぎるぜ、ほしいぞ！{br}　いくらなら売る？」{wait}	{face:30204}{spk:04}Gilligan: "In a shootout, ya can't beat a wide shot. I want it! How much?"{wait}	
+dlg:2651	text	rec:4951	149	{spk:01}ワークテカ「５００，０００なら売ります」{wait}	{spk:01}Workteka: "I'll sell it for 500,000 yen."{wait}	
+dlg:2652	text	rec:4952	149	{face:30205}{spk:04}ギリガン「ふざけるな；」{wait}	{face:30205}{spk:04}Gilligan: "Quit joking!"{wait}	
+dlg:2653	text	rec:4955	149	{face:21009}{spk:03}リアナ「５００，０００でよろしいのね？」{wait}	{face:21009}{spk:03}Riana: "500,000 yen, is it?"{wait}	
+dlg:2654	text	rec:4956	149	{face:30206}{spk:04}ギリガン「あ？　おい、なにしに来た」{wait}	{face:30206}{spk:04}Gilligan: "Huh? Hey, what are you doing here?"{wait}	
+dlg:2655	text	rec:4957	149	{face:21002}{spk:03}リアナ「ブランク様の武器でしょう？{br}　５００，０００でよろしいのね、はい、{br}{face:21004}　はらったわよ！」{wait}	{face:21002}{spk:03}Riana: "It's a weapon for Blank-sama, isn't it? 500,000 yen, then. There, {face:21004}I've paid!"{wait}	
+dlg:2656	text	rec:4958	149	{spk:01}ワークテカ「お買い上げありがとうございます♪」{wait}	{spk:01}Workteka: "Thank you for your purchase!"{wait}	
+dlg:2657	text	rec:4959	149	{face:10003}{spk:14}ユウキ「こまります、お嬢さま」{wait}	{face:10003}{spk:14}Yuki: "We can't accept this, miss."{wait}	
+dlg:2658	text	rec:4960	149	{face:21002}{spk:03}リアナ「あなたがこまることないわ。{br}　これはブランク様に買ってさしあげたの」{wait}	{face:21002}{spk:03}Riana: "It's not your problem. I bought this for Blank-sama."{wait}	
+dlg:2659	text	rec:4961	149	{face:10003}{spk:14}ユウキ「しかし、」{wait}	{face:10003}{spk:14}Yuki: "But..."{wait}	
+dlg:2660	text	rec:4962	149	{face:21004}{spk:03}リアナ「パパを助けるためよ！{br}　それならいいでしょう！？」{wait}	{face:21004}{spk:03}Riana: "It's to save Papa! Then it's all right, isn't it?!"{wait}	
+dlg:2661	text	rec:4963	149	{face:10012}{spk:02}ユウキ「―――わかりました。{br}{face:10008}　ごきふ、ありがとうございます」{wait}	{face:10012}{spk:02}Yuki: "--Understood. {face:10008}Thank you for your donation."{wait}	
+dlg:2662	text	rec:4965	149	右腕『トライマクナム』を{br}　手に入れました。{wait}	Got the right arm{br}'Tri-Magnum.'{wait}	
+dlg:2663	text	rec:4970	149	{face:01101}{face:11003}{face:20101}{spk:02}リアナ「あら！　ブランク様は？」{wait}	{face:01101}{face:11003}{face:20101}{spk:02}Riana: "Oh! Where's Blank-sama?"{wait}	
+dlg:2664	text	rec:4971	149	{face:01103}{spk:01}ペータ「ブランク・・・？{br}　それがリアナの新しいボーイフレンド？」{wait}	{face:01103}{spk:01}Peta: "Blank...? Is that your new boyfriend, Riana?"{wait}	
+dlg:2665	text	rec:4972	149	{face:11009}{spk:02}リアナ「『新しい』ってなによ。{br}　いままでは自分がボーイフレンドのつもりだったの？」{wait}	{face:11009}{spk:02}Riana: "What do you mean, 'new'? Did you think you were my boyfriend until now?"{wait}	
+dlg:2666	text	rec:4973	149	{face:01101}{face:20115}{spk:03}トモミ「ちがうんですか？」{wait}	{face:01101}{face:20115}{spk:03}Tomomi: "Wasn't he?"{wait}	
+dlg:2667	text	rec:4974	149	{face:11004}{spk:02}リアナ「あたしはそんなこと、{br}あなたの色気ほどにも考えたことないわ！」{wait}	{face:11004}{spk:02}Riana: "I've never thought about that, any more than you've got sex appeal!"{wait}	
+dlg:2668	text	rec:4976	149	{spk:03}トモミ「ほっといてください；」{wait}	{spk:03}Tomomi: "Leave me alone!"{wait}	
+dlg:2669	text	rec:4977	149	{face:11003}{spk:02}リアナ「ねえ、ブランク様のために、{br}　あたしにできることはないかしら？」{wait}	{face:11003}{spk:02}Riana: "Say, isn't there something I can do for Blank-sama?"{wait}	
+dlg:2670	text	rec:4979	149	{face:20103}{spk:03}トモミ「げきついされないようにとでも、{br}　いのっていてください」{wait}	{face:20103}{spk:03}Tomomi: "Pray that he doesn't get shot down, maybe."{wait}	
+dlg:2671	text	rec:4980	149	{face:11009}{spk:02}リアナ「いのりながら待つ女に見える？」{wait}	{face:11009}{spk:02}Riana: "Do I look like a woman who waits and prays?"{wait}	
+dlg:2672	text	rec:4981	149	{face:20104}{spk:03}トモミ「ぜんぜん見えません」{wait}	{face:20104}{spk:03}Tomomi: "Not in the least."{wait}	
+dlg:2673	text	rec:4982	149	{face:11003}{spk:02}リアナ「あたしは市長の娘よ、お金もいっぱいあるわ。{br}　なにかできることがあるでしょう？」{wait}	{face:11003}{spk:02}Riana: "I'm the Mayor's daughter. I have lots of money. There must be something I can do?"{wait}	
+dlg:2674	text	rec:4983	149	{face:20103}{spk:03}トモミ「けんりょくやお金じゃ市長はすくえません。{br}{face:20108}　しつれい」{wait}	{face:20103}{spk:03}Tomomi: "Power and money won't save the Mayor. {face:20108}Excuse me."{wait}	
+dlg:2675	text	rec:4984	149	{face:20000}{face:11004}{spk:02}リアナ「な、なによ―――{br}　ムリでも協力してやるわ」{wait}	{face:20000}{face:11004}{spk:02}Riana: "Wh-what was that-- I'll help even if it's impossible!"{wait}	
+dlg:2676	text	rec:4987	149	{face:01102}{spk:01}ペータ「リアナったら、{br}ぜったいブランク様に協力するんだって、{br}出て行っちゃったけど―――」{wait}	{face:01102}{spk:01}Peta: "Riana said she'd help Blank-sama no matter what, and went out, but--"{wait}	
+dlg:2677	text	rec:4989	149	{face:11003}{spk:02}リアナ「あたしが買ってさしあげたの、{br}ブランク様が使ってくださってるわよね？」{wait}	{face:11003}{spk:02}Riana: "Blank-sama is using what I bought him, isn't he?"{wait}	
+dlg:2678	text	rec:4991	149	{face:01502}{spk:01}フランボワーズ市長「反乱ちんあつしたら、研究所に協力させますからね」{wait}	{face:01502}{spk:01}Mayor Framboise: "Once you put down the revolt, I'll have the laboratory help you."{wait}	
+dlg:2679	text	rec:4994	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「なにがなにやら、{br}あばれてる人間はいないのに、{br}町はこわれるし火事は起きるし」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "I'm baffled. No humans are running wild, yet the town gets wrecked and fires start."{wait}	
+dlg:2680	text	rec:4995	149	{face:10004}{spk:02}ユウキ「まあ、ぼくたちがてつだうから」{wait}	{face:10004}{spk:02}Yuki: "Well, we'll lend a hand."{wait}	
+dlg:2681	text	rec:4996	149	{face:30204}{spk:04}ギリガン「だから、なんか武器とかもらえねえか」{wait}	{face:30204}{spk:04}Gilligan: "So how about givin' us some weapons or something?"{wait}	
+dlg:2682	text	rec:4997	149	{face:20106}{spk:03}トモミ「よしなさいよ、いじましい」{wait}	{face:20106}{spk:03}Tomomi: "Cut it out. That's pathetic."{wait}	
+dlg:2683	text	rec:4999	149	{face:30206}{spk:04}ギリガン「おい、もっと武器とかねえのか？　かくさずに出せ！」{wait}	{face:30206}{spk:04}Gilligan: "Hey, got any more weapons? Quit hiding them and hand 'em over!"{wait}	
+dlg:2684	text	rec:5000	149	{face:01302}{spk:01}ポリステカ「べつにかくしちゃいませんが・・・」{wait}	{face:01302}{spk:01}Polisteka: "I'm not hiding anything..."{wait}	
+dlg:2685	text	rec:5002	149	{face:10012}{spk:02}ユウキ「なにかじょうほうはない？」{wait}	{face:10012}{spk:02}Yuki: "Do you have any information?"{wait}	
+dlg:2686	text	rec:5004	149	{spk:01}ポリステカ「武器ですか？{br}　そう言われても―――こんなものしか。{br}　さしあげますよ」{wait}	{spk:01}Polisteka: "Weapons? Even if you ask-- I only have this. You can have it."{wait}	
+dlg:2687	text	rec:5005	149	{face:30204}{spk:04}ギリガン「対地バレットパックじゃねえか。　こいつはいい、使えるぞ」{wait}	{face:30204}{spk:04}Gilligan: "An Anti-Ground Bullet Pack! This is great. We can use it."{wait}	
+dlg:2688	text	rec:5006	149	{face:10005}{spk:02}ユウキ「言ってみるもんだね；」{wait}	{face:10005}{spk:02}Yuki: "It never hurts to ask!"{wait}	
+dlg:2689	text	rec:5008	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Bullet Pack.'{wait}	
+dlg:2690	text	rec:5011	149	{spk:01}ポリステカ「じつは、研究所の所長がお金を持ち逃げしたらしい、とのじょうほうが」{wait}	{spk:01}Polisteka: "Actually, there's word that the lab director ran off with the money."{wait}	
+dlg:2691	text	rec:5012	149	{face:30207}{spk:04}ギリガン「そんな話はどうでもいい！」{wait}	{face:30207}{spk:04}Gilligan: "Who cares about that!"{wait}	
+dlg:2692	text	rec:5013	149	{face:10004}{spk:02}ユウキ「いや、いいことを聞いた。{br}　ありがとう」{wait}	{face:10004}{spk:02}Yuki: "No, that's good to know. Thanks."{wait}	
+dlg:2693	text	rec:5014	149	{face:30206}{spk:04}ギリガン「ん？」{wait}	{face:30206}{spk:04}Gilligan: "Huh?"{wait}	
+dlg:2694	text	rec:5018	149	{face:20105}{spk:03}トモミ「なんでもないのよ、じゃね」{wait}	{face:20105}{spk:03}Tomomi: "It's nothing. See ya."{wait}	
+dlg:2695	text	rec:5022	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「この町のために戦ってくださるらしいですね。{br}　がんばってください」{wait}	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}Bankteka: "I hear you'll fight for this town. Do your best."{wait}	
+dlg:2696	text	rec:5023	149	{face:20115}{spk:03}トモミ「おうえんしてくれるのね」{wait}	{face:20115}{spk:03}Tomomi: "You're cheering us on?"{wait}	
+dlg:2697	text	rec:5024	149	{spk:01}バンクテカ「何がおきているか、さっぱりわかりませんがね」{wait}	{spk:01}Bankteka: "Though I have no idea what's going on."{wait}	
+dlg:2698	text	rec:5033	149	{face:10012}{face:20101}{spk:02}ユウキ「君は、ここで作られたバンクテカなんだろう。{br}　だから、ここの所長をかばっているんだ」{wait}	{face:10012}{face:20101}{spk:02}Yuki: "You're a Bankteka built here, aren't you? That's why you're covering for the director."{wait}	
+dlg:2699	text	rec:5034	149	{face:01602}{spk:01}バンクテカ「かばう？　なんのことです」{wait}	{face:01602}{spk:01}Bankteka: "Covering? What do you mean?"{wait}	
+dlg:2700	text	rec:5035	149	{spk:02}ユウキ「所長が持ち逃げしたお金の分、かせごうとしているだろ。{wait}	{spk:02}Yuki: "You're trying to earn back the money the director ran off with, aren't you?{wait}	
+dlg:2701	text	rec:5036	149	{face:10002}{spk:02}　そういうのはいけない。{br}　ちゃんと所長に責任をとらせなくちゃ。{wait}	{face:10002}{spk:02}That's not right. The director has to take responsibility.{wait}	
+dlg:2702	text	rec:5037	149	{spk:02}　指名手配にすべきかどうか、署でそうだんしてくるよ」{wait}	{spk:02}I'll go and talk it over at the station, whether to put out a wanted notice."{wait}	
+dlg:2703	text	rec:5038	149	{face:01602}{spk:01}バンクテカ「まってください！{br}　どうか内みつに、そうだ、１ヶぐらいならパワーシールド、さしあげますから！」{wait}	{face:01602}{spk:01}Bankteka: "Wait! Please keep it secret. I know, I'll give you a Power Shield, just one!"{wait}	
 dlg:2704	text	rec:5040	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
-dlg:2705	text	rec:5042	149	{face:10012}{spk:02}ユウキ「そういうつもりじゃないのに。{br}　悪いことした人には、責任をとらせなくちゃいけないと」{wait}		
-dlg:2706	text	rec:5043	149	{face:01602}{spk:01}バンクテカ「所長は父親と同じです。{br}　どうか、かばわせてください。{wait}		
-dlg:2707	text	rec:5044	149	{spk:01}　これからも、ひようさえ出してもらえれば売ってさしあげますから、１ヶ５０，０００ですけど」{wait}		
-dlg:2708	text	rec:5045	149	{face:10005}{spk:02}ユウキ「うわ；　高いな・・・」{wait}		
-dlg:2709	text	rec:5047	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「パワーシールド、買いますか？{br}　１ヶ５０，０００です」{wait}		
-dlg:2710	text	rec:5048	149	{face:10003}{spk:14}ユウキ「高いなあ・・・」{wait}		
+dlg:2705	text	rec:5042	149	{face:10012}{spk:02}ユウキ「そういうつもりじゃないのに。{br}　悪いことした人には、責任をとらせなくちゃいけないと」{wait}	{face:10012}{spk:02}Yuki: "That's not what I meant. People who do wrong have to take responsibility."{wait}	
+dlg:2706	text	rec:5043	149	{face:01602}{spk:01}バンクテカ「所長は父親と同じです。{br}　どうか、かばわせてください。{wait}	{face:01602}{spk:01}Bankteka: "The director is like a parent to me. Please, let me cover for the director.{wait}	
+dlg:2707	text	rec:5044	149	{spk:01}　これからも、ひようさえ出してもらえれば売ってさしあげますから、１ヶ５０，０００ですけど」{wait}	{spk:01}From now on I'll sell to you, as long as you cover the cost. It's 50,000 yen each, though."{wait}	
+dlg:2708	text	rec:5045	149	{face:10005}{spk:02}ユウキ「うわ；　高いな・・・」{wait}	{face:10005}{spk:02}Yuki: "Whoa! That's pricey..."{wait}	
+dlg:2709	text	rec:5047	149	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}バンクテカ「パワーシールド、買いますか？{br}　１ヶ５０，０００です」{wait}	{face:01602}{face:10001}{face:20101}{face:30201}{spk:01}Bankteka: "Will you buy a Power Shield? 50,000 yen each."{wait}	
+dlg:2710	text	rec:5048	149	{face:10003}{spk:14}ユウキ「高いなあ・・・」{wait}	{face:10003}{spk:14}Yuki: "That's so pricey..."{wait}	
 dlg:2711	text	rec:5053	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
-dlg:2712	text	rec:5054	149	{spk:01}バンクテカ「ついでに、これもどうです。　パソコプのスピードアップ。{br}　１ヶ１０，０００」{wait}		
-dlg:2713	text	rec:5056	149	{spk:01}バンクテカ「じゃあ、これはどうです。{br}　パソコプのスピードアップ。{br}　これなら、１ヶ１０，０００」{wait}		
+dlg:2712	text	rec:5054	149	{spk:01}バンクテカ「ついでに、これもどうです。　パソコプのスピードアップ。{br}　１ヶ１０，０００」{wait}	{spk:01}Bankteka: "While you're at it, how about this? A Pasocop Speed Up. 10,000 yen each."{wait}	
+dlg:2713	text	rec:5056	149	{spk:01}バンクテカ「じゃあ、これはどうです。{br}　パソコプのスピードアップ。{br}　これなら、１ヶ１０，０００」{wait}	{spk:01}Bankteka: "Then how about this? A Pasocop Speed Up. This one is 10,000 yen each."{wait}	
 dlg:2714	text	rec:5057	149	{face:30204}{spk:04}ギリガン「買った！」{wait}	{face:30204}{spk:04}Gilligan: "Sold!"{wait}	
-dlg:2715	text	rec:5058	149	{face:20115}{spk:03}トモミ「かってに買うなっての」{wait}		
+dlg:2715	text	rec:5058	149	{face:20115}{spk:03}トモミ「かってに買うなっての」{wait}	{face:20115}{spk:03}Tomomi: "I said don't go buying things on your own!"{wait}	
 dlg:2716	text	rec:5063	149	オプション『スピードアップ』を{br}　手に入れました。{wait}	Got the option{br}'Speed Up.'{wait}	
-dlg:2717	text	rec:5064	149	{spk:01}バンクテカ「はい、どうぞ。{br}　在庫はたっぷりありますからね、{br}　また買ってください」{wait}		
-dlg:2718	text	rec:5066	149	{face:10012}{spk:02}ユウキ「いや、いいよ」{wait}		
+dlg:2717	text	rec:5064	149	{spk:01}バンクテカ「はい、どうぞ。{br}　在庫はたっぷりありますからね、{br}　また買ってください」{wait}	{spk:01}Bankteka: "Here you are. We have plenty in stock, so please buy again."{wait}	
+dlg:2718	text	rec:5066	149	{face:10012}{spk:02}ユウキ「いや、いいよ」{wait}	{face:10012}{spk:02}Yuki: "No, that's fine."{wait}	
 dlg:2719	text	rec:5072	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
-dlg:2720	text	rec:5074	149	{face:10001}{face:20101}{face:30201}通信・ブランク「ユウキ君、ユウキ君、{br}　聞こえますか、はやく出撃しましょう」{wait}		
-dlg:2721	text	rec:5075	149	{face:10010}{spk:02}ユウキ「どうした？！{br}　上からなにか見えるかい？！」{wait}		
-dlg:2722	text	rec:5076	149	通信・ブランク「にが手な人がくるんです」{wait}		
-dlg:2723	text	rec:5077	149	{face:01003}{spk:01}リアナ「ブランク様！{br}　がんばってらしてねー！」{wait}		
-dlg:2724	text	rec:5078	149	{face:10010}{spk:02}ユウキ「；；　ブランク、行こう、出撃！」{wait}		
-dlg:2725	text	rec:5080	149	{face:01502}{spk:01}フランボワーズ市長「やあ、ユウキ君。{br}　アドルフ市長の下じゃはたらきづらくて、にげて来ましたか？」{wait}		
-dlg:2726	text	rec:5083	149	{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「署長はきてないらしい」{wait}		
-dlg:2727	text	rec:5084	149	{face:20115}{spk:03}トモミ「じゃあどこ行ったのよ」{wait}		
-dlg:2728	text	rec:5086	149	{face:10007}{spk:02}ユウキ「まずいな。{br}　署長は軍本部に行ったんだ、たぶん」{wait}		
-dlg:2729	text	rec:5087	149	{face:30206}{spk:04}ギリガン「クーデターにまきこまれたな。{br}　帰ってこれるかどうか」{wait}		
-dlg:2730	text	rec:5091	149	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}ワークテカ「カシスせいのミラーシールド、１００００でいかがです？」{wait}		
+dlg:2720	text	rec:5074	149	{face:10001}{face:20101}{face:30201}通信・ブランク「ユウキ君、ユウキ君、{br}　聞こえますか、はやく出撃しましょう」{wait}	{face:10001}{face:20101}{face:30201}Blank (radio): "Yuki-kun, Yuki-kun, can you hear me? Let's sortie, quickly."{wait}	
+dlg:2721	text	rec:5075	149	{face:10010}{spk:02}ユウキ「どうした？！{br}　上からなにか見えるかい？！」{wait}	{face:10010}{spk:02}Yuki: "What's wrong?! Can you see something from up there?!"{wait}	
+dlg:2722	text	rec:5076	149	通信・ブランク「にが手な人がくるんです」{wait}	Blank (radio): "Someone I can't handle is coming."{wait}	
+dlg:2723	text	rec:5077	149	{face:01003}{spk:01}リアナ「ブランク様！{br}　がんばってらしてねー！」{wait}	{face:01003}{spk:01}Riana: "Blank-sama! Do your best!"{wait}	
+dlg:2724	text	rec:5078	149	{face:10010}{spk:02}ユウキ「；；　ブランク、行こう、出撃！」{wait}	{face:10010}{spk:02}Yuki: "Uh... Blank, let's go. Sortie!"{wait}	
+dlg:2725	text	rec:5080	149	{face:01502}{spk:01}フランボワーズ市長「やあ、ユウキ君。{br}　アドルフ市長の下じゃはたらきづらくて、にげて来ましたか？」{wait}	{face:01502}{spk:01}Mayor Framboise: "Ah, Yuki-kun. Was working under Mayor Adolf too hard, so you fled here?"{wait}	
+dlg:2726	text	rec:5083	149	{face:10012}{face:20101}{face:30201}{spk:02}ユウキ「署長はきてないらしい」{wait}	{face:10012}{face:20101}{face:30201}{spk:02}Yuki: "It looks like the Chief isn't here."{wait}	
+dlg:2727	text	rec:5084	149	{face:20115}{spk:03}トモミ「じゃあどこ行ったのよ」{wait}	{face:20115}{spk:03}Tomomi: "Then where did he go?"{wait}	
+dlg:2728	text	rec:5086	149	{face:10007}{spk:02}ユウキ「まずいな。{br}　署長は軍本部に行ったんだ、たぶん」{wait}	{face:10007}{spk:02}Yuki: "This is bad. The Chief went to army headquarters, probably."{wait}	
+dlg:2729	text	rec:5087	149	{face:30206}{spk:04}ギリガン「クーデターにまきこまれたな。{br}　帰ってこれるかどうか」{wait}	{face:30206}{spk:04}Gilligan: "He got caught up in the coup. Who knows if he'll make it back."{wait}	
+dlg:2730	text	rec:5091	149	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}ワークテカ「カシスせいのミラーシールド、１００００でいかがです？」{wait}	{face:01202}{face:10001}{face:20101}{face:30201}{spk:01}Workteka: "A Cassis-made Mirror Shield, 10,000 yen. How about it?"{wait}	
 dlg:2731	text	rec:5095	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}	Got the option 'Mirror Shield'.{wait}	
-dlg:2732	text	rec:5098	149	{face:10002}{face:20101}{face:30201}{spk:02}ユウキ「ゲートはもう・・・{br}　ソルジャーにおさえられたね」{wait}		
-dlg:2733	text	rec:5099	149	{face:30206}{spk:04}ギリガン「クーデターがおさまるまで帰れねえのか」{wait}		
-dlg:2734	text	rec:5101	149	{face:00602}{spk:01}スミタ署長「カシス警察に行ってもムダだ、どうせポリステカもあばれてる」{wait}		
-dlg:2735	text	rec:5103	149	{face:30206}{spk:04}ギリガン「わすれ物か？{br}　ホテルの客を助けるのか？{br}　クーデターつぶすのが先だろうぜ！」{wait}		
-dlg:2736	text	rec:5105	149	{face:00000}{face:10000}{face:20000}{face:30000}　ホテル・署長の部屋{wait}		
-dlg:2737	text	rec:5106	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ここにいてどうなると言うんだ。　うらから出ようぜ！」{wait}		
-dlg:2738	text	rec:5109	149	{face:20115}{spk:03}トモミ「なにかあるの」{wait}		
-dlg:2739	text	rec:5110	149	{face:10012}{spk:02}ユウキ「んー・・・あった。{br}{face:10004}　軍本部の『つうこうしょう』」{wait}		
-dlg:2740	text	rec:5111	149	{face:30204}{spk:04}ギリガン「お、よし！{br}　それがあれば軍本部に入れてもらえるな」{wait}		
-dlg:2741	text	rec:5112	149	{face:20104}{spk:03}トモミ「それがここにあるってことは、{br}　署長は持ってないってことじゃない？」{wait}		
-dlg:2742	text	rec:5113	149	{face:10012}{spk:02}ユウキ「うん。{br}　だから、署長は軍本部にはいないね」{wait}		
-dlg:2743	text	rec:5114	149	{face:30205}{spk:04}ギリガン「意味ねえじゃねえか；」{wait}		
-dlg:2744	text	rec:5115	149	{spk:02}ユウキ「とにかく持っていこう」{wait}		
-dlg:2745	text	rec:5118	149	{face:20105}{spk:03}トモミ「まだなんかあるのね♪」{wait}		
-dlg:2746	text	rec:5119	149	{face:10012}{spk:02}ユウキ「んー・・・・・・{br}{face:10005}　ない；」{wait}		
-dlg:2747	text	rec:5120	149	{face:30205}{spk:04}ギリガン「；うらから出ようぜ」{wait}		
-dlg:2748	text	rec:5122	149	{face:10000}{face:20000}{face:30000}　ホテルうら口{wait}		
-dlg:2749	text	rec:5123	149	{face:10001}{face:20101}{face:30203}{spk:04}ギリガン「・・・よし。{br}　だれもいないようだ。行くぞ」{wait}		
-dlg:2750	text	rec:5124	149	{face:10002}{face:20104}{spk:03}トモミ「まって、あせらないほうが」{wait}		
-dlg:2751	text	rec:5126	149	{face:01902}{face:10012}{face:20115}{face:30206}{spk:01}ソルジャー「おいっ、かってに出るな」{wait}		
-dlg:2752	text	rec:5127	149	{face:20106}{spk:03}トモミ「見つかった・・・」{wait}		
-dlg:2753	text	rec:5128	149	{spk:01}ソルジャー「部屋にもどれ！{br}　うたれたいか？」{wait}		
-dlg:2754	text	rec:5129	149	{face:30205}{spk:04}ギリガン「ちっ」{wait}		
-dlg:2755	text	rec:5131	149	{face:10002}{spk:02}ユウキ「・・・かくれて！」{wait}		
-dlg:2756	text	rec:5132	149	{face:10001}{face:20101}{face:30201}{face:01902}ギリガン「・・・ソルジャーか・・・」{wait}		
-dlg:2757	text	rec:5133	149	トモミ「あわてて出たら見つかってたわ」{wait}		
-dlg:2758	text	rec:5134	149	ギリガン「くそ、立ちどまってやがる、{br}　はやく行け・・・		
-dlg:2759	text	rec:5135	149	{face:00000}　よし、行ったな」{face:30206}{face:10002}{face:20115}{wait}		
-dlg:2760	text	rec:5137	149	{face:10002}{spk:02}ユウキ「・・・だれも・・・こないな」{wait}		
-dlg:2761	text	rec:5138	149	{face:30205}{spk:04}ギリガン「くそ、出てればよかった」{wait}		
-dlg:2762	text	rec:5139	149	{face:20104}{spk:03}トモミ「行こうか？」{wait}		
-dlg:2763	text	rec:5141	149	{face:20000}{face:30000}{face:10002}{spk:02}ユウキ「よし・・・{br}　だれもいない、はやく！」{wait}		
-dlg:2764	text	rec:5142	149	{face:30207}{spk:04}ギリガン「走れっ」{wait}		
-dlg:2765	text	rec:5143	149	{face:20116}{spk:03}トモミ「ちょ、ちょっと待って、{br}　タイトスカートだから走りづらくて」{wait}		
-dlg:2766	text	rec:5144	149	{face:30206}{spk:02}ユウキ「急いで！・・・・・・・・{br}　おーけー。外には出れたね」{wait}		
-dlg:2767	text	rec:5145	149	{face:20106}{spk:03}トモミ「はっ、はっ・・・{br}　こっからがたいへんよ」{wait}		
-dlg:2768	text	rec:5147	149	{face:00601}{face:10001}{face:20115}{face:30201}{spk:03}トモミ「ゲートまで行ってられないわ。{br}　ちょくせつ軍本部に行くのよ」{wait}		
-dlg:2769	text	rec:5148	149	{face:30204}{spk:04}ギリガン「ゲートからにげちまう気だな？{br}　さんせい」{wait}		
+dlg:2732	text	rec:5098	149	{face:10002}{face:20101}{face:30201}{spk:02}ユウキ「ゲートはもう・・・{br}　ソルジャーにおさえられたね」{wait}	{face:10002}{face:20101}{face:30201}{spk:02}Yuki: "The gate's already... been taken by Soldiers."{wait}	
+dlg:2733	text	rec:5099	149	{face:30206}{spk:04}ギリガン「クーデターがおさまるまで帰れねえのか」{wait}	{face:30206}{spk:04}Gilligan: "So we can't go home till the coup's over?"{wait}	
+dlg:2734	text	rec:5101	149	{face:00602}{spk:01}スミタ署長「カシス警察に行ってもムダだ、どうせポリステカもあばれてる」{wait}	{face:00602}{spk:01}Chief Sumita: "There's no use going to the Cassis police. The Polisteka are running wild anyway."{wait}	
+dlg:2735	text	rec:5103	149	{face:30206}{spk:04}ギリガン「わすれ物か？{br}　ホテルの客を助けるのか？{br}　クーデターつぶすのが先だろうぜ！」{wait}	{face:30206}{spk:04}Gilligan: "Forget something? Gonna rescue the hotel guests? Crushing the coup comes first!"{wait}	
+dlg:2736	text	rec:5105	149	{face:00000}{face:10000}{face:20000}{face:30000}　ホテル・署長の部屋{wait}	{face:00000}{face:10000}{face:20000}{face:30000}The Hotel: the Chief's Room{wait}	
+dlg:2737	text	rec:5106	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ここにいてどうなると言うんだ。　うらから出ようぜ！」{wait}	{face:10001}{face:20101}{face:30206}{spk:04}Gilligan: "What good's staying here? Let's go out the back!"{wait}	
+dlg:2738	text	rec:5109	149	{face:20115}{spk:03}トモミ「なにかあるの」{wait}	{face:20115}{spk:03}Tomomi: "Is there something here?"{wait}	
+dlg:2739	text	rec:5110	149	{face:10012}{spk:02}ユウキ「んー・・・あった。{br}{face:10004}　軍本部の『つうこうしょう』」{wait}	{face:10012}{spk:02}Yuki: "Hmm... Found it. {face:10004}An army headquarters 'pass.'"{wait}	
+dlg:2740	text	rec:5111	149	{face:30204}{spk:04}ギリガン「お、よし！{br}　それがあれば軍本部に入れてもらえるな」{wait}	{face:30204}{spk:04}Gilligan: "Oh, all right! With that they'll let us into army headquarters."{wait}	
+dlg:2741	text	rec:5112	149	{face:20104}{spk:03}トモミ「それがここにあるってことは、{br}　署長は持ってないってことじゃない？」{wait}	{face:20104}{spk:03}Tomomi: "If it's here, doesn't that mean the Chief doesn't have it?"{wait}	
+dlg:2742	text	rec:5113	149	{face:10012}{spk:02}ユウキ「うん。{br}　だから、署長は軍本部にはいないね」{wait}	{face:10012}{spk:02}Yuki: "Right. So the Chief isn't at army headquarters."{wait}	
+dlg:2743	text	rec:5114	149	{face:30205}{spk:04}ギリガン「意味ねえじゃねえか；」{wait}	{face:30205}{spk:04}Gilligan: "Then what's the point?!"{wait}	
+dlg:2744	text	rec:5115	149	{spk:02}ユウキ「とにかく持っていこう」{wait}	{spk:02}Yuki: "Let's take it anyway."{wait}	
+dlg:2745	text	rec:5118	149	{face:20105}{spk:03}トモミ「まだなんかあるのね♪」{wait}	{face:20105}{spk:03}Tomomi: "There's something else, isn't there?"{wait}	
+dlg:2746	text	rec:5119	149	{face:10012}{spk:02}ユウキ「んー・・・・・・{br}{face:10005}　ない；」{wait}	{face:10012}{spk:02}Yuki: "Hmm...... {face:10005}Nope."{wait}	
+dlg:2747	text	rec:5120	149	{face:30205}{spk:04}ギリガン「；うらから出ようぜ」{wait}	{face:30205}{spk:04}Gilligan: "...Let's go out the back."{wait}	
+dlg:2748	text	rec:5122	149	{face:10000}{face:20000}{face:30000}　ホテルうら口{wait}	{face:10000}{face:20000}{face:30000}The Hotel Back Door{wait}	
+dlg:2749	text	rec:5123	149	{face:10001}{face:20101}{face:30203}{spk:04}ギリガン「・・・よし。{br}　だれもいないようだ。行くぞ」{wait}	{face:10001}{face:20101}{face:30203}{spk:04}Gilligan: "...Right. Looks like nobody's here. Let's go."{wait}	
+dlg:2750	text	rec:5124	149	{face:10002}{face:20104}{spk:03}トモミ「まって、あせらないほうが」{wait}	{face:10002}{face:20104}{spk:03}Tomomi: "Wait, we shouldn't rush."{wait}	
+dlg:2751	text	rec:5126	149	{face:01902}{face:10012}{face:20115}{face:30206}{spk:01}ソルジャー「おいっ、かってに出るな」{wait}	{face:01902}{face:10012}{face:20115}{face:30206}{spk:01}Soldier: "Hey! You can't just walk out!"{wait}	
+dlg:2752	text	rec:5127	149	{face:20106}{spk:03}トモミ「見つかった・・・」{wait}	{face:20106}{spk:03}Tomomi: "They found us..."{wait}	
+dlg:2753	text	rec:5128	149	{spk:01}ソルジャー「部屋にもどれ！{br}　うたれたいか？」{wait}	{spk:01}Soldier: "Back to your room! You want to get shot?"{wait}	
+dlg:2754	text	rec:5129	149	{face:30205}{spk:04}ギリガン「ちっ」{wait}	{face:30205}{spk:04}Gilligan: "Tch."{wait}	
+dlg:2755	text	rec:5131	149	{face:10002}{spk:02}ユウキ「・・・かくれて！」{wait}	{face:10002}{spk:02}Yuki: "...Hide!"{wait}	
+dlg:2756	text	rec:5132	149	{face:10001}{face:20101}{face:30201}{face:01902}ギリガン「・・・ソルジャーか・・・」{wait}	{face:10001}{face:20101}{face:30201}{face:01902}Gilligan: "...Soldiers, huh..."{wait}	
+dlg:2757	text	rec:5133	149	トモミ「あわてて出たら見つかってたわ」{wait}	Tomomi: "If we'd rushed out, they'd have found us."{wait}	
+dlg:2758	text	rec:5134	149	ギリガン「くそ、立ちどまってやがる、{br}　はやく行け・・・	Gilligan: "Damn, it's standing still. Get going...	
+dlg:2759	text	rec:5135	149	{face:00000}　よし、行ったな」{face:30206}{face:10002}{face:20115}{wait}	{face:00000}Okay, it's gone."{face:30206}{face:10002}{face:20115}{wait}	
+dlg:2760	text	rec:5137	149	{face:10002}{spk:02}ユウキ「・・・だれも・・・こないな」{wait}	{face:10002}{spk:02}Yuki: "...Nobody's... coming."{wait}	
+dlg:2761	text	rec:5138	149	{face:30205}{spk:04}ギリガン「くそ、出てればよかった」{wait}	{face:30205}{spk:04}Gilligan: "Damn, we should've gone out."{wait}	
+dlg:2762	text	rec:5139	149	{face:20104}{spk:03}トモミ「行こうか？」{wait}	{face:20104}{spk:03}Tomomi: "Shall we go?"{wait}	
+dlg:2763	text	rec:5141	149	{face:20000}{face:30000}{face:10002}{spk:02}ユウキ「よし・・・{br}　だれもいない、はやく！」{wait}	{face:20000}{face:30000}{face:10002}{spk:02}Yuki: "Right... Nobody's here. Hurry!"{wait}	
+dlg:2764	text	rec:5142	149	{face:30207}{spk:04}ギリガン「走れっ」{wait}	{face:30207}{spk:04}Gilligan: "Run!"{wait}	
+dlg:2765	text	rec:5143	149	{face:20116}{spk:03}トモミ「ちょ、ちょっと待って、{br}　タイトスカートだから走りづらくて」{wait}	{face:20116}{spk:03}Tomomi: "W-wait a second! It's hard to run in a tight skirt."{wait}	
+dlg:2766	text	rec:5144	149	{face:30206}{spk:02}ユウキ「急いで！・・・・・・・・{br}　おーけー。外には出れたね」{wait}	{face:30206}{spk:02}Yuki: "Hurry!........ Okay. We made it outside."{wait}	
+dlg:2767	text	rec:5145	149	{face:20106}{spk:03}トモミ「はっ、はっ・・・{br}　こっからがたいへんよ」{wait}	{face:20106}{spk:03}Tomomi: "Huff, huff... The hard part starts now."{wait}	
+dlg:2768	text	rec:5147	149	{face:00601}{face:10001}{face:20115}{face:30201}{spk:03}トモミ「ゲートまで行ってられないわ。{br}　ちょくせつ軍本部に行くのよ」{wait}	{face:00601}{face:10001}{face:20115}{face:30201}{spk:03}Tomomi: "We can't go all the way to the gate. We go straight to army headquarters."{wait}	
+dlg:2769	text	rec:5148	149	{face:30204}{spk:04}ギリガン「ゲートからにげちまう気だな？{br}　さんせい」{wait}	{face:30204}{spk:04}Gilligan: "You wanna escape through the gate? I'm for it."{wait}	
 dlg:2770	text	rec:5149	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
 dlg:2771	text	rec:5150	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
-dlg:2772	text	rec:5151	149	{face:00602}{spk:01}署長「どっちでも、ゲートからにげるわけにいかないよ・・・」{wait}		
-dlg:2773	text	rec:5153	149	{face:00000}{face:20301}{face:10011}{spk:14}ユウキ「クーデターをつぶして軍を助ける。　行け、ブランク！」{wait}		
+dlg:2772	text	rec:5151	149	{face:00602}{spk:01}署長「どっちでも、ゲートからにげるわけにいかないよ・・・」{wait}	{face:00602}{spk:01}Chief: "Either way, we can't just escape through the gate..."{wait}	
+dlg:2773	text	rec:5153	149	{face:00000}{face:20301}{face:10011}{spk:14}ユウキ「クーデターをつぶして軍を助ける。　行け、ブランク！」{wait}	{face:00000}{face:20301}{face:10011}{spk:14}Yuki: "We crush the coup and save the army. Go, Blank!"{wait}	
 dlg:2774	text	rec:5154	149	{face:20302}{spk:03}ブランク「コンファー！」{wait}	{face:20302}{spk:03}Blank: "Confirm!"{wait}	
-dlg:2775	text	rec:5160	149	{spk:01}　すぐに行ってやってくれたまえ、おんを売っておくんだよ」{wait}		
-dlg:2776	text	rec:5161	149	{face:10012}{spk:02}ユウキ「・・・かしを作るのが外交のヒケツですか」{wait}		
-dlg:2777	text	rec:5162	149	{face:00502}{spk:01}市長「そうさ、君もわたしの政治が分かってきたようだね」{wait}		
-dlg:2778	text	rec:5163	149	{face:10005}{spk:02}ユウキ「政治は分かりませんが、せいかくは分かります；」{wait}		
-dlg:2779	text	rec:5165	149	{spk:01}　将軍が、すぐきてくれないと軍を動かすと言ってきているが―――」{wait}		
-dlg:2780	text	rec:5166	149	{face:10002}{spk:02}ユウキ「―――行きます」{wait}		
-dlg:2781	text	rec:5170	149	{spk:01}ワークテカ「苦労してるようなら、{br}　ミラーシールド、売ってあげましょうか？　１２，０００ね」{wait}		
+dlg:2775	text	rec:5160	149	{spk:01}　すぐに行ってやってくれたまえ、おんを売っておくんだよ」{wait}	{spk:01}Go right away. Do them a favor they'll owe us for."{wait}	
+dlg:2776	text	rec:5161	149	{face:10012}{spk:02}ユウキ「・・・かしを作るのが外交のヒケツですか」{wait}	{face:10012}{spk:02}Yuki: "...So putting people in your debt is the secret of diplomacy?"{wait}	
+dlg:2777	text	rec:5162	149	{face:00502}{spk:01}市長「そうさ、君もわたしの政治が分かってきたようだね」{wait}	{face:00502}{spk:01}Mayor: "That's right. You're starting to understand my politics."{wait}	
+dlg:2778	text	rec:5163	149	{face:10005}{spk:02}ユウキ「政治は分かりませんが、せいかくは分かります；」{wait}	{face:10005}{spk:02}Yuki: "I don't understand politics, but I understand your character."{wait}	
+dlg:2779	text	rec:5165	149	{spk:01}　将軍が、すぐきてくれないと軍を動かすと言ってきているが―――」{wait}	{spk:01}The General says if you don't come at once, the army will move--"{wait}	
+dlg:2780	text	rec:5166	149	{face:10002}{spk:02}ユウキ「―――行きます」{wait}	{face:10002}{spk:02}Yuki: "--I'll go."{wait}	
+dlg:2781	text	rec:5170	149	{spk:01}ワークテカ「苦労してるようなら、{br}　ミラーシールド、売ってあげましょうか？　１２，０００ね」{wait}	{spk:01}Workteka: "If you're having trouble, shall I sell you a Mirror Shield? 12,000 yen."{wait}	
 dlg:2782	text	rec:5174	149	オプション『ミラーシールド』を{br}　手に入れました。{wait}	Got the option 'Mirror Shield'.{wait}	
-dlg:2783	text	rec:5176	149	{spk:01}ワークテカ「まいど♪{br}　わたしが売ったってのは、こけもも警察にはないしょですよ」{wait}		
-dlg:2784	text	rec:5180	149	{spk:01}ワークテカ「苦労してるでしょ？{br}　なんならファイアーシールド、売ってあげましょうか？{br}　１２，０００でどうです」{wait}		
-dlg:2785	text	rec:5181	149	{face:20116}{spk:03}トモミ「人のよわみにつけこんでない？」{wait}		
+dlg:2783	text	rec:5176	149	{spk:01}ワークテカ「まいど♪{br}　わたしが売ったってのは、こけもも警察にはないしょですよ」{wait}	{spk:01}Workteka: "Thank you kindly! Don't tell the Lingonberry police I sold it to you."{wait}	
+dlg:2784	text	rec:5180	149	{spk:01}ワークテカ「苦労してるでしょ？{br}　なんならファイアーシールド、売ってあげましょうか？{br}　１２，０００でどうです」{wait}	{spk:01}Workteka: "You're having trouble, right? I could sell you a Fire Shield, if you like. How about 12,000 yen?"{wait}	
+dlg:2785	text	rec:5181	149	{face:20116}{spk:03}トモミ「人のよわみにつけこんでない？」{wait}	{face:20116}{spk:03}Tomomi: "Aren't you taking advantage of people's troubles?"{wait}	
 dlg:2786	text	rec:5185	149	オプション『ファイアーシールド』を{br}　手に入れました。{wait}	Got the option{br}'Fire Shield.'{wait}	
-dlg:2787	text	rec:5187	149	{spk:01}ワークテカ「まいど♪{br}　わたしが売ったってのは、こけもも警察にはないしょですよ」{wait}		
-dlg:2788	text	rec:5193	149	　下水道の中・・・{wait}		
-dlg:2789	text	rec:5194	149	{face:10012}{face:20101}{face:30301}{spk:02}ユウキ「こりゃ、すごいにおい・・・{br}　と言ってもられない、おくににげよう」{wait}		
-dlg:2790	text	rec:5195	149	{face:20106}{spk:03}トモミ「ひーん、下水道にげまわるために{br}婦警さんになったんじゃないよー」{wait}		
-dlg:2791	text	rec:5197	149	{face:10002}{spk:02}ユウキ「ブランク、{br}そっと外のぞいてみて・・・」{wait}		
-dlg:2792	text	rec:5198	149	{face:30302}{spk:04}ブランク「はい、そっ・・・と、だめです、まだ追っ手がいます」{wait}		
-dlg:2793	text	rec:5199	149	{face:10007}{spk:02}ユウキ「べつの出口をさがすか―――」{wait}		
-dlg:2794	text	rec:5202	149	{face:20102}{spk:03}トモミ「なんでこんなところに。{br}　まだ使えるようね、持って行きましょ」{wait}		
-dlg:2795	text	rec:5204	149	右腕『ダイモン』を{br}　手に入れました。{wait}		
-dlg:2796	text	rec:5207	149	{face:20104}{spk:03}トモミ「ジローの武器だわ、きっと。{br}　まだ使えるようね、彼のかたみよ。{br}　持っていきましょう―――」{wait}		
-dlg:2797	text	rec:5209	149	右腕『ダイモン』を{br}　手に入れました。{wait}		
-dlg:2798	text	rec:5212	149	{face:10001}{face:30301}{face:20116}{spk:03}トモミ「きゃあっ、ネズミっ」{wait}		
-dlg:2799	text	rec:5213	149	{face:10012}{spk:02}ユウキ「うわ、なん百っぴきいるんだろ；{br}　曲がり角の向こうまで、びっしりだ」{wait}		
-dlg:2800	text	rec:5214	149	{spk:03}トモミ「にげるのっ、引きかえすわよっ」{wait}		
-dlg:2801	text	rec:5216	149	{face:20101}{face:30301}{face:10002}{spk:02}ユウキ「ジローだ・・・{br}　もうネズミにはかじられてないようだね」{wait}		
-dlg:2802	text	rec:5217	149	{face:20102}{spk:03}トモミ「かならずかいしゅうにきてあげる、待っていてね―――」{wait}		
-dlg:2803	text	rec:5219	149	{face:10001}{face:30301}{face:20116}{spk:03}トモミ「きゃあっ、ネズミっ」{wait}		
-dlg:2804	text	rec:5220	149	{face:10012}{spk:02}ユウキ「うわ、なん百っぴきいるんだろ；{br}　ブランク、ネズミを追いはらえ！{br}　きっとむれの中に―――」{wait}		
-dlg:2805	text	rec:5221	149	{face:30302}{spk:04}ブランク「それっ、それっ、あっち行け！{br}　しっ！　しっ！		
-dlg:2806	text	rec:5222	149	・・・よし、だいたい追いはらえましたね。　あっ？！」{wait}		
-dlg:2807	text	rec:5223	149	{face:10002}{spk:02}ユウキ「・・・やっぱり、いたか。{br}　こわされたポリステカだ―――」{wait}		
-dlg:2808	text	rec:5224	149	{face:20104}{spk:03}トモミ「ひどい―――{br}　ネズミにかじられてめちゃめちゃ―――{br}　アプリコットの２６号、『ジロー』だわ」{wait}		
-dlg:2809	text	rec:5225	149	{face:10007}{spk:02}ユウキ「電子頭脳まで下水につかって・・・　もう助けられない。{br}　ごめんよ、ぼくたちのために」{wait}		
-dlg:2810	text	rec:5226	149	{face:20103}{spk:03}トモミ「事がすんだら、かならずかいしゅうにきてあげるからね―――」{wait}		
-dlg:2811	text	rec:5227	149	{face:10002}{spk:02}ユウキ「となったら、急いで事をすまさなくちゃ。{br}　行こう！」{wait}		
-dlg:2812	text	rec:5229	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「シティの外に出ちゃった、{br}　と思うの？」{wait}		
-dlg:2813	text	rec:5230	149	{face:30203}{spk:04}ギリガン「それとも、ペータはほっといてテカがりにでも行くのか。{br}　さんせい」{wait}		
+dlg:2787	text	rec:5187	149	{spk:01}ワークテカ「まいど♪{br}　わたしが売ったってのは、こけもも警察にはないしょですよ」{wait}	{spk:01}Workteka: "Thank you kindly! Don't tell the Lingonberry police I sold it to you."{wait}	
+dlg:2788	text	rec:5193	149	　下水道の中・・・{wait}	In the Sewers...{wait}	
+dlg:2789	text	rec:5194	149	{face:10012}{face:20101}{face:30301}{spk:02}ユウキ「こりゃ、すごいにおい・・・{br}　と言ってもられない、おくににげよう」{wait}	{face:10012}{face:20101}{face:30301}{spk:02}Yuki: "What a smell... No time to complain. Let's escape deeper in."{wait}	
+dlg:2790	text	rec:5195	149	{face:20106}{spk:03}トモミ「ひーん、下水道にげまわるために{br}婦警さんになったんじゃないよー」{wait}	{face:20106}{spk:03}Tomomi: "Waaah, I didn't become a policewoman to run around in sewers!"{wait}	
+dlg:2791	text	rec:5197	149	{face:10002}{spk:02}ユウキ「ブランク、{br}そっと外のぞいてみて・・・」{wait}	{face:10002}{spk:02}Yuki: "Blank, take a quiet peek outside..."{wait}	
+dlg:2792	text	rec:5198	149	{face:30302}{spk:04}ブランク「はい、そっ・・・と、だめです、まだ追っ手がいます」{wait}	{face:30302}{spk:04}Blank: "Yes, quie...tly. No good, they're still after us."{wait}	
+dlg:2793	text	rec:5199	149	{face:10007}{spk:02}ユウキ「べつの出口をさがすか―――」{wait}	{face:10007}{spk:02}Yuki: "Let's look for another exit--"{wait}	
+dlg:2794	text	rec:5202	149	{face:20102}{spk:03}トモミ「なんでこんなところに。{br}　まだ使えるようね、持って行きましょ」{wait}	{face:20102}{spk:03}Tomomi: "Why is this here? It still looks usable. Let's take it."{wait}	
+dlg:2795	text	rec:5204	149	右腕『ダイモン』を{br}　手に入れました。{wait}	Got the right arm{br}'Daimon.'{wait}	
+dlg:2796	text	rec:5207	149	{face:20104}{spk:03}トモミ「ジローの武器だわ、きっと。{br}　まだ使えるようね、彼のかたみよ。{br}　持っていきましょう―――」{wait}	{face:20104}{spk:03}Tomomi: "It must be Jiro's weapon. It still looks usable. It's something to remember him by. Let's take it--"{wait}	
+dlg:2797	text	rec:5209	149	右腕『ダイモン』を{br}　手に入れました。{wait}	Got the right arm{br}'Daimon.'{wait}	
+dlg:2798	text	rec:5212	149	{face:10001}{face:30301}{face:20116}{spk:03}トモミ「きゃあっ、ネズミっ」{wait}	{face:10001}{face:30301}{face:20116}{spk:03}Tomomi: "Eek, rats!"{wait}	
+dlg:2799	text	rec:5213	149	{face:10012}{spk:02}ユウキ「うわ、なん百っぴきいるんだろ；{br}　曲がり角の向こうまで、びっしりだ」{wait}	{face:10012}{spk:02}Yuki: "Whoa, there must be hundreds of them! They're packed all the way around the corner."{wait}	
+dlg:2800	text	rec:5214	149	{spk:03}トモミ「にげるのっ、引きかえすわよっ」{wait}	{spk:03}Tomomi: "We're running! Turn back!"{wait}	
+dlg:2801	text	rec:5216	149	{face:20101}{face:30301}{face:10002}{spk:02}ユウキ「ジローだ・・・{br}　もうネズミにはかじられてないようだね」{wait}	{face:20101}{face:30301}{face:10002}{spk:02}Yuki: "It's Jiro... Looks like the rats aren't gnawing on him anymore."{wait}	
+dlg:2802	text	rec:5217	149	{face:20102}{spk:03}トモミ「かならずかいしゅうにきてあげる、待っていてね―――」{wait}	{face:20102}{spk:03}Tomomi: "We'll come back for you, I promise. Wait for us--"{wait}	
+dlg:2803	text	rec:5219	149	{face:10001}{face:30301}{face:20116}{spk:03}トモミ「きゃあっ、ネズミっ」{wait}	{face:10001}{face:30301}{face:20116}{spk:03}Tomomi: "Eek, rats!"{wait}	
+dlg:2804	text	rec:5220	149	{face:10012}{spk:02}ユウキ「うわ、なん百っぴきいるんだろ；{br}　ブランク、ネズミを追いはらえ！{br}　きっとむれの中に―――」{wait}	{face:10012}{spk:02}Yuki: "Whoa, there must be hundreds of them! Blank, drive the rats away! I bet in the middle of them--"{wait}	
+dlg:2805	text	rec:5221	149	{face:30302}{spk:04}ブランク「それっ、それっ、あっち行け！{br}　しっ！　しっ！	{face:30302}{spk:04}Blank: "Hah! Hah! Go away! Shoo! Shoo!	
+dlg:2806	text	rec:5222	149	・・・よし、だいたい追いはらえましたね。　あっ？！」{wait}	...Right, I've driven most of them off. Huh?!"{wait}	
+dlg:2807	text	rec:5223	149	{face:10002}{spk:02}ユウキ「・・・やっぱり、いたか。{br}　こわされたポリステカだ―――」{wait}	{face:10002}{spk:02}Yuki: "...I knew it. A wrecked Polisteka--"{wait}	
+dlg:2808	text	rec:5224	149	{face:20104}{spk:03}トモミ「ひどい―――{br}　ネズミにかじられてめちゃめちゃ―――{br}　アプリコットの２６号、『ジロー』だわ」{wait}	{face:20104}{spk:03}Tomomi: "How awful-- The rats have chewed him to pieces-- It's Apricot's No. 26, 'Jiro.'"{wait}	
+dlg:2809	text	rec:5225	149	{face:10007}{spk:02}ユウキ「電子頭脳まで下水につかって・・・　もう助けられない。{br}　ごめんよ、ぼくたちのために」{wait}	{face:10007}{spk:02}Yuki: "His electronic brain is soaked in sewage... We can't save him. I'm sorry. It was for us."{wait}	
+dlg:2810	text	rec:5226	149	{face:20103}{spk:03}トモミ「事がすんだら、かならずかいしゅうにきてあげるからね―――」{wait}	{face:20103}{spk:03}Tomomi: "When this is over, we'll come back for you, I promise--"{wait}	
+dlg:2811	text	rec:5227	149	{face:10002}{spk:02}ユウキ「となったら、急いで事をすまさなくちゃ。{br}　行こう！」{wait}	{face:10002}{spk:02}Yuki: "Then we'd better hurry and get this over with. Let's go!"{wait}	
+dlg:2812	text	rec:5229	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「シティの外に出ちゃった、{br}　と思うの？」{wait}	{face:10001}{face:20104}{face:30201}{spk:03}Tomomi: "You think he's left the City?"{wait}	
+dlg:2813	text	rec:5230	149	{face:30203}{spk:04}ギリガン「それとも、ペータはほっといてテカがりにでも行くのか。{br}　さんせい」{wait}	{face:30203}{spk:04}Gilligan: "Or are we leaving Peta and going Teka hunting? I'm for it."{wait}	
 dlg:2814	text	rec:5231	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
 dlg:2815	text	rec:5232	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
-dlg:2816	text	rec:5235	149	{face:02702}{face:10012}{face:30201}{spk:02}ユウキ「聞きますけど、マーマレード警察に『署長』っているんですか？」{wait}		
-dlg:2817	text	rec:5236	149	{spk:01}ポリジェンヌ「いいえ。{br}　ハンナ市長が、署をまかせられる女性をさがしているところです」{wait}		
-dlg:2818	text	rec:5237	149	{face:10007}{spk:02}ユウキ「やっぱり・・・」{wait}		
-dlg:2819	text	rec:5238	149	{spk:01}ポリジェンヌ「ではこちらも聞きましょう。{br}　男のくせに、なにをかぎまわっているの？{wait}		
-dlg:2820	text	rec:5239	149	{spk:01}　タイホされたくなければ、男はしずかにしていなさい」{wait}		
-dlg:2821	text	rec:5240	149	{face:10005}{spk:02}ユウキ「・・・男にきびしいシティだな；」{wait}		
-dlg:2822	text	rec:5243	149	{face:10012}{spk:02}ユウキ「こちらでテカ反乱は起きてないのですか？」{wait}		
-dlg:2823	text	rec:5244	149	{face:02702}{spk:01}ポリジェンヌ「なにをかぎまわっているの？　タイホされたくなければ、静かにしてなさい」{wait}		
-dlg:2824	text	rec:5246	149	{face:02103}{spk:01}秘書ジェーン「ええ、トモミさんには、{br}　署長としてさっそくきんむしていただいてますわ。{wait}		
-dlg:2825	text	rec:5247	149	{spk:01}　ご心配にはおよびませんし、調べることなどなにもありません」{wait}		
-dlg:2826	text	rec:5249	149	{face:02702}{face:10001}{face:30201}{spk:01}ポリジェンヌ「こちらではなにもお答えできることはありません」{wait}		
-dlg:2827	text	rec:5250	149	{face:10012}{spk:02}ユウキ「トモミ署長にお会いしたいのです」{wait}		
-dlg:2828	text	rec:5251	149	{spk:01}ポリジェンヌ「男ごときに、会えるお方ではありません」{wait}		
-dlg:2829	text	rec:5252	149	{spk:02}ユウキ「―――いつの間にそんなえらくなったんですか；―――」{wait}		
-dlg:2830	text	rec:5254	149	{face:30202}{spk:04}ギリガン「ここのワークテカも反乱にいっちまったのか、しょうがねえ、おれがやる！{br}　テカども、並べ！」{wait}		
-dlg:2831	text	rec:5256	149	{face:10001}{face:30204}{spk:04}ギリガン「よし、やるか。{br}　市民かくめいバンザイだ！」{wait}		
-dlg:2832	text	rec:5257	149	{face:10010}{spk:02}ユウキ「行こう、ブランク！」{wait}		
-dlg:2833	text	rec:5260	149	{face:00505}{face:10001}{spk:01}市長「市民がさわいでいる。{br}　テカ反乱がおさまらないのは、私のせいだと言うんだ」{wait}		
-dlg:2834	text	rec:5261	149	{face:10002}{spk:02}ユウキ「そんなことはありません」{wait}		
-dlg:2835	text	rec:5262	149	{face:00504}{spk:01}市長「そ、そうだよな？{br}　ユウキ君は分かってくれるんだな。{br}　せんきょでは私に一ぴょうをたのむよ」{wait}		
-dlg:2836	text	rec:5263	149	{face:10005}{spk:02}ユウキ「もみ手はやめてください；{br}　ぼくはまだせんきょ権がないし」{wait}		
-dlg:2837	text	rec:5264	149	{spk:01}市長「あ？　そんなに子供だった？」{wait}		
-dlg:2838	text	rec:5267	149	{face:00502}{spk:01}市長「ほかのシティにさきがけて反乱事件をかいけつすれば、次のせんきょも安心だな。{br}　よろしくたのむよ！」{wait}		
-dlg:2839	text	rec:5270	149	{face:01004}{face:10001}{face:20101}{spk:01}リアナ「ちょっと！　ブランク様は？{br}　デート一回のやくそくがあるでしょ？！」{wait}		
-dlg:2840	text	rec:5271	149	{face:10004}{spk:02}ユウキ「ええ、非番になったら一日中使ってください」{wait}		
-dlg:2841	text	rec:5272	149	{face:01003}{spk:01}リアナ「ブランク様の非番っていつ？」{wait}		
-dlg:2842	text	rec:5273	149	{face:10012}{spk:02}ユウキ「いまのところ予定はないですね。{br}　テカなので休みがいらないんですよ」{wait}		
-dlg:2843	text	rec:5275	149	{spk:01}リアナ「え・・・」{wait}		
-dlg:2844	text	rec:5279	149	{face:01003}{face:10001}{face:20101}{spk:01}リアナ「うらの店で婦人警官の服を売ってるの。{br}　ブランク様は気に入るかしら？」{wait}		
-dlg:2845	text	rec:5280	149	{face:10005}{spk:02}ユウキ「あの、そういうのは、買わない方がいいと思います」{wait}		
-dlg:2846	text	rec:5281	149	{face:20104}{spk:03}トモミ「とくに『うらの店』ってのが、ずいぶんあやしい；{br}　たぶん、スカートが短くなってますよ」{wait}		
-dlg:2847	text	rec:5284	149	{face:02502}{face:10001}{spk:01}保母マイコ「本当ですか、エミコさんがぶじに・・・」{wait}		
-dlg:2848	text	rec:5285	149	{face:10004}{spk:02}ユウキ「少しケガをしていましたが、心配ありません。{br}　子供たちにもつたえておいてください」{wait}		
-dlg:2849	text	rec:5288	149	{face:02502}{spk:01}保母マイコ「エミコさんがぶじに・・・{br}　ありがとうございました」{wait}		
-dlg:2850	text	rec:5291	149	{face:01104}{face:10001}{face:20101}{spk:01}ペータ「みまいですか―――{br}　リアナはきてくれないんですか？{br}　きらわれちゃったかな・・・」{wait}		
-dlg:2851	text	rec:5294	149	{face:01104}{face:10001}{face:20101}{spk:01}ペータ「き、きらわれちゃったかなあ・・・{br}　うーん・・・」{wait}		
-dlg:2852	text	rec:5295	149	{face:20115}{spk:03}トモミ「うじうじしてるとよけいきらわれるわよ―――」{wait}		
-dlg:2853	text	rec:5297	149	{face:01402}{face:10001}{spk:01}ドメステカ「入れるとこ見つけたんですか。　じゃあ、ま、がんばってくださあい」{wait}		
-dlg:2854	text	rec:5298	149	{face:10012}{spk:02}ユウキ「なんで目をそらすんだい」{wait}		
-dlg:2855	text	rec:5299	149	{spk:01}ドメステカ「んー、べつにい・・・」{wait}		
-dlg:2856	text	rec:5301	149	{face:01202}{spk:01}ワークテカ「はあ、{br}　このシティではかたみがせまいです、{br}　ぼくみたいな男性型は・・・」{wait}		
-dlg:2857	text	rec:5303	149	{face:01202}{spk:01}ワークテカ「訓練ごくろうさまです」{wait}		
-dlg:2858	text	rec:5306	149	{face:01202}{spk:01}ワークテカ「訓練ごくろうさまです。{br}　あの、トモミさんあてに、お家からにもつがとどいてますけど」{wait}		
-dlg:2859	text	rec:5307	149	{face:20115}{spk:03}トモミ「あたしに？{br}　なんでここに」{wait}		
-dlg:2860	text	rec:5308	149	{spk:01}ワークテカ「ドメステカのパーツです。{br}　ここで組み立ててお渡しするようにとの　ことでしたが」{wait}		
-dlg:2861	text	rec:5309	149	{face:20106}{spk:03}トモミ「屋敷のお手伝いさんだわ。{br}　さてはおじいちゃんね；{br}　身の回りのことぐらい一人でするって；」{wait}		
-dlg:2862	text	rec:5310	149	{face:30204}{spk:04}ギリガン「いいじゃねえか。{br}　さっそく組み立てて使おうぜ！{br}　どんな武器が使える？」{wait}		
-dlg:2863	text	rec:5311	149	{face:20115}{spk:03}トモミ「殺虫剤ぐらいしか使えないわよ」{wait}		
-dlg:2864	text	rec:5313	149	ドメステカのボディを{br}　手に入れました。{wait}		
-dlg:2865	text	rec:5315	149	右腕『虫よけピストル』を{br}　手に入れました。{wait}		
-dlg:2866	text	rec:5317	149	左腕『パンプキンボム』を{br}　手に入れました。{wait}		
-dlg:2867	text	rec:5319	149	パソコプ『マチルダ』を{br}　手に入れました。{wait}		
-dlg:2868	text	rec:5322	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}		
-dlg:2869	text	rec:5325	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}		
-dlg:2870	text	rec:5327	149	{face:01202}{spk:01}ワークテカ「対地パワーアップを売って良いと将軍に言われています。{br}　２０，０００だけど、買います？」{wait}		
-dlg:2871	text	rec:5330	149	{spk:01}ワークテカ「はいどうぞ。{br}　将軍の口ききだから、とくべつですよ」{wait}		
+dlg:2816	text	rec:5235	149	{face:02702}{face:10012}{face:30201}{spk:02}ユウキ「聞きますけど、マーマレード警察に『署長』っているんですか？」{wait}	{face:02702}{face:10012}{face:30201}{spk:02}Yuki: "May I ask, does the Marmalade police have a 'Chief'?"{wait}	
+dlg:2817	text	rec:5236	149	{spk:01}ポリジェンヌ「いいえ。{br}　ハンナ市長が、署をまかせられる女性をさがしているところです」{wait}	{spk:01}Polijenne: "No. Mayor Hanna is looking for a woman she can entrust the station to."{wait}	
+dlg:2818	text	rec:5237	149	{face:10007}{spk:02}ユウキ「やっぱり・・・」{wait}	{face:10007}{spk:02}Yuki: "I thought so..."{wait}	
+dlg:2819	text	rec:5238	149	{spk:01}ポリジェンヌ「ではこちらも聞きましょう。{br}　男のくせに、なにをかぎまわっているの？{wait}	{spk:01}Polijenne: "Then let me ask you something. What are you, a mere man, snooping around for?{wait}	
+dlg:2820	text	rec:5239	149	{spk:01}　タイホされたくなければ、男はしずかにしていなさい」{wait}	{spk:01}If you don't want to be arrested, men should keep quiet."{wait}	
+dlg:2821	text	rec:5240	149	{face:10005}{spk:02}ユウキ「・・・男にきびしいシティだな；」{wait}	{face:10005}{spk:02}Yuki: "...This City is tough on men."{wait}	
+dlg:2822	text	rec:5243	149	{face:10012}{spk:02}ユウキ「こちらでテカ反乱は起きてないのですか？」{wait}	{face:10012}{spk:02}Yuki: "Hasn't there been a Teka revolt here?"{wait}	
+dlg:2823	text	rec:5244	149	{face:02702}{spk:01}ポリジェンヌ「なにをかぎまわっているの？　タイホされたくなければ、静かにしてなさい」{wait}	{face:02702}{spk:01}Polijenne: "What are you snooping around for? If you don't want to be arrested, keep quiet."{wait}	
+dlg:2824	text	rec:5246	149	{face:02103}{spk:01}秘書ジェーン「ええ、トモミさんには、{br}　署長としてさっそくきんむしていただいてますわ。{wait}	{face:02103}{spk:01}Secretary Jane: "Yes, Tomomi-san has already started work as our Chief.{wait}	
+dlg:2825	text	rec:5247	149	{spk:01}　ご心配にはおよびませんし、調べることなどなにもありません」{wait}	{spk:01}There's no need to worry, and nothing for you to investigate."{wait}	
+dlg:2826	text	rec:5249	149	{face:02702}{face:10001}{face:30201}{spk:01}ポリジェンヌ「こちらではなにもお答えできることはありません」{wait}	{face:02702}{face:10001}{face:30201}{spk:01}Polijenne: "There is nothing we can tell you here."{wait}	
+dlg:2827	text	rec:5250	149	{face:10012}{spk:02}ユウキ「トモミ署長にお会いしたいのです」{wait}	{face:10012}{spk:02}Yuki: "I'd like to see Chief Tomomi."{wait}	
+dlg:2828	text	rec:5251	149	{spk:01}ポリジェンヌ「男ごときに、会えるお方ではありません」{wait}	{spk:01}Polijenne: "She is not someone a mere man may see."{wait}	
+dlg:2829	text	rec:5252	149	{spk:02}ユウキ「―――いつの間にそんなえらくなったんですか；―――」{wait}	{spk:02}Yuki: "--Since when did she get so important?--"{wait}	
+dlg:2830	text	rec:5254	149	{face:30202}{spk:04}ギリガン「ここのワークテカも反乱にいっちまったのか、しょうがねえ、おれがやる！{br}　テカども、並べ！」{wait}	{face:30202}{spk:04}Gilligan: "The Workteka here went over to the revolt too? Fine, I'll do it! Line up, Teka!"{wait}	
+dlg:2831	text	rec:5256	149	{face:10001}{face:30204}{spk:04}ギリガン「よし、やるか。{br}　市民かくめいバンザイだ！」{wait}	{face:10001}{face:30204}{spk:04}Gilligan: "All right, let's do this. Long live the citizens' revolution!"{wait}	
+dlg:2832	text	rec:5257	149	{face:10010}{spk:02}ユウキ「行こう、ブランク！」{wait}	{face:10010}{spk:02}Yuki: "Let's go, Blank!"{wait}	
+dlg:2833	text	rec:5260	149	{face:00505}{face:10001}{spk:01}市長「市民がさわいでいる。{br}　テカ反乱がおさまらないのは、私のせいだと言うんだ」{wait}	{face:00505}{face:10001}{spk:01}Mayor: "The citizens are in an uproar. They say it's my fault the Teka Revolt won't die down."{wait}	
+dlg:2834	text	rec:5261	149	{face:10002}{spk:02}ユウキ「そんなことはありません」{wait}	{face:10002}{spk:02}Yuki: "That's not true."{wait}	
+dlg:2835	text	rec:5262	149	{face:00504}{spk:01}市長「そ、そうだよな？{br}　ユウキ君は分かってくれるんだな。{br}　せんきょでは私に一ぴょうをたのむよ」{wait}	{face:00504}{spk:01}Mayor: "I-is that so? You understand me, Yuki-kun. I'm counting on your vote in the election."{wait}	
+dlg:2836	text	rec:5263	149	{face:10005}{spk:02}ユウキ「もみ手はやめてください；{br}　ぼくはまだせんきょ権がないし」{wait}	{face:10005}{spk:02}Yuki: "Please stop rubbing your hands. Besides, I can't vote yet."{wait}	
+dlg:2837	text	rec:5264	149	{spk:01}市長「あ？　そんなに子供だった？」{wait}	{spk:01}Mayor: "Eh? You're that young?"{wait}	
+dlg:2838	text	rec:5267	149	{face:00502}{spk:01}市長「ほかのシティにさきがけて反乱事件をかいけつすれば、次のせんきょも安心だな。{br}　よろしくたのむよ！」{wait}	{face:00502}{spk:01}Mayor: "If we solve the revolt before any other City does, the next election is in the bag. I'm counting on you!"{wait}	
+dlg:2839	text	rec:5270	149	{face:01004}{face:10001}{face:20101}{spk:01}リアナ「ちょっと！　ブランク様は？{br}　デート一回のやくそくがあるでしょ？！」{wait}	{face:01004}{face:10001}{face:20101}{spk:01}Riana: "Hey! Where's Blank-sama? You promised me one date, didn't you?!"{wait}	
+dlg:2840	text	rec:5271	149	{face:10004}{spk:02}ユウキ「ええ、非番になったら一日中使ってください」{wait}	{face:10004}{spk:02}Yuki: "Yes. When he's off duty, you can have him all day."{wait}	
+dlg:2841	text	rec:5272	149	{face:01003}{spk:01}リアナ「ブランク様の非番っていつ？」{wait}	{face:01003}{spk:01}Riana: "When is Blank-sama off duty?"{wait}	
+dlg:2842	text	rec:5273	149	{face:10012}{spk:02}ユウキ「いまのところ予定はないですね。{br}　テカなので休みがいらないんですよ」{wait}	{face:10012}{spk:02}Yuki: "Nothing's scheduled for now. He's a Teka, so he doesn't need days off."{wait}	
+dlg:2843	text	rec:5275	149	{spk:01}リアナ「え・・・」{wait}	{spk:01}Riana: "What..."{wait}	
+dlg:2844	text	rec:5279	149	{face:01003}{face:10001}{face:20101}{spk:01}リアナ「うらの店で婦人警官の服を売ってるの。{br}　ブランク様は気に入るかしら？」{wait}	{face:01003}{face:10001}{face:20101}{spk:01}Riana: "The shop out back sells policewoman uniforms. Would Blank-sama like it?"{wait}	
+dlg:2845	text	rec:5280	149	{face:10005}{spk:02}ユウキ「あの、そういうのは、買わない方がいいと思います」{wait}	{face:10005}{spk:02}Yuki: "Um, I don't think you should buy that kind of thing."{wait}	
+dlg:2846	text	rec:5281	149	{face:20104}{spk:03}トモミ「とくに『うらの店』ってのが、ずいぶんあやしい；{br}　たぶん、スカートが短くなってますよ」{wait}	{face:20104}{spk:03}Tomomi: "Especially from a 'shop out back.' That's really fishy! I bet the skirts are shorter."{wait}	
+dlg:2847	text	rec:5284	149	{face:02502}{face:10001}{spk:01}保母マイコ「本当ですか、エミコさんがぶじに・・・」{wait}	{face:02502}{face:10001}{spk:01}Teacher Maiko: "Really? Emiko-san is safe..."{wait}	
+dlg:2848	text	rec:5285	149	{face:10004}{spk:02}ユウキ「少しケガをしていましたが、心配ありません。{br}　子供たちにもつたえておいてください」{wait}	{face:10004}{spk:02}Yuki: "She was hurt a little, but there's nothing to worry about. Please tell the children too."{wait}	
+dlg:2849	text	rec:5288	149	{face:02502}{spk:01}保母マイコ「エミコさんがぶじに・・・{br}　ありがとうございました」{wait}	{face:02502}{spk:01}Teacher Maiko: "Emiko-san is safe... Thank you so much."{wait}	
+dlg:2850	text	rec:5291	149	{face:01104}{face:10001}{face:20101}{spk:01}ペータ「みまいですか―――{br}　リアナはきてくれないんですか？{br}　きらわれちゃったかな・・・」{wait}	{face:01104}{face:10001}{face:20101}{spk:01}Peta: "Visiting me-- Isn't Riana coming? Maybe she hates me now..."{wait}	
+dlg:2851	text	rec:5294	149	{face:01104}{face:10001}{face:20101}{spk:01}ペータ「き、きらわれちゃったかなあ・・・{br}　うーん・・・」{wait}	{face:01104}{face:10001}{face:20101}{spk:01}Peta: "M-maybe she hates me now... Hmm..."{wait}	
+dlg:2852	text	rec:5295	149	{face:20115}{spk:03}トモミ「うじうじしてるとよけいきらわれるわよ―――」{wait}	{face:20115}{spk:03}Tomomi: "Moping around will only make her hate you more--"{wait}	
+dlg:2853	text	rec:5297	149	{face:01402}{face:10001}{spk:01}ドメステカ「入れるとこ見つけたんですか。　じゃあ、ま、がんばってくださあい」{wait}	{face:01402}{face:10001}{spk:01}Domesteka: "You found a way in? Well then, good luck!"{wait}	
+dlg:2854	text	rec:5298	149	{face:10012}{spk:02}ユウキ「なんで目をそらすんだい」{wait}	{face:10012}{spk:02}Yuki: "Why are you looking away?"{wait}	
+dlg:2855	text	rec:5299	149	{spk:01}ドメステカ「んー、べつにい・・・」{wait}	{spk:01}Domesteka: "Hmm, no reason..."{wait}	
+dlg:2856	text	rec:5301	149	{face:01202}{spk:01}ワークテカ「はあ、{br}　このシティではかたみがせまいです、{br}　ぼくみたいな男性型は・・・」{wait}	{face:01202}{spk:01}Workteka: "Sigh... It's hard to hold your head up in this City, for a male model like me..."{wait}	
+dlg:2857	text	rec:5303	149	{face:01202}{spk:01}ワークテカ「訓練ごくろうさまです」{wait}	{face:01202}{spk:01}Workteka: "Thank you for your hard work in training."{wait}	
+dlg:2858	text	rec:5306	149	{face:01202}{spk:01}ワークテカ「訓練ごくろうさまです。{br}　あの、トモミさんあてに、お家からにもつがとどいてますけど」{wait}	{face:01202}{spk:01}Workteka: "Thank you for your hard work in training. Um, a package came for Tomomi-san from home."{wait}	
+dlg:2859	text	rec:5307	149	{face:20115}{spk:03}トモミ「あたしに？{br}　なんでここに」{wait}	{face:20115}{spk:03}Tomomi: "For me? Why here?"{wait}	
+dlg:2860	text	rec:5308	149	{spk:01}ワークテカ「ドメステカのパーツです。{br}　ここで組み立ててお渡しするようにとの　ことでしたが」{wait}	{spk:01}Workteka: "Domesteka parts. I was told to assemble it here and hand it over."{wait}	
+dlg:2861	text	rec:5309	149	{face:20106}{spk:03}トモミ「屋敷のお手伝いさんだわ。{br}　さてはおじいちゃんね；{br}　身の回りのことぐらい一人でするって；」{wait}	{face:20106}{spk:03}Tomomi: "It's our mansion's maid. This is Grandpa's doing! I told him I can look after myself!"{wait}	
+dlg:2862	text	rec:5310	149	{face:30204}{spk:04}ギリガン「いいじゃねえか。{br}　さっそく組み立てて使おうぜ！{br}　どんな武器が使える？」{wait}	{face:30204}{spk:04}Gilligan: "Who cares? Let's put it together and use it! What weapons can it use?"{wait}	
+dlg:2863	text	rec:5311	149	{face:20115}{spk:03}トモミ「殺虫剤ぐらいしか使えないわよ」{wait}	{face:20115}{spk:03}Tomomi: "Bug spray, and that's about it."{wait}	
+dlg:2864	text	rec:5313	149	ドメステカのボディを{br}　手に入れました。{wait}	Got the Domesteka body.{wait}	
+dlg:2865	text	rec:5315	149	右腕『虫よけピストル』を{br}　手に入れました。{wait}	Got the right arm{br}'Bug Pistol.'{wait}	
+dlg:2866	text	rec:5317	149	左腕『パンプキンボム』を{br}　手に入れました。{wait}	Got the left arm{br}'Pumpkin Bomb.'{wait}	
+dlg:2867	text	rec:5319	149	パソコプ『マチルダ』を{br}　手に入れました。{wait}	Got the Pasocop{br}'Matilda.'{wait}	
+dlg:2868	text	rec:5322	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}	{face:01202}{spk:01}Workteka: "Thank you for your hard work."{wait}	
+dlg:2869	text	rec:5325	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}	{face:01202}{spk:01}Workteka: "Thank you for your hard work."{wait}	
+dlg:2870	text	rec:5327	149	{face:01202}{spk:01}ワークテカ「対地パワーアップを売って良いと将軍に言われています。{br}　２０，０００だけど、買います？」{wait}	{face:01202}{spk:01}Workteka: "The General said I may sell you an Anti-Ground Power Up. It's 20,000 yen. Will you buy it?"{wait}	
+dlg:2871	text	rec:5330	149	{spk:01}ワークテカ「はいどうぞ。{br}　将軍の口ききだから、とくべつですよ」{wait}	{spk:01}Workteka: "Here you are. The General put in a word, so this is special."{wait}	
 dlg:2872	text	rec:5333	149	オプション『対地パワーアップ』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Power Up.'{wait}	
-dlg:2873	text	rec:5336	149	{spk:01}ワークテカ「あ、お金ないっすか」{wait}		
-dlg:2874	text	rec:5340	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}		
-dlg:2875	text	rec:5342	149	{face:01202}{spk:01}ワークテカ「いなかの町工場ですが、ふつうのメンテぐらいはできますよ」{wait}		
-dlg:2876	text	rec:5344	149	{face:10001}{face:20101}{face:30210}{spk:04}ギリガン「パトバンじゅんびよし！」{wait}		
-dlg:2877	text	rec:5345	149	{face:20109}{spk:03}トモミ「地上管制じゅんびよし。{br}{face:20111}　行きましょう」{wait}		
-dlg:2878	text	rec:5355	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ここまできて帰る気か？{br}　反対」{wait}		
+dlg:2873	text	rec:5336	149	{spk:01}ワークテカ「あ、お金ないっすか」{wait}	{spk:01}Workteka: "Oh, no money?"{wait}	
+dlg:2874	text	rec:5340	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}	{face:01202}{spk:01}Workteka: "Thank you for your hard work."{wait}	
+dlg:2875	text	rec:5342	149	{face:01202}{spk:01}ワークテカ「いなかの町工場ですが、ふつうのメンテぐらいはできますよ」{wait}	{face:01202}{spk:01}Workteka: "We're just a country workshop, but we can do ordinary maintenance."{wait}	
+dlg:2876	text	rec:5344	149	{face:10001}{face:20101}{face:30210}{spk:04}ギリガン「パトバンじゅんびよし！」{wait}	{face:10001}{face:20101}{face:30210}{spk:04}Gilligan: "Patrol van ready!"{wait}	
+dlg:2877	text	rec:5345	149	{face:20109}{spk:03}トモミ「地上管制じゅんびよし。{br}{face:20111}　行きましょう」{wait}	{face:20109}{spk:03}Tomomi: "Ground control ready. {face:20111}Let's go."{wait}	
+dlg:2878	text	rec:5355	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ここまできて帰る気か？{br}　反対」{wait}	{face:10001}{face:20101}{face:30206}{spk:04}Gilligan: "Ya wanna go back after coming this far? I'm against it."{wait}	
 dlg:2879	text	rec:5356	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
 dlg:2880	text	rec:5357	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
-dlg:2881	text	rec:5358	149	{face:20105}{spk:03}トモミ「めずらしく全員いっちしたわね」{wait}		
+dlg:2881	text	rec:5358	149	{face:20105}{spk:03}トモミ「めずらしく全員いっちしたわね」{wait}	{face:20105}{spk:03}Tomomi: "For once we all agree."{wait}	
 dlg:2882	text	rec:5364	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個１０，０００」{wait}		
 dlg:2883	text	rec:5365	149	{face:30206}{spk:04}ギリガン「１０，０００だと？{br}　おれたちがほしがると思って、{br}　足元見てねえか？」{wait}		
 dlg:2884	text	rec:5368	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個２０，０００」{wait}		
 dlg:2885	text	rec:5369	149	{face:30207}{spk:04}ギリガン「２０，０００！？{br}　値上げしてねえか、値上げ！」{wait}		
 dlg:2886	text	rec:5374	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
-dlg:2887	text	rec:5379	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}		
+dlg:2887	text	rec:5379	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Bullet Pack.'{wait}	
 dlg:2888	text	rec:5384	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
-dlg:2889	text	rec:5388	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}		
+dlg:2889	text	rec:5388	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Bullet Pack.'{wait}	
 dlg:2890	text	rec:5389	149	{spk:01}「まいど！」{wait}		
 dlg:2891	text	rec:5393	149	{face:01402}{spk:01}みーちゃん「ようこそいらっしゃいませー。　当牧場とくせいのアイスクリームはいかがですかー？♪」{wait}		
 dlg:2892	text	rec:5394	149	{face:20105}{spk:03}トモミ「きゃー♪　たべる食べるー♪」{wait}		
