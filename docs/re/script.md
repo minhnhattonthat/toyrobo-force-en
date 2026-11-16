@@ -42,6 +42,23 @@ Addresses for the dump in `rom.sha1`. Listing: `python -X utf8 tools/script_dump
 - Story order: sections 0-23 at records 5..4582; the last story battle is battle 19 (record 4719); record 4794
   goes to the ending (5412). Records 4800-5538 are shop/workshop subroutines and the post-game.
 
+## Credits rolls (verified: disassembly + `tools/debug/credmode.lua`)
+- The main loop (0x0800065E) runs a credits roll while bit 5 of struct+0x284C is set; struct+0x1F0D picks it:
+  **1 -> 0x08000764** (the staff roll; states 0-27+ in struct+0x1F0E), **0 -> 0x08001FB4** (a 7-state cast card:
+  Yuki Tachibana / Tomomi Attenborough / Gilligan Brock / "And" Blank / "In" Toyrobo Force; jump table 0x08001FDC).
+  Op 41 sets the mode to 1, op 42 to 0 (handlers 0x0800A628 / 0x0800A634). Op 14 3 (record 4794, the only op 14
+  3) starts the roll and is followed by goto 5412 = op 41, so the mode-0 card never runs in game; op 42 is only
+  record 0. `credmode.lua --var MODE0=1` forces it at REC=4794 (shot `work/qa/credits_andin.png`: both fit).
+- Op 14 args: 3 = credits (0x0800D068(2,1)), 6 (87 records) and 7 (118) are other screen effects; 2, 4, 5 unused.
+
+## Factory, parts and save RAM (verified in game: pokes + `tools/debug/descs.lua`, `savefail.lua`)
+- Parts owned (u8 counts, cap 99, op 31 = 0x0800D21C): struct+0x1D47 (8 bodies), +0x1D4F (39 right arms), +0x1D76
+  (19 left arms), +0x1D89 (8 Pasocops), +0x1D91 (options). Money u32 +0x1D0C (0x0300255C).
+- Save/load menu state +0x1F0E; factory keeper (desc variant) +0x1F0C; factory desc n = 0x393EF0 +
+  (3*msg+keeper)*0x58. sprintf 0x08025F90. Arm data: right 0x393600, left 0x393AE0 (0x20 each: power +0x16, ways
+  +0x17, shots +0x18).
+- SRAM log n at 0x0E000000 + n*0x640 (4 copies at +k*0x190; hours u16 +0x10, minutes +0x12).
+
 ## Battle (verified: watch on 0x0300275C, disassembly)
 - Battle end handlers: **win 0x080138C8** (draws the sortie report 出撃報告書 with the result balloon, G10; stores
   +0x1F0C = 1), **loss 0x0801394C** (+0x1F0C = 0); jump table 0x0801381C indexed by 0x03005070. Battle 0 (training
