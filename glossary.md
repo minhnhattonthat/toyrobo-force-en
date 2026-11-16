@@ -112,8 +112,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ファイアーシールド | Fire Shield | | | |
 | マーマーライト | Murmurlight | | a weapon part | |
 | ベローニング | Belloning | | anti-ground rifle | |
-| 対空 | anti-air | | | |
-| 対地 | anti-ground | | | |
+| 対空 | anti-air / Air Power Up | | item 対空パワーアップ: the items window shows 14 letters | |
+| 対地 | anti-ground / Ground Shotgun / Land Power Up | | parts 18 / items 14 letters: 対地ショットガン, 対地パワーアップ | |
 | タイホ | arrest | | | |
 
 ## Decisions from earlier batches

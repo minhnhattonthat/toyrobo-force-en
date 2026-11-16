@@ -2,84 +2,84 @@ id	kind	where	max	jp	en	notes
 names:0	text	@393560	13	ブランク		
 names:1	text	@393574	13	ポリステカ		
 names:2	text	@393588	13	ワークテカ		
-names:3	text	@39359C	13	バンクテカ		
-names:4	text	@3935B0	13	ソルジャー		
-names:5	text	@3935C4	13	ポリジェンヌ		
-names:6	text	@3935D8	13	ドメステカ		
-names:7	text	@3935EC	13	マーケテカ		
-parts_a:1	text	@393620	21	虫よけピストル		
-parts_a:2	text	@393640	21	フライパン		
-parts_a:3	text	@393660	21	スマイル￥０		
-parts_a:4	text	@393680	21	ピストルライター		
-parts_a:5	text	@3936A0	21	キャッシュカード		
-parts_a:6	text	@3936C0	21	バンクレーザー		
-parts_a:7	text	@3936E0	21	ドライバー		
-parts_a:8	text	@393700	21	パイルガン		
-parts_a:9	text	@393720	21	ワルサーＰ３		
-parts_a:10	text	@393740	21	カバメント		
-parts_a:11	text	@393760	21	トライマクナム		
-parts_a:12	text	@393780	21	マーマーライト		
-parts_a:13	text	@3937A0	21	オサルトライフル		
-parts_a:14	text	@3937C0	21	鉄骨カッター		
-parts_a:15	text	@3937E0	21	シューマイザー		
-parts_a:16	text	@393800	21	クラッカー		
-parts_a:17	text	@393820	21	トライバズーカ		
-parts_a:18	text	@393840	21	ダイモン		
-parts_a:19	text	@393860	21	ガンオブロード		
-parts_a:20	text	@393880	21	ファインレーザー		
-parts_a:21	text	@3938A0	21	パルスレーザー		
-parts_a:22	text	@3938C0	21	バズーカ		
-parts_a:23	text	@3938E0	21	マネーミサイル		
-parts_a:24	text	@393900	21	カチューシャ		
-parts_a:25	text	@393920	21	ドリルミサイル		
-parts_a:26	text	@393940	21	サイドワインダー		
-parts_a:27	text	@393960	21	アイススマッシュ		
-parts_a:28	text	@393980	21	フェニックス		
-parts_a:29	text	@3939A0	21	キッチンバルカン		
-parts_a:30	text	@3939C0	21	ビショップ		
-parts_a:31	text	@3939E0	21	シルバー		
-parts_a:32	text	@393A00	21	スティンガー		
-parts_a:33	text	@393A20	21	デリンジャー		
-parts_a:34	text	@393A40	21	ハンドレーザー		
-parts_a:35	text	@393A60	21	エアガン		
-parts_a:36	text	@393A80	21	ベルファイア		
-parts_a:37	text	@393AA0	21	サラマンダ		
-parts_a:38	text	@393AC0	21	スワローレーザー		
-parts_b:1	text	@393B00	21	パンプキンボム		
-parts_b:2	text	@393B20	21	ニンジンミッソー		
-parts_b:3	text	@393B40	21	小銭バルカン		
-parts_b:4	text	@393B60	21	火炎ビン		
-parts_b:5	text	@393B80	21	スカットミサイル		
-parts_b:6	text	@393BA0	21	カネホーク		
-parts_b:7	text	@393BC0	21	ブロックバスター		
-parts_b:8	text	@393BE0	21	エグゾソ		
-parts_b:9	text	@393C00	21	ナパーム		
-parts_b:10	text	@393C20	21	ハンドグレネード		
-parts_b:11	text	@393C40	21	パイナップル		
-parts_b:12	text	@393C60	21	ベローニング		
-parts_b:13	text	@393C80	21	対地ショットガン		
-parts_b:14	text	@393CA0	21	グランドスラム		
-parts_b:15	text	@393CC0	21	ガトリング		
-parts_b:16	text	@393CE0	21	スマートボム		
-parts_b:17	text	@393D00	21	パロリオット		
-parts_b:18	text	@393D20	21	催涙弾		
-items_a:0	text	@393D40	17	エレファント		
-items_a:1	text	@393D58	17	タイプ９０		
-items_a:2	text	@393D70	17	コメット		
-items_a:3	text	@393D88	17	マチルダ		
-items_a:4	text	@393DA0	17	バレンタイン		
-items_a:5	text	@393DB8	17	クリスティ		
-items_a:6	text	@393DD0	17	タイガー		
-items_a:7	text	@393DE8	17	ファイアーフライ		
-items_b:1	text	@393E18	19	パワーシールド		
-items_b:2	text	@393E30	19	ファイアーシールド		
-items_b:3	text	@393E48	19	ミラーシールド		
-items_b:4	text	@393E60	19	ステルスシールド		
-items_b:5	text	@393E78	19	対空パワーアップ		
+names:3	text	@39359C	13	バンクテカ	Bankteka	
+names:4	text	@3935B0	13	ソルジャー	Soldier	
+names:5	text	@3935C4	13	ポリジェンヌ	Polijenne	
+names:6	text	@3935D8	13	ドメステカ	Domesteka	
+names:7	text	@3935EC	13	マーケテカ	Marketeka	
+parts_a:1	text	@393620	21	虫よけピストル	Bug Pistol	
+parts_a:2	text	@393640	21	フライパン	Frying Pan	
+parts_a:3	text	@393660	21	スマイル￥０	Smile: 0 Yen	
+parts_a:4	text	@393680	21	ピストルライター	Pistol Lighter	
+parts_a:5	text	@3936A0	21	キャッシュカード	Cash Card	
+parts_a:6	text	@3936C0	21	バンクレーザー	Bank Laser	
+parts_a:7	text	@3936E0	21	ドライバー	Screwdriver	
+parts_a:8	text	@393700	21	パイルガン	Pile Gun	
+parts_a:9	text	@393720	21	ワルサーＰ３	Walther P3	
+parts_a:10	text	@393740	21	カバメント	Government	
+parts_a:11	text	@393760	21	トライマクナム	Tri-Magnum	
+parts_a:12	text	@393780	21	マーマーライト	Murmurlight	
+parts_a:13	text	@3937A0	21	オサルトライフル	Apesault Rifle	
+parts_a:14	text	@3937C0	21	鉄骨カッター	Girder Cutter	
+parts_a:15	text	@3937E0	21	シューマイザー	Shumaizer	
+parts_a:16	text	@393800	21	クラッカー	Party Cracker	
+parts_a:17	text	@393820	21	トライバズーカ	Tri-Bazooka	
+parts_a:18	text	@393840	21	ダイモン	Daimon	
+parts_a:19	text	@393860	21	ガンオブロード	Gun of the Lord	
+parts_a:20	text	@393880	21	ファインレーザー	Fine Laser	
+parts_a:21	text	@3938A0	21	パルスレーザー	Pulse Laser	
+parts_a:22	text	@3938C0	21	バズーカ	Bazooka	
+parts_a:23	text	@3938E0	21	マネーミサイル	Money Missile	
+parts_a:24	text	@393900	21	カチューシャ	Katyusha	
+parts_a:25	text	@393920	21	ドリルミサイル	Drill Missile	
+parts_a:26	text	@393940	21	サイドワインダー	Sidewinder	
+parts_a:27	text	@393960	21	アイススマッシュ	Ice Smash	
+parts_a:28	text	@393980	21	フェニックス	Phoenix	
+parts_a:29	text	@3939A0	21	キッチンバルカン	Kitchen Vulcan	
+parts_a:30	text	@3939C0	21	ビショップ	Bishop	
+parts_a:31	text	@3939E0	21	シルバー	Silver	
+parts_a:32	text	@393A00	21	スティンガー	Stinger	
+parts_a:33	text	@393A20	21	デリンジャー	Derringer	
+parts_a:34	text	@393A40	21	ハンドレーザー	Hand Laser	
+parts_a:35	text	@393A60	21	エアガン	Air Gun	
+parts_a:36	text	@393A80	21	ベルファイア	Bellfire	
+parts_a:37	text	@393AA0	21	サラマンダ	Salamander	
+parts_a:38	text	@393AC0	21	スワローレーザー	Swallow Laser	
+parts_b:1	text	@393B00	21	パンプキンボム	Pumpkin Bomb	
+parts_b:2	text	@393B20	21	ニンジンミッソー	Carrot Missile	
+parts_b:3	text	@393B40	21	小銭バルカン	Pocket Change Gun	
+parts_b:4	text	@393B60	21	火炎ビン	Molotov Cocktail	
+parts_b:5	text	@393B80	21	スカットミサイル	Scud Missile	
+parts_b:6	text	@393BA0	21	カネホーク	Moneyhawk	
+parts_b:7	text	@393BC0	21	ブロックバスター	Blockbuster	
+parts_b:8	text	@393BE0	21	エグゾソ	Exoso	
+parts_b:9	text	@393C00	21	ナパーム	Napalm	
+parts_b:10	text	@393C20	21	ハンドグレネード	Hand Grenade	
+parts_b:11	text	@393C40	21	パイナップル	Pineapple	
+parts_b:12	text	@393C60	21	ベローニング	Belloning	
+parts_b:13	text	@393C80	21	対地ショットガン	Ground Shotgun	
+parts_b:14	text	@393CA0	21	グランドスラム	Grand Slam	
+parts_b:15	text	@393CC0	21	ガトリング	Gatling	
+parts_b:16	text	@393CE0	21	スマートボム	Smart Bomb	
+parts_b:17	text	@393D00	21	パロリオット	Paroriot	
+parts_b:18	text	@393D20	21	催涙弾	Tear Gas	
+items_a:0	text	@393D40	17	エレファント	Elephant	
+items_a:1	text	@393D58	17	タイプ９０	Type 90	
+items_a:2	text	@393D70	17	コメット	Comet	
+items_a:3	text	@393D88	17	マチルダ	Matilda	
+items_a:4	text	@393DA0	17	バレンタイン	Valentine	
+items_a:5	text	@393DB8	17	クリスティ	Christie	
+items_a:6	text	@393DD0	17	タイガー	Tiger	
+items_a:7	text	@393DE8	17	ファイアーフライ	Firefly	
+items_b:1	text	@393E18	19	パワーシールド	Power Shield	
+items_b:2	text	@393E30	19	ファイアーシールド	Fire Shield	
+items_b:3	text	@393E48	19	ミラーシールド	Mirror Shield	
+items_b:4	text	@393E60	19	ステルスシールド	Stealth Shield	
+items_b:5	text	@393E78	19	対空パワーアップ	Air Power Up	
 items_b:6	text	@393E90	19	対空バレットパック		
-items_b:7	text	@393EA8	19	対地パワーアップ		
+items_b:7	text	@393EA8	19	対地パワーアップ	Land Power Up	
 items_b:8	text	@393EC0	19	対地バレットパック		
-items_b:9	text	@393ED8	19	スピードアップ		
+items_b:9	text	@393ED8	19	スピードアップ	Speed Up	
 descs:0	text	@393EF0	87	　テカのメンテを行います。　　費用がかかりますが		
 descs:1	text	@393F48	87	　テカのメンテをするわよ。　　費用がかかるけどね		
 descs:2	text	@393FA0	87	　テカのメンテをするぜ。　　　金がかかるのはカクゴしな		

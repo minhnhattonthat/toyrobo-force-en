@@ -484,48 +484,48 @@ dlg:2878	text	rec:5355	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガ
 dlg:2879	text	rec:5356	149	{face:20102}{spk:03}トモミ「反対」{wait}	{face:20102}{spk:03}Tomomi: "Against."{wait}	
 dlg:2880	text	rec:5357	149	{face:10002}{spk:02}ユウキ「反対」{wait}	{face:10002}{spk:02}Yuki: "Against."{wait}	
 dlg:2881	text	rec:5358	149	{face:20105}{spk:03}トモミ「めずらしく全員いっちしたわね」{wait}	{face:20105}{spk:03}Tomomi: "For once we all agree."{wait}	
-dlg:2882	text	rec:5364	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個１０，０００」{wait}		
-dlg:2883	text	rec:5365	149	{face:30206}{spk:04}ギリガン「１０，０００だと？{br}　おれたちがほしがると思って、{br}　足元見てねえか？」{wait}		
-dlg:2884	text	rec:5368	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個２０，０００」{wait}		
-dlg:2885	text	rec:5369	149	{face:30207}{spk:04}ギリガン「２０，０００！？{br}　値上げしてねえか、値上げ！」{wait}		
+dlg:2882	text	rec:5364	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個１０，０００」{wait}	{face:01202}{spk:01}Workteka: "Bullet Packs just came in. How about one? Anti-Air or Anti-Ground, 10,000 yen each."{wait}	
+dlg:2883	text	rec:5365	149	{face:30206}{spk:04}ギリガン「１０，０００だと？{br}　おれたちがほしがると思って、{br}　足元見てねえか？」{wait}	{face:30206}{spk:04}Gilligan: "10,000? Ya figured we'd want 'em, so you're cashing in, huh?"{wait}	
+dlg:2884	text	rec:5368	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個２０，０００」{wait}	{face:01202}{spk:01}Workteka: "Bullet Packs just came in. How about one? Anti-Air or Anti-Ground, 20,000 yen each."{wait}	
+dlg:2885	text	rec:5369	149	{face:30207}{spk:04}ギリガン「２０，０００！？{br}　値上げしてねえか、値上げ！」{wait}	{face:30207}{spk:04}Gilligan: "20,000?! You raised the price! You raised it!"{wait}	
 dlg:2886	text	rec:5374	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
 dlg:2887	text	rec:5379	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Bullet Pack.'{wait}	
 dlg:2888	text	rec:5384	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
 dlg:2889	text	rec:5388	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Bullet Pack.'{wait}	
-dlg:2890	text	rec:5389	149	{spk:01}「まいど！」{wait}		
-dlg:2891	text	rec:5393	149	{face:01402}{spk:01}みーちゃん「ようこそいらっしゃいませー。　当牧場とくせいのアイスクリームはいかがですかー？♪」{wait}		
-dlg:2892	text	rec:5394	149	{face:20105}{spk:03}トモミ「きゃー♪　たべる食べるー♪」{wait}		
-dlg:2893	text	rec:5398	149	{face:10001}{face:01702}{spk:01}モーデル将軍「どうした、うかない顔だな。　戦力不足ででもなやんでいるのか。{wait}		
-dlg:2894	text	rec:5399	149	{spk:01}　工場へ行くがいい。{br}　対地パワーアップを買えるように、話を通しておいてやろう。{wait}		
-dlg:2895	text	rec:5401	149	{face:01703}{spk:01}　ほんとうなら他国人には売らないのだが、ほかならぬお前のことだからな」{wait}		
-dlg:2896	text	rec:5405	149	{spk:01}反対派「売上金は反戦運動の資金にさせてもらいますね♪」{wait}		
+dlg:2890	text	rec:5389	149	{spk:01}「まいど！」{wait}	{spk:01}"Thank you kindly!"{wait}	
+dlg:2891	text	rec:5393	149	{face:01402}{spk:01}みーちゃん「ようこそいらっしゃいませー。　当牧場とくせいのアイスクリームはいかがですかー？♪」{wait}	{face:01402}{spk:01}Mii-chan: "Welcome! How about some of our ranch's special ice cream?"{wait}	
+dlg:2892	text	rec:5394	149	{face:20105}{spk:03}トモミ「きゃー♪　たべる食べるー♪」{wait}	{face:20105}{spk:03}Tomomi: "Yay! I'll have some, I'll have some!"{wait}	
+dlg:2893	text	rec:5398	149	{face:10001}{face:01702}{spk:01}モーデル将軍「どうした、うかない顔だな。　戦力不足ででもなやんでいるのか。{wait}	{face:10001}{face:01702}{spk:01}General Mordel: "What's wrong? You look glum. Worried you lack firepower?{wait}	
+dlg:2894	text	rec:5399	149	{spk:01}　工場へ行くがいい。{br}　対地パワーアップを買えるように、話を通しておいてやろう。{wait}	{spk:01}Go to the factory. I'll arrange for you to buy an Anti-Ground Power Up.{wait}	
+dlg:2895	text	rec:5401	149	{face:01703}{spk:01}　ほんとうなら他国人には売らないのだが、ほかならぬお前のことだからな」{wait}	{face:01703}{spk:01}Normally we don't sell to foreigners, but you're a special case."{wait}	
+dlg:2896	text	rec:5405	149	{spk:01}反対派「売上金は反戦運動の資金にさせてもらいますね♪」{wait}	{spk:01}Opposition: "We'll put the money toward our anti-war movement!"{wait}	
 dlg:2897	text	rec:5408	149	オプション『対空パワーアップ』を{br}　手に入れました。{wait}	Got the option 'Anti-Air Power Up'.{wait}	
-dlg:2898	text	rec:5410	149	{spk:01}反対派「高いですか？{br}　いいねだんだと思うけどな」{wait}		
-dlg:2899	text	rec:5419	149	{face:00502}{spk:01}アドルフ市長「きみたちのおかげで、{br}次のせんきょも安心だ。{br}　いつまでも市長でいたいからな！」{wait}		
-dlg:2900	text	rec:5421	149	{face:00605}{spk:01}スミタ署長「たいしょく金がもらえる日までなにごともなくすごさねばな」{wait}		
-dlg:2901	text	rec:5423	149	{face:01008}{spk:01}リアナ「ブランク様！{br}　警官になったら、あたしとコンビを組んでいただけるんでしょう？！」{wait}		
-dlg:2902	text	rec:5428	149	{face:01105}{spk:01}ペータ「町の人たちが、親しみのもてる{br}おまわりさんだってほめてくれるんです♪」{wait}		
-dlg:2903	text	rec:5432	149	{face:02502}{spk:01}保母マイコ「おまわりさん、エミコさんを　たすけてくれてありがとうございました」{wait}		
-dlg:2904	text	rec:5442	149	{face:01502}{spk:01}フランボワーズ市長「ユウキ君のような警官をそだてた教官テカは、{br}　とてもしあわせでしょうね」{wait}		
-dlg:2905	text	rec:5444	149	{face:01302}{spk:01}ポリステカ「『テカ反乱事件』って、{br}なんだったんでしょう。{br}　なにかのゲームですかね？」{wait}		
-dlg:2906	text	rec:5463	149	{face:01302}{spk:01}ポリステカ「やあ、こそこそしてた人間警官じゃありませんか。{br}　なにをこわがっていたんです」{wait}		
-dlg:2907	text	rec:5465	149	{face:10004}{spk:02}ユウキ「今日は、カレーハンバーグにしようかな♪」{wait}		
-dlg:2908	text	rec:5466	149	{face:20107}{spk:03}トモミ「あたしはアップルパイにぃ、{br}　バームクーヘンにぃ・・・」{wait}		
-dlg:2909	text	rec:5467	149	{face:30205}{spk:04}ギリガン「お子様が・・・；」{wait}		
-dlg:2910	text	rec:5476	149	{face:01802}{spk:01}反対派「対空パワーアップ作ってるんです。　お一つ買っていきます？{br}　２０，０００の一割引、１８，０００」{wait}		
+dlg:2898	text	rec:5410	149	{spk:01}反対派「高いですか？{br}　いいねだんだと思うけどな」{wait}	{spk:01}Opposition: "Too expensive? I think it's a fair price."{wait}	
+dlg:2899	text	rec:5419	149	{face:00502}{spk:01}アドルフ市長「きみたちのおかげで、{br}次のせんきょも安心だ。{br}　いつまでも市長でいたいからな！」{wait}	{face:00502}{spk:01}Mayor Adolf: "Thanks to you, the next election is in the bag. I want to be mayor forever!"{wait}	
+dlg:2900	text	rec:5421	149	{face:00605}{spk:01}スミタ署長「たいしょく金がもらえる日までなにごともなくすごさねばな」{wait}	{face:00605}{spk:01}Chief Sumita: "I must get through without incident until the day I collect my pension."{wait}	
+dlg:2901	text	rec:5423	149	{face:01008}{spk:01}リアナ「ブランク様！{br}　警官になったら、あたしとコンビを組んでいただけるんでしょう？！」{wait}	{face:01008}{spk:01}Riana: "Blank-sama! When I'm an officer, you'll team up with me, won't you?!"{wait}	
+dlg:2902	text	rec:5428	149	{face:01105}{spk:01}ペータ「町の人たちが、親しみのもてる{br}おまわりさんだってほめてくれるんです♪」{wait}	{face:01105}{spk:01}Peta: "The townspeople praise me as a friendly officer!"{wait}	
+dlg:2903	text	rec:5432	149	{face:02502}{spk:01}保母マイコ「おまわりさん、エミコさんを　たすけてくれてありがとうございました」{wait}	{face:02502}{spk:01}Teacher Maiko: "Officers, thank you for saving Emiko-san."{wait}	
+dlg:2904	text	rec:5442	149	{face:01502}{spk:01}フランボワーズ市長「ユウキ君のような警官をそだてた教官テカは、{br}　とてもしあわせでしょうね」{wait}	{face:01502}{spk:01}Mayor Framboise: "The instructor Teka who trained an officer like Yuki-kun must be very happy."{wait}	
+dlg:2905	text	rec:5444	149	{face:01302}{spk:01}ポリステカ「『テカ反乱事件』って、{br}なんだったんでしょう。{br}　なにかのゲームですかね？」{wait}	{face:01302}{spk:01}Polisteka: "What was that 'Teka Revolt Incident' about? Some kind of game?"{wait}	
+dlg:2906	text	rec:5463	149	{face:01302}{spk:01}ポリステカ「やあ、こそこそしてた人間警官じゃありませんか。{br}　なにをこわがっていたんです」{wait}	{face:01302}{spk:01}Polisteka: "Well, if it isn't the sneaky human police. What were you so afraid of?"{wait}	
+dlg:2907	text	rec:5465	149	{face:10004}{spk:02}ユウキ「今日は、カレーハンバーグにしようかな♪」{wait}	{face:10004}{spk:02}Yuki: "I think I'll have curry with hamburger steak today!"{wait}	
+dlg:2908	text	rec:5466	149	{face:20107}{spk:03}トモミ「あたしはアップルパイにぃ、{br}　バームクーヘンにぃ・・・」{wait}	{face:20107}{spk:03}Tomomi: "I'll have apple pie, and Baumkuchen..."{wait}	
+dlg:2909	text	rec:5467	149	{face:30205}{spk:04}ギリガン「お子様が・・・；」{wait}	{face:30205}{spk:04}Gilligan: "Kids' menu..."{wait}	
+dlg:2910	text	rec:5476	149	{face:01802}{spk:01}反対派「対空パワーアップ作ってるんです。　お一つ買っていきます？{br}　２０，０００の一割引、１８，０００」{wait}	{face:01802}{spk:01}Opposition: "We make Anti-Air Power Ups. Want to buy one? 10% off 20,000 yen: 18,000 yen."{wait}	
 dlg:2911	text	rec:5483	149	{face:01202}{spk:01}ワークテカ「まいど、よそ者さん」{wait}	{face:01202}{spk:01}Workteka: "Thank you, Mister Outsider."{wait}	
-dlg:2912	text	rec:5494	149	{face:01302}{spk:01}ポリステカ「男女さべつのない、{br}　正しい町にしていこうと思っています」{wait}		
-dlg:2913	text	rec:5496	149	{face:20101}{face:01302}{spk:01}ポリステカ「われら男性型ポリステカ一同、トモミ署長のためなら{br}　命もかける決意でしたのに」{wait}		
-dlg:2914	text	rec:5497	149	{face:20105}{spk:03}トモミ「やっぱり、{br}　ここの署長やろうかなあ♪」{wait}		
+dlg:2912	text	rec:5494	149	{face:01302}{spk:01}ポリステカ「男女さべつのない、{br}　正しい町にしていこうと思っています」{wait}	{face:01302}{spk:01}Polisteka: "We want to make this a fair town, with no discrimination between men and women."{wait}	
+dlg:2913	text	rec:5496	149	{face:20101}{face:01302}{spk:01}ポリステカ「われら男性型ポリステカ一同、トモミ署長のためなら{br}　命もかける決意でしたのに」{wait}	{face:20101}{face:01302}{spk:01}Polisteka: "All of us male-model Polisteka were ready to lay down our lives for Chief Tomomi."{wait}	
+dlg:2914	text	rec:5497	149	{face:20105}{spk:03}トモミ「やっぱり、{br}　ここの署長やろうかなあ♪」{wait}	{face:20105}{spk:03}Tomomi: "Maybe I should be Chief here after all!"{wait}	
 dlg:2915	text	rec:5499	149	{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの英雄一同！」{wait}	{face:01202}{spk:01}Workteka: "Ah, the heroes of the Marmalade Revolution!"{wait}	
-dlg:2916	text	rec:5505	149	{face:02602}{spk:01}マーケテカ「当ホテルをご利用ですか？{br}　こちらにお名前とご住所を」{wait}		
-dlg:2917	text	rec:5506	149	{face:10012}{spk:02}ユウキ「・・・もしかして、秘書テカだったジェーン？」{wait}		
-dlg:2918	text	rec:5507	149	{spk:01}マーケテカ「は？」{wait}		
-dlg:2919	text	rec:5508	149	{spk:02}ユウキ「・・・ちがうのか。{br}　あ、泊まりにきたんじゃないから」{wait}		
-dlg:2920	text	rec:5509	149	{face:10000}{spk:01}マーケテカ「ありがとうございました」{wait}		
-dlg:2921	text	rec:5510	149	{spk:01}マーケテカ「・・・・・・ほんとうに、{br}　ありがとうございました」{wait}		
-dlg:2922	text	rec:5515	149	{face:02202}{spk:01}タック神父「エミコさんはお元気ですか？」{wait}		
-dlg:2923	text	rec:5521	149	{face:01402}{spk:01}ドメステカ「こんないなかによくいらっしゃいましたー」{wait}		
-dlg:2924	text	rec:5523	149	{face:10012}{spk:02}ユウキ「ここは入口というより、出口だな」{wait}		
-dlg:2925	text	rec:5525	149	{face:10012}{spk:02}ユウキ「ここらには・・・{br}　トカゲしかいない、にげよ；」{wait}		
-dlg:2926	text	rec:5529	149	{face:00303}{spk:01}ブランク「やっぱり、{br}　メンテなしで次いくんですか；」{wait}		
+dlg:2916	text	rec:5505	149	{face:02602}{spk:01}マーケテカ「当ホテルをご利用ですか？{br}　こちらにお名前とご住所を」{wait}	{face:02602}{spk:01}Marketeka: "Will you be staying at our hotel? Your name and address here, please."{wait}	
+dlg:2917	text	rec:5506	149	{face:10012}{spk:02}ユウキ「・・・もしかして、秘書テカだったジェーン？」{wait}	{face:10012}{spk:02}Yuki: "...Could you be Jane, who was the secretary Teka?"{wait}	
+dlg:2918	text	rec:5507	149	{spk:01}マーケテカ「は？」{wait}	{spk:01}Marketeka: "Pardon?"{wait}	
+dlg:2919	text	rec:5508	149	{spk:02}ユウキ「・・・ちがうのか。{br}　あ、泊まりにきたんじゃないから」{wait}	{spk:02}Yuki: "...Guess not. Oh, we're not here to stay."{wait}	
+dlg:2920	text	rec:5509	149	{face:10000}{spk:01}マーケテカ「ありがとうございました」{wait}	{face:10000}{spk:01}Marketeka: "Thank you very much."{wait}	
+dlg:2921	text	rec:5510	149	{spk:01}マーケテカ「・・・・・・ほんとうに、{br}　ありがとうございました」{wait}	{spk:01}Marketeka: "......Truly, thank you very much."{wait}	
+dlg:2922	text	rec:5515	149	{face:02202}{spk:01}タック神父「エミコさんはお元気ですか？」{wait}	{face:02202}{spk:01}Father Tuck: "How is Emiko-san doing?"{wait}	
+dlg:2923	text	rec:5521	149	{face:01402}{spk:01}ドメステカ「こんないなかによくいらっしゃいましたー」{wait}	{face:01402}{spk:01}Domesteka: "Welcome to our little country village!"{wait}	
+dlg:2924	text	rec:5523	149	{face:10012}{spk:02}ユウキ「ここは入口というより、出口だな」{wait}	{face:10012}{spk:02}Yuki: "This is less an entrance than an exit."{wait}	
+dlg:2925	text	rec:5525	149	{face:10012}{spk:02}ユウキ「ここらには・・・{br}　トカゲしかいない、にげよ；」{wait}	{face:10012}{spk:02}Yuki: "Around here... just lizards. Let's get out of here!"{wait}	
+dlg:2926	text	rec:5529	149	{face:00303}{spk:01}ブランク「やっぱり、{br}　メンテなしで次いくんですか；」{wait}	{face:00303}{spk:01}Blank: "So we're going on to the next one without maintenance after all?"{wait}	
