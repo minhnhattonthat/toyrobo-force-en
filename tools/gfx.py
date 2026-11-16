@@ -128,6 +128,28 @@ GROUPS = {
         [0x064D34, 0x064D54, 0x064D74, 0x064D94, 0x064DB4],
         [0x064DF4, 0x064E14, 0x064E34, 0x064E54, 0x064E74],
     ], labels=[((0, 2, 40, 13), "Confirm", 15, 11, None, 1, dict(prop=True, left=True))]),
+    # G15c: Ⓐ はいきゃく (sell) on the hand-over screen (4th workshop icon; desc "Sell this Teka?"), in place of
+    # Ⓐ メンテ: `gfx_grid.py work/qa/sell/ppu_002899 --bg 1 --rect 12,100,64,14` (phase 8), same cells as "factory".
+    "factory_sell": dict(pal=("gfx/pal/factory.pal.bin", 0), grid=[
+        [0x064D14 | HFLIP, 0x0653B4, 0x0653D4, 0x0653F4, 0x065414, 0x065434],
+        [0x064DD4 | HFLIP, 0x065454, 0x065474, 0x065494, 0x0654B4, 0x0654D4],
+    ], labels=[((8, 2, 40, 13), "Sell", 15, 11, None, 1, dict(prop=True, left=True))]),
+    # G15d: sortie-team screen (5th workshop icon): Ⓐ はずす (remove, a sortie member) / Ⓐ くわえる (add, a standby
+    # one) / Ⓑ おわる (done). Grids from work/qa/sortie_en/ppu_002999 (rect 12,100,64,30) and
+    # work/qa/sortie_add/ppu_000019 (rect 0,78,80,20), phase 8. The Ⓑ label has 4 + 3 cells of its own.
+    "sortie_remove": dict(pal=("gfx/pal/factory.pal.bin", 0), grid=[
+        [0x064D14 | HFLIP, 0x065274, 0x065294, 0x0652B4, 0x0652D4, 0x0652F4],
+        [0x064DD4 | HFLIP, 0x065314, 0x065334, 0x065354, 0x065374, 0x065394],
+    ], labels=[((8, 2, 40, 13), "Remove", 15, 11, None, 1, dict(prop=True, left=True))]),
+    "sortie_add": dict(pal=("gfx/pal/factory.pal.bin", 0), grid=[
+        [0x064D14 | HFLIP, 0x065054, 0x065074, 0x065094, 0x0650B4, 0x0650D4],
+        [0x064DD4 | HFLIP, 0x0650F4, 0x065114, 0x065134, 0x065154, 0x065174],
+    ], labels=[((8, 2, 40, 13), "Add", 15, 11, None, 1, dict(prop=True, left=True))]),
+    "sortie_done": dict(pal=("gfx/pal/factory.pal.bin", 0), grid=[
+        [0x064EB4, 0x065194, 0x0651B4, 0x0651D4, 0x0651F4],
+        [0x064F94, 0x065214, 0x065234, 0x065254, None],
+    ], labels=[((8, 2, 24, 13), "Done", 15, 11, None, 1, dict(prop=True, left=True)),
+               ((32, 0, 8, 8), "", 15, 11, None, 1, dict(prop=True, left=True))]),  # the ゛ of おわる
 }
 
 

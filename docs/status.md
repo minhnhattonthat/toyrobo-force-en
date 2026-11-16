@@ -2,9 +2,36 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (visual-QA gate green on build e43b2203; inkbox done; text
-  coverage 3462/3722 shown; left: the coverage gaps below (parts/shop screens, Teka report = G12, save/load), G12).
-- **Latest session (build unchanged, sha1 e43b2203):** text-coverage tooling, committed (28e148f).
+- **Phase:** 8. QA in the emulator: in progress (build e3c66762; text coverage 3715/3722 + 5 waived, 2 left;
+  visual-QA gate must be re-run (build changed since e43b2203); G12 in game still open).
+- **Latest session (build sha1 e3c66762):** factory/save coverage + fixes.
+  Fixed: part-detail window overflow ("%d-Shot Burst" made line 2 sixteen cells -> 4th line overwrote the window's
+  blank tile, garbage over the whole box): "%d-Shot", "Maint. per Life: %d" (D13, `tests/test_partdet.py`,
+  glossary メンテ also "maint."). Graphics leftovers found in game and redrawn (gfx.py): G15c `factory_sell`
+  Ⓐはいきゃく -> "Sell" (4th workshop icon), G15d `sortie_remove`/`sortie_add`/`sortie_done` Ⓐはずす/くわえる/Ⓑおわる
+  -> "Remove"/"Add"/"Done" (5th icon). Shots `work/qa/sell_en/zoom.png`, `work/qa/sortie_en`, `work/qa/sortie_add3`.
+  RAM (docs/re/script.md should get these): parts counts struct+0x1D47 (8 bodies), +0x1D4F (39 right arms), +0x1D76
+  (19 left), +0x1D89 (8 Pasocops), +0x1D91 (options), cap 99 (op 31 = 0x0800D21C); money u32 +0x1D0C (0x0300255C);
+  save/load menu state +0x1F0E; factory keeper (desc variant) +0x1F0C; desc n = 0x393EF0 + (3*msg+keeper)*0x58;
+  sprintf 0x08025F90; arm data right 0x393600 / left 0x393AE0 (0x20 each: power +0x16, ways +0x17, shots +0x18);
+  SRAM log n at 0x0E000000 + n*0x640 (4 copies at +k*0x190, hours u16 +0x10, minutes +0x12).
+  Coverage tools: `cover.py extra NAME -- <emu args>` (one warp run + probe -> `work/qa/cover/extra_NAME`);
+  `tools/debug/descs.lua` (swaps every factory desc into sprintf by printf signature; `ONLY=`), 
+  `tools/debug/savefail.lua` (state 2->3 "Cannot save", FROM=3 TO=4 "erased"). Runs done (all count in the report):
+  extra_descs (factory, POKES counts=05 at 0x03002597-0x030025EA + money, icon moves), extra_descs_s (assemblies,
+  scratch keys), extra_desc119, extra_parts, extra_save (save on field), extra_load (+ --sav work/states/saved_log1.sav),
+  extra_load_qa (`work/states/saves_qa.sav`: logs at 0/5/12/123 h), extra_savefail, extra_erased, extra_ending_long
+  (REC 4794, 32000 f), extra_attract (idle boot); play sessions `play_fac1`, `play_left` (`acc/log.txt`). Waivers
+  `docs/text_unshown.tsv` (249334/249360 data-proven, 2494CC no #3 code, choice 176/177 = unused group 44).
+  **Left:** credits:249250 "And" / 249258 "In": drawn by the mode-0 handler 0x08001FB4 (states 3 and 5 of jump table
+  0x08001FDC, state = struct+0x1F0E; called from the main loop 0x0800065E while struct+0x1F0D == 0); not seen in the
+  ending to f32000 nor in a 9000-frame idle boot. Next: watch writes to 0x0300275D/0x0300275E to find what enters
+  mode 0 state 3 (maybe the post-credits "The End" sequence or the link-battle end), run it, or waive with proof.
+  Then: rebuild is final for text -> re-run `cover.py sweep` + `tour` + the extras above on the final build (strings
+  addresses come from it) -> `cover.py report` exit 0; full visual re-tour (`warp_all.py`, `tour_sheets.py`,
+  `qa_gate.py init --build`, `tools/vqa.sh`), add the new screens (factory sell/sortie, part-detail windows, save
+  rows) to the tour/sheets; G12 in game (arrest).
+- **Session before (build unchanged, sha1 e43b2203):** text-coverage tooling, committed (28e148f).
   `build.py` now writes `build/strings.tsv` (`tools/strmap.py`: dlg slots, `@` table/choice records, `ref:`
   pointer words read from the built ROM so relocated strings follow; test `test_build.test_string_map`).
   `tools/debug/sweep.lua` (after warp.lua, REC=first target): runs every op 15 / op 21 record of a range in turn

@@ -1,0 +1,5 @@
+strings:249334	unreachable: part-detail power variant for power > 99 (0x080097B0, 0x080098A8); no right arm (0x393600, 39 x 0x20, power +0x16, max 70) or left arm (0x393AE0, 19 x 0x20, max 50) has one
+strings:249360	unreachable: part-detail "%dWAY" variant for ways > 9 (0x080097F8); arm data max ways 7 (right) / 4 (left), +0x17
+strings:2494CC	unreachable: the save-date template is drawn only by dialogue control code #3 (0x0800B240 -> 0x0800B55C); no dialogue slot or text row in the ROM contains #3
+choice:176	unreachable: choice group 44 (0x3766BC + 44*0x90, a copy of group 43); choices are reached only through op 21 (0x0800A474 -> 0x0800FC9C -> 0x0800BA3C) and no op 21 record uses group 44 (all 0-173 but 44 are used)
+choice:177	unreachable: choice group 44, see choice:176
