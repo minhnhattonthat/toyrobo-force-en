@@ -29,221 +29,221 @@ dlg:2423	text	rec:4617	149	{spk:01}　病気で体をうしなったリヒター
 dlg:2424	text	rec:4618	149	{face:20802}{spk:03}リヒター「ばか言うな！{br}　小さいときのきおくだってあるよ！」{wait}	{face:20802}{spk:03}Richter: "Don't be stupid! I remember when I was little!"{wait}	
 dlg:2425	text	rec:4619	149	{face:00702}{spk:01}博士「わしの作ったきおくじゃ、{br}　こんな孫がいたらいいだろうなと、{br}　夢を見ながら書いた作文じゃ！」{wait}	{face:00702}{spk:01}Doctor: "Memories I made. A story I wrote while dreaming how nice it would be to have such a grandson!"{wait}	
 dlg:2426	text	rec:4620	149	{face:20802}{spk:03}リヒター「だって、だって、となりのアドルフ君とあそんだきおくが―――」{wait}	{face:20802}{spk:03}Richter: "But, but... I remember playing with Adolf-kun next door--"{wait}	
-dlg:2427	text	rec:4621	149	{face:00702}{spk:01}博士「アドルフというのはアプリコット市長の名前じゃ、気づかんかったか」{wait}		
-dlg:2428	text	rec:4622	149	{face:20802}{spk:03}リヒター「モーデルおじさんに、遊びにつれていってもらったよ！」{wait}		
-dlg:2429	text	rec:4623	149	{face:00702}{spk:01}博士「モーデルはカシスの将軍の名前じゃ」{wait}		
-dlg:2430	text	rec:4624	149	{face:20803}{spk:03}リヒター「ハンナ先生に、ピアノを教わって・・・！」{wait}		
-dlg:2431	text	rec:4625	149	{face:00702}{spk:01}博士「ハンナはマーマレードの市長じゃ、{br}　ピアノなんかひけん！{wait}		
-dlg:2432	text	rec:4626	149	{spk:01}　そうまで言うなら、小学校のどうきゅうせいを思い出せるだけ言うてみい！{wait}		
-dlg:2433	text	rec:4627	149	{spk:01}　アドルフ君か、スミタ君しか思い出せんじゃろ。		
-dlg:2434	text	rec:4628	149	{face:00703}　それしかきおくを作らなかったからな！」{wait}		
-dlg:2435	text	rec:4629	149	{spk:03}リヒター「そんな・・・そんな、{br}　ぼくは人間じゃない・・・？」{wait}		
-dlg:2436	text	rec:4630	149	{face:00702}{spk:01}博士「人間は、悪いことをしたら、はんせいするんじゃ。{br}　なぜお前ははんせいしない？」{wait}		
-dlg:2437	text	rec:4631	149	{face:20802}{spk:03}リヒター「ぼくは人間さ！{br}　だって、ぼくはエミコさんが好きだよ、{br}　ロボットが恋なんかするもんか。		
-dlg:2438	text	rec:4632	149	　ぼくはエミコさんが大好きなんだ！」{wait}		
-dlg:2439	text	rec:4633	149	{face:20800}{face:00704}{spk:01}博士「待たんかっ、どこへ行く、リヒター！{wait}		
-dlg:2440	text	rec:4634	149	{spk:01}　・・・・・・{br}{face:00702}　・・・・・・{wait}		
-dlg:2441	text	rec:4635	149	{face:00706}{spk:01}　・・・・・・・・・・・・・・・・・・{wait}		
-dlg:2442	text	rec:4636	149	{spk:01}　・・・すまん、ユウキ君。{br}　言わんでいいことまで言って、傷つけてしまったようじゃ・・・」{wait}		
-dlg:2443	text	rec:4637	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「・・・博士」{wait}		
-dlg:2444	text	rec:4638	149	{spk:01}博士「最後まで手を出さずにいてくれて、{br}　ありがとう・・・{wait}		
-dlg:2445	text	rec:4639	149	{spk:01}　じゃあわしはおナワにつくかな。{br}　タイホしておくれ・・・」{wait}		
-dlg:2446	text	rec:4640	149	{face:10002}{spk:02}ユウキ「あなたをタイホしている場合じゃありません。{br}　爆撃機をどうにかしないと」{wait}		
-dlg:2447	text	rec:4641	149	{spk:01}博士「プロメテウスか。{br}　空母にあったろう、うばいとったんじゃないのか？」{wait}		
-dlg:2448	text	rec:4642	149	{face:10012}{spk:02}ユウキ「いや―――{br}　空母にはばくげき機はありませんでしたが―――」{wait}		
-dlg:2449	text	rec:4643	149	{face:00702}{spk:01}博士「リヒターめ。{br}　また乗りまわしておるのか・・・{wait}		
-dlg:2450	text	rec:4644	149	{spk:01}　プロメテウスは無着陸で世界一周できる。　どこまで行くか分からんぞ」{wait}		
-dlg:2451	text	rec:4645	149	{face:10002}{spk:02}ユウキ「なにをつんでいるんです？」{wait}		
-dlg:2452	text	rec:4646	149	{spk:01}博士「ばくだんを少々―――」{wait}		
-dlg:2453	text	rec:4647	149	{face:10012}{spk:02}ユウキ「少しだけですか。{br}　どういうばくだんです？」{wait}		
-dlg:2454	text	rec:4648	149	{spk:01}博士「口にしたくないばくだんじゃ、さっしてくれ―――{br}　１発で１００万人が・・・とだけ言っておこう」{wait}		
-dlg:2455	text	rec:4649	149	{face:30208}{spk:04}ギリガン「なんだそりゃ、じょうだんじゃねえ！{br}　２発つんでいるのか、２００万人分かっ」{wait}		
-dlg:2456	text	rec:4650	149	{face:10006}{spk:02}ユウキ「２００万人って・・・{br}　シティまるごと、ふきとばせる・・・？」{wait}		
-dlg:2457	text	rec:4651	149	{face:30206}{face:20111}{spk:03}トモミ「管制レーダーに反応・・・{br}　ばくげき機？　大きい；{br}　カシスの方ににげていく」{wait}		
-dlg:2458	text	rec:4652	149	{face:10007}{spk:02}ユウキ「にげているんじゃない―――{br}　アプリコットに向かっているんだ！」{wait}		
-dlg:2459	text	rec:4653	149	{face:00702}{spk:01}博士「あの子が仕返しをしようと言うなら、それいがいあるまい―――{br}　アプリコットをふきとばす気じゃ」{wait}		
-dlg:2460	text	rec:4654	149	{face:10006}{spk:02}ユウキ「追いかけよう、アプリコットに着く前にげきついしなくちゃ！」{wait}		
-dlg:2461	text	rec:4655	149	{face:00702}{spk:01}博士「げきついするのか―――そうじゃな。　乗っ取ろうなんてあまいことを言っていられん。		
-dlg:2462	text	rec:4656	149	　リヒターごと・・・{br}　げきついするしかあるまい―――」{wait}		
-dlg:2463	text	rec:4657	149	{face:20110}{spk:03}トモミ「あたしたち、ただの警官よ、{br}　ばくげき機相手になにができるっての；」{wait}		
-dlg:2464	text	rec:4658	149	{face:10007}{spk:02}ユウキ「警官には警官の役目があり―――{br}{face:10006}　好きじゃないけど、軍隊には軍隊の役目がある―――！」{wait}		
-dlg:2465	text	rec:4662	149	{face:12402}{face:01702}{spk:01}モーデル将軍「もしもし―――ユウキか。{br}　きんきゅうのようけんとはなんだ」{wait}		
-dlg:2466	text	rec:4663	149	{spk:02}ユウキ「ばくげき機がアプリコットに向かっています、{br}　カシスの上空をつうかするはずです。{wait}		
-dlg:2467	text	rec:4664	149	{spk:02}　節を曲げておねがいします、{br}　軍を出してください！」{wait}		
-dlg:2468	text	rec:4665	149	{spk:01}将軍「爆撃機、プロメテウスか」{wait}		
-dlg:2469	text	rec:4666	149	{spk:02}ユウキ「知ってるんですか！」{wait}		
-dlg:2470	text	rec:4667	149	{spk:01}将軍「知っているもなにも、もともとカシスのものだ。{br}　反乱テカにうばわれた」{wait}		
-dlg:2471	text	rec:4668	149	{spk:02}ユウキ「げきついしてください、ぼくたちの力じゃムリだ」{wait}		
-dlg:2472	text	rec:4669	149	{spk:01}将軍「私にもむりなのだ、ユウキ君。{br}　ソルジャーは、味方をうつことができないようになっている。{wait}		
-dlg:2473	text	rec:4670	149	{spk:01}『カシスの爆撃機プロメテウス』をげきついできるソルジャーは、{br}　カシスにはいない」{wait}		
-dlg:2474	text	rec:4672	149	{spk:02}ユウキ「そんな・・・！」{wait}		
-dlg:2475	text	rec:4675	149	{face:20111}{spk:03}トモミ「もうカシス上空すぎた・・・{br}　フランボワーズまでには追いつけるわ」{wait}		
-dlg:2476	text	rec:4676	149	{face:10010}{spk:02}ユウキ「メンテを急げ、フランボワーズでげきついする！」{wait}		
-dlg:2477	text	rec:4677	149	{face:00702}{spk:01}ゲオルグ博士「軍用機じゃぞ、{br}　警官にうち落せるはずもない。		
-dlg:2478	text	rec:4678	149	　もう少し・・・力がいるな」{wait}		
-dlg:2479	text	rec:4679	149	{face:20111}{spk:03}トモミ「・・・プロメテウス、高度を上げ始めたわ！」{wait}		
-dlg:2480	text	rec:4680	149	{face:10009}{spk:02}ユウキ「こうげきをさける気だな。{br}　時間がかせげる！」{wait}		
-dlg:2481	text	rec:4681	149	{face:00702}{spk:01}博士「よし、フランボワーズの研究所によっていこう。{br}　いいものがある」{wait}		
-dlg:2482	text	rec:4686	149	{face:01602}{face:10702}{face:20001}{face:30201}{spk:01}バンクテカ「やあ、パワーシールドはいかがです」{wait}		
-dlg:2483	text	rec:4687	149	{spk:02}ゲオルグ博士「所長はおるかね。{br}　師匠が来たと、伝えてくれるか」{wait}		
-dlg:2484	text	rec:4688	149	{spk:01}バンクテカ「所長はいません。{br}　お買い物でしたら、わたしにどうぞ」{wait}		
-dlg:2485	text	rec:4689	149	{spk:02}博士「『スワローレーザー』を出せ。{br}　もらっていく」{wait}		
-dlg:2486	text	rec:4690	149	{spk:01}バンクテカ「あれは一つしかないのです。{br}　貸すならいいでしょう、{br}　貸し出し料１００，０００」{wait}		
-dlg:2487	text	rec:4691	149	{spk:02}博士「自分で作ったものを、金はらってかりるバカがどこにおる。{br}　{face:10704}とっとと持ってこい！」{face:00000}{wait}		
-dlg:2488	text	rec:4693	149	右腕『スワローレーザー』を{br}　手に入れました。{wait}		
-dlg:2489	text	rec:4694	149	{face:20002}{spk:03}ユウキ「メンテをすませたらすぐ出撃だ。{br}　かならずたたき落す！」{wait}		
-dlg:2490	text	rec:4700	149	{face:00503}{spk:01}アドルフ市長「ほ、本当に、彼らがしっぱいしたら、{br}　アプリコットはふきとんで・・・？」{wait}		
-dlg:2491	text	rec:4701	149	{face:30604}{spk:04}スミタ署長「はい。{br}　もう目の前まできている。{br}　おおづめですね」{wait}		
-dlg:2492	text	rec:4702	149	{face:00505}{spk:01}市長「げきついしてくれるだろうか・・・{br}　私になにかできることは」{wait}		
-dlg:2493	text	rec:4703	149	{face:30604}{spk:04}署長「ばくげき機相手に、政治家がなにかできますか」{wait}		
-dlg:2494	text	rec:4704	149	{face:00505}{spk:01}市長「彼らを信じて待つしか、ないかね？」{wait}		
-dlg:2495	text	rec:4705	149	{face:30604}{spk:04}署長「市民をみすててにげたければどうぞ」{wait}		
-dlg:2496	text	rec:4706	149	{face:00505}{spk:01}市長「そんなことができるものか、やせてもかれてもアプリコット市長だぞ・・・{br}　君はにげないのか」{wait}		
-dlg:2497	text	rec:4707	149	{face:30602}{spk:04}署長「私はアプリコット警察署長です。{br}　にげません」{wait}		
-dlg:2498	text	rec:4708	149	{face:00505}{spk:01}市長「・・・{br}　ユウキ君たちを、信じているかね」{wait}		
-dlg:2499	text	rec:4709	149	{face:30602}{spk:04}署長「はい。{br}　市長も、信じてください」{wait}		
-dlg:2500	text	rec:4710	149	{face:00505}{spk:01}市長「うん―――信じて待とう・・・」{wait}		
-dlg:2501	text	rec:4711	149	{face:30602}{spk:04}署長「はい―――！」{wait}		
-dlg:2502	text	rec:4714	149	{face:00906}{spk:01}エミコ「・・・リヒター君・・・{br}　やめて、もう・・・」{wait}		
-dlg:2503	text	rec:4715	149	{face:10001}{face:20110}{face:30201}{spk:03}トモミ「アプリコットしん入コースに入ったわ―――{br}　ばくげき用意よし、ってことね；」{wait}		
-dlg:2504	text	rec:4716	149	{face:10009}{spk:02}ユウキ「たった一度のチャンスだ。{br}{face:10010}　ブランク！{br}　アプリコットの運命、お前にあずけた。{wait}		
-dlg:2505	text	rec:4717	149	{face:00000}{face:20000}{face:30000}{face:10011}{spk:14}　いけ、ブランク！！」		
-dlg:2506	text	rec:4718	149	ブランク「コンファー！！」{wait}		
-dlg:2507	text	rec:4721	149	{face:00906}{face:10009}{face:20101}{face:30201}{spk:02}ユウキ「く・・・もうだめか・・・！」{wait}		
-dlg:2508	text	rec:4722	149	{face:20111}{spk:03}トモミ「プロメテウス、向きを変えたわ、{br}　せんかいしてる！{wait}		
-dlg:2509	text	rec:4723	149	{spk:03}　いまのこうげきで、{br}　ばくげきのチャンスをのがしたのよ！」{wait}		
-dlg:2510	text	rec:4724	149	{face:30208}{spk:04}ギリガン「またばくげきコースに入る気だ、{face:30207}　ユウキ、あきらめるな！」{wait}		
-dlg:2511	text	rec:4725	149	{face:10011}{spk:14}ユウキ「ああ、負けるもんか！」{wait}		
-dlg:2512	text	rec:4734	149	トモミ「爆撃機プロメテウス、{br}　落ちていく・・・{wait}		
-dlg:2513	text	rec:4736	149	　ついらくするわ、もはや、せいぎょふのう・・・{wait}		
-dlg:2514	text	rec:4738	149	・・・アウト・オブ・コントロール・・！」{wait}		
-dlg:2515	text	rec:4742	149	{face:00701}{face:10006}{face:20201}{face:30901}{spk:02}ユウキ「博士っ、ついらくのショックでばくはつしないでしょうね、ばくだんは？！」{wait}		
-dlg:2516	text	rec:4743	149	{face:00702}{spk:01}ゲオルグ博士「よく勉強しておくんじゃな。{wait}		
-dlg:2517	text	rec:4744	149	{spk:01}　ああいうばくだんは火薬とちがって、{br}ばくはつさせる仕組みがこわれたら、ばくはつせんのじゃ」{wait}		
-dlg:2518	text	rec:4745	149	{face:30906}{spk:04}エミコ「―――リヒター君は？」{wait}		
-dlg:2519	text	rec:4746	149	{face:00702}{spk:01}博士「生きておれるわけがなかろう。{br}　がんじょうなソルジャーならともかく、{br}　リヒターはトイロボじゃ」{wait}		
-dlg:2520	text	rec:4747	149	{face:10002}{spk:02}ユウキ「トイ・・・だったんですか」{wait}		
-dlg:2521	text	rec:4748	149	{face:00702}{spk:01}博士「ああ。わしのあそび相手じゃよ―――{wait}		
-dlg:2522	text	rec:4749	149	{face:00703}{spk:01}　ふ、ふ、まさか世界も、トイロボがあやつる軍隊におびやかされるとは、思っていなかったろう」{wait}		
-dlg:2523	text	rec:4750	149	{face:20203}{spk:03}ギリガン「とんだ『トイロボフォース』だ」{wait}		
-dlg:2524	text	rec:4751	149	{face:00702}{spk:01}博士「―――どれ、リヒターの骨をひろいにいこう。{br}　エミコさんも―――」{wait}		
-dlg:2525	text	rec:4752	149	{face:30902}{spk:04}エミコ「パーツが見つかれば―――{br}　リヒター君を直してあげられますよね。{br}　博士は天才ですもの―――」{wait}		
-dlg:2526	text	rec:4753	149	{face:00703}{spk:01}博士「もちろん。{br}　わしゃ『天才』ゲオルグじゃ」{wait}		
-dlg:2527	text	rec:4754	149	{face:20206}{spk:03}ギリガン「また反乱テカを集めて{br}『トイロボフォース２』なんか作られたら、たまんねえぜ」{wait}		
-dlg:2528	text	rec:4755	149	{face:00702}{spk:01}博士「だいじょうぶさ、今度はやさしくて　いい子になる。{br}　エミコさんが教育してくれるからな」{wait}		
-dlg:2529	text	rec:4756	149	{spk:04}エミコ「ええ―――{br}{face:30903}　行きましょう―――」{wait}		
-dlg:2530	text	rec:4761	149	{face:00503}{face:30601}{spk:01}アドルフ市長「そ、それで、ゲオルグ博士はたいほしたのか」{wait}		
-dlg:2531	text	rec:4762	149	{face:30604}{spk:04}スミタ署長「は？　ばくげき機はついらくして海に沈んだのです。{br}　博士は骨も見つかっていません」{wait}		
-dlg:2532	text	rec:4763	149	{face:00505}{spk:01}市長「そうか、乗ってたのか―――{br}　あの、保母テカとかは？」{wait}		
-dlg:2533	text	rec:4764	149	{face:30604}{spk:04}署長「かわいそうに、いっしょに沈んでしまいましたね。{br}　見つけるのはムリでしょう」{wait}		
-dlg:2534	text	rec:4765	149	{face:00505}{spk:01}市長「はああ・・・かいけつ、かね」{wait}		
-dlg:2535	text	rec:4766	149	{face:30604}{spk:04}署長「ええ、かいけつです。{br}　あとはたいしょく金を楽しみに、{br}　ていねんまでつとめるだけです」{wait}		
-dlg:2536	text	rec:4767	149	{face:00502}{spk:01}市長「市でなにか名前を付けて、ひょうしょうしようじゃないか。{br}　次のせんきょに有利だぞ♪」{wait}		
-dlg:2537	text	rec:4768	149	{face:30604}{spk:04}署長「アプリコットの手がらだと、せんでんしたいですか」{wait}		
-dlg:2538	text	rec:4769	149	{face:00502}{spk:01}市長「ブランクはトイロボだったね。{br}　じゃあ、こういうのはどうだろう。{wait}		
-dlg:2539	text	rec:4770	149	{spk:01}　世界をすくったトイロボフォース！{br}　子供たちに夢をあたえるとは思わんか？」{wait}		
-dlg:2540	text	rec:4771	149	{face:30602}{spk:04}署長「そういうのは遠りょさせてください。　ブランクはもうトイロボではなく、{br}　りっぱなポリステカなのですから」{wait}		
-dlg:2541	text	rec:4776	149	　警察学校　よく年　春{wait}		
-dlg:2542	text	rec:4777	149	{face:01101}{face:11008}{face:20001}{face:30101}{spk:02}リアナ「ブランク様！・・・{br}　あら、またあなたたちだけ？」{wait}		
-dlg:2543	text	rec:4778	149	{face:20012}{spk:03}ユウキ巡査長「あ？　なんで、婦人警官のかっこうしてるんです」{wait}		
-dlg:2544	text	rec:4779	149	{face:30115}{spk:04}トモミ巡査「あの、ブランクの好みだと言ったのはじょうだんで―――」{wait}		
-dlg:2545	text	rec:4780	149	{spk:02}リアナ訓練生「なに言ってるの、警官訓練生になったのよ。{wait}		
-dlg:2546	text	rec:4781	149	{spk:02}　婦人警官になれば、ブランク様といつもいっしょでしょ♪」{wait}		
-dlg:2547	text	rec:4782	149	{face:20012}{spk:03}ユウキ「ペータ君も？」{wait}		
-dlg:2548	text	rec:4783	149	{face:01105}{spk:01}ペータ訓練生「はい、きっと警官になって、ブランク巡査に負けない手がらを！」{wait}		
-dlg:2549	text	rec:4784	149	ポイヤックの声「なにをしているんです！{br}　集合！」{wait}		
-dlg:2550	text	rec:4785	149	{spk:01}ペータ「コンファー！」{wait}		
-dlg:2551	text	rec:4786	149	{face:01100}{spk:02}リアナ「ブランク様におつたえしてね♪{br}　リアナはがんばっているからって」{wait}		
-dlg:2552	text	rec:4787	149	ポイヤックの声「リアナ訓練生！」{wait}		
-dlg:2553	text	rec:4788	149	{spk:02}リアナ「コンファー！」{wait}		
-dlg:2554	text	rec:4789	149	{face:11000}{face:20004}{spk:03}ユウキ「・・・まあ、楽しそうだね」{wait}		
-dlg:2555	text	rec:4790	149	{face:30115}{spk:04}トモミ「ギリガンは？」{wait}		
-dlg:2556	text	rec:4791	149	{face:20005}{spk:03}ユウキ「エミコさんとデート」{wait}		
-dlg:2557	text	rec:4792	149	{face:30106}{spk:04}トモミ「本気かしら、{br}　人間とロボットの恋なんて」{wait}		
-dlg:2558	text	rec:4793	149	{face:20004}{spk:03}ユウキ「おーい、ブランク！{br}　いつまでもかくれてないで、{br}　教官にあいさつしていこうよ！」{wait}		
-dlg:2559	text	rec:4796	149	{face:02602}{spk:01}パン屋のマーケテカ「幼稚園のバスなら、{br}　今日は急に遠足になったとかで、{br}　おやつを買って行きました。{wait}		
-dlg:2560	text	rec:4797	149	{spk:01}　おまわりさんも乗せて、北に向かったみたいですが」{wait}		
-dlg:2561	text	rec:4799	149	{face:02502}{face:10001}{face:20101}{face:30201}{spk:01}保母マイコ「えっ、ゆうかい・・・！」{wait}		
-dlg:2562	text	rec:4800	149	{face:30202}{spk:04}ギリガン「おれたちが、子供たちを助けてみせる。{br}　安心してまってろ！」{wait}		
-dlg:2563	text	rec:4801	149	{spk:01}保母マイコ「お、おねがいします！」{wait}		
-dlg:2564	text	rec:4802	149	{face:20115}{spk:03}トモミ「―――ギリガン、なにかっこつけてんのよ」{wait}		
-dlg:2565	text	rec:4803	149	{face:30206}{spk:04}ギリガン「けっこう、かわいくねえか、この保母さん」{wait}		
-dlg:2566	text	rec:4804	149	{spk:03}トモミ「ロボット相手になに言ってんの」{wait}		
-dlg:2567	text	rec:4805	149	{face:10012}{spk:02}ユウキ「バスにも同じ型が乗ってるよ」{wait}		
-dlg:2568	text	rec:4806	149	{face:30204}{spk:04}ギリガン「よし、気合い入ってきた。{br}　行こうぜ！」{wait}		
-dlg:2569	text	rec:4807	149	{spk:01}マイコ「あの・・・{br}　こんなものでもお役に立つなら。どうぞ」{wait}		
-dlg:2570	text	rec:4808	149	{face:30204}{spk:04}ギリガン「『ニンジンミッソー』か。{br}　お前のまごころだと思って、大事につかわせてもらうよ♪」{wait}		
-dlg:2571	text	rec:4809	149	{face:20106}{spk:03}トモミ「はずかし；{br}　はずかしーぞ、ギリガン；」{wait}		
-dlg:2572	text	rec:4811	149	左腕『ニンジンミッソー』を{br}　手に入れました。{wait}		
-dlg:2573	text	rec:4813	149	{face:02502}{face:30202}{spk:04}ギリガン「おれたちが子供たちを助ける。{br}　安心してまってろ！」{wait}		
-dlg:2574	text	rec:4814	149	{spk:01}保母マイコ「おねがいします！」{wait}		
-dlg:2575	text	rec:4816	149	{face:02502}{face:10001}{face:20101}{face:30201}{spk:01}保母マイコ「おまわりさん、子供たちとエミコさんをおねがいします・・・」{wait}		
-dlg:2576	text	rec:4817	149	{face:30202}{spk:04}ギリガン「子供の一人だって死なせねえ。{br}　安心してまってろ！」{wait}		
-dlg:2577	text	rec:4818	149	{face:20104}{spk:03}トモミ「こいつ、本気で保母テカにほれたかな・・・？」{wait}		
-dlg:2578	text	rec:4821	149	{face:00505}{spk:01}市長「もう君たちにしか、たよれんのだ。{br}　ほかのシティにたよったら、外交に不利だからな！」{wait}		
-dlg:2579	text	rec:4823	149	{face:00605}{spk:01}署長「たのんだよ、ユウキ君。{br}　いい報告を待っているからね・・・」{wait}		
-dlg:2580	text	rec:4825	149	{face:31002}{spk:04}リアナ「あなたたち、仕事があるんでしょ？{br}　うろついていていいの？」{wait}		
-dlg:2581	text	rec:4827	149	　屋根うらをそうさく中・・・{wait}		
+dlg:2427	text	rec:4621	149	{face:00702}{spk:01}博士「アドルフというのはアプリコット市長の名前じゃ、気づかんかったか」{wait}	{face:00702}{spk:01}Doctor: "Adolf is the name of the Mayor of Apricot. Didn't you notice?"{wait}	
+dlg:2428	text	rec:4622	149	{face:20802}{spk:03}リヒター「モーデルおじさんに、遊びにつれていってもらったよ！」{wait}	{face:20802}{spk:03}Richter: "Uncle Mordel took me out to play!"{wait}	
+dlg:2429	text	rec:4623	149	{face:00702}{spk:01}博士「モーデルはカシスの将軍の名前じゃ」{wait}	{face:00702}{spk:01}Doctor: "Mordel is the name of the General of Cassis."{wait}	
+dlg:2430	text	rec:4624	149	{face:20803}{spk:03}リヒター「ハンナ先生に、ピアノを教わって・・・！」{wait}	{face:20803}{spk:03}Richter: "Hanna-sensei taught me piano...!"{wait}	
+dlg:2431	text	rec:4625	149	{face:00702}{spk:01}博士「ハンナはマーマレードの市長じゃ、{br}　ピアノなんかひけん！{wait}	{face:00702}{spk:01}Doctor: "Hanna is the Mayor of Marmalade. She can't play the piano!{wait}	
+dlg:2432	text	rec:4626	149	{spk:01}　そうまで言うなら、小学校のどうきゅうせいを思い出せるだけ言うてみい！{wait}	{spk:01}If you insist, name every classmate from your elementary school you can remember!{wait}	
+dlg:2433	text	rec:4627	149	{spk:01}　アドルフ君か、スミタ君しか思い出せんじゃろ。	{spk:01}You can only remember Adolf-kun and Sumita-kun, can't you?	
+dlg:2434	text	rec:4628	149	{face:00703}　それしかきおくを作らなかったからな！」{wait}	{face:00703}Because those are the only memories I made!"{wait}	
+dlg:2435	text	rec:4629	149	{spk:03}リヒター「そんな・・・そんな、{br}　ぼくは人間じゃない・・・？」{wait}	{spk:03}Richter: "That's... that's... I'm not human...?"{wait}	
+dlg:2436	text	rec:4630	149	{face:00702}{spk:01}博士「人間は、悪いことをしたら、はんせいするんじゃ。{br}　なぜお前ははんせいしない？」{wait}	{face:00702}{spk:01}Doctor: "When humans do wrong, they reflect on it. Why don't you ever reflect?"{wait}	
+dlg:2437	text	rec:4631	149	{face:20802}{spk:03}リヒター「ぼくは人間さ！{br}　だって、ぼくはエミコさんが好きだよ、{br}　ロボットが恋なんかするもんか。	{face:20802}{spk:03}Richter: "I am human! I mean, I love Emiko-san. As if a robot could fall in love.	
+dlg:2438	text	rec:4632	149	　ぼくはエミコさんが大好きなんだ！」{wait}	I love Emiko-san more than anything!"{wait}	
+dlg:2439	text	rec:4633	149	{face:20800}{face:00704}{spk:01}博士「待たんかっ、どこへ行く、リヒター！{wait}	{face:20800}{face:00704}{spk:01}Doctor: "Wait! Where are you going, Richter?!{wait}	
+dlg:2440	text	rec:4634	149	{spk:01}　・・・・・・{br}{face:00702}　・・・・・・{wait}	{spk:01}...... {face:00702}......{wait}	
+dlg:2441	text	rec:4635	149	{face:00706}{spk:01}　・・・・・・・・・・・・・・・・・・{wait}	{face:00706}{spk:01}..................{wait}	
+dlg:2442	text	rec:4636	149	{spk:01}　・・・すまん、ユウキ君。{br}　言わんでいいことまで言って、傷つけてしまったようじゃ・・・」{wait}	{spk:01}...I'm sorry, Yuki-kun. It seems I said more than I needed to, and hurt him..."{wait}	
+dlg:2443	text	rec:4637	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「・・・博士」{wait}	{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "...Doctor."{wait}	
+dlg:2444	text	rec:4638	149	{spk:01}博士「最後まで手を出さずにいてくれて、{br}　ありがとう・・・{wait}	{spk:01}Doctor: "Thank you for holding back until the very end...{wait}	
+dlg:2445	text	rec:4639	149	{spk:01}　じゃあわしはおナワにつくかな。{br}　タイホしておくれ・・・」{wait}	{spk:01}Well then, I suppose I'll come quietly. Arrest me..."{wait}	
+dlg:2446	text	rec:4640	149	{face:10002}{spk:02}ユウキ「あなたをタイホしている場合じゃありません。{br}　爆撃機をどうにかしないと」{wait}	{face:10002}{spk:02}Yuki: "This is no time to be arresting you. We have to do something about the bomber."{wait}	
+dlg:2447	text	rec:4641	149	{spk:01}博士「プロメテウスか。{br}　空母にあったろう、うばいとったんじゃないのか？」{wait}	{spk:01}Doctor: "Prometheus? It was on the carrier. Didn't you seize it?"{wait}	
+dlg:2448	text	rec:4642	149	{face:10012}{spk:02}ユウキ「いや―――{br}　空母にはばくげき機はありませんでしたが―――」{wait}	{face:10012}{spk:02}Yuki: "No-- There was no bomber on the carrier--"{wait}	
+dlg:2449	text	rec:4643	149	{face:00702}{spk:01}博士「リヒターめ。{br}　また乗りまわしておるのか・・・{wait}	{face:00702}{spk:01}Doctor: "That Richter. Joyriding in it again...{wait}	
+dlg:2450	text	rec:4644	149	{spk:01}　プロメテウスは無着陸で世界一周できる。　どこまで行くか分からんぞ」{wait}	{spk:01}Prometheus can fly around the world without landing. There's no telling how far he'll go."{wait}	
+dlg:2451	text	rec:4645	149	{face:10002}{spk:02}ユウキ「なにをつんでいるんです？」{wait}	{face:10002}{spk:02}Yuki: "What is it carrying?"{wait}	
+dlg:2452	text	rec:4646	149	{spk:01}博士「ばくだんを少々―――」{wait}	{spk:01}Doctor: "A few bombs--"{wait}	
+dlg:2453	text	rec:4647	149	{face:10012}{spk:02}ユウキ「少しだけですか。{br}　どういうばくだんです？」{wait}	{face:10012}{spk:02}Yuki: "Just a few? What kind of bombs?"{wait}	
+dlg:2454	text	rec:4648	149	{spk:01}博士「口にしたくないばくだんじゃ、さっしてくれ―――{br}　１発で１００万人が・・・とだけ言っておこう」{wait}	{spk:01}Doctor: "Bombs I'd rather not name. Take a guess-- Let's just say one could kill a million..."{wait}	
+dlg:2455	text	rec:4649	149	{face:30208}{spk:04}ギリガン「なんだそりゃ、じょうだんじゃねえ！{br}　２発つんでいるのか、２００万人分かっ」{wait}	{face:30208}{spk:04}Gilligan: "What the heck? You gotta be kidding! It's got two? That's two million people?!"{wait}	
+dlg:2456	text	rec:4650	149	{face:10006}{spk:02}ユウキ「２００万人って・・・{br}　シティまるごと、ふきとばせる・・・？」{wait}	{face:10006}{spk:02}Yuki: "Two million... That could blow away the whole City...?"{wait}	
+dlg:2457	text	rec:4651	149	{face:30206}{face:20111}{spk:03}トモミ「管制レーダーに反応・・・{br}　ばくげき機？　大きい；{br}　カシスの方ににげていく」{wait}	{face:30206}{face:20111}{spk:03}Tomomi: "A blip on the control radar... The bomber? It's big! It's fleeing toward Cassis."{wait}	
+dlg:2458	text	rec:4652	149	{face:10007}{spk:02}ユウキ「にげているんじゃない―――{br}　アプリコットに向かっているんだ！」{wait}	{face:10007}{spk:02}Yuki: "It's not fleeing-- It's heading for Apricot!"{wait}	
+dlg:2459	text	rec:4653	149	{face:00702}{spk:01}博士「あの子が仕返しをしようと言うなら、それいがいあるまい―――{br}　アプリコットをふきとばす気じゃ」{wait}	{face:00702}{spk:01}Doctor: "If the boy wants revenge, it can only be that-- He means to blow Apricot away."{wait}	
+dlg:2460	text	rec:4654	149	{face:10006}{spk:02}ユウキ「追いかけよう、アプリコットに着く前にげきついしなくちゃ！」{wait}	{face:10006}{spk:02}Yuki: "Let's chase it! We have to shoot it down before it reaches Apricot!"{wait}	
+dlg:2461	text	rec:4655	149	{face:00702}{spk:01}博士「げきついするのか―――そうじゃな。　乗っ取ろうなんてあまいことを言っていられん。	{face:00702}{spk:01}Doctor: "Shoot it down-- Yes. We can't be soft and talk of hijacking it.	
+dlg:2462	text	rec:4656	149	　リヒターごと・・・{br}　げきついするしかあるまい―――」{wait}	Richter and all... We have no choice but to shoot it down--"{wait}	
+dlg:2463	text	rec:4657	149	{face:20110}{spk:03}トモミ「あたしたち、ただの警官よ、{br}　ばくげき機相手になにができるっての；」{wait}	{face:20110}{spk:03}Tomomi: "We're just police officers! What can we do against a bomber?!"{wait}	
+dlg:2464	text	rec:4658	149	{face:10007}{spk:02}ユウキ「警官には警官の役目があり―――{br}{face:10006}　好きじゃないけど、軍隊には軍隊の役目がある―――！」{wait}	{face:10007}{spk:02}Yuki: "The police have their job-- {face:10006}I don't like it, but the army has its job too--!"{wait}	
+dlg:2465	text	rec:4662	149	{face:12402}{face:01702}{spk:01}モーデル将軍「もしもし―――ユウキか。{br}　きんきゅうのようけんとはなんだ」{wait}	{face:12402}{face:01702}{spk:01}General Mordel: "Hello-- Yuki, is it? What's this urgent business?"{wait}	
+dlg:2466	text	rec:4663	149	{spk:02}ユウキ「ばくげき機がアプリコットに向かっています、{br}　カシスの上空をつうかするはずです。{wait}	{spk:02}Yuki: "A bomber is heading for Apricot. It should pass over Cassis.{wait}	
+dlg:2467	text	rec:4664	149	{spk:02}　節を曲げておねがいします、{br}　軍を出してください！」{wait}	{spk:02}I'm swallowing my pride and asking you: please send out the army!"{wait}	
+dlg:2468	text	rec:4665	149	{spk:01}将軍「爆撃機、プロメテウスか」{wait}	{spk:01}General: "The bomber Prometheus?"{wait}	
+dlg:2469	text	rec:4666	149	{spk:02}ユウキ「知ってるんですか！」{wait}	{spk:02}Yuki: "You know about it?!"{wait}	
+dlg:2470	text	rec:4667	149	{spk:01}将軍「知っているもなにも、もともとカシスのものだ。{br}　反乱テカにうばわれた」{wait}	{spk:01}General: "Know about it? It belonged to Cassis in the first place. The rebel Teka stole it."{wait}	
+dlg:2471	text	rec:4668	149	{spk:02}ユウキ「げきついしてください、ぼくたちの力じゃムリだ」{wait}	{spk:02}Yuki: "Please shoot it down! It's beyond our power!"{wait}	
+dlg:2472	text	rec:4669	149	{spk:01}将軍「私にもむりなのだ、ユウキ君。{br}　ソルジャーは、味方をうつことができないようになっている。{wait}	{spk:01}General: "It's beyond mine too, Yuki-kun. Soldiers are built so they cannot fire on their own side.{wait}	
+dlg:2473	text	rec:4670	149	{spk:01}『カシスの爆撃機プロメテウス』をげきついできるソルジャーは、{br}　カシスにはいない」{wait}	{spk:01}There isn't one Soldier in Cassis that can shoot down 'the Cassis bomber Prometheus.'"{wait}	
+dlg:2474	text	rec:4672	149	{spk:02}ユウキ「そんな・・・！」{wait}	{spk:02}Yuki: "No...!"{wait}	
+dlg:2475	text	rec:4675	149	{face:20111}{spk:03}トモミ「もうカシス上空すぎた・・・{br}　フランボワーズまでには追いつけるわ」{wait}	{face:20111}{spk:03}Tomomi: "It's already past Cassis... We can catch it before Framboise."{wait}	
+dlg:2476	text	rec:4676	149	{face:10010}{spk:02}ユウキ「メンテを急げ、フランボワーズでげきついする！」{wait}	{face:10010}{spk:02}Yuki: "Hurry the maintenance! We shoot it down at Framboise!"{wait}	
+dlg:2477	text	rec:4677	149	{face:00702}{spk:01}ゲオルグ博士「軍用機じゃぞ、{br}　警官にうち落せるはずもない。	{face:00702}{spk:01}Dr. Georg: "It's a military plane. Police could never shoot it down.	
+dlg:2478	text	rec:4678	149	　もう少し・・・力がいるな」{wait}	They need... a bit more power."{wait}	
+dlg:2479	text	rec:4679	149	{face:20111}{spk:03}トモミ「・・・プロメテウス、高度を上げ始めたわ！」{wait}	{face:20111}{spk:03}Tomomi: "...Prometheus has started climbing!"{wait}	
+dlg:2480	text	rec:4680	149	{face:10009}{spk:02}ユウキ「こうげきをさける気だな。{br}　時間がかせげる！」{wait}	{face:10009}{spk:02}Yuki: "It's trying to dodge our attacks. That buys us time!"{wait}	
+dlg:2481	text	rec:4681	149	{face:00702}{spk:01}博士「よし、フランボワーズの研究所によっていこう。{br}　いいものがある」{wait}	{face:00702}{spk:01}Doctor: "Right, let's stop at the Framboise laboratory. There's something good there."{wait}	
+dlg:2482	text	rec:4686	149	{face:01602}{face:10702}{face:20001}{face:30201}{spk:01}バンクテカ「やあ、パワーシールドはいかがです」{wait}	{face:01602}{face:10702}{face:20001}{face:30201}{spk:01}Bankteka: "Hello, how about a Power Shield?"{wait}	
+dlg:2483	text	rec:4687	149	{spk:02}ゲオルグ博士「所長はおるかね。{br}　師匠が来たと、伝えてくれるか」{wait}	{spk:02}Dr. Georg: "Is the director in? Tell the director that the old master is here."{wait}	
+dlg:2484	text	rec:4688	149	{spk:01}バンクテカ「所長はいません。{br}　お買い物でしたら、わたしにどうぞ」{wait}	{spk:01}Bankteka: "The director isn't here. If you're shopping, I can help you."{wait}	
+dlg:2485	text	rec:4689	149	{spk:02}博士「『スワローレーザー』を出せ。{br}　もらっていく」{wait}	{spk:02}Doctor: "Bring out the 'Swallow Laser.' I'm taking it."{wait}	
+dlg:2486	text	rec:4690	149	{spk:01}バンクテカ「あれは一つしかないのです。{br}　貸すならいいでしょう、{br}　貸し出し料１００，０００」{wait}	{spk:01}Bankteka: "We only have the one. I can lend it to you. The rental fee is 100,000 yen."{wait}	
+dlg:2487	text	rec:4691	149	{spk:02}博士「自分で作ったものを、金はらってかりるバカがどこにおる。{br}　{face:10704}とっとと持ってこい！」{face:00000}{wait}	{spk:02}Doctor: "What fool pays to borrow something he made himself? {face:10704}Bring it here, now!"{face:00000}{wait}	
+dlg:2488	text	rec:4693	149	右腕『スワローレーザー』を{br}　手に入れました。{wait}	Got the right arm{br}'Swallow Laser.'{wait}	
+dlg:2489	text	rec:4694	149	{face:20002}{spk:03}ユウキ「メンテをすませたらすぐ出撃だ。{br}　かならずたたき落す！」{wait}	{face:20002}{spk:03}Yuki: "We sortie the moment maintenance is done. We'll knock it out of the sky!"{wait}	
+dlg:2490	text	rec:4700	149	{face:00503}{spk:01}アドルフ市長「ほ、本当に、彼らがしっぱいしたら、{br}　アプリコットはふきとんで・・・？」{wait}	{face:00503}{spk:01}Mayor Adolf: "R-really? If they fail, Apricot gets blown away...?"{wait}	
+dlg:2491	text	rec:4701	149	{face:30604}{spk:04}スミタ署長「はい。{br}　もう目の前まできている。{br}　おおづめですね」{wait}	{face:30604}{spk:04}Chief Sumita: "Yes. It's nearly upon us. This is the final act."{wait}	
+dlg:2492	text	rec:4702	149	{face:00505}{spk:01}市長「げきついしてくれるだろうか・・・{br}　私になにかできることは」{wait}	{face:00505}{spk:01}Mayor: "Will they shoot it down...? Is there anything I can do?"{wait}	
+dlg:2493	text	rec:4703	149	{face:30604}{spk:04}署長「ばくげき機相手に、政治家がなにかできますか」{wait}	{face:30604}{spk:04}Chief: "What can a politician do against a bomber?"{wait}	
+dlg:2494	text	rec:4704	149	{face:00505}{spk:01}市長「彼らを信じて待つしか、ないかね？」{wait}	{face:00505}{spk:01}Mayor: "Is all I can do trust them and wait?"{wait}	
+dlg:2495	text	rec:4705	149	{face:30604}{spk:04}署長「市民をみすててにげたければどうぞ」{wait}	{face:30604}{spk:04}Chief: "If you'd rather abandon the citizens and run, go ahead."{wait}	
+dlg:2496	text	rec:4706	149	{face:00505}{spk:01}市長「そんなことができるものか、やせてもかれてもアプリコット市長だぞ・・・{br}　君はにげないのか」{wait}	{face:00505}{spk:01}Mayor: "I could never do that! Down on my luck or not, I'm the Mayor of Apricot... Won't you run?"{wait}	
+dlg:2497	text	rec:4707	149	{face:30602}{spk:04}署長「私はアプリコット警察署長です。{br}　にげません」{wait}	{face:30602}{spk:04}Chief: "I am the Apricot Police Chief. I won't run."{wait}	
+dlg:2498	text	rec:4708	149	{face:00505}{spk:01}市長「・・・{br}　ユウキ君たちを、信じているかね」{wait}	{face:00505}{spk:01}Mayor: "... Do you believe in Yuki-kun and the others?"{wait}	
+dlg:2499	text	rec:4709	149	{face:30602}{spk:04}署長「はい。{br}　市長も、信じてください」{wait}	{face:30602}{spk:04}Chief: "Yes. Please believe in them too, Mayor."{wait}	
+dlg:2500	text	rec:4710	149	{face:00505}{spk:01}市長「うん―――信じて待とう・・・」{wait}	{face:00505}{spk:01}Mayor: "Yes-- Let's believe in them and wait..."{wait}	
+dlg:2501	text	rec:4711	149	{face:30602}{spk:04}署長「はい―――！」{wait}	{face:30602}{spk:04}Chief: "Yes--!"{wait}	
+dlg:2502	text	rec:4714	149	{face:00906}{spk:01}エミコ「・・・リヒター君・・・{br}　やめて、もう・・・」{wait}	{face:00906}{spk:01}Emiko: "...Richter-kun... Please, stop now..."{wait}	
+dlg:2503	text	rec:4715	149	{face:10001}{face:20110}{face:30201}{spk:03}トモミ「アプリコットしん入コースに入ったわ―――{br}　ばくげき用意よし、ってことね；」{wait}	{face:10001}{face:20110}{face:30201}{spk:03}Tomomi: "It's on its approach course to Apricot-- That means it's ready to bomb!"{wait}	
+dlg:2504	text	rec:4716	149	{face:10009}{spk:02}ユウキ「たった一度のチャンスだ。{br}{face:10010}　ブランク！{br}　アプリコットの運命、お前にあずけた。{wait}	{face:10009}{spk:02}Yuki: "We get one chance only. {face:10010}Blank! I'm trusting Apricot's fate to you.{wait}	
+dlg:2505	text	rec:4717	149	{face:00000}{face:20000}{face:30000}{face:10011}{spk:14}　いけ、ブランク！！」	{face:00000}{face:20000}{face:30000}{face:10011}{spk:14}Go, Blank!!"	
+dlg:2506	text	rec:4718	149	ブランク「コンファー！！」{wait}	Blank: "Confirm!!"{wait}	
+dlg:2507	text	rec:4721	149	{face:00906}{face:10009}{face:20101}{face:30201}{spk:02}ユウキ「く・・・もうだめか・・・！」{wait}	{face:00906}{face:10009}{face:20101}{face:30201}{spk:02}Yuki: "Ngh... Is this it...?!"{wait}	
+dlg:2508	text	rec:4722	149	{face:20111}{spk:03}トモミ「プロメテウス、向きを変えたわ、{br}　せんかいしてる！{wait}	{face:20111}{spk:03}Tomomi: "Prometheus changed course, it's circling!{wait}	
+dlg:2509	text	rec:4723	149	{spk:03}　いまのこうげきで、{br}　ばくげきのチャンスをのがしたのよ！」{wait}	{spk:03}That attack made it miss its chance to bomb!"{wait}	
+dlg:2510	text	rec:4724	149	{face:30208}{spk:04}ギリガン「またばくげきコースに入る気だ、{face:30207}　ユウキ、あきらめるな！」{wait}	{face:30208}{spk:04}Gilligan: "It's gonna line up for another run. {face:30207}Yuki, don't give up!"{wait}	
+dlg:2511	text	rec:4725	149	{face:10011}{spk:14}ユウキ「ああ、負けるもんか！」{wait}	{face:10011}{spk:14}Yuki: "Right, I won't lose!"{wait}	
+dlg:2512	text	rec:4734	149	トモミ「爆撃機プロメテウス、{br}　落ちていく・・・{wait}	Tomomi: "The bomber Prometheus is going down...{wait}	
+dlg:2513	text	rec:4736	149	　ついらくするわ、もはや、せいぎょふのう・・・{wait}	It's going to crash. It's beyond control now...{wait}	
+dlg:2514	text	rec:4738	149	・・・アウト・オブ・コントロール・・！」{wait}	...'Out of Control'...!"{wait}	
+dlg:2515	text	rec:4742	149	{face:00701}{face:10006}{face:20201}{face:30901}{spk:02}ユウキ「博士っ、ついらくのショックでばくはつしないでしょうね、ばくだんは？！」{wait}	{face:00701}{face:10006}{face:20201}{face:30901}{spk:02}Yuki: "Doctor, the bombs won't go off from the crash, will they?!"{wait}	
+dlg:2516	text	rec:4743	149	{face:00702}{spk:01}ゲオルグ博士「よく勉強しておくんじゃな。{wait}	{face:00702}{spk:01}Dr. Georg: "You'd best study harder.{wait}	
+dlg:2517	text	rec:4744	149	{spk:01}　ああいうばくだんは火薬とちがって、{br}ばくはつさせる仕組みがこわれたら、ばくはつせんのじゃ」{wait}	{spk:01}Unlike gunpowder, bombs like that won't go off once the trigger mechanism is broken."{wait}	
+dlg:2518	text	rec:4745	149	{face:30906}{spk:04}エミコ「―――リヒター君は？」{wait}	{face:30906}{spk:04}Emiko: "--What about Richter-kun?"{wait}	
+dlg:2519	text	rec:4746	149	{face:00702}{spk:01}博士「生きておれるわけがなかろう。{br}　がんじょうなソルジャーならともかく、{br}　リヒターはトイロボじゃ」{wait}	{face:00702}{spk:01}Doctor: "He can't possibly have survived. A tough Soldier, perhaps, but Richter is a Toyrobo."{wait}	
+dlg:2520	text	rec:4747	149	{face:10002}{spk:02}ユウキ「トイ・・・だったんですか」{wait}	{face:10002}{spk:02}Yuki: "He was a Toy... robo?"{wait}	
+dlg:2521	text	rec:4748	149	{face:00702}{spk:01}博士「ああ。わしのあそび相手じゃよ―――{wait}	{face:00702}{spk:01}Doctor: "Yes. My playmate--{wait}	
+dlg:2522	text	rec:4749	149	{face:00703}{spk:01}　ふ、ふ、まさか世界も、トイロボがあやつる軍隊におびやかされるとは、思っていなかったろう」{wait}	{face:00703}{spk:01}Heh heh. The world never dreamed it would be threatened by an army run by a Toyrobo."{wait}	
+dlg:2523	text	rec:4750	149	{face:20203}{spk:03}ギリガン「とんだ『トイロボフォース』だ」{wait}	{face:20203}{spk:03}Gilligan: "Some 'Toyrobo Force' that was."{wait}	
+dlg:2524	text	rec:4751	149	{face:00702}{spk:01}博士「―――どれ、リヒターの骨をひろいにいこう。{br}　エミコさんも―――」{wait}	{face:00702}{spk:01}Doctor: "--Well, let's go gather Richter's remains. Emiko-san, you too--"{wait}	
+dlg:2525	text	rec:4752	149	{face:30902}{spk:04}エミコ「パーツが見つかれば―――{br}　リヒター君を直してあげられますよね。{br}　博士は天才ですもの―――」{wait}	{face:30902}{spk:04}Emiko: "If we find his parts-- you can fix Richter-kun, can't you? You're a genius, Doctor--"{wait}	
+dlg:2526	text	rec:4753	149	{face:00703}{spk:01}博士「もちろん。{br}　わしゃ『天才』ゲオルグじゃ」{wait}	{face:00703}{spk:01}Doctor: "Of course. I am Georg the 'Genius.'"{wait}	
+dlg:2527	text	rec:4754	149	{face:20206}{spk:03}ギリガン「また反乱テカを集めて{br}『トイロボフォース２』なんか作られたら、たまんねえぜ」{wait}	{face:20206}{spk:03}Gilligan: "If he gathers rebel Teka again and builds 'Toyrobo Force 2,' I'll never get a break."{wait}	
+dlg:2528	text	rec:4755	149	{face:00702}{spk:01}博士「だいじょうぶさ、今度はやさしくて　いい子になる。{br}　エミコさんが教育してくれるからな」{wait}	{face:00702}{spk:01}Doctor: "Don't worry, this time he'll be a kind, good boy. Emiko-san will teach him."{wait}	
+dlg:2529	text	rec:4756	149	{spk:04}エミコ「ええ―――{br}{face:30903}　行きましょう―――」{wait}	{spk:04}Emiko: "Yes-- {face:30903}Let's go--"{wait}	
+dlg:2530	text	rec:4761	149	{face:00503}{face:30601}{spk:01}アドルフ市長「そ、それで、ゲオルグ博士はたいほしたのか」{wait}	{face:00503}{face:30601}{spk:01}Mayor Adolf: "S-so, did you arrest Dr. Georg?"{wait}	
+dlg:2531	text	rec:4762	149	{face:30604}{spk:04}スミタ署長「は？　ばくげき機はついらくして海に沈んだのです。{br}　博士は骨も見つかっていません」{wait}	{face:30604}{spk:04}Chief Sumita: "Eh? The bomber crashed and sank into the sea. Not a bone of the Doctor has been found."{wait}	
+dlg:2532	text	rec:4763	149	{face:00505}{spk:01}市長「そうか、乗ってたのか―――{br}　あの、保母テカとかは？」{wait}	{face:00505}{spk:01}Mayor: "I see, so he was on board-- And that teacher Teka?"{wait}	
+dlg:2533	text	rec:4764	149	{face:30604}{spk:04}署長「かわいそうに、いっしょに沈んでしまいましたね。{br}　見つけるのはムリでしょう」{wait}	{face:30604}{spk:04}Chief: "Poor thing, she sank along with it. There's no hope of finding her."{wait}	
+dlg:2534	text	rec:4765	149	{face:00505}{spk:01}市長「はああ・・・かいけつ、かね」{wait}	{face:00505}{spk:01}Mayor: "Whew... So it's solved?"{wait}	
+dlg:2535	text	rec:4766	149	{face:30604}{spk:04}署長「ええ、かいけつです。{br}　あとはたいしょく金を楽しみに、{br}　ていねんまでつとめるだけです」{wait}	{face:30604}{spk:04}Chief: "Yes, it's solved. Now I just serve until retirement and look forward to my pension."{wait}	
+dlg:2536	text	rec:4767	149	{face:00502}{spk:01}市長「市でなにか名前を付けて、ひょうしょうしようじゃないか。{br}　次のせんきょに有利だぞ♪」{wait}	{face:00502}{spk:01}Mayor: "Let the City give it a name and hold an award ceremony! It'll help me in the next election!"{wait}	
+dlg:2537	text	rec:4768	149	{face:30604}{spk:04}署長「アプリコットの手がらだと、せんでんしたいですか」{wait}	{face:30604}{spk:04}Chief: "You want to advertise it as Apricot's triumph?"{wait}	
+dlg:2538	text	rec:4769	149	{face:00502}{spk:01}市長「ブランクはトイロボだったね。{br}　じゃあ、こういうのはどうだろう。{wait}	{face:00502}{spk:01}Mayor: "Blank was a Toyrobo, wasn't he? Then how about this?{wait}	
+dlg:2539	text	rec:4770	149	{spk:01}　世界をすくったトイロボフォース！{br}　子供たちに夢をあたえるとは思わんか？」{wait}	{spk:01}The Toyrobo Force that saved the world! Don't you think that'd give children something to dream of?"{wait}	
+dlg:2540	text	rec:4771	149	{face:30602}{spk:04}署長「そういうのは遠りょさせてください。　ブランクはもうトイロボではなく、{br}　りっぱなポリステカなのですから」{wait}	{face:30602}{spk:04}Chief: "Please, let's not. Blank is no longer a Toyrobo. He's a fine Polisteka now."{wait}	
+dlg:2541	text	rec:4776	149	　警察学校　よく年　春{wait}	Police Academy, the Following Spring{wait}	
+dlg:2542	text	rec:4777	149	{face:01101}{face:11008}{face:20001}{face:30101}{spk:02}リアナ「ブランク様！・・・{br}　あら、またあなたたちだけ？」{wait}	{face:01101}{face:11008}{face:20001}{face:30101}{spk:02}Riana: "Blank-sama!... Oh, just you two again?"{wait}	
+dlg:2543	text	rec:4778	149	{face:20012}{spk:03}ユウキ巡査長「あ？　なんで、婦人警官のかっこうしてるんです」{wait}	{face:20012}{spk:03}Senior Officer Yuki: "Huh? Why are you dressed as a policewoman?"{wait}	
+dlg:2544	text	rec:4779	149	{face:30115}{spk:04}トモミ巡査「あの、ブランクの好みだと言ったのはじょうだんで―――」{wait}	{face:30115}{spk:04}Officer Tomomi: "Um, that thing about it being Blank's type was a joke--"{wait}	
+dlg:2545	text	rec:4780	149	{spk:02}リアナ訓練生「なに言ってるの、警官訓練生になったのよ。{wait}	{spk:02}Cadet Riana: "What are you talking about? I've become a police cadet.{wait}	
+dlg:2546	text	rec:4781	149	{spk:02}　婦人警官になれば、ブランク様といつもいっしょでしょ♪」{wait}	{spk:02}If I'm a policewoman, I can always be with Blank-sama!"{wait}	
+dlg:2547	text	rec:4782	149	{face:20012}{spk:03}ユウキ「ペータ君も？」{wait}	{face:20012}{spk:03}Yuki: "You too, Peta-kun?"{wait}	
+dlg:2548	text	rec:4783	149	{face:01105}{spk:01}ペータ訓練生「はい、きっと警官になって、ブランク巡査に負けない手がらを！」{wait}	{face:01105}{spk:01}Cadet Peta: "Yes! I'll become an officer and make arrests as great as Officer Blank's!"{wait}	
+dlg:2549	text	rec:4784	149	ポイヤックの声「なにをしているんです！{br}　集合！」{wait}	Pauillac's voice: "What are you doing?! Fall in!"{wait}	
+dlg:2550	text	rec:4785	149	{spk:01}ペータ「コンファー！」{wait}	{spk:01}Peta: "Confirm!"{wait}	
+dlg:2551	text	rec:4786	149	{face:01100}{spk:02}リアナ「ブランク様におつたえしてね♪{br}　リアナはがんばっているからって」{wait}	{face:01100}{spk:02}Riana: "Tell Blank-sama for me, won't you? Tell him Riana is doing her best!"{wait}	
+dlg:2552	text	rec:4787	149	ポイヤックの声「リアナ訓練生！」{wait}	Pauillac's voice: "Cadet Riana!"{wait}	
+dlg:2553	text	rec:4788	149	{spk:02}リアナ「コンファー！」{wait}	{spk:02}Riana: "Confirm!"{wait}	
+dlg:2554	text	rec:4789	149	{face:11000}{face:20004}{spk:03}ユウキ「・・・まあ、楽しそうだね」{wait}	{face:11000}{face:20004}{spk:03}Yuki: "...Well, they seem to be having fun."{wait}	
+dlg:2555	text	rec:4790	149	{face:30115}{spk:04}トモミ「ギリガンは？」{wait}	{face:30115}{spk:04}Tomomi: "Where's Gilligan?"{wait}	
+dlg:2556	text	rec:4791	149	{face:20005}{spk:03}ユウキ「エミコさんとデート」{wait}	{face:20005}{spk:03}Yuki: "On a date with Emiko-san."{wait}	
+dlg:2557	text	rec:4792	149	{face:30106}{spk:04}トモミ「本気かしら、{br}　人間とロボットの恋なんて」{wait}	{face:30106}{spk:04}Tomomi: "Is he serious? Love between a human and a robot?"{wait}	
+dlg:2558	text	rec:4793	149	{face:20004}{spk:03}ユウキ「おーい、ブランク！{br}　いつまでもかくれてないで、{br}　教官にあいさつしていこうよ！」{wait}	{face:20004}{spk:03}Yuki: "Hey, Blank! Stop hiding and come say hello to the Instructor!"{wait}	
+dlg:2559	text	rec:4796	149	{face:02602}{spk:01}パン屋のマーケテカ「幼稚園のバスなら、{br}　今日は急に遠足になったとかで、{br}　おやつを買って行きました。{wait}	{face:02602}{spk:01}Bakery Marketeka: "The kindergarten bus? They said they were suddenly going on a field trip and bought snacks.{wait}	
+dlg:2560	text	rec:4797	149	{spk:01}　おまわりさんも乗せて、北に向かったみたいですが」{wait}	{spk:01}They had a police officer on board too, and seemed to head north."{wait}	
+dlg:2561	text	rec:4799	149	{face:02502}{face:10001}{face:20101}{face:30201}{spk:01}保母マイコ「えっ、ゆうかい・・・！」{wait}	{face:02502}{face:10001}{face:20101}{face:30201}{spk:01}Teacher Maiko: "What, a kidnapping...!"{wait}	
+dlg:2562	text	rec:4800	149	{face:30202}{spk:04}ギリガン「おれたちが、子供たちを助けてみせる。{br}　安心してまってろ！」{wait}	{face:30202}{spk:04}Gilligan: "We'll rescue those kids. Just wait here and don't worry!"{wait}	
+dlg:2563	text	rec:4801	149	{spk:01}保母マイコ「お、おねがいします！」{wait}	{spk:01}Teacher Maiko: "P-please do!"{wait}	
+dlg:2564	text	rec:4802	149	{face:20115}{spk:03}トモミ「―――ギリガン、なにかっこつけてんのよ」{wait}	{face:20115}{spk:03}Tomomi: "--Gilligan, what are you showing off for?"{wait}	
+dlg:2565	text	rec:4803	149	{face:30206}{spk:04}ギリガン「けっこう、かわいくねえか、この保母さん」{wait}	{face:30206}{spk:04}Gilligan: "Ain't this teacher kinda cute?"{wait}	
+dlg:2566	text	rec:4804	149	{spk:03}トモミ「ロボット相手になに言ってんの」{wait}	{spk:03}Tomomi: "What are you saying? She's a robot."{wait}	
+dlg:2567	text	rec:4805	149	{face:10012}{spk:02}ユウキ「バスにも同じ型が乗ってるよ」{wait}	{face:10012}{spk:02}Yuki: "There's one of the same model on the bus."{wait}	
+dlg:2568	text	rec:4806	149	{face:30204}{spk:04}ギリガン「よし、気合い入ってきた。{br}　行こうぜ！」{wait}	{face:30204}{spk:04}Gilligan: "All right, now I'm fired up. Let's go!"{wait}	
+dlg:2569	text	rec:4807	149	{spk:01}マイコ「あの・・・{br}　こんなものでもお役に立つなら。どうぞ」{wait}	{spk:01}Maiko: "Um... If this could be of any use, please take it."{wait}	
+dlg:2570	text	rec:4808	149	{face:30204}{spk:04}ギリガン「『ニンジンミッソー』か。{br}　お前のまごころだと思って、大事につかわせてもらうよ♪」{wait}	{face:30204}{spk:04}Gilligan: "The 'Carrot Missile'? I'll treat it with care, like it's your true heart!"{wait}	
+dlg:2571	text	rec:4809	149	{face:20106}{spk:03}トモミ「はずかし；{br}　はずかしーぞ、ギリガン；」{wait}	{face:20106}{spk:03}Tomomi: "How embarrassing! You're embarrassing, Gilligan!"{wait}	
+dlg:2572	text	rec:4811	149	左腕『ニンジンミッソー』を{br}　手に入れました。{wait}	Got the left arm{br}'Carrot Missile.'{wait}	
+dlg:2573	text	rec:4813	149	{face:02502}{face:30202}{spk:04}ギリガン「おれたちが子供たちを助ける。{br}　安心してまってろ！」{wait}	{face:02502}{face:30202}{spk:04}Gilligan: "We'll rescue those kids. Just wait here and don't worry!"{wait}	
+dlg:2574	text	rec:4814	149	{spk:01}保母マイコ「おねがいします！」{wait}	{spk:01}Teacher Maiko: "Please do!"{wait}	
+dlg:2575	text	rec:4816	149	{face:02502}{face:10001}{face:20101}{face:30201}{spk:01}保母マイコ「おまわりさん、子供たちとエミコさんをおねがいします・・・」{wait}	{face:02502}{face:10001}{face:20101}{face:30201}{spk:01}Teacher Maiko: "Officers, please look after the children and Emiko-san..."{wait}	
+dlg:2576	text	rec:4817	149	{face:30202}{spk:04}ギリガン「子供の一人だって死なせねえ。{br}　安心してまってろ！」{wait}	{face:30202}{spk:04}Gilligan: "I won't let a single kid die. Just wait here and don't worry!"{wait}	
+dlg:2577	text	rec:4818	149	{face:20104}{spk:03}トモミ「こいつ、本気で保母テカにほれたかな・・・？」{wait}	{face:20104}{spk:03}Tomomi: "Has this guy really fallen for a teacher Teka...?"{wait}	
+dlg:2578	text	rec:4821	149	{face:00505}{spk:01}市長「もう君たちにしか、たよれんのだ。{br}　ほかのシティにたよったら、外交に不利だからな！」{wait}	{face:00505}{spk:01}Mayor: "You're all I can count on now. Relying on another City would hurt us diplomatically!"{wait}	
+dlg:2579	text	rec:4823	149	{face:00605}{spk:01}署長「たのんだよ、ユウキ君。{br}　いい報告を待っているからね・・・」{wait}	{face:00605}{spk:01}Chief: "I'm counting on you, Yuki-kun. I'll be waiting for good news..."{wait}	
+dlg:2580	text	rec:4825	149	{face:31002}{spk:04}リアナ「あなたたち、仕事があるんでしょ？{br}　うろついていていいの？」{wait}	{face:31002}{spk:04}Riana: "Don't you have work to do? Should you be wandering around?"{wait}	
+dlg:2581	text	rec:4827	149	　屋根うらをそうさく中・・・{wait}	Searching the attic...{wait}	
 dlg:2582	text	rec:4828	149	{face:10012}{spk:02}ユウキ「ごそごそごそ・・・」{wait}	{face:10012}{spk:02}Yuki: "Rummage rummage rummage..."{wait}	
-dlg:2583	text	rec:4829	149	{face:20115}{spk:03}トモミ「口でごそごそ言いながらさがさないで；」{wait}		
-dlg:2584	text	rec:4830	149	{face:10012}{spk:02}ユウキ「見つけた。対空バレットパック」{wait}		
-dlg:2585	text	rec:4831	149	{face:30204}{spk:04}ギリガン「おっいいぞ！　使える！」{wait}		
-dlg:2586	text	rec:4833	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}		
-dlg:2587	text	rec:4836	149	　署内をそうさく中・・・{wait}		
-dlg:2588	text	rec:4837	149	{face:10012}{face:30203}{spk:02}ユウキ「パソコプのキーはふつう、署内にほかんしてるだろ」{wait}		
-dlg:2589	text	rec:4838	149	{spk:04}ギリガン「そりゃそうだな・・・{br}{face:30204}　お♪　あったぜ！」{wait}		
-dlg:2590	text	rec:4840	149	パソコプ『タイプ９０』を{br}　手に入れました。{wait}		
-dlg:2591	text	rec:4842	149	{face:20103}{spk:03}トモミ「大当たりね。{br}　じゃあ、出撃じゅんびと行きましょう」{wait}		
-dlg:2592	text	rec:4844	149	　レストラン『リヨン』{wait}		
-dlg:2593	text	rec:4845	149	{face:10001}{face:20105}{face:30201}{spk:03}トモミ「マロングラッセとー、{br}　ガトー・ボン・ルージュとー、{br}　タルト・タタンにー、{wait}		
-dlg:2594	text	rec:4846	149	{spk:03}　名物のフランボワーズ・パッションとー、　それからー♪」{wait}		
-dlg:2595	text	rec:4848	149	　レストラン『リヨン』{wait}		
-dlg:2596	text	rec:4849	149	{face:10001}{face:20105}{face:30201}{spk:03}トモミ「ドール・ア・ラ・クレームとー、{br}　モンブランとー、{br}　シブースト・キャラメルにー・・・」{wait}		
-dlg:2597	text	rec:4851	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「アプリコット市長は、まだおつきにならないので？{br}　おそいですね」{wait}		
-dlg:2598	text	rec:4852	149	{face:30207}{spk:04}ギリガン「そこまでボケるか？！」{wait}		
-dlg:2599	text	rec:4854	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「あの暗号がとけなくて。{br}　テカにさらわれた、というのがなにを意味するのか」{wait}		
-dlg:2600	text	rec:4855	149	{face:20106}{spk:03}トモミ「あてにできないわね、こっちのポリステカも；」{wait}		
-dlg:2601	text	rec:4858	149	{face:01202}{spk:01}ワークテカ「これはおどろいた、本当に人間警官っているんですね」{wait}		
-dlg:2602	text	rec:4863	149	{face:01602}{face:10012}{face:20101}{face:30201}{spk:01}バンクテカ「パワーシールドおひとつ、{br}　ずばり、５０，０００」{wait}		
-dlg:2603	text	rec:4864	149	{face:30205}{spk:04}ギリガン「出せるか、そんな大金；」{wait}		
-dlg:2604	text	rec:4867	149	{face:01602}{spk:01}バンクテカ「じゃあこれは？{br}　対地パワーアップ。{br}　こうげき力アップまちがいなし」{wait}		
-dlg:2605	text	rec:4868	149	{face:10001}{face:30204}{spk:04}ギリガン「いいじゃねえか！　いくらだ？」{wait}		
-dlg:2606	text	rec:4869	149	{spk:01}バンクテカ「２０，０００です」		
-dlg:2607	text	rec:4870	149	{face:30205}{spk:04}ギリガン「高いぞ；　５０００」		
-dlg:2608	text	rec:4871	149	{spk:01}バンクテカ「１５，０００」		
-dlg:2609	text	rec:4872	149	{face:30203}{spk:04}ギリガン「７０００」		
-dlg:2610	text	rec:4873	149	{spk:01}バンクテカ「１２，０００！」		
-dlg:2611	text	rec:4874	149	{face:30206}{spk:04}ギリガン「１０，０００！」		
-dlg:2612	text	rec:4875	149	{spk:01}バンクテカ「売った！」		
-dlg:2613	text	rec:4876	149	{face:30204}{spk:04}ギリガン「買った！」		
-dlg:2614	text	rec:4877	149	{face:20106}{spk:03}トモミ「かってに買うなっ；」		
-dlg:2615	text	rec:4879	149	{face:01602}{spk:01}バンクテカ「はいどうぞ。{br}　お金のあるときにはパワーシールドも買いにきてください」{wait}		
-dlg:2616	text	rec:4882	149	オプション『対地パワーアップ』を{br}　手に入れました。{wait}		
-dlg:2617	text	rec:4884	149	{face:10012}{spk:02}ユウキ「そんなに、お金をかせがないといけないの？」{wait}		
-dlg:2618	text	rec:4885	149	{face:01602}{spk:01}バンクテカ「ええ、まあ、いろいろと―――　聞かないでください」{wait}		
-dlg:2619	text	rec:4887	149	{face:10004}{spk:02}ユウキ「次は警察署の見学に行こう」{wait}		
-dlg:2620	text	rec:4889	149	{face:20105}{spk:03}トモミ「おいしいケーキを食べに行く、{br}　とゆーのはどーかしら？」{wait}		
+dlg:2583	text	rec:4829	149	{face:20115}{spk:03}トモミ「口でごそごそ言いながらさがさないで；」{wait}	{face:20115}{spk:03}Tomomi: "Don't go 'rummage rummage' out loud while you search!"{wait}	
+dlg:2584	text	rec:4830	149	{face:10012}{spk:02}ユウキ「見つけた。対空バレットパック」{wait}	{face:10012}{spk:02}Yuki: "Found it. An Anti-Air Bullet Pack."{wait}	
+dlg:2585	text	rec:4831	149	{face:30204}{spk:04}ギリガン「おっいいぞ！　使える！」{wait}	{face:30204}{spk:04}Gilligan: "Oh, nice! We can use that!"{wait}	
+dlg:2586	text	rec:4833	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
+dlg:2587	text	rec:4836	149	　署内をそうさく中・・・{wait}	Searching the station...{wait}	
+dlg:2588	text	rec:4837	149	{face:10012}{face:30203}{spk:02}ユウキ「パソコプのキーはふつう、署内にほかんしてるだろ」{wait}	{face:10012}{face:30203}{spk:02}Yuki: "Pasocop keys are usually stored at the station, right?"{wait}	
+dlg:2589	text	rec:4838	149	{spk:04}ギリガン「そりゃそうだな・・・{br}{face:30204}　お♪　あったぜ！」{wait}	{spk:04}Gilligan: "Guess so... {face:30204}Oh! Here they are!"{wait}	
+dlg:2590	text	rec:4840	149	パソコプ『タイプ９０』を{br}　手に入れました。{wait}	Got the Pasocop{br}'Type 90.'{wait}	
+dlg:2591	text	rec:4842	149	{face:20103}{spk:03}トモミ「大当たりね。{br}　じゃあ、出撃じゅんびと行きましょう」{wait}	{face:20103}{spk:03}Tomomi: "Jackpot. Now let's get ready to sortie."{wait}	
+dlg:2592	text	rec:4844	149	　レストラン『リヨン』{wait}	Restaurant 'Lyon'{wait}	
+dlg:2593	text	rec:4845	149	{face:10001}{face:20105}{face:30201}{spk:03}トモミ「マロングラッセとー、{br}　ガトー・ボン・ルージュとー、{br}　タルト・タタンにー、{wait}	{face:10001}{face:20105}{face:30201}{spk:03}Tomomi: "Marrons glaces, and gateau bon rouge, and tarte Tatin,{wait}	
+dlg:2594	text	rec:4846	149	{spk:03}　名物のフランボワーズ・パッションとー、　それからー♪」{wait}	{spk:03}and the famous Framboise Passion, and then..."{wait}	
+dlg:2595	text	rec:4848	149	　レストラン『リヨン』{wait}	Restaurant 'Lyon'{wait}	
+dlg:2596	text	rec:4849	149	{face:10001}{face:20105}{face:30201}{spk:03}トモミ「ドール・ア・ラ・クレームとー、{br}　モンブランとー、{br}　シブースト・キャラメルにー・・・」{wait}	{face:10001}{face:20105}{face:30201}{spk:03}Tomomi: "Dolce a la creme, and Mont Blanc, and caramel Chiboust..."{wait}	
+dlg:2597	text	rec:4851	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「アプリコット市長は、まだおつきにならないので？{br}　おそいですね」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "The Mayor of Apricot hasn't arrived yet? He's very late."{wait}	
+dlg:2598	text	rec:4852	149	{face:30207}{spk:04}ギリガン「そこまでボケるか？！」{wait}	{face:30207}{spk:04}Gilligan: "How dense can ya get?!"{wait}	
+dlg:2599	text	rec:4854	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「あの暗号がとけなくて。{br}　テカにさらわれた、というのがなにを意味するのか」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "I can't crack that code. What could 'kidnapped by Teka' mean?"{wait}	
+dlg:2600	text	rec:4855	149	{face:20106}{spk:03}トモミ「あてにできないわね、こっちのポリステカも；」{wait}	{face:20106}{spk:03}Tomomi: "We can't count on the Polisteka here either!"{wait}	
+dlg:2601	text	rec:4858	149	{face:01202}{spk:01}ワークテカ「これはおどろいた、本当に人間警官っているんですね」{wait}	{face:01202}{spk:01}Workteka: "Well, I'm amazed. There really are human police officers."{wait}	
+dlg:2602	text	rec:4863	149	{face:01602}{face:10012}{face:20101}{face:30201}{spk:01}バンクテカ「パワーシールドおひとつ、{br}　ずばり、５０，０００」{wait}	{face:01602}{face:10012}{face:20101}{face:30201}{spk:01}Bankteka: "One Power Shield, a straight 50,000 yen."{wait}	
+dlg:2603	text	rec:4864	149	{face:30205}{spk:04}ギリガン「出せるか、そんな大金；」{wait}	{face:30205}{spk:04}Gilligan: "Like I could pay that kind of money!"{wait}	
+dlg:2604	text	rec:4867	149	{face:01602}{spk:01}バンクテカ「じゃあこれは？{br}　対地パワーアップ。{br}　こうげき力アップまちがいなし」{wait}	{face:01602}{spk:01}Bankteka: "Then how about this? An Anti-Ground Power Up. It's sure to boost your attack."{wait}	
+dlg:2605	text	rec:4868	149	{face:10001}{face:30204}{spk:04}ギリガン「いいじゃねえか！　いくらだ？」{wait}	{face:10001}{face:30204}{spk:04}Gilligan: "Now we're talkin'! How much?"{wait}	
+dlg:2606	text	rec:4869	149	{spk:01}バンクテカ「２０，０００です」	{spk:01}Bankteka: "20,000 yen."	
+dlg:2607	text	rec:4870	149	{face:30205}{spk:04}ギリガン「高いぞ；　５０００」	{face:30205}{spk:04}Gilligan: "Too pricey! 5,000."	
+dlg:2608	text	rec:4871	149	{spk:01}バンクテカ「１５，０００」	{spk:01}Bankteka: "15,000."	
+dlg:2609	text	rec:4872	149	{face:30203}{spk:04}ギリガン「７０００」	{face:30203}{spk:04}Gilligan: "7,000."	
+dlg:2610	text	rec:4873	149	{spk:01}バンクテカ「１２，０００！」	{spk:01}Bankteka: "12,000!"	
+dlg:2611	text	rec:4874	149	{face:30206}{spk:04}ギリガン「１０，０００！」	{face:30206}{spk:04}Gilligan: "10,000!"	
+dlg:2612	text	rec:4875	149	{spk:01}バンクテカ「売った！」	{spk:01}Bankteka: "Sold!"	
+dlg:2613	text	rec:4876	149	{face:30204}{spk:04}ギリガン「買った！」	{face:30204}{spk:04}Gilligan: "Bought!"	
+dlg:2614	text	rec:4877	149	{face:20106}{spk:03}トモミ「かってに買うなっ；」	{face:20106}{spk:03}Tomomi: "Don't go buying things on your own!"	
+dlg:2615	text	rec:4879	149	{face:01602}{spk:01}バンクテカ「はいどうぞ。{br}　お金のあるときにはパワーシールドも買いにきてください」{wait}	{face:01602}{spk:01}Bankteka: "Here you are. Come back for a Power Shield when you have the money."{wait}	
+dlg:2616	text	rec:4882	149	オプション『対地パワーアップ』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Power Up.'{wait}	
+dlg:2617	text	rec:4884	149	{face:10012}{spk:02}ユウキ「そんなに、お金をかせがないといけないの？」{wait}	{face:10012}{spk:02}Yuki: "Do you really need to earn that much money?"{wait}	
+dlg:2618	text	rec:4885	149	{face:01602}{spk:01}バンクテカ「ええ、まあ、いろいろと―――　聞かないでください」{wait}	{face:01602}{spk:01}Bankteka: "Well, yes, for all sorts of reasons-- Please don't ask."{wait}	
+dlg:2619	text	rec:4887	149	{face:10004}{spk:02}ユウキ「次は警察署の見学に行こう」{wait}	{face:10004}{spk:02}Yuki: "Next, let's go visit the police station."{wait}	
+dlg:2620	text	rec:4889	149	{face:20105}{spk:03}トモミ「おいしいケーキを食べに行く、{br}　とゆーのはどーかしら？」{wait}	{face:20105}{spk:03}Tomomi: "How about we go and eat some delicious cake instead?"{wait}	
 dlg:2621	text	rec:4894	149	　ホテル『モンラシェ』{wait}	Hotel 'Montrachet'{wait}	
-dlg:2622	text	rec:4895	149	{face:11001}{face:21102}{spk:03}ペータ「リアナ！{br}　だいじょうぶだった？！」{wait}		
-dlg:2623	text	rec:4896	149	{face:11002}{spk:02}リアナ「あら、ペータ。{br}　いいところにきてくれたわね―――{br}　あなたにお話があるの」{wait}		
-dlg:2624	text	rec:4897	149	{face:21103}{spk:03}ペータ「え（どきっ）、なんだい―――」{wait}		
-dlg:2625	text	rec:4898	149	{face:11005}{spk:02}リアナ「あたし―――好きな人ができたの」{wait}		
-dlg:2626	text	rec:4899	149	{face:21102}{spk:03}ペータ「えっ・・・」{wait}		
-dlg:2627	text	rec:4900	149	{face:11003}{spk:02}リアナ「ペータより力強くて、{br}　ペータよりかっこよくて、{br}　ペータよりたよりになる方よ♪{wait}		
-dlg:2628	text	rec:4901	149	{spk:02}　あたしはいま、あの方のことしか考えられないわ。{br}　だから、ペータ。{wait}		
-dlg:2629	text	rec:4902	149	{face:11004}{spk:02}　もう、あたしにまとわりつかないで！{wait}		
-dlg:2630	text	rec:4903	149	{face:11002}{spk:02}　パパに取り入ってもムダよ。{br}　あたしを助けてくれたのも、パパを助けに行くのも、『あの方』なんですからね！」{wait}		
-dlg:2631	text	rec:4906	149	{face:10004}{face:20101}{face:30201}{spk:02}ユウキ「さあ、市長きゅうしゅつのじゅんびにかかろう」{wait}		
-dlg:2632	text	rec:4907	149	{face:30203}{spk:04}ギリガン「け、あんな親父のためにねえ」{wait}		
-dlg:2633	text	rec:4908	149	{face:20103}{spk:03}トモミ「おしごとよ、お仕事」{wait}		
-dlg:2634	text	rec:4909	149	{face:30205}{spk:04}ギリガン「しょうがねえな。やるか！」{wait}		
-dlg:2635	text	rec:4912	149	{face:01502}{spk:01}フランボワーズ市長「市長救出が先ですか。　こっちを先にしてくれたら、研究所に協力させようと思ったのですが」{wait}		
-dlg:2636	text	rec:4914	149	{face:01502}{spk:01}フランボワーズ市長「市長救出をあとまわしにしたことは、アドルフ市長にはナイショにしましょう」{wait}		
-dlg:2637	text	rec:4920	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「市長から、みなさんにオプションをおわたしするよう言われています」{wait}		
-dlg:2638	text	rec:4921	149	{face:30204}{spk:04}ギリガン「パソコプのブースターか、スピードが出るぞ！」{wait}		
-dlg:2639	text	rec:4923	149	オプション『スピードアップ』を{br}　手に入れました。{wait}		
-dlg:2640	text	rec:4926	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「うーん。{br}　シティでわけの分からないことが起きて。{br}　あれはなんなんでしょう」{wait}		
-dlg:2641	text	rec:4927	149	{face:30206}{spk:04}ギリガン「テカ反乱がりかいできないのか。　教えてやる、テカに化けた人間があばれてるのさ」{wait}		
+dlg:2622	text	rec:4895	149	{face:11001}{face:21102}{spk:03}ペータ「リアナ！{br}　だいじょうぶだった？！」{wait}	{face:11001}{face:21102}{spk:03}Peta: "Riana! Are you all right?!"{wait}	
+dlg:2623	text	rec:4896	149	{face:11002}{spk:02}リアナ「あら、ペータ。{br}　いいところにきてくれたわね―――{br}　あなたにお話があるの」{wait}	{face:11002}{spk:02}Riana: "Oh, Peta. You came at a good time-- I have something to tell you."{wait}	
+dlg:2624	text	rec:4897	149	{face:21103}{spk:03}ペータ「え（どきっ）、なんだい―――」{wait}	{face:21103}{spk:03}Peta: "Huh? (gulp) What is it--"{wait}	
+dlg:2625	text	rec:4898	149	{face:11005}{spk:02}リアナ「あたし―――好きな人ができたの」{wait}	{face:11005}{spk:02}Riana: "I've-- fallen for someone."{wait}	
+dlg:2626	text	rec:4899	149	{face:21102}{spk:03}ペータ「えっ・・・」{wait}	{face:21102}{spk:03}Peta: "What...?"{wait}	
+dlg:2627	text	rec:4900	149	{face:11003}{spk:02}リアナ「ペータより力強くて、{br}　ペータよりかっこよくて、{br}　ペータよりたよりになる方よ♪{wait}	{face:11003}{spk:02}Riana: "Someone stronger than you, Peta, cooler than you, and more dependable than you!{wait}	
+dlg:2628	text	rec:4901	149	{spk:02}　あたしはいま、あの方のことしか考えられないわ。{br}　だから、ペータ。{wait}	{spk:02}He's all I can think about now. So, Peta.{wait}	
+dlg:2629	text	rec:4902	149	{face:11004}{spk:02}　もう、あたしにまとわりつかないで！{wait}	{face:11004}{spk:02}Stop hanging around me!{wait}	
+dlg:2630	text	rec:4903	149	{face:11002}{spk:02}　パパに取り入ってもムダよ。{br}　あたしを助けてくれたのも、パパを助けに行くのも、『あの方』なんですからね！」{wait}	{face:11002}{spk:02}Sucking up to Papa won't help. It was 'that person' who saved me, and he's going to save Papa too!"{wait}	
+dlg:2631	text	rec:4906	149	{face:10004}{face:20101}{face:30201}{spk:02}ユウキ「さあ、市長きゅうしゅつのじゅんびにかかろう」{wait}	{face:10004}{face:20101}{face:30201}{spk:02}Yuki: "Now, let's get ready to rescue the Mayor."{wait}	
+dlg:2632	text	rec:4907	149	{face:30203}{spk:04}ギリガン「け、あんな親父のためにねえ」{wait}	{face:30203}{spk:04}Gilligan: "Tch, all for that old man, huh."{wait}	
+dlg:2633	text	rec:4908	149	{face:20103}{spk:03}トモミ「おしごとよ、お仕事」{wait}	{face:20103}{spk:03}Tomomi: "It's our job, our job."{wait}	
+dlg:2634	text	rec:4909	149	{face:30205}{spk:04}ギリガン「しょうがねえな。やるか！」{wait}	{face:30205}{spk:04}Gilligan: "Can't be helped. Let's do it!"{wait}	
+dlg:2635	text	rec:4912	149	{face:01502}{spk:01}フランボワーズ市長「市長救出が先ですか。　こっちを先にしてくれたら、研究所に協力させようと思ったのですが」{wait}	{face:01502}{spk:01}Mayor Framboise: "The Mayor's rescue comes first? If you'd done this first, I'd have had the lab help you."{wait}	
+dlg:2636	text	rec:4914	149	{face:01502}{spk:01}フランボワーズ市長「市長救出をあとまわしにしたことは、アドルフ市長にはナイショにしましょう」{wait}	{face:01502}{spk:01}Mayor Framboise: "Let's keep it a secret from Mayor Adolf that you put his rescue off."{wait}	
+dlg:2637	text	rec:4920	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「市長から、みなさんにオプションをおわたしするよう言われています」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "The Mayor told me to hand you all an option."{wait}	
+dlg:2638	text	rec:4921	149	{face:30204}{spk:04}ギリガン「パソコプのブースターか、スピードが出るぞ！」{wait}	{face:30204}{spk:04}Gilligan: "A Pasocop booster! That'll give us speed!"{wait}	
+dlg:2639	text	rec:4923	149	オプション『スピードアップ』を{br}　手に入れました。{wait}	Got the option{br}'Speed Up.'{wait}	
+dlg:2640	text	rec:4926	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「うーん。{br}　シティでわけの分からないことが起きて。{br}　あれはなんなんでしょう」{wait}	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}Polisteka: "Hmm. Baffling things are happening in the City. What could it all be?"{wait}	
+dlg:2641	text	rec:4927	149	{face:30206}{spk:04}ギリガン「テカ反乱がりかいできないのか。　教えてやる、テカに化けた人間があばれてるのさ」{wait}	{face:30206}{spk:04}Gilligan: "Ya can't make sense of the Teka Revolt? I'll tell ya: humans disguised as Teka are running wild."{wait}	
 dlg:2642	text	rec:4928	149	{spk:01}ポリステカ「あっ、なるほど！{br}　それならりかいできる！」{wait}		
 dlg:2643	text	rec:4929	149	{face:30205}{spk:04}ギリガン「本気にするんじゃねえ！」{wait}		
 dlg:2644	text	rec:4931	149	{face:01302}{face:10001}{face:20101}{face:30201}{spk:01}ポリステカ「アドルフ市長がお見えになるはずでしたが、予定がへんこうになったのですか？」{wait}		
@@ -318,7 +318,7 @@ dlg:2712	text	rec:5054	149	{spk:01}バンクテカ「ついでに、これもど
 dlg:2713	text	rec:5056	149	{spk:01}バンクテカ「じゃあ、これはどうです。{br}　パソコプのスピードアップ。{br}　これなら、１ヶ１０，０００」{wait}		
 dlg:2714	text	rec:5057	149	{face:30204}{spk:04}ギリガン「買った！」{wait}	{face:30204}{spk:04}Gilligan: "Sold!"{wait}	
 dlg:2715	text	rec:5058	149	{face:20115}{spk:03}トモミ「かってに買うなっての」{wait}		
-dlg:2716	text	rec:5063	149	オプション『スピードアップ』を{br}　手に入れました。{wait}		
+dlg:2716	text	rec:5063	149	オプション『スピードアップ』を{br}　手に入れました。{wait}	Got the option{br}'Speed Up.'{wait}	
 dlg:2717	text	rec:5064	149	{spk:01}バンクテカ「はい、どうぞ。{br}　在庫はたっぷりありますからね、{br}　また買ってください」{wait}		
 dlg:2718	text	rec:5066	149	{face:10012}{spk:02}ユウキ「いや、いいよ」{wait}		
 dlg:2719	text	rec:5072	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
@@ -474,7 +474,7 @@ dlg:2868	text	rec:5322	149	{face:01202}{spk:01}ワークテカ「お仕事ごく
 dlg:2869	text	rec:5325	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}		
 dlg:2870	text	rec:5327	149	{face:01202}{spk:01}ワークテカ「対地パワーアップを売って良いと将軍に言われています。{br}　２０，０００だけど、買います？」{wait}		
 dlg:2871	text	rec:5330	149	{spk:01}ワークテカ「はいどうぞ。{br}　将軍の口ききだから、とくべつですよ」{wait}		
-dlg:2872	text	rec:5333	149	オプション『対地パワーアップ』を{br}　手に入れました。{wait}		
+dlg:2872	text	rec:5333	149	オプション『対地パワーアップ』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Power Up.'{wait}	
 dlg:2873	text	rec:5336	149	{spk:01}ワークテカ「あ、お金ないっすか」{wait}		
 dlg:2874	text	rec:5340	149	{face:01202}{spk:01}ワークテカ「お仕事ごくろうさまです」{wait}		
 dlg:2875	text	rec:5342	149	{face:01202}{spk:01}ワークテカ「いなかの町工場ですが、ふつうのメンテぐらいはできますよ」{wait}		
@@ -488,9 +488,9 @@ dlg:2882	text	rec:5364	149	{face:01202}{spk:01}ワークテカ「バレットパ
 dlg:2883	text	rec:5365	149	{face:30206}{spk:04}ギリガン「１０，０００だと？{br}　おれたちがほしがると思って、{br}　足元見てねえか？」{wait}		
 dlg:2884	text	rec:5368	149	{face:01202}{spk:01}ワークテカ「バレットパック入荷しました。　いかがです？{br}　対空でも対地でも、１個２０，０００」{wait}		
 dlg:2885	text	rec:5369	149	{face:30207}{spk:04}ギリガン「２０，０００！？{br}　値上げしてねえか、値上げ！」{wait}		
-dlg:2886	text	rec:5374	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}		
+dlg:2886	text	rec:5374	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
 dlg:2887	text	rec:5379	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}		
-dlg:2888	text	rec:5384	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}		
+dlg:2888	text	rec:5384	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
 dlg:2889	text	rec:5388	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}		
 dlg:2890	text	rec:5389	149	{spk:01}「まいど！」{wait}		
 dlg:2891	text	rec:5393	149	{face:01402}{spk:01}みーちゃん「ようこそいらっしゃいませー。　当牧場とくせいのアイスクリームはいかがですかー？♪」{wait}		
