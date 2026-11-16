@@ -125,6 +125,14 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Street/place names so far: コットン通り Cotton Street, レンガ通り Brick Street, とけい坂 Clock Hill, カシューそうげん
   Cashew Plains, ピメント池 Pimento Pond, ハクサイとうげ Cabbage Pass, こけもも Lingonberry, サザンカ幼稚園 Sazanka
   Kindergarten, カマンベール牧場 Camembert Ranch, プラム山 Plum Mountain, かくし山荘 the Hidden Lodge.
-- The "Doctor" (博士) at the lodge is unnamed so far; ゲオルグ博士 = Dr. Georg (check whether they are the same).
+- The "Doctor" (博士) is Dr. Georg (revealed dlg:1100); speaker label stays "Doctor" for 博士, "Dr. Georg" for
+  ゲオルグ博士. Richter is his grandson (孫). Emiko is a Teka ('97 Elise type teacher), she.
+- b009-b023: 通信 = "Radio:", 通信・X = "X (radio):"; 反対派 = "Opposition:"; 様 kept as -sama (Blank-sama);
+  Mayor Framboise and Father Tuck are instructor Teka of unknown gender: no he/she for them (Mayor Hanna and the
+  "Mayor" Riana's father are human, she/he fine). Blank is a Polisteka/Toyrobo, "he". ワイン工場 the winery;
+  こけももの都 Lingonberry Capital; こけももけいしちょう Lingonberry Metropolitan Police; とくべつ警察 special
+  police; こけももちょうほうぶ Lingonberry Intelligence; 戦場が丘 Battlefield Hill; ブリオッシュ山 Mount Brioche;
+  シャーウッドの森 Sherwood Forest; エルヴィン大佐 Colonel Erwin; 獅子身中の虫 "viper in my bosom";
+  プロメテウス Prometheus (bomber). Gilligan calls Polijenne "Marian" after the Robin Hood code (dlg:1703).
 - ♪ and ； (sweat mark) have no English glyph: drop them or end on "!" / "...".
 - 『』 terms in quotes: 'Teka Revolt', 'Out of Control' (アウト・オブ・コントロール), 'field training' (実習).

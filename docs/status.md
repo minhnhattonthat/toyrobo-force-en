@@ -2,13 +2,15 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress: b001-b008 of 40 merged (all 397 choices, dialogue dlg:0000-0631 = sections
-  s00-s02 and the start of s03; 1019 of 3722 rows have `en`). Last build 2026-11-17 sha1 00e5a8f4... (810 rows then),
-  pilot shot of dlg:0002 in-game reads cleanly (`work/qa/pilot/final.png`).
+- **Phase:** 6. Translate in progress: b001-b023 of 40 merged (all 397 choices, dialogue dlg:0000-2216: Apricot,
+  Framboise, Cassis, Lingonberry, Marmalade arcs, up to leaving for Blackberry Island; 2635 of 3722 rows have `en`).
+  Last build 2026-11-17 sha1 6cf6bc77... (2635 rows), pilot shot of dlg:0002 in-game reads cleanly
+  (`work/qa/pilot/final.png`).
 - **Phase 6 how-to (resume here):** `docs/translator-brief.md` (tl_body.py view -> write bNNN.body.tsv -> wrap ->
   batches.py check -> merge). Batches `work/tl/b001-b040.tsv` exist (work/ is gitignored; if they are missing, run
   `python -X utf8 tools/batches.py split --size 3000`, which numbers on from what exists and skips translated rows).
-  Next: b009 (dlg:0632 on). After b040, run `split` once more: 4 rows (credits:248FD8, credits:248FF8, items_b:6,
+  Next: b024 (dlg:2217 on). Fix files: write them with the file-write tool (the guard hook blocks heredocs that
+  pipe into commits; keep check/merge and commit in separate commands). After b040, run `split` once more: 4 rows (credits:248FD8, credits:248FF8, items_b:6,
   items_b:8) were un-merged after a cross-box JP copy and need their own batch. Then: style reference
   (`docs/style-reference.md` from the translated s00-s02), `docs/synopsis.md`, reviewer pass per batch (do it
   yourself read-only or with `codex exec`; Minors to `docs/polish.md`), tables/strings fit (phase 7 notes below).
