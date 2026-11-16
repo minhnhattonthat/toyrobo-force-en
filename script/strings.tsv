@@ -150,7 +150,7 @@ strings:2495E0	text	ref:00DFE8	15	セーブしない	Don't save
 strings:2495F0	text	ref:00E140	23	日誌にきろくしました。	Saved to the log.	
 strings:249608	text	ref:00E248	23	！！セーブできません。	!! Cannot save.	
 strings:249620	text	ref:00F198	59	　さいしょから遊ぶか、つづきをやるか、決めてちょうだいね♪	Start fresh, or pick up where you left off? Your call!	
-strings:24965C	text	ref:00F250	27	　どの日誌から続けるの？	Which log shall we resume?	
+strings:24965C	text	ref:00F250	27	　どの日誌から続けるの？	Resume from which log?	
 strings:249678	text	ref:00F31C	27	　データをロードしたわ。	Your data's all loaded!	
 strings:249694	text	ref:00F420	51	　ざんねんですが、{br}日誌%dは消えてしまいました…	Sorry, but{br}Log %d has been erased...	
 swap:3F7592	text	ref:3F76A4	20	だれを　　使う？　　	Who will you use?	fixed width: pad with full-width spaces to the original length

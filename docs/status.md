@@ -2,9 +2,35 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (graphics text: G3, G4, G6, G7, G10, G14, G15, G17 done; G12 redrawn
-  but not seen in game; G5 G8 to go).
-- **Latest session (build sha1 1bb4c0b1):** G10 balloons: LZ group `balloon` + `gfx.BALLOONS_EN` (7 lines, rows
+- **Phase:** 8. QA in the emulator: in progress (graphics G3-G8, G10, G14, G15, G17 done; G12 redrawn but not seen
+  in game; first full tour + visual-QA verdicts done: 95 ok / 15 issues in 3 groups, 1 group fixed).
+- **Latest session (build sha1 da023e2d):** G5 done: the katakana logo is on the title *sprites* (not the bitmap):
+  `gfx.py` `logos` (erase + per-column band refill + bold slanted `LOGO_GLYPHS`) in `title_obj`, and new sprite
+  groups (`sprites=[(ROM, w tiles, h tiles, x, y)]`, canvas `size`) for the section-card logo `card_logo` (raw 1D
+  sprites at 0x0A58A4/0x0A60A4/0x0A64A4, flat band refill). Shots `work/qa/g5_title/zoom.png`, `work/qa/g5_card/z.png`.
+  G8 done offline: sheet aligned at 0x139040 (32 tiles wide), group `g8` + `G8_EN` "WIN!"/"LOSE" (labels can take
+  `keep=True` = draw without clearing); link battle only, preview `work/qa/g8_en_z.png`. G12: tried a scripted
+  fight (KEYS mash in battle01): the robot goes down, no arrest; `tools/debug/ramsnap.lua` + `freeze.lua` added;
+  0x03005B0E u16 is the HUD bottom number but holding it is not god mode (life still unknown).
+  Tour `work/qa/tour_en` (99/99) and `work/qa/tour_jp` (original), per-scene `sheet.png` (frames from 1400; title
+  menus from 0), `work/qa/manifest.tsv` (110 sheets, build a8c..9b9f2455), chunks `work/qa/chunks/`, verdicts by
+  `tools/vqa.sh` (codex exec read-only; brief `docs/visual-qa-brief.md`) in `work/qa/verdicts/`. Issues:
+  1. **fixed** (recheck_1.tsv): Continue help line "Which log shall we resume?" drew its 13th cell stale
+     ("resumdd") -> "Resume from which log?"; the help lines seem to hold 12 cells (24 letters) per line: check the
+     other HELP rows if one ever grows.
+  2. **todo**: workshop name sign (upper right, "アプリコットの工場" etc., 6 towns) still Japanese on factory,
+     factory_info, factory_maint, facility1-5 and their _info scenes (12 sheets). Find whether font text (marker
+     build would show an id) or tiles (gba_layers/vramfind), then translate/redraw ("Apricot Factory" ...; town
+     names in glossary / `LOCATIONS_EN`).
+  3. **todo**: link_battle menu はじめる / おわる still Japanese (link_battle/sheet_2): same check (font or tiles).
+  Choice boxes are left-aligned in the original too (`work/qa/inkbox_jp.png` vs `inkbox_a.png`): inkbox's centring
+  test does not apply to them; still run inkbox on any centred box found.
+  Then: rebuild -> re-run the whole tour (build changed since the manifest) -> sheets -> `qa_gate.py init ... --build`
+  -> `todo` -> `tools/vqa.sh` on the changed chunks -> `qa_gate.py check` exit 0. Still open after that: text
+  coverage (no `build/strings.tsv` yet: build must write id<TAB>address of every string, tour runs need
+  `$SKILL/scripts/lua/probes/textcover.lua` with RANGES; most dialogue is unreachable by the 99-scene tour, so plan
+  scenes that run each section with A held, or waive with reasons), part-detail strings (step 2 below), G12 in game.
+- **Session before (build sha1 1bb4c0b1):** G10 balloons: LZ group `balloon` + `gfx.BALLOONS_EN` (7 lines, rows
   Blank / Tomomi / Gilligan, block fits in place), seen in game for Tomomi win and loss (`work/qa/g10_win/zoom.png`,
   `work/qa/g12l`). G12 labels added to group `report` (Bust! stamp, the 7 robot types, Teka Report, End,
   R.Arm/L.Arm/Body/Pasocop, Parts/Names tabs; offline preview `work/qa/g12_prev_c.png`); the sortie report still

@@ -18,3 +18,5 @@ One line per gotcha: the reference file it belongs in, then the fact.
 - docs/translator-brief.md / tools/batches.py: the skill's batches.py adapter assumes JSON script files; TSV repos need docs()/merge rewritten (done here). Also its wrap assumption: engine wrap must not count mid-line control codes as letters (engine._width here).
 - SKILL.md ground rules (file-edit tool): the Edit tool drops a trailing TAB at the end of an edited line, so a TSV row with an empty last column loses that column (text.py then refuses the file); re-add it with a scratch script, or end old/new strings before the last tab.
 - references/graphics.md §Find the source (GBA): vramfind found title tiles only as short dup runs; logging DMA3 SAD/DAD/CNT writes (tools/debug/dmalog.lua here) around the screen load gave the exact ROM source in one run. Worth a probes/ script for GBA.
+tour_en sheet.py per scene: frames after the warp only (--from 1400; title menus --from 0), else the cold-boot frames fill each sheet (emulator-qa.md §Visual QA)
+codex exec -s read-only can't write the verdict file: make its final message the TSV and grep it out (tools/vqa.sh) (emulator-qa.md §Visual QA)
