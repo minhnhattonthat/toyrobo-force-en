@@ -2,7 +2,7 @@ id	kind	where	max	jp	en	notes
 dlg:2310	text	rec:4467	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
 dlg:2311	text	rec:4468	149	{face:10701}{face:20803}{spk:03}リヒター「にげた・・・{br}　にがしちゃったよ！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "They got away... We let them get away!"{wait}	
 dlg:2312	text	rec:4469	149	{face:10702}{face:20801}{spk:02}ゲオルグ博士「まいった・・・{br}　あそこまで強いチームに仕立てておったとは」{wait}	{face:10702}{face:20801}{spk:02}Dr. Georg: "I'm beaten... I never dreamed they'd built so strong a team."{wait}	
-dlg:2313	text	rec:4470	149	{face:10701}{face:20803}{spk:03}リヒター「これじゃ、エミコさんのえがおをガマンしてまで仕組んだ意味が、ないじゃないか！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "Then what was the point? I even gave up Emiko-san's smile for this!"{wait}	
+dlg:2313	text	rec:4470	149	{face:10701}{face:20803}{spk:03}リヒター「これじゃ、エミコさんのえがおをガマンしてまで仕組んだ意味が、ないじゃないか！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "Then what was the point of this setup? I even put up with seeing Emiko-san so happy!"{wait}	
 dlg:2314	text	rec:4471	149	{face:10702}{face:20801}{spk:02}博士「そうじゃなあ。{br}　エミコさんにも悪いことをしたし。{br}　ここらがしおどきかな」{wait}	{face:10702}{face:20801}{spk:02}Doctor: "Yes, well. I've wronged Emiko-san too. Perhaps it's time I called it quits."{wait}	
 dlg:2315	text	rec:4472	149	{face:10701}{face:20803}{spk:03}リヒター「？！　あきらめる気？」{wait}	{face:10701}{face:20803}{spk:03}Richter: "?! You're giving up?"{wait}	
 dlg:2316	text	rec:4473	149	{face:10702}{face:20801}{spk:02}博士「わしは、人間にテカを見なおさせたかっただけじゃ。{wait}	{face:10702}{face:20801}{spk:02}Doctor: "All I ever wanted was for humans to see Teka in a new light.{wait}	

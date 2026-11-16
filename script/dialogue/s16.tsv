@@ -80,11 +80,11 @@ dlg:1872	text	rec:3616	149	{spk:02}　ロビンのプロポーズとか、{br}�
 dlg:1873	text	rec:3617	149	{face:00702}{spk:01}ゲオルグ博士「ゲオルグショー？{br}　なんじゃそりゃ・・・電波ジャックするとばれてたのか？{br}　ロビンって？」{wait}	{face:00702}{spk:01}Dr. Georg: "Georg Show? What the deuce... Did they know I'd hijack the broadcast? And who's Robin?"{wait}	
 dlg:1874	text	rec:3618	149	{spk:02}リヒター「『ロビン・フッドは、マリアンに７回プロポーズした』って」{wait}	{spk:02}Richter: "'Robin Hood proposed to Marian seven times.'"{wait}	
 dlg:1875	text	rec:3619	149	{spk:01}博士「・・・シャーウッドの森、教会、{br}　７体の反乱テカ・・・{br}{face:00704}　こっちの行動がばれとる？！　まずいっ！{wait}	{spk:01}Doctor: "...Sherwood Forest, a church, seven rebel Teka... {face:00704}They've seen through our moves?! Blast it!{wait}	
-dlg:1876	text	rec:3620	149	{spk:01}　テカ反乱を起こせ、リヒター！{br}　やつらの動きをとめるんじゃ、そのすきに島へにげる！」{wait}	{spk:01}Start a Teka revolt, Richter! Tie their hands, and while they're busy we flee to the island!"{wait}	
+dlg:1876	text	rec:3620	149	{spk:01}　テカ反乱を起こせ、リヒター！{br}　やつらの動きをとめるんじゃ、そのすきに島へにげる！」{wait}	{spk:01}Start a Teka Revolt, Richter! Tie their hands, and while they're busy we flee to the island!"{wait}	
 dlg:1877	text	rec:3624	149	{face:10001}{face:30208}{spk:04}ギリガン「ユウキ！　町ん中が変だ。{br}　通りにマーケテカが飛び出してきてる。{br}　反乱が・・・」{wait}	{face:10001}{face:30208}{spk:04}Gilligan: "Yuki! Something's wrong in town. Marketeka are rushing into the streets. A revolt..."{wait}	
 dlg:1878	text	rec:3625	149	{face:10012}{spk:02}ユウキ「なんで急に・・・　　　　　　　　　　{face:10007}{wait}	{face:10012}{spk:02}Yuki: "Why all of a sudden...{face:10007}{wait}	
 dlg:1879	text	rec:3626	149	{spk:02}　そうか、博士、{face:10002}気づいたなっ、このすきににげる気なんだろ！」{wait}	{spk:02}I see, Doctor,{face:10002} you've noticed! You mean to escape while we're busy!"{wait}	
-dlg:1880	text	rec:3627	149	{face:30206}{spk:04}ギリガン「せっかくの市民かくめいだ、{br}　テカ反乱でじゃまさせるもんか。{br}{face:30207}　ちんあつしようぜっ」{wait}	{face:30206}{spk:04}Gilligan: "This is the citizens' big revolution. I won't let a Teka revolt ruin it.{face:30207} Let's put it down!"{wait}	
+dlg:1880	text	rec:3627	149	{face:30206}{spk:04}ギリガン「せっかくの市民かくめいだ、{br}　テカ反乱でじゃまさせるもんか。{br}{face:30207}　ちんあつしようぜっ」{wait}	{face:30206}{spk:04}Gilligan: "This is the citizens' big revolution. I won't let a Teka Revolt ruin it.{face:30207} Let's put it down!"{wait}	
 dlg:1881	text	rec:3628	149	{face:10002}{spk:02}ユウキ「急ごう、反乱をおさえたらすぐ博士を追うんだ、{br}　逃がさないぞ！」{wait}	{face:10002}{spk:02}Yuki: "Hurry. Once we've stopped the revolt, we go straight after the Doctor. He won't get away!"{wait}	
 dlg:1882	text	rec:3632	149	{face:30202}{spk:04}ギリガン「反乱ちんあつしないうちは行けやしねえよ」{wait}	{face:30202}{spk:04}Gilligan: "We can't go till we put down the revolt."{wait}	
 dlg:1883	text	rec:3640	149	{face:30207}{spk:04}ギリガン「まだまだっ、{br}　あきらめるな、ブランク！」{wait}	{face:30207}{spk:04}Gilligan: "Not yet! Don't give up, Blank!"{wait}	
@@ -93,7 +93,7 @@ dlg:1885	text	rec:3651	149	　市民かくめいぼっ発{wait}	The Citizens' Re
 dlg:1886	text	rec:3652	149	市民「かくめいバンザイ！」{br}市民「市民かくめい、バンザイ！」{br}市民「男女平等、バンザイ！」{wait}	Citizen: "Revolution!" Citizen: "Long live the citizens' revolution!" Citizen: "Equal rights for men and women!"{wait}	
 dlg:1887	text	rec:3653	149	市民「ハンナ市長を引きずり出せ！{br}　市民さいばんだ！！―――」{wait}	Citizen: "Drag out Mayor Hanna! Put her on trial before the people!!--"{wait}	
 dlg:1888	text	rec:3656	149	{face:10002}{face:30201}{face:02103}{spk:01}ジェーン「こんなまねをして、ただではすみませんよ」{wait}	{face:10002}{face:30201}{face:02103}{spk:01}Jane: "You won't get away with this."{wait}	
-dlg:1889	text	rec:3657	149	{spk:02}ユウキ「僕たちはテカ反乱をとめただけだ。　その結果どうなるかは、この国の事情でしょう」{wait}	{spk:02}Yuki: "We only stopped a Teka revolt. What happens next is this country's business."{wait}	
+dlg:1889	text	rec:3657	149	{spk:02}ユウキ「僕たちはテカ反乱をとめただけだ。　その結果どうなるかは、この国の事情でしょう」{wait}	{spk:02}Yuki: "We only stopped a Teka Revolt. What happens next is this country's business."{wait}	
 dlg:1890	text	rec:3658	149	{face:02103}{spk:01}ジェーン「わたしはトモミさんのことを言っているのです。{br}　こちらの手の内なのですからね」{wait}	{face:02103}{spk:01}Jane: "I am talking about Tomomi-san. She is in our hands, you know."{wait}	
 dlg:1891	text	rec:3659	149	{face:10012}{spk:02}ユウキ「あいにくだけど、はじめからこちらの手の内さ。{wait}	{face:10012}{spk:02}Yuki: "Sorry, but she was in our hands from the start.{wait}	
 dlg:1892	text	rec:3660	149	{spk:02}　アプリコットでポリジェンヌがあばれていたら、僕たちをマーマレードに誘っているんだな、ぐらい分かる。{wait}	{spk:02}With Polijenne running wild in Apricot, it was easy to see you were luring us to Marmalade.{wait}	

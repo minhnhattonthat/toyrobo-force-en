@@ -148,7 +148,7 @@ dlg:1508	text	rec:2932	149	{spk:03}トモミ「そっちからネズミの声が
 dlg:1509	text	rec:2938	149	{face:10002}{spk:02}ユウキ「外は・・・だれもいない。{br}　いまのうちに出ようっ」{wait}	{face:10002}{spk:02}Yuki: "Outside... nobody. Let's get out while we can."{wait}	
 dlg:1510	text	rec:2939	149	{face:20105}{spk:03}トモミ「助かったあ♪」{wait}	{face:20105}{spk:03}Tomomi: "What a relief!"{wait}	
 dlg:1511	text	rec:2940	149	{face:10012}{spk:02}ユウキ「とは言え追っ手がうろついていることに、かわりないし―――{br}{face:10005}　また見つかってしまったりするし；」{wait}	{face:10012}{spk:02}Yuki: "Still, the pursuers are still wandering around--{face:10005} And we keep getting found."{wait}	
-dlg:1512	text	rec:2941	149	{face:20106}{spk:03}トモミ「またにげるの；{br}　つかれるわねー；」{wait}	{face:20106}{spk:03}Tomomi: "Running again? How tiring."{wait}	
+dlg:1512	text	rec:2941	149	{face:20106}{spk:03}トモミ「またにげるの；{br}　つかれるわねー；」{wait}	{face:20106}{spk:03}Tomomi: "Running again? I'm getting tired of this..."{wait}	
 dlg:1513	text	rec:2944	149	{face:20101}{face:30301}{face:10007}{spk:02}ユウキ「ニセ警官をはけんした博士のすばやさ、あきらかに『こけももちょうほうぶ』のしわざだ。{wait}	{face:20101}{face:30301}{face:10007}{spk:02}Yuki: "How fast the Doctor sent fake officers... That's clearly 'Lingonberry Intelligence' at work.{wait}	
 dlg:1514	text	rec:2945	149	{face:10002}{spk:02}　博士は『こけももちょうほうぶ』の研究所にいるにちがいない。{br}　イサキ河上流、カンパチダムのさきだ。{wait}	{face:10002}{spk:02}The Doctor must be at the Lingonberry Intelligence institute. Up the Isaki River, past Kanpachi Dam.{wait}	
 dlg:1515	text	rec:2946	149	{spk:02}　ぼくたちがつかまらないでいると知れば、博士はにげだすだろう。{br}　急がなくちゃね！」{wait}	{spk:02}If he learns we're still free, the Doctor will run. We have to hurry!"{wait}	
@@ -175,14 +175,14 @@ dlg:1535	text	rec:3000	149	{face:01202}{spk:01}ワークテカ「へえ、これ
 dlg:1536	text	rec:3003	149	{face:10009}{spk:02}ユウキ「ステルスシールドはそうびしたね。{br}　じゃあ行こう！」{wait}	{face:10009}{spk:02}Yuki: "Stealth Shield equipped? Then let's go!"{wait}	
 dlg:1537	text	rec:3008	149	{face:10001}{face:20112}{spk:03}トモミ「政府にたてつく市民をしょばつする警察・・・{br}　のどこが、とくべつでこうとうなの」{wait}	{face:10001}{face:20112}{spk:03}Tomomi: "Police who punish citizens for defying the government... What's so special and elite about that?"{wait}	
 dlg:1538	text	rec:3009	149	{face:10009}{spk:02}ユウキ「こういうものが世の中にあっちゃいけないよね。{wait}	{face:10009}{spk:02}Yuki: "Things like this shouldn't exist in the world.{wait}	
-dlg:1539	text	rec:3010	149	{face:10010}{spk:02}　さあブランク、とくべつ警察に市民のいかりを思い知らせてやろう。	{face:10010}{spk:02}Now, Blank, let's show the special police the citizens' anger.	
+dlg:1539	text	rec:3010	149	{face:10010}{spk:02}　さあブランク、とくべつ警察に市民のいかりを思い知らせてやろう。	{face:10010}{spk:02}Now, Blank, let's show the special police how angry the citizens are.	
 dlg:1540	text	rec:3011	149	　ついでにギリガンを助け出すんだ！」	And rescue Gilligan while we're at it!"	
 dlg:1541	text	rec:3012	149	{spk:00}通信「ついでですか；　コンファー」{wait}	{spk:00}Radio: "While we're at it? Confirm."{wait}	
 dlg:1542	text	rec:3015	149	{face:10003}{spk:14}ユウキ「くそっ、けっこうきびしいな；」{wait}	{face:10003}{spk:14}Yuki: "Damn, this is pretty tough."{wait}	
 dlg:1543	text	rec:3019	149	{face:20115}{spk:03}トモミ「いま行ったら思いきりやばい・・・って思わない？」{wait}	{face:20115}{spk:03}Tomomi: "Don't you think going now would be seriously dangerous?"{wait}	
 dlg:1544	text	rec:3021	149	{face:01202}{spk:01}ワークテカ「しーっ、見つからないように、しずかに！{br}　とくべつ警察がさがしてます」{wait}	{face:01202}{spk:01}Workteka: "Shh, quiet, don't get spotted! The special police are looking for you."{wait}	
 dlg:1545	text	rec:3024	149	{face:10009}{spk:02}ユウキ「ステルスシールドはそうびしたね。{br}　じゃあ行こう！」{wait}	{face:10009}{spk:02}Yuki: "Stealth Shield equipped? Then let's go!"{wait}	
-dlg:1546	text	rec:3029	149	{face:20101}{face:10010}{spk:02}ユウキ「さあ、ブランク、とくべつ警察に{br}　市民のいかりを思い知らせてやろう。	{face:20101}{face:10010}{spk:02}Yuki: "Now, Blank, let's show the special police the citizens' anger.	
+dlg:1546	text	rec:3029	149	{face:20101}{face:10010}{spk:02}ユウキ「さあ、ブランク、とくべつ警察に{br}　市民のいかりを思い知らせてやろう。	{face:20101}{face:10010}{spk:02}Yuki: "Now, Blank, let's show the special police how angry the citizens are.	
 dlg:1547	text	rec:3030	149	{face:10010}　ついでにギリガンを助け出すんだ！」	{face:10010}And rescue Gilligan while we're at it!"	
 dlg:1548	text	rec:3031	149	通信「ついでですね；　コンファー」{wait}	Radio: "While we're at it, huh? Confirm."{wait}	
 dlg:1549	text	rec:3034	149	{face:00301}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「ギリガン！{br}　だいじょうぶだった？」{wait}	{face:00301}{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "Gilligan! Are you okay?"{wait}	

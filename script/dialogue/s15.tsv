@@ -31,7 +31,7 @@ dlg:1598	text	rec:3115	149	{face:20105}{spk:03}トモミ「今度はお買い物
 dlg:1599	text	rec:3117	149	{face:10001}{face:20101}{face:01602}{spk:01}メディテカ「けんこうな方は機械化できないとことわりました。{br}　大けがでもしないかぎりね」{wait}	{face:10001}{face:20101}{face:01602}{spk:01}Mediteka: "I turned him down. Healthy people can't be mechanized. Not unless they're badly hurt."{wait}	
 dlg:1600	text	rec:3118	149	{face:10012}{spk:02}ユウキ「たぶん、よろこんで飛び出して行ったでしょう」{wait}	{face:10012}{spk:02}Yuki: "I bet he ran off happily."{wait}	
 dlg:1601	text	rec:3119	149	{spk:01}メディテカ「ええ、『大けがしてみせるぞ』とさけんで」{wait}	{spk:01}Mediteka: "Yes, shouting 'I'll get badly hurt, just watch!'"{wait}	
-dlg:1602	text	rec:3120	149	{face:10005}{spk:02}ユウキ「バカな子だ・・・；；」{wait}	{face:10005}{spk:02}Yuki: "What a foolish boy..."{wait}	
+dlg:1602	text	rec:3120	149	{face:10005}{spk:02}ユウキ「バカな子だ・・・；；」{wait}	{face:10005}{spk:02}Yuki: "What an idiot..."{wait}	
 dlg:1603	text	rec:3126	149	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}市長「機械の体になってでも、ねえ。{br}　そこまで好かれて、リアナは女みょうりにつきるな」{wait}	{face:10001}{face:20101}{face:30201}{face:00502}{spk:01}Mayor: "Even becoming a machine for her, eh? Riana is a lucky girl to be loved that much."{wait}	
 dlg:1604	text	rec:3127	149	{face:20105}{spk:03}トモミ「ペータはバカみょうりにつきますけどね；」{wait}	{face:20105}{spk:03}Tomomi: "And Peta's the luckiest idiot alive..."{wait}	
 dlg:1605	text	rec:3129	149	{face:00605}{spk:01}署長「やっとジローをかいしゅうできたよ。　まったく、こけももってのはあぶない町だね；」{wait}	{face:00605}{spk:01}Chief: "We finally recovered Jiro. Honestly, Lingonberry is a dangerous town."{wait}	
@@ -73,7 +73,7 @@ dlg:1640	text	rec:3211	149	{face:10002}{spk:02}ユウキ「ぜひ」{wait}	{face
 dlg:1641	text	rec:3213	149	{face:00602}{spk:01}署長「あそこの市長はだれかのしょうかいがないと会ってくれんよ。{br}　とくに男にはね」{wait}	{face:00602}{spk:01}Chief: "That mayor won't see anyone without an introduction. Especially men."{wait}	
 dlg:1642	text	rec:3215	149	{face:00402}{spk:01}ポイヤック「マーマレードのハンナ市長はきぞくの出身で、きびしい人だとも優しい人だとも聞いています」{wait}	{face:00402}{spk:01}Pauillac: "Mayor Hanna of Marmalade is of noble birth. I hear she is strict, and also kind."{wait}	
 dlg:1643	text	rec:3217	149	{face:01202}{spk:01}ワークテカ「ブランクさんの持ち帰ったはへん、調べましたが、{br}　たしかにマーマレードせいですね」{wait}	{face:01202}{spk:01}Workteka: "I examined the fragments Blank-san brought back. They're Marmalade-made, all right."{wait}	
-dlg:1644	text	rec:3221	149	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}トモミ「あら？{br}　リアナさん、ペータ君とはぜっこうしたんじゃありませんでした」{wait}	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}Tomomi: "Oh? Riana-san, didn't you break up with Peta-kun?"{wait}	
+dlg:1644	text	rec:3221	149	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}トモミ「あら？{br}　リアナさん、ペータ君とはぜっこうしたんじゃありませんでした」{wait}	{face:01104}{face:11005}{face:20001}{face:30103}{spk:04}Tomomi: "Oh? Riana-san, didn't you say you were done with Peta-kun?"{wait}	
 dlg:1645	text	rec:3222	149	{face:20004}{spk:03}ユウキ「やっぱり、放っておけませんか」{wait}	{face:20004}{spk:03}Yuki: "You can't leave him alone after all?"{wait}	
 dlg:1646	text	rec:3223	149	{spk:02}リアナ「たいくつだっただけよっ」{wait}	{spk:02}Riana: "I was just bored!"{wait}	
 dlg:1647	text	rec:3224	149	{face:20003}{spk:15}ユウキ「どうして気の強い女の子って、{br}　すなおじゃないんだろう。{br}　{face:20012}ね、トモミ？」{wait}	{face:20003}{spk:15}Yuki: "Why are strong-willed girls never honest?{face:20012} Right, Tomomi?"{wait}	

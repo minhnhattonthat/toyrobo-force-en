@@ -91,7 +91,7 @@ dlg:2485	text	rec:4689	149	{spk:02}博士「『スワローレーザー』を出
 dlg:2486	text	rec:4690	149	{spk:01}バンクテカ「あれは一つしかないのです。{br}　貸すならいいでしょう、{br}　貸し出し料１００，０００」{wait}	{spk:01}Bankteka: "We only have the one. I can lend it to you. The rental fee is 100,000 yen."{wait}	
 dlg:2487	text	rec:4691	149	{spk:02}博士「自分で作ったものを、金はらってかりるバカがどこにおる。{br}　{face:10704}とっとと持ってこい！」{face:00000}{wait}	{spk:02}Doctor: "What fool pays to borrow something he made himself? {face:10704}Bring it here, now!"{face:00000}{wait}	
 dlg:2488	text	rec:4693	149	右腕『スワローレーザー』を{br}　手に入れました。{wait}	Got the right arm{br}'Swallow Laser.'{wait}	
-dlg:2489	text	rec:4694	149	{face:20002}{spk:03}ユウキ「メンテをすませたらすぐ出撃だ。{br}　かならずたたき落す！」{wait}	{face:20002}{spk:03}Yuki: "We sortie the moment maintenance is done. We'll knock it out of the sky!"{wait}	
+dlg:2489	text	rec:4694	149	{face:20002}{spk:03}ユウキ「メンテをすませたらすぐ出撃だ。{br}　かならずたたき落す！」{wait}	{face:20002}{spk:03}Yuki: "We launch the moment maintenance is done. We'll knock it out of the sky!"{wait}	
 dlg:2490	text	rec:4700	149	{face:00503}{spk:01}アドルフ市長「ほ、本当に、彼らがしっぱいしたら、{br}　アプリコットはふきとんで・・・？」{wait}	{face:00503}{spk:01}Mayor Adolf: "R-really? If they fail, Apricot gets blown away...?"{wait}	
 dlg:2491	text	rec:4701	149	{face:30604}{spk:04}スミタ署長「はい。{br}　もう目の前まできている。{br}　おおづめですね」{wait}	{face:30604}{spk:04}Chief Sumita: "Yes. It's nearly upon us. This is the final act."{wait}	
 dlg:2492	text	rec:4702	149	{face:00505}{spk:01}市長「げきついしてくれるだろうか・・・{br}　私になにかできることは」{wait}	{face:00505}{spk:01}Mayor: "Will they shoot it down...? Is there anything I can do?"{wait}	
@@ -394,7 +394,7 @@ dlg:2788	text	rec:5193	149	　下水道の中・・・{wait}	In the Sewers...{wa
 dlg:2789	text	rec:5194	149	{face:10012}{face:20101}{face:30301}{spk:02}ユウキ「こりゃ、すごいにおい・・・{br}　と言ってもられない、おくににげよう」{wait}	{face:10012}{face:20101}{face:30301}{spk:02}Yuki: "What a smell... No time to complain. Let's escape deeper in."{wait}	
 dlg:2790	text	rec:5195	149	{face:20106}{spk:03}トモミ「ひーん、下水道にげまわるために{br}婦警さんになったんじゃないよー」{wait}	{face:20106}{spk:03}Tomomi: "Waaah, I didn't become a policewoman to run around in sewers!"{wait}	
 dlg:2791	text	rec:5197	149	{face:10002}{spk:02}ユウキ「ブランク、{br}そっと外のぞいてみて・・・」{wait}	{face:10002}{spk:02}Yuki: "Blank, take a quiet peek outside..."{wait}	
-dlg:2792	text	rec:5198	149	{face:30302}{spk:04}ブランク「はい、そっ・・・と、だめです、まだ追っ手がいます」{wait}	{face:30302}{spk:04}Blank: "Yes, quie...tly. No good, they're still after us."{wait}	
+dlg:2792	text	rec:5198	149	{face:30302}{spk:04}ブランク「はい、そっ・・・と、だめです、まだ追っ手がいます」{wait}	{face:30302}{spk:04}Blank: "Yes, very... carefully. No good, they're still after us."{wait}	
 dlg:2793	text	rec:5199	149	{face:10007}{spk:02}ユウキ「べつの出口をさがすか―――」{wait}	{face:10007}{spk:02}Yuki: "Let's look for another exit--"{wait}	
 dlg:2794	text	rec:5202	149	{face:20102}{spk:03}トモミ「なんでこんなところに。{br}　まだ使えるようね、持って行きましょ」{wait}	{face:20102}{spk:03}Tomomi: "Why is this here? It still looks usable. Let's take it."{wait}	
 dlg:2795	text	rec:5204	149	右腕『ダイモン』を{br}　手に入れました。{wait}	Got the right arm{br}'Daimon.'{wait}	
@@ -424,7 +424,7 @@ dlg:2818	text	rec:5237	149	{face:10007}{spk:02}ユウキ「やっぱり・・・
 dlg:2819	text	rec:5238	149	{spk:01}ポリジェンヌ「ではこちらも聞きましょう。{br}　男のくせに、なにをかぎまわっているの？{wait}	{spk:01}Polijenne: "Then let me ask you something. What are you, a mere man, snooping around for?{wait}	
 dlg:2820	text	rec:5239	149	{spk:01}　タイホされたくなければ、男はしずかにしていなさい」{wait}	{spk:01}If you don't want to be arrested, men should keep quiet."{wait}	
 dlg:2821	text	rec:5240	149	{face:10005}{spk:02}ユウキ「・・・男にきびしいシティだな；」{wait}	{face:10005}{spk:02}Yuki: "...This City is tough on men."{wait}	
-dlg:2822	text	rec:5243	149	{face:10012}{spk:02}ユウキ「こちらでテカ反乱は起きてないのですか？」{wait}	{face:10012}{spk:02}Yuki: "Hasn't there been a Teka revolt here?"{wait}	
+dlg:2822	text	rec:5243	149	{face:10012}{spk:02}ユウキ「こちらでテカ反乱は起きてないのですか？」{wait}	{face:10012}{spk:02}Yuki: "Hasn't there been a Teka Revolt here?"{wait}	
 dlg:2823	text	rec:5244	149	{face:02702}{spk:01}ポリジェンヌ「なにをかぎまわっているの？　タイホされたくなければ、静かにしてなさい」{wait}	{face:02702}{spk:01}Polijenne: "What are you snooping around for? If you don't want to be arrested, keep quiet."{wait}	
 dlg:2824	text	rec:5246	149	{face:02103}{spk:01}秘書ジェーン「ええ、トモミさんには、{br}　署長としてさっそくきんむしていただいてますわ。{wait}	{face:02103}{spk:01}Secretary Jane: "Yes, Tomomi-san has already started work as our Chief.{wait}	
 dlg:2825	text	rec:5247	149	{spk:01}　ご心配にはおよびませんし、調べることなどなにもありません」{wait}	{spk:01}There's no need to worry, and nothing for you to investigate."{wait}	
@@ -493,7 +493,7 @@ dlg:2887	text	rec:5379	149	オプション『対地バレットパック』を{b
 dlg:2888	text	rec:5384	149	オプション『対空バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Air Bullet Pack.'{wait}	
 dlg:2889	text	rec:5388	149	オプション『対地バレットパック』を{br}　手に入れました。{wait}	Got the option{br}'Anti-Ground Bullet Pack.'{wait}	
 dlg:2890	text	rec:5389	149	{spk:01}「まいど！」{wait}	{spk:01}"Thank you kindly!"{wait}	
-dlg:2891	text	rec:5393	149	{face:01402}{spk:01}みーちゃん「ようこそいらっしゃいませー。　当牧場とくせいのアイスクリームはいかがですかー？♪」{wait}	{face:01402}{spk:01}Mii-chan: "Welcome! How about some of our ranch's special ice cream?"{wait}	
+dlg:2891	text	rec:5393	149	{face:01402}{spk:01}みーちゃん「ようこそいらっしゃいませー。　当牧場とくせいのアイスクリームはいかがですかー？♪」{wait}	{face:01402}{spk:01}Mii-chan: "Welcome, welcooome! How about some of our ranch's special ice creeeam?"{wait}	
 dlg:2892	text	rec:5394	149	{face:20105}{spk:03}トモミ「きゃー♪　たべる食べるー♪」{wait}	{face:20105}{spk:03}Tomomi: "Yay! I'll have some, I'll have some!"{wait}	
 dlg:2893	text	rec:5398	149	{face:10001}{face:01702}{spk:01}モーデル将軍「どうした、うかない顔だな。　戦力不足ででもなやんでいるのか。{wait}	{face:10001}{face:01702}{spk:01}General Mordel: "What's wrong? You look glum. Worried you lack firepower?{wait}	
 dlg:2894	text	rec:5399	149	{spk:01}　工場へ行くがいい。{br}　対地パワーアップを買えるように、話を通しておいてやろう。{wait}	{spk:01}Go to the factory. I'll arrange for you to buy an Anti-Ground Power Up.{wait}	

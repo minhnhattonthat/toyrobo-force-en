@@ -124,14 +124,14 @@ dlg:1094	text	rec:2073	149	{face:10002}{spk:02}ユウキ「署長！」{wait}	{f
 dlg:1095	text	rec:2074	149	{face:00603}{spk:01}スミタ署長「！{br}　ユウキ君、どうやってここまで来た？{br}　『かいげんれい』は？」{wait}	{face:00603}{spk:01}Chief Sumita: "! Yuki-kun, how did you get here? What about 'martial law'?"{wait}	
 dlg:1096	text	rec:2075	149	{face:10004}{spk:02}ユウキ「外はなんともありません。{br}　もうソルジャーは武器をすてて、{br}　ボランティア活動を始めてます」{wait}	{face:10004}{spk:02}Yuki: "Everything's fine outside. The Soldiers dropped their weapons and started volunteer work."{wait}	
 dlg:1097	text	rec:2076	149	{face:00603}{spk:01}署長「平和クーデターだったのか・・・{br}　やっと外に出れるな。{br}　はやいとこアプリコットに帰ろう」{wait}	{face:00603}{spk:01}Chief: "So it was a peaceful coup... We can finally go out. Let's hurry back to Apricot."{wait}	
-dlg:1098	text	rec:2078	149	{face:00601}{face:10001}テレビの声「外には出ん方が、ええぞ！」{wait}	{face:00601}{face:10001}Voice on TV: "Ye'd best not go outside!"{wait}	
+dlg:1098	text	rec:2078	149	{face:00601}{face:10001}テレビの声「外には出ん方が、ええぞ！」{wait}	{face:00601}{face:10001}Voice on TV: "You'd best not go outside!"{wait}	
 dlg:1099	text	rec:2079	149	{face:10002}{spk:02}ユウキ「え？　なんだ―――{br}　テレビ？{br}　電波ジャックか・・・？」{wait}	{face:10002}{spk:02}Yuki: "Huh? What-- The TV? A broadcast hijack...?"{wait}	
 dlg:1100	text	rec:2080	149	{face:00000}{face:10000}{face:32102}{spk:04}テレビ「カシスのみなさん。{br}　わしはゲオルグという、{br}　ひじょうにすぐれた工学博士じゃ。{wait}	{face:00000}{face:10000}{face:32102}{spk:04}TV: "People of Cassis. I am Georg, a most brilliant doctor of engineering.{wait}	
 dlg:1101	text	rec:2081	149	{spk:04}　外には出ない方がよいぞ！{br}　クーデターがおさまって、やれやれと思っていたのだろうが、ひゃひゃひゃ・・・{wait}	{spk:04}You'd best not go outside! Thought you could breathe easy now the coup was over, did you? Heh heh heh...{wait}	
 dlg:1102	text	rec:2082	149	{spk:04}　ソルジャーが武器をすてたおかげで、やっとテカをあやつれるようになったわい！」{wait}	{spk:04}Thanks to the Soldiers dropping their weapons, I can finally control the Teka!"{wait}	
 dlg:1103	text	rec:2083	149	{face:30000}{face:00602}{spk:01}署長「なんだとっ」{wait}	{face:30000}{face:00602}{spk:01}Chief: "What?!"{wait}	
 dlg:1104	text	rec:2084	149	{face:10006}{spk:02}ユウキ「・・・この人が、{br}　テカ反乱の『くろまく』？」{wait}	{face:10006}{spk:02}Yuki: "...This man is the 'mastermind' behind the Teka Revolt?"{wait}	
-dlg:1105	text	rec:2085	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「さて、アプリコット警察のしょくん」{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "Now then, gentlemen of the Apricot police."{wait}	
+dlg:1105	text	rec:2085	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「さて、アプリコット警察のしょくん」{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "Now then, officers of the Apricot police."{wait}	
 dlg:1106	text	rec:2086	149	{face:30000}{face:00603}{face:10006}{spk:01}署長「わたしたちが来ていることも、ばれているのか―――！」{wait}	{face:30000}{face:00603}{face:10006}{spk:01}Chief: "He knows we're here too--!"{wait}	
 dlg:1107	text	rec:2087	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「君たちはじゃまだ、ひじょうにじゃまだ。{br}　そのままカシスにいてもらおう。{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "You are a nuisance, a dreadful nuisance. You'd best stay right there in Cassis.{wait}	
 dlg:1108	text	rec:2088	149	{spk:04}　なあに、『ちょろちょろするな！』と言いたいだけじゃよ。{wait}	{spk:04}Oh, I merely wish to say, 'Stop scurrying about!'{wait}	

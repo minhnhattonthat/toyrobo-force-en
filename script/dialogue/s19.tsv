@@ -28,7 +28,7 @@ dlg:1992	text	rec:3827	149	{face:20115}{spk:03}トモミ「なに言ってんの
 dlg:1993	text	rec:3830	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「さあいくぜ。{br}　気合いいれろ、二人とも！」{wait}	{face:10001}{face:20101}{face:30204}{spk:04}Gilligan: "Let's go. Get fired up, you two!"{wait}	
 dlg:1994	text	rec:3831	149	{face:20115}{spk:03}トモミ「保母テカのことになると元気ねえ、こいつ」	{face:20115}{spk:03}Tomomi: "He sure perks up when it's about teacher Teka."	
 dlg:1995	text	rec:3832	149	{face:10005}{spk:02}ユウキ「ねえ；」{wait}	{face:10005}{spk:02}Yuki: "Sure does."{wait}	
-dlg:1996	text	rec:3839	149	{face:01402}{spk:01}みーちゃん「エリーゼタイプの保母さん？{br}　来たことないですー」{wait}	{face:01402}{spk:01}Mii-chan: "An Elise-type teacher? She's never been here."{wait}	
+dlg:1996	text	rec:3839	149	{face:01402}{spk:01}みーちゃん「エリーゼタイプの保母さん？{br}　来たことないですー」{wait}	{face:01402}{spk:01}Mii-chan: "An Elise-type teacher? She's never been heeere."{wait}	
 dlg:1997	text	rec:3843	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「保母テカが、そこに花を供えていたんですよ」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "A teacher Teka was laying flowers right there."{wait}	
 dlg:1998	text	rec:3844	149	{face:10002}{spk:02}ユウキ「そこは・・・{br}　サンナナが死んだ場所だね」{wait}	{face:10002}{spk:02}Yuki: "That's... where Sannana died."{wait}	
 dlg:1999	text	rec:3845	149	{spk:01}ワークテカ「みょうにさびしげで、声をかけたけど、にげてしまって。{br}　そ、そ、この写真の。{wait}	{spk:01}Workteka: "She looked strangely lonely. I called to her, but she ran off. Yes, yes, the one in this photo.{wait}	
@@ -102,7 +102,7 @@ dlg:2066	text	rec:3979	149	{face:01003}{spk:01}リアナ「ブランク様はあ
 dlg:2067	text	rec:3981	149	{face:01202}{spk:01}ワークテカ「ごくろうさまです・・・{br}　なにを急いでいるんです？」{wait}	{face:01202}{spk:01}Workteka: "Thanks for your hard work... What's the rush?"{wait}	
 dlg:2068	text	rec:3984	149	{face:20104}{spk:03}トモミ「シティの中にはいないの？」{wait}	{face:20104}{spk:03}Tomomi: "She's not in the City?"{wait}	
 dlg:2069	text	rec:3991	149	{face:10002}{spk:02}ユウキ「反乱はここから始まった。エミコさんがくる理由があるかもしれない」{wait}	{face:10002}{spk:02}Yuki: "The revolt started here. Emiko-san may have a reason to come."{wait}	
-dlg:2070	text	rec:3994	149	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}みーちゃん「保母さん？{br}　来ませんでしたけどー」{wait}	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}Mii-chan: "A teacher? She didn't come."{wait}	
+dlg:2070	text	rec:3994	149	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}みーちゃん「保母さん？{br}　来ませんでしたけどー」{wait}	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}Mii-chan: "A teacher? Nooo, she didn't come by."{wait}	
 dlg:2071	text	rec:3995	149	{face:20115}{spk:03}トモミ「はずれ」{wait}	{face:20115}{spk:03}Tomomi: "Wrong."{wait}	
 dlg:2072	text	rec:3997	149	{face:10002}{spk:02}ユウキ「またサンナナの墓まいりをしに来たかのうせいはある」{wait}	{face:10002}{spk:02}Yuki: "She may have come to visit Sannana's grave again."{wait}	
 dlg:2073	text	rec:4000	149	{face:01202}{spk:01}ワークテカ「あれからは見てませんが？」{wait}	{face:01202}{spk:01}Workteka: "Haven't seen her since then."{wait}	
@@ -128,7 +128,7 @@ dlg:2092	text	rec:4052	149	{spk:01}将軍「保母テカを兵士になぞしな
 dlg:2093	text	rec:4053	149	{spk:02}ユウキ「『じゅうぐんかんごふ』のようなやくわりもあるかと。{br}　きていませんか」{wait}	{spk:02}Yuki: "I thought there might be roles like 'army nurse'. Has she come?"{wait}	
 dlg:2094	text	rec:4054	149	{spk:01}将軍「きていないし、私とてそこまで非道ではない。{wait}	{spk:01}General: "She has not, and I'm not that heartless.{wait}	
 dlg:2095	text	rec:4055	149	{spk:01}　保母テカには、子供を教え育てるという、りっぱな仕事がある。{br}　それをすてさせたりはしない」{wait}	{spk:01}A teacher Teka has the fine job of teaching and raising children. I wouldn't make her give it up."{wait}	
-dlg:2096	text	rec:4056	149	{spk:02}ユウキ「―――しつれいしました」{wait}	{spk:02}Yuki: "--Excuse me."{wait}	
+dlg:2096	text	rec:4056	149	{spk:02}ユウキ「―――しつれいしました」{wait}	{spk:02}Yuki: "--My apologies."{wait}	
 dlg:2097	text	rec:4059	149	{face:01702}{spk:01}モーデル将軍「保母テカはきておらんぞ」{wait}	{face:01702}{spk:01}General Mordel: "No teacher Teka has come here."{wait}	
 dlg:2098	text	rec:4062	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「軍のはらい下げセール！{br}　対地ショットガンが１５，０００！」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "Army surplus sale! Anti-Ground Shotgun for 15,000 yen!"{wait}	
 dlg:2099	text	rec:4066	149	{face:30206}{spk:04}ギリガン「ほしいのはやまやまだが、それどころじゃねえ」{wait}	{face:30206}{spk:04}Gilligan: "I'd love one, but this is no time for that."{wait}	
@@ -249,9 +249,9 @@ dlg:2213	text	rec:4278	149	{face:00001}{face:10101}{face:30901}{face:20203}{spk:
 dlg:2214	text	rec:4279	149	{face:20201}{face:30902}{spk:04}エミコ「はい」{wait}	{face:20201}{face:30902}{spk:04}Emiko: "Yes."{wait}	
 dlg:2215	text	rec:4280	149	{face:30901}{face:10115}{spk:02}トモミ「ちょっと、つれて行く気？」{wait}	{face:30901}{face:10115}{spk:02}Tomomi: "Hey, you're taking her along?"{wait}	
 dlg:2216	text	rec:4281	149	{face:10101}{face:20202}{spk:03}ギリガン「目をはなしてたまるか。{br}　エミコはおれが守る！」{wait}	{face:10101}{face:20202}{spk:03}Gilligan: "Like I'd let her out of my sight. I'll protect Emiko!"{wait}	
-dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}	{face:20201}{face:10107}{spk:02}Tomomi: "Wow... Being told that would be too much."{wait}	
+dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー・・・そこまで言われちゃ、たまらないわね」{wait}	{face:20201}{face:10107}{spk:02}Tomomi: "Wow... I'd just die if someone said that to me."{wait}	
 dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}	{face:00004}{spk:01}Yuki: "Wish someone said it to you, Tomomi?"{wait}	
-dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I meant it'd be too much to bear!"{wait}	
+dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "Of embarrassment, I mean!"{wait}	
 dlg:2220	text	rec:4288	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
 dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}	{face:10801}{face:00702}{spk:01}Doctor: "Richter, my boy. Aren't you lonely without Emiko-san by your side?"{wait}	
 dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}	{face:10803}{spk:02}Richter: "...Not really. This way Emiko-san and I are one, body and soul. I'm fine..."{wait}	

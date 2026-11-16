@@ -185,7 +185,7 @@ dlg:0964	text	rec:1836	149	{face:10702}{spk:02}博士「ま、リヒターにあ
 dlg:0965	text	rec:1837	149	{face:20802}{spk:03}リヒター「なんだい、時間がかかるってだけで、ムリとは言ってないよっ」{wait}	{face:20802}{spk:03}Richter: "Hey, I only said it'll take time, not that it's impossible!"{wait}	
 dlg:0966	text	rec:1838	149	{face:10703}{spk:02}博士「そのいきじゃ、がんばれ」{wait}	{face:10703}{spk:02}Doctor: "That's the spirit, my boy. Keep at it."{wait}	
 dlg:0967	text	rec:1839	149	{face:30905}{spk:04}エミコ「兵隊さんまであやつるのですか」{wait}	{face:30905}{spk:04}Emiko: "You're going to control soldiers too?"{wait}	
-dlg:0968	text	rec:1840	149	{face:20801}{face:10702}{spk:02}博士「うん。{br}　戦争をやめさせようと思ってな」{wait}	{face:20801}{face:10702}{spk:02}Doctor: "Mm. I mean to make them stop this war."{wait}	
+dlg:0968	text	rec:1840	149	{face:20801}{face:10702}{spk:02}博士「うん。{br}　戦争をやめさせようと思ってな」{wait}	{face:20801}{face:10702}{spk:02}Doctor: "Mm. I mean to put a stop to war."{wait}	
 dlg:0969	text	rec:1841	149	{face:30906}{spk:04}エミコ「本当に？」{wait}	{face:30906}{spk:04}Emiko: "Really?"{wait}	
 dlg:0970	text	rec:1842	149	{spk:02}博士「ありゃ？{br}　うたがわれるとは思わなかった。{wait}	{spk:02}Doctor: "Oh ho? I never expected you to doubt me.{wait}	
 dlg:0971	text	rec:1843	149	{spk:02}　やっぱり、わしは人間なんで、ウソをつくと思われてるかな。{wait}	{spk:02}An old human like me must be telling tales, eh?{wait}	

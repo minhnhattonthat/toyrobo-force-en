@@ -2,10 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release: next (phase 8 done-when met on build e3c66762, reproducible: smoke ok, visual-QA gate
-  `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` 114/114 exit 0, `cover.py report` 3717/3722 + 5 waived
-  exit 0, inkbox ok, every graphics row G1-G17 English in game, `tools/check.py` 0 problems).
-- **Latest session (build sha1 e3c66762, unchanged):** G12 seen in game, phase 8 closed.
+- **Phase:** 9. Release: done. `python -X utf8 tools/release.py` exit 0 on build 875592ec ->
+  `release/Toyrobo_Force_EN_v1.0.zip` (Toyrobo_Force_EN_v1.0.bps 382762 bytes + README.txt; base CRC32 227FC16B,
+  result CRC32 56580FC0). Publishing (`gh release create`) is the owner's call; nothing was published.
+- **Latest session (build sha1 875592ec):** phase 9 closed.
+  - Story pass: `tools/story.py` (16 chapter files from s00-s23, s23 split at dlg:2558) + `tools/story_review.sh`
+    (codex exec read-only, prompt `docs/story-review-prompt.md`; `PREV=r1` hands a re-review its earlier report).
+    Round 1 (`work/qa/story/r1/`): 7 ok, 9 issue (Mii-chan's drawn-out voice, 'field training', Teka Revolt caps,
+    Richter's jealousy line, Gilligan "hell" setup, Tomomi punchline, Georg "Ye'd"/family). All fixed with the
+    Minors; round 2: 15/15 ok. `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts` exit 0.
+  - `docs/polish.md` all ticked (fixed, or waived: runtime %s/%d half-cell gaps = engine limit, listed as a known
+    issue in both READMEs; jp_left `--known` not needed at 0 runs). Tests: `test_kept_japanese` (KEEP_JP list),
+    `test_relocated_strings` hardened.
+  - Visual tour waived for 875592ec (text-only changes; reason in `work/qa/manifest.tsv.waive`; spot shots
+    `work/qa/p9spot/`). Text coverage 3717/3722 + 5 waived. `jp_left.py --sjis --gba-ptrs`: 0 runs.
+  - `tools/release.py` (build, tests, smoke, jp_left, every qa manifest, coverage, polish, README placeholders, debug
+    off, BPS + re-apply, zip); zip README from `docs/release-readme.txt`; repo README filled (status table, hashes).
+- **Next:** owner review of the zip and README, then publish when they choose. Optional: a real Teka arrest in
+  battle (autofight.lua) to see G12 without freeze pokes.
+- **Previous session (build sha1 e3c66762):** G12 seen in game, phase 8 closed.
   Battle RE (`docs/re/script.md` §Battle): the battle01 "loss at ~f2150" was the **time limit** (timer u32
   0x03003C98 vs table 0x08249750), not life; robot HP u8 0x03005A80+16*[0x03005C78]+2 with the hit-invulnerability
   timer 0x03003DF8. God mode: `freeze.lua` FREEZE='3003C98=00000000 3003DF8=3C'. The **Teka report** page is drawn
@@ -16,16 +31,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   by me: ok. A real arrest was not achieved: `tools/debug/autofight.lua` (OAM-steered bot, god mode) clears drones
   but did not reach the culprit in battle01. New probes: `watchw.lua` (writes + PC), `oamlog.lua`, `objlog.lua`,
   `objwatch.lua`.
-- **Phase 9 to-do** (skill phase table; `references/pipeline.md` §Release):
-  1. Story-pass verdict per chapter (`qa_gate.py check work/qa/story/manifest.tsv ...`, `references/translation.md`
-     §Review); no nested workers in Orca: a fresh read-only pass yourself or `codex exec` (D11, `tools/review.sh`).
-  2. `docs/polish.md`: tick or fix every line (review Minors). Phase 7 review Minors 4-7 still open: keep_jp list,
-     harden `test_relocated_strings`, the "12: 05" / "3x 2" half cells on the load screen and part detail, a
-     `--known` file for the `jp_left.py` scan.
-  3. `tools/release.py`: runs `qa_gate.py check` on every manifest + `textcover.py`; `jp_left.py` on the release
-     build (no unintended Japanese); debug tool off in the release build; patch built, re-applied, verified;
-     README (repo + zip) without placeholders and with the base ROM hashes; zip = patch + README. Never
-     `gh release create`.
 - **Done:**
   - Step 0: repo set up (rom.sha1 pinned, `tools/check.py` + pre-commit gate proven to reject a failing test, guard
     hook proven on the canary, own MesenCE 2.2.1 + GBA BIOS, boot route, AGENTS.md, decisions D1-D8).
@@ -102,4 +107,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   boxes show over black); facility1-5 all show the same workshop menu; battle god mode via `freeze.lua` (above;
   WIN=1 covers battle end screens); the two-player battle itself needs a link partner (only its menu is reached).
 - **Open bugs:** none.
-- **Waiting on the user:** nothing.
+- **Waiting on the user:** (not blocking) review `release/Toyrobo_Force_EN_v1.0.zip` and publish it when ready
+  (`references/pipeline.md` §Publish); staff-credit name readings are best readings of the kanji
+  (`docs/credits-en.md`), correct them if a source turns up.

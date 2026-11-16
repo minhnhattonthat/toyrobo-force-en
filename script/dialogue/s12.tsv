@@ -23,7 +23,7 @@ dlg:1277	text	rec:2494	149	{spk:01}ポリステカ「だから、ほんものの
 dlg:1278	text	rec:2495	149	{spk:02}ユウキ「なにを言っているんです？？」{wait}	{spk:02}Yuki: "What are you talking about??"{wait}	
 dlg:1279	text	rec:2497	149	{spk:01}ポリステカ「タイホします！」{wait}	{spk:01}Polisteka: "You're under arrest!"{wait}	
 dlg:1280	text	rec:2498	149	{face:20116}{spk:03}トモミ「ちょ、ちょっと！」{wait}	{face:20116}{spk:03}Tomomi: "H-hey, wait!"{wait}	
-dlg:1281	text	rec:2499	149	{face:10006}{face:30208}{spk:04}ギリガン「はなせっ、なにをしやがる！」{wait}	{face:10006}{face:30208}{spk:04}Gilligan: "Let go! What the heck are ya doing!"{wait}	
+dlg:1281	text	rec:2499	149	{face:10006}{face:30208}{spk:04}ギリガン「はなせっ、なにをしやがる！」{wait}	{face:10006}{face:30208}{spk:04}Gilligan: "Let go! What the hell are ya doing?!"{wait}	
 dlg:1282	text	rec:2500	149	{spk:01}ポリステカ「ほんしょうあらわしましたね、警官はそんなきたない言葉は使いません」{wait}	{spk:01}Polisteka: "You've shown your true colors. Police don't use such filthy language."{wait}	
 dlg:1283	text	rec:2501	149	{face:30207}{spk:04}ギリガン「おれは生まれつきだっ」{wait}	{face:30207}{spk:04}Gilligan: "I was born this way!"{wait}	
 dlg:1284	text	rec:2502	149	{spk:01}ポリステカ「おぎゃーだぜ、ざまあみろ！{br}　とか言いながら生まれたのですか。{br}　この男はきけんです、かくりしなさい！」{wait}	{spk:01}Polisteka: "So you were born saying 'Waah, take that, ya jerks!'? This man is dangerous, isolate him!"{wait}	

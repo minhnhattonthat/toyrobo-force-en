@@ -1,7 +1,7 @@
 id	kind	where	max	jp	en	notes
-dlg:1152	text	rec:2175	149	{face:00602}{spk:01}スミタ署長「各地のテカ反乱がはげしい。{br}　ざんねんなことに、カシスからはソルジャーをかりられなかった。{wait}	{face:00602}{spk:01}Chief Sumita: "Teka revolts are fierce everywhere. Sadly, we couldn't borrow Soldiers from Cassis.{wait}	
+dlg:1152	text	rec:2175	149	{face:00602}{spk:01}スミタ署長「各地のテカ反乱がはげしい。{br}　ざんねんなことに、カシスからはソルジャーをかりられなかった。{wait}	{face:00602}{spk:01}Chief Sumita: "Teka Revolts are fierce everywhere. Sadly, we couldn't borrow Soldiers from Cassis.{wait}	
 dlg:1153	text	rec:2176	149	{spk:01}　たいへんだろうが、反乱があったら君たちだけで出撃してくれたまえ」{wait}	{spk:01}It'll be hard, but if there's a revolt, you'll have to sortie on your own."{wait}	
-dlg:1154	text	rec:2178	149	{face:00602}{spk:01}スミタ署長「各地のテカ反乱がはげしい。{br}　が、ありがたいことに、カシスからソルジャー部隊をかりることができた。{wait}	{face:00602}{spk:01}Chief Sumita: "Teka revolts are fierce everywhere. But thankfully, we were able to borrow a Soldier unit from Cassis.{wait}	
+dlg:1154	text	rec:2178	149	{face:00602}{spk:01}スミタ署長「各地のテカ反乱がはげしい。{br}　が、ありがたいことに、カシスからソルジャー部隊をかりることができた。{wait}	{face:00602}{spk:01}Chief Sumita: "Teka Revolts are fierce everywhere. But thankfully, we were able to borrow a Soldier unit from Cassis.{wait}	
 dlg:1155	text	rec:2179	149	{spk:01}　反乱が起きたら、まずソルジャー部隊のところに行きたまえ。{wait}	{spk:01}If a revolt breaks out, go to the Soldier unit first.{wait}	
 dlg:1156	text	rec:2180	149	{spk:01}　彼らにまかせるのも、自分たちで出撃するのも、自由に決めてよろしい」{wait}	{spk:01}You're free to leave it to them or sortie yourselves."{wait}	
 dlg:1157	text	rec:2190	149	{face:10001}{face:20106}{face:30201}{spk:03}トモミ「あたしたち、こういう生活にうもれて一生をおえるわけ？」{wait}	{face:10001}{face:20106}{face:30201}{spk:03}Tomomi: "Are we really going to spend our whole lives stuck in this routine?"{wait}	
@@ -94,7 +94,7 @@ dlg:1243	text	rec:2430	149	{face:10002}{spk:02}ユウキ「どうせ使わない
 dlg:1244	text	rec:2434	149	レストラン『ハンブルグ』{wait}	Restaurant 'Hamburg'{wait}	
 dlg:1245	text	rec:2435	149	{face:10004}{face:20101}{face:30201}{spk:02}ユウキ「うーん、仕事が終わったあとのこの一皿が、なんとも・・・」{wait}	{face:10004}{face:20101}{face:30201}{spk:02}Yuki: "Mmm, this plate after work is just..."{wait}	
 dlg:1246	text	rec:2436	149	{face:20104}{spk:03}トモミ「ごくらく、ごくらくって顔して、{br}オヤジみたいね・・・{br}　まじめな顔で言うことじゃないけど」{wait}	{face:20104}{spk:03}Tomomi: "That blissful face makes you look like an old man... Not that I should say it so seriously."{wait}	
-dlg:1247	text	rec:2446	149	{face:30202}{spk:04}ギリガン「もとってなんだ」{wait}	{face:30202}{spk:04}Gilligan: "What do ya mean, 'originally'?"{wait}	
+dlg:1247	text	rec:2446	149	{face:30202}{spk:04}ギリガン「もとってなんだ」{wait}	{face:30202}{spk:04}Gilligan: "What do ya mean, 'formerly'?"{wait}	
 dlg:1248	text	rec:2447	149	{face:10004}{spk:02}ユウキ「ギリガンは、おすし好きだったね」{wait}	{face:10004}{spk:02}Yuki: "Gilligan, you liked sushi, right?"{wait}	
 dlg:1249	text	rec:2448	149	{face:30202}{spk:04}ギリガン「なんだ急に・・・{br}{face:30203}　ま、ハンバーグやケーキしか食わない子供とはちがうんでな」{wait}	{face:30202}{spk:04}Gilligan: "What's this all of a sudden...{face:30203} Well, I ain't a kid who only eats hamburger steak and cake."{wait}	
 dlg:1250	text	rec:2449	149	{face:20103}{spk:03}トモミ「あら、いまの子供の一番好きな食べ物はね、おすしなのよ。{br}　知らなかった？」{wait}	{face:20103}{spk:03}Tomomi: "Oh, but you know the favorite food of kids these days is sushi. Didn't you know?"{wait}	

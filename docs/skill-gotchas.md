@@ -20,3 +20,4 @@ One line per gotcha: the reference file it belongs in, then the fact.
 - references/graphics.md §Find the source (GBA): vramfind found title tiles only as short dup runs; logging DMA3 SAD/DAD/CNT writes (tools/debug/dmalog.lua here) around the screen load gave the exact ROM source in one run. Worth a probes/ script for GBA.
 tour_en sheet.py per scene: frames after the warp only (--from 1400; title menus --from 0), else the cold-boot frames fill each sheet (emulator-qa.md §Visual QA)
 codex exec -s read-only can't write the verdict file: make its final message the TSV and grep it out (tools/vqa.sh) (emulator-qa.md §Visual QA)
+- references/translation.md §Review (story pass): a full re-review after fixes keeps finding new nits; giving the reviewer its earlier report (tools/story_review.sh PREV=r1) lets it confirm the fixes first. Codex exec as the story reviewer: ~5-10 min per chapter of 100-370 rows, 4 in parallel fine.
