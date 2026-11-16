@@ -41,7 +41,8 @@ LIT_FONT_HI = 0xFC3C         # =0x34F, last index of the binary search
 LIT_FONT_BASE = 0xFC78       # =0x083F9594, entry base for the search
 LIT_FONT_GLYPH = (0x10948, 0x1EA1C, 0x1F218, 0x21DC8)  # =0x083F9596, glyph data = base + 2 + index * 26
 
-TOKEN = re.compile(r"\{(?:br|wait|spk:\d\d|face:\d{5})\}|%0?\d*[ds]")
+# '@' = the ending report's raw 0x40 byte (drawn as nothing in JP), passed through untouched
+TOKEN = re.compile(r"\{(?:br|wait|spk:\d\d|face:\d{5})\}|%0?\d*[ds]|@")
 SPACE_PAIR = 0x8140
 
 
@@ -108,7 +109,10 @@ class Encoder:
             for i, p in enumerate(paras):
                 lead = re.match(r"(?:\{(?:spk:\d\d|face:\d{5})\})*", p).group(0)
                 tail = re.search(r"(?:\{wait\})*$", p[len(lead):]).group(0)
-                lines = _wrap(p[len(lead):len(p) - len(tail)], wrap)
+                body = p[len(lead):len(p) - len(tail)]
+                indent = body[:len(body) - len(body.lstrip(" "))]  # keep a paragraph's leading spaces
+                lines = _wrap(body[len(indent):], wrap - len(indent))
+                lines[0] = indent + lines[0]
                 text += lead
                 for j, line in enumerate(lines):
                     line += " " * (_width(line) % 2)  # whole cells, so the next line starts on a cell

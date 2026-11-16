@@ -22,6 +22,9 @@ VARIANTS = {
     "strings": dict(wrap=None, pad=False, lines=1, cap=None, measured=None),  # budget = room (`max`); see font.md
     "help": dict(wrap=40, pad=False, lines=3, cap=None,
                  measured=SHOTS + "p5_wide_save_info_title.png (title): shown in the dialogue box, 40 letters a line"),
+    # ending report: full screen, the game wraps at 19 cells; wrap 36 keeps clear of a full line before {br}
+    "report": dict(wrap=36, pad=False, lines=8, cap=None,
+                   measured=SHOTS + "jp_ending_report.png (ending, JP): 19 cells a line, 8 lines"),
 }
 
 # strings shown in the dialogue box (title-menu help, save/load messages), word-wrapped like dialogue
@@ -46,6 +49,8 @@ def variant(row_id):
         return "dialogue"
     if row_id in HELP:
         return "help"
+    if row_id == "credits:248D44":
+        return "report"
     if unit == "choice":
         return "choice"
     if unit in ("names",):
