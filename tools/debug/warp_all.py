@@ -22,6 +22,7 @@ from skill import SKILL  # noqa: E402
 SCENES = os.path.join(REPO, "tools", "debug", "scenes.gba.txt")
 WARP = os.path.join(REPO, "tools", "debug", "warp.lua")
 BOOT = 1430  # the warp lands at about frame 1422 (logos, title, New game)
+EXTRA = []  # extra emu.py arguments for every scene (--cover)
 
 
 def load_scenes(path=SCENES):
@@ -38,7 +39,7 @@ def run(rom, out, name, hold, states):
     d = os.path.join(out, name)
     cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"), rom, "--out", d,
            "--frames", str(BOOT + hold), "--shot-every", "100", "--smoke", "--timeout", "900",
-           "--script", WARP, "--var", f"SCENE='{name}'"]
+           "--script", WARP, "--var", f"SCENE='{name}'", *EXTRA]
     if states:
         cmd += ["--state-out", os.path.join(REPO, "work", "states", name + ".mss")]
     with open(d + ".out", "w", encoding="utf-8") as log:
@@ -59,7 +60,12 @@ def main():
     ap.add_argument("--jobs", type=int, default=3)
     ap.add_argument("--states", action="store_true")
     ap.add_argument("--out", default=os.path.join(REPO, "work", "qa", "warp_all"))
+    ap.add_argument("--cover", metavar="RANGES", help="also log text reads in RANGES (textcover.lua; tools/debug/cover.py)")
     a = ap.parse_args()
+    if a.cover:
+        global EXTRA
+        EXTRA = ["--script", os.path.join(SKILL, "scripts", "lua", "probes", "textcover.lua"),
+                 "--var", f"RANGES='{a.cover}'"]
     scenes = load_scenes()
     if a.only:
         want = set(a.only.split(","))

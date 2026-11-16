@@ -20,6 +20,7 @@ import build  # noqa: E402
 import engine  # noqa: E402
 import gfx  # noqa: E402
 import romdiff  # noqa: E402
+import strmap  # noqa: E402
 import text  # noqa: E402
 import units  # noqa: E402
 
@@ -67,6 +68,18 @@ class BuildTest(unittest.TestCase):
                 ptr = struct.unpack_from("<I", self.new, ref)[0] - engine.ROM_BASE
                 self.assertGreaterEqual(ptr, engine.NEW_STRINGS)
                 self.assertEqual(self.new[ptr:ptr + len(raw) + 1], raw + b"\0", f"{old:06X} via {ref:06X}")
+
+    def test_string_map(self):
+        # build/strings.tsv (text coverage): one address per text row, each holding that row's encoded first bytes
+        rows = [r for rs in text.load_all().values() for r in rs]
+        pairs = strmap.addresses(self.new, rows)
+        self.assertEqual(len(pairs), sum(r["kind"] == "text" for r in rows))
+        moved = {engine.ROM_BASE + engine.NEW_STRINGS <= a for _, a in pairs}
+        self.assertEqual(moved, {False, True})  # relocated strings follow their pointer
+        empty = {r["id"] for r in rows if r["en"] == "{none}"}  # deliberately blank (credits:2490B0)
+        for rid, a in pairs:
+            if rid not in empty:
+                self.assertNotIn(self.new[a - engine.ROM_BASE], (0x00, 0xFF), rid)
 
     def test_every_dialogue_row_inserted(self):
         # (apply_edits itself refuses a run where fewer rows were inserted than have an `en`)

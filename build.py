@@ -18,6 +18,7 @@ import check_rom  # noqa: E402
 import engine  # noqa: E402
 import gfx  # noqa: E402
 import marker  # noqa: E402
+import strmap  # noqa: E402
 import text  # noqa: E402
 import units  # noqa: E402
 import windows  # noqa: E402
@@ -139,6 +140,8 @@ def main():
     dest.write_bytes(out.data)
     (dest.parent / (dest.stem + ".writes.tsv" if args.marker else "writes.tsv")).write_text(
         out.writes_text(), encoding="utf-8")
+    if not args.marker and not args.out:  # text coverage: the address of every string (tools/strmap.py)
+        strmap.write_tsv(bytes(out.data), dest.parent / "strings.tsv")
     print(f"{dest.relative_to(ROOT)}: {len(out.data)} bytes, {len(out.log)} writes, "
           f"sha1 {hashlib.sha1(out.data).hexdigest()}")
     return 0
