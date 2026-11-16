@@ -21,7 +21,7 @@
   +0x96, so a message is at most **149 bytes** + NUL, whatever the slot size.
 
 ## The English engine (tools/engine.py, tools/font_en.py)
-- **Digraph font** (decided 2026-11-17): two 5-px letters per 12-px cell (left letter px 0-4, right px 6-10, rows
+- **Digraph font** (decided 2026-11-17): two 5-px letters per 12-px cell (left letter px 1-5, right px 7-11, rows
   1-9), 6 px per letter, 40 letters per dialogue line. Chosen over a VWF because it needs no change to the
   renderer, the position maths or any of the 14 callers: every text routine already draws 12-px cells from the same
   table. Letter glyphs are our own 5x9 design (`tools/font_en.py`; caps 7 rows, descenders 2).

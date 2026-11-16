@@ -31,9 +31,10 @@ GROUPS = {
     # wide; work/qa/g4_title, tools/debug/dmalog.lua). Button fill index and ink measured with `show`.
     # Buttons: fill 2, ink 3, text rows 37-47 / 53-63 / 69-79 (the third button's bottom frame is elsewhere).
     "title": dict(at=0x2B6B8, tiles=352, cols=32, pal=("gfx/pal/title.pal.bin", 2), labels=[
-        ((108, 36, 104, 12), "New Game", 2, 3, None, 1),
-        ((108, 52, 104, 12), "Continue", 2, 3, None, 1),
-        ((107, 68, 106, 12), "Two-Player Battle", 2, 3, None, 1),
+        # rects 1 px below the kana's rows: caps then sit mid-button (the button is 18 rows inside its frame)
+        ((108, 37, 104, 12), "New Game", 2, 3, None, 1),
+        ((108, 53, 104, 12), "Continue", 2, 3, None, 1),
+        ((107, 69, 106, 12), "Two-Player Battle", 2, 3, None, 1),
     ]),
     # G3 title-screen credit line (OBJ, 2D mapping): the title sprites are LZ block 0x2BB0A8, decompressed to OBJ
     # VRAM 0x14000 (tile 0x200), a sheet 32 tiles wide. "キャラクターデザイン 西川伸司" was 5 sprites 128 px wide

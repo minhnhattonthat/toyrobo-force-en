@@ -183,7 +183,7 @@ class Encoder:
             left, right = (font_en.GLYPHS[c] for c in pair)
             rows = [0] * 12
             for r in range(font_en.HEIGHT):
-                rows[1 + r] = left[r] << 11 | right[r] << 5
+                rows[1 + r] = left[r] << 10 | right[r] << 4  # px 1-5 and 7-11: 1 px left margin
             extra += struct.pack(">H12H", code, *rows)
         return orig + bytes(extra), FONT_COUNT + len(self.code)
 

@@ -2,7 +2,7 @@
 
 Each glyph is 5 px wide and 9 rows tall ('#' ink, '.' paper): rows 0-6 caps and ascenders, x-height rows 2-6,
 baseline under row 6, descenders rows 7-8. engine.py puts two letters in each 12x12 cell of the game font
-(left letter at px 0-4, right letter at px 6-10, rows 1-9 of the cell), so every letter advances 6 px.
+(left letter at px 1-5, right letter at px 7-11, rows 1-9 of the cell), so every letter advances 6 px.
 Space is not listed: it is blank.
 """
 
