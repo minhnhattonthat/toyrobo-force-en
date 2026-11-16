@@ -19,6 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import cards  # noqa: E402
 import font_en  # noqa: E402
 
 # label: (x, y, w, h) clear rect in block pixels, text, clear index, ink index, shadow index or None, scale
@@ -165,8 +166,43 @@ def apply_lz(blocks):
             blocks[g["lz"]] = bytes(buf)
 
 
+def card_strip(label, name):
+    """(strip bytes, label sprites, name sprites) for one section card (tools/cards.py), text left-aligned."""
+    parts = []
+    for s, cap in ((label, 2), (name, 5)):
+        w = text_width(s) + 2
+        n = (w + 31) // 32
+        if n > cap:
+            raise ValueError(f"card text {s!r}: {w} px, room {cap * 32}")
+        rows = [[0] * (n * 32) for _ in range(16)]
+        draw(rows, ((0, 0, w, 16), s, 0, cards.INK, None, 1), outline=cards.OUTLINE)
+        parts.append((cards.sprites_from_rows(rows), n))
+    return parts[0][0] + parts[1][0], parts[0][1], parts[1][1]
+
+
+def apply_cards(out):
+    """Section cards (G7/G17): each English strip goes to cards.NEW_STRIPS; its record's strip pointer and layout
+    word (total tiles, label sprites, name sprites) are rewritten. Positions stay (label x 12 / name x 80 or
+    4 / 56: the name has 160 px either way)."""
+    pos = cards.NEW_STRIPS
+    for rec, (label, name) in zip(cards.records(out.data), cards.CARDS_EN, strict=True):
+        strip, nl, nn = card_strip(label, name)
+        if pos + len(strip) > cards.NEW_STRIPS_END:
+            raise ValueError("card strips run past NEW_STRIPS_END")
+        out.write(pos, strip, f"gfx:card {label}")
+        lay = 8 * (nl + nn) | nl << 16 | nn << 24
+        (lx, ly), (nx, ny) = rec["label_xy"], rec["name_xy"]
+        nx = max(nx, lx + text_width(label) + 12)  # "Episode 8" is wider than 第八話: keep a 2-letter gap
+        if nx + text_width(name) + 2 > 240:
+            raise ValueError(f"card {name!r} runs off screen at x {nx}")
+        out.write(rec["off"] + 8, struct.pack("<IIHHHH", 0x08000000 + pos, lay, lx, ly, nx, ny),
+                  f"gfx:card record {label}")
+        pos += len(strip)
+
+
 def apply(out):
     """Write every raw group's redrawn tiles and the sprite-record patches into the Rom being built (units.Rom)."""
+    apply_cards(out)
     for name, g in GROUPS.items():
         if "lz" in g:
             continue
@@ -183,7 +219,8 @@ def spans():
     """Byte ranges apply() may write (tests/test_build.py allowed ranges; LZ blocks are the LZ unit's own)."""
     return ([(g["at"], g["at"] + g["tiles"] * 32) for g in GROUPS.values() if "lz" not in g]
             + [(off, off + len(old)) for off, old, _, _ in OAM_PATCHES]
-            + [(ref, ref + 4) for _, refs in LZ_MOVES.values() for ref in refs])
+            + [(ref, ref + 4) for _, refs in LZ_MOVES.values() for ref in refs]
+            + [(cards.CARD_TABLE + i * cards.REC + 8, cards.CARD_TABLE + i * cards.REC + 24) for i in range(24)])
 
 
 def _palette(g):
