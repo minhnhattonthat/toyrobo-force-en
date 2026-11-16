@@ -133,8 +133,8 @@ dlg:1103	text	rec:2083	149	{face:30000}{face:00602}{spk:01}署長「なんだと
 dlg:1104	text	rec:2084	149	{face:10006}{spk:02}ユウキ「・・・この人が、{br}　テカ反乱の『くろまく』？」{wait}	{face:10006}{spk:02}Yuki: "...This man is the 'mastermind' behind the Teka Revolt?"{wait}	
 dlg:1105	text	rec:2085	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「さて、アプリコット警察のしょくん」{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "Now then, gentlemen of the Apricot police."{wait}	
 dlg:1106	text	rec:2086	149	{face:30000}{face:00603}{face:10006}{spk:01}署長「わたしたちが来ていることも、ばれているのか―――！」{wait}	{face:30000}{face:00603}{face:10006}{spk:01}Chief: "He knows we're here too--!"{wait}	
-dlg:1107	text	rec:2087	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「君たちはじゃまだ、ひじょうにじゃまだ。{br}　そのままカシスにいてもらおう。{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "You are a nuisance, a great nuisance. You'll stay right there in Cassis.{wait}	
-dlg:1108	text	rec:2088	149	{spk:04}　なあに、『ちょろちょろするな！』と言いたいだけじゃよ。{wait}	{spk:04}Oh, I only mean to say 'Stop scurrying about!'{wait}	
+dlg:1107	text	rec:2087	149	{face:00000}{face:10000}{face:32102}{spk:04}博士「君たちはじゃまだ、ひじょうにじゃまだ。{br}　そのままカシスにいてもらおう。{wait}	{face:00000}{face:10000}{face:32102}{spk:04}Doctor: "You are a nuisance, a dreadful nuisance. You'd best stay right there in Cassis.{wait}	
+dlg:1108	text	rec:2088	149	{spk:04}　なあに、『ちょろちょろするな！』と言いたいだけじゃよ。{wait}	{spk:04}Oh, I merely wish to say, 'Stop scurrying about!'{wait}	
 dlg:1109	text	rec:2089	149	{spk:04}　アプリコットのテカはにげだしただけ、{br}　フランボワーズではちょいとあばれただけじゃ。{br}　が、今度はちがうぞ。{wait}	{spk:04}In Apricot the Teka only ran away, in Framboise they only ran a bit wild. But this time is different.{wait}	
 dlg:1110	text	rec:2090	149	{spk:04}　じゃまなソルジャーはでくのぼうだしな、　シティ中でテカがあばれておるわい！{br}　ひゃっひゃっひゃ！」{wait}	{spk:04}The meddlesome Soldiers are useless, and Teka are running wild all over the City! Hya hya hya!"{wait}	
 dlg:1111	text	rec:2091	149	{face:00601}{face:10001}{face:30000}{face:20102}{spk:03}トモミ「署長！　ユウキ！{br}　たいへん、外でテカがあばれてる！」{wait}	{face:00601}{face:10001}{face:30000}{face:20102}{spk:03}Tomomi: "Chief! Yuki! Bad news, the Teka are running wild outside!"{wait}	
@@ -166,9 +166,9 @@ dlg:1136	text	rec:2148	149	{spk:01}　それとも、きらいな軍隊にまた
 dlg:1137	text	rec:2149	149	{spk:04}ユウキ「―――いつでもおよびください。{br}　本当なら軍隊なんていらないんだということを、しょうめいしてみせます」{wait}	{spk:04}Yuki: "--Call me anytime. I'll prove that we really don't need an army."{wait}	
 dlg:1138	text	rec:2150	149	{face:01703}{spk:01}将軍「ふふふ―――」{wait}	{face:01703}{spk:01}General: "Heh heh heh--"{wait}	
 dlg:1139	text	rec:2154	149	　ダムのほとりの研究所{wait}	The Institute by the Dam{wait}	
-dlg:1140	text	rec:2155	149	{face:20801}{face:30901}{face:10702}{spk:02}博士「ち、そういう手があったか。{br}　軍がふっかつしたからには、ムリはできんな」{wait}	{face:20801}{face:30901}{face:10702}{spk:02}Doctor: "Tch, so there was that move. With the army back, I can't push it."{wait}	
+dlg:1140	text	rec:2155	149	{face:20801}{face:30901}{face:10702}{spk:02}博士「ち、そういう手があったか。{br}　軍がふっかつしたからには、ムリはできんな」{wait}	{face:20801}{face:30901}{face:10702}{spk:02}Doctor: "Tch, so they had that card to play. With the army back, I daren't push it."{wait}	
 dlg:1141	text	rec:2156	149	{face:20802}{spk:03}リヒター「じゃあ博士、『プロメテウス』を使うってのはどうだい」{wait}	{face:20802}{spk:03}Richter: "Then, Doctor, how about using 'Prometheus'?"{wait}	
-dlg:1142	text	rec:2157	149	{spk:02}博士「うん？　カシスをばくげきする気か」{wait}	{spk:02}Doctor: "Hm? You mean to bomb Cassis?"{wait}	
+dlg:1142	text	rec:2157	149	{spk:02}博士「うん？　カシスをばくげきする気か」{wait}	{spk:02}Doctor: "Hm? You mean to bomb Cassis, eh?"{wait}	
 dlg:1143	text	rec:2158	149	{spk:03}リヒター「し、博士、ばくげき機だってばれたら、エミコさんにおこられる」{wait}	{spk:03}Richter: "Sh, Doctor! If she finds out it's a bomber, Emiko-san will be angry."{wait}	
 dlg:1144	text	rec:2159	149	{face:30906}{spk:04}エミコ「聞こえました―――　　　　　　{br}{face:30902}　博士、お茶を。{br}　リヒター君の分も」{wait}	{face:30906}{spk:04}Emiko: "I heard that--{face:30902} Doctor, your tea. And some for Richter-kun."{wait}	
 dlg:1145	text	rec:2160	149	{spk:03}リヒター「ぼくは飲めないよ・・・{br}　病気で機械の体になっちゃったんだ。{br}　きおくだけ人工頭脳にうつしたんだよ」{wait}	{spk:03}Richter: "I can't drink... I got sick and ended up a machine. Only my memories went into an artificial brain."{wait}	

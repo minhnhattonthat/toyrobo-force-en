@@ -186,7 +186,7 @@ dlg:0534	text	rec:972	149	　かくし山荘{wait}	The Hidden Lodge{wait}
 dlg:0535	text	rec:973	149	{face:10701}{face:20803}{spk:03}リヒター「一体のこらずと思ったのに、じゃまが入ったね」{wait}	{face:10701}{face:20803}{spk:03}Richter: "I thought we'd get every last one, but someone got in the way."{wait}	
 dlg:0536	text	rec:974	149	{face:10703}{spk:02}博士「市長にはいい薬になったさ。{br}　よくをかくといたい目にあう。{br}　なあ、エミコさん」{wait}	{face:10703}{spk:02}Doctor: "It was good medicine for the Mayor. Get greedy and you get hurt. Isn't that right, Emiko-san?"{wait}	
 dlg:0537	text	rec:975	149	{face:30905}{spk:04}メイドになったエミコ「はい―――」{wait}	{face:30905}{spk:04}Emiko, now a maid: "Yes--"{wait}	
-dlg:0538	text	rec:976	149	{face:10705}{spk:02}博士「お茶を入れてくれるか。{br}　ちとつかれた」{wait}	{face:10705}{spk:02}Doctor: "Would you make some tea? I'm a little tired."{wait}	
+dlg:0538	text	rec:976	149	{face:10705}{spk:02}博士「お茶を入れてくれるか。{br}　ちとつかれた」{wait}	{face:10705}{spk:02}Doctor: "Would you make us some tea? I'm a touch weary."{wait}	
 dlg:0539	text	rec:977	149	{spk:03}リヒター「ぼくもお茶を飲める体にもどりたいな―――{wait}	{spk:03}Richter: "I wish I had a body that could drink tea again--{wait}	
 dlg:0540	text	rec:978	149	{face:20802}{spk:03}　どうだい博士、美少年をさらってきて、{br}　ぼくの生体ボディにしないかい」{wait}	{face:20802}{spk:03}Say, Doctor, why not kidnap a pretty boy and make him my living body?"{wait}	
-dlg:0541	text	rec:979	149	{face:10702}{spk:02}博士「じょうだんはよせ、わしゃそんなおぞましい話は聞けんよ―――」{wait}	{face:10702}{spk:02}Doctor: "Don't joke about that. I can't bear to hear such horrid talk--"{wait}	
+dlg:0541	text	rec:979	149	{face:10702}{spk:02}博士「じょうだんはよせ、わしゃそんなおぞましい話は聞けんよ―――」{wait}	{face:10702}{spk:02}Doctor: "Don't jest about that. I can't bear to hear such ghastly talk--"{wait}	

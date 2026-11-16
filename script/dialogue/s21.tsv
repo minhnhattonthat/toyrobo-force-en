@@ -1,14 +1,14 @@
 id	kind	where	max	jp	en	notes
 dlg:2295	text	rec:4443	149	{face:00302}通信・ユウキ「全部ワナか。{br}　ブランク、出口に急げ、そこはふくろのネズミだ」{wait}	{face:00302}Yuki (radio): "It was all a trap. Blank, hurry to the exit. You're a rat in a trap in there."{wait}	
-dlg:2296	text	rec:4444	149	ゲオルグ博士「そうじゃよ、ふくろのネズミじゃよ！{br}　にがすものか！」{wait}	Dr. Georg: "That's right, a rat in a trap! I won't let you escape!"{wait}	
+dlg:2296	text	rec:4444	149	ゲオルグ博士「そうじゃよ、ふくろのネズミじゃよ！{br}　にがすものか！」{wait}	Dr. Georg: "Just so, a rat in a trap! I'll not let you escape!"{wait}	
 dlg:2297	text	rec:4445	149	ユウキ「あいにくだね、博士。{br}　これぐらいみやぶれなくて、警官がつとまるもんか！{br}　オーケー、ギリガン、点火！」{wait}	Yuki: "Too bad, Doctor. If I couldn't see through this, I'd be no police officer! Okay, Gilligan, light it!"{wait}	
 dlg:2298	text	rec:4447	149	博士「な、なんじゃ、いまのばくはつはっ」{wait}	Doctor: "Wh-what was that explosion just now?!"{wait}	
 dlg:2299	text	rec:4448	149	ユウキ「ブランク！{br}　表のシャッターをばくはした、{br}　打ちあわせどおりもどってこい！」{wait}	Yuki: "Blank! We blew up the front shutter. Come back out, just as we planned!"{wait}	
 dlg:2300	text	rec:4449	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}	{face:00302}{spk:01}Blank: "Confirm!"{wait}	
-dlg:2301	text	rec:4450	149	{face:00300}{face:10704}{spk:02}博士「ぐ・・・{br}　にがさんぞ、つかまえてやる！」{wait}	{face:00300}{face:10704}{spk:02}Doctor: "Grr... You won't escape. I'll catch you!"{wait}	
+dlg:2301	text	rec:4450	149	{face:00300}{face:10704}{spk:02}博士「ぐ・・・{br}　にがさんぞ、つかまえてやる！」{wait}	{face:00300}{face:10704}{spk:02}Doctor: "Grr... You'll not escape me. I'll catch you yet!"{wait}	
 dlg:2302	text	rec:4451	149	{face:20011}{spk:15}ユウキ「博士、それはこっちのセリフだ！」{wait}	{face:20011}{spk:15}Yuki: "Doctor, that's my line!"{wait}	
 dlg:2303	text	rec:4454	149	通信・ユウキ「ブランク！{br}　ブランク！{br}　だいじょうぶかい！　聞こえる？！」{wait}	Yuki (radio): "Blank! Blank! Are you all right? Can you hear me?!"{wait}	
-dlg:2304	text	rec:4455	149	{face:00302}{spk:01}ブランク「すみません、せんとうふのう・・　でも平気です、出口は見える、走って出ます」{wait}	{face:00302}{spk:01}Blank: "Sorry, I can't fight... But I'm fine. I can see the exit. I'll run out."{wait}	
+dlg:2304	text	rec:4455	149	{face:00302}{spk:01}ブランク「すみません、せんとうふのう・・　でも平気です、出口は見える、走って出ます」{wait}	{face:00302}{spk:01}Blank: "S-sorry, I'm out of action... But I'm all right. I can see the exit. I'll run for it."{wait}	
 dlg:2305	text	rec:4456	149	通信「急げ！」{wait}	Radio: "Hurry!"{wait}	
 dlg:2306	text	rec:4460	149	{face:00302}{spk:01}ブランク「外に出ました！」{wait}	{face:00302}{spk:01}Blank: "I'm outside!"{wait}	
 dlg:2307	text	rec:4461	149	通信「はやく工場までこい、メンテしなくちゃ」{wait}	Radio: "Get to the factory, quick. You need maintenance."{wait}	

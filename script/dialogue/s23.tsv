@@ -8,50 +8,50 @@ dlg:2402	text	rec:4595	149	{spk:03}リヒター「・・・やつら、いない
 dlg:2403	text	rec:4596	149	{spk:03}　・・・エミコさん！　いないの？{br}　僕だよ、助けにきたんだよ・・・！」{wait}	{spk:03}...Emiko-san! Aren't you here? It's me, I've come to rescue you...!"{wait}	
 dlg:2404	text	rec:4597	149	ゲオルグ博士「エミコさんは、はじめからここにはおらんわい」{wait}	Dr. Georg: "Emiko-san was never here to begin with."{wait}	
 dlg:2405	text	rec:4598	149	{face:00702}{face:20802}{spk:03}リヒター「！　博士？{br}　なにを言ってるんだい、あいつらが、ここでメンテしようって言ってたんだよ」{wait}	{face:00702}{face:20802}{spk:03}Richter: "! Doctor? What are you saying? They said they'd do her maintenance here."{wait}	
-dlg:2406	text	rec:4599	149	{spk:01}博士「安心せい、エミコさんはケガなんかしとらん―――{wait}	{spk:01}Doctor: "Rest easy, Emiko-san isn't hurt at all--{wait}	
-dlg:2407	text	rec:4600	149	{spk:01}　なあ、相手のユウキという子は、お前なんぞより頭がいいぞ。{wait}	{spk:01}You know, that Yuki boy is much smarter than you.{wait}	
+dlg:2406	text	rec:4599	149	{spk:01}博士「安心せい、エミコさんはケガなんかしとらん―――{wait}	{spk:01}Doctor: "Rest easy, Emiko-san hasn't a scratch on her--{wait}	
+dlg:2407	text	rec:4600	149	{spk:01}　なあ、相手のユウキという子は、お前なんぞより頭がいいぞ。{wait}	{spk:01}Mark you, that Yuki boy is far cleverer than you.{wait}	
 dlg:2408	text	rec:4601	149	{spk:01}　だましておびき出し、タイホしてしまおうぐらい、考えるぞ―――」{wait}	{spk:01}He'd think nothing of tricking you, luring you out and arresting you--"{wait}	
 dlg:2409	text	rec:4602	149	{spk:03}リヒター「・・・そう、ワナかい。{br}　エミコさんに目隠しさせて、{br}　銃声聞かせて・・・」{wait}	{spk:03}Richter: "...So it's a trap. You blindfolded Emiko-san and let me hear a gunshot..."{wait}	
-dlg:2410	text	rec:4603	149	{spk:01}博士「ユウキ君にたのみこんで、お前をせっとくするチャンスをもらった。{br}　おねがいだから自首すると言っておくれ。{wait}	{spk:01}Doctor: "I begged Yuki-kun for a chance to talk you round. Please, tell me you'll turn yourself in.{wait}	
-dlg:2411	text	rec:4604	149	{spk:01}　さもないと―――もう許してもらえんぞ」{wait}	{spk:01}Otherwise-- they'll never forgive you."{wait}	
+dlg:2410	text	rec:4603	149	{spk:01}博士「ユウキ君にたのみこんで、お前をせっとくするチャンスをもらった。{br}　おねがいだから自首すると言っておくれ。{wait}	{spk:01}Doctor: "I begged Yuki-kun for a chance to talk you round. I beg you, tell me you'll give yourself up.{wait}	
+dlg:2411	text	rec:4604	149	{spk:01}　さもないと―――もう許してもらえんぞ」{wait}	{spk:01}Otherwise-- there'll be no forgiving you."{wait}	
 dlg:2412	text	rec:4605	149	{spk:03}リヒター「―――ばかばかしい！{br}　敵にたましい売ったのかい、博士？！」{wait}	{spk:03}Richter: "--That's ridiculous! Did you sell your soul to the enemy, Doctor?!"{wait}	
 dlg:2413	text	rec:4606	149	{spk:01}博士「なぜわしを『博士』とよぶ。{br}　なぜ、おじいさんとよんでくれんのじゃ。　わしの孫だろう？」{wait}	{spk:01}Doctor: "Why do you call me 'Doctor'? Why won't you call me Grandpa? You're my grandson, aren't you?"{wait}	
 dlg:2414	text	rec:4607	149	{spk:03}リヒター「そうだけど―――なんでかな。{br}　いいだろ、博士は博士さ」{wait}	{spk:03}Richter: "I am, but-- I don't know why. Who cares, the Doctor is the Doctor."{wait}	
-dlg:2415	text	rec:4608	149	{spk:01}博士「おじいさんとは言ってくれんか。{wait}	{spk:01}Doctor: "You won't call me Grandpa.{wait}	
-dlg:2416	text	rec:4609	149	{spk:01}　じゃろうな。{br}　わしは『てんがいこどく』、息子も娘もおらん。{wait}	{spk:01}I suppose not. I'm 'all alone in the world.' I have no son and no daughter.{wait}	
+dlg:2415	text	rec:4608	149	{spk:01}博士「おじいさんとは言ってくれんか。{wait}	{spk:01}Doctor: "So you won't call me Grandpa.{wait}	
+dlg:2416	text	rec:4609	149	{spk:01}　じゃろうな。{br}　わしは『てんがいこどく』、息子も娘もおらん。{wait}	{spk:01}I thought not. I'm 'all alone in the world.' I have no son and no daughter.{wait}	
 dlg:2417	text	rec:4610	149	{spk:01}　だから、リヒターなんて孫が、{br}　この世におるわけがない」{wait}	{spk:01}So a grandson called Richter can't possibly exist in this world."{wait}	
 dlg:2418	text	rec:4611	149	{spk:03}リヒター「？　ぼくはここにいるよ」{wait}	{spk:03}Richter: "? I'm right here."{wait}	
-dlg:2419	text	rec:4612	149	{spk:01}博士「リヒターなんて孫は、いまも昔もおらんのじゃ。{br}　お前はただのロボットじゃ！」{wait}	{spk:01}Doctor: "There is no grandson called Richter, and there never was. You are only a robot!"{wait}	
+dlg:2419	text	rec:4612	149	{spk:01}博士「リヒターなんて孫は、いまも昔もおらんのじゃ。{br}　お前はただのロボットじゃ！」{wait}	{spk:01}Doctor: "There is no grandson called Richter, nor ever was. You are nothing but a robot!"{wait}	
 dlg:2420	text	rec:4614	149	{face:20803}{spk:03}リヒター「な・・・なに言ってるんだい！{br}　僕は病気になって・・・！」{wait}	{face:20803}{spk:03}Richter: "Wh... what are you saying?! I got sick and...!"{wait}	
 dlg:2421	text	rec:4615	149	{spk:01}博士「自分のことを人間だと思わせるためについたウソじゃ。{wait}	{spk:01}Doctor: "A lie I told to make you believe you were human.{wait}	
-dlg:2422	text	rec:4616	149	{spk:01}　いいかげんにさとれ、{br}　お前はただのロボットじゃ！{wait}	{spk:01}Face the truth at last. You are only a robot!{wait}	
+dlg:2422	text	rec:4616	149	{spk:01}　いいかげんにさとれ、{br}　お前はただのロボットじゃ！{wait}	{spk:01}Face the truth at last, boy. You are nothing but a robot!{wait}	
 dlg:2423	text	rec:4617	149	{spk:01}　病気で体をうしなったリヒターなんて、　どこにもおらん！」{wait}	{spk:01}There is no Richter who lost his body to illness, anywhere!"{wait}	
 dlg:2424	text	rec:4618	149	{face:20802}{spk:03}リヒター「ばか言うな！{br}　小さいときのきおくだってあるよ！」{wait}	{face:20802}{spk:03}Richter: "Don't be stupid! I remember when I was little!"{wait}	
-dlg:2425	text	rec:4619	149	{face:00702}{spk:01}博士「わしの作ったきおくじゃ、{br}　こんな孫がいたらいいだろうなと、{br}　夢を見ながら書いた作文じゃ！」{wait}	{face:00702}{spk:01}Doctor: "Memories I made. A story I wrote while dreaming how nice it would be to have such a grandson!"{wait}	
+dlg:2425	text	rec:4619	149	{face:00702}{spk:01}博士「わしの作ったきおくじゃ、{br}　こんな孫がいたらいいだろうなと、{br}　夢を見ながら書いた作文じゃ！」{wait}	{face:00702}{spk:01}Doctor: "Memories I made! A story I wrote, dreaming how nice it would be to have such a grandson!"{wait}	
 dlg:2426	text	rec:4620	149	{face:20802}{spk:03}リヒター「だって、だって、となりのアドルフ君とあそんだきおくが―――」{wait}	{face:20802}{spk:03}Richter: "But, but... I remember playing with Adolf-kun next door--"{wait}	
-dlg:2427	text	rec:4621	149	{face:00702}{spk:01}博士「アドルフというのはアプリコット市長の名前じゃ、気づかんかったか」{wait}	{face:00702}{spk:01}Doctor: "Adolf is the name of the Mayor of Apricot. Didn't you notice?"{wait}	
+dlg:2427	text	rec:4621	149	{face:00702}{spk:01}博士「アドルフというのはアプリコット市長の名前じゃ、気づかんかったか」{wait}	{face:00702}{spk:01}Doctor: "Adolf is the name of Apricot's Mayor. Did you never notice?"{wait}	
 dlg:2428	text	rec:4622	149	{face:20802}{spk:03}リヒター「モーデルおじさんに、遊びにつれていってもらったよ！」{wait}	{face:20802}{spk:03}Richter: "Uncle Mordel took me out to play!"{wait}	
 dlg:2429	text	rec:4623	149	{face:00702}{spk:01}博士「モーデルはカシスの将軍の名前じゃ」{wait}	{face:00702}{spk:01}Doctor: "Mordel is the name of the General of Cassis."{wait}	
 dlg:2430	text	rec:4624	149	{face:20803}{spk:03}リヒター「ハンナ先生に、ピアノを教わって・・・！」{wait}	{face:20803}{spk:03}Richter: "Hanna-sensei taught me piano...!"{wait}	
 dlg:2431	text	rec:4625	149	{face:00702}{spk:01}博士「ハンナはマーマレードの市長じゃ、{br}　ピアノなんかひけん！{wait}	{face:00702}{spk:01}Doctor: "Hanna is the Mayor of Marmalade. She can't play the piano!{wait}	
-dlg:2432	text	rec:4626	149	{spk:01}　そうまで言うなら、小学校のどうきゅうせいを思い出せるだけ言うてみい！{wait}	{spk:01}If you insist, name every classmate from your elementary school you can remember!{wait}	
+dlg:2432	text	rec:4626	149	{spk:01}　そうまで言うなら、小学校のどうきゅうせいを思い出せるだけ言うてみい！{wait}	{spk:01}Go on, name every classmate from elementary school you can recall!{wait}	
 dlg:2433	text	rec:4627	149	{spk:01}　アドルフ君か、スミタ君しか思い出せんじゃろ。	{spk:01}You can only remember Adolf-kun and Sumita-kun, can't you?	
 dlg:2434	text	rec:4628	149	{face:00703}　それしかきおくを作らなかったからな！」{wait}	{face:00703}Because those are the only memories I made!"{wait}	
 dlg:2435	text	rec:4629	149	{spk:03}リヒター「そんな・・・そんな、{br}　ぼくは人間じゃない・・・？」{wait}	{spk:03}Richter: "That's... that's... I'm not human...?"{wait}	
-dlg:2436	text	rec:4630	149	{face:00702}{spk:01}博士「人間は、悪いことをしたら、はんせいするんじゃ。{br}　なぜお前ははんせいしない？」{wait}	{face:00702}{spk:01}Doctor: "When humans do wrong, they feel remorse, ya know. Why don't you ever?"{wait}	
+dlg:2436	text	rec:4630	149	{face:00702}{spk:01}博士「人間は、悪いことをしたら、はんせいするんじゃ。{br}　なぜお前ははんせいしない？」{wait}	{face:00702}{spk:01}Doctor: "When humans do wrong, they feel remorse. Why do you never feel any?"{wait}	
 dlg:2437	text	rec:4631	149	{face:20802}{spk:03}リヒター「ぼくは人間さ！{br}　だって、ぼくはエミコさんが好きだよ、{br}　ロボットが恋なんかするもんか。	{face:20802}{spk:03}Richter: "I am human! I mean, I love Emiko-san. As if a robot could fall in love.	
 dlg:2438	text	rec:4632	149	　ぼくはエミコさんが大好きなんだ！」{wait}	I love Emiko-san more than anything!"{wait}	
-dlg:2439	text	rec:4633	149	{face:20800}{face:00704}{spk:01}博士「待たんかっ、どこへ行く、リヒター！{wait}	{face:20800}{face:00704}{spk:01}Doctor: "Wait! Where are you going, Richter?!{wait}	
+dlg:2439	text	rec:4633	149	{face:20800}{face:00704}{spk:01}博士「待たんかっ、どこへ行く、リヒター！{wait}	{face:20800}{face:00704}{spk:01}Doctor: "Wait, I say! Where are you going, Richter?!{wait}	
 dlg:2440	text	rec:4634	149	{spk:01}　・・・・・・{br}{face:00702}　・・・・・・{wait}	{spk:01}...... {face:00702}......{wait}	
 dlg:2441	text	rec:4635	149	{face:00706}{spk:01}　・・・・・・・・・・・・・・・・・・{wait}	{face:00706}{spk:01}..................{wait}	
 dlg:2442	text	rec:4636	149	{spk:01}　・・・すまん、ユウキ君。{br}　言わんでいいことまで言って、傷つけてしまったようじゃ・・・」{wait}	{spk:01}...I'm sorry, Yuki-kun. It seems I said more than I needed to, and hurt him..."{wait}	
 dlg:2443	text	rec:4637	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「・・・博士」{wait}	{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "...Doctor."{wait}	
 dlg:2444	text	rec:4638	149	{spk:01}博士「最後まで手を出さずにいてくれて、{br}　ありがとう・・・{wait}	{spk:01}Doctor: "Thank you for holding back until the very end...{wait}	
-dlg:2445	text	rec:4639	149	{spk:01}　じゃあわしはおナワにつくかな。{br}　タイホしておくれ・・・」{wait}	{spk:01}Well then, I suppose I'll come quietly. Arrest me..."{wait}	
+dlg:2445	text	rec:4639	149	{spk:01}　じゃあわしはおナワにつくかな。{br}　タイホしておくれ・・・」{wait}	{spk:01}Well then, I suppose I'll come quietly. Arrest me, if you please..."{wait}	
 dlg:2446	text	rec:4640	149	{face:10002}{spk:02}ユウキ「あなたをタイホしている場合じゃありません。{br}　爆撃機をどうにかしないと」{wait}	{face:10002}{spk:02}Yuki: "This is no time to be arresting you. We have to do something about the bomber."{wait}	
-dlg:2447	text	rec:4641	149	{spk:01}博士「プロメテウスか。{br}　空母にあったろう、うばいとったんじゃないのか？」{wait}	{spk:01}Doctor: "Prometheus? It was on the carrier. Didn't you seize it?"{wait}	
+dlg:2447	text	rec:4641	149	{spk:01}博士「プロメテウスか。{br}　空母にあったろう、うばいとったんじゃないのか？」{wait}	{spk:01}Doctor: "Prometheus, eh? It was on the carrier. Didn't you seize it?"{wait}	
 dlg:2448	text	rec:4642	149	{face:10012}{spk:02}ユウキ「いや―――{br}　空母にはばくげき機はありませんでしたが―――」{wait}	{face:10012}{spk:02}Yuki: "No-- There was no bomber on the carrier--"{wait}	
-dlg:2449	text	rec:4643	149	{face:00702}{spk:01}博士「リヒターめ。{br}　また乗りまわしておるのか・・・{wait}	{face:00702}{spk:01}Doctor: "That Richter. Joyriding in it again...{wait}	
+dlg:2449	text	rec:4643	149	{face:00702}{spk:01}博士「リヒターめ。{br}　また乗りまわしておるのか・・・{wait}	{face:00702}{spk:01}Doctor: "That Richter. Joyriding in it again, is he...{wait}	
 dlg:2450	text	rec:4644	149	{spk:01}　プロメテウスは無着陸で世界一周できる。　どこまで行くか分からんぞ」{wait}	{spk:01}Prometheus can fly around the world without landing. There's no telling how far he'll go."{wait}	
 dlg:2451	text	rec:4645	149	{face:10002}{spk:02}ユウキ「なにをつんでいるんです？」{wait}	{face:10002}{spk:02}Yuki: "What is it carrying?"{wait}	
 dlg:2452	text	rec:4646	149	{spk:01}博士「ばくだんを少々―――」{wait}	{spk:01}Doctor: "A few bombs--"{wait}	
@@ -61,7 +61,7 @@ dlg:2455	text	rec:4649	149	{face:30208}{spk:04}ギリガン「なんだそりゃ
 dlg:2456	text	rec:4650	149	{face:10006}{spk:02}ユウキ「２００万人って・・・{br}　シティまるごと、ふきとばせる・・・？」{wait}	{face:10006}{spk:02}Yuki: "Two million... That could blow away the whole City...?"{wait}	
 dlg:2457	text	rec:4651	149	{face:30206}{face:20111}{spk:03}トモミ「管制レーダーに反応・・・{br}　ばくげき機？　大きい；{br}　カシスの方ににげていく」{wait}	{face:30206}{face:20111}{spk:03}Tomomi: "A blip on the control radar... The bomber? It's big! It's fleeing toward Cassis."{wait}	
 dlg:2458	text	rec:4652	149	{face:10007}{spk:02}ユウキ「にげているんじゃない―――{br}　アプリコットに向かっているんだ！」{wait}	{face:10007}{spk:02}Yuki: "It's not fleeing-- It's heading for Apricot!"{wait}	
-dlg:2459	text	rec:4653	149	{face:00702}{spk:01}博士「あの子が仕返しをしようと言うなら、それいがいあるまい―――{br}　アプリコットをふきとばす気じゃ」{wait}	{face:00702}{spk:01}Doctor: "If the boy wants revenge, it can only be that-- He means to blow Apricot away."{wait}	
+dlg:2459	text	rec:4653	149	{face:00702}{spk:01}博士「あの子が仕返しをしようと言うなら、それいがいあるまい―――{br}　アプリコットをふきとばす気じゃ」{wait}	{face:00702}{spk:01}Doctor: "If the boy means revenge, it can be nothing else-- He means to blow Apricot away."{wait}	
 dlg:2460	text	rec:4654	149	{face:10006}{spk:02}ユウキ「追いかけよう、アプリコットに着く前にげきついしなくちゃ！」{wait}	{face:10006}{spk:02}Yuki: "Let's chase it! We have to shoot it down before it reaches Apricot!"{wait}	
 dlg:2461	text	rec:4655	149	{face:00702}{spk:01}博士「げきついするのか―――そうじゃな。　乗っ取ろうなんてあまいことを言っていられん。	{face:00702}{spk:01}Doctor: "Shoot it down-- Yes. We can't be soft and talk of hijacking it.	
 dlg:2462	text	rec:4656	149	　リヒターごと・・・{br}　げきついするしかあるまい―――」{wait}	Richter and all... We have no choice but to shoot it down--"{wait}	
@@ -83,7 +83,7 @@ dlg:2477	text	rec:4677	149	{face:00702}{spk:01}ゲオルグ博士「軍用機じ
 dlg:2478	text	rec:4678	149	　もう少し・・・力がいるな」{wait}	They need... a bit more power."{wait}	
 dlg:2479	text	rec:4679	149	{face:20111}{spk:03}トモミ「・・・プロメテウス、高度を上げ始めたわ！」{wait}	{face:20111}{spk:03}Tomomi: "...Prometheus has started climbing!"{wait}	
 dlg:2480	text	rec:4680	149	{face:10009}{spk:02}ユウキ「こうげきをさける気だな。{br}　時間がかせげる！」{wait}	{face:10009}{spk:02}Yuki: "It's trying to dodge our attacks. That buys us time!"{wait}	
-dlg:2481	text	rec:4681	149	{face:00702}{spk:01}博士「よし、フランボワーズの研究所によっていこう。{br}　いいものがある」{wait}	{face:00702}{spk:01}Doctor: "Right, let's stop at the Framboise laboratory. There's something good there."{wait}	
+dlg:2481	text	rec:4681	149	{face:00702}{spk:01}博士「よし、フランボワーズの研究所によっていこう。{br}　いいものがある」{wait}	{face:00702}{spk:01}Doctor: "Very well, let's call at the Framboise laboratory. They've something rather good there."{wait}	
 dlg:2482	text	rec:4686	149	{face:01602}{face:10702}{face:20001}{face:30201}{spk:01}バンクテカ「やあ、パワーシールドはいかがです」{wait}	{face:01602}{face:10702}{face:20001}{face:30201}{spk:01}Bankteka: "Hello, how about a Power Shield?"{wait}	
 dlg:2483	text	rec:4687	149	{spk:02}ゲオルグ博士「所長はおるかね。{br}　師匠が来たと、伝えてくれるか」{wait}	{spk:02}Dr. Georg: "Is the director in? Tell the director that the old master is here."{wait}	
 dlg:2484	text	rec:4688	149	{spk:01}バンクテカ「所長はいません。{br}　お買い物でしたら、わたしにどうぞ」{wait}	{spk:01}Bankteka: "The director isn't here. If you're shopping, I can help you."{wait}	
@@ -121,16 +121,16 @@ dlg:2515	text	rec:4742	149	{face:00701}{face:10006}{face:20201}{face:30901}{spk:
 dlg:2516	text	rec:4743	149	{face:00702}{spk:01}ゲオルグ博士「よく勉強しておくんじゃな。{wait}	{face:00702}{spk:01}Dr. Georg: "You'd best study harder.{wait}	
 dlg:2517	text	rec:4744	149	{spk:01}　ああいうばくだんは火薬とちがって、{br}ばくはつさせる仕組みがこわれたら、ばくはつせんのじゃ」{wait}	{spk:01}Unlike gunpowder, bombs like that won't go off once the trigger mechanism is broken."{wait}	
 dlg:2518	text	rec:4745	149	{face:30906}{spk:04}エミコ「―――リヒター君は？」{wait}	{face:30906}{spk:04}Emiko: "--What about Richter-kun?"{wait}	
-dlg:2519	text	rec:4746	149	{face:00702}{spk:01}博士「生きておれるわけがなかろう。{br}　がんじょうなソルジャーならともかく、{br}　リヒターはトイロボじゃ」{wait}	{face:00702}{spk:01}Doctor: "He can't possibly have survived. A tough Soldier, perhaps, but Richter is a Toyrobo."{wait}	
+dlg:2519	text	rec:4746	149	{face:00702}{spk:01}博士「生きておれるわけがなかろう。{br}　がんじょうなソルジャーならともかく、{br}　リヒターはトイロボじゃ」{wait}	{face:00702}{spk:01}Doctor: "He can't possibly have survived. A sturdy Soldier, perhaps, but Richter is a Toyrobo."{wait}	
 dlg:2520	text	rec:4747	149	{face:10002}{spk:02}ユウキ「トイ・・・だったんですか」{wait}	{face:10002}{spk:02}Yuki: "He was a Toy... robo?"{wait}	
 dlg:2521	text	rec:4748	149	{face:00702}{spk:01}博士「ああ。わしのあそび相手じゃよ―――{wait}	{face:00702}{spk:01}Doctor: "Yes. My playmate--{wait}	
 dlg:2522	text	rec:4749	149	{face:00703}{spk:01}　ふ、ふ、まさか世界も、トイロボがあやつる軍隊におびやかされるとは、思っていなかったろう」{wait}	{face:00703}{spk:01}Heh heh. The world never dreamed it would be threatened by an army run by a Toyrobo."{wait}	
 dlg:2523	text	rec:4750	149	{face:20203}{spk:03}ギリガン「とんだ『トイロボフォース』だ」{wait}	{face:20203}{spk:03}Gilligan: "Some 'Toyrobo Force' that was."{wait}	
-dlg:2524	text	rec:4751	149	{face:00702}{spk:01}博士「―――どれ、リヒターの骨をひろいにいこう。{br}　エミコさんも―――」{wait}	{face:00702}{spk:01}Doctor: "--Well, let's go gather Richter's remains. Emiko-san, you too--"{wait}	
+dlg:2524	text	rec:4751	149	{face:00702}{spk:01}博士「―――どれ、リヒターの骨をひろいにいこう。{br}　エミコさんも―――」{wait}	{face:00702}{spk:01}Doctor: "--Well now, let's go gather Richter's remains. Emiko-san, you too--"{wait}	
 dlg:2525	text	rec:4752	149	{face:30902}{spk:04}エミコ「パーツが見つかれば―――{br}　リヒター君を直してあげられますよね。{br}　博士は天才ですもの―――」{wait}	{face:30902}{spk:04}Emiko: "If we find his parts-- you can fix Richter-kun, can't you? You're a genius, Doctor--"{wait}	
-dlg:2526	text	rec:4753	149	{face:00703}{spk:01}博士「もちろん。{br}　わしゃ『天才』ゲオルグじゃ」{wait}	{face:00703}{spk:01}Doctor: "Of course. I am Georg the 'Genius.'"{wait}	
+dlg:2526	text	rec:4753	149	{face:00703}{spk:01}博士「もちろん。{br}　わしゃ『天才』ゲオルグじゃ」{wait}	{face:00703}{spk:01}Doctor: "Of course. I am Georg the 'Genius,' after all."{wait}	
 dlg:2527	text	rec:4754	149	{face:20206}{spk:03}ギリガン「また反乱テカを集めて{br}『トイロボフォース２』なんか作られたら、たまんねえぜ」{wait}	{face:20206}{spk:03}Gilligan: "If he gathers rebel Teka again and builds 'Toyrobo Force 2,' I'll never get a break."{wait}	
-dlg:2528	text	rec:4755	149	{face:00702}{spk:01}博士「だいじょうぶさ、今度はやさしくて　いい子になる。{br}　エミコさんが教育してくれるからな」{wait}	{face:00702}{spk:01}Doctor: "Don't worry, this time he'll be a kind, good boy. Emiko-san will teach him."{wait}	
+dlg:2528	text	rec:4755	149	{face:00702}{spk:01}博士「だいじょうぶさ、今度はやさしくて　いい子になる。{br}　エミコさんが教育してくれるからな」{wait}	{face:00702}{spk:01}Doctor: "Never fear, this time he'll grow into a kind, good boy. Emiko-san will raise him."{wait}	
 dlg:2529	text	rec:4756	149	{spk:04}エミコ「ええ―――{br}{face:30903}　行きましょう―――」{wait}	{spk:04}Emiko: "Yes-- {face:30903}Let's go--"{wait}	
 dlg:2530	text	rec:4761	149	{face:00503}{face:30601}{spk:01}アドルフ市長「そ、それで、ゲオルグ博士はたいほしたのか」{wait}	{face:00503}{face:30601}{spk:01}Mayor Adolf: "S-so, did you arrest Dr. Georg?"{wait}	
 dlg:2531	text	rec:4762	149	{face:30604}{spk:04}スミタ署長「は？　ばくげき機はついらくして海に沈んだのです。{br}　博士は骨も見つかっていません」{wait}	{face:30604}{spk:04}Chief Sumita: "Eh? The bomber crashed and sank into the sea. Not a bone of the Doctor has been found."{wait}	
@@ -528,4 +528,4 @@ dlg:2922	text	rec:5515	149	{face:02202}{spk:01}タック神父「エミコさん
 dlg:2923	text	rec:5521	149	{face:01402}{spk:01}ドメステカ「こんないなかによくいらっしゃいましたー」{wait}	{face:01402}{spk:01}Domesteka: "Welcome to our little country village!"{wait}	
 dlg:2924	text	rec:5523	149	{face:10012}{spk:02}ユウキ「ここは入口というより、出口だな」{wait}	{face:10012}{spk:02}Yuki: "This is less an entrance than an exit."{wait}	
 dlg:2925	text	rec:5525	149	{face:10012}{spk:02}ユウキ「ここらには・・・{br}　トカゲしかいない、にげよ；」{wait}	{face:10012}{spk:02}Yuki: "Around here... just lizards. Let's get out of here!"{wait}	
-dlg:2926	text	rec:5529	149	{face:00303}{spk:01}ブランク「やっぱり、{br}　メンテなしで次いくんですか；」{wait}	{face:00303}{spk:01}Blank: "So we're going on to the next one without maintenance after all?"{wait}	
+dlg:2926	text	rec:5529	149	{face:00303}{spk:01}ブランク「やっぱり、{br}　メンテなしで次いくんですか；」{wait}	{face:00303}{spk:01}Blank: "So we really are going on to the next one without maintenance...?"{wait}	

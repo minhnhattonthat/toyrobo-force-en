@@ -192,7 +192,7 @@ dlg:1552	text	rec:3038	149	パソコプ『クリスティ』を{br}　手に入�
 dlg:1553	text	rec:3042	149	　新しいかくれ家{wait}	The New Hideout{wait}	
 dlg:1554	text	rec:3043	149	{face:10801}{face:30901}{face:00702}{spk:01}ゲオルグ博士「やるな、あの子たち・・・{br}　なにか、からめ手でも使わなければいかんか」{wait}	{face:10801}{face:30901}{face:00702}{spk:01}Dr. Georg: "They're good, those youngsters... Seems I'll have to try a little cunning."{wait}	
 dlg:1555	text	rec:3044	149	{face:10802}{spk:02}リヒター「ブランクをねらおう、{br}　あいつが一番の敵さ。{br}　あいつさえいなきゃ、どうにでもなる」{wait}	{face:10802}{spk:02}Richter: "Let's go after Blank. He's our biggest enemy. Without him, we can do anything."{wait}	
-dlg:1556	text	rec:3045	149	{spk:01}博士「いやいや、軍隊でもトカゲでも頭をつぶさにゃいかん。{br}　あのユウキって子こそ敵じゃ。{wait}	{spk:01}Doctor: "No, no. Army or lizard, ya must crush the head. That Yuki lad is our real enemy.{wait}	
+dlg:1556	text	rec:3045	149	{spk:01}博士「いやいや、軍隊でもトカゲでも頭をつぶさにゃいかん。{br}　あのユウキって子こそ敵じゃ。{wait}	{spk:01}Doctor: "No, no. Army or lizard, you must crush the head. That Yuki lad is our real enemy.{wait}	
 dlg:1557	text	rec:3046	149	{spk:01}　『将を射んと欲すれば馬を射よ』―――{br}　あの子の馬はだれじゃ」{wait}	{spk:01}'To shoot the general, first shoot his horse'-- Now, who's that lad's horse?"{wait}	
 dlg:1558	text	rec:3047	149	{spk:02}リヒター「ブランクだろ」{wait}	{spk:02}Richter: "Blank, right?"{wait}	
 dlg:1559	text	rec:3048	149	{spk:01}博士「あのトイロボは刀じゃ。{br}　へたにふれんほうがいい・・・{br}{face:00703}　となれば―――」{wait}	{spk:01}Doctor: "That Toyrobo is his sword. Best not meddle with it... {face:00703}Which leaves--"{wait}	

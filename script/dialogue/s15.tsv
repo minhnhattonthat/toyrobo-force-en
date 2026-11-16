@@ -184,7 +184,7 @@ dlg:1751	text	rec:3401	149	{face:20003}{spk:15}ユウキ「ちがうんだ、ト
 dlg:1752	text	rec:3404	149	{face:10001}{face:30202}{spk:04}ギリガン「ちがうってんなら、本当のとこはどうなんだ」{wait}	{face:10001}{face:30202}{spk:04}Gilligan: "If not, then what's the real answer?"{wait}	
 dlg:1753	text	rec:3416	149	{face:00301}{face:30201}{face:10009}{spk:02}ユウキ「出撃じゅんび、いいかい」{wait}	{face:00301}{face:30201}{face:10009}{spk:02}Yuki: "Ready to sortie?"{wait}	
 dlg:1754	text	rec:3417	149	{face:30210}{spk:04}ギリガン「おいっ、ブランク、今日からおれが管制してやるからな！」{wait}	{face:30210}{spk:04}Gilligan: "Hey, Blank, from today I'm your controller!"{wait}	
-dlg:1755	text	rec:3418	149	{face:00303}{spk:01}ブランク「はあ、お手やわらかに・・・」{wait}	{face:00303}{spk:01}Blank: "Er, go easy on me..."{wait}	
+dlg:1755	text	rec:3418	149	{face:00303}{spk:01}ブランク「はあ、お手やわらかに・・・」{wait}	{face:00303}{spk:01}Blank: "Er, p-please go easy on me..."{wait}	
 dlg:1756	text	rec:3421	149	{face:30210}{spk:04}ギリガン「ユウキ、行き先はブリオッシュ山だったな。{br}　なるほど、ロビン・フッドってな、{br}　山ぞくだったからな！」{wait}	{face:30210}{spk:04}Gilligan: "Yuki, we're headed for Mount Brioche, right? Makes sense, Robin Hood was a mountain bandit!"{wait}	
 dlg:1757	text	rec:3422	149	{face:10010}{spk:02}ユウキ「え？　ちがうよ、ロビン・フッドは山ぞくじゃなくて・・・」{wait}	{face:10010}{spk:02}Yuki: "Huh? No, Robin Hood wasn't a mountain bandit..."{wait}	
 dlg:1758	text	rec:3423	149	{spk:04}ギリガン「山ぞくでないなら海ぞくか？{br}　なんで山ってことになった」{wait}	{spk:04}Gilligan: "If not a mountain bandit, a pirate? Then why the mountains?"{wait}	
@@ -195,7 +195,7 @@ dlg:1762	text	rec:3438	149	{face:00301}{face:10001}{face:30210}{spk:04}ギリガ
 dlg:1763	text	rec:3439	149	{face:10010}{spk:02}ユウキ「行け、ブランク！」{wait}	{face:10010}{spk:02}Yuki: "Go, Blank!"{wait}	
 dlg:1764	text	rec:3440	149	{face:00302}{spk:01}ブランク「コンファー！」{wait}	{face:00302}{spk:01}Blank: "Confirm!"{wait}	
 dlg:1765	text	rec:3443	149	{face:10001}{face:30201}{face:00303}{spk:01}ブランク「あのー、ポリジェンヌなんていませんでしたけど・・・」{wait}	{face:10001}{face:30201}{face:00303}{spk:01}Blank: "Um, there weren't any Polijenne..."{wait}	
-dlg:1766	text	rec:3444	149	{face:30203}{spk:04}ギリガン「敵がいなくちゃ、{br}　海ぞくロビン・フッド様もかたなしだ」{wait}	{face:30203}{spk:04}Gilligan: "With no enemies, the great pirate Robin Hood looks pretty silly."{wait}	
+dlg:1766	text	rec:3444	149	{face:30203}{spk:04}ギリガン「敵がいなくちゃ、{br}　海ぞくロビン・フッド様もかたなしだ」{wait}	{face:30203}{spk:04}Gilligan: "With no enemies, the great pirate Robin Hood looks pretty silly."{wait}	no honorific: 様 here is mock grandeur, carried by "the great"
 dlg:1767	text	rec:3445	149	{face:10012}{spk:02}ユウキ「え？　ロビン・フッドは海ぞくじゃないよ」{wait}	{face:10012}{spk:02}Yuki: "Huh? Robin Hood wasn't a pirate."{wait}	
 dlg:1768	text	rec:3446	149	{face:30206}{spk:04}ギリガン「なんだと。{br}　じゃあ、なんで海ってことになった」{wait}	{face:30206}{spk:04}Gilligan: "What? Then why the sea?"{wait}	
 dlg:1769	text	rec:3447	149	{face:10003}{spk:14}ユウキ「・・・まちがえた；　本当は」{wait}	{face:10003}{spk:14}Yuki: "...I got it wrong. Actually..."{wait}	

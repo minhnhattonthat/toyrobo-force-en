@@ -155,7 +155,7 @@ dlg:0343	text	rec:606	149	{spk:03}機械の顔のリヒター「うん、かま�
 dlg:0344	text	rec:607	149	{spk:03}　みのしろ金は取れなかったよ、市長が出ししぶったみたいだ」{wait}	{spk:03}We didn't get the ransom, though. Looks like the Mayor was too stingy."{wait}	
 dlg:0345	text	rec:608	149	{spk:02}博士「ち。これだから政治家というやつは」{wait}	{spk:02}Doctor: "Tch. That's politicians for you."{wait}	
 dlg:0346	text	rec:609	149	{spk:03}リヒター「それより見てよ、ほら―――{br}　あの保母さん、やくそくどおりきてくれるみたいだよ」{wait}	{spk:03}Richter: "Never mind that, look-- That teacher seems to be coming, just like she promised."{wait}	
-dlg:0347	text	rec:610	149	{face:10703}{spk:02}博士「ああ、お茶を入れたりそうじをしたりしてくれるんじゃろ。{br}　ありがたいな」{wait}	{face:10703}{spk:02}Doctor: "Ah, she'll make tea and clean for us, I expect. How kind."{wait}	
+dlg:0347	text	rec:610	149	{face:10703}{spk:02}博士「ああ、お茶を入れたりそうじをしたりしてくれるんじゃろ。{br}　ありがたいな」{wait}	{face:10703}{spk:02}Doctor: "Ah, she'll make our tea and tidy up for us, I daresay. How very kind."{wait}	
 dlg:0348	text	rec:611	149	{spk:03}リヒター「かわいいな―――{br}{face:20802}　ねえ、ぼくの恋人にしちゃだめかい」{wait}	{spk:03}Richter: "She's cute--{br}{face:20802}Hey, can't I make her my girlfriend?"{wait}	
 dlg:0349	text	rec:612	149	{face:10702}{spk:02}博士「お前は病気で機械の体になってしまっただけで、人間なんじゃぞ。{br}　ロボットを恋人にしてどうする」{wait}	{face:10702}{spk:02}Doctor: "Illness gave you a machine body, but you're still human, lad! Why take a robot for a sweetheart?"{wait}	
 dlg:0350	text	rec:613	149	{face:20803}{spk:03}リヒター「ちぇ、かわいいのに。{br}　やさしそうだしさ―――」{wait}	{face:20803}{spk:03}Richter: "Aw, but she's cute. And she looks so kind--"{wait}	

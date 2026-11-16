@@ -38,7 +38,7 @@ dlg:0120	text	rec:178	149	　初めての実習に出ることを、署長に報
 dlg:0121	text	rec:184	149	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}ポイヤック教官「日誌はこまめに書くようにしなさい。{br}　書きわすれてこまるのは自分ですよ」{wait}	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}Instructor Pauillac: "Write in your log often. If you forget, you're the one who suffers."{wait}	
 dlg:0122	text	rec:185	149	{face:30303}{spk:04}ブランク「あのー、日誌ってなんですか？」{wait}	{face:30303}{spk:04}Blank: "Um, what's a log?"{wait}	
 dlg:0123	text	rec:186	149	{face:20115}{spk:03}トモミ「セーブデータのことよ。{br}　よい子は取り説をちゃんと読むっ」{wait}	{face:20115}{spk:03}Tomomi: "It means save data.{br}Good kids read the manual!"{wait}	
-dlg:0124	text	rec:187	149	{face:30301}ブランク「すみませんっ；」{wait}	{face:30301}Blank: "Sorry!"{wait}	
+dlg:0124	text	rec:187	149	{face:30301}ブランク「すみませんっ；」{wait}	{face:30301}Blank: "S-sorry!"{wait}	
 dlg:0125	text	rec:188	149	{face:20101}{spk:01}教官「日誌を書くには、右下にボタンのマークが出ている時に、スタートボタンを押せばいいのです。	{face:20101}{spk:01}Instructor: "To write your log, press START when the button mark is shown at the bottom right.	
 dlg:0126	text	rec:189	149	　さっそく押してみなさい」{wait}	Go ahead and press it now."{wait}	
 dlg:0127	text	rec:191	149	{face:00402}{spk:01}ポイヤック教官「メンテがすんだらゲートへ向かいなさい。{br}　日誌はつけましたね？」{wait}	{face:00402}{spk:01}Instructor Pauillac: "When maintenance is done, head for the gate. You wrote in your log, yes?"{wait}	
@@ -56,7 +56,7 @@ dlg:0138	text	rec:213	149	{spk:01}　わたしはていねん後のたいしょ�
 dlg:0139	text	rec:216	149	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}ポイヤック教官「出撃前には、日誌を書くように。{br}　書きわすれてこまるのは自分ですよ」{wait}	{face:00402}{face:10001}{face:20101}{face:30301}{spk:01}Instructor Pauillac: "Write your log before you sortie. If you forget, you're the one who suffers."{wait}	
 dlg:0140	text	rec:217	149	{face:30303}{spk:04}ブランク「あのー、日誌ってなんですか？」{wait}	{face:30303}{spk:04}Blank: "Um, what's a log?"{wait}	
 dlg:0141	text	rec:218	149	{face:20115}{spk:03}トモミ「セーブデータのことよ。{br}　よい子は取り説をちゃんと読むっ」{wait}	{face:20115}{spk:03}Tomomi: "It means save data.{br}Good kids read the manual!"{wait}	
-dlg:0142	text	rec:219	149	{face:30301}{spk:04}ブランク「すみませんっ；」{wait}	{face:30301}{spk:04}Blank: "Sorry!"{wait}	
+dlg:0142	text	rec:219	149	{face:30301}{spk:04}ブランク「すみませんっ；」{wait}	{face:30301}{spk:04}Blank: "S-sorry!"{wait}	
 dlg:0143	text	rec:220	149	{face:20101}{spk:01}教官「日誌を書くには、右下にボタンのマークが出ている時に、スタートボタンを押せばいいのです。	{face:20101}{spk:01}Instructor: "To write your log, press START when the button mark is shown at the bottom right.	
 dlg:0144	text	rec:221	149	　さっそく押してみなさい」{wait}	Go ahead and press it now."{wait}	
 dlg:0145	text	rec:223	149	{face:00402}{face:10001}{face:20101}{face:30201}{spk:01}ポイヤック「工場でブランク訓練生のメンテはすませましたね？{br}　なら出発しなさい」{wait}	{face:00402}{face:10001}{face:20101}{face:30201}{spk:01}Pauillac: "You've done Cadet Blank's maintenance at the factory? Then set off."{wait}	

@@ -253,11 +253,11 @@ dlg:2217	text	rec:4282	149	{face:20201}{face:10107}{spk:02}トモミ「うわー
 dlg:2218	text	rec:4283	149	{face:00004}{spk:01}ユウキ「トモミも言われてみたい？」{wait}	{face:00004}{spk:01}Yuki: "Wish someone said it to you, Tomomi?"{wait}	
 dlg:2219	text	rec:4284	149	{face:10106}{spk:02}トモミ「言われちゃたまらん、{br}　って言ってんのよ；」{wait}	{face:10106}{spk:02}Tomomi: "I meant it'd be too much to bear!"{wait}	
 dlg:2220	text	rec:4288	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
-dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}	{face:10801}{face:00702}{spk:01}Doctor: "Richter. Aren't you lonely without Emiko-san by your side?"{wait}	
+dlg:2221	text	rec:4289	149	{face:10801}{face:00702}{spk:01}博士「リヒター。さびしくはないかね。{br}　エミコさんがそばにいなくて」{wait}	{face:10801}{face:00702}{spk:01}Doctor: "Richter, my boy. Aren't you lonely without Emiko-san by your side?"{wait}	
 dlg:2222	text	rec:4290	149	{face:10803}{spk:02}リヒター「・・・べつに。{br}　こうしていればエミコさんと一心同体だ、平気だよ・・・」{wait}	{face:10803}{spk:02}Richter: "...Not really. This way Emiko-san and I are one, body and soul. I'm fine..."{wait}	
 dlg:2223	text	rec:4291	149	{spk:01}博士「強がっておるな。しっともしとる。{br}　エミコさんは本気であのギリガンという警官を」{wait}	{spk:01}Doctor: "Putting on a brave face, eh, lad? Jealous, too. Emiko-san truly cares for that policeman Gilligan."{wait}	
 dlg:2224	text	rec:4292	149	{spk:02}リヒター「しばいだよ！{br}　ずっとやつらといるためのしばいさ、{br}　エミコさんはぼくの恋人だからね！」{wait}	{spk:02}Richter: "It's an act! An act so she can stay with them! Emiko-san is MY sweetheart!"{wait}	
-dlg:2225	text	rec:4293	149	{spk:01}博士「やれやれ・・・」{wait}	{spk:01}Doctor: "Oh, dear..."{wait}	
+dlg:2225	text	rec:4293	149	{spk:01}博士「やれやれ・・・」{wait}	{spk:01}Doctor: "Dear, dear..."{wait}	
 dlg:2226	text	rec:4300	149	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}ドメステカ「こんな田舎によくいらっしゃいました」{wait}	{face:10001}{face:20201}{face:30901}{face:01402}{spk:01}Domesteka: "Welcome to our little country village."{wait}	
 dlg:2227	text	rec:4301	149	{face:10012}{spk:02}ユウキ「村の人は？{br}　村長がいるなら、話をしたいんだけど」{wait}	{face:10012}{spk:02}Yuki: "Where is everyone? If there's a village chief, I'd like a word."{wait}	
 dlg:2228	text	rec:4302	149	{spk:01}ドメステカ「みんな、にげちゃいました。{br}　火山の洞窟に、こわい飛行機が出入りしているからって」{wait}	{spk:01}Domesteka: "They all ran off. Scary planes keep flying in and out of the volcano's cave."{wait}	

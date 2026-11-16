@@ -23,7 +23,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Voices: Yuki (lead cadet, upbeat, quick); Tomomi (sensible, sharp-tongued cadet); Gilligan (big, brash,
   food-minded cadet, casual "ya", "gonna"); Blank (courteous, hesitant, literal Toyrobo; stutters "Y-yes!");
   Pauillac (fussy polite instructor); Chief Sumita (gruff boss); Polisteka / Teka robots (stiff, literal, formal);
-  Dr. Georg (old-man わし/じゃ/のう register: "lad", "my boy", "eh?", "I tell you", "don't ya know").
+  Dr. Georg (elderly わし/じゃ/のう register in restrained old-fashioned English: "You'd best...", "eh?",
+  "my boy" now and then, chuckles "Heh heh heh"; no regional accent, no "ya"; D10).
   Full voice table and examples: `docs/style-reference.md`; plot and reveals: `docs/synopsis.md`.
 
 ## Characters

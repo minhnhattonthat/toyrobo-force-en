@@ -1,26 +1,26 @@
 id	kind	where	max	jp	en	notes
 dlg:2310	text	rec:4467	149	　かくし研究室{wait}	The Hidden Laboratory{wait}	
 dlg:2311	text	rec:4468	149	{face:10701}{face:20803}{spk:03}リヒター「にげた・・・{br}　にがしちゃったよ！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "They got away... We let them get away!"{wait}	
-dlg:2312	text	rec:4469	149	{face:10702}{face:20801}{spk:02}ゲオルグ博士「まいった・・・{br}　あそこまで強いチームに仕立てておったとは」{wait}	{face:10702}{face:20801}{spk:02}Dr. Georg: "I'm beaten... I never knew they'd built such a strong team."{wait}	
+dlg:2312	text	rec:4469	149	{face:10702}{face:20801}{spk:02}ゲオルグ博士「まいった・・・{br}　あそこまで強いチームに仕立てておったとは」{wait}	{face:10702}{face:20801}{spk:02}Dr. Georg: "I'm beaten... I never dreamed they'd built so strong a team."{wait}	
 dlg:2313	text	rec:4470	149	{face:10701}{face:20803}{spk:03}リヒター「これじゃ、エミコさんのえがおをガマンしてまで仕組んだ意味が、ないじゃないか！」{wait}	{face:10701}{face:20803}{spk:03}Richter: "Then what was the point? I even gave up Emiko-san's smile for this!"{wait}	
-dlg:2314	text	rec:4471	149	{face:10702}{face:20801}{spk:02}博士「そうじゃなあ。{br}　エミコさんにも悪いことをしたし。{br}　ここらがしおどきかな」{wait}	{face:10702}{face:20801}{spk:02}Doctor: "Indeed. And I've wronged Emiko-san too. Perhaps it's time to call it quits."{wait}	
+dlg:2314	text	rec:4471	149	{face:10702}{face:20801}{spk:02}博士「そうじゃなあ。{br}　エミコさんにも悪いことをしたし。{br}　ここらがしおどきかな」{wait}	{face:10702}{face:20801}{spk:02}Doctor: "Yes, well. I've wronged Emiko-san too. Perhaps it's time I called it quits."{wait}	
 dlg:2315	text	rec:4472	149	{face:10701}{face:20803}{spk:03}リヒター「？！　あきらめる気？」{wait}	{face:10701}{face:20803}{spk:03}Richter: "?! You're giving up?"{wait}	
-dlg:2316	text	rec:4473	149	{face:10702}{face:20801}{spk:02}博士「わしは、人間にテカを見なおさせたかっただけじゃ。{wait}	{face:10702}{face:20801}{spk:02}Doctor: "All I wanted was for humans to see Teka in a new light.{wait}	
-dlg:2317	text	rec:4474	149	{spk:02}　あの子らを見ろ。{br}　テカといっしょに、りっぱに戦いおる。{wait}	{spk:02}Look at those youngsters. They fight bravely side by side with Teka.{wait}	
+dlg:2316	text	rec:4473	149	{face:10702}{face:20801}{spk:02}博士「わしは、人間にテカを見なおさせたかっただけじゃ。{wait}	{face:10702}{face:20801}{spk:02}Doctor: "All I ever wanted was for humans to see Teka in a new light.{wait}	
+dlg:2317	text	rec:4474	149	{spk:02}　あの子らを見ろ。{br}　テカといっしょに、りっぱに戦いおる。{wait}	{spk:02}Look at those youngsters. See how bravely they fight side by side with Teka.{wait}	
 dlg:2318	text	rec:4475	149	{spk:02}　これで反乱をおえればやつらは英雄だが、　手がらを人間たちで一人じめにはせんよ。{wait}	{spk:02}If they end the revolt now, they're heroes, but they won't keep the glory for humans alone.{wait}	
-dlg:2319	text	rec:4476	149	{face:10703}{spk:02}　きっと、世界じゅうに、テカといっしょに戦って、テカといっしょに勝ったんだと、{br}言ってくれるじゃろう。	{face:10703}{spk:02}Surely they'll tell the whole world: we fought together with Teka, and won together with Teka.	
+dlg:2319	text	rec:4476	149	{face:10703}{spk:02}　きっと、世界じゅうに、テカといっしょに戦って、テカといっしょに勝ったんだと、{br}言ってくれるじゃろう。	{face:10703}{spk:02}Mark my words, they'll tell the whole world: we fought together with Teka, and won together with Teka.	
 dlg:2320	text	rec:4477	149	{face:10706}　わしのもくてきは、はたされる・・・」{wait}	{face:10706}My goal will be achieved..."{wait}	
 dlg:2321	text	rec:4478	149	{face:20803}{spk:03}リヒター「だめだよっ、だめだ！{br}　あいつらに勝つまでぼくはやめないよ！」{wait}	{face:20803}{spk:03}Richter: "No! No way! I won't stop until I beat them!"{wait}	
-dlg:2322	text	rec:4479	149	{face:10705}{spk:02}博士「もうおやめ。{br}　勝つためにやっていたんじゃない。{wait}	{face:10705}{spk:02}Doctor: "Stop this now. We were never doing this to win.{wait}	
-dlg:2323	text	rec:4480	149	{spk:02}　こうふくして、いっしょにエミコさんに会いに行こう。{br}　な」{wait}	{spk:02}Let's surrender, and go and see Emiko-san together. All right?"{wait}	
+dlg:2322	text	rec:4479	149	{face:10705}{spk:02}博士「もうおやめ。{br}　勝つためにやっていたんじゃない。{wait}	{face:10705}{spk:02}Doctor: "Enough now. We were never doing this to win.{wait}	
+dlg:2323	text	rec:4480	149	{spk:02}　こうふくして、いっしょにエミコさんに会いに行こう。{br}　な」{wait}	{spk:02}Let's give ourselves up, and go and see Emiko-san together. Eh?"{wait}	
 dlg:2324	text	rec:4481	149	{face:20802}{spk:03}リヒター「例の船を使うよ、{br}　あいつらみんなやっつけてやる！」{wait}	{face:20802}{spk:03}Richter: "I'm using that ship. I'll wipe them all out!"{wait}	
-dlg:2325	text	rec:4482	149	{face:10704}{spk:02}博士「わしの言うことが聞けんか、{br}　リヒター？！」{wait}	{face:10704}{spk:02}Doctor: "Won't you listen to me, Richter?!"{wait}	
+dlg:2325	text	rec:4482	149	{face:10704}{spk:02}博士「わしの言うことが聞けんか、{br}　リヒター？！」{wait}	{face:10704}{spk:02}Doctor: "Won't you heed me, Richter?!"{wait}	
 dlg:2326	text	rec:4483	149	{spk:03}リヒター「ああ、あいつ、ギリガンだけは、　ぜったいやっつけてやるんだ！」{wait}	{spk:03}Richter: "Yeah, that guy, Gilligan... I'm going to beat HIM no matter what!"{wait}	
-dlg:2327	text	rec:4484	149	{spk:02}博士「それはただのしっとじゃ、{br}　恋がたきをにくむより、{br}　エミコさんに好かれるどりょくをせい！」{wait}	{spk:02}Doctor: "That's just jealousy! Rather than hate your rival in love, try to make Emiko-san like you!"{wait}	
+dlg:2327	text	rec:4484	149	{spk:02}博士「それはただのしっとじゃ、{br}　恋がたきをにくむより、{br}　エミコさんに好かれるどりょくをせい！」{wait}	{spk:02}Doctor: "That's mere jealousy! Instead of hating your rival in love, work at winning Emiko-san's heart!"{wait}	
 dlg:2328	text	rec:4485	149	{face:20803}{spk:03}リヒター「博士、１分だけ時間をあげる。	{face:20803}{spk:03}Richter: "Doctor, I'll give you one minute.	
 dlg:2329	text	rec:4486	149	　ぼくの前から消えるか、{br}　だまってぼくといっしょにやるか、{br}　決めるんだよ・・・！」{wait}	Vanish from my sight, or keep quiet and work with me. Choose...!"{wait}	
 dlg:2330	text	rec:4487	149	{spk:02}博士「―――もう、お前とはいっしょにやれん。	{spk:02}Doctor: "--I can't work with you any longer.	
-dlg:2331	text	rec:4488	149	　消えさせてもらおう・・・！」{wait}	I'll take my leave...!"{wait}	
+dlg:2331	text	rec:4488	149	　消えさせてもらおう・・・！」{wait}	I'll take my leave of you...!"{wait}	
 dlg:2332	text	rec:4489	149	{face:10701}{face:10700}{spk:03}リヒター「・・・」{wait}	{face:10701}{face:10700}{spk:03}Richter: "..."{wait}	
 dlg:2333	text	rec:4496	149	{face:00906}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「博士はあなたに、{br}　わざといやな話をして、{br}　にげたくなるようにしむけたんです。{wait}	{face:00906}{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "The Doctor told you nasty things on purpose, so you'd want to run away.{wait}	
 dlg:2334	text	rec:4497	149	{spk:02}　それに―――{br}　博士にどこか、かいぞうされたでしょう。{br}　たとえば、目。{br}　アイカメラを取りかえてませんか」{wait}	{spk:02}And-- the Doctor modified something in you, didn't he? Your eyes, say. Did he swap your eye cameras?"{wait}	
@@ -71,18 +71,18 @@ dlg:2378	text	rec:4559	149	{spk:02}リヒター「エミコさん・・・！{br
 dlg:2379	text	rec:4563	149	　シャーウッドの森の教会{wait}	Sherwood Forest Church{wait}	
 dlg:2380	text	rec:4564	149	{face:00706}{spk:09}ゲオルグ博士「・・・」{wait}	{face:00706}{spk:09}Dr. Georg: "..."{wait}	
 dlg:2381	text	rec:4565	149	{face:32202}{spk:16}神父「どうされました」{wait}	{face:32202}{spk:16}Father: "What is the matter?"{wait}	
-dlg:2382	text	rec:4566	149	{face:00705}{spk:09}博士「ああ・・・{br}　さいごのおいのりを、させてもらおうと思ってな」{wait}	{face:00705}{spk:09}Doctor: "Ah... I thought I'd say one last prayer."{wait}	
+dlg:2382	text	rec:4566	149	{face:00705}{spk:09}博士「ああ・・・{br}　さいごのおいのりを、させてもらおうと思ってな」{wait}	{face:00705}{spk:09}Doctor: "Ah... I thought I'd offer one last prayer."{wait}	
 dlg:2383	text	rec:4567	149	{spk:16}神父「さいごの・・・{br}　もしや、あなたはエミコさんの―――？」{wait}	{spk:16}Father: "One last... Could you be Emiko-san's--?"{wait}	
-dlg:2384	text	rec:4568	149	{face:00706}{spk:09}博士「エミコさんにも悪いことをした。{br}　どれ、ザンゲさせていただこう。{br}　自分のしまつはそのあとじゃ」{wait}	{face:00706}{spk:09}Doctor: "I've wronged Emiko-san too. Let me make my confession. I'll deal with myself after that."{wait}	
+dlg:2384	text	rec:4568	149	{face:00706}{spk:09}博士「エミコさんにも悪いことをした。{br}　どれ、ザンゲさせていただこう。{br}　自分のしまつはそのあとじゃ」{wait}	{face:00706}{spk:09}Doctor: "I've wronged Emiko-san too. Well, let me make my confession. I'll settle my own account after that."{wait}	
 dlg:2385	text	rec:4569	149	{spk:16}神父「ざんげの前に、{br}　することがありませんか」{wait}	{spk:16}Father: "Before your confession, isn't there something you must do?"{wait}	
-dlg:2386	text	rec:4570	149	{spk:09}博士「わしにはもうなにもない。{br}　消えたところでだれも悲しまん。{br}　てんがいこどくの身でな」{wait}	{spk:09}Doctor: "I have nothing left. No one will grieve if I vanish. I'm all alone in the world."{wait}	
+dlg:2386	text	rec:4570	149	{spk:09}博士「わしにはもうなにもない。{br}　消えたところでだれも悲しまん。{br}　てんがいこどくの身でな」{wait}	{spk:09}Doctor: "I've nothing left. No one would grieve if I vanished. I'm all alone in the world, you see."{wait}	
 dlg:2387	text	rec:4571	149	{spk:16}神父「心のこりがあるごようす―――{br}　そのまま人生からにげては、{br}えいえんに『くい』がのこります」{wait}	{spk:16}Father: "You seem to have unfinished business-- If you run from life like this, you will regret it forever."{wait}	
-dlg:2388	text	rec:4572	149	{spk:09}博士「―――うん。{br}　孫がな。{br}　このままにしておけんかな、と・・・」{wait}	{spk:09}Doctor: "--Yes. My grandson. I wonder if I can leave him as he is..."{wait}	
+dlg:2388	text	rec:4572	149	{spk:09}博士「―――うん。{br}　孫がな。{br}　このままにしておけんかな、と・・・」{wait}	{spk:09}Doctor: "--Yes. My grandson. I wonder whether I can leave him be..."{wait}	
 dlg:2389	text	rec:4573	149	{spk:16}神父「お孫さんのためにも、{br}　生きてみようと思いませんか―――？」{wait}	{spk:16}Father: "Won't you try to live on, for your grandson's sake--?"{wait}	
-dlg:2390	text	rec:4574	149	{face:00706}{spk:09}博士「・・・お前さん、わかっとらん。{wait}	{face:00706}{spk:09}Doctor: "...You don't understand.{wait}	
+dlg:2390	text	rec:4574	149	{face:00706}{spk:09}博士「・・・お前さん、わかっとらん。{wait}	{face:00706}{spk:09}Doctor: "...Ah, you don't understand.{wait}	
 dlg:2391	text	rec:4575	149	{face:00702}{spk:09}　わしが気にしとるのは、{br}　孫を生かしておいていいのか、{br}ということじゃ」{wait}	{face:00702}{spk:09}What troubles me is whether I should let my grandson live at all."{wait}	
 dlg:2392	text	rec:4576	149	{spk:16}神父「なんですって？」{wait}	{spk:16}Father: "What did you say?"{wait}	
-dlg:2393	text	rec:4577	149	{spk:09}博士「生かしておいたら、おおぜいの人が死ぬ。{br}　そうじゃな、にげるのはやめにしよう。{wait}	{spk:09}Doctor: "If he lives, many people will die. Yes, I'll stop running away.{wait}	
-dlg:2394	text	rec:4578	149	{spk:09}　リヒターのしまつはつけんといかん―――{br}　ありがとう神父さん、わしゃ行くよ」{wait}	{spk:09}I must settle things with Richter-- Thank you, Father. I'll be going."{wait}	
+dlg:2393	text	rec:4577	149	{spk:09}博士「生かしておいたら、おおぜいの人が死ぬ。{br}　そうじゃな、にげるのはやめにしよう。{wait}	{spk:09}Doctor: "If he lives, a great many people will die. Yes, I'll run no longer.{wait}	
+dlg:2394	text	rec:4578	149	{spk:09}　リヒターのしまつはつけんといかん―――{br}　ありがとう神父さん、わしゃ行くよ」{wait}	{spk:09}I must settle things with Richter-- Thank you, Father. I'll be off now."{wait}	
 dlg:2395	text	rec:4579	149	{spk:16}神父「お孫さんを―――？！{br}　どうするつもりですか！」{wait}	{spk:16}Father: "Your grandson--?! What are you going to do?!"{wait}	
-dlg:2396	text	rec:4580	149	{face:00703}{spk:09}博士「安心せい。{br}　どうもせんよ―――」{wait}	{face:00703}{spk:09}Doctor: "Never fear. I'll do nothing to him--"{wait}	
+dlg:2396	text	rec:4580	149	{face:00703}{spk:09}博士「安心せい。{br}　どうもせんよ―――」{wait}	{face:00703}{spk:09}Doctor: "Never you fear. I'll do nothing to him--"{wait}	

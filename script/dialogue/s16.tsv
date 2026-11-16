@@ -10,11 +10,11 @@ dlg:1802	text	rec:3510	149	{face:10012}{spk:02}ユウキ「どうかな。かた
 dlg:1803	text	rec:3511	149	{face:10004}{spk:02}　さあ、おもしろいテレビがはじまるよ。{br}『ようきなゲオルグショー』だ」{wait}	{face:10004}{spk:02}Now, an interesting TV show is starting. 'The Jolly Georg Show'."{wait}	
 dlg:1804	text	rec:3512	149	{face:30205}{spk:04}ギリガン「何をのんきなことを―――{br}{face:30202}　ゲオルグ？　また電波ジャックか？」{wait}	{face:30205}{spk:04}Gilligan: "What are ya so relaxed for--{face:30202} Georg? Another broadcast hijack?"{wait}	
 dlg:1805	text	rec:3514	149	{face:30000}{face:12102}{spk:02}ゲオルグ博士「マーマレードのしょくん！」{wait}	{face:30000}{face:12102}{spk:02}Dr. Georg: "People of Marmalade!"{wait}	
-dlg:1806	text	rec:3515	149	{spk:02}博士「わしは、『天才』ゲオルグ博士じゃ。{br}　ごぞんじかな？{wait}	{spk:02}Doctor: "I am the 'genius' Dr. Georg, don't ya know. Heard of me?{wait}	
+dlg:1806	text	rec:3515	149	{spk:02}博士「わしは、『天才』ゲオルグ博士じゃ。{br}　ごぞんじかな？{wait}	{spk:02}Doctor: "I am the 'genius' Dr. Georg. Perhaps you've heard of me?{wait}	
 dlg:1807	text	rec:3516	149	{spk:02}　ごぞんじない方に、お教えしよう。{br}　わしは、{br}　世界せいふくをたくらんでおる！」{wait}	{spk:02}For those who haven't, allow me to explain. I, my friends, am plotting to conquer the world!"{wait}	
 dlg:1808	text	rec:3517	149	{face:10012}{face:30205}{spk:04}ギリガン「本気か、このじいさん」{wait}	{face:10012}{face:30205}{spk:04}Gilligan: "Is this old geezer serious?"{wait}	
 dlg:1809	text	rec:3518	149	{face:10005}{spk:02}ユウキ「ジョークさ。{br}　一度言ってみたかったんだろ」{wait}	{face:10005}{spk:02}Yuki: "It's a joke. He just always wanted to say it once."{wait}	
-dlg:1810	text	rec:3519	149	{face:30000}{face:12102}{spk:02}博士「テカを使って、人間どもをしずかにさせようとしておるところだ。{br}　市民かくめいなど、もってのほか！{wait}	{face:30000}{face:12102}{spk:02}Doctor: "I'm using Teka to keep you humans quiet. A citizens' revolution is out of the question!{wait}	
+dlg:1810	text	rec:3519	149	{face:30000}{face:12102}{spk:02}博士「テカを使って、人間どもをしずかにさせようとしておるところだ。{br}　市民かくめいなど、もってのほか！{wait}	{face:30000}{face:12102}{spk:02}Doctor: "I am using Teka to keep you humans quiet. A citizens' revolution? Out of the question!{wait}	
 dlg:1811	text	rec:3520	149	{spk:02}　おとなしくしていたまえ、とくにアプリコットの警官しょくんはな―――{br}　ひゃっひゃっひゃ」{wait}	{spk:02}Behave yourselves, especially you gentlemen of the Apricot police-- Hya hya hya."{wait}	
 dlg:1812	text	rec:3521	149	{face:10012}{face:30206}{spk:04}ギリガン「また俺たちのじゃまをする気か；　{face:30207}こいつのい場所は分からねえのかっ」{wait}	{face:10012}{face:30206}{spk:04}Gilligan: "Getting in our way again?{face:30207} Don't we know where this guy is?"{wait}	
 dlg:1813	text	rec:3523	149	{face:10002}{spk:02}ユウキ「気が付いたんだけど―――{br}　後ろにうつっていた金魚バチの水面。{br}　ゆれていたんだ。ゆっくりと」{wait}	{face:10002}{spk:02}Yuki: "I noticed something-- The water in the goldfish bowl behind him. It was swaying. Slowly."{wait}	
@@ -109,10 +109,10 @@ dlg:1901	text	rec:3669	149	{spk:02}ユウキ「彼女の目から僕たちを見
 dlg:1902	text	rec:3670	149	{spk:01}博士「身勝手なのは、死んだ市長じゃ！」{wait}	{spk:01}Doctor: "The selfish one was the late Mayor, I tell you!"{wait}	
 dlg:1903	text	rec:3671	149	{face:30205}{spk:04}ギリガン「げ・・・{br}　秘書テカが、じいさんの声でしゃべってやがる・・・」{wait}	{face:30205}{spk:04}Gilligan: "Yikes... The secretary Teka's talking in the old geezer's voice..."{wait}	
 dlg:1904	text	rec:3672	149	{spk:01}博士「死の病にとりつかれたと知った時、　市長は何をしようとしたと思う。{br}ジェーンの体を乗っ取ろうとしたんじゃぞ！{wait}	{spk:01}Doctor: "She learned she had a fatal illness, and what do you suppose the Mayor tried? To steal Jane's body!{wait}	
-dlg:1905	text	rec:3673	149	{spk:01}　ジェーンの記憶を消して、自分の記憶を埋め込んでくれと、頼みにきおったのだ。{br}　テカは人間の身代わりではないわい！{wait}	{spk:01}She came begging me to erase Jane's memory and implant her own. Teka are no mere stand-ins for humans, I tell you!{wait}	
+dlg:1905	text	rec:3673	149	{spk:01}　ジェーンの記憶を消して、自分の記憶を埋め込んでくれと、頼みにきおったのだ。{br}　テカは人間の身代わりではないわい！{wait}	{spk:01}She came begging me to erase Jane's memory and implant her own. Teka are no mere stand-ins for humans!{wait}	
 dlg:1906	text	rec:3674	149	{spk:01}　わしは、そんな人間の愚かさを・・・」{wait}	{spk:01}As for such human folly, I..."{wait}	
 dlg:1907	text	rec:3675	149	{spk:02}ユウキ「お話はあとでうかがいます。{br}　あなたをタイホしたら、ゆっくりとね！」{wait}	{spk:02}Yuki: "I'll hear the story later. At my leisure, once I've arrested you!"{wait}	
-dlg:1908	text	rec:3676	149	{spk:01}博士「できるもんならしてみるがいい。{br}　だが・・・{wait}	{spk:01}Doctor: "Do it if you can. But...{wait}	
+dlg:1908	text	rec:3676	149	{spk:01}博士「できるもんならしてみるがいい。{br}　だが・・・{wait}	{spk:01}Doctor: "Do it if you can, then. But...{wait}	
 dlg:1909	text	rec:3677	149	{spk:01}　わしを追いかける前に、ジェーンをいい　工場に送ってやってくれ・・・！」{wait}	{spk:01}before you chase me, send Jane to a good factory...!"{wait}	
 dlg:1910	text	rec:3680	149	　ホテル『ビクトリア』{wait}	Hotel 'Victoria'{wait}	
 dlg:1911	text	rec:3681	149	{face:10001}{face:30201}{face:20103}{spk:03}トモミ「あたしの暗号じょうほう、どうだった。{br}　ユウキならかんたんにとけたでしょ」{wait}	{face:10001}{face:30201}{face:20103}{spk:03}Tomomi: "How was my coded info? Easy for you to crack, right, Yuki?"{wait}	

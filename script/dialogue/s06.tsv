@@ -43,15 +43,15 @@ dlg:0595	text	rec:1087	149	{face:10501}{face:01005}{spk:01}市長の娘リアナ
 dlg:0596	text	rec:1088	149	{face:10504}{spk:02}アドルフ市長「まあまあリアナ、こづかいはずむから―――」{wait}	{face:10504}{spk:02}Mayor Adolf: "Now, now, Riana. I'll raise your allowance--"{wait}	
 dlg:0597	text	rec:1092	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
 dlg:0598	text	rec:1093	149	{face:00701}{face:30905}{spk:04}エミコ「博士―――{br}　どうして、人々をこまらせるようなことを、なさるのですか」{wait}	{face:00701}{face:30905}{spk:04}Emiko: "Doctor-- Why are you doing things that cause people such trouble?"{wait}	
-dlg:0599	text	rec:1094	149	{face:00703}{spk:01}博士「こまるじゃろうなあ、道具だと思っていたテカがあばれ出したら」{wait}	{face:00703}{spk:01}Doctor: "It'd be trouble, all right, when the Teka they thought were tools start running wild."{wait}	
+dlg:0599	text	rec:1094	149	{face:00703}{spk:01}博士「こまるじゃろうなあ、道具だと思っていたテカがあばれ出したら」{wait}	{face:00703}{spk:01}Doctor: "That'd be trouble indeed, eh? When the Teka they took for tools start running wild."{wait}	
 dlg:0600	text	rec:1095	149	{spk:04}エミコ「テカは道具じゃありません」{wait}	{spk:04}Emiko: "Teka are not tools."{wait}	
-dlg:0601	text	rec:1096	149	{face:00702}{spk:01}博士「そうじゃよ、テカは心を持った、{br}　新しい『生命』じゃ。{wait}	{face:00702}{spk:01}Doctor: "That's right. Teka are a new form of 'life,' with hearts.{wait}	
-dlg:0602	text	rec:1097	149	{spk:01}　それを思い上がった人間どもに教えてやるんじゃよ―――テカを『友だち』とみとめ、『きょうぞん』しなくてはならないと。{wait}	{spk:01}And I'll teach that to the arrogant humans-- that they must accept Teka as 'friends' and 'live together.'{wait}	
+dlg:0601	text	rec:1096	149	{face:00702}{spk:01}博士「そうじゃよ、テカは心を持った、{br}　新しい『生命』じゃ。{wait}	{face:00702}{spk:01}Doctor: "Just so. Teka are a new form of 'life,' with hearts of their own.{wait}	
+dlg:0602	text	rec:1097	149	{spk:01}　それを思い上がった人間どもに教えてやるんじゃよ―――テカを『友だち』とみとめ、『きょうぞん』しなくてはならないと。{wait}	{spk:01}And I'll teach that to those arrogant humans-- that they must accept Teka as 'friends' and 'live together.'{wait}	
 dlg:0603	text	rec:1098	149	{spk:01}　あの警官みたいに、ポリステカをたおしておいて、えらそうにするやつがいなくなるまでな！」{wait}	{spk:01}Until there's no one left like that cop, who shot down a Polisteka and then acted so high and mighty!"{wait}	
 dlg:0604	text	rec:1099	149	{face:30904}{spk:04}エミコ「あの人は、子供たちをすくってくれたんです」{wait}	{face:30904}{spk:04}Emiko: "That man saved the children."{wait}	
-dlg:0605	text	rec:1100	149	{spk:01}博士「かばうのか。ならなぜここにきた。{br}　やくそくしたから？」{wait}	{spk:01}Doctor: "You defend him? Then why did you come here? Because you promised?"{wait}	
+dlg:0605	text	rec:1100	149	{spk:01}博士「かばうのか。ならなぜここにきた。{br}　やくそくしたから？」{wait}	{spk:01}Doctor: "You'd defend him? Then why come here at all? Because you promised, eh?"{wait}	
 dlg:0606	text	rec:1101	149	{face:30906}{spk:04}エミコ「サンナナさんは、死んでしまいました―――{br}　死んだ人とのやくそくはやぶれません」{wait}	{face:30906}{spk:04}Emiko: "Sannana-san is dead-- I can't break a promise to the dead."{wait}	
-dlg:0607	text	rec:1102	149	{spk:01}博士「やさしいな。{br}　人間にも、エミコさんぐらいのやさしさがあればな―――」{wait}	{spk:01}Doctor: "How kind. If only humans had kindness like yours, Emiko-san--"{wait}	
+dlg:0607	text	rec:1102	149	{spk:01}博士「やさしいな。{br}　人間にも、エミコさんぐらいのやさしさがあればな―――」{wait}	{spk:01}Doctor: "How kind you are. If only humans had half your kindness, Emiko-san--"{wait}	
 dlg:0608	text	rec:1110	149	　フランボワーズ入国ゲート{wait}	Framboise Entry Gate{wait}	
 dlg:0609	text	rec:1111	149	{face:10501}{face:20001}{face:30101}{face:01002}{spk:01}リアナ「こっちは平和ね。{br}　子供警官のごえいなんかいらなかったわ」{wait}	{face:10501}{face:20001}{face:30101}{face:01002}{spk:01}Riana: "It's peaceful here. We didn't need an escort of kiddie cops."{wait}	
 dlg:0610	text	rec:1112	149	{face:01009}{face:10502}{spk:02}市長「ああ、もういい。{wait}	{face:01009}{face:10502}{spk:02}Mayor: "Yes, that's enough now.{wait}	
@@ -93,14 +93,14 @@ dlg:0645	text	rec:1181	149	{face:10005}{spk:02}ユウキ「だめ；」{wait}	{f
 dlg:0646	text	rec:1188	149	　かくし山荘{wait}	The Hidden Lodge{wait}	
 dlg:0647	text	rec:1189	149	{face:20801}{face:30901}{face:10703}{spk:02}博士「わしのうでがどんなに長いか、分かったじゃろ。{br}　世界中のテカをあやつってみせるぞ」{wait}	{face:20801}{face:30901}{face:10703}{spk:02}Doctor: "Now then, you see how far my reach extends, eh? I'll control every Teka in the world!"{wait}	
 dlg:0648	text	rec:1190	149	{face:20803}{spk:03}リヒター「ゆうかいなんてめんどうな・・・　やっつけちゃえば、かんたんなのに」{wait}	{face:20803}{spk:03}Richter: "Kidnapping is such a bother... It'd be easier to just beat them."{wait}	
-dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}	{face:10702}{spk:02}Doctor: "Still on about that? Emiko-san went on so much that you agreed kidnapping alone would do, didn't you?"{wait}	
+dlg:0649	text	rec:1191	149	{face:10702}{spk:02}博士「まだ言っておるのか。{br}　エミコさんがあれだけ言うから、お前もさらうだけでいいと言ったんじゃないか」{wait}	{face:10702}{spk:02}Doctor: "Still harping on that? Emiko-san went on so, you agreed kidnapping alone would do, didn't you?"{wait}	
 dlg:0650	text	rec:1192	149	{spk:03}リヒター「うん、まあ・・・でも、警官どもはどうするのさ。{wait}	{spk:03}Richter: "Yeah, well... But what about the cops?{wait}	
 dlg:0651	text	rec:1193	149	{spk:03}　あいつらをおびき出して、{br}　やっつけるのがもくてきだろっ」{wait}	{spk:03}The point was to lure them out and beat them, right?"{wait}	
 dlg:0652	text	rec:1194	149	{face:30904}{spk:04}エミコ「なんですって―――？」{wait}	{face:30904}{spk:04}Emiko: "What did you say--?"{wait}	
 dlg:0653	text	rec:1195	149	{face:20802}{spk:03}リヒター「エミコさん、あいつらは敵だよ、それでもやっつけるのはいや？」{wait}	{face:20802}{spk:03}Richter: "Emiko-san, they're the enemy. Do you still not want me to beat them?"{wait}	
 dlg:0654	text	rec:1196	149	{spk:04}エミコ「子供たちに、良いことと悪いことのくべつを、たくさん教えてきたわ。{br}　あなたにも教えなくちゃいけないのね？」{wait}	{spk:04}Emiko: "I've taught children a lot about right and wrong. Do I have to teach you too?"{wait}	
 dlg:0655	text	rec:1197	149	{face:20803}{spk:03}リヒター「・・・分かったよ、エミコさんがおこるならやめる。{br}　あいつらのテカだけこわしてやろう。{br}　ね、博士」{wait}	{face:20803}{spk:03}Richter: "...Okay, if it makes Emiko-san angry I'll stop. I'll just break their Teka. Right, Doctor?"{wait}	
-dlg:0656	text	rec:1198	149	{spk:02}博士「はじめからそのつもりだというのに、お前がゴネてたんじゃないか・・・！」{wait}	{spk:02}Doctor: "That was the plan from the start, and you're the one who kicked up a fuss...!"{wait}	
+dlg:0656	text	rec:1198	149	{spk:02}博士「はじめからそのつもりだというのに、お前がゴネてたんじゃないか・・・！」{wait}	{spk:02}Doctor: "That was the plan from the start, my boy, and it was you who kicked up a fuss...!"{wait}	
 dlg:0657	text	rec:1203	149	{face:20101}{face:30201}{face:10007}{spk:02}ユウキ「入り口でおそわれたらしい・・・{br}　市庁舎のガーディテカにね」{wait}	{face:20101}{face:30201}{face:10007}{spk:02}Yuki: "Looks like they were attacked at the entrance... by City Hall's Guarditeka."{wait}	
 dlg:0658	text	rec:1204	149	{face:10001}{face:01302}{spk:01}ポリステカ「しつれいします、『アプリコットの人間警官』というのはみなさんで？{br}　電話がありました。{wait}	{face:10001}{face:01302}{spk:01}Polisteka: "Excuse me, are you the 'human police of Apricot'? There was a phone call.{wait}	
 dlg:0659	text	rec:1205	149	{spk:01}　『人質はワイン工場、むかえにくるがよかろう』と。{br}　なんのことでしょ？」{wait}	{spk:01}'The hostages are at the winery. Come and get them.' What could that mean?"{wait}	
@@ -127,8 +127,8 @@ dlg:0679	text	rec:1263	149	{spk:02}ブランク「ブランクです」{wait}	{s
 dlg:0680	text	rec:1264	149	{spk:01}リアナ「お強いのね。{br}　ステキだわ・・・」{wait}	{spk:01}Riana: "You're so strong. How wonderful..."{wait}	
 dlg:0681	text	rec:1265	149	{face:10303}{spk:02}ブランク「は？　はあ・・・{br}　市長をさがさないといけませんので、{br}　しつれいします」{wait}	{face:10303}{spk:02}Blank: "Huh? Er, well... I must look for the Mayor, so excuse me."{wait}	
 dlg:0682	text	rec:1266	149	{face:01007}{spk:01}リアナ「やだ、こわいわ、一人にしないで！　ね、ブランク様！」{wait}	{face:01007}{spk:01}Riana: "No, I'm scared, don't leave me alone! Please, Blank-sama!"{wait}	
-dlg:0683	text	rec:1267	149	{spk:02}ブランク「あ、いや、あの、その」{wait}	{spk:02}Blank: "Ah, no, um, well..."{wait}	
+dlg:0683	text	rec:1267	149	{spk:02}ブランク「あ、いや、あの、その」{wait}	{spk:02}Blank: "Ah, n-no, um, well..."{wait}	
 dlg:0684	text	rec:1268	149	通信・ユウキ「ブランク！{br}　もうすぐぼくたちもつく。{br}　市長は見つかったかい？！」{wait}	Yuki (radio): "Blank! We'll be there soon. Have you found the Mayor?!"{wait}	
-dlg:0685	text	rec:1269	149	{spk:02}ブランク「それが、お嬢さまがこわがっているので、いまいっしょに・・・」{wait}	{spk:02}Blank: "Well, the young lady is frightened, so right now I'm with her..."{wait}	
+dlg:0685	text	rec:1269	149	{spk:02}ブランク「それが、お嬢さまがこわがっているので、いまいっしょに・・・」{wait}	{spk:02}Blank: "W-well, the young lady is frightened, so right now I'm, um, with her..."{wait}	
 dlg:0686	text	rec:1270	149	{face:01004}{spk:01}リアナ「そうよ、あたし一人にさせないで、ブランク様といっしょがいいわ！」{wait}	{face:01004}{spk:01}Riana: "That's right, don't leave me alone! I want to be with Blank-sama!"{wait}	
 dlg:0687	text	rec:1271	149	通信・ユウキ「はあ？　ブランク様あ？」{wait}	Yuki (radio): "Huh? Blank-SAMA?"{wait}	
