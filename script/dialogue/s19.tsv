@@ -1,154 +1,154 @@
 id	kind	where	max	jp	en	notes
-dlg:1967	text	rec:3784	149	{face:10001}{face:00603}{spk:01}署長「敵の身内！？」{wait}		
-dlg:1968	text	rec:3785	149	{face:10002}{spk:02}ユウキ「ゲオルグ博士よりさきに、{br}　ほごしなければなりません」{wait}		
-dlg:1969	text	rec:3786	149	{face:00602}{spk:01}署長「敵の正体が分かるな。{br}　しかも、反乱を半分にさせられるとは。{br}　なにがなんでもエミコをさがしだせ！」{wait}		
-dlg:1970	text	rec:3788	149	{face:10001}{face:30201}{face:20104}{spk:03}トモミ「エミコさんって、バスジャックのときの？」{wait}		
-dlg:1971	text	rec:3789	149	{face:30206}{spk:04}ギリガン「警官がテカをこわしたのがショックで、敵がわににげた保母さんだ」{wait}		
-dlg:1972	text	rec:3790	149	{face:10007}{spk:02}ユウキ「今度は、敵の悪どさにいや気がさしてにげた。{br}　本当の敵が分かったぞ・・・{br}　博士じゃなくて『孫』の方だ」{wait}		
-dlg:1973	text	rec:3791	149	{face:20115}{spk:03}トモミ「なんでよ」{wait}		
-dlg:1974	text	rec:3792	149	{face:10012}{spk:02}ユウキ「博士が悪者で、孫がいい子なら、{br}保母テカは孫についていてやるさ。{br}　孫が悪者だから、いやになったんだ」{wait}		
-dlg:1975	text	rec:3793	149	{face:20104}{spk:03}トモミ「かわいそうに。{br}　保母さんが子供にうらぎられて。{br}　人間不信になるわね」{wait}		
-dlg:1976	text	rec:3794	149	{spk:02}ユウキ「どこににげたんだろう」{wait}		
-dlg:1977	text	rec:3795	149	{face:30203}{spk:04}ギリガン「あの世でなきゃいいがな・・！」{wait}		
-dlg:1978	text	rec:3799	149	{face:00502}{spk:01}市長「反乱を半分にしてくれる？{br}　それはいい、かならず見つけ出して、{br}　取り引きするんだ！」{wait}		
-dlg:1979	text	rec:3802	149	{face:10001}{face:00502}{spk:01}市長「サザンカ幼稚園に同じ型の保母テカがいるじゃないか。{br}　代わりにそれをわたしてやれば・・・」{wait}		
-dlg:1980	text	rec:3803	149	{face:10003}{spk:14}ユウキ「なに言ってるんですか；{br}　テカは物じゃないんですから・・・」{wait}		
-dlg:1981	text	rec:3805	149	{face:00602}{spk:01}署長「プラム山をうろつく保母テカを見たというほうこくがあった。{br}　エミコにちがいない、行ってみてくれ」{wait}		
-dlg:1982	text	rec:3807	149	{face:00402}{spk:01}ポイヤック「人さがしには、コツもなにもありません。{br}　あきらめずにさがしつづけるだけです。{br}　そのつもりで」{wait}		
-dlg:1983	text	rec:3813	149	{face:10001}{face:20101}{face:01006}{spk:01}リアナ「う・・・う・・・」{wait}		
-dlg:1984	text	rec:3814	149	{face:10012}{spk:02}ユウキ「どうしたんです、泣いたりして」{wait}		
-dlg:1985	text	rec:3815	149	{spk:01}リアナ「だって、ブランク様ったら、{br}　エミコとかいう保母テカをさがしてるっていうじゃないの？！{wait}		
-dlg:1986	text	rec:3816	149	{spk:01}　あたしをほっといて、他の女に・・・{br}　{face:01007}ブランク様のばかー！」{wait}		
-dlg:1987	text	rec:3817	149	{face:10005}{spk:02}ユウキ「・・・しつれいします；」{wait}		
-dlg:1988	text	rec:3820	149	{face:02502}{spk:01}マイコ「エミコさんを見つけてください、{br}　子供たちも待っています」{wait}		
-dlg:1989	text	rec:3822	149	{face:01104}{spk:01}ペータ「ケガのなおりがおそいんです・・・{br}　もしぼくが死んだら、リアナは泣いてくれるかな・・・」{wait}		
-dlg:1990	text	rec:3825	149	{face:20101}{face:30201}{face:10004}{spk:02}ユウキ「サザンカ幼稚園からエミコさんの写真をかりておいたよ」{wait}		
-dlg:1991	text	rec:3826	149	{face:30203}{spk:04}ギリガン「焼きまししてくれ」{wait}		
-dlg:1992	text	rec:3827	149	{face:20115}{spk:03}トモミ「なに言ってんの」{wait}		
-dlg:1993	text	rec:3830	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「さあいくぜ。{br}　気合いいれろ、二人とも！」{wait}		
-dlg:1994	text	rec:3831	149	{face:20115}{spk:03}トモミ「保母テカのことになると元気ねえ、こいつ」		
-dlg:1995	text	rec:3832	149	{face:10005}{spk:02}ユウキ「ねえ；」{wait}		
-dlg:1996	text	rec:3839	149	{face:01402}{spk:01}みーちゃん「エリーゼタイプの保母さん？{br}　来たことないですー」{wait}		
-dlg:1997	text	rec:3843	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「保母テカが、そこに花を供えていたんですよ」{wait}		
-dlg:1998	text	rec:3844	149	{face:10002}{spk:02}ユウキ「そこは・・・{br}　サンナナが死んだ場所だね」{wait}		
-dlg:1999	text	rec:3845	149	{spk:01}ワークテカ「みょうにさびしげで、声をかけたけど、にげてしまって。{br}　そ、そ、この写真の。{wait}		
-dlg:2000	text	rec:3846	149	{spk:01}　山おくに入って行きましたよ。{br}　あっちはなんにもないのに」{wait}		
-dlg:2001	text	rec:3847	149	{spk:02}ユウキ「なんにもないことはないよ。{br}　山をこえたら、{br}　こけももの都がある―――」{wait}		
-dlg:2002	text	rec:3851	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「この写真の？{br}　かわいいねえ！{br}　どこに行けば会えるんです？{wait}		
-dlg:2003	text	rec:3852	149	{spk:01}　ま、ガサツなあたしなんか、相手にしてもらえないでしょうがねえ。{br}　がっはっは」{wait}		
-dlg:2004	text	rec:3853	149	{face:20115}{spk:03}トモミ「あなた、{br}『きさくなおじさんＭｋ．Ⅱ』ね。{br}　はじめて見たわ」{wait}		
-dlg:2005	text	rec:3856	149	{face:30203}{spk:04}ギリガン「これじゃ探したことにならんな。　また来ようぜ」{wait}		
-dlg:2006	text	rec:3862	149	{face:12402}{face:00606}{spk:01}署長「もしもし、ポイヤックか？{br}　ユウキ君たちはどこだ」{wait}		
-dlg:2007	text	rec:3863	149	{spk:02}ポイヤック「こけももの都に行きました」{wait}		
-dlg:2008	text	rec:3864	149	{face:00607}{spk:01}署長「なにっ、あそこはやばいよ！{br}　なんで行かせたんだ、あっちじゃ指名手配されてるんだぞ・・・」{wait}		
-dlg:2009	text	rec:3868	149	{face:30303}{spk:04}ブランク「こんにちは」{wait}		
-dlg:2010	text	rec:3869	149	{face:01202}{spk:01}ワークテカ「あっ？！{br}　よそ者さんじゃないですか！{br}　しーっ、見つかりますよ」{wait}		
-dlg:2011	text	rec:3870	149	{face:30302}{spk:04}ブランク「この女の人を見てませんか」{wait}		
-dlg:2012	text	rec:3871	149	{spk:01}ワークテカ「ん、さあ。{br}　それよりこれどうです、{br}　『マーマーライト』。{br}　３０，０００でごほうし中」{wait}		
-dlg:2013	text	rec:3876	149	{face:20106}{spk:03}トモミ「ちょっと、{br}　あたしたち指名手配されてるのよっ、{br}　もどりましょ」{wait}		
-dlg:2014	text	rec:3878	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「エミコさん、ここにいるのね」{wait}		
-dlg:2015	text	rec:3879	149	{face:30202}{spk:04}ギリガン「助け出そう。{br}{face:30207}　行くぞ、ユウキ！」{wait}		
-dlg:2016	text	rec:3883	149	{face:10006}{spk:02}ユウキ「ここにいるのは分かっているんだ、助けるまでくりかえすよ！」{wait}		
-dlg:2017	text	rec:3886	149	{face:02001}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「手あらいまねをしましたが、{br}　どうしても会いたい人がいます。		
-dlg:2018	text	rec:3887	149	　保母テカの『エミコ』。ここにいますね」{wait}		
-dlg:2019	text	rec:3888	149	{face:02002}{spk:01}ポリステカ「あ・・・あれは、プログラムがこわれていて話が通じなくて、{br}『しゃくほう』しました」{wait}		
-dlg:2020	text	rec:3889	149	{face:10006}{spk:02}ユウキ「こわれて・・・？」{wait}		
-dlg:2021	text	rec:3890	149	{spk:01}ポリステカ「私にはもう主人はいないとか、湖に身をなげて死のうと思ったとか、		
-dlg:2022	text	rec:3891	149	　変なことしか言わないから・・・」{wait}		
-dlg:2023	text	rec:3892	149	{spk:02}ユウキ「テカの君には、彼女の言葉がりかいできないのはしかたがない。{wait}		
-dlg:2024	text	rec:3894	149	{spk:02}　でも、そう言っている彼女をほうり出したのかいっ！{br}　本当に自殺されたらどうするんだっ」{wait}		
-dlg:2025	text	rec:3895	149	{face:20106}{spk:03}トモミ「人間不信ね。{br}　子供が悪いことをたくらんだりするから、世の中が信じられなくなったんだわ」{wait}		
-dlg:2026	text	rec:3896	149	{face:10007}{spk:02}ユウキ「はやく見つけなくちゃ・・・{br}　死にたいとまで思いつめた女性が、{br}　すくいをもとめる場所、どこだっ」{wait}		
-dlg:2027	text	rec:3897	149	{face:30206}{spk:04}ギリガン「急ぐぞ、工場によってゲートだ、{face:30207}　それまでに考えておけ！」{wait}		
-dlg:2028	text	rec:3899	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「おや、おたずね者がみんなで」{wait}		
-dlg:2029	text	rec:3900	149	{face:30207}{spk:04}ギリガン「かる口をたたくな、急ぐ！」{wait}		
-dlg:2030	text	rec:3903	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ユウキっ、こたえは出したかっ」{wait}		
-dlg:2031	text	rec:3905	149	{face:10002}{spk:02}ユウキ「アプリコットだ！」{wait}		
-dlg:2032	text	rec:3907	149	{face:10002}{spk:02}ユウキ「フランボワーズだ！」{wait}		
-dlg:2033	text	rec:3909	149	{face:10002}{spk:02}ユウキ「カシスだ！」{wait}		
-dlg:2034	text	rec:3911	149	{face:10002}{spk:02}ユウキ「マーマレードだ！」{wait}		
-dlg:2035	text	rec:3914	149	{face:30301}{face:01202}{spk:01}ワークテカ「お、買う気になりましたか。{br}　『マーマーライト』が３０，０００」{wait}		
-dlg:2036	text	rec:3916	149	{face:30303}{spk:04}ブランク「そんなに持ってません」{wait}		
-dlg:2037	text	rec:3917	149	{spk:01}ワークテカ「びんぼうしてますねー。{br}　メンテ代ぐらいは持ってるでしょ？」{wait}		
-dlg:2038	text	rec:3920	149	{face:30302}{spk:04}ブランク「いいでしょう、買います」{wait}		
-dlg:2039	text	rec:3921	149	{spk:01}ワークテカ「まいど♪」{wait}		
-dlg:2040	text	rec:3924	149	右腕『マーマーライト』を{br}　手に入れました。{wait}		
-dlg:2041	text	rec:3926	149	{spk:01}ワークテカ「じゃ今度はメンテ代かせがせてもらおかな」{wait}		
-dlg:2042	text	rec:3928	149	{spk:01}ワークテカ「ちょこっとじょうほうも付けるから、どうです」{wait}		
-dlg:2043	text	rec:3930	149	{face:30302}{spk:04}ブランク「いいでしょう、買います。{br}　じょうほう教えてください」{wait}		
-dlg:2044	text	rec:3931	149	{spk:01}ワークテカ「まいど♪」{wait}		
-dlg:2045	text	rec:3934	149	右腕『マーマーライト』を{br}　手に入れました。{wait}		
-dlg:2046	text	rec:3936	149	{spk:01}ワークテカ「あの保母テカね、『こけももけいしちょう』につかまってしまいましたよ。{br}　カンパチダムのほとりで」{wait}		
-dlg:2047	text	rec:3938	149	{face:30302}{spk:04}ブランク「えっ、なぜ？」{wait}		
-dlg:2048	text	rec:3939	149	{spk:01}ワークテカ「さあ、この町じゃわけもなくつかまったりするし。{br}　めずらしくはないですよ」{wait}		
-dlg:2049	text	rec:3941	149	{spk:01}ワークテカ「あ、じょうほうもいらないと。　メンテ代ぐらいはかせがせてくださいよ」{wait}		
-dlg:2050	text	rec:3943	149	{face:01202}{spk:01}ワークテカ「まいど、よそ者さん」{wait}		
-dlg:2051	text	rec:3946	149	{face:30206}{spk:04}ギリガン「どこに行く気だ。{br}　どうせなら、とくべつ警察に礼をしに行こうぜ」{wait}		
-dlg:2052	text	rec:3951	149	{face:30210}{spk:04}ギリガン「さあ、おどかしてくれた礼はたっぷりするぜ！」{wait}		
-dlg:2053	text	rec:3954	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「ざまあ見ろ。これにこりて、もう市民をいじめるんじゃねえぞ。{br}　一件らくちゃく！」{wait}		
-dlg:2054	text	rec:3955	149	{face:20115}{spk:03}トモミ「ギリガン、もくてきわすれてない？」{wait}		
-dlg:2055	text	rec:3959	149	{face:01202}{spk:01}ワークテカ「この写真の保母さん、{br}　見ましたよ、ダムのほとりで。{wait}		
-dlg:2056	text	rec:3960	149	{spk:01}　かわいそうに、こけもも警察につかまってしまってねえ。{wait}		
-dlg:2057	text	rec:3961	149	{spk:01}　今ごろ『こけももけいしちょう』にいるんでしょうね。{br}　いじめられてなければいいけど」{wait}		
-dlg:2058	text	rec:3967	149	{face:00502}{spk:01}市長「どうしたユウキ君、あわてて」{wait}		
-dlg:2059	text	rec:3969	149	{face:10002}{face:00603}{spk:01}署長「ユウキ君！{br}　こけももでは平気だったのか」{wait}		
-dlg:2060	text	rec:3970	149	{spk:02}ユウキ「エミコさんは来ませんでしたか？{br}　自分から来たかもと思ったのですが」{wait}		
-dlg:2061	text	rec:3971	149	{spk:01}署長「え？　いや、きていないが・・・」{wait}		
-dlg:2062	text	rec:3973	149	{face:00401}{face:10002}{spk:02}ユウキ「教官、エミコさんがぼくたちに会いに来ませんでしたか？」{wait}		
-dlg:2063	text	rec:3974	149	{face:00402}{spk:01}ポイヤック「いえ、きてませんが」{wait}		
-dlg:2064	text	rec:3976	149	{face:30207}{spk:04}ギリガン「おいっ、エミコが子供たちに会いに来なかったか？！」{wait}		
-dlg:2065	text	rec:3977	149	{face:02502}{spk:01}保母マイコ「えっ、い、いえ」{wait}		
-dlg:2066	text	rec:3979	149	{face:01003}{spk:01}リアナ「ブランク様はあ？！{br}　え、いそがしい？」{wait}		
-dlg:2067	text	rec:3981	149	{face:01202}{spk:01}ワークテカ「ごくろうさまです・・・{br}　なにを急いでいるんです？」{wait}		
-dlg:2068	text	rec:3984	149	{face:20104}{spk:03}トモミ「シティの中にはいないの？」{wait}		
-dlg:2069	text	rec:3991	149	{face:10002}{spk:02}ユウキ「反乱はここから始まった。エミコさんがくる理由があるかもしれない」{wait}		
-dlg:2070	text	rec:3994	149	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}みーちゃん「保母さん？{br}　来ませんでしたけどー」{wait}		
-dlg:2071	text	rec:3995	149	{face:20115}{spk:03}トモミ「はずれ」{wait}		
-dlg:2072	text	rec:3997	149	{face:10002}{spk:02}ユウキ「またサンナナの墓まいりをしに来たかのうせいはある」{wait}		
-dlg:2073	text	rec:4000	149	{face:01202}{spk:01}ワークテカ「あれからは見てませんが？」{wait}		
-dlg:2074	text	rec:4002	149	{face:10002}{spk:02}ユウキ「人間不信なんだ、だれもいない海に出ようとしたかもしれない」{wait}		
-dlg:2075	text	rec:4005	149	{face:01202}{spk:01}ワークテカ「かわいい保母テカですか、{br}　来ませんでしたねえ」{wait}		
+dlg:1967	text	rec:3784	149	{face:10001}{face:00603}{spk:01}署長「敵の身内！？」{wait}	{face:10001}{face:00603}{spk:01}Chief: "Enemy family!?"{wait}	
+dlg:1968	text	rec:3785	149	{face:10002}{spk:02}ユウキ「ゲオルグ博士よりさきに、{br}　ほごしなければなりません」{wait}	{face:10002}{spk:02}Yuki: "We have to find her before Dr. Georg does."{wait}	
+dlg:1969	text	rec:3786	149	{face:00602}{spk:01}署長「敵の正体が分かるな。{br}　しかも、反乱を半分にさせられるとは。{br}　なにがなんでもエミコをさがしだせ！」{wait}	{face:00602}{spk:01}Chief: "We'll learn who the enemy is. And he'd cut the revolts by half. Find Emiko no matter what!"{wait}	
+dlg:1970	text	rec:3788	149	{face:10001}{face:30201}{face:20104}{spk:03}トモミ「エミコさんって、バスジャックのときの？」{wait}	{face:10001}{face:30201}{face:20104}{spk:03}Tomomi: "Emiko-san, from the bus hijacking?"{wait}	
+dlg:1971	text	rec:3789	149	{face:30206}{spk:04}ギリガン「警官がテカをこわしたのがショックで、敵がわににげた保母さんだ」{wait}	{face:30206}{spk:04}Gilligan: "The daycare teacher who ran to the enemy, shocked that police destroyed a Teka."{wait}	
+dlg:1972	text	rec:3790	149	{face:10007}{spk:02}ユウキ「今度は、敵の悪どさにいや気がさしてにげた。{br}　本当の敵が分かったぞ・・・{br}　博士じゃなくて『孫』の方だ」{wait}	{face:10007}{spk:02}Yuki: "Now she fled, sick of the enemy's evil. I know the real enemy now... Not the Doctor, the 'grandson'."{wait}	
+dlg:1973	text	rec:3791	149	{face:20115}{spk:03}トモミ「なんでよ」{wait}	{face:20115}{spk:03}Tomomi: "Why?"{wait}	
+dlg:1974	text	rec:3792	149	{face:10012}{spk:02}ユウキ「博士が悪者で、孫がいい子なら、{br}保母テカは孫についていてやるさ。{br}　孫が悪者だから、いやになったんだ」{wait}	{face:10012}{spk:02}Yuki: "If the grandson were good, the teacher Teka would stay with him. She left because he's the bad one."{wait}	
+dlg:1975	text	rec:3793	149	{face:20104}{spk:03}トモミ「かわいそうに。{br}　保母さんが子供にうらぎられて。{br}　人間不信になるわね」{wait}	{face:20104}{spk:03}Tomomi: "Poor thing. A teacher betrayed by a child. She'll lose faith in humans."{wait}	
+dlg:1976	text	rec:3794	149	{spk:02}ユウキ「どこににげたんだろう」{wait}	{spk:02}Yuki: "Where did she run to, I wonder?"{wait}	
+dlg:1977	text	rec:3795	149	{face:30203}{spk:04}ギリガン「あの世でなきゃいいがな・・！」{wait}	{face:30203}{spk:04}Gilligan: "Hope it ain't the next world..!"{wait}	
+dlg:1978	text	rec:3799	149	{face:00502}{spk:01}市長「反乱を半分にしてくれる？{br}　それはいい、かならず見つけ出して、{br}　取り引きするんだ！」{wait}	{face:00502}{spk:01}Mayor: "He'll cut the revolts by half? Excellent. Find her no matter what and make the deal!"{wait}	
+dlg:1979	text	rec:3802	149	{face:10001}{face:00502}{spk:01}市長「サザンカ幼稚園に同じ型の保母テカがいるじゃないか。{br}　代わりにそれをわたしてやれば・・・」{wait}	{face:10001}{face:00502}{spk:01}Mayor: "There's a teacher Teka of the same type at Sazanka Kindergarten. If we gave them that one instead..."{wait}	
+dlg:1980	text	rec:3803	149	{face:10003}{spk:14}ユウキ「なに言ってるんですか；{br}　テカは物じゃないんですから・・・」{wait}	{face:10003}{spk:14}Yuki: "What are you saying? Teka aren't things..."{wait}	
+dlg:1981	text	rec:3805	149	{face:00602}{spk:01}署長「プラム山をうろつく保母テカを見たというほうこくがあった。{br}　エミコにちがいない、行ってみてくれ」{wait}	{face:00602}{spk:01}Chief: "There was a report of a teacher Teka wandering Plum Mountain. It must be Emiko. Go take a look."{wait}	
+dlg:1982	text	rec:3807	149	{face:00402}{spk:01}ポイヤック「人さがしには、コツもなにもありません。{br}　あきらめずにさがしつづけるだけです。{br}　そのつもりで」{wait}	{face:00402}{spk:01}Pauillac: "There is no trick to finding people. You just keep searching without giving up. Keep that in mind."{wait}	
+dlg:1983	text	rec:3813	149	{face:10001}{face:20101}{face:01006}{spk:01}リアナ「う・・・う・・・」{wait}	{face:10001}{face:20101}{face:01006}{spk:01}Riana: "Sob... sob..."{wait}	
+dlg:1984	text	rec:3814	149	{face:10012}{spk:02}ユウキ「どうしたんです、泣いたりして」{wait}	{face:10012}{spk:02}Yuki: "What's wrong? Why are you crying?"{wait}	
+dlg:1985	text	rec:3815	149	{spk:01}リアナ「だって、ブランク様ったら、{br}　エミコとかいう保母テカをさがしてるっていうじゃないの？！{wait}	{spk:01}Riana: "Because Blank-sama is looking for some teacher Teka called Emiko, isn't he?!{wait}	
+dlg:1986	text	rec:3816	149	{spk:01}　あたしをほっといて、他の女に・・・{br}　{face:01007}ブランク様のばかー！」{wait}	{spk:01}Leaving me alone for another woman...{face:01007} Blank-sama, you idiot!"{wait}	
+dlg:1987	text	rec:3817	149	{face:10005}{spk:02}ユウキ「・・・しつれいします；」{wait}	{face:10005}{spk:02}Yuki: "...Excuse me."{wait}	
+dlg:1988	text	rec:3820	149	{face:02502}{spk:01}マイコ「エミコさんを見つけてください、{br}　子供たちも待っています」{wait}	{face:02502}{spk:01}Maiko: "Please find Emiko-san. The children are waiting too."{wait}	
+dlg:1989	text	rec:3822	149	{face:01104}{spk:01}ペータ「ケガのなおりがおそいんです・・・{br}　もしぼくが死んだら、リアナは泣いてくれるかな・・・」{wait}	{face:01104}{spk:01}Peta: "My injuries are slow to heal... If I died, would Riana cry for me..."{wait}	
+dlg:1990	text	rec:3825	149	{face:20101}{face:30201}{face:10004}{spk:02}ユウキ「サザンカ幼稚園からエミコさんの写真をかりておいたよ」{wait}	{face:20101}{face:30201}{face:10004}{spk:02}Yuki: "I borrowed a photo of Emiko-san from Sazanka Kindergarten."{wait}	
+dlg:1991	text	rec:3826	149	{face:30203}{spk:04}ギリガン「焼きまししてくれ」{wait}	{face:30203}{spk:04}Gilligan: "Make me a copy."{wait}	
+dlg:1992	text	rec:3827	149	{face:20115}{spk:03}トモミ「なに言ってんの」{wait}	{face:20115}{spk:03}Tomomi: "What are you saying?"{wait}	
+dlg:1993	text	rec:3830	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「さあいくぜ。{br}　気合いいれろ、二人とも！」{wait}	{face:10001}{face:20101}{face:30204}{spk:04}Gilligan: "Let's go. Get fired up, you two!"{wait}	
+dlg:1994	text	rec:3831	149	{face:20115}{spk:03}トモミ「保母テカのことになると元気ねえ、こいつ」	{face:20115}{spk:03}Tomomi: "He sure perks up when it's about teacher Teka."	
+dlg:1995	text	rec:3832	149	{face:10005}{spk:02}ユウキ「ねえ；」{wait}	{face:10005}{spk:02}Yuki: "Sure does."{wait}	
+dlg:1996	text	rec:3839	149	{face:01402}{spk:01}みーちゃん「エリーゼタイプの保母さん？{br}　来たことないですー」{wait}	{face:01402}{spk:01}Mii-chan: "An Elise-type teacher? She's never been here."{wait}	
+dlg:1997	text	rec:3843	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「保母テカが、そこに花を供えていたんですよ」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "A teacher Teka was laying flowers right there."{wait}	
+dlg:1998	text	rec:3844	149	{face:10002}{spk:02}ユウキ「そこは・・・{br}　サンナナが死んだ場所だね」{wait}	{face:10002}{spk:02}Yuki: "That's... where Sannana died."{wait}	
+dlg:1999	text	rec:3845	149	{spk:01}ワークテカ「みょうにさびしげで、声をかけたけど、にげてしまって。{br}　そ、そ、この写真の。{wait}	{spk:01}Workteka: "She looked strangely lonely. I called to her, but she ran off. Yes, yes, the one in this photo.{wait}	
+dlg:2000	text	rec:3846	149	{spk:01}　山おくに入って行きましたよ。{br}　あっちはなんにもないのに」{wait}	{spk:01}She went deep into the mountains. There's nothing out there."{wait}	
+dlg:2001	text	rec:3847	149	{spk:02}ユウキ「なんにもないことはないよ。{br}　山をこえたら、{br}　こけももの都がある―――」{wait}	{spk:02}Yuki: "It's not nothing. Over the mountains is Lingonberry Capital--"{wait}	
+dlg:2002	text	rec:3851	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「この写真の？{br}　かわいいねえ！{br}　どこに行けば会えるんです？{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "The one in this photo? Cute! Where can I meet her?{wait}	
+dlg:2003	text	rec:3852	149	{spk:01}　ま、ガサツなあたしなんか、相手にしてもらえないでしょうがねえ。{br}　がっはっは」{wait}	{spk:01}Well, a rough type like me wouldn't stand a chance. Gwa ha ha."{wait}	
+dlg:2004	text	rec:3853	149	{face:20115}{spk:03}トモミ「あなた、{br}『きさくなおじさんＭｋ．Ⅱ』ね。{br}　はじめて見たわ」{wait}	{face:20115}{spk:03}Tomomi: "You're a 'Friendly Uncle Mk. II', aren't you? First time I've seen one."{wait}	
+dlg:2005	text	rec:3856	149	{face:30203}{spk:04}ギリガン「これじゃ探したことにならんな。　また来ようぜ」{wait}	{face:30203}{spk:04}Gilligan: "This doesn't count as searching. Let's come back."{wait}	
+dlg:2006	text	rec:3862	149	{face:12402}{face:00606}{spk:01}署長「もしもし、ポイヤックか？{br}　ユウキ君たちはどこだ」{wait}	{face:12402}{face:00606}{spk:01}Chief: "Hello, Pauillac? Where are Yuki-kun's team?"{wait}	
+dlg:2007	text	rec:3863	149	{spk:02}ポイヤック「こけももの都に行きました」{wait}	{spk:02}Pauillac: "They went to Lingonberry Capital."{wait}	
+dlg:2008	text	rec:3864	149	{face:00607}{spk:01}署長「なにっ、あそこはやばいよ！{br}　なんで行かせたんだ、あっちじゃ指名手配されてるんだぞ・・・」{wait}	{face:00607}{spk:01}Chief: "What? That place is dangerous! Why did you let them go? They're wanted there..."{wait}	
+dlg:2009	text	rec:3868	149	{face:30303}{spk:04}ブランク「こんにちは」{wait}	{face:30303}{spk:04}Blank: "Hello."{wait}	
+dlg:2010	text	rec:3869	149	{face:01202}{spk:01}ワークテカ「あっ？！{br}　よそ者さんじゃないですか！{br}　しーっ、見つかりますよ」{wait}	{face:01202}{spk:01}Workteka: "Huh?! It's Mister Outsider! Shh, you'll be spotted."{wait}	
+dlg:2011	text	rec:3870	149	{face:30302}{spk:04}ブランク「この女の人を見てませんか」{wait}	{face:30302}{spk:04}Blank: "Have you seen this woman?"{wait}	
+dlg:2012	text	rec:3871	149	{spk:01}ワークテカ「ん、さあ。{br}　それよりこれどうです、{br}　『マーマーライト』。{br}　３０，０００でごほうし中」{wait}	{spk:01}Workteka: "Hm, no idea. More importantly, how about this? A 'Murmurlight'. A bargain at 30,000 yen."{wait}	
+dlg:2013	text	rec:3876	149	{face:20106}{spk:03}トモミ「ちょっと、{br}　あたしたち指名手配されてるのよっ、{br}　もどりましょ」{wait}	{face:20106}{spk:03}Tomomi: "Hey, we're wanted fugitives here! Let's go back."{wait}	
+dlg:2014	text	rec:3878	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「エミコさん、ここにいるのね」{wait}	{face:10001}{face:20104}{face:30201}{spk:03}Tomomi: "So Emiko-san is here."{wait}	
+dlg:2015	text	rec:3879	149	{face:30202}{spk:04}ギリガン「助け出そう。{br}{face:30207}　行くぞ、ユウキ！」{wait}	{face:30202}{spk:04}Gilligan: "Let's rescue her.{face:30207} Let's go, Yuki!"{wait}	
+dlg:2016	text	rec:3883	149	{face:10006}{spk:02}ユウキ「ここにいるのは分かっているんだ、助けるまでくりかえすよ！」{wait}	{face:10006}{spk:02}Yuki: "We know she's here. We'll keep at it until we rescue her!"{wait}	
+dlg:2017	text	rec:3886	149	{face:02001}{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「手あらいまねをしましたが、{br}　どうしても会いたい人がいます。	{face:02001}{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "Sorry for the rough treatment, but there's someone we must see.	
+dlg:2018	text	rec:3887	149	　保母テカの『エミコ』。ここにいますね」{wait}	The teacher Teka 'Emiko'. She's here, isn't she?"{wait}	
+dlg:2019	text	rec:3888	149	{face:02002}{spk:01}ポリステカ「あ・・・あれは、プログラムがこわれていて話が通じなくて、{br}『しゃくほう』しました」{wait}	{face:02002}{spk:01}Polisteka: "Oh... that one. Her program was broken and she made no sense, so we 'released' her."{wait}	
+dlg:2020	text	rec:3889	149	{face:10006}{spk:02}ユウキ「こわれて・・・？」{wait}	{face:10006}{spk:02}Yuki: "Broken...?"{wait}	
+dlg:2021	text	rec:3890	149	{spk:01}ポリステカ「私にはもう主人はいないとか、湖に身をなげて死のうと思ったとか、	{spk:01}Polisteka: "She only said strange things, like she had no master anymore,	
+dlg:2022	text	rec:3891	149	　変なことしか言わないから・・・」{wait}	or that she'd meant to throw herself in the lake and die..."{wait}	
+dlg:2023	text	rec:3892	149	{spk:02}ユウキ「テカの君には、彼女の言葉がりかいできないのはしかたがない。{wait}	{spk:02}Yuki: "I suppose a Teka like you can't understand what she meant.{wait}	
+dlg:2024	text	rec:3894	149	{spk:02}　でも、そう言っている彼女をほうり出したのかいっ！{br}　本当に自殺されたらどうするんだっ」{wait}	{spk:02}But you threw her out after she said that?! What if she really kills herself?!"{wait}	
+dlg:2025	text	rec:3895	149	{face:20106}{spk:03}トモミ「人間不信ね。{br}　子供が悪いことをたくらんだりするから、世の中が信じられなくなったんだわ」{wait}	{face:20106}{spk:03}Tomomi: "She's lost faith in humans. A child plotting evil made her stop believing in the world."{wait}	
+dlg:2026	text	rec:3896	149	{face:10007}{spk:02}ユウキ「はやく見つけなくちゃ・・・{br}　死にたいとまで思いつめた女性が、{br}　すくいをもとめる場所、どこだっ」{wait}	{face:10007}{spk:02}Yuki: "We have to find her fast... Where would a woman so desperate she wants to die go for help?"{wait}	
+dlg:2027	text	rec:3897	149	{face:30206}{spk:04}ギリガン「急ぐぞ、工場によってゲートだ、{face:30207}　それまでに考えておけ！」{wait}	{face:30206}{spk:04}Gilligan: "Hurry, the factory, then the gate!{face:30207} Think about it till then!"{wait}	
+dlg:2028	text	rec:3899	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「おや、おたずね者がみんなで」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "Oh, all the wanted ones together."{wait}	
+dlg:2029	text	rec:3900	149	{face:30207}{spk:04}ギリガン「かる口をたたくな、急ぐ！」{wait}	{face:30207}{spk:04}Gilligan: "Cut the wisecracks, we're in a hurry!"{wait}	
+dlg:2030	text	rec:3903	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「ユウキっ、こたえは出したかっ」{wait}	{face:10001}{face:20101}{face:30206}{spk:04}Gilligan: "Yuki, got an answer yet?"{wait}	
+dlg:2031	text	rec:3905	149	{face:10002}{spk:02}ユウキ「アプリコットだ！」{wait}	{face:10002}{spk:02}Yuki: "Apricot!"{wait}	
+dlg:2032	text	rec:3907	149	{face:10002}{spk:02}ユウキ「フランボワーズだ！」{wait}	{face:10002}{spk:02}Yuki: "Framboise!"{wait}	
+dlg:2033	text	rec:3909	149	{face:10002}{spk:02}ユウキ「カシスだ！」{wait}	{face:10002}{spk:02}Yuki: "Cassis!"{wait}	
+dlg:2034	text	rec:3911	149	{face:10002}{spk:02}ユウキ「マーマレードだ！」{wait}	{face:10002}{spk:02}Yuki: "Marmalade!"{wait}	
+dlg:2035	text	rec:3914	149	{face:30301}{face:01202}{spk:01}ワークテカ「お、買う気になりましたか。{br}　『マーマーライト』が３０，０００」{wait}	{face:30301}{face:01202}{spk:01}Workteka: "Oh, ready to buy? A 'Murmurlight' for 30,000 yen."{wait}	
+dlg:2036	text	rec:3916	149	{face:30303}{spk:04}ブランク「そんなに持ってません」{wait}	{face:30303}{spk:04}Blank: "I don't have that much."{wait}	
+dlg:2037	text	rec:3917	149	{spk:01}ワークテカ「びんぼうしてますねー。{br}　メンテ代ぐらいは持ってるでしょ？」{wait}	{spk:01}Workteka: "You're broke, huh. You've got maintenance money at least, right?"{wait}	
+dlg:2038	text	rec:3920	149	{face:30302}{spk:04}ブランク「いいでしょう、買います」{wait}	{face:30302}{spk:04}Blank: "All right, I'll buy it."{wait}	
+dlg:2039	text	rec:3921	149	{spk:01}ワークテカ「まいど♪」{wait}	{spk:01}Workteka: "Thank you!"{wait}	
+dlg:2040	text	rec:3924	149	右腕『マーマーライト』を{br}　手に入れました。{wait}	Got the right arm 'Murmurlight'.{wait}	
+dlg:2041	text	rec:3926	149	{spk:01}ワークテカ「じゃ今度はメンテ代かせがせてもらおかな」{wait}	{spk:01}Workteka: "Now let me earn some maintenance fees."{wait}	
+dlg:2042	text	rec:3928	149	{spk:01}ワークテカ「ちょこっとじょうほうも付けるから、どうです」{wait}	{spk:01}Workteka: "I'll throw in a little information. How about it?"{wait}	
+dlg:2043	text	rec:3930	149	{face:30302}{spk:04}ブランク「いいでしょう、買います。{br}　じょうほう教えてください」{wait}	{face:30302}{spk:04}Blank: "All right, I'll buy it. Tell me the information."{wait}	
+dlg:2044	text	rec:3931	149	{spk:01}ワークテカ「まいど♪」{wait}	{spk:01}Workteka: "Thank you!"{wait}	
+dlg:2045	text	rec:3934	149	右腕『マーマーライト』を{br}　手に入れました。{wait}	Got the right arm 'Murmurlight'.{wait}	
+dlg:2046	text	rec:3936	149	{spk:01}ワークテカ「あの保母テカね、『こけももけいしちょう』につかまってしまいましたよ。{br}　カンパチダムのほとりで」{wait}	{spk:01}Workteka: "That teacher Teka got caught by the 'Lingonberry Metropolitan Police'. By Kanpachi Dam."{wait}	
+dlg:2047	text	rec:3938	149	{face:30302}{spk:04}ブランク「えっ、なぜ？」{wait}	{face:30302}{spk:04}Blank: "What? Why?"{wait}	
+dlg:2048	text	rec:3939	149	{spk:01}ワークテカ「さあ、この町じゃわけもなくつかまったりするし。{br}　めずらしくはないですよ」{wait}	{spk:01}Workteka: "Who knows. In this town people get caught for no reason. It's nothing unusual."{wait}	
+dlg:2049	text	rec:3941	149	{spk:01}ワークテカ「あ、じょうほうもいらないと。　メンテ代ぐらいはかせがせてくださいよ」{wait}	{spk:01}Workteka: "Ah, you don't want the information either. At least let me earn maintenance fees."{wait}	
+dlg:2050	text	rec:3943	149	{face:01202}{spk:01}ワークテカ「まいど、よそ者さん」{wait}	{face:01202}{spk:01}Workteka: "Thank you, Mister Outsider."{wait}	
+dlg:2051	text	rec:3946	149	{face:30206}{spk:04}ギリガン「どこに行く気だ。{br}　どうせなら、とくべつ警察に礼をしに行こうぜ」{wait}	{face:30206}{spk:04}Gilligan: "Where are ya going? While we're here, let's go pay the special police back."{wait}	
+dlg:2052	text	rec:3951	149	{face:30210}{spk:04}ギリガン「さあ、おどかしてくれた礼はたっぷりするぜ！」{wait}	{face:30210}{spk:04}Gilligan: "Now, I'll pay ya back plenty for scaring me!"{wait}	
+dlg:2053	text	rec:3954	149	{face:10001}{face:20101}{face:30204}{spk:04}ギリガン「ざまあ見ろ。これにこりて、もう市民をいじめるんじゃねえぞ。{br}　一件らくちゃく！」{wait}	{face:10001}{face:20101}{face:30204}{spk:04}Gilligan: "Serves ya right. Learn your lesson and quit bullying citizens. Case closed!"{wait}	
+dlg:2054	text	rec:3955	149	{face:20115}{spk:03}トモミ「ギリガン、もくてきわすれてない？」{wait}	{face:20115}{spk:03}Tomomi: "Gilligan, haven't you forgotten why we're here?"{wait}	
+dlg:2055	text	rec:3959	149	{face:01202}{spk:01}ワークテカ「この写真の保母さん、{br}　見ましたよ、ダムのほとりで。{wait}	{face:01202}{spk:01}Workteka: "The teacher in this photo? I saw her, by the dam.{wait}	
+dlg:2056	text	rec:3960	149	{spk:01}　かわいそうに、こけもも警察につかまってしまってねえ。{wait}	{spk:01}Poor thing, she got caught by the Lingonberry police.{wait}	
+dlg:2057	text	rec:3961	149	{spk:01}　今ごろ『こけももけいしちょう』にいるんでしょうね。{br}　いじめられてなければいいけど」{wait}	{spk:01}She must be at the 'Lingonberry Metropolitan Police' now. I hope they're not bullying her."{wait}	
+dlg:2058	text	rec:3967	149	{face:00502}{spk:01}市長「どうしたユウキ君、あわてて」{wait}	{face:00502}{spk:01}Mayor: "What is it, Yuki-kun? You're in a rush."{wait}	
+dlg:2059	text	rec:3969	149	{face:10002}{face:00603}{spk:01}署長「ユウキ君！{br}　こけももでは平気だったのか」{wait}	{face:10002}{face:00603}{spk:01}Chief: "Yuki-kun! Were you all right in Lingonberry?"{wait}	
+dlg:2060	text	rec:3970	149	{spk:02}ユウキ「エミコさんは来ませんでしたか？{br}　自分から来たかもと思ったのですが」{wait}	{spk:02}Yuki: "Did Emiko-san come here? I thought she might have come on her own."{wait}	
+dlg:2061	text	rec:3971	149	{spk:01}署長「え？　いや、きていないが・・・」{wait}	{spk:01}Chief: "Eh? No, she hasn't come..."{wait}	
+dlg:2062	text	rec:3973	149	{face:00401}{face:10002}{spk:02}ユウキ「教官、エミコさんがぼくたちに会いに来ませんでしたか？」{wait}	{face:00401}{face:10002}{spk:02}Yuki: "Instructor, did Emiko-san come to see us?"{wait}	
+dlg:2063	text	rec:3974	149	{face:00402}{spk:01}ポイヤック「いえ、きてませんが」{wait}	{face:00402}{spk:01}Pauillac: "No, she has not."{wait}	
+dlg:2064	text	rec:3976	149	{face:30207}{spk:04}ギリガン「おいっ、エミコが子供たちに会いに来なかったか？！」{wait}	{face:30207}{spk:04}Gilligan: "Hey, did Emiko come to see the children?!"{wait}	
+dlg:2065	text	rec:3977	149	{face:02502}{spk:01}保母マイコ「えっ、い、いえ」{wait}	{face:02502}{spk:01}Teacher Maiko: "Eh? N-no."{wait}	
+dlg:2066	text	rec:3979	149	{face:01003}{spk:01}リアナ「ブランク様はあ？！{br}　え、いそがしい？」{wait}	{face:01003}{spk:01}Riana: "Where's Blank-sama?! What, he's busy?"{wait}	
+dlg:2067	text	rec:3981	149	{face:01202}{spk:01}ワークテカ「ごくろうさまです・・・{br}　なにを急いでいるんです？」{wait}	{face:01202}{spk:01}Workteka: "Thanks for your hard work... What's the rush?"{wait}	
+dlg:2068	text	rec:3984	149	{face:20104}{spk:03}トモミ「シティの中にはいないの？」{wait}	{face:20104}{spk:03}Tomomi: "She's not in the City?"{wait}	
+dlg:2069	text	rec:3991	149	{face:10002}{spk:02}ユウキ「反乱はここから始まった。エミコさんがくる理由があるかもしれない」{wait}	{face:10002}{spk:02}Yuki: "The revolt started here. Emiko-san may have a reason to come."{wait}	
+dlg:2070	text	rec:3994	149	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}みーちゃん「保母さん？{br}　来ませんでしたけどー」{wait}	{face:10001}{face:20101}{face:30201}{face:01402}{spk:01}Mii-chan: "A teacher? She didn't come."{wait}	
+dlg:2071	text	rec:3995	149	{face:20115}{spk:03}トモミ「はずれ」{wait}	{face:20115}{spk:03}Tomomi: "Wrong."{wait}	
+dlg:2072	text	rec:3997	149	{face:10002}{spk:02}ユウキ「またサンナナの墓まいりをしに来たかのうせいはある」{wait}	{face:10002}{spk:02}Yuki: "She may have come to visit Sannana's grave again."{wait}	
+dlg:2073	text	rec:4000	149	{face:01202}{spk:01}ワークテカ「あれからは見てませんが？」{wait}	{face:01202}{spk:01}Workteka: "Haven't seen her since then."{wait}	
+dlg:2074	text	rec:4002	149	{face:10002}{spk:02}ユウキ「人間不信なんだ、だれもいない海に出ようとしたかもしれない」{wait}	{face:10002}{spk:02}Yuki: "She's lost faith in humans. She may have tried to go out to the empty sea."{wait}	
+dlg:2075	text	rec:4005	149	{face:01202}{spk:01}ワークテカ「かわいい保母テカですか、{br}　来ませんでしたねえ」{wait}	{face:01202}{spk:01}Workteka: "A cute teacher Teka? She didn't come."{wait}	
 dlg:2076	text	rec:4011	149	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}ポリステカ「テカに化けた人間をつかまえてみると、ほんもののテカとすりかわってしまうんです。	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}Polisteka: "When we catch the humans disguised as Teka, they get swapped with real Teka.	
 dlg:2077	text	rec:4012	149	　どういう手品でしょう？」{wait}	What kind of magic trick is that?"{wait}	
-dlg:2078	text	rec:4013	149	{face:20115}{spk:03}トモミ「ボケにつきあっているヒマはないのよ；」{wait}		
-dlg:2079	text	rec:4015	149	{face:10002}{spk:02}ユウキ「博士の目をのがれるのに、かいぞうしてもらおうと考えたかもしれない。{br}　それならこういうとこかも」{wait}		
-dlg:2080	text	rec:4016	149	{face:01602}{spk:01}バンクテカ「は、９７年型エリーゼタイプ？{br}　いえ、きてませんよ」{wait}		
-dlg:2081	text	rec:4022	149	{face:10002}{spk:02}ユウキ「もしこのシティにいるなら、{br}　反乱にまきこまれている、ということも」{wait}		
-dlg:2082	text	rec:4025	149	{face:00303}{spk:01}ブランク「よくさがしたんですが・・・」{wait}		
-dlg:2083	text	rec:4027	149	{face:20104}{spk:03}トモミ「このシティの中にはいないの？」{wait}		
-dlg:2084	text	rec:4035	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「なんでここにいると思うのよ？」{wait}		
-dlg:2085	text	rec:4036	149	{face:10006}{spk:02}ユウキ「こうなりゃしらみつぶしだ」{wait}		
-dlg:2086	text	rec:4039	149	{face:20106}{spk:03}トモミ「やっぱりいないじゃない」{wait}		
-dlg:2087	text	rec:4041	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「なんで海上油田に？」{wait}		
-dlg:2088	text	rec:4042	149	{face:10006}{spk:02}ユウキ「さがせるところは全部さがす！」{wait}		
-dlg:2089	text	rec:4045	149	{face:30205}{spk:04}ギリガン「いるわけねーだろっ」{wait}		
-dlg:2090	text	rec:4050	149	{face:10001}{face:01702}{spk:01}モーデル将軍「どうした、けっそうかえて」{wait}		
-dlg:2091	text	rec:4051	149	{face:10002}{spk:02}ユウキ「世の中にあいそをつかした保母テカが、軍に入ろうとしたなんてことが・・・」{wait}		
-dlg:2092	text	rec:4052	149	{spk:01}将軍「保母テカを兵士になぞしない」{wait}		
-dlg:2093	text	rec:4053	149	{spk:02}ユウキ「『じゅうぐんかんごふ』のようなやくわりもあるかと。{br}　きていませんか」{wait}		
-dlg:2094	text	rec:4054	149	{spk:01}将軍「きていないし、私とてそこまで非道ではない。{wait}		
-dlg:2095	text	rec:4055	149	{spk:01}　保母テカには、子供を教え育てるという、りっぱな仕事がある。{br}　それをすてさせたりはしない」{wait}		
-dlg:2096	text	rec:4056	149	{spk:02}ユウキ「―――しつれいしました」{wait}		
-dlg:2097	text	rec:4059	149	{face:01702}{spk:01}モーデル将軍「保母テカはきておらんぞ」{wait}		
-dlg:2098	text	rec:4062	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「軍のはらい下げセール！{br}　対地ショットガンが１５，０００！」{wait}		
-dlg:2099	text	rec:4066	149	{face:30206}{spk:04}ギリガン「ほしいのはやまやまだが、それどころじゃねえ」{wait}		
-dlg:2100	text	rec:4068	149	{face:30204}{spk:04}ギリガン「買った！」{wait}		
-dlg:2101	text	rec:4071	149	左腕『対地ショットガン』を{br}　手に入れました。{wait}		
-dlg:2102	text	rec:4077	149	{face:30202}{spk:04}ギリガン「このシティにはいねえのか」{wait}		
-dlg:2103	text	rec:4085	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「死ぬくらいなら平和のために戦ってと考えたり」{wait}		
-dlg:2104	text	rec:4086	149	{face:20106}{spk:03}トモミ「するかしら、保母さんが」{wait}		
-dlg:2105	text	rec:4089	149	{face:01802}{spk:01}反対派「保母テカ？　そんな人来てません、　ここは工場なんですよ」{wait}		
-dlg:2106	text	rec:4090	149	{face:30206}{spk:04}ギリガン「工場？　兵器庫だろ」{wait}		
-dlg:2107	text	rec:4091	149	{spk:01}反対派「工場ったら工場です。{br}　兵器庫になんかさせません」{wait}		
-dlg:2108	text	rec:4093	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「保母テカはやさしいテカだ、{br}　戦争を見たらやめさせようとするかも」{wait}		
-dlg:2109	text	rec:4094	149	{face:30205}{spk:04}ギリガン「じつは手あたりしだいさがしてるだけだろ？」{wait}		
-dlg:2110	text	rec:4097	149	{face:10001}{face:30201}{face:20115}{spk:03}トモミ「いないわね」{wait}		
-dlg:2111	text	rec:4098	149	{face:10012}{spk:02}ユウキ「やっぱり、保母さんが戦場にいるわけないか」{wait}		
-dlg:2112	text	rec:4099	149	{face:30207}{spk:04}ギリガン「そう思ってんなら、{br}　はじめっからくるな！」{wait}		
-dlg:2113	text	rec:4103	149	{face:10001}{face:20101}{face:30201}{face:02702}{spk:01}ポリジェンヌ「まだ新しい市長は決まっておりません」{wait}		
-dlg:2114	text	rec:4104	149	{face:20105}{spk:03}トモミ「あ、２５号のニイコじゃない、{br}　ひさしぶりー」{wait}		
-dlg:2115	text	rec:4105	149	{spk:01}ポリジェンヌ「お会いしたことがありましたか？」{wait}		
-dlg:2116	text	rec:4107	149	{spk:03}トモミ「へ・・・」{wait}		
+dlg:2078	text	rec:4013	149	{face:20115}{spk:03}トモミ「ボケにつきあっているヒマはないのよ；」{wait}	{face:20115}{spk:03}Tomomi: "We don't have time to play along with your jokes."{wait}	
+dlg:2079	text	rec:4015	149	{face:10002}{spk:02}ユウキ「博士の目をのがれるのに、かいぞうしてもらおうと考えたかもしれない。{br}　それならこういうとこかも」{wait}	{face:10002}{spk:02}Yuki: "To escape the Doctor's eyes, she may have thought of getting converted. Then maybe a place like this."{wait}	
+dlg:2080	text	rec:4016	149	{face:01602}{spk:01}バンクテカ「は、９７年型エリーゼタイプ？{br}　いえ、きてませんよ」{wait}	{face:01602}{spk:01}Bankteka: "A '97 Elise type? No, she hasn't come."{wait}	
+dlg:2081	text	rec:4022	149	{face:10002}{spk:02}ユウキ「もしこのシティにいるなら、{br}　反乱にまきこまれている、ということも」{wait}	{face:10002}{spk:02}Yuki: "If she's in this City, she might be caught up in the revolt."{wait}	
+dlg:2082	text	rec:4025	149	{face:00303}{spk:01}ブランク「よくさがしたんですが・・・」{wait}	{face:00303}{spk:01}Blank: "I searched carefully, but..."{wait}	
+dlg:2083	text	rec:4027	149	{face:20104}{spk:03}トモミ「このシティの中にはいないの？」{wait}	{face:20104}{spk:03}Tomomi: "She's not in this City?"{wait}	
+dlg:2084	text	rec:4035	149	{face:10001}{face:20104}{face:30201}{spk:03}トモミ「なんでここにいると思うのよ？」{wait}	{face:10001}{face:20104}{face:30201}{spk:03}Tomomi: "Why would you think she's here?"{wait}	
+dlg:2085	text	rec:4036	149	{face:10006}{spk:02}ユウキ「こうなりゃしらみつぶしだ」{wait}	{face:10006}{spk:02}Yuki: "Now we search every inch."{wait}	
+dlg:2086	text	rec:4039	149	{face:20106}{spk:03}トモミ「やっぱりいないじゃない」{wait}	{face:20106}{spk:03}Tomomi: "See, she's not here."{wait}	
+dlg:2087	text	rec:4041	149	{face:10001}{face:20101}{face:30206}{spk:04}ギリガン「なんで海上油田に？」{wait}	{face:10001}{face:20101}{face:30206}{spk:04}Gilligan: "Why the oil rig?"{wait}	
+dlg:2088	text	rec:4042	149	{face:10006}{spk:02}ユウキ「さがせるところは全部さがす！」{wait}	{face:10006}{spk:02}Yuki: "We search everywhere we can!"{wait}	
+dlg:2089	text	rec:4045	149	{face:30205}{spk:04}ギリガン「いるわけねーだろっ」{wait}	{face:30205}{spk:04}Gilligan: "There's no way she's here!"{wait}	
+dlg:2090	text	rec:4050	149	{face:10001}{face:01702}{spk:01}モーデル将軍「どうした、けっそうかえて」{wait}	{face:10001}{face:01702}{spk:01}General Mordel: "What is it? You look desperate."{wait}	
+dlg:2091	text	rec:4051	149	{face:10002}{spk:02}ユウキ「世の中にあいそをつかした保母テカが、軍に入ろうとしたなんてことが・・・」{wait}	{face:10002}{spk:02}Yuki: "A teacher Teka fed up with the world might have tried to join the army..."{wait}	
+dlg:2092	text	rec:4052	149	{spk:01}将軍「保母テカを兵士になぞしない」{wait}	{spk:01}General: "We don't make teacher Teka into soldiers."{wait}	
+dlg:2093	text	rec:4053	149	{spk:02}ユウキ「『じゅうぐんかんごふ』のようなやくわりもあるかと。{br}　きていませんか」{wait}	{spk:02}Yuki: "I thought there might be roles like 'army nurse'. Has she come?"{wait}	
+dlg:2094	text	rec:4054	149	{spk:01}将軍「きていないし、私とてそこまで非道ではない。{wait}	{spk:01}General: "She has not, and I'm not that heartless.{wait}	
+dlg:2095	text	rec:4055	149	{spk:01}　保母テカには、子供を教え育てるという、りっぱな仕事がある。{br}　それをすてさせたりはしない」{wait}	{spk:01}A teacher Teka has the fine job of teaching and raising children. I wouldn't make her give it up."{wait}	
+dlg:2096	text	rec:4056	149	{spk:02}ユウキ「―――しつれいしました」{wait}	{spk:02}Yuki: "--Excuse me."{wait}	
+dlg:2097	text	rec:4059	149	{face:01702}{spk:01}モーデル将軍「保母テカはきておらんぞ」{wait}	{face:01702}{spk:01}General Mordel: "No teacher Teka has come here."{wait}	
+dlg:2098	text	rec:4062	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「軍のはらい下げセール！{br}　対地ショットガンが１５，０００！」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "Army surplus sale! Anti-Ground Shotgun for 15,000 yen!"{wait}	
+dlg:2099	text	rec:4066	149	{face:30206}{spk:04}ギリガン「ほしいのはやまやまだが、それどころじゃねえ」{wait}	{face:30206}{spk:04}Gilligan: "I'd love one, but this is no time for that."{wait}	
+dlg:2100	text	rec:4068	149	{face:30204}{spk:04}ギリガン「買った！」{wait}	{face:30204}{spk:04}Gilligan: "Sold!"{wait}	
+dlg:2101	text	rec:4071	149	左腕『対地ショットガン』を{br}　手に入れました。{wait}	Got the left arm 'Anti-Ground Shotgun'.{wait}	
+dlg:2102	text	rec:4077	149	{face:30202}{spk:04}ギリガン「このシティにはいねえのか」{wait}	{face:30202}{spk:04}Gilligan: "She ain't in this City?"{wait}	
+dlg:2103	text	rec:4085	149	{face:20101}{face:30201}{face:10012}{spk:02}ユウキ「死ぬくらいなら平和のために戦ってと考えたり」{wait}	{face:20101}{face:30201}{face:10012}{spk:02}Yuki: "She might think, rather than die, she'd fight for peace."{wait}	
+dlg:2104	text	rec:4086	149	{face:20106}{spk:03}トモミ「するかしら、保母さんが」{wait}	{face:20106}{spk:03}Tomomi: "Would a teacher do that?"{wait}	
+dlg:2105	text	rec:4089	149	{face:01802}{spk:01}反対派「保母テカ？　そんな人来てません、　ここは工場なんですよ」{wait}	{face:01802}{spk:01}Opposition: "A teacher Teka? No one like that came. This is a factory."{wait}	
+dlg:2106	text	rec:4090	149	{face:30206}{spk:04}ギリガン「工場？　兵器庫だろ」{wait}	{face:30206}{spk:04}Gilligan: "A factory? It's an arsenal."{wait}	
+dlg:2107	text	rec:4091	149	{spk:01}反対派「工場ったら工場です。{br}　兵器庫になんかさせません」{wait}	{spk:01}Opposition: "A factory is a factory. I won't let it become an arsenal."{wait}	
+dlg:2108	text	rec:4093	149	{face:20101}{face:30201}{face:10002}{spk:02}ユウキ「保母テカはやさしいテカだ、{br}　戦争を見たらやめさせようとするかも」{wait}	{face:20101}{face:30201}{face:10002}{spk:02}Yuki: "Teacher Teka are kind. If she saw a war, she might try to stop it."{wait}	
+dlg:2109	text	rec:4094	149	{face:30205}{spk:04}ギリガン「じつは手あたりしだいさがしてるだけだろ？」{wait}	{face:30205}{spk:04}Gilligan: "You're really just searching at random, ain't ya?"{wait}	
+dlg:2110	text	rec:4097	149	{face:10001}{face:30201}{face:20115}{spk:03}トモミ「いないわね」{wait}	{face:10001}{face:30201}{face:20115}{spk:03}Tomomi: "She's not here."{wait}	
+dlg:2111	text	rec:4098	149	{face:10012}{spk:02}ユウキ「やっぱり、保母さんが戦場にいるわけないか」{wait}	{face:10012}{spk:02}Yuki: "I guess a teacher wouldn't be on a battlefield after all."{wait}	
+dlg:2112	text	rec:4099	149	{face:30207}{spk:04}ギリガン「そう思ってんなら、{br}　はじめっからくるな！」{wait}	{face:30207}{spk:04}Gilligan: "If ya thought so, don't come in the first place!"{wait}	
+dlg:2113	text	rec:4103	149	{face:10001}{face:20101}{face:30201}{face:02702}{spk:01}ポリジェンヌ「まだ新しい市長は決まっておりません」{wait}	{face:10001}{face:20101}{face:30201}{face:02702}{spk:01}Polijenne: "The new mayor has not been decided yet."{wait}	
+dlg:2114	text	rec:4104	149	{face:20105}{spk:03}トモミ「あ、２５号のニイコじゃない、{br}　ひさしぶりー」{wait}	{face:20105}{spk:03}Tomomi: "Oh, if it isn't No. 25, Niiko! Long time no see!"{wait}	
+dlg:2115	text	rec:4105	149	{spk:01}ポリジェンヌ「お会いしたことがありましたか？」{wait}	{spk:01}Polijenne: "Have we met?"{wait}	
+dlg:2116	text	rec:4107	149	{spk:03}トモミ「へ・・・」{wait}	{spk:03}Tomomi: "Huh..."{wait}	
 dlg:2117	text	rec:4108	149	{face:30203}{spk:04}ギリガン「教育しなおしたんだ、おぼえてねえってよ」{wait}		
 dlg:2118	text	rec:4110	149	{face:10002}{spk:02}ユウキ「ここがまだ女性上位のシティだと思ってたら、エミコさんがたよってくるかのうせいはある」{wait}		
 dlg:2119	text	rec:4111	149	{spk:01}ポリジェンヌ「この写真の？{br}　いえ、きておられません」{wait}		

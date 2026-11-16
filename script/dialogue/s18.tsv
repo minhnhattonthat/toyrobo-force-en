@@ -1,23 +1,23 @@
 id	kind	where	max	jp	en	notes
-dlg:1945	text	rec:3749	149	{face:10009}{spk:02}ユウキ「はい、ユウキ」{wait}		
-dlg:1946	text	rec:3750	149	通信「ギリガンだ。{br}　３号そうびのてんけんはすんだ」{wait}		
-dlg:1947	text	rec:3751	149	{spk:02}ユウキ「じゃあ、８号そうびもおねがい」{wait}		
-dlg:1948	text	rec:3752	149	通信「人づかいがあらいぞ」{wait}		
-dlg:1949	text	rec:3757	149	{spk:02}ユウキ「はい、ユウキ」{wait}		
-dlg:1950	text	rec:3758	149	通信「トモミよ。かいだし終わり。{br}　ケーキ屋によるけど、なんかほしい？」{wait}		
-dlg:1951	text	rec:3759	149	{spk:02}ユウキ「イチゴのショート」{wait}		
-dlg:1952	text	rec:3760	149	通信「おっけ」{wait}		
-dlg:1953	text	rec:3765	149	{spk:02}ユウキ「はい、ユウキ」{wait}		
-dlg:1954	text	rec:3766	149	通信「わしじゃ。分かるな」{wait}		
-dlg:1955	text	rec:3768	149	{face:10010}{spk:02}ユウキ「？！」{wait}		
-dlg:1956	text	rec:3769	149	ゲオルグ博士「おどろいておるのか？{br}　警察むせんにわりこむくらいわけないぞ。{br}　聞きたいことがある。{wait}		
-dlg:1957	text	rec:3770	149	　９７年型エリーゼタイプ、{br}　しょくぎょうは保母、{br}　名前はエミコ。{br}　知らんか？」{wait}		
-dlg:1958	text	rec:3771	149	{face:10009}{spk:02}ユウキ「―――なんのことです」{wait}		
-dlg:1959	text	rec:3772	149	博士「だいじな身内だが、マーマレードを　にげだすときに、はぐれてな。{br}　お前さんにつかまったかもしれんと」{wait}		
-dlg:1960	text	rec:3773	149	{spk:02}ユウキ「身内ですか。ざんねんながら」{wait}		
-dlg:1961	text	rec:3774	149	博士「そっちにいるなら、取り引きにおうじてでも取り返したいんじゃ。{br}　孫のだいじなガールフレンドでね。{wait}		
-dlg:1962	text	rec:3775	149	　テカの反乱を今の半分にしてやろう。{br}　どうじゃ」{wait}		
-dlg:1963	text	rec:3776	149	{spk:02}ユウキ「半分に。{br}　こっちにいるなら、返してでもおうじたい取り引きですが。{br}　ざんねんながら」{wait}		
-dlg:1964	text	rec:3777	149	博士「・・・そうか。じゃまをした」{wait}		
-dlg:1965	text	rec:3778	149	{face:10010}{spk:02}ユウキ「切るな、まて！」{wait}		
-dlg:1966	text	rec:3781	149	{spk:02}ユウキ「・・・トモミ！　ギリガン！{br}　集合！　おもしろいことになった、{br}{face:10009}　いそがしくなるよ！」{wait}		
+dlg:1945	text	rec:3749	149	{face:10009}{spk:02}ユウキ「はい、ユウキ」{wait}	{face:10009}{spk:02}Yuki: "Yes, Yuki here."{wait}	
+dlg:1946	text	rec:3750	149	通信「ギリガンだ。{br}　３号そうびのてんけんはすんだ」{wait}	Radio: "It's Gilligan. Inspection of Equipment No. 3 is done."{wait}	
+dlg:1947	text	rec:3751	149	{spk:02}ユウキ「じゃあ、８号そうびもおねがい」{wait}	{spk:02}Yuki: "Then do Equipment No. 8 too, please."{wait}	
+dlg:1948	text	rec:3752	149	通信「人づかいがあらいぞ」{wait}	Radio: "You work me like a dog."{wait}	
+dlg:1949	text	rec:3757	149	{spk:02}ユウキ「はい、ユウキ」{wait}	{spk:02}Yuki: "Yes, Yuki here."{wait}	
+dlg:1950	text	rec:3758	149	通信「トモミよ。かいだし終わり。{br}　ケーキ屋によるけど、なんかほしい？」{wait}	Radio: "It's Tomomi. Shopping's done. I'm stopping at the cake shop. Want anything?"{wait}	
+dlg:1951	text	rec:3759	149	{spk:02}ユウキ「イチゴのショート」{wait}	{spk:02}Yuki: "Strawberry shortcake."{wait}	
+dlg:1952	text	rec:3760	149	通信「おっけ」{wait}	Radio: "Okay."{wait}	
+dlg:1953	text	rec:3765	149	{spk:02}ユウキ「はい、ユウキ」{wait}	{spk:02}Yuki: "Yes, Yuki here."{wait}	
+dlg:1954	text	rec:3766	149	通信「わしじゃ。分かるな」{wait}	Radio: "It's me. You know who."{wait}	
+dlg:1955	text	rec:3768	149	{face:10010}{spk:02}ユウキ「？！」{wait}	{face:10010}{spk:02}Yuki: "?!"{wait}	
+dlg:1956	text	rec:3769	149	ゲオルグ博士「おどろいておるのか？{br}　警察むせんにわりこむくらいわけないぞ。{br}　聞きたいことがある。{wait}	Dr. Georg: "Surprised? Cutting into police radio is nothing. I have a question.{wait}	
+dlg:1957	text	rec:3770	149	　９７年型エリーゼタイプ、{br}　しょくぎょうは保母、{br}　名前はエミコ。{br}　知らんか？」{wait}	A '97 Elise type, a daycare teacher by trade, named Emiko. Do you know her?"{wait}	
+dlg:1958	text	rec:3771	149	{face:10009}{spk:02}ユウキ「―――なんのことです」{wait}	{face:10009}{spk:02}Yuki: "--What are you talking about?"{wait}	
+dlg:1959	text	rec:3772	149	博士「だいじな身内だが、マーマレードを　にげだすときに、はぐれてな。{br}　お前さんにつかまったかもしれんと」{wait}	Doctor: "She's dear family, but we got separated fleeing Marmalade. I thought you might have caught her."{wait}	
+dlg:1960	text	rec:3773	149	{spk:02}ユウキ「身内ですか。ざんねんながら」{wait}	{spk:02}Yuki: "Family? Unfortunately..."{wait}	
+dlg:1961	text	rec:3774	149	博士「そっちにいるなら、取り引きにおうじてでも取り返したいんじゃ。{br}　孫のだいじなガールフレンドでね。{wait}	Doctor: "If she's with you, I'd even make a deal to get her back. She's my grandson's dear girlfriend.{wait}	
+dlg:1962	text	rec:3775	149	　テカの反乱を今の半分にしてやろう。{br}　どうじゃ」{wait}	I'll cut the Teka revolts by half. How about it?"{wait}	
+dlg:1963	text	rec:3776	149	{spk:02}ユウキ「半分に。{br}　こっちにいるなら、返してでもおうじたい取り引きですが。{br}　ざんねんながら」{wait}	{spk:02}Yuki: "By half. If she were here, I'd gladly hand her over for that deal. Unfortunately..."{wait}	
+dlg:1964	text	rec:3777	149	博士「・・・そうか。じゃまをした」{wait}	Doctor: "...I see. Sorry to bother you."{wait}	
+dlg:1965	text	rec:3778	149	{face:10010}{spk:02}ユウキ「切るな、まて！」{wait}	{face:10010}{spk:02}Yuki: "Don't hang up, wait!"{wait}	
+dlg:1966	text	rec:3781	149	{spk:02}ユウキ「・・・トモミ！　ギリガン！{br}　集合！　おもしろいことになった、{br}{face:10009}　いそがしくなるよ！」{wait}	{spk:02}Yuki: "...Tomomi! Gilligan! Assemble! Things just got interesting.{face:10009} We'll be busy!"{wait}	

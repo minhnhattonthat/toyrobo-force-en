@@ -316,7 +316,7 @@ dlg:2710	text	rec:5048	149	{face:10003}{spk:14}ユウキ「高いなあ・・・
 dlg:2711	text	rec:5053	149	オプション『パワーシールド』を{br}　手に入れました。{wait}	Got the option 'Power Shield'.{wait}	
 dlg:2712	text	rec:5054	149	{spk:01}バンクテカ「ついでに、これもどうです。　パソコプのスピードアップ。{br}　１ヶ１０，０００」{wait}		
 dlg:2713	text	rec:5056	149	{spk:01}バンクテカ「じゃあ、これはどうです。{br}　パソコプのスピードアップ。{br}　これなら、１ヶ１０，０００」{wait}		
-dlg:2714	text	rec:5057	149	{face:30204}{spk:04}ギリガン「買った！」{wait}		
+dlg:2714	text	rec:5057	149	{face:30204}{spk:04}ギリガン「買った！」{wait}	{face:30204}{spk:04}Gilligan: "Sold!"{wait}	
 dlg:2715	text	rec:5058	149	{face:20115}{spk:03}トモミ「かってに買うなっての」{wait}		
 dlg:2716	text	rec:5063	149	オプション『スピードアップ』を{br}　手に入れました。{wait}		
 dlg:2717	text	rec:5064	149	{spk:01}バンクテカ「はい、どうぞ。{br}　在庫はたっぷりありますからね、{br}　また買ってください」{wait}		
@@ -513,11 +513,11 @@ dlg:2907	text	rec:5465	149	{face:10004}{spk:02}ユウキ「今日は、カレー
 dlg:2908	text	rec:5466	149	{face:20107}{spk:03}トモミ「あたしはアップルパイにぃ、{br}　バームクーヘンにぃ・・・」{wait}		
 dlg:2909	text	rec:5467	149	{face:30205}{spk:04}ギリガン「お子様が・・・；」{wait}		
 dlg:2910	text	rec:5476	149	{face:01802}{spk:01}反対派「対空パワーアップ作ってるんです。　お一つ買っていきます？{br}　２０，０００の一割引、１８，０００」{wait}		
-dlg:2911	text	rec:5483	149	{face:01202}{spk:01}ワークテカ「まいど、よそ者さん」{wait}		
+dlg:2911	text	rec:5483	149	{face:01202}{spk:01}ワークテカ「まいど、よそ者さん」{wait}	{face:01202}{spk:01}Workteka: "Thank you, Mister Outsider."{wait}	
 dlg:2912	text	rec:5494	149	{face:01302}{spk:01}ポリステカ「男女さべつのない、{br}　正しい町にしていこうと思っています」{wait}		
 dlg:2913	text	rec:5496	149	{face:20101}{face:01302}{spk:01}ポリステカ「われら男性型ポリステカ一同、トモミ署長のためなら{br}　命もかける決意でしたのに」{wait}		
 dlg:2914	text	rec:5497	149	{face:20105}{spk:03}トモミ「やっぱり、{br}　ここの署長やろうかなあ♪」{wait}		
-dlg:2915	text	rec:5499	149	{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの英雄一同！」{wait}		
+dlg:2915	text	rec:5499	149	{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの英雄一同！」{wait}	{face:01202}{spk:01}Workteka: "Ah, the heroes of the Marmalade Revolution!"{wait}	
 dlg:2916	text	rec:5505	149	{face:02602}{spk:01}マーケテカ「当ホテルをご利用ですか？{br}　こちらにお名前とご住所を」{wait}		
 dlg:2917	text	rec:5506	149	{face:10012}{spk:02}ユウキ「・・・もしかして、秘書テカだったジェーン？」{wait}		
 dlg:2918	text	rec:5507	149	{spk:01}マーケテカ「は？」{wait}		

@@ -1,32 +1,32 @@
 id	kind	where	max	jp	en	notes
-dlg:1914	text	rec:3688	149	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}ポリステカ「秘書のジェーンは、工場に送られました。{br}　ここにはだれもいません」{wait}		
-dlg:1915	text	rec:3689	149	{face:10002}{spk:02}ユウキ「ポリジェンヌは？」{wait}		
-dlg:1916	text	rec:3690	149	{spk:01}ポリステカ「さい教育プログラム中です。{br}　やさしい婦警さんになってくれるといいんですが」{wait}		
-dlg:1917	text	rec:3692	149	{face:20101}{face:01302}{spk:01}ポリステカ「署長をおやめに？{br}　ポリステカ一同、トモミ署長のためなら、命までかける決意でしたのに」{wait}		
-dlg:1918	text	rec:3693	149	{face:20107}{spk:03}トモミ「・・・やっぱり、ここの署長やろうかなあ♪」{wait}		
-dlg:1919	text	rec:3695	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの　英雄一同！{br}　ありがとうございました」{wait}		
-dlg:1920	text	rec:3696	149	{face:30203}{spk:04}ギリガン「・・・バレンシア通りの電信柱、全部おったのだれか、知っているか？」{wait}		
-dlg:1921	text	rec:3697	149	{spk:01}ワークテカ「ひどいやつがいますねえ。{br}　だれです」{wait}		
-dlg:1922	text	rec:3698	149	{face:30207}{spk:04}ギリガン「て・め・え・だ！」{wait}		
-dlg:1923	text	rec:3701	149	{face:10001}{face:30201}{face:20112}{spk:03}トモミ「ジェーン、秘書テカから普通のマーケテカに改造されるらしいわ」{wait}		
-dlg:1924	text	rec:3702	149	{face:30210}{spk:04}ギリガン「そりゃあいい。{br}　平和な暮らしが待ってるだろうぜ」{wait}		
-dlg:1925	text	rec:3703	149	{face:10010}{spk:02}ユウキ「僕たちも、はやく博士をつかまえて平和な暮らしをしよう。{br}　さあ、出撃だ！」{wait}		
-dlg:1926	text	rec:3708	149	通信「海岸上空２００メートルです・・・{br}　見えます見えます、沖にでっかい船が」{wait}		
-dlg:1927	text	rec:3709	149	{face:10009}{face:20101}{face:30201}{spk:02}ユウキ「もぬけのから、かもしれないけど」{wait}		
-dlg:1928	text	rec:3710	149	{face:20111}{spk:03}トモミ「まだいたりしたら、うでによりをかけてタイホしてあげなさい！」{wait}		
-dlg:1929	text	rec:3711	149	{face:10011}{spk:14}ユウキ「いけ、ブランク！」		
+dlg:1914	text	rec:3688	149	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}ポリステカ「秘書のジェーンは、工場に送られました。{br}　ここにはだれもいません」{wait}	{face:10001}{face:20101}{face:30201}{face:01302}{spk:01}Polisteka: "Secretary Jane was sent to the factory. No one is here."{wait}	
+dlg:1915	text	rec:3689	149	{face:10002}{spk:02}ユウキ「ポリジェンヌは？」{wait}	{face:10002}{spk:02}Yuki: "What about the Polijenne?"{wait}	
+dlg:1916	text	rec:3690	149	{spk:01}ポリステカ「さい教育プログラム中です。{br}　やさしい婦警さんになってくれるといいんですが」{wait}	{spk:01}Polisteka: "In a reeducation program. I hope they become kind policewomen."{wait}	
+dlg:1917	text	rec:3692	149	{face:20101}{face:01302}{spk:01}ポリステカ「署長をおやめに？{br}　ポリステカ一同、トモミ署長のためなら、命までかける決意でしたのに」{wait}	{face:20101}{face:01302}{spk:01}Polisteka: "You're quitting as Chief? All of us Polisteka were ready to risk our lives for Chief Tomomi."{wait}	
+dlg:1918	text	rec:3693	149	{face:20107}{spk:03}トモミ「・・・やっぱり、ここの署長やろうかなあ♪」{wait}	{face:20107}{spk:03}Tomomi: "...Maybe I'll be Chief here after all!"{wait}	
+dlg:1919	text	rec:3695	149	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの　英雄一同！{br}　ありがとうございました」{wait}	{face:10001}{face:20101}{face:30201}{face:01202}{spk:01}Workteka: "Ah, the heroes of the Marmalade Revolution! Thank you so much."{wait}	
+dlg:1920	text	rec:3696	149	{face:30203}{spk:04}ギリガン「・・・バレンシア通りの電信柱、全部おったのだれか、知っているか？」{wait}	{face:30203}{spk:04}Gilligan: "...Do ya know who knocked down every telephone pole on Valencia Street?"{wait}	
+dlg:1921	text	rec:3697	149	{spk:01}ワークテカ「ひどいやつがいますねえ。{br}　だれです」{wait}	{spk:01}Workteka: "What a horrible person. Who?"{wait}	
+dlg:1922	text	rec:3698	149	{face:30207}{spk:04}ギリガン「て・め・え・だ！」{wait}	{face:30207}{spk:04}Gilligan: "Y-O-U!"{wait}	
+dlg:1923	text	rec:3701	149	{face:10001}{face:30201}{face:20112}{spk:03}トモミ「ジェーン、秘書テカから普通のマーケテカに改造されるらしいわ」{wait}	{face:10001}{face:30201}{face:20112}{spk:03}Tomomi: "I hear Jane is being converted from a secretary Teka into an ordinary Marketeka."{wait}	
+dlg:1924	text	rec:3702	149	{face:30210}{spk:04}ギリガン「そりゃあいい。{br}　平和な暮らしが待ってるだろうぜ」{wait}	{face:30210}{spk:04}Gilligan: "Good. A peaceful life is waiting for her."{wait}	
+dlg:1925	text	rec:3703	149	{face:10010}{spk:02}ユウキ「僕たちも、はやく博士をつかまえて平和な暮らしをしよう。{br}　さあ、出撃だ！」{wait}	{face:10010}{spk:02}Yuki: "Let's catch the Doctor fast and have peaceful lives too. Now, sortie!"{wait}	
+dlg:1926	text	rec:3708	149	通信「海岸上空２００メートルです・・・{br}　見えます見えます、沖にでっかい船が」{wait}	Radio: "200 meters above the coast... I see it, I see it, a huge ship offshore."{wait}	
+dlg:1927	text	rec:3709	149	{face:10009}{face:20101}{face:30201}{spk:02}ユウキ「もぬけのから、かもしれないけど」{wait}	{face:10009}{face:20101}{face:30201}{spk:02}Yuki: "It may be empty, though."{wait}	
+dlg:1928	text	rec:3710	149	{face:20111}{spk:03}トモミ「まだいたりしたら、うでによりをかけてタイホしてあげなさい！」{wait}	{face:20111}{spk:03}Tomomi: "If he's still there, put your all into arresting him!"{wait}	
+dlg:1929	text	rec:3711	149	{face:10011}{spk:14}ユウキ「いけ、ブランク！」	{face:10011}{spk:14}Yuki: "Go, Blank!"	
 dlg:1930	text	rec:3712	149	通信「コンファー！」{wait}	Radio: "Confirm!"{wait}	
-dlg:1931	text	rec:3715	149	{face:10006}{spk:02}ユウキ「くそっ、にがすもんか、{br}　もう一度！」{wait}		
-dlg:1932	text	rec:3719	149	{face:01302}{spk:01}ポリステカ「男女さべつのない、正しい町にしていこうと思っています」{wait}		
-dlg:1933	text	rec:3721	149	{face:20101}{face:01302}{spk:01}ポリステカ「われら男性型ポリステカ一同、トモミ署長のためなら命もかける決意でしたのに」{wait}		
-dlg:1934	text	rec:3722	149	{face:20104}{spk:03}トモミ「・・・やっぱり、ここの署長やるべきかしら・・・？」{wait}		
-dlg:1935	text	rec:3724	149	{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの英雄一同！」{wait}		
-dlg:1936	text	rec:3727	149	{face:20101}{face:30201}{face:10011}{spk:14}ユウキ「さあ、今度はにがさないぞ」{wait}		
-dlg:1937	text	rec:3728	149	{face:20111}{spk:03}トモミ「ブランク、行きましょう！」{wait}		
-dlg:1938	text	rec:3736	149	　マーマレード海にうかぶ船{wait}		
-dlg:1939	text	rec:3737	149	{face:00301}{face:10001}{face:30201}{face:20115}{spk:03}トモミ「だれも乗ってない・・・{br}　船をすててにげたみたいね」{wait}		
-dlg:1940	text	rec:3738	149	{face:10007}{spk:02}ユウキ「外から追ってたらけっきょくにげられる―――{br}　内部に手をのばさないと」{wait}		
-dlg:1941	text	rec:3739	149	{face:20105}{spk:03}トモミ「ブランク、{br}　今度はあんたがうら切ってせんにゅうしなさいよ♪」{wait}		
-dlg:1942	text	rec:3740	149	{face:00303}{spk:01}ブランク「やです」{wait}		
-dlg:1943	text	rec:3741	149	{face:20115}{spk:03}トモミ「ゆうづうのきかない子ね」{wait}		
-dlg:1944	text	rec:3742	149	{face:10012}{spk:02}ユウキ「敵の中から、だれかにげだしてくれれば助かるんだけど―――」{wait}		
+dlg:1931	text	rec:3715	149	{face:10006}{spk:02}ユウキ「くそっ、にがすもんか、{br}　もう一度！」{wait}	{face:10006}{spk:02}Yuki: "Damn, he won't get away! Once more!"{wait}	
+dlg:1932	text	rec:3719	149	{face:01302}{spk:01}ポリステカ「男女さべつのない、正しい町にしていこうと思っています」{wait}	{face:01302}{spk:01}Polisteka: "We intend to make this a fair town without discrimination between men and women."{wait}	
+dlg:1933	text	rec:3721	149	{face:20101}{face:01302}{spk:01}ポリステカ「われら男性型ポリステカ一同、トモミ署長のためなら命もかける決意でしたのに」{wait}	{face:20101}{face:01302}{spk:01}Polisteka: "All of us male Polisteka were ready to risk our lives for Chief Tomomi."{wait}	
+dlg:1934	text	rec:3722	149	{face:20104}{spk:03}トモミ「・・・やっぱり、ここの署長やるべきかしら・・・？」{wait}	{face:20104}{spk:03}Tomomi: "...Maybe I should be Chief here after all...?"{wait}	
+dlg:1935	text	rec:3724	149	{face:01202}{spk:01}ワークテカ「あ、マーマレードかくめいの英雄一同！」{wait}	{face:01202}{spk:01}Workteka: "Ah, the heroes of the Marmalade Revolution!"{wait}	
+dlg:1936	text	rec:3727	149	{face:20101}{face:30201}{face:10011}{spk:14}ユウキ「さあ、今度はにがさないぞ」{wait}	{face:20101}{face:30201}{face:10011}{spk:14}Yuki: "Now, he won't get away this time."{wait}	
+dlg:1937	text	rec:3728	149	{face:20111}{spk:03}トモミ「ブランク、行きましょう！」{wait}	{face:20111}{spk:03}Tomomi: "Blank, let's go!"{wait}	
+dlg:1938	text	rec:3736	149	　マーマレード海にうかぶ船{wait}	A Ship on the Marmalade Sea{wait}	
+dlg:1939	text	rec:3737	149	{face:00301}{face:10001}{face:30201}{face:20115}{spk:03}トモミ「だれも乗ってない・・・{br}　船をすててにげたみたいね」{wait}	{face:00301}{face:10001}{face:30201}{face:20115}{spk:03}Tomomi: "Nobody aboard... Looks like he abandoned ship and fled."{wait}	
+dlg:1940	text	rec:3738	149	{face:10007}{spk:02}ユウキ「外から追ってたらけっきょくにげられる―――{br}　内部に手をのばさないと」{wait}	{face:10007}{spk:02}Yuki: "Chasing from outside, he'll always get away-- We have to reach inside."{wait}	
+dlg:1941	text	rec:3739	149	{face:20105}{spk:03}トモミ「ブランク、{br}　今度はあんたがうら切ってせんにゅうしなさいよ♪」{wait}	{face:20105}{spk:03}Tomomi: "Blank, this time you turn traitor and sneak in!"{wait}	
+dlg:1942	text	rec:3740	149	{face:00303}{spk:01}ブランク「やです」{wait}	{face:00303}{spk:01}Blank: "No thanks."{wait}	
+dlg:1943	text	rec:3741	149	{face:20115}{spk:03}トモミ「ゆうづうのきかない子ね」{wait}	{face:20115}{spk:03}Tomomi: "What an inflexible kid."{wait}	
+dlg:1944	text	rec:3742	149	{face:10012}{spk:02}ユウキ「敵の中から、だれかにげだしてくれれば助かるんだけど―――」{wait}	{face:10012}{spk:02}Yuki: "It'd help if someone on the enemy side ran away to us--"{wait}	
