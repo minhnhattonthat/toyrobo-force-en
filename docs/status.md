@@ -2,9 +2,27 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator: in progress (build e3c66762; text coverage 3715/3722 + 5 waived, 2 left;
-  visual-QA gate must be re-run (build changed since e43b2203); G12 in game still open).
-- **Latest session (build sha1 e3c66762):** factory/save coverage + fixes.
+- **Phase:** 8. QA in the emulator: in progress (build e3c66762, reproducible; text coverage exit 0; visual-QA
+  gate exit 0; only G12 in game left).
+- **Latest session (build sha1 e3c66762, unchanged):** coverage + visual gate closed on the final build.
+  Credits "And"/"In": they belong to a second, 7-state cast card (handler 0x08001FB4, mode struct+0x1F0D == 0) that
+  the script never selects: op 14 3 (record 4794, the only one) is followed by op 41 (mode 1 = the staff roll
+  0x08000764); op 42 (mode 0) is only record 0 (details `docs/re/script.md` §Credits rolls). New
+  `tools/debug/credmode.lua` logs which roll/state runs; `--var MODE0=1` forces the mode-0 card at REC=4794: both
+  render and fit (`work/qa/credits_andin.png`), run `work/qa/cover/extra_credits_mode0` counts in the report.
+  Re-ran `cover.py sweep` + `tour` on e3c66762: `cover.py report` 3717/3722 shown + 5 waived, **exit 0**.
+  New tour scenes in `scenes.gba.txt`: `factory_parts` (assembly slots), `factory_sell`, `factory_sortie`,
+  `save_done` ("Saved to the log."). Full re-tour `work/qa/tour_en` 103/103, `tour_sheets.py`, `qa_gate.py init
+  --build`, codex chunks `work/qa/verdicts/chunk_000-003.tsv` + `p8c_rest.tsv`: 114/114 ok, **check exit 0**.
+  G12 attempt: `work/states/battle01_en.mss` (battle01 at f2400 = already lost; states every 100 f in
+  `work/qa/b01/s00NNNN.mss`, battle starts ~f1500). Battle01 is a top-down shooter: HUD left top/bottom numbers =
+  ammo of the two weapons (300/200), red bar = life; the robot dies ~f2150 with no input. Freezing 0x030051E4/E8/EC
+  (u16, fell 44944->36944 / 44832->28832 while the bar fell) did NOT stop the loss: not the life. Play session
+  `work/play/b01` (play.py, from s001500). **Next:** G12 in game: find the life (ramsearch over
+  `work/qa/b01snap/ram_*.bin` with `=`/`same` steps between hits, or the code that branches to the loss handler
+  0x0801394C) for a god mode, then shoot a Teka to an arrest (タイホ! stamp) and reach the Teka report page; zoomed
+  shot of every G12 label. A rebuild after any G12 fix needs the tour + sheets + gate again. Then phase 9.
+- **Session before (build sha1 e3c66762):** factory/save coverage + fixes.
   Fixed: part-detail window overflow ("%d-Shot Burst" made line 2 sixteen cells -> 4th line overwrote the window's
   blank tile, garbage over the whole box): "%d-Shot", "Maint. per Life: %d" (D13, `tests/test_partdet.py`,
   glossary メンテ also "maint."). Graphics leftovers found in game and redrawn (gfx.py): G15c `factory_sell`

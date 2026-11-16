@@ -44,6 +44,12 @@ save_confirm  | 77 | 1100 | 3002675=01 | 500 -;6 start;300 -;6 a;200 -
 factory       | 80 | 700 | 3002675=01 | 300 -;6 a;300 -
 factory_maint | 80 | 900 | 3002675=01 | 300 -;6 a;150 -;6 a;300 -
 factory_info  | 80 | 1100 | 3002675=01 | 300 -;6 a;450 -;6 r;300 -
+# factory icons with spare parts (money 99999 + 5 of parts 0x3002597-0x30025AE, as cover.py extra_descs/_parts):
+# 2nd icon = assemble (part list + detail window), 4th = sell, 5th = sortie (Remove/Add/Done)
+factory_parts  | 80 | 1400 | 3002675=01,300255C=0001869F,3002597=05,3002598=05,3002599=05,300259a=05,300259b=05,300259c=05,300259d=05,300259e=05,300259f=05,30025a0=05 | 300 -;6 right;80 -;6 a;90 -;6 a;60 -;6 a;150 -;6 a;150 -;6 a;300 -
+factory_sell   | 80 | 900 | 3002675=01,300255C=0001869F,3002597=05,3002598=05,3002599=05,300259a=05,300259b=05,300259c=05,300259d=05,300259e=05,300259f=05,30025a0=05 | 300 -;6 right;64 -;6 right;64 -;6 right;64 -;6 a;300 -
+factory_sortie | 80 | 900 | 3002675=01,300255C=0001869F,3002597=05,3002598=05,3002599=05,300259a=05,300259b=05,300259c=05,300259d=05,300259e=05,300259f=05,30025a0=05 | 300 -;6 right;64 -;6 right;64 -;6 right;64 -;6 right;64 -;6 a;300 -
+save_done      | 77 | 1500 | 3002675=01 | 500 -;6 start;300 -;6 a;200 -;6 a;300 -;6 a;200 -;6 a;200 -
 # records 1124... are the op 38 N records themselves (menu at once)
 facility1      | 1124 | 500
 facility1_info | 1124 | 800 | | 400 -;6 r;300 -
