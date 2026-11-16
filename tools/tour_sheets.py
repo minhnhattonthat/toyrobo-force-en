@@ -35,7 +35,7 @@ def main():
     titles = title_scenes()
     n = 0
     for d in sorted(p for p in Path(a.tour).iterdir() if p.is_dir()):
-        if only and d.name not in only:
+        if (only and d.name not in only) or not any(d.glob("f0*.png")):  # skip non-scene dirs (finals/)
             continue
         for old in d.glob("sheet*.png"):
             old.unlink()
