@@ -108,6 +108,13 @@ GROUPS = {
     # Rows are speakers (Blank, Tomomi, Gilligan; ink 11 / 13 / 12 on fill 1), columns win / loss / loss. Two
     # left-aligned lines at the original's text rows (24-35, 39-50 of a balloon); filled in below.
     "balloon": dict(lz=0x2BC310, at=0, tiles=768, cols=32, pal=("gfx/pal/balloon.pal.bin", 0), labels=[]),
+    # Issue #1: the タイホ! burst that pops up on an arrest in battle (OBJ, 2D mapping): LZ block 0x1179D4 is the battle
+    # sprite sheet (16 KB to OBJ VRAM 0x10000, 32 tiles wide), the burst is tiles 0x188-0x18B / 0x1A8-0x1AB (x 64-95,
+    # y 96-111): white F letters on black E inside orange 2/1 spikes. "Bust!" as on the Teka report stamp (G12);
+    # only the letter band x 67-91 y 99-107 is redrawn, so the spikes stay.
+    "arrest": dict(lz=0x1179D4, at=0, tiles=512, cols=32, pal=None, labels=[
+        ((67, 99, 25, 9), "Bust!", 0xE, 0xF, None, 1, dict(prop=True)),
+    ]),
     # G15 workshop menu buttons (factory and facility1-5): BG1 palette 0, raw tiles; grid from
     # `gfx_grid.py <factory dump> --bg 1 --rect 4,84,72,62`: map cells 3-8 of rows 2-7 (cell 3 is the button's
     # right half for A/B; for R it holds the start of じ). Fill F, ink B, text rows 4-12 / 20-28 / 36-44.
@@ -152,6 +159,58 @@ GROUPS = {
     ], labels=[((8, 2, 24, 13), "Done", 15, 11, None, 1, dict(prop=True, left=True)),
                ((32, 0, 8, 8), "", 15, 11, None, 1, dict(prop=True, left=True))]),  # the ゛ of おわる
 }
+
+# Issue #1: battle pause panel (START in battle; BG0, right-hand panel) 再開 / 交代 / にげる and its flee prompt
+# にげる。 / にげない / にげる. BG0 chars are the raw run at 0x13D844 (tile t at 0x13D844 + t*32, literal 0x16500); the
+# panels are 10x10 maps (u16 w, h + entries) from the table at 0x3F4680: 0x2B4074 pause, 0x2B4140 prompt (and the
+# 11x11 switch panel 0x2B420C, whose row 8 shows F6-F8). Fill F (tile DF), ink B. The words had 3/3/4 cells and
+# 再開/にげる shared their tiles with にげない, so the words are re-tiled over D0-DE / F0-FE (DE/FE were blank,
+# unused) and both maps rewritten (PAUSE_MAPS): Resume 5 cells, Switch 4, Flee 3, Stay 3, matching the tutorial's
+# 'Resume' / 'Switch' / 'Flee' (dlg:0043-0044). The prompt's header is the Flee tiles (its 。 is dropped: a period
+# would need its own cell 3 px after the word).
+PAUSE_CHR = 0x13D844
+
+
+def _pt(t):
+    return PAUSE_CHR + t * 32
+
+
+GROUPS["pause"] = dict(pal=("gfx/pal/pause.pal.bin", 0), grid=[
+    [_pt(0xD0), _pt(0xD1), _pt(0xD2), _pt(0xD3), _pt(0xD4)],
+    [_pt(0xF0), _pt(0xF1), _pt(0xF2), _pt(0xF3), _pt(0xF4)],
+    [_pt(0xD5), _pt(0xDA), _pt(0xDB), _pt(0xDC), None],
+    [_pt(0xF5), _pt(0xFA), _pt(0xFB), _pt(0xFC), None],
+    [_pt(0xD6), _pt(0xD7), _pt(0xD8), None, None],
+    [_pt(0xF6), _pt(0xF7), _pt(0xF8), None, None],
+    [_pt(0xD9), _pt(0xDD), _pt(0xDE), None, None],
+    [_pt(0xF9), _pt(0xFD), _pt(0xFE), None, None],
+], labels=[
+    ((0, 0, 40, 16), "Resume", 15, 11, None, 1, dict(prop=True, left=True)),
+    ((0, 16, 32, 16), "Switch", 15, 11, None, 1, dict(prop=True, left=True)),
+    ((0, 32, 24, 16), "Flee", 15, 11, None, 1, dict(prop=True, left=True)),
+    ((0, 48, 24, 16), "Stay", 15, 11, None, 1, dict(prop=True, left=True)),
+])
+_F = 0xDF  # the panel's fill tile
+
+
+def _prow(*ts):
+    return struct.pack("<10H", 0x58, *ts, 0x59)
+
+
+PAUSE_MAPS = [  # (map row offset, original 8 interior cells, new ones)
+    (0x2B4074 + 4 + 2 * 20, (_F, _F, _F, 0xD0, 0xD1, 0xD2, _F, _F), (_F, _F, _F, 0xD0, 0xD1, 0xD2, 0xD3, 0xD4)),
+    (0x2B4074 + 4 + 3 * 20, (_F, _F, _F, 0xF0, 0xF1, 0xF2, _F, _F), (_F, _F, _F, 0xF0, 0xF1, 0xF2, 0xF3, 0xF4)),
+    (0x2B4074 + 4 + 4 * 20, (_F, _F, _F, 0xD3, 0xD4, 0xD5, _F, _F), (_F, _F, _F, 0xD5, 0xDA, 0xDB, 0xDC, _F)),
+    (0x2B4074 + 4 + 5 * 20, (_F, _F, _F, 0xF3, 0xF4, 0xF5, _F, _F), (_F, _F, _F, 0xF5, 0xFA, 0xFB, 0xFC, _F)),
+    (0x2B4074 + 4 + 6 * 20, (_F, _F, _F, 0xD6, 0xD7, 0xD8, 0xD9, _F), (_F, _F, _F, 0xD6, 0xD7, 0xD8, _F, _F)),
+    (0x2B4074 + 4 + 7 * 20, (_F, _F, _F, 0xF6, 0xF7, 0xF8, 0xF9, _F), (_F, _F, _F, 0xF6, 0xF7, 0xF8, _F, _F)),
+    (0x2B4140 + 4 + 1 * 20, (0xD6, 0xD7, 0xD8, 0xD9, _F, _F, _F, _F), (0xD6, 0xD7, 0xD8, _F, _F, _F, _F, _F)),
+    (0x2B4140 + 4 + 2 * 20, (0xF6, 0xF7, 0xF8, 0xF9, 0xFF, _F, _F, _F), (0xF6, 0xF7, 0xF8, _F, _F, _F, _F, _F)),
+    (0x2B4140 + 4 + 4 * 20, (_F, _F, 0xD6, 0xD7, 0xDA, 0xDB, 0xDC, 0xDD), (_F, _F, 0xD9, 0xDD, 0xDE, _F, _F, _F)),
+    (0x2B4140 + 4 + 5 * 20, (_F, _F, 0xF6, 0xF7, 0xFA, 0xFB, 0xFC, 0xFD), (_F, _F, 0xF9, 0xFD, 0xFE, _F, _F, _F)),
+    (0x2B4140 + 4 + 6 * 20, (_F, _F, 0xD6, 0xD7, 0xD8, 0xD9, _F, _F), (_F, _F, 0xD6, 0xD7, 0xD8, _F, _F, _F)),
+    (0x2B4140 + 4 + 7 * 20, (_F, _F, 0xF6, 0xF7, 0xF8, 0xF9, _F, _F), (_F, _F, 0xF6, 0xF7, 0xF8, _F, _F, _F)),
+]
 
 
 BALLOONS_EN = [  # (column, row, ink, line 1, line 2)
@@ -232,6 +291,7 @@ OAM_PATCHES = [
      struct.pack("<20H", 0x4010, 0xC198, 0x1318, 0, 0x4010, 0xC1D8, 0x1358, 0, *_C, *_C, *_C),
      "title credit line: 3 sprites 64x32 (the last one repeated in the spare records)"),
 ]
+OAM_PATCHES += [(_off, _prow(*_old), _prow(*_new), f"pause panel map row {_off:06X}") for _off, _old, _new in PAUSE_MAPS]
 
 
 def _grid(g):
