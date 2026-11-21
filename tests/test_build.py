@@ -56,6 +56,26 @@ class BuildTest(unittest.TestCase):
                if not any(lo <= off and off + len(o) <= hi for lo, hi in allowed)]
         self.assertEqual(bad, [])
 
+    def test_pause_panel(self):
+        """Issue #1: the battle pause panel and flee prompt maps point only at redrawn word tiles or the fill tile,
+        and the fill tile itself is untouched."""
+        drawn = {(c - gfx.PAUSE_CHR) // 32 for row in gfx.GROUPS["pause"]["grid"] for c in row if c is not None}
+        fill = gfx._pt(0xDF)
+        self.assertEqual(self.new[fill:fill + 32], self.orig[fill:fill + 32])
+        for off, _, new in gfx.PAUSE_MAPS:
+            self.assertEqual(self.new[off:off + 20], gfx._prow(*new))
+            self.assertLessEqual(set(new) - {0xDF}, drawn)
+        for t in drawn:  # every word tile was redrawn (no kana left)
+            self.assertNotEqual(self.new[gfx._pt(t):gfx._pt(t) + 32], self.orig[gfx._pt(t):gfx._pt(t) + 32],
+                                f"tile {t:02X}")
+
+    def test_arrest_burst(self):
+        """Issue #1: the in-battle タイホ! burst (LZ 0x1179D4, tiles 0x189-0x18A / 0x1A9-0x1AA) is redrawn."""
+        import gbacomp
+        old, new = gbacomp.decompress(self.orig, 0x1179D4)[0], gbacomp.decompress(self.new, 0x1179D4)[0]
+        for t in (0x189, 0x18A, 0x1A9, 0x1AA):
+            self.assertNotEqual(old[t * 32:t * 32 + 32], new[t * 32:t * 32 + 32], f"tile {t:03X}")
+
     def test_relocated_strings(self):
         self.assertTrue(self.enc.moved, "nothing relocated: the credits and D12 labels need it")
         words = {}
