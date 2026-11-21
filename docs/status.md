@@ -2,17 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Released: v1.0 published on GitHub (repo made public) at the owner's request, build a3107192 ->
-  `release/Toyrobo_Force_EN_v1.0.zip` (Toyrobo_Force_EN_v1.0.bps 382981 bytes, SHA-1 c129ef2c..., + README.txt;
-  base CRC32 227FC16B, result CRC32 16805835).
-- **Latest session (issue #1, build sha1 828096c3, unreleased; PR pending):** two graphics the phase 1 survey missed,
+- **Phase:** 9. Released: v1.1 published on GitHub at the owner's request, build 828096c3 ->
+  `release/Toy_Robo_Force_EN_v1.1.zip` (Toy_Robo_Force_EN_v1.1.bps 385970 bytes, SHA-1 310ab83e..., + README.txt;
+  base CRC32 227FC16B, result CRC32 79E13BB2). v1.0 (build a3107192, result CRC32 16805835) is the previous release.
+- **Latest session (v1.1 release):** PR #2 merged (closes #1). Tour waived for hotfix build 828096c3 (reason in
+  `work/qa/manifest.tsv.waive`): `warp_all` 103/103 on the build plus the issue-1 1x checks. `warp_all.py` now passes
+  `SCENES=[[abs path]]` to warp.lua: emu.py no longer runs Mesen from `tools/mesen/`, so warp.lua's relative default
+  `../debug/scenes.gba.txt` failed every scene. `cover.py` still relies on that default (pass `--var SCENES=...`
+  or fix it the same way before its next use).
+- **Session before (issue #1, build sha1 828096c3):** two graphics the phase 1 survey missed,
   both still Japanese in v1.0. (1) Battle pause panel (START in battle) 再開/交代/にげる and its flee prompt
   にげる。/にげない/にげる: BG0 raw chars at 0x13D844, panel maps 0x2B4074 / 0x2B4140 (table 0x3F4680); re-tiled as
   Resume / Switch / Flee and Flee / Stay / Flee (gfx.py group `pause` + `PAUSE_MAPS`; G20 in docs/re/graphics.md).
   (2) The タイホ! burst that pops up on an arrest: OBJ sheet LZ 0x1179D4 tiles 0x188-0x18B/0x1A8-0x1AB, now "Bust!"
   (group `arrest`, G21). Seen: pause + prompt in game (warp battle01 + START, `work/issue1/p2`, `p3`), the burst in
   the battle's OBJ VRAM (`work/issue1/burst_vram.png`; a real arrest is still not reachable). Tests
-  `test_pause_panel`, `test_arrest_burst`. Next release should be v1.1 with this.
+  `test_pause_panel`, `test_arrest_burst`. Shipped in v1.1.
 - **Session before (no build change):** project renamed "Toy Robo Force" (D14): GitHub description, README,
   release README, release zip stem `Toy_Robo_Force_EN_v*`, doc titles. The mtl site's cover-bot then matched IGDB
   54896 (score 1) and committed `docs/cover.jpg` (Japanese GBA box, checked).

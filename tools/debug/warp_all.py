@@ -39,7 +39,9 @@ def run(rom, out, name, hold, states):
     d = os.path.join(out, name)
     cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"), rom, "--out", d,
            "--frames", str(BOOT + hold), "--shot-every", "100", "--smoke", "--timeout", "900",
-           "--script", WARP, "--var", f"SCENE='{name}'", *EXTRA]
+           "--script", WARP, "--var", f"SCENE='{name}'",
+           # absolute: warp.lua's default list path is relative to the emulator's cwd, which emu.py no longer pins
+           "--var", "SCENES=[[" + SCENES.replace("\\", "/") + "]]", *EXTRA]
     if states:
         cmd += ["--state-out", os.path.join(REPO, "work", "states", name + ".mss")]
     with open(d + ".out", "w", encoding="utf-8") as log:
