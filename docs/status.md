@@ -8,8 +8,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Latest session (v1.1 release):** PR #2 merged (closes #1). Tour waived for hotfix build 828096c3 (reason in
   `work/qa/manifest.tsv.waive`): `warp_all` 103/103 on the build plus the issue-1 1x checks. `warp_all.py` now passes
   `SCENES=[[abs path]]` to warp.lua: emu.py no longer runs Mesen from `tools/mesen/`, so warp.lua's relative default
-  `../debug/scenes.gba.txt` failed every scene. `cover.py` still relies on that default (pass `--var SCENES=...`
-  or fix it the same way before its next use).
+  `../debug/scenes.gba.txt` failed every scene. `cover.py extra` now does the same (checked: `extra factory` warps,
+  coverage still 3717/3722); hand runs of warp.lua with `SCENE=` need `--var "SCENES=[[<abs path>]]"`. Replied on #1.
 - **Session before (issue #1, build sha1 828096c3):** two graphics the phase 1 survey missed,
   both still Japanese in v1.0. (1) Battle pause panel (START in battle) 再開/交代/にげる and its flee prompt
   にげる。/にげない/にげる: BG0 raw chars at 0x13D844, panel maps 0x2B4074 / 0x2B4140 (table 0x3F4680); re-tiled as

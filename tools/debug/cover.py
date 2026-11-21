@@ -88,7 +88,9 @@ def extra(a):
     d = os.path.join(OUT, f"extra_{a.name}")
     shutil.rmtree(d, ignore_errors=True)
     cmd = [sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts", "emu.py"), a.rom, "--out", d,
-           "--shot-every", "100", "--timeout", "3000", "--script", os.path.join(DEBUG, "warp.lua"), *a.emu,
+           "--shot-every", "100", "--timeout", "3000", "--script", os.path.join(DEBUG, "warp.lua"),
+           # absolute: warp.lua's default list path is relative to the emulator's cwd, which emu.py no longer pins
+           "--var", "SCENES=[[" + os.path.join(DEBUG, "scenes.gba.txt").replace("\\", "/") + "]]", *a.emu,
            "--script", PROBE, "--var", f"RANGES='{strmap.ranges(STRINGS)}'"]
     return subprocess.call(cmd)
 

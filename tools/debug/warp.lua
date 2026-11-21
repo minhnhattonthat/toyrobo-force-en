@@ -30,7 +30,8 @@ local scene
 if REC then
   scene = { rec = REC, pokes = "", keys = "", flags = "" }
 else
-  -- Mesen's working folder is tools/mesen, so the default path is relative to it.
+  -- The default path is relative to Mesen's working folder (once tools/mesen, now emu.py's per-run folder, so it
+  -- no longer resolves): warp_all.py and cover.py pass SCENES=[[absolute path]]; hand runs should too.
   local scenes = load_scenes(SCENES or "../debug/scenes.gba.txt")
   scene = scenes[SCENE or ""]
   if not scene then error("unknown SCENE " .. tostring(SCENE) .. " (see tools/debug/scenes.gba.txt)") end
